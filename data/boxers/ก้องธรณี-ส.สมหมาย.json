@@ -1,254 +1,266 @@
 {
-    "fighter_profile": {
-        "name_th": "ก้องธรณี ส.สมหมาย",
-        "name_en": "Kongthoranee Sor.Sommai",
-        "alias": "ยังไม่มีข้อมูล",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531949/%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%98%E0%B8%A3%E0%B8%93%E0%B8%B5-%E0%B8%AA.%E0%B8%AA%E0%B8%A1%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2_zp1vxt.jpg",
-        "grade": "B+",
-        "fighting_style_th": "มวยฝีมือ",
-        "fighting_style_en": "Muay Fimeu / Technical Fighter",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 134.7,
-            "weight_kg": 61.1,
-            "division": "Flyweight",
-            "height_ft": "5'6\"",
-            "height_cm": 170,
-            "reach_cm": "",
-            "leg_reach_cm": "ยังไม่มีข้อมูล"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": 2,
-                "body": 1,
-                "legs": 1,
-                "total_per_minute": 13
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": 42,
-                "accuracy_by_target_percentage": {
-                    "head": 46,
-                    "body": 31,
-                    "legs": 23
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": 38,
-                "defense_by_target_percentage": {
-                    "head": 40,
-                    "body": 27,
-                    "legs": 32
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 29,
-            "team_th": "ส.สมหมาย",
-            "team_en": "Sor.Sommai"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/kongthoranee-sor-sommai/"
-        ],
-        "short_biography": "ก้องธรณี ส.สมหมาย (Kongthoranee Sor.Sommai) เป็นนักชกชาวไทย วัย 29 ปี จากสังกัดส.สมหมาย มีความถนัดในการต่อสู้สไตล์มวยฝีมือ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 61.1 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา สามารถพ่ายแพ้ให้กับ อัสซาดูลาห์ อิมานกาซาลิเอฟ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  "fighter_profile": {
+    "name_th": "ก้องธรณี ส.สมหมาย",
+    "name_en": "Kongthoranee Sor.Sommai",
+    "alias": "ยังไม่มีข้อมูล",
+    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531949/%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%98%E0%B8%A3%E0%B8%93%E0%B8%B5-%E0%B8%AA.%E0%B8%AA%E0%B8%A1%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2_zp1vxt.jpg",
+    "grade": "B+",
+    "fighting_style_th": "มวยฝีมือ",
+    "fighting_style_en": "Muay Fimeu / Technical Fighter",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": 134.7,
+      "weight_kg": 61.1,
+      "division": "Flyweight",
+      "height_ft": "5'6\"",
+      "height_cm": 170,
+      "reach_cm": "",
+      "leg_reach_cm": "ยังไม่มีข้อมูล"
     },
-    "fight_history": [
-        
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "อัสลามจอน ออร์ติคอฟ",
-            "opponent_en": "",
-            "opponent_country": "อุซเบกิสถาน",
-            "date": "Oct 04, 2025",
-            "rating": 5,
-            "event_en": "ONE Fight Night 36: พระจันทร์ฉาย vs โจนาธาน II"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "น้องโอ๋ ฮาม่ามวยไทย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "May 03, 2025",
-            "rating": 5,
-            "event_en": "ONE Fight Night 31: ก้องธรณี vs น้องโอ๋ II"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "น้องโอ๋ ฮาม่ามวยไทย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Feb 08, 2025",
-            "rating": 5,
-            "event_en": "ONE Fight Night 28: พระจันทร์ฉาย vs เอลลิส"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "นักรบ แฟร์เท็กซ์",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Dec 07, 2024",
-            "rating": 5,
-            "event_en": "ONE Fight Night 26: คริสเตียน vs อาลิเบก"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ทาเกียร์ คาลิลอฟ",
-            "opponent_en": "",
-            "opponent_country": "รัสเซีย/อาเซอร์ไบจาน",
-            "date": "Nov 08, 2024",
-            "rating": 5,
-            "event_en": "ONE 169: อนาโตลี vs รุง รุง"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ซุปเปอร์เล็ก ซุปเปอร์เล็กมวยไทย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jun 28, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 68: พระจันทร์ฉาย vs โจนาธาน"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "จ้าวเสือใหญ่ ม.กรุงเทพธนบุรี",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Apr 05, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 58: ซุปเปอร์บอน vs มารัต"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ชารีฟ มาซอริเอฟ",
-            "opponent_en": "",
-            "opponent_country": "รัสเซีย",
-            "date": "Jan 19, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 48"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 3,
-            "time": "1:07",
-            "opponent_th": "พาร์ซา อามินปัวร์",
-            "opponent_en": "",
-            "opponent_country": "อิหร่าน",
-            "date": "Dec 01, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 43"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ทาอิกิ นาอิโตะ",
-            "opponent_en": "",
-            "opponent_country": "ญี่ปุ่น",
-            "date": "Oct 20, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 37"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "แชร์ซอด คาบูทอฟ",
-            "opponent_en": "",
-            "opponent_country": "คีร์กีซสถาน",
-            "date": "Sep 01, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 31"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "0:28",
-            "opponent_th": "กิ่งซางเล็ก ว.คำชำนาญ",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jun 23, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 22"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Majority Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "อีที วันของโอม MBK",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "May 12, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 16"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เพชรสุขุมวิท ต้อมทุ่งใหญ่",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Apr 07, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 12"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:02",
-            "opponent_th": "กิ่งซางเล็ก ว.คำชำนาญ",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Feb 24, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 6"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": 2,
+        "body": 1,
+        "legs": 1,
+        "total_per_minute": 13
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": 42,
+        "accuracy_by_target_percentage": {
+          "head": 46,
+          "body": 31,
+          "legs": 23
         }
-    ]
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": 38,
+        "defense_by_target_percentage": {
+          "head": 40,
+          "body": 27,
+          "legs": 32
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 29,
+      "team_th": "ส.สมหมาย",
+      "team_en": "Sor.Sommai"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/kongthoranee-sor-sommai/"
+    ],
+    "short_biography": "ก้องธรณี ส.สมหมาย (Kongthoranee Sor.Sommai) เป็นนักชกชาวไทย วัย 29 ปี จากสังกัดส.สมหมาย มีความถนัดในการต่อสู้สไตล์มวยฝีมือ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 61.1 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา สามารถพ่ายแพ้ให้กับ อัสซาดูลาห์ อิมานกาซาลิเอฟ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  },
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:06",
+      "opponent_th": "อัสซาดูลาห์ อิมานกาซาลิเอฟ",
+      "opponent_en": "",
+      "opponent_country": "รัสเซีย",
+      "date": "Jan 24, 2026",
+      "rating": 5,
+      "event_en": "ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "อัสลามจอน ออร์ติคอฟ",
+      "opponent_en": "",
+      "opponent_country": "อุซเบกิสถาน",
+      "date": "Oct 04, 2025",
+      "rating": 5,
+      "event_en": "ONE Fight Night 36: พระจันทร์ฉาย vs โจนาธาน II"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "น้องโอ๋ ฮาม่ามวยไทย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "May 03, 2025",
+      "rating": 5,
+      "event_en": "ONE Fight Night 31: ก้องธรณี vs น้องโอ๋ II"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "น้องโอ๋ ฮาม่ามวยไทย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Feb 08, 2025",
+      "rating": 5,
+      "event_en": "ONE Fight Night 28: พระจันทร์ฉาย vs เอลลิส"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "นักรบ แฟร์เท็กซ์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Dec 07, 2024",
+      "rating": 5,
+      "event_en": "ONE Fight Night 26: คริสเตียน vs อาลิเบก"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ทาเกียร์ คาลิลอฟ",
+      "opponent_en": "",
+      "opponent_country": "รัสเซีย/อาเซอร์ไบจาน",
+      "date": "Nov 08, 2024",
+      "rating": 5,
+      "event_en": "ONE 169: อนาโตลี vs รุง รุง"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ซุปเปอร์เล็ก ซุปเปอร์เล็กมวยไทย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jun 28, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 68: พระจันทร์ฉาย vs โจนาธาน"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "จ้าวเสือใหญ่ ม.กรุงเทพธนบุรี",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 05, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 58: ซุปเปอร์บอน vs มารัต"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ชารีฟ มาซอริเอฟ",
+      "opponent_en": "",
+      "opponent_country": "รัสเซีย",
+      "date": "Jan 19, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 48"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "1:07",
+      "opponent_th": "พาร์ซา อามินปัวร์",
+      "opponent_en": "",
+      "opponent_country": "อิหร่าน",
+      "date": "Dec 01, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 43"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ทาอิกิ นาอิโตะ",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Oct 20, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 37"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "แชร์ซอด คาบูทอฟ",
+      "opponent_en": "",
+      "opponent_country": "คีร์กีซสถาน",
+      "date": "Sep 01, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 31"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "0:28",
+      "opponent_th": "กิ่งซางเล็ก ว.คำชำนาญ",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jun 23, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 22"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Majority Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "อีที วันของโอม MBK",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "May 12, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 16"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เพชรสุขุมวิท ต้อมทุ่งใหญ่",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 07, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 12"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:02",
+      "opponent_th": "กิ่งซางเล็ก ว.คำชำนาญ",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Feb 24, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 6"
+    }
+  ]
 }

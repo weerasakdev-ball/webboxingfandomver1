@@ -1,102 +1,155 @@
 {
-    "fighter_profile": {
-        "name_th": "พญาครุฑ เสือจันถกมวยไทย",
-        "name_en": "Payakrut Suajantokmuaythai",
-        "alias": "ไม่ระบุ",
-        "image_url": "ไม่ระบุ",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 121.6,
-            "weight_kg": 55.16,
-            "division": "Strawweight",
-            "height_ft": "5'6\"",
-            "height_cm": 170,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ",
-            "hydration": "N/A"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 20,
-            "team_th": "Suajan Tok Ban Muay Thai",
-            "team_en": "Suajan Tok Ban Muay Thai"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/payakrut-suajantokmuaythai/"
-        ],
-        "short_biography": "พญาครุฑ เสือจันถกมวยไทย (Payakrut Suajantokmuaythai) เป็นนักชกชาวไทย วัย 20 ปี จากสังกัดทีม Suajan Tok Ban Muay Thai มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 170 เซนติเมตร (5'6\") มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
-        "target_url": ""
+  "fighter_profile": {
+    "name_th": "พญาครุฑ เสือจันถกมวยไทย",
+    "name_en": "Payakrut Suajantokmuaythai",
+    "alias": "ไม่ระบุ",
+    "image_url": "ไม่ระบุ",
+    "grade": "ไม่ระบุ",
+    "fighting_style_th": "มวยไทย",
+    "fighting_style_en": "Muay Thai",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": 121.6,
+      "weight_kg": 55.16,
+      "division": "Strawweight",
+      "height_ft": "5'6\"",
+      "height_cm": 170,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ",
+      "hydration": "N/A"
     },
-    "weigh_in_history": [
-        {
-            "event_name": "ONE LUMPINEE 149",
-            "weight_lbs": 121.6,
-            "division": "Strawweight"
-        }
+    "performance_stats": {
+      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+      "defensive_stats": "ยังไม่มีข้อมูล"
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 20,
+      "team_th": "Suajan Tok Ban Muay Thai",
+      "team_en": "Suajan Tok Ban Muay Thai"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/payakrut-suajantokmuaythai/"
     ],
-    "fight_history": [],
-    "fight_history_one_championship": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เพชรน้ำโขง ส.มณีโคตร",
-            "opponent_en": "Phetnamkhong Sor.Maneekhot",
-            "opponent_country": "ลาว/ไทย",
-            "date": "Feb 13, 2026",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 142"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Disqualification",
-            "round": 2,
-            "time": "ไม่ระบุ",
-            "opponent_th": "อับเดสซามี เรนิมี",
-            "opponent_en": "Abdessami Renimi",
-            "opponent_country": "โมร็อกโก",
-            "date": "Oct 10, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 128"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ก้องโพธิ์ชัย ลาวล้านช้าง",
-            "opponent_en": "Kongphochai Laoslanchang",
-            "opponent_country": "ลาว",
-            "date": "Sep 12, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 124"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "คาซาน ซาโลมอฟ",
-            "opponent_en": "Khasan Salomov",
-            "opponent_country": "อุซเบกิสถาน",
-            "date": "May 2, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 106"
-        }
-    ],
-    "upcoming_fights": []
+    "short_biography": "พญาครุฑ เสือจันถกมวยไทย (Payakrut Suajantokmuaythai) เป็นนักชกชาวไทย วัย 20 ปี จากสังกัดทีม Suajan Tok Ban Muay Thai มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 170 เซนติเมตร (5'6\") มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
+    "target_url": ""
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE LUMPINEE 149",
+      "weight_lbs": 121.6,
+      "division": "Strawweight"
+    }
+  ],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เพชรน้ำโขง ส.มณีโคตร",
+      "opponent_en": "",
+      "opponent_country": "ลาว",
+      "date": "Feb 13, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 142"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Decision",
+      "round": 2,
+      "time": "N/A",
+      "opponent_th": "อับเดสซามี เรนิมี",
+      "opponent_en": "",
+      "opponent_country": "โมร็อกโก",
+      "date": "Oct 10, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 128"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ก้องโพธิ์ชัย ลาวล้านช้าง",
+      "opponent_en": "",
+      "opponent_country": "ลาว",
+      "date": "Sep 12, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 124"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "คาซาน ซาโลมอฟ",
+      "opponent_en": "",
+      "opponent_country": "อุซเบกิสถาน",
+      "date": "May 02, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 106"
+    }
+  ],
+  "fight_history_one_championship": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เพชรน้ำโขง ส.มณีโคตร",
+      "opponent_en": "Phetnamkhong Sor.Maneekhot",
+      "opponent_country": "ลาว/ไทย",
+      "date": "Feb 13, 2026",
+      "rating": "ไม่ระบุ",
+      "event_en": "ONE Lumpinee 142"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Disqualification",
+      "round": 2,
+      "time": "ไม่ระบุ",
+      "opponent_th": "อับเดสซามี เรนิมี",
+      "opponent_en": "Abdessami Renimi",
+      "opponent_country": "โมร็อกโก",
+      "date": "Oct 10, 2025",
+      "rating": "ไม่ระบุ",
+      "event_en": "ONE Lumpinee 128"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ก้องโพธิ์ชัย ลาวล้านช้าง",
+      "opponent_en": "Kongphochai Laoslanchang",
+      "opponent_country": "ลาว",
+      "date": "Sep 12, 2025",
+      "rating": "ไม่ระบุ",
+      "event_en": "ONE Lumpinee 124"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "คาซาน ซาโลมอฟ",
+      "opponent_en": "Khasan Salomov",
+      "opponent_country": "อุซเบกิสถาน",
+      "date": "May 2, 2025",
+      "rating": "ไม่ระบุ",
+      "event_en": "ONE Lumpinee 106"
+    }
+  ],
+  "upcoming_fights": []
 }
