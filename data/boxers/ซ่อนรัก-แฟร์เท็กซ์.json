@@ -1,60 +1,4 @@
 {
-<<<<<<< HEAD
-    "fighter_profile": {
-        "name_th": "ซ่อนรัก แฟร์เท็กซ์",
-        "name_en": "Sonrak Fairtex",
-        "alias": "ไม่ระบุ",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773123007/%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81_sm5t9d.png",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "ไม่ระบุ",
-        "fighting_style_en": "ไม่ระบุ",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 138.0,
-            "weight_kg": 62.6,
-            "division": "Bantamweight",
-            "height_ft": "5'6\"",
-            "height_cm": 170,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": "ไม่ระบุ",
-                "body": "ไม่ระบุ",
-                "legs": "ไม่ระบุ",
-                "total_accuracy": "ไม่ระบุ"
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": "ไม่ระบุ",
-                "accuracy_by_target_percentage": {
-                    "head": "ไม่ระบุ",
-                    "body": "ไม่ระบุ",
-                    "legs": "ไม่ระบุ"
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": "ไม่ระบุ",
-                "distance_control_percentage": "ไม่ระบุ",
-                "defense_by_target_percentage": {
-                    "head": "ไม่ระบุ",
-                    "body": "ไม่ระบุ",
-                    "legs": "ไม่ระบุ"
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "เมียนมา",
-            "country_en": "Myanmar",
-            "age": 29,
-            "team_th": "แฟร์เท็กซ์ เทรนนิง เซ็นเตอร์",
-            "team_en": "Fairtex Training Center"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/sonrak-fairtex/"
-        ],
-        "short_biography": "ซ่อนรัก แฟร์เท็กซ์ (Sonrak Fairtex) เป็นนักชกชาวเมียนมา วัย 29 ปี จากสังกัดแฟร์เท็กซ์ เทรนนิง เซ็นเตอร์ มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 62.6 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 140 สามารถเอาชนะ บัวเขียว ป.เปาอินทร์ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
-=======
   "fighter_profile": {
     "name_th": "ซ่อนรัก แฟร์เท็กซ์",
     "name_en": "Sonrak Fairtex",
@@ -72,7 +16,6 @@
       "height_cm": 170,
       "reach_cm": "ไม่ระบุ",
       "leg_reach_cm": "ไม่ระบุ"
->>>>>>> 800a84f76550249bee288e51067c82265bb7a017
     },
     "performance_stats": {
       "significant_strikes_per_minute": {

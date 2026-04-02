@@ -1,40 +1,4 @@
 {
-<<<<<<< HEAD
-    "fighter_profile": {
-        "name_th": "ฟิลิเป ซิลวา",
-        "name_en": "Felipe Silva",
-        "alias": "ไม่ระบุ",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1740716400/felipe-silva-1600x1200-1_c666f2.png",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "การต่อสู้แบบผสมผสาน / มวยไทย",
-        "fighting_style_en": "Mixed Martial Arts / Muay Thai",
-        "stance": "Orthodox",
-        "physical_stats": {
-            "weight_lbs": 135.0,
-            "weight_kg": 61.23,
-            "division": "Flyweight",
-            "height_ft": "5'6\"",
-            "height_cm": 169,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "บราซิล",
-            "country_en": "Brazil",
-            "age": 33,
-            "team_th": "ทีม เมห์ดี ซาทูต",
-            "team_en": "Team Mehdi Zatout"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/felipe-silva/"
-        ],
-        "short_biography": "ฟิลิเป ซิลวา (Felipe Silva) เป็นนักชกชาวบราซิล วัย 33 ปี จากสังกัดทีม เมห์ดี ซาทูต มีความถนัดในการต่อสู้สไตล์การต่อสู้แบบผสมผสาน / มวยไทย ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 61.23 กิโลกรัม) ส่วนสูง 169 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 16 สามารถพ่ายแพ้ให้กับ มอริส โบลิยาน ด้วยรูปแบบ Submission (Rear-Naked Choke) ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
-=======
   "fighter_profile": {
     "name_th": "ฟิลิเป ซิลวา",
     "name_en": "Felipe Silva",
@@ -52,7 +16,6 @@
       "height_cm": 169,
       "reach_cm": "ไม่ระบุ",
       "leg_reach_cm": "ไม่ระบุ"
->>>>>>> 800a84f76550249bee288e51067c82265bb7a017
     },
     "performance_stats": {
       "significant_strikes_per_minute": "ยังไม่มีข้อมูล",

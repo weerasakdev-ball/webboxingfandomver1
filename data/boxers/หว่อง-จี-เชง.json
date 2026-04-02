@@ -1,40 +1,4 @@
 {
-<<<<<<< HEAD
-    "fighter_profile": {
-        "name_th": "หว่อง จี เชง",
-        "name_en": "Wang Tsz Ching",
-        "alias": "ไม่ระบุ",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1740716400/wang-tsz-ching-1600x1200-1_c666f2.png",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "คิกบ็อกซิ่ง",
-        "fighting_style_en": "Kickboxing",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 114.8,
-            "weight_kg": 52.07,
-            "division": "Atomweight",
-            "height_ft": "5'2\"",
-            "height_cm": 160,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "ฮ่องกง",
-            "country_en": "Hong Kong",
-            "age": 25,
-            "team_th": "Ole Muay Thai and Fitness",
-            "team_en": "Ole Muay Thai and Fitness"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/wang-tsz-ching/"
-        ],
-        "short_biography": "หว่อง จี เชง (Wang Tsz Ching) เป็นนักชกชาวฮ่องกง วัย 25 ปี จากสังกัดOle Muay Thai and Fitness มีความถนัดในการต่อสู้สไตล์คิกบ็อกซิ่ง ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Atomweight (ประมาณ 52.07 กิโลกรัม) ส่วนสูง 160 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 135 สามารถเอาชนะ โอลีเวีย ดาบรอว์สกี ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
-=======
   "fighter_profile": {
     "name_th": "หว่อง จี เชง",
     "name_en": "Wang Tsz Ching",
@@ -52,7 +16,6 @@
       "height_cm": 160,
       "reach_cm": "ไม่ระบุ",
       "leg_reach_cm": "ไม่ระบุ"
->>>>>>> 800a84f76550249bee288e51067c82265bb7a017
     },
     "performance_stats": {
       "significant_strikes_per_minute": "ยังไม่มีข้อมูล",

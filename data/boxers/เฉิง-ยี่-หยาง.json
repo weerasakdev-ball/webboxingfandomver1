@@ -1,40 +1,4 @@
 {
-<<<<<<< HEAD
-    "fighter_profile": {
-        "name_th": "เฉิง ยี่ หยาง",
-        "name_en": "Sheng Yi Yang",
-        "alias": "ไม่ระบุ",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1740716400/sheng-yi-yang-1600x1200-1_c666f2.png",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "คิกบ็อกซิ่ง",
-        "fighting_style_en": "Kickboxing",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 124.6,
-            "weight_kg": 56.52,
-            "division": "Strawweight",
-            "height_ft": "5'8\"",
-            "height_cm": 173,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "จีน",
-            "country_en": "China",
-            "age": 18,
-            "team_th": "Sheng Li Ren He",
-            "team_en": "Sheng Li Ren He"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/sheng-yi-yang/"
-        ],
-        "short_biography": "เฉิง ยี่ หยาง (Sheng Yi Yang) เป็นนักชกชาวจีน วัย 18 ปี จากสังกัดSheng Li Ren He มีความถนัดในการต่อสู้สไตล์คิกบ็อกซิ่ง ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 56.52 กิโลกรัม) ส่วนสูง 173 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 106 สามารถพ่ายแพ้ให้กับ ชูริ ซากาโยริ ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
-=======
   "fighter_profile": {
     "name_th": "เฉิง ยี่ หยาง",
     "name_en": "Sheng Yi Yang",
@@ -52,7 +16,6 @@
       "height_cm": 173,
       "reach_cm": "ไม่ระบุ",
       "leg_reach_cm": "ไม่ระบุ"
->>>>>>> 800a84f76550249bee288e51067c82265bb7a017
     },
     "performance_stats": {
       "significant_strikes_per_minute": "ยังไม่มีข้อมูล",

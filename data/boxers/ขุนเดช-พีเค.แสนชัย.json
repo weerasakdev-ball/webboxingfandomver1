@@ -9,15 +9,9 @@
     "fighting_style_en": "Muay Thai",
     "stance": "ไม่ระบุ",
     "physical_stats": {
-<<<<<<< HEAD
-      "weight_lbs": 131.6,
-      "weight_kg": 59.7,
-      "division": "Catchweight (131.6 lbs)",
-=======
       "weight_lbs": 134.8,
       "weight_kg": 61.14,
       "division": "Flyweight",
->>>>>>> 800a84f76550249bee288e51067c82265bb7a017
       "height_ft": "5'6\"",
       "height_cm": 170,
       "reach_cm": "ไม่ระบุ",
@@ -41,14 +35,11 @@
   },
   "weigh_in_history": [
     {
-<<<<<<< HEAD
-=======
       "event_name": "ONE ลุมพินี 148",
       "weight_lbs": 134.8,
       "division": "Flyweight"
     },
     {
->>>>>>> 800a84f76550249bee288e51067c82265bb7a017
       "event_name": "ONE ลุมพินี 98",
       "weight_lbs": 131.6,
       "division": "Catchweight"
@@ -61,19 +52,6 @@
   ],
   "fight_history": [
     {
-<<<<<<< HEAD
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "0:24",
-      "opponent_th": "น้องโอ๋ ลาวล้านช้าง",
-      "opponent_en": "Nongoh Laolanchang",
-      "opponent_country": "ลาว",
-      "date": "Feb 28, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 98"
-=======
       "result": "Win",
       "discipline_en": "Muay Thai",
       "method_en": "Unanimous Decision",
@@ -85,7 +63,6 @@
       "date": "Mar 27, 2026",
       "rating": 5,
       "event_en": "ONE ลุมพินี 148 & The Inner Circle"
->>>>>>> 800a84f76550249bee288e51067c82265bb7a017
     },
     {
       "result": "Win",
@@ -114,22 +91,6 @@
       "event_en": "ศึกมวยไทยพลังใหม่"
     },
     {
-<<<<<<< HEAD
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "0:46",
-      "opponent_th": "แมนยู ศิษย์เจ๊นิ่ม",
-      "opponent_en": "Manyu Sitjenim",
-      "opponent_country": "ไทย",
-      "date": "Aug 30, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 77"
-    },
-    {
-=======
->>>>>>> 800a84f76550249bee288e51067c82265bb7a017
       "result": "Loss",
       "discipline_en": "Muay Thai",
       "method_en": "KO/TKO",
@@ -141,10 +102,6 @@
       "date": "Jun 28, 2025",
       "rating": "ไม่ระบุ",
       "event_en": "ศึกมวยไทยเกียรติเพชร"
-<<<<<<< HEAD
-    }
-  ]
-=======
     },
     {
       "result": "Loss",
@@ -175,5 +132,4 @@
   ],
   "fight_history_one_championship": [],
   "upcoming_fights": []
->>>>>>> 800a84f76550249bee288e51067c82265bb7a017
 }

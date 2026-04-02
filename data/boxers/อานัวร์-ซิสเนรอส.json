@@ -1,40 +1,4 @@
 {
-<<<<<<< HEAD
-    "fighter_profile": {
-        "name_th": "อานัวร์ ซิสเนรอส",
-        "name_en": "Anuar Cisneros",
-        "alias": "ไม่ระบุ",
-        "image_url": "ไม่ระบุ",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "ไม่ระบุ",
-        "fighting_style_en": "ไม่ระบุ",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 133.8,
-            "weight_kg": 60.69,
-            "division": "Flyweight",
-            "height_ft": "5'11\"",
-            "height_cm": 180,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "เม็กซิโก",
-            "country_en": "Mexico",
-            "age": 25,
-            "team_th": "ไม่ระบุ",
-            "team_en": "ไม่ระบุ"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/anuar-cisneros/"
-        ],
-        "short_biography": "อานัวร์ ซิสเนรอส (Anuar Cisneros) เป็นนักชกชาวเม็กซิโก วัย 25 ปี มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 60.69 กิโลกรัม) ส่วนสูง 180 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 138 สามารถเอาชนะ ชุน ชิราอิชิ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
-=======
   "fighter_profile": {
     "name_th": "อานัวร์ ซิสเนรอส",
     "name_en": "Anuar Cisneros",
@@ -52,7 +16,6 @@
       "height_cm": 180,
       "reach_cm": "ไม่ระบุ",
       "leg_reach_cm": "ไม่ระบุ"
->>>>>>> 800a84f76550249bee288e51067c82265bb7a017
     },
     "performance_stats": {
       "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
