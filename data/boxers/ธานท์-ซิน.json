@@ -9,13 +9,14 @@
         "fighting_style_en": "Power Puncher, High-Intensity Aggressive",
         "stance": "Orthodox (Right-handed)",
         "physical_stats": {
-            "weight_lbs": 136.9,
-            "weight_kg": 62.1,
-            "division": "Flyweight / Catchweight",
+            "weight_lbs": 134.2,
+            "weight_kg": 60.87,
+            "division": "Flyweight",
             "height_ft": "5'7\"",
             "height_cm": 170,
             "reach_cm": "172",
-            "leg_reach_cm": "96"
+            "leg_reach_cm": "96",
+            "hydration": "N/A"
         },
         "performance_stats": {
             "significant_strikes_per_minute": {
@@ -54,7 +55,7 @@
         ],
         "short_biography": "ธานท์ ซิน (Thant Zin) เป็นนักชกชาวเมียนมา วัย 21 ปี จากสังกัดตอ วิน เอเยยาร์ คลับ มีความถนัดในการต่อสู้สไตล์มวยหมัด, บู๊ดุดัน ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight / Catchweight (ประมาณ 62.1 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 132 สามารถพ่ายแพ้ให้กับ ขุนพลน้อย ส.สมหมาย ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
     },
-    "fight_history": [
+    "fight_history_one_championship": [
         {
             "result": "Loss",
             "discipline_en": "Muay Thai",
@@ -132,6 +133,14 @@
             "date": "Feb 16, 2024",
             "rating": 5,
             "event_en": "ONE ลุมพินี 52"
+        }
+    ],
+    "upcoming_fights": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE lumpinee 149",
+            "weight_lbs": 134.2,
+            "division": "Flyweight"
         }
     ]
 }

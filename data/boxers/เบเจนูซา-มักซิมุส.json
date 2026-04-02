@@ -9,13 +9,14 @@
         "fighting_style_en": "Muay Thai",
         "stance": "ไม่ระบุ",
         "physical_stats": {
-            "weight_lbs": "ไม่ระบุ",
-            "weight_kg": "ไม่ระบุ",
+            "weight_lbs": 134.4,
+            "weight_kg": 60.96,
             "division": "Flyweight",
             "height_ft": "5'11\"",
             "height_cm": 180,
             "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
         },
         "performance_stats": {
             "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
@@ -34,7 +35,13 @@
         ],
         "short_biography": "เบเจนูซา มักซิมุส (Bejenuta Maximus) เป็นนักชกชาวมอลโดวา วัย 23 ปี ส่วนสูง 180 เซนติเมตร (5'11\") มีความถนัดในการต่อสู้สไตล์มวยไทย ปัจจุบันแข่งขันอยู่ในพิกัดน้ำหนัก Flyweight"
     },
-    "weigh_in_history": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE lumpinee 149",
+            "weight_lbs": 134.4,
+            "division": "Flyweight"
+        }
+    ],
     "fight_history": [],
     "fight_history_one_championship": [],
     "upcoming_fights": [

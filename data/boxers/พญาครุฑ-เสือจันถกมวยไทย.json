@@ -9,13 +9,14 @@
         "fighting_style_en": "Muay Thai",
         "stance": "ไม่ระบุ",
         "physical_stats": {
-            "weight_lbs": "ไม่ระบุ",
-            "weight_kg": "ไม่ระบุ",
-            "division": "ไม่ระบุ",
+            "weight_lbs": 121.6,
+            "weight_kg": 55.16,
+            "division": "Strawweight",
             "height_ft": "5'6\"",
             "height_cm": 170,
             "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
         },
         "performance_stats": {
             "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
@@ -34,7 +35,13 @@
         ],
         "short_biography": "พญาครุฑ เสือจันถกมวยไทย (Payakrut Suajantokmuaythai) เป็นนักชกชาวไทย วัย 20 ปี จากสังกัดทีม Suajan Tok Ban Muay Thai มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 170 เซนติเมตร (5'6\") มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)"
     },
-    "weigh_in_history": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE lumpinee 149",
+            "weight_lbs": 121.6,
+            "division": "Strawweight"
+        }
+    ],
     "fight_history": [],
     "fight_history_one_championship": [
         {

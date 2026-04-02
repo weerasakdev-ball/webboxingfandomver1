@@ -9,13 +9,14 @@
         "fighting_style_en": "Muay Thai",
         "stance": "ไม่ระบุ",
         "physical_stats": {
-            "weight_lbs": 119,
-            "weight_kg": 54,
-            "division": "ไม่ระบุ",
+            "weight_lbs": 115.0,
+            "weight_kg": 52.16,
+            "division": "Atomweight",
             "height_ft": "5'4\"",
             "height_cm": 163,
             "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
         },
         "performance_stats": {
             "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
@@ -34,7 +35,13 @@
         ],
         "short_biography": "ฮาร์ เลง์ ออม (Har Ling Om) เป็นนักชกชาวเมียนมา วัย 27 ปี จากสังกัดทีม Phyo Wai Group มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 163 เซนติเมตร (5'4\") น้ำหนัก 54 กิโลกรัม (119 ปอนด์) มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)"
     },
-    "weigh_in_history": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE lumpinee 149",
+            "weight_lbs": 115.0,
+            "division": "Atomweight"
+        }
+    ],
     "fight_history": [],
     "fight_history_one_championship": [
         {

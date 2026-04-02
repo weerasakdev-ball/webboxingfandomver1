@@ -9,12 +9,13 @@
         "fighting_style_en": "Aggressive / Leg Kicker",
         "stance": "Orthodox",
         "physical_stats": {
-            "weight_lbs": "ยังไม่มีข้อมูล",
-            "weight_kg": "ยังไม่มีข้อมูล",
-            "division": "Flyweight / Strawweight",
+            "weight_lbs": 127.2,
+            "weight_kg": 57.7,
+            "division": "Flyweight",
             "height_ft": "5'7\"",
             "height_cm": 171,
-            "leg_reach_cm": "ยังไม่มีข้อมูล"
+            "leg_reach_cm": "ยังไม่มีข้อมูล",
+            "hydration": "N/A"
         },
         "performance_stats": {
             "significant_strikes_per_minute": {
@@ -44,7 +45,7 @@
         ],
         "short_biography": "ซาเวียร์ กอนซาเลส (Xavier Gonzalez) เป็นนักชกชาวสเปน วัย 24 ปี จากสังกัดส.เดชะพันธ์ มีความถนัดในการต่อสู้สไตล์มวยบู๊ / เตะขาเจาะยาง ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight / Strawweight (ประมาณ ยังไม่มีข้อมูล กิโลกรัม) ส่วนสูง 171 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 103 สามารถพ่ายแพ้ให้กับ วอลเตอร์ กอนซาลเวส ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
     },
-    "fight_history": [
+    "fight_history_one_championship": [
         {
             "result": "Loss",
             "discipline_en": "Muay Thai",
@@ -148,32 +149,14 @@
             "date": "Aug 11, 2023",
             "rating": 5,
             "event_en": "ONE ลุมพินี 28"
-        },
+        }
+    ],
+    "upcoming_fights": [],
+    "weigh_in_history": [
         {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ดาบดำ ปตท.ทองทวี",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jun 16, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 21"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Majority Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Apr 28, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 14"
+            "event_name": "ONE lumpinee 149",
+            "weight_lbs": 127.2,
+            "division": "Flyweight"
         }
     ]
 }

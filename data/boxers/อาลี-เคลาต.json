@@ -9,13 +9,14 @@
         "fighting_style_en": "Muay Thai",
         "stance": "ไม่ระบุ",
         "physical_stats": {
-            "weight_lbs": "ไม่ระบุ",
-            "weight_kg": "ไม่ระบุ",
-            "division": "ไม่ระบุ",
+            "weight_lbs": 154.6,
+            "weight_kg": 70.13,
+            "division": "Featherweight",
             "height_ft": "6'1\"",
             "height_cm": 187,
             "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
         },
         "performance_stats": {
             "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
@@ -34,7 +35,13 @@
         ],
         "short_biography": "อาลี เคลาต (Ali Kelat) เป็นนักชกชาวตุรกี วัย 26 ปี จากสังกัดทีม Team Mehdi Zatout มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 187 เซนติเมตร (6'1\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)"
     },
-    "weigh_in_history": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE lumpinee 149",
+            "weight_lbs": 154.6,
+            "division": "Featherweight"
+        }
+    ],
     "fight_history": [],
     "fight_history_one_championship": [
         {

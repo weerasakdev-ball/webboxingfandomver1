@@ -9,13 +9,14 @@
         "fighting_style_en": "Muay Thai",
         "stance": "ไม่ระบุ",
         "physical_stats": {
-            "weight_lbs": "ไม่ระบุ",
-            "weight_kg": "ไม่ระบุ",
-            "division": "ไม่ระบุ",
+            "weight_lbs": 129.8,
+            "weight_kg": 58.88,
+            "division": "Flyweight",
             "height_ft": "5'7\"",
             "height_cm": 172,
             "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
         },
         "performance_stats": {
             "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
@@ -34,7 +35,13 @@
         ],
         "short_biography": "อีสานเหนือ ศ.ศศิวัฒน์ (Isannuea Sor.Sasiwat) หรืออดีตใช้ชื่อ อีสานเหนือ ต.ตันเจริญ เป็นนักชกชาวไทย วัย 22 ปี จากสังกัดทีมศิษย์เอราวัณ (Sit Erawan) มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 172 เซนติเมตร (5'7\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)"
     },
-    "weigh_in_history": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE lumpinee 149",
+            "weight_lbs": 129.8,
+            "division": "Flyweight"
+        }
+    ],
     "fight_history": [],
     "fight_history_one_championship": [
         {
@@ -88,19 +95,6 @@
             "date": "Jun 20, 2025",
             "rating": "ไม่ระบุ",
             "event_en": "ONE Lumpinee 113"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เดโช ป.บริรักษ์",
-            "opponent_en": "Decho Por.Borirak",
-            "opponent_country": "ไทย",
-            "date": "Apr 11, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 104"
         },
         {
             "result": "Win",

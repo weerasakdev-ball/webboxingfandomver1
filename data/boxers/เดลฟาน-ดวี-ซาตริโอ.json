@@ -1,0 +1,53 @@
+{
+    "fighter_profile": {
+        "name_th": "เดลฟาน ดวี ซาตริโอ",
+        "name_en": "",
+        "alias": "ไม่ระบุ",
+        "image_url": "",
+        "grade": "N/A",
+        "fighting_style_th": "ยังไม่มีข้อมูล",
+        "fighting_style_en": "ยังไม่มีข้อมูล",
+        "stance": "ยังไม่มีข้อมูล",
+        "physical_stats": {
+            "weight_lbs": 113.6,
+            "weight_kg": 51.53,
+            "hydration": "N/A",
+            "division": "Atomweight",
+            "height_ft": "ยังไม่มีข้อมูล",
+            "height_cm": 0,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 0,
+            "team_th": "ยังไม่มีข้อมูล",
+            "team_en": "ยังไม่มีข้อมูล"
+        }
+    },
+    "fight_history_one_championship": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE lumpinee 149",
+            "weight_lbs": 113.6,
+            "division": "Atomweight"
+        }
+    ],
+    "upcoming_fights": []
+}
