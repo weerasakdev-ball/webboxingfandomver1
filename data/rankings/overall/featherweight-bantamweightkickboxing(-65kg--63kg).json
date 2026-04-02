@@ -1,0 +1,88 @@
+{
+    "last_updated": "2026-03-31",
+    "division": "Featherweight / Bantamweight Kickboxing (-65kg / -63kg)",
+    "fighters": [
+        {
+            "name_th": "เว่ย รุย",
+            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772977459/Opera_%E0%B8%AA%E0%B9%81%E0%B8%99%E0%B8%9B%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%95_2026-03-08_204346_20251115183952-blue.jpg_ghgz0q.png",
+            "team_th": "ต้าตงเซียง ไฟต์ คลับ / หลุยยี่ เซาเหลิน เหวินอู่ สคูล",
+            "country_th": "จีน",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 1,
+                        "losses": 2,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 3
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 1,
+                        "losses": 2,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 3
+                    }
+                },
+                "yearly": {
+                    "2024": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "เว่ย-รุย.html",
+            "trend": "new",
+            "last_rank": null
+        }
+    ]
+}

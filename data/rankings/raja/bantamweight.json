@@ -1,0 +1,103 @@
+{
+  "last_updated": "2026-03-31T07:07:23.245Z",
+  "stadium": "Rajadamnern Stadium",
+  "division": "Bantamweight",
+  "fighters": [
+    {
+      "rank": "C",
+      "name": "Jaroensook Boonlanna Muay Thai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "1",
+      "name": "Puenyai Por. Lakboon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "2",
+      "name": "Pangtor Por. Lakboon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "3",
+      "name": "Addtewada Tor. Surat",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "4",
+      "name": "Captainteam Sit Thailand",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "5",
+      "name": "Petchrit P.K. Saenchai Muay Thai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "6",
+      "name": "Chalarmthong Sitchalaramkhao",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "7",
+      "name": "Chalarmngern Sitchalamkhao",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "8",
+      "name": "Malaithong Nuisimoommuang",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "9",
+      "name": "Tianluang Aung Ubon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "10",
+      "name": "Choosab Sor. Salacheeb",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "11",
+      "name": "Detchanan Wor. Wiangsa",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "12",
+      "name": "Putin Sor. Tienpo",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "13",
+      "name": "Kazuki Osaki",
+      "image_url": "",
+      "country": "JP"
+    },
+    {
+      "rank": "14",
+      "name": "Yokkeeree T.N Muay Thai Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "15",
+      "name": "Sadaotong Nuiseemoommuang",
+      "image_url": "",
+      "country": "TH"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+    "fighter_profile": {
+        "name_th": "คมอาวุธ เอฟเอ.กรุ๊ป",
+        "name_en": "Komawut FA Group",
+        "alias": "ยังไม่มีข้อมูล",
+        "image_url": "https://i.ibb.co/N6N4GbQF/image.jpg",
+        "grade": "B",
+        "fighting_style_th": "บุก",
+        "fighting_style_en": "Aggressive / Pressure Fighter",
+        "stance": "Orthodox",
+        "physical_stats": {
+            "weight_lbs": 135,
+            "weight_kg": 61.2,
+            "division": "Bantamweight / Flyweight",
+            "height_ft": "5'4\"",
+            "height_cm": 165,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "2",
+                "body": "1",
+                "legs": "1",
+                "total_per_minute": "16"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "36",
+                "accuracy_by_target_percentage": {
+                    "head": "45",
+                    "body": "22",
+                    "legs": "32"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 40,
+                "defense_by_target_percentage": {
+                    "head": 53,
+                    "body": 32,
+                    "legs": 15
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 26,
+            "team_th": "เอฟเอ.กรุ๊ป",
+            "team_en": "FA Group"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/komawut-fa-group/"
+        ],
+        "short_biography": "คมอาวุธ เอฟเอ.กรุ๊ป (Komawut FA Group) เป็นนักชกชาวไทย วัย 26 ปี จากสังกัดเอฟเอ.กรุ๊ป มีความถนัดในการต่อสู้สไตล์บุก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight / Flyweight (ประมาณ 61.2 กิโลกรัม) ส่วนสูง 165 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 141 สามารถพ่ายแพ้ให้กับ สมิงดำ เอ็นเอฟ.ลูกสวน ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สมิงดำ เอ็นเอฟ.ลูกสวน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 141"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:44",
+            "opponent_th": "อานาร์ มัมมาดอฟ",
+            "opponent_en": "",
+            "opponent_country": "อาเซอร์ไบจาน",
+            "date": "Oct 10, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 128"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "กฤษณะ ดาวเด่นมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 05, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 123"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โซเนอร์ เซน",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "May 30, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 110"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:30",
+            "opponent_th": "เสือคิม ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 14, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 100"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:46",
+            "opponent_th": "พันฤทธิ์ ลูกเจ้าแม่สายวารี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 96"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อเล็กเซย์ บาลีโก",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Dec 13, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 91"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ศิวกร พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 06, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 78"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยอดเหล็กเพชร อ.อัจฉริยะ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 28, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 68: พระจันทร์ฉาย vs โจนาธาน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยอดภูผา เพชรเกียรติเพชร",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 02, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 50"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พันฤทธิ์ ลูกเจ้าแม่สายวารี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 18, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 29"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อวตาร พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 19, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 17"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อวตาร พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 31, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 11"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พรศิริ พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 20, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 1"
+        }
+    ]
+}

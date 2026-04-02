@@ -1,0 +1,112 @@
+{
+    "fighter_profile": {
+        "name_th": "เต็งหนึ่ง แฟร์เท็กซ์",
+        "name_en": "Tengnueng Fairtex",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773127800/%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87_tciekm.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยซ้าย, เตะซ้ายหนัก, หมัดซ้ายรุนแรง, ประสบการณ์สูง",
+        "fighting_style_en": "Southpaw Striker, Heavy Left Kick, Powerful Left Hand, Highly Experienced",
+        "stance": "Southpaw (Left-handed)",
+        "physical_stats": {
+            "weight_lbs": 165,
+            "weight_kg": 74.8,
+            "division": "Lightweight (155 - 170 lbs)",
+            "height_ft": "5'10\"",
+            "height_cm": 178,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 33,
+            "team_th": "แฟร์เท็กซ์ เทรนนิง เซ็นเตอร์",
+            "team_en": "Fairtex Training Center"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/tengnueng-fairtex/"
+        ],
+        "short_biography": "เต็งหนึ่ง แฟร์เท็กซ์ (Tengnueng Fairtex) เป็นนักชกชาวไทย วัย 33 ปี จากสังกัดแฟร์เท็กซ์ เทรนนิง เซ็นเตอร์ มีความถนัดในการต่อสู้สไตล์มวยซ้าย, เตะซ้ายหนัก, หมัดซ้ายรุนแรง, ประสบการณ์สูง ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Lightweight (155 - 170 lbs) (ประมาณ 74.8 กิโลกรัม) ส่วนสูง 178 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 129 สามารถเอาชนะ ทุน มิน ออง ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ทุน มิน ออง",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Oct 17, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 129"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:45",
+            "opponent_th": "มักซิม บักห์ทิน",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Aug 22, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 121"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:08",
+            "opponent_th": "แชร์แมง โปโกมู",
+            "opponent_en": "",
+            "opponent_country": "กินี/ฝรั่งเศส",
+            "date": "May 16, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 108"
+        },
+        {
+            "result": "Draw",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 3,
+            "time": "N/A",
+            "opponent_th": "ดีมิทรี เมนชิคอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Feb 14, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 97"
+        }
+    ]
+}

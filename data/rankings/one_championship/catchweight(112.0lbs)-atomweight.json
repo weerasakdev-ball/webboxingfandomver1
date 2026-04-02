@@ -1,0 +1,111 @@
+{
+    "last_updated": "2026-03-31",
+    "division": "Catchweight (112.0 lbs) / Atomweight",
+    "fighters": [
+        {
+            "name_th": "รีฟดีน มาสดอร์",
+            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773124543/%E0%B8%A3%E0%B8%B5%E0%B8%9F%E0%B8%94%E0%B8%B5%E0%B8%99_%E0%B8%A1%E0%B8%B2%E0%B8%AA%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C_yphary.png",
+            "team_th": "ส.สมหมาย",
+            "country_th": "มาเลเซีย",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 5,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 4,
+                        "points": 23
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 5,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 4,
+                        "points": 23
+                    }
+                },
+                "yearly": {
+                    "2024": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "รีฟดีน-มาสดอร์.html",
+            "trend": "new",
+            "last_rank": null
+        }
+    ]
+}

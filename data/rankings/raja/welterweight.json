@@ -1,0 +1,103 @@
+{
+  "last_updated": "2026-03-31T07:07:07.721Z",
+  "stadium": "Rajadamnern Stadium",
+  "division": "Welterweight",
+  "fighters": [
+    {
+      "rank": "C",
+      "name": "Tapaokaew Singha Mawynn",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "1",
+      "name": "Khunhanlek Superbon Training Camp",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "2",
+      "name": "Saenpon Sor. Sommai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "3",
+      "name": "Petchthongchai Sor. Sommai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "4",
+      "name": "Alex Jitmuangnon",
+      "image_url": "",
+      "country": "IT"
+    },
+    {
+      "rank": "5",
+      "name": "Joseph Jitmuangnon",
+      "image_url": "",
+      "country": "SK"
+    },
+    {
+      "rank": "6",
+      "name": "Nuenglanlek Jitmuangnon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "7",
+      "name": "Moradokpetch Petchyindee Academy",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "8",
+      "name": "Niall McGreevy",
+      "image_url": "",
+      "country": "IE"
+    },
+    {
+      "rank": "9",
+      "name": "Paolo D'Antoni",
+      "image_url": "",
+      "country": "IT"
+    },
+    {
+      "rank": "10",
+      "name": "Peemai Por. Kobkuea",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "11",
+      "name": "Sajad Venum Muay Thai",
+      "image_url": "",
+      "country": "IR"
+    },
+    {
+      "rank": "12",
+      "name": "Pornpitak Sor. Jor. Tongprachin",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "13",
+      "name": "Jake Newman",
+      "image_url": "",
+      "country": "GB-ENG"
+    },
+    {
+      "rank": "14",
+      "name": "Avatar P.K. Saenchai Muay Thai Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "15",
+      "name": "Louie Doherty",
+      "image_url": "",
+      "country": "GB-ENG"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+    "last_updated": "2026-03-31",
+    "division": "ยังไม่มีข้อมูล",
+    "fighters": [
+        {
+            "name_th": "อนาสตาเซีย นิโคลากาคอส",
+            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773503431/%E0%B8%AD%E0%B8%99%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2_%E0%B8%99%E0%B8%B4%E0%B9%82%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%84%E0%B8%AD%E0%B8%AA_l4duer.png",
+            "team_th": "ยังไม่มีข้อมูล",
+            "country_th": "ไทย",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 7,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 4,
+                        "points": 29
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 7,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 4,
+                        "points": 29
+                    }
+                },
+                "yearly": {
+                    "2021": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2022": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2023": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2024": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "อนาสตาเซีย-นิโคลากาคอส.html",
+            "trend": "new",
+            "last_rank": null
+        },
+        {
+            "name_th": "ฟาบิโอ เอ็นริเก",
+            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773503430/%E0%B8%9F%E0%B8%B2%E0%B8%9A%E0%B8%B4%E0%B9%82%E0%B8%AD_%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%81_hutqua.png",
+            "team_th": "ยังไม่มีข้อมูล",
+            "country_th": "ไทย",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 0,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 0,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    }
+                },
+                "yearly": {
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "ฟาบิโอ-เอ็นริเก.html",
+            "trend": "new",
+            "last_rank": null
+        }
+    ]
+}

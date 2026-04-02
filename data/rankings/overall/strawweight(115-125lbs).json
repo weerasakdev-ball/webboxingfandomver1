@@ -1,0 +1,298 @@
+{
+    "last_updated": "2026-03-31",
+    "division": "Strawweight (115 - 125 lbs)",
+    "fighters": [
+        {
+            "name_th": "ตี๋ใหญ่ ทอฝันฟาร์ม",
+            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773123297/%E0%B8%95%E0%B8%B5%E0%B9%8B%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88_gjx3ya.png",
+            "team_th": "ทอฝันฟาร์ม",
+            "country_th": "ไทย",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 3,
+                        "losses": 3,
+                        "draws": 0,
+                        "ko_wins": 3,
+                        "points": 15
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 3,
+                        "losses": 3,
+                        "draws": 0,
+                        "ko_wins": 3,
+                        "points": 15
+                    }
+                },
+                "yearly": {
+                    "2024": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "ตี๋ใหญ่-ทอฝันฟาร์ม.html",
+            "trend": "new",
+            "last_rank": null
+        },
+        {
+            "name_th": "ยอดอุดร เค.โต้งตลิ่งชัน",
+            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531962/%E0%B8%A2%E0%B8%AD%E0%B8%94%E0%B8%AD%E0%B8%B8%E0%B8%94%E0%B8%A3-%E0%B9%80%E0%B8%84.%E0%B9%82%E0%B8%95%E0%B9%89%E0%B8%87%E0%B8%95%E0%B8%A5%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B1%E0%B8%99_arbkor.jpg",
+            "team_th": "บีเอส มวยไทย / เค.โต้งตลิ่งชัน",
+            "country_th": "ไทย",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 2,
+                        "losses": 3,
+                        "draws": 0,
+                        "ko_wins": 2,
+                        "points": 10
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 2,
+                        "losses": 3,
+                        "draws": 0,
+                        "ko_wins": 2,
+                        "points": 10
+                    }
+                },
+                "yearly": {
+                    "2024": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "ยอดอุดร-เค.โต้งตลิ่งชัน.html",
+            "trend": "new",
+            "last_rank": null
+        },
+        {
+            "name_th": "อเล็กซานโดร โบซี",
+            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531969/%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81-%E0%B8%8B%E0%B8%B2%E0%B8%99%E0%B9%82%E0%B8%94%E0%B8%A3-%E0%B9%82%E0%B8%9A%E0%B8%8B%E0%B8%B5_prq9yz.jpg",
+            "team_th": "สิงห์มาวิน (Singha Mawynn)",
+            "country_th": "ฝรั่งเศส",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 2,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 1,
+                        "points": 8
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 2,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 1,
+                        "points": 8
+                    }
+                },
+                "yearly": {
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "อเล็กซานโดร-โบซี.html",
+            "trend": "new",
+            "last_rank": null
+        }
+    ]
+}

@@ -1,0 +1,150 @@
+{
+    "fighter_profile": {
+        "name_th": "จอร์จ จาร์วิส",
+        "name_en": "George Jarvis",
+        "alias": "G-Unit",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773503431/%E0%B8%88%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%88_nepvmw.png",
+        "grade": "A",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": null,
+            "weight_kg": null,
+            "division": "ไม่ระบุ",
+            "height_ft": "6'0\"",
+            "height_cm": 183,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "สหราชอาณาจักร",
+            "country_en": "United Kingdom",
+            "age": 25,
+            "team_th": "ลุมพินี ครอว์ลีย์",
+            "team_en": "Lumpini Crawley"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/george-jarvis/"
+        ],
+        "short_biography": "จอร์จ จาร์วิส (George Jarvis) เป็นนักชกชาวสหราชอาณาจักร วัย 25 ปี จากสังกัดลุมพินี ครอว์ลีย์ มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ (ประมาณ None กิโลกรัม) ส่วนสูง 183 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 41: สินสมุทร vs จอร์จ สามารถเอาชนะ สินสมุทร กลิ่นมี ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สินสมุทร กลิ่นมี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 14, 2026",
+            "rating": 5,
+            "event_en": "ONE Fight Night 41: สินสมุทร vs จอร์จ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:24",
+            "opponent_th": "รีเกียน เออร์เซล",
+            "opponent_en": "",
+            "opponent_country": "ซูรินาม",
+            "date": "Aug 02, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 34: รีเกียน vs จอร์จ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "มูชีน ชาฟี",
+            "opponent_en": "",
+            "opponent_country": "สเปน/โมร็อกโก",
+            "date": "Apr 05, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 30: โรมัน vs ลินดอน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:15",
+            "opponent_th": "รุ่งราวี ศิษย์สองพี่น้อง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 01, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 85"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ริคาร์โด บราโว",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น/อาร์เจนตินา",
+            "date": "Aug 02, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 73"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "มุสตาฟา แอล เตครีตี",
+            "opponent_en": "",
+            "opponent_country": "อิรัก",
+            "date": "Feb 09, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 51"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ชนะจน พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 29, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 35"
+        }
+    ]
+}

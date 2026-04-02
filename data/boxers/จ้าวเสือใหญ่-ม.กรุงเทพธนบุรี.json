@@ -1,0 +1,227 @@
+{
+    "fighter_profile": {
+        "name_th": "จ้าวเสือใหญ่ ม.กรุงเทพธนบุรี",
+        "name_en": "Jaosuayai Mor. Krungthepthonburi",
+        "alias": "จอมเข่าลอย (The Flying Knee Specialist)",
+        "image_url": "https://i.ibb.co/kVVwCd9m/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ, บู๊, ท่ามวยไทยโบราณ",
+        "fighting_style_en": "Technical Striker, Aggressive, Traditional Muay Thai Arts",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 134.3,
+            "weight_kg": 60.9,
+            "division": "Flyweight",
+            "height_ft": "5'5\"",
+            "height_cm": 166,
+            "reach_cm": "168",
+            "leg_reach_cm": "96"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 9,
+                "body": 4,
+                "legs": 2,
+                "total_per_minute": 15
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 52,
+                "accuracy_by_target_percentage": {
+                    "head": 65,
+                    "body": 20,
+                    "legs": 15
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 40,
+                "defense_by_target_percentage": {
+                    "head": 35,
+                    "body": 40,
+                    "legs": 25
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 24,
+            "team_th": "ส.เดชะพันธ์",
+            "team_en": "Sor.Dechaphan"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/jaosuayai-mor-krungthepthonburi/"
+        ],
+        "short_biography": "จ้าวเสือใหญ่ ม.กรุงเทพธนบุรี (Jaosuayai Mor. Krungthepthonburi) เป็นนักชกชาวไทย วัย 24 ปี จากสังกัดส.เดชะพันธ์ มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, บู๊, ท่ามวยไทยโบราณ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 60.9 กิโลกรัม) ส่วนสูง 166 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 147 สามารถพ่ายแพ้ให้กับ ป้อมเพชร ป๋องสุพรรณ พีเค. ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:25",
+            "opponent_th": "ป้อมเพชร ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 147"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สามเอ ไก่ย่างห้าดาว",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อาคีฟ กูลูซาดา",
+            "opponent_en": "",
+            "opponent_country": "อาเซอร์ไบจาน",
+            "date": "Oct 04, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 36: พระจันทร์ฉาย vs โจนาธาน II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:52",
+            "opponent_th": "นักรบ แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 07, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 32: นักรบ vs จ้าวเสือใหญ่"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:37",
+            "opponent_th": "เดนิส พูริช",
+            "opponent_en": "",
+            "opponent_country": "บอสเนียและเฮอร์เซโกวีนา/แคนาดา",
+            "date": "Mar 14, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 100"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:35",
+            "opponent_th": "ยอดเหล็กเพชร อ.อัจฉริยะ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 31, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 95"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 27, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:11",
+            "opponent_th": "ผึ้งหลวง บ้านแรมบ้า",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 31, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 65"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องธรณี ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 05, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 58: ซุปเปอร์บอน vs มารัต"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรสุขุมวิท ต้อมทุ่งใหญ่",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 22, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 46: ตะวันฉาย vs  ซุปเปอร์บอน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:21",
+            "opponent_th": "ไผ่แดง เกียรติทรงฤทธิ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 10, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 40"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องศึก ศิษย์สารวัตรเสือ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 11, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 28"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:30",
+            "opponent_th": "เพชรสุขุมวิท ต้อมทุ่งใหญ่",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 09, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 20"
+        }
+    ]
+}

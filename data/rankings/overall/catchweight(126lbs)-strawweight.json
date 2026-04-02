@@ -1,0 +1,88 @@
+{
+    "last_updated": "2026-03-31",
+    "division": "Catchweight (126 lbs) / Strawweight",
+    "fighters": [
+        {
+            "name_th": "เยลเต้ บลอมเมิร์ต",
+            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773128326/%E0%B9%80%E0%B8%A2%E0%B9%80%E0%B8%95%E0%B9%89_qg93kv.png",
+            "team_th": "เอฟเอ กรุ๊ป (FA Group)",
+            "country_th": "เบลเยียม",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 2,
+                        "losses": 4,
+                        "draws": 0,
+                        "ko_wins": 2,
+                        "points": 10
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 2,
+                        "losses": 4,
+                        "draws": 0,
+                        "ko_wins": 2,
+                        "points": 10
+                    }
+                },
+                "yearly": {
+                    "2023": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2024": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "เยลเต้-บลอมเมิร์ต.html",
+            "trend": "new",
+            "last_rank": null
+        }
+    ]
+}

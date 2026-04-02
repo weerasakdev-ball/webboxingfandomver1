@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>บทความมวยทั้งหมด | BoxingFandom</title>
+    <meta name="description" content="รวมบทความวิเคราะห์เจาะลึกวงการมวยไทยและมวยสากล โดย BoxingFandom">
+
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        header h1 .text-red {
+            color: #e50914;
+        }
+
+        header h1 .text-white {
+            color: #ffffff;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #333333;
+        }
+
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #1a1a1a;
+            min-width: 200px;
+            flex-direction: column;
+            border-top: 2px solid #e50914;
+            z-index: 1000;
+        }
+
+        nav ul li:hover > ul {
+            display: flex; 
+        }
+
+        nav ul ul ul {
+            top: 0;
+            left: 100%;
+        }
+
+        .search-box {
+            margin-left: 20px;
+            display: flex;
+        }
+
+        .search-box input[type="text"] {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px 0 0 4px;
+            outline: none;
+        }
+
+        .search-box button {
+            padding: 8px 15px;
+            background-color: #e50914;
+            color: white;
+            border: none;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .search-box button:hover {
+            background-color: #b0070f;
+        }
+
+        main {
+            flex: 1;
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .page-title {
+            color: #1a1a1a;
+            border-left: 5px solid #e50914;
+            padding-left: 15px;
+            margin-bottom: 30px;
+        }
+
+        /* ตกแต่งการ์ดบทความ */
+        .article-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .article-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+        }
+
+        .article-image {
+            width: 100%;
+            height: 180px;
+            background-color: #1a1a1a; /* ใส่สีดำแทนรูปภาพไปก่อน */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-size: 14px;
+        }
+
+        .article-content-preview {
+            padding: 20px;
+        }
+
+        .article-content-preview h3 {
+            color: #1a1a1a;
+            font-size: 18px;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .article-content-preview p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .read-more-btn {
+            display: inline-block;
+            background-color: #e50914;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .read-more-btn:hover {
+            background-color: #b0070f;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer nav ul {
+            justify-content: center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1><span class="text-red">Boxing</span><span class="text-white">Fandom</span></h1>
+
+        <nav>
+            <ul>
+                <li><a href="../../index.html">หน้าแรก</a></li>
+                <li><a href="index.html">บทความ</a></li>
+                <li><a href="../news/index.html">ข่าว</a></li>
+                
+                <li>
+                    <a href="#">เทียบสถิติ ▾</a>
+                    <ul>
+                        <li><a href="../stats/compare.html">เทียบสถิติแบบที่ 1</a></li>
+                        <li><a href="../stats/compare2.html">เทียบสถิติแบบที่ 2</a></li>
+                        <li><a href="../stats/analysis.html">วิเคราะห์เจาะลึก</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="../fighter/index.html">นักมวยทั้งหมด</a></li>  
+                
+                <li>
+                    <a href="">ranking ▾</a>
+                    <ul>
+                        <li>
+                            <a href="#">1 ONE ▸</a>
+                            <ul>
+                                <li><a href="heavyweight.html">เฮฟวีเวต</a></li>
+                                <li><a href="light-heavyweight.html">ไลต์เฮฟวีเวต</a></li>
+                                <li><a href="middleweight.html">มิดเดิลเวต</a></li>
+                                <li><a href="welterweight.html">เวลเตอร์เวต</a></li>
+                                <li><a href="lightweight.html">ไลต์เวต</a></li>
+                                <li><a href="featherweight.html">เฟเธอร์เวต</a></li>
+                                <li><a href="bantamweight.html">แบนตัมเวต</a></li>
+                                <li><a href="flyweight.html">ฟลายเวต</a></li>
+                                <li><a href="strawweight.html">สตรอว์เวต</a></li>
+                                <li><a href="atomweight.html">อะตอมเวต</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="overall-all.html">2 จัดอันดับทั้งหมด</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">แชมป์ ▾</a>
+                    <ul>
+                        <li><a href="champions-one.html">แชมป์ วันแชมป์เปี้ยนชิพ</a></li>
+                        <li><a href="champions-poonsuea.html">แชมป์ปูนเสือ</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="search-box">
+                <input type="text" placeholder="ค้นหานักมวย...">
+                <button type="button">ค้นหา</button>
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main id="main-content">
+        
+        <h2 class="page-title">บทความวิเคราะห์เจาะลึก</h2>
+        
+        <div class="article-grid">
+            
+            <div class="article-card">
+                <div class="article-image">พื้นที่ใส่รูปภาพปกบทความ</div>
+                <div class="article-content-preview">
+                    <h3>เจาะลึกกติกา ONE Championship ดูมวยยังไงให้มันส์ รู้ลึกตั้งแต่น้ำหนักยันค่าน้ำ!</h3>
+                    <p>มาเจาะลึกเรื่องที่หลายคนสงสัยกันเวลาดูมวยรายการ ONE Championship ว่าพิกัดน้ำหนักเขาดูแปลกๆ ค่าน้ำคืออะไร แล้วกติกาการให้คะแนนเขาดูกันตรงไหนบ้าง สรุปมาให้แบบภาษาชาวบ้าน เข้าใจง่ายๆ</p>
+                    <a href="one-championship-rules-explained.html" class="read-more-btn">อ่านต่อ ▸</a>
+                </div>
+            </div>
+
+            <div class="article-card">
+                <div class="article-image">พื้นที่ใส่รูปภาพปกบทความ</div>
+                <div class="article-content-preview">
+                    <h3>รออัปเดตบทความใหม่...</h3>
+                    <p>เร็วๆ นี้ทาง BoxingFandom จะมีบทความวิเคราะห์มวยสุดเดือดมาเสิร์ฟให้แฟนๆ ได้อ่านกันอย่างแน่นอน รอติดตามกันได้เลยครับ!</p>
+                    <a href="#" class="read-more-btn">อ่านต่อ ▸</a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <nav>
+            <ul>
+                <li><a href="../../privacy.html">นโยบายความเป็นส่วนตัว</a></li>
+                <li><a href="../../about.html">เกี่ยวกับฉัน</a></li>
+                <li><a href="../../contact.html">ติดต่อ</a></li>
+            </ul>
+        </nav>
+        <p style="margin-top: 10px; font-size: 14px; color: #888;">© 2026 สงวนลิขสิทธิ์ BoxingFandom</p>
+
+    </footer>
+
+</body>
+
+</html>

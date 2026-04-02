@@ -1,0 +1,103 @@
+{
+  "last_updated": "2026-03-31T07:07:10.305Z",
+  "stadium": "Rajadamnern Stadium",
+  "division": "Super Lightweight",
+  "fighters": [
+    {
+      "rank": "C",
+      "name": "Dam Paranchai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "1",
+      "name": "Capitan Petchyindee Academy",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "2",
+      "name": "Rungsaengtawan Sor. Parat",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "3",
+      "name": "Chadd Collins",
+      "image_url": "",
+      "country": "AU"
+    },
+    {
+      "rank": "4",
+      "name": "Rungkhao Wor. Sangprapai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "5",
+      "name": "Petchwichai Detchdecho",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "6",
+      "name": "Paruhatnoi Sor. Sommai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "7",
+      "name": "Chartmungkorn Chor. Hapayak",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "8",
+      "name": "Kongkula Jitmuangnon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "9",
+      "name": "Kongsuek Sitsarawatsua",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "10",
+      "name": "Kimluay Wankhongohm",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "11",
+      "name": "Ployapichart Apichart Muay Thai Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "12",
+      "name": "Saenheng Looknungubon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "13",
+      "name": "Petchanda Kiatyodying",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "14",
+      "name": "Jack Sit Jack Muay Thai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "15",
+      "name": "Changsuek Petchyindee Academy",
+      "image_url": "",
+      "country": "TH"
+    }
+  ]
+}

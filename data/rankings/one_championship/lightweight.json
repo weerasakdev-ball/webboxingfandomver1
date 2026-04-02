@@ -1,0 +1,508 @@
+{
+    "last_updated": "2026-03-31",
+    "division": "Lightweight",
+    "fighters": [
+        {
+            "name_th": "นาบิล อานาน",
+            "image_url": "https://i.ibb.co/TCnLWSH/image.jpg",
+            "team_th": "ทีม เมห์ดี ซาทูต",
+            "country_th": "แอลจีเรีย/ไทย",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 8,
+                        "losses": 2,
+                        "draws": 1,
+                        "ko_wins": 3,
+                        "points": 31
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 8,
+                        "losses": 2,
+                        "draws": 1,
+                        "ko_wins": 3,
+                        "points": 31
+                    }
+                },
+                "yearly": {
+                    "2023": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2024": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "นาบิล-อานาน.html",
+            "trend": "new",
+            "last_rank": null
+        },
+        {
+            "name_th": "มาลัมโบ เปลาเอซ",
+            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324021/%E0%B8%A1%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A1%E0%B9%82%E0%B8%9A_%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B9%80%E0%B8%AD%E0%B8%8B_rmyrlc.png",
+            "team_th": "ยังไม่มีข้อมูล",
+            "country_th": "เปรู",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 7,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 4,
+                        "points": 29
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 7,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 4,
+                        "points": 29
+                    }
+                },
+                "yearly": {
+                    "2021": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2022": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2023": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2024": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "มาลัมโบ-เปลาเอซ.html",
+            "trend": "new",
+            "last_rank": null
+        },
+        {
+            "name_th": "อีธาน บร็อกเค็ต",
+            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773246465/%E0%B8%AD%E0%B8%B5%E0%B8%98%E0%B8%B2%E0%B8%99_%E0%B8%9A%E0%B8%A3%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%84%E0%B9%87%E0%B8%95_alijck.png",
+            "team_th": "ไม่ระบุ",
+            "country_th": "ไม่ระบุ",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 7,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 4,
+                        "points": 29
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 7,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 4,
+                        "points": 29
+                    }
+                },
+                "yearly": {
+                    "2021": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2022": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2023": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2024": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "อีธาน-บร็อกเค็ต.html",
+            "trend": "new",
+            "last_rank": null
+        },
+        {
+            "name_th": "ดีอาส ออเตเกน",
+            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324022/%E0%B8%94%E0%B8%B5%E0%B8%AD%E0%B8%B2%E0%B8%AA_%E0%B8%AD%E0%B8%AD%E0%B9%80%E0%B8%95%E0%B9%80%E0%B8%81%E0%B8%99_muczu7.png",
+            "team_th": "ยังไม่มีข้อมูล",
+            "country_th": "คาซัคสถาน",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 2,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 6
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 2,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 6
+                    }
+                },
+                "yearly": {
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "ดีอาส-ออเตเกน.html",
+            "trend": "new",
+            "last_rank": null
+        },
+        {
+            "name_th": "เรย์ยาน บัตต์",
+            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773246464/%E0%B9%80%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A2%E0%B8%B2%E0%B8%99_%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B9%8C_ednixj.png",
+            "team_th": "ไม่ระบุ",
+            "country_th": "ไม่ระบุ",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 0,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 0,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    }
+                },
+                "yearly": {
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "เรย์ยาน-บัตต์.html",
+            "trend": "new",
+            "last_rank": null
+        }
+    ]
+}

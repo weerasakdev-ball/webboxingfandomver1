@@ -1,0 +1,116 @@
+[
+    { "year": 2567, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "เฮฟวีเวต", "weight_class_en": "Heavyweight", "champion_name_th": "อูมาร์ คาน", "champion_name_en": "Oumar Kane", "image_url": "" },
+    { "year": 2566, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "เฮฟวีเวต", "weight_class_en": "Heavyweight", "champion_name_th": "อนาโตลี มาลีคิน", "champion_name_en": "Anatoly Malykhin", "image_url": "" },
+    { "year": 2565, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "เฮฟวีเวต", "weight_class_en": "Heavyweight", "champion_name_th": "อนาโตลี มาลีคิน (เฉพาะกาล)", "champion_name_en": "Anatoly Malykhin (Interim)", "image_url": "" },
+    { "year": 2564, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "เฮฟวีเวต", "weight_class_en": "Heavyweight", "champion_name_th": "อาร์จาน บูลลาร์", "champion_name_en": "Arjan Bhullar", "image_url": "" },
+    { "year": 2558, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "เฮฟวีเวต", "weight_class_en": "Heavyweight", "champion_name_th": "แบรนดอน เวรา", "champion_name_en": "Brandon Vera", "image_url": "" },
+
+    { "year": 2565, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "ไลต์เฮฟวีเวต", "weight_class_en": "Light Heavyweight", "champion_name_th": "อนาโตลี มาลีคิน", "champion_name_en": "Anatoly Malykhin", "image_url": "" },
+    { "year": 2564, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "ไลต์เฮฟวีเวต", "weight_class_en": "Light Heavyweight", "champion_name_th": "ไรเนียร์ เดอ ริดเดอร์", "champion_name_en": "Reinier de Ridder", "image_url": "" },
+    { "year": 2561, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "ไลต์เฮฟวีเวต", "weight_class_en": "Light Heavyweight", "champion_name_th": "ออง ลา เอ็น ซาง", "champion_name_en": "Aung La N Sang", "image_url": "" },
+    { "year": 2559, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "ไลต์เฮฟวีเวต", "weight_class_en": "Light Heavyweight", "champion_name_th": "โรเจอร์ เกรซี", "champion_name_en": "Roger Gracie", "image_url": "" },
+
+    { "year": 2567, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "มิดเดิลเวต", "weight_class_en": "Middleweight", "champion_name_th": "อนาโตลี มาลีคิน", "champion_name_en": "Anatoly Malykhin", "image_url": "" },
+
+    { "year": 2565, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "เวลเตอร์เวต", "weight_class_en": "Welterweight", "champion_name_th": "คริสเตียน ลี", "champion_name_en": "Christian Lee", "image_url": "" },
+    { "year": 2562, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "เวลเตอร์เวต", "weight_class_en": "Welterweight", "champion_name_th": "เคียมเรียน อับบาสซอฟ", "champion_name_en": "Kiamrian Abbasov", "image_url": "" },
+    { "year": 2561, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "เวลเตอร์เวต", "weight_class_en": "Welterweight", "champion_name_th": "เซบาสเตียน คาเดสตัม", "champion_name_en": "Zebaztian Kadestam", "image_url": "" },
+    { "year": 2557, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "เวลเตอร์เวต", "weight_class_en": "Welterweight", "champion_name_th": "เบน แอสเครน", "champion_name_en": "Ben Askren", "image_url": "" },
+    { "year": 2557, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "เวลเตอร์เวต", "weight_class_en": "Welterweight", "champion_name_th": "โนบุตัตสึ ซูซูกิ", "champion_name_en": "Nobutatsu Suzuki", "image_url": "" },
+
+    { "year": 2565, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "ไลต์เวต", "weight_class_en": "Lightweight", "champion_name_th": "คริสเตียน ลี", "champion_name_en": "Christian Lee", "image_url": "" },
+
+    { "year": 2565, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "เฟเธอร์เวต", "weight_class_en": "Featherweight", "champion_name_th": "ถัง ไค", "champion_name_en": "Tang Kai", "image_url": "" },
+    { "year": 2560, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "เฟเธอร์เวต", "weight_class_en": "Featherweight", "champion_name_th": "มาร์ติน เหงียน", "champion_name_en": "Martin Nguyen", "image_url": "" },
+    { "year": 2558, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "เฟเธอร์เวต", "weight_class_en": "Featherweight", "champion_name_th": "มารัต กาฟูรอฟ", "champion_name_en": "Marat Gafurov", "image_url": "" },
+    { "year": 2557, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "เฟเธอร์เวต", "weight_class_en": "Featherweight", "champion_name_th": "นารันตุงกาลัก จาดัมบา", "champion_name_en": "Narantungalag Jadambaa", "image_url": "" },
+    { "year": 2556, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "เฟเธอร์เวต", "weight_class_en": "Featherweight", "champion_name_th": "โคจิ โออิชิ", "champion_name_en": "Koji Oishi", "image_url": "" },
+    { "year": 2556, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "เฟเธอร์เวต", "weight_class_en": "Featherweight", "champion_name_th": "โฮโนริโอ บานาริโอ", "champion_name_en": "Honorio Banario", "image_url": "" },
+
+    { "year": 2568, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "แบนตัมเวต", "weight_class_en": "Bantamweight", "champion_name_th": "เอ็งค์ ออร์กิล บาตาร์คู", "champion_name_en": "Enkh-Orgil Baatarkhuu", "image_url": "" },
+    { "year": 2566, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "แบนตัมเวต", "weight_class_en": "Bantamweight", "champion_name_th": "ฟาบริซิโอ อานดราด", "champion_name_en": "Fabricio Andrade", "image_url": "" },
+    { "year": 2565, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "แบนตัมเวต", "weight_class_en": "Bantamweight", "champion_name_th": "จอห์น ลินีเคอร์", "champion_name_en": "John Lineker", "image_url": "" },
+    { "year": 2562, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "แบนตัมเวต", "weight_class_en": "Bantamweight", "champion_name_th": "บิเบียโน เฟอร์นานเดส", "champion_name_en": "Bibiano Fernandes", "image_url": "" },
+    { "year": 2561, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "แบนตัมเวต", "weight_class_en": "Bantamweight", "champion_name_th": "เควิน เบลิงกอน", "champion_name_en": "Kevin Belingon", "image_url": "" },
+    { "year": 2556, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "แบนตัมเวต", "weight_class_en": "Bantamweight", "champion_name_th": "บิเบียโน เฟอร์นานเดส", "champion_name_en": "Bibiano Fernandes", "image_url": "" },
+    { "year": 2555, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "แบนตัมเวต", "weight_class_en": "Bantamweight", "champion_name_th": "คิม ซู ชอล", "champion_name_en": "Kim Soo-chul", "image_url": "" },
+
+    { "year": 2568, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "ฟลายเวต", "weight_class_en": "Flyweight", "champion_name_th": "ยูยะ วากามัตสึ", "champion_name_en": "Yuya Wakamatsu", "image_url": "" },
+    { "year": 2562, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "ฟลายเวต", "weight_class_en": "Flyweight", "champion_name_th": "ดิมิเทรียส จอห์นสัน", "champion_name_en": "Demetrious Johnson", "image_url": "" },
+    { "year": 2557, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "ฟลายเวต", "weight_class_en": "Flyweight", "champion_name_th": "อาเดรียโน โมราเอส", "champion_name_en": "Adriano Moraes", "image_url": "" },
+
+    { "year": 2567, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "สตรอว์เวต", "weight_class_en": "Strawweight", "champion_name_th": "จอชัว พาซิโอ", "champion_name_en": "Joshua Pacio", "image_url": "" },
+    { "year": 2565, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "สตรอว์เวต", "weight_class_en": "Strawweight", "champion_name_th": "จาร์เร็ด บรูคส์", "champion_name_en": "Jarred Brooks", "image_url": "" },
+    { "year": 2562, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "สตรอว์เวต", "weight_class_en": "Strawweight", "champion_name_th": "จอชัว พาซิโอ", "champion_name_en": "Joshua Pacio", "image_url": "" },
+    { "year": 2562, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "สตรอว์เวต", "weight_class_en": "Strawweight", "champion_name_th": "โยซูเกะ ซารูตะ", "champion_name_en": "Yosuke Saruta", "image_url": "" },
+    { "year": 2560, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "สตรอว์เวต", "weight_class_en": "Strawweight", "champion_name_th": "อเล็กซ์ ซิลวา", "champion_name_en": "Alex Silva", "image_url": "" },
+    { "year": 2559, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "สตรอว์เวต", "weight_class_en": "Strawweight", "champion_name_th": "โยชิตากะ นาอิโตะ", "champion_name_en": "Yoshitaka Naito", "image_url": "" },
+    { "year": 2558, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "สตรอว์เวต", "weight_class_en": "Strawweight", "champion_name_th": "เดชดำรงค์ ส.อำนวยศิริโชค", "champion_name_en": "Dejdamrong Sor Amnuaysirichoke", "image_url": "" },
+
+    { "year": 2568, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "อะตอมเวตหญิง", "weight_class_en": "Women's Atomweight", "champion_name_th": "เดนิส แซมโบอันกา", "champion_name_en": "Denice Zamboanga", "image_url": "" },
+    { "year": 2568, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "อะตอมเวตหญิง", "weight_class_en": "Women's Atomweight", "champion_name_th": "เดนิส แซมโบอันกา (เฉพาะกาล)", "champion_name_en": "Denice Zamboanga (Interim)", "image_url": "" },
+    { "year": 2566, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "อะตอมเวตหญิง", "weight_class_en": "Women's Atomweight", "champion_name_th": "แสตมป์ แฟร์เท็กซ์", "champion_name_en": "Stamp Fairtex", "image_url": "" },
+    { "year": 2559, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "อะตอมเวตหญิง", "weight_class_en": "Women's Atomweight", "champion_name_th": "แองเจลา ลี", "champion_name_en": "Angela Lee", "image_url": "" },
+
+    { "year": 2561, "ruleset_th": "กติกาการต่อสู้แบบผสมผสาน (MMA)", "ruleset_en": "MMA", "weight_class_th": "สตรอว์เวตหญิง", "weight_class_en": "Women's Strawweight", "champion_name_th": "ซง จิง หนาน", "champion_name_en": "Xiong Jing Nan", "image_url": "" },
+
+    { "year": 2566, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "เฮฟวีเวต", "weight_class_en": "Heavyweight", "champion_name_th": "โรมัน เคร็กเคลีย", "champion_name_en": "Roman Kryklia", "image_url": "" },
+    
+    { "year": 2565, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "ไลต์เวต", "weight_class_en": "Lightweight", "champion_name_th": "รีเกียน เออร์เซล", "champion_name_en": "Regian Eersel", "image_url": "" },
+
+    { "year": 2569, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "เฟเธอร์เวต", "weight_class_en": "Featherweight", "champion_name_th": "นิโค คาร์ริลโล (เฉพาะกาล)", "champion_name_en": "Nico Carrillo (Interim)", "image_url": "" },
+    { "year": 2565, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "เฟเธอร์เวต", "weight_class_en": "Featherweight", "champion_name_th": "ตะวันฉาย พีเค.แสนชัย", "champion_name_en": "Tawanchai PK Saenchai", "image_url": "" },
+    { "year": 2563, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "เฟเธอร์เวต", "weight_class_en": "Featherweight", "champion_name_th": "เพชรมรกต เพชรยินดี", "champion_name_en": "Petchmorakot Petchyindee", "image_url": "" },
+
+    { "year": 2569, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "แบนตัมเวต", "weight_class_en": "Bantamweight", "champion_name_th": "แรมโบ้เล็ก ฉ.อจลบุญ", "champion_name_en": "Rambolek Chor Ajalaboon", "image_url": "" },
+    { "year": 2569, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "แบนตัมเวต", "weight_class_en": "Bantamweight", "champion_name_th": "นาบิล อานาน", "champion_name_en": "Nabil Anane", "image_url": "" },
+    { "year": 2567, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "แบนตัมเวต", "weight_class_en": "Bantamweight", "champion_name_th": "ซุปเปอร์เล็ก เกียรติหมู่ 9", "champion_name_en": "Superlek Kiatmoo9", "image_url": "" },
+    { "year": 2566, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "แบนตัมเวต", "weight_class_en": "Bantamweight", "champion_name_th": "โจนาธาน แฮ็กเกอร์ตี", "champion_name_en": "Jonathan Haggerty", "image_url": "" },
+    { "year": 2562, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "แบนตัมเวต", "weight_class_en": "Bantamweight", "champion_name_th": "น้องโอ๋ ฮาม่า", "champion_name_en": "Nong-O Hama", "image_url": "" },
+
+    { "year": 2567, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "ฟลายเวต", "weight_class_en": "Flyweight", "champion_name_th": "แชมป์ว่าง", "champion_name_en": "Vacant", "image_url": "" },
+    { "year": 2562, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "ฟลายเวต", "weight_class_en": "Flyweight", "champion_name_th": "รถถัง จิตรเมืองนนท์", "champion_name_en": "Rodtang Jitmuangnon", "image_url": "" },
+    { "year": 2562, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "ฟลายเวต", "weight_class_en": "Flyweight", "champion_name_th": "โจนาธาน แฮ็กเกอร์ตี", "champion_name_en": "Jonathan Haggerty", "image_url": "" },
+    { "year": 2561, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "ฟลายเวต", "weight_class_en": "Flyweight", "champion_name_th": "สามเอ ไก่ย่างห้าดาว", "champion_name_en": "Sam-A Gaiyanghadao", "image_url": "" },
+
+    { "year": 2566, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "สตรอว์เวต", "weight_class_en": "Strawweight", "champion_name_th": "พระจันทร์ฉาย พีเค.แสนชัย", "champion_name_en": "Prajanchai PK Saenchai", "image_url": "" },
+    { "year": 2563, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "สตรอว์เวต", "weight_class_en": "Strawweight", "champion_name_th": "สามเอ ไก่ย่างห้าดาว", "champion_name_en": "Sam-A Gaiyanghadao", "image_url": "" },
+
+    { "year": 2568, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "อะตอมเวตชาย", "weight_class_en": "Men's Atomweight", "champion_name_th": "นาดากะ โยชินาริ", "champion_name_en": "Nadaka Yoshinari", "image_url": "" },
+    
+    { "year": 2568, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "สตรอว์เวตหญิง", "weight_class_en": "Women's Strawweight", "champion_name_th": "สเตลลา เฮเมตสเบอร์เกอร์", "champion_name_en": "Stella Hemetsberger", "image_url": "" },
+    
+    { "year": 2563, "ruleset_th": "กติกามวยไทย", "ruleset_en": "Muay Thai", "weight_class_th": "อะตอมเวตหญิง", "weight_class_en": "Women's Atomweight", "champion_name_th": "อัลลิเซีย เฮลเลน รอดริเกส", "champion_name_en": "Allycia Hellen Rodrigues", "image_url": "" },
+
+    { "year": 2568, "ruleset_th": "กติกาคิกบ็อกซิ่ง", "ruleset_en": "Kickboxing", "weight_class_th": "เฮฟวีเวต", "weight_class_en": "Heavyweight", "champion_name_th": "ซาเมต อักเดเว", "champion_name_en": "Samet Agdeve", "image_url": "" },
+    { "year": 2565, "ruleset_th": "กติกาคิกบ็อกซิ่ง", "ruleset_en": "Kickboxing", "weight_class_th": "เฮฟวีเวต", "weight_class_en": "Heavyweight", "champion_name_th": "โรมัน เคร็กเคลีย", "champion_name_en": "Roman Kryklia", "image_url": "" },
+
+    { "year": 2562, "ruleset_th": "กติกาคิกบ็อกซิ่ง", "ruleset_en": "Kickboxing", "weight_class_th": "ไลต์เฮฟวีเวต", "weight_class_en": "Light Heavyweight", "champion_name_th": "โรมัน เคร็กเคลีย", "champion_name_en": "Roman Kryklia", "image_url": "" },
+
+    { "year": 2568, "ruleset_th": "กติกาคิกบ็อกซิ่ง", "ruleset_en": "Kickboxing", "weight_class_th": "ไลต์เวต", "weight_class_en": "Lightweight", "champion_name_th": "แชมป์ว่าง", "champion_name_en": "Vacant", "image_url": "" },
+    { "year": 2565, "ruleset_th": "กติกาคิกบ็อกซิ่ง", "ruleset_en": "Kickboxing", "weight_class_th": "ไลต์เวต", "weight_class_en": "Lightweight", "champion_name_th": "รีเกียน เออร์เซล", "champion_name_en": "Regian Eersel", "image_url": "" },
+
+    { "year": 2568, "ruleset_th": "กติกาคิกบ็อกซิ่ง", "ruleset_en": "Kickboxing", "weight_class_th": "เฟเธอร์เวต", "weight_class_en": "Featherweight", "champion_name_th": "ซุปเปอร์บอน", "champion_name_en": "Superbon", "image_url": "" },
+    { "year": 2565, "ruleset_th": "กติกาคิกบ็อกซิ่ง", "ruleset_en": "Kickboxing", "weight_class_th": "เฟเธอร์เวต", "weight_class_en": "Featherweight", "champion_name_th": "ชิงกิซ อัลลาซอฟ", "champion_name_en": "Chingiz Allazov", "image_url": "" },
+    { "year": 2564, "ruleset_th": "กติกาคิกบ็อกซิ่ง", "ruleset_en": "Kickboxing", "weight_class_th": "เฟเธอร์เวต", "weight_class_en": "Featherweight", "champion_name_th": "ซุปเปอร์บอน", "champion_name_en": "Superbon", "image_url": "" },
+
+    { "year": 2566, "ruleset_th": "กติกาคิกบ็อกซิ่ง", "ruleset_en": "Kickboxing", "weight_class_th": "แบนตัมเวต", "weight_class_en": "Bantamweight", "champion_name_th": "โจนาธาน แฮ็กเกอร์ตี", "champion_name_en": "Jonathan Haggerty", "image_url": "" },
+
+    { "year": 2566, "ruleset_th": "กติกาคิกบ็อกซิ่ง", "ruleset_en": "Kickboxing", "weight_class_th": "ฟลายเวต", "weight_class_en": "Flyweight", "champion_name_th": "ซุปเปอร์เล็ก เกียรติหมู่ 9", "champion_name_en": "Superlek Kiatmoo9", "image_url": "" },
+
+    { "year": 2568, "ruleset_th": "กติกาคิกบ็อกซิ่ง", "ruleset_en": "Kickboxing", "weight_class_th": "สตรอว์เวต", "weight_class_en": "Strawweight", "champion_name_th": "โจนาธาน ดิ เบลลา", "champion_name_en": "Jonathan Di Bella", "image_url": "" },
+    { "year": 2567, "ruleset_th": "กติกาคิกบ็อกซิ่ง", "ruleset_en": "Kickboxing", "weight_class_th": "สตรอว์เวต", "weight_class_en": "Strawweight", "champion_name_th": "พระจันทร์ฉาย พีเค.แสนชัย", "champion_name_en": "Prajanchai PK Saenchai", "image_url": "" },
+    { "year": 2565, "ruleset_th": "กติกาคิกบ็อกซิ่ง", "ruleset_en": "Kickboxing", "weight_class_th": "สตรอว์เวต", "weight_class_en": "Strawweight", "champion_name_th": "โจนาธาน ดิ เบลลา", "champion_name_en": "Jonathan Di Bella", "image_url": "" },
+    { "year": 2562, "ruleset_th": "กติกาคิกบ็อกซิ่ง", "ruleset_en": "Kickboxing", "weight_class_th": "สตรอว์เวต", "weight_class_en": "Strawweight", "champion_name_th": "สามเอ ไก่ย่างห้าดาว", "champion_name_en": "Sam-A Gaiyanghadao", "image_url": "" },
+
+    { "year": 2569, "ruleset_th": "กติกาคิกบ็อกซิ่ง", "ruleset_en": "Kickboxing", "weight_class_th": "สตรอว์เวตหญิง", "weight_class_en": "Women's Strawweight", "champion_name_th": "สเตลลา เฮเมตสเบอร์เกอร์", "champion_name_en": "Stella Hemetsberger", "image_url": "" },
+    
+    { "year": 2567, "ruleset_th": "กติกาคิกบ็อกซิ่ง", "ruleset_en": "Kickboxing", "weight_class_th": "อะตอมเวตหญิง", "weight_class_en": "Women's Atomweight", "champion_name_th": "เพชรจีจ้า ลูกเจ้าพ่อโรงต้ม", "champion_name_en": "Phetjeeja Lukjaoporongtom", "image_url": "" },
+
+    { "year": 2566, "ruleset_th": "กติกาปล้ำจับล็อก", "ruleset_en": "Submission Grappling", "weight_class_th": "เวลเตอร์เวต", "weight_class_en": "Welterweight", "champion_name_th": "ไท รูโอโตโล", "champion_name_en": "Tye Ruotolo", "image_url": "" },
+    
+    { "year": 2565, "ruleset_th": "กติกาปล้ำจับล็อก", "ruleset_en": "Submission Grappling", "weight_class_th": "ไลต์เวต", "weight_class_en": "Lightweight", "champion_name_th": "เคด รูโอโตโล", "champion_name_en": "Kade Ruotolo", "image_url": "" },
+    
+    { "year": 2568, "ruleset_th": "กติกาปล้ำจับล็อก", "ruleset_en": "Submission Grappling", "weight_class_th": "ฟลายเวต", "weight_class_en": "Flyweight", "champion_name_th": "ดิโอโก เรอิส", "champion_name_en": "Diogo Reis", "image_url": "" },
+    { "year": 2565, "ruleset_th": "กติกาปล้ำจับล็อก", "ruleset_en": "Submission Grappling", "weight_class_th": "ฟลายเวต", "weight_class_en": "Flyweight", "champion_name_th": "ไมกี มูซูเมกี", "champion_name_en": "Mikey Musumeci", "image_url": "" }
+]

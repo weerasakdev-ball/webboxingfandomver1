@@ -1,0 +1,109 @@
+{
+  "last_updated": "2026-03-31T07:07:18.074Z",
+  "stadium": "Rajadamnern Stadium",
+  "division": "Featherweight",
+  "fighters": [
+    {
+      "rank": "C",
+      "name": "Yothin F.A. Group",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "IC",
+      "name": "Chiabkard Por. Pongsawang",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "1",
+      "name": "Jaguar Petchyindee Academy",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "2",
+      "name": "Mangkonlek Pernnakorn",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "3",
+      "name": "Petchnamnueng Tor. Surat",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "4",
+      "name": "Petchnamake Sitsampeenong",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "5",
+      "name": "Suesat Manop Muay Thai Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "6",
+      "name": "Narak Por. Prajak",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "7",
+      "name": "Boonchote Sor.Boonmeerit",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "8",
+      "name": "Samingdaeng Wankhongohm MBK",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "9",
+      "name": "Pornsanae Sor. Phumipat",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "10",
+      "name": "Kaewfahnoi Jeab Ramintra",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "11",
+      "name": "Chujai Chujai Muay Thai Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "12",
+      "name": "Venom Luckybanterng",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "13",
+      "name": "Ronnachai Tor. Ramintra",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "14",
+      "name": "Kaensak Jitmuangnon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "15",
+      "name": "Kaolan Sor. Jor. Daenrayong",
+      "image_url": "",
+      "country": "TH"
+    }
+  ]
+}

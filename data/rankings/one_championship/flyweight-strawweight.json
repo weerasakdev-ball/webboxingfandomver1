@@ -1,0 +1,111 @@
+{
+    "last_updated": "2026-03-31",
+    "division": "Flyweight / Strawweight",
+    "fighters": [
+        {
+            "name_th": "ซาเวียร์ กอนซาเลส",
+            "image_url": "https://i.ibb.co/NdgbN8Jf/image.jpg",
+            "team_th": "ส.เดชะพันธ์",
+            "country_th": "สเปน",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 5,
+                        "losses": 5,
+                        "draws": 0,
+                        "ko_wins": 2,
+                        "points": 19
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 5,
+                        "losses": 5,
+                        "draws": 0,
+                        "ko_wins": 2,
+                        "points": 19
+                    }
+                },
+                "yearly": {
+                    "2023": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2024": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "ซาเวียร์-กอนซาเลส.html",
+            "trend": "new",
+            "last_rank": null
+        }
+    ]
+}

@@ -1,0 +1,189 @@
+{
+    "fighter_profile": {
+        "name_th": "ชาติพยัคฆ์ ศักดิ์สตูล",
+        "name_en": "Chartpayak Saksatoon",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773123149/%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_jlhv1a.jpg",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยบู๊, หมัดหนัก",
+        "fighting_style_en": "Aggressive Striker, Heavy Puncher",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": "ไม่ระบุ",
+            "weight_kg": "ไม่ระบุ",
+            "division": "Catchweight (126 lbs - 130 lbs)",
+            "height_ft": "5'6\"",
+            "height_cm": 168,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 27,
+            "team_th": "เกียรติเพชร",
+            "team_en": "Kiatpetch"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/chartpayak-saksatoon/"
+        ],
+        "short_biography": "ชาติพยัคฆ์ ศักดิ์สตูล (Chartpayak Saksatoon) เป็นนักชกชาวไทย วัย 27 ปี จากสังกัดเกียรติเพชร มีความถนัดในการต่อสู้สไตล์มวยบู๊, หมัดหนัก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Catchweight (126 lbs - 130 lbs) ส่วนสูง 168 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 138 สามารถพ่ายแพ้ให้กับ อายัด อัลบัด ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อายัด อัลบัด",
+            "opponent_en": "",
+            "opponent_country": "อิรัก",
+            "date": "Jan 16, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 138"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซามันดาร์ คาซานอฟ",
+            "opponent_en": "",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Nov 14, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 133"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:33",
+            "opponent_th": "รามาดาน ออนดาช",
+            "opponent_en": "",
+            "opponent_country": "เลบานอน",
+            "date": "Jun 27, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 114"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:51",
+            "opponent_th": "คมเพชร ศิษย์สารวัตรเสือ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 11, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 104"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 28, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 98"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "คมเพชร ศิษย์สารวัตรเสือ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 08, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 86"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:28",
+            "opponent_th": "เพชรน้ำงาม พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 20, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 80"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:08",
+            "opponent_th": "พรเสน่ห์ ส.ภูมิภัทร",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 19, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 71"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:04",
+            "opponent_th": "เมาคลี ฉ.อจลบุญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 17, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 63"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:00",
+            "opponent_th": "ดาบดำ ปตท.ทองทวี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 15, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 45"
+        }
+    ]
+}

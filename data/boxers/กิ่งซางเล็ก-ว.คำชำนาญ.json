@@ -1,0 +1,158 @@
+{
+    "fighter_profile": {
+        "name_th": "กิ่งซางเล็ก ว.คำชำนาญ",
+        "name_en": "Kingsanglek Kor.Khamchunnan",
+        "alias": "ยังไม่มีข้อมูล",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531948/%E0%B8%81%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%8B%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81-%E0%B8%A7.%E0%B8%84%E0%B8%B3%E0%B8%8A%E0%B8%B3%E0%B8%99%E0%B8%B2%E0%B8%8D_wtdac2.jpg",
+        "grade": "A",
+        "fighting_style_th": "บุก",
+        "stance": "Orthodox",
+        "personal_info": {
+            "team_th": "พีเค.แสนชัยมวยไทยยิม",
+            "country_th": "ไทย",
+            "dob": "",
+            "age": 24
+        },
+        "physical_stats": {
+            "division": "Flyweight",
+            "weight_lbs": 135,
+            "height_cm": 165,
+            "reach_cm": null,
+            "leg_reach_cm": null
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "total_per_minute": 12
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 50
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 39
+            }
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/gingsanglek-tor-laksong/"
+        ],
+        "short_biography": "กิ่งซางเล็ก ว.คำชำนาญ (Kingsanglek Kor.Khamchunnan) เป็นนักชกชาวไทย วัย 24 ปี จากสังกัดพีเค.แสนชัยมวยไทยยิม มีความถนัดในการต่อสู้สไตล์บุก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight ส่วนสูง 165 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 147 สามารถพ่ายแพ้ให้กับ ยอดเหล็กเพชร อ.อัจฉริยะ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:26",
+            "opponent_th": "ยอดเหล็กเพชร อ.อัจฉริยะ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 147"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:11",
+            "opponent_th": "ธานท์ ซิน",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Aug 15, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 120"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:53",
+            "opponent_th": "อเล็กเซย์ บาลีโก",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Jul 04, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 115"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:45",
+            "opponent_th": "เอกอร์ บิเกรฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Nov 08, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 86"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:49",
+            "opponent_th": "โจอาคิม อูรากี",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส/แอลจีเรีย",
+            "date": "Jan 19, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 48"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:28",
+            "opponent_th": "ก้องธรณี ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 23, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 22"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:13",
+            "opponent_th": "ช่อฟ้า ท.แสงเทียนน้อย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 28, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 14"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:02",
+            "opponent_th": "ก้องธรณี ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 24, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 6"
+        }
+    ]
+}

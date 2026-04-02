@@ -1,0 +1,255 @@
+{
+    "fighter_profile": {
+        "name_th": "โจ ณัฐวุฒิ",
+        "name_en": "Jo Nattawut",
+        "alias": "Smokin' Jo",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531976/%E0%B9%82%E0%B8%88-%E0%B8%93%E0%B8%B1%E0%B8%90%E0%B8%A7%E0%B8%B8%E0%B8%92%E0%B8%B4_nvti1i.jpg",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยฝีมือ, เตะหนัก, ประสบการณ์สูง",
+        "fighting_style_en": "Technical Fighter, Heavy Kicks, Highly Experienced",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 154.5,
+            "weight_kg": 70.1,
+            "division": "Featherweight (145 - 155 lbs)",
+            "height_ft": "5'10\"",
+            "height_cm": 178,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 36,
+            "team_th": "ไทยท็อปทีม (Thai Top Team)",
+            "team_en": "Thai Top Team"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/jo-nattawut/"
+        ],
+        "short_biography": "โจ ณัฐวุฒิ (Jo Nattawut) เป็นนักชกชาวไทย วัย 36 ปี จากสังกัดไทยท็อปทีม (Thai Top Team) มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, เตะหนัก, ประสบการณ์สูง ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Featherweight (145 - 155 lbs) (ประมาณ 70.1 กิโลกรัม) ส่วนสูง 178 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง สามารถพ่ายแพ้ให้กับ โมฮัมหมัด เซียซารานี ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:39",
+            "opponent_th": "โมฮัมหมัด เซียซารานี",
+            "opponent_en": "",
+            "opponent_country": "อิหร่าน",
+            "date": "Dec 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:34",
+            "opponent_th": "บัมปารา คูยาเต",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส/มาลี",
+            "date": "Jan 24, 2025",
+            "rating": 5,
+            "event_en": "ONE 170"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:43",
+            "opponent_th": "ซุปเปอร์บอน ซุปเปอร์บอนเทรนนิงแคมป์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 27, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "ตะวันฉาย พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 07, 2024",
+            "rating": 5,
+            "event_en": "ONE 167: ตะวันฉาย vs โจ II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ลุค ลิสซีย์",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "Dec 08, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 17: โรมัน vs อเล็กซ์"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ตะวันฉาย พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 06, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 15: ธานฮ์ vs อิลยา"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "ยูซูพอฟ จามาล",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "Jul 22, 2022",
+            "rating": 5,
+            "event_en": "ONE 159: ไรเนียร์ vs วิตาลี"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:55",
+            "opponent_th": "ชิงกิซ อัลลาซอฟ",
+            "opponent_en": "",
+            "opponent_country": "อาเซอร์ไบจาน/เบลารุส",
+            "date": "Jan 28, 2022",
+            "rating": 5,
+            "event_en": "ONE ONLY THE BRAVE"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:50",
+            "opponent_th": "ยูริก ดาฟเทียน",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย/อาร์เมเนีย",
+            "date": "Nov 12, 2021",
+            "rating": 5,
+            "event_en": "ONE NextGen II"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:50",
+            "opponent_th": "จอร์จิโอ เปโตรเซียน",
+            "opponent_en": "",
+            "opponent_country": "อิตาลี",
+            "date": "Aug 16, 2019",
+            "rating": 5,
+            "event_en": "ONE DREAMS OF GOLD"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:24",
+            "opponent_th": "ซาชา โมอิซา",
+            "opponent_en": "",
+            "opponent_country": "ยูเครน",
+            "date": "May 17, 2019",
+            "rating": 5,
+            "event_en": "ONE ENTER THE DRAGON"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "N/A",
+            "opponent_th": "เซมี ซานา",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส/แอลจีเรีย",
+            "date": "Feb 16, 2019",
+            "rating": 5,
+            "event_en": "ONE CLASH OF LEGENDS"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "จอร์จ แมนน์",
+            "opponent_en": "",
+            "opponent_country": "สกอตแลนด์",
+            "date": "Nov 09, 2018",
+            "rating": 5,
+            "event_en": "ONE HEART OF THE LION"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:59",
+            "opponent_th": "โยฮัน แฟร์เท็กซ์ เดรย์",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส",
+            "date": "Jul 13, 2018",
+            "rating": 5,
+            "event_en": "ONE PURSUIT OF POWER"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "N/A",
+            "opponent_th": "จอร์จิโอ เปโตรเซียน",
+            "opponent_en": "",
+            "opponent_country": "อิตาลี",
+            "date": "Apr 20, 2018",
+            "rating": 5,
+            "event_en": "ONE HEROES OF HONOR"
+        }
+    ]
+}

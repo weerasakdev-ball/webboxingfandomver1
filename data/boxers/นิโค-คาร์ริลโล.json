@@ -1,0 +1,162 @@
+{
+    "fighter_profile": {
+        "name_th": "นิโค คาร์ริลโล",
+        "name_en": "Nico Carrillo",
+        "alias": "King of the North",
+        "image_url": "https://i.ibb.co/bMPBs7MR/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยหมัด, บู๊",
+        "fighting_style_en": "Power Puncher, Aggressive",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 145,
+            "weight_kg": 65.8,
+            "division": "Bantamweight",
+            "height_ft": "5'10\"",
+            "height_cm": 179,
+            "reach_cm": "183",
+            "leg_reach_cm": "102"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 10,
+                "body": 3,
+                "legs": 2,
+                "total_per_minute": 15
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 54,
+                "accuracy_by_target_percentage": {
+                    "head": 65,
+                    "body": 20,
+                    "legs": 15
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 42,
+                "defense_by_target_percentage": {
+                    "head": 40,
+                    "body": 35,
+                    "legs": 25
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "สกอตแลนด์",
+            "country_en": "Scotland",
+            "age": 27,
+            "team_th": "เดชกัลย์ มวยไทย อะคาเดมี",
+            "team_en": "Deachkalek Muay Thai Academy"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/nico-carrillo/"
+        ],
+        "short_biography": "นิโค คาร์ริลโล (Nico Carrillo) เป็นนักชกชาวสกอตแลนด์ วัย 27 ปี จากสังกัดเดชกัลย์ มวยไทย อะคาเดมี มีความถนัดในการต่อสู้สไตล์มวยหมัด, บู๊ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 65.8 กิโลกรัม) ส่วนสูง 179 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 40: แจ็กกี vs สเตลลา ll สามารถเอาชนะ ชาโด้ มาวินมวยไทย ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "ชาโด้ มาวินมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 14, 2026",
+            "rating": 5,
+            "event_en": "ONE Fight Night 40: แจ็กกี vs สเตลลา ll"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:35",
+            "opponent_th": "ลุค ลิสซีย์",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "Nov 08, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 37: โรมัน vs ซาเมต"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:20",
+            "opponent_th": "สิทธิชัย ศิษย์สองพี่น้อง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 05, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 30: โรมัน vs ลินดอน"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:35",
+            "opponent_th": "นาบิล อานาน",
+            "opponent_en": "",
+            "opponent_country": "แอลจีเรีย/ไทย",
+            "date": "Jan 24, 2025",
+            "rating": 5,
+            "event_en": "ONE 170"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:03",
+            "opponent_th": "เสมาเพชร แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:28",
+            "opponent_th": "น้องโอ๋ ฮาม่ามวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 22, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 46: ตะวันฉาย vs  ซุปเปอร์บอน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:23",
+            "opponent_th": "เมืองไทย พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 23, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 22"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:30",
+            "opponent_th": "เฟอร์กัน คาราแบ็ก",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "Apr 21, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 13"
+        }
+    ]
+}

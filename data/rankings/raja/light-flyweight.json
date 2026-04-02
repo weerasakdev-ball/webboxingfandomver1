@@ -1,0 +1,103 @@
+{
+  "last_updated": "2026-03-31T07:07:30.940Z",
+  "stadium": "Rajadamnern Stadium",
+  "division": "Light Flyweight",
+  "fighters": [
+    {
+      "rank": "C",
+      "name": "Duan99 Or. Petchkhunsuek",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "1",
+      "name": "Plaithongkham Sit Thailand Chiang Mai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "2",
+      "name": "Sungfah Taikoobon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "3",
+      "name": "Suasonglay Rawai Muay Thai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "4",
+      "name": "Petchseedaeng Sitjaroensab",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "5",
+      "name": "Laempo Sitkhunwasan",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "6",
+      "name": "Petchduad Golit Muay Thai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "7",
+      "name": "Fiws Padungchai Muay Thai Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "8",
+      "name": "Yodpetchake Boomdeksian",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "9",
+      "name": "Wanphichit Somkitdeeying",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "10",
+      "name": "Dokmaifai Santiubon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "11",
+      "name": "Fahsawang Saimoonsnooker Club",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "12",
+      "name": "Shogun Nawaphon Farm Sook Krabue Thai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "13",
+      "name": "Petchmuangkan Chor. Hapayak",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "14",
+      "name": "Wanpadej Looksuan",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "15",
+      "name": "Tandiao Por. Prawit",
+      "image_url": "",
+      "country": "TH"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "last_updated": "2026-03-31T07:07:28.380Z",
+  "stadium": "Rajadamnern Stadium",
+  "division": "Flyweight",
+  "fighters": [
+    {
+      "rank": "C",
+      "name": "Jigsaw Sit Thailand",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "1",
+      "name": "Singhadam Kiatfufuang",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "2",
+      "name": "Nuatoranee Jitmuangnon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "3",
+      "name": "Petchake Kiatjamroon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "4",
+      "name": "Petchsam Petchmuaythai",
+      "image_url": "",
+      "country": "FR"
+    },
+    {
+      "rank": "5",
+      "name": "Pek Krapaolinky",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "6",
+      "name": "Suaphum Teenoikachin",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "7",
+      "name": "Thapna Sor. Prembut",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "8",
+      "name": "Petchbaanrai Singha Mawynn",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "9",
+      "name": "Pakistan Erawan",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "10",
+      "name": "Sakonpat Chotebangsaen",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "11",
+      "name": "Singhapetch Or. Piyapan Farm",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "12",
+      "name": "Detchpichai Navy Andaman",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "13",
+      "name": "Lanyamo Sitmonchai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "14",
+      "name": "Khettawan MorKorChor.Suphanburi",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "15",
+      "name": "Petchnaka Sitjaroensab",
+      "image_url": "",
+      "country": "TH"
+    }
+  ]
+}

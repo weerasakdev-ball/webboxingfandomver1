@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>เกี่ยวกับฉัน | BoxingFandom</title>
+    <meta name="description" content="ประวัติและจุดเริ่มต้นของ BoxingFandom โดย บอล วีรศักดิ์เล็ก ส.พัฒนาชัย">
+
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        header h1 .text-red {
+            color: #e50914;
+        }
+
+        header h1 .text-white {
+            color: #ffffff;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #333333;
+        }
+
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #1a1a1a;
+            min-width: 200px;
+            flex-direction: column;
+            border-top: 2px solid #e50914;
+            z-index: 1000;
+        }
+
+        nav ul li:hover > ul {
+            display: flex; 
+        }
+
+        nav ul ul ul {
+            top: 0;
+            left: 100%;
+        }
+
+        .search-box {
+            margin-left: 20px;
+            display: flex;
+        }
+
+        .search-box input[type="text"] {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px 0 0 4px;
+            outline: none;
+        }
+
+        .search-box button {
+            padding: 8px 15px;
+            background-color: #e50914;
+            color: white;
+            border: none;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .search-box button:hover {
+            background-color: #b0070f;
+        }
+
+        main {
+            flex: 1;
+            padding: 40px 20px;
+        }
+
+        .content-box {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .content-box h2 {
+            color: #e50914;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+
+        .content-box p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+            color: #555;
+            font-size: 16px;
+        }
+
+        /* ตกแต่งรูปลายเซ็นหรือชื่อท้ายบทความ */
+        .signature {
+            margin-top: 30px;
+            font-weight: bold;
+            color: #1a1a1a;
+            border-left: 4px solid #e50914;
+            padding-left: 15px;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer nav ul {
+            justify-content: center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1><span class="text-red">Boxing</span><span class="text-white">Fandom</span></h1>
+
+        <nav>
+            <ul>
+                <li><a href="#">บทความ</a></li>
+                <li><a href="#">ข่าว</a></li>
+                <li><a href="#">วิเคราะห์มวย</a></li>
+                <li><a href="#">เทียบสถิติ</a></li>
+                <li><a href="#">นักมวยทั้งหมด</a></li> 
+                <li>
+                    <a href="#">ranking ▾</a>
+                    <ul>
+                        <li>
+                            <a href="#">1 ONE ▸</a>
+                            <ul>
+                                <li><a href="#">เฮฟวีเวต</a></li>
+                                <li><a href="#">ไลต์เฮฟวีเวต</a></li>
+                                <li><a href="#">มิดเดิลเวต</a></li>
+                                <li><a href="#">เวลเตอร์เวต</a></li>
+                                <li><a href="#">ไลต์เวต</a></li>
+                                <li><a href="#">เฟเธอร์เวต</a></li>
+                                <li><a href="#">แบนตัมเวต</a></li>
+                                <li><a href="#">ฟลายเวต</a></li>
+                                <li><a href="#">สตรอว์เวต</a></li>
+                                <li><a href="#">อะตอมเวต</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">2 จัดอันดับทั้งหมด</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">แชมป์ ▾</a>
+                    <ul>
+                        <li><a href="#">แชมป์ วันแชมป์เปี้ยนชิพ</a></li>
+                        <li><a href="#">แชมป์ปูนเสือ</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="search-box">
+                <input type="text" placeholder="ค้นหานักมวย...">
+                <button type="button">ค้นหา</button>
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main id="main-content">
+        <div class="content-box">
+            <h2>เกี่ยวกับฉัน (About Us)</h2>
+            <p>สวัสดีครับแฟนมวยทุกท่าน! ยินดีต้อนรับเข้าสู่ <strong>BoxingFandom</strong> ศูนย์รวมความมันส์และข้อมูลข่าวสารสำหรับคนรักกีฬามวย</p>
+
+            <p>ผม <strong>"บอล" วีรศักดิ์เล็ก ส.พัฒนาชัย</strong> เจ้าของช่อง YouTube: BoxingFandom ครับ จุดเริ่มต้นของการสร้างเว็บไซต์นี้มาจากความหลงใหลในศิลปะแม่ไม้มวยไทยและกีฬามวยสากลที่ฝังลึกอยู่ในสายเลือด ผมเคยมีประสบการณ์ทำงานเป็นอดีตนักข่าวภาคสนามประจำเวทีมวยมาตรฐานระดับประเทศ ทั้งเวทีราชดำเนิน, รังสิต, อ้อมน้อย และลุมพินี ทำให้ผมได้คลุกคลี ได้เห็นเบื้องลึกเบื้องหลัง และสัมผัสถึงจิตวิญญาณของนักชกทุกท่านบนผืนผ้าใบอย่างใกล้ชิด</p>
+
+            <p>จากประสบการณ์ในวันนั้น นำมาสู่ความตั้งใจในวันนี้ ผมตัดสินใจต่อยอดจากช่องยูทูปมาสู่การสร้างเว็บไซต์ <strong>boxingfandom.com</strong> ขึ้นมา เพื่อให้เป็นคอมมูนิตี้และแหล่งอัปเดตข่าวสารมวยไทย มวยโลก บทวิเคราะห์ และสถิติแบบเจาะลึก ที่เข้าถึงง่าย อ่านสนุก และตรงไปตรงมา เว็บไซต์นี้จัดทำขึ้นมาเพื่อ "กลุ่มแฟนมวยของเราโดยเฉพาะ" เพราะผมเชื่อว่ากีฬามวยไม่ใช่แค่การต่อสู้ แต่คือศิลปะและเรื่องราวที่ทรงพลัง</p>
+
+            <p>ผมหวังเป็นอย่างยิ่งว่าทุกคนจะชื่นชอบและได้ประโยชน์จากข้อมูลในเว็บไซต์นี้ ขอขอบคุณทุกท่านที่ติดตามและเป็นกำลังใจสำคัญให้กับงานพัฒนาเว็บไซต์ของผมมาโดยตลอด เราจะก้าวหน้าและเติบโตไปด้วยกัน เพื่อขับเคลื่อนวงการมวยไทยให้ดังไกลไปทั่วโลกครับ!</p>
+
+            <div class="signature">
+                ด้วยความเคารพแฟนมวยทุกท่าน<br>
+                บอล วีรศักดิ์เล็ก ส.พัฒนาชัย<br>
+                ผู้ก่อตั้ง BoxingFandom
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+
+        <nav>
+            <ul>
+                <li><a href="privacy.html">นโยบายความเป็นส่วนตัว</a></li>
+                <li><a href="about.html">เกี่ยวกับฉัน</a></li>
+                <li><a href="contact.html">ติดต่อ</a></li>
+            </ul>
+        </nav>
+        <p style="margin-top: 10px; font-size: 14px; color: #888;">© 2026 สงวนลิขสิทธิ์ BoxingFandom</p>
+
+    </footer>
+
+</body>
+
+</html>

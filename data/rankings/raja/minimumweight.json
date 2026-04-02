@@ -1,0 +1,103 @@
+{
+  "last_updated": "2026-03-31T07:07:33.530Z",
+  "stadium": "Rajadamnern Stadium",
+  "division": "Minimumweight",
+  "fighters": [
+    {
+      "rank": "C",
+      "name": "Chalarmchon Wor. Auracha",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "1",
+      "name": "Singhasurat Or. Oodudon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "2",
+      "name": "Kradooklek Or. Atchariya",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "3",
+      "name": "Petchmuangsingha Taipetchaburi",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "4",
+      "name": "Panaek P.K. Saenchai Muay Thai Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "5",
+      "name": "Thapthai Sor. Prembut",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "6",
+      "name": "Laostar Kiattongyot",
+      "image_url": "",
+      "country": "LA"
+    },
+    {
+      "rank": "7",
+      "name": "Knotmai Wor. Auracha",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "8",
+      "name": "Chikara Sato",
+      "image_url": "",
+      "country": "JP"
+    },
+    {
+      "rank": "9",
+      "name": "VIP Sitjaton",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "10",
+      "name": "Khunhan Dabtidbangrak",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "11",
+      "name": "Yodmanee Suanjarkcafe",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "12",
+      "name": "Wanheng Kiatchuthai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "13",
+      "name": "Monpraram Sitpetchchalookan",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "14",
+      "name": "Liangpha Daoden Muay Thai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "15",
+      "name": "Homura Abe",
+      "image_url": "",
+      "country": "JP"
+    }
+  ]
+}

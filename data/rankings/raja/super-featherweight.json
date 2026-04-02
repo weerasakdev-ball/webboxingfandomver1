@@ -1,0 +1,103 @@
+{
+  "last_updated": "2026-03-31T07:07:15.446Z",
+  "stadium": "Rajadamnern Stadium",
+  "division": "Super Featherweight",
+  "fighters": [
+    {
+      "rank": "C",
+      "name": "Chalarm Paranchai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "1",
+      "name": "Patiharn Por. Lakboon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "2",
+      "name": "Thongnoi Wor. Sangprapai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "3",
+      "name": "Yodtong Sor.Jor. Tongprachin",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "4",
+      "name": "Wukong Sitjaroenwit",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "5",
+      "name": "Kaipa Wor. Sangprapai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "6",
+      "name": "Kiwthong T.K.D. Muay Thai Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "7",
+      "name": "Silangern Lanna Waterside Muay Thai Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "8",
+      "name": "Chaila Por. Lakboon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "9",
+      "name": "Yodkattanyou Jitmuangnon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "10",
+      "name": "Fairang Chor. Hapayak",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "11",
+      "name": "Kiewpayak Mor. Rattanabandit",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "12",
+      "name": "Yodwittaya Petchchompoo",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "13",
+      "name": "Petchnuea Sor. Damrongrit",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "14",
+      "name": "Kongnova Bangsaen Fight Club",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "15",
+      "name": "Grandprixnoi PK. Saenchai Muay Thai Gym",
+      "image_url": "",
+      "country": "TH"
+    }
+  ]
+}

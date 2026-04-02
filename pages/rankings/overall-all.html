@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>จัดอันดับนักมวยรวมทุกรุ่น (Overall) | BoxingFandom</title>
+    <meta name="description" content="จัดอันดับนักมวยไทยรวมทุกรุ่น ทุกสถาบัน อัปเดตสถิติและคะแนนล่าสุดโดย BoxingFandom">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <style>
+        /* ========================================================================= */
+        /* --- 1. CSS พื้นฐาน & Header --- */
+        /* ========================================================================= */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', 'Sarabun', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f4f4f4; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
+
+        header { background-color: #1a1a1a; color: #ffffff; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #e50914; }
+        header h1 { font-size: 24px; }
+        header h1 .text-red { color: #e50914; }
+        header h1 .text-white { color: #ffffff; }
+
+        nav { display: flex; align-items: center; }
+        nav ul { list-style: none; display: flex; margin: 0; padding: 0; }
+        nav ul li { position: relative; }
+        nav ul li a { color: #ffffff; text-decoration: none; padding: 15px 20px; display: block; transition: background 0.3s; }
+        nav ul li a:hover { background-color: #333333; }
+        nav ul ul { display: none; position: absolute; top: 100%; left: 0; background-color: #1a1a1a; min-width: 220px; flex-direction: column; border-top: 2px solid #e50914; z-index: 1000; }
+        nav ul li:hover > ul { display: flex; }
+        nav ul ul ul { top: 0; left: 100%; }
+
+        .search-container { position: relative; margin-left: 20px; }
+        .search-box { display: flex; }
+        .search-box input[type="text"] { padding: 8px 15px; border: none; border-radius: 4px 0 0 4px; outline: none; width: 220px; }
+        .search-box button { padding: 8px 15px; background-color: #e50914; color: white; border: none; border-radius: 0 4px 4px 0; cursor: pointer; transition: background 0.3s; }
+        .search-box button:hover { background-color: #b0070f; }
+
+        .search-dropdown { position: absolute; top: 100%; left: 0; width: calc(100% - 60px); background-color: #ffffff; color: #333; box-shadow: 0 5px 15px rgba(0,0,0,0.2); border-radius: 0 0 8px 8px; max-height: 350px; overflow-y: auto; z-index: 3000; display: none; border: 1px solid #ddd; border-top: none; }
+        .search-dropdown-item { padding: 10px 15px; cursor: pointer; border-bottom: 1px solid #eee; display: flex; align-items: center; gap: 10px; text-decoration: none; color: #333; transition: 0.2s; }
+        .search-dropdown-item:hover { background-color: #f8f9fa; }
+        .search-dropdown-img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; border: 1px solid #ddd; background: #eee; }
+        .search-dropdown-info { display: flex; flex-direction: column; }
+        .search-dropdown-name { font-weight: bold; font-size: 0.95rem; }
+        .search-dropdown-meta { font-size: 0.75rem; color: #888; }
+
+        main { flex: 1; padding: 40px 20px; max-width: 1200px; margin: 0 auto; width: 100%; }
+        footer { background-color: #1a1a1a; color: #ffffff; text-align: center; padding: 20px; }
+        footer nav ul { justify-content: center; }
+
+        /* ========================================================================= */
+        /* --- 2. CSS แผงตัวกรองค้นหา (Filter Panel) --- */
+        /* ========================================================================= */
+        .page-header { text-align: center; margin-bottom: 30px; }
+        .page-header h2 { font-size: 32px; color: #1a1a1a; text-transform: uppercase; font-family: 'Sarabun', sans-serif; font-weight: 800; }
+        .page-header .division-tag { display: inline-block; background-color: #e50914; color: white; padding: 5px 15px; border-radius: 20px; font-size: 14px; font-weight: bold; margin-bottom: 10px; }
+
+        .filter-panel {
+            background: #1a1a1a;
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .filter-group { display: flex; flex-direction: column; gap: 8px; }
+        .filter-group label { font-size: 13px; font-weight: bold; color: #ccc; }
+        .filter-group select, .filter-group input {
+            padding: 10px 15px;
+            border-radius: 4px;
+            border: 1px solid #444;
+            background: #333;
+            color: white;
+            outline: none;
+            font-size: 14px;
+        }
+        .filter-group select:focus, .filter-group input:focus { border-color: #e50914; }
+
+        /* ========================================================================= */
+        /* --- 3. CSS ตารางแสดงผลนักมวย --- */
+        /* ========================================================================= */
+        .ranking-table-container {
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            overflow-x: auto;
+        }
+        .ranking-table { width: 100%; border-collapse: collapse; min-width: 750px; }
+        .ranking-table th { background-color: #1a1a1a; color: white; padding: 15px 20px; text-align: center; font-size: 14px; text-transform: uppercase; border-bottom: 3px solid #e50914; }
+        .ranking-table th:nth-child(2) { text-align: left; }
+        .ranking-table td { padding: 15px 20px; border-bottom: 1px solid #f0f0f0; text-align: center; vertical-align: middle; transition: background 0.2s; }
+        .ranking-table tr:hover td { background-color: #f9f9f9; cursor: pointer; }
+
+        .fighter-cell { display: flex; align-items: center; gap: 15px; text-align: left; }
+        .fighter-img { width: 55px; height: 55px; border-radius: 50%; object-fit: cover; border: 2px solid #e50914; background: #f4f4f4; }
+        .fighter-name { font-weight: bold; font-size: 16px; color: #1a1a1a; display: block; }
+        .fighter-alias { font-size: 13px; color: #888; display: block; }
+
+        .rank-number { font-size: 20px; font-weight: bold; color: #1a1a1a; width: 35px; height: 35px; line-height: 35px; border-radius: 50%; background: #eee; display: inline-block; }
+        .rank-1 { background: #d4af37; color: white; box-shadow: 0 3px 8px rgba(212, 175, 55, 0.4); }
+        .rank-2 { background: #c0c0c0; color: white; }
+        .rank-3 { background: #cd7f32; color: white; }
+
+        .score-text { font-size: 22px; font-weight: bold; color: #e50914; }
+
+        .form-badge { display: inline-block; width: 24px; height: 24px; line-height: 24px; border-radius: 50%; font-size: 11px; font-weight: bold; color: white; margin: 0 2px; }
+        .badge-w { background-color: #2e7d32; }
+        .badge-l { background-color: #c62828; }
+        .badge-d { background-color: #f57f17; }
+
+        /* ปุ่มแสดงอันดับเพิ่มเติม */
+        #loadMoreBtn {
+            background-color: #1a1a1a; 
+            color: white; 
+            padding: 12px 30px; 
+            border: 2px solid #e50914; 
+            border-radius: 25px; 
+            font-weight: bold; 
+            cursor: pointer; 
+            transition: 0.3s; 
+            font-size: 14px;
+        }
+        #loadMoreBtn:hover {
+            background-color: #e50914;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="../../index.html" style="text-decoration:none;"><span class="text-red">Boxing</span><span class="text-white">Fandom</span></a></h1>
+        <nav>
+            <ul>
+                <li><a href="../articles/index.html">บทความ</a></li>
+                <li><a href="../news/index.html">ข่าว</a></li>
+                <li><a href="../analysis/index.html">วิเคราะห์มวย</a></li>
+                <li>
+                    <a href="#">เทียบสถิติ ▾</a>
+                    <ul>
+                        <li><a href="../stats/compare.html">เทียบสถิติแบบที่ 1</a></li>
+                        <li><a href="../stats/compare2.html">เทียบสถิติแบบที่ 2</a></li>
+                        <li><a href="../stats/analysis.html">วิเคราะห์เจาะลึก (AI)</a></li>
+                    </ul>
+                </li>
+                <li><a href="../fighter/index.html">นักมวยทั้งหมด</a></li> 
+                <li><a href="../TierList.html" style="color: #facc15; font-weight: bold; text-shadow: 0 0 5px rgba(250, 204, 21, 0.3);">⭐ จัดเทียร์นักมวย</a></li>
+                <li>
+                    <a href="#">ranking ▾</a>
+                    <ul>
+                        <li>
+                            <a href="one-championship.html">1 ONE Championship ▸</a>
+                            <ul>
+                                <li><a href="one-heavyweight.html">เฮฟวีเวต</a></li>
+                                <li><a href="one-light-heavyweight.html">ไลต์เฮฟวีเวต</a></li>
+                                <li><a href="one-middleweight.html">มิดเดิลเวต</a></li>
+                                <li><a href="one-welterweight.html">เวลเตอร์เวต</a></li>
+                                <li><a href="one-lightweight.html">ไลต์เวต</a></li>
+                                <li><a href="one-featherweight.html">เฟเธอร์เวต</a></li>
+                                <li><a href="one-bantamweight.html">แบนตัมเวต</a></li> 
+                                <li><a href="one-flyweight.html">ฟลายเวต</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="overall-all.html" style="color:#e50914;">2 จัดอันดับรวมทุกสถาบัน (Overall)</a></li>
+                        <li><a href="rajadamnern.html">3 อันดับเวทีราชดำเนิน</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">แชมป์ ▾</a>
+                    <ul>
+                        <li><a href="champions-one.html">แชมป์ วันแชมป์เปี้ยนชิพ</a></li>
+                        <li><a href="champions-poonsuea.html">แชมป์ปูนเสือ</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" id="mainSearchInput" placeholder="ค้นหานักมวย..." autocomplete="off">
+                    <button type="button" id="mainSearchButton">ค้นหา</button>
+                </div>
+                <div id="mainSearchDropdown" class="search-dropdown"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        
+        <div class="page-header">
+            <span class="division-tag">Global Ranking</span>
+            <h2>จัดอันดับนักมวยรวมทุกสถาบัน</h2>
+            <p style="color: #666; margin-top: 5px;">เรียงลำดับจากการประมวลผลข้อมูลแบบไดนามิก ตามเงื่อนไขที่คุณเลือก</p>
+        </div>
+
+        <section class="filter-panel">
+            <div class="filter-group">
+                <label>รุ่นน้ำหนัก</label>
+                <select id="filter-division">
+                    <option value="all">📊 ทุกรุ่นน้ำหนัก</option>
+                    <option value="strawweight">Strawweight</option>
+                    <option value="flyweight">Flyweight</option>
+                    <option value="bantamweight">Bantamweight</option>
+                    <option value="featherweight">Featherweight</option>
+                    <option value="lightweight">Lightweight</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>กติกา / สถาบัน</label>
+                <select id="filter-category">
+                    <option value="total">🌍 รวมทุกรายการ</option>
+                    <option value="one">🎯 เฉพาะ ONE</option>
+                    <option value="others">🏟️ รายการอื่นๆ</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>ปีที่ประเมินคะแนน</label>
+                <select id="filter-year">
+                    <option value="2027">ฟอร์มปี 2027</option>
+                    <option value="2026">ฟอร์มปี 2026</option>
+                    <option value="2025">ฟอร์มปี 2025</option>
+                    <option value="2024">ฟอร์มปี 2024</option>
+                    <option value="lifetime">🏆 ตลอดอาชีพ (Lifetime)</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>ช่วงอายุ</label>
+                <select id="filter-age">
+                    <option value="all">ทุกช่วงอายุ</option>
+                    <option value="15-20">15 - 20 ปี</option>
+                    <option value="21-25">21 - 25 ปี</option>
+                    <option value="26-30">26 - 30 ปี</option>
+                    <option value="31+">31 ปีขึ้นไป</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>ประเทศ</label>
+                <select id="filter-country">
+                    <option value="all">🌍 ทุกประเทศ</option>
+                    </select>
+            </div>
+
+            <div class="filter-group">
+                <label>ค่ายมวย (พิมพ์ค้นหา)</label>
+                <input type="text" id="filter-team" placeholder="ระบุชื่อค่าย...">
+            </div>
+        </section>
+
+        <div class="ranking-table-container">
+            <table class="ranking-table">
+                <thead>
+                    <tr>
+                        <th width="80">อันดับ</th>
+                        <th>นักสู้ (FIGHTER)</th>
+                        <th>ข้อมูลเสริม</th>
+                        <th>ฟอร์ม 3 ไฟต์หลัง</th>
+                        <th id="dynamic-score-header">คะแนน</th>
+                    </tr>
+                </thead>
+                <tbody id="fighter-list">
+                    <tr><td colspan='5' style='padding:50px; text-align:center; font-weight:bold; color:#1a1a1a;'>กำลังโหลดฐานข้อมูลนักมวย...</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="load-more-container" style="text-align: center; margin-top: 25px; margin-bottom: 20px; display: none;">
+            <button id="loadMoreBtn" onclick="loadMoreFighters()">แสดงอันดับเพิ่มเติม ▾</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="../../privacy.html">นโยบายความเป็นส่วนตัว</a></li>
+                <li><a href="../../about.html">เกี่ยวกับฉัน</a></li>
+                <li><a href="../../contact.html">ติดต่อ</a></li>
+            </ul>
+        </nav>
+        <p style="margin-top: 10px; font-size: 14px; color: #888;">© 2026 สงวนลิขสิทธิ์ BoxingFandom</p>
+    </footer>
+
+    <script>
+        // ==========================================
+        // 1. ตัวแปรเก็บฐานข้อมูลและคุมการแสดงผลตาราง (Pagination)
+        // ==========================================
+        let globalDatabase = [];
+        const gradeWeight = { "S": 10, "A+": 9, "A": 8, "B+": 7, "B": 6, "C+": 5, "C": 4 };
+        
+        let currentDisplayLimit = 15; // กำหนดค่าเริ่มต้นให้โชว์แค่ 15 คน
+        let currentFilteredFighters = []; // ตัวแปรเก็บนักมวยที่ผ่านการกรองแล้ว เพื่อเตรียมรอโหลดเพิ่ม
+
+        // ฟังก์ชันช่วยจัดการพาร์ทของรูปภาพ
+        function fixImagePath(url) {
+            if (!url || url === "ไม่ระบุ" || url === "" || url.includes("via.placeholder")) {
+                return "https://placehold.co/60x60/1a1a1a/ffffff?text=No+Img";
+            }
+            return url; 
+        }
+
+
+        // ==========================================
+        // 2. ฟังก์ชันโหลดข้อมูลเริ่มต้น (เพิ่มล็อกปีปัจจุบันอัตโนมัติ)
+        // ==========================================
+        async function initGlobalSearch() {
+            try {
+                // โหลดไฟล์รายชื่อ
+                const listRes = await fetch('../../data/boxers/fighters-list.json');
+                if (!listRes.ok) throw new Error("ไม่สามารถโหลดไฟล์รายชื่อได้"); 
+                const files = await listRes.json();
+                
+                // ดึงข้อมูล JSON ของนักมวยทุกคน
+                const fetchPromises = files.map(async (f) => {
+                    try {
+                        const res = await fetch(`../../data/boxers/${encodeURIComponent(f.trim())}`);
+                        if (res.ok) {
+                            const data = await res.json();
+                            return { ...data, fileName: f };
+                        }
+                    } catch(e) {}
+                    return null;
+                });
+                
+                const results = await Promise.all(fetchPromises);
+                globalDatabase = results.filter(item => item !== null);
+                
+                // === ส่วนสร้าง Dropdown ประเทศอัตโนมัติ ===
+                const nations = new Set();
+                globalDatabase.forEach(item => {
+                    if (item.fighter_profile && item.fighter_profile.personal_info && item.fighter_profile.personal_info.country_th) {
+                        nations.add(item.fighter_profile.personal_info.country_th);
+                    }
+                });
+                
+                const countrySelect = document.getElementById('filter-country');
+                Array.from(nations).sort().forEach(country => {
+                    countrySelect.innerHTML += `<option value="${country}">${country}</option>`;
+                });
+                
+                // === ส่วนล็อคปีปัจจุบันให้เป็นค่าเริ่มต้นอัตโนมัติ ===
+                const currentYear = new Date().getFullYear().toString();
+                const yearSelect = document.getElementById('filter-year');
+                
+                for (let i = 0; i < yearSelect.options.length; i++) {
+                    if (yearSelect.options[i].value === currentYear) {
+                        yearSelect.selectedIndex = i;
+                        break; // เจอปีปัจจุบันแล้วหยุดหา
+                    }
+                }
+
+                // เริ่มกระบวนการคัดกรองและแสดงผล
+                renderFilteredRanking();
+
+            } catch(e) {
+                console.error("⚠️ โหลดข้อมูลล้มเหลว:", e);
+                document.getElementById('fighter-list').innerHTML = `<tr><td colspan='5' style='color:red; text-align:center;'>เกิดข้อผิดพลาดในการโหลดข้อมูล</td></tr>`;
+            }
+        }
+
+
+        // ==========================================
+        // 3. ฟังก์ชันคำนวณคะแนน คัดกรอง วาดตาราง และระบบ Load More
+        // ==========================================
+        
+        // 3.1 ฟังก์ชันคำนวณคะแนนตามไฟต์ที่ส่งเข้ามา
+        function calculateStats(fights) {
+            if (!fights || fights.length === 0) return { formHTML: "-", score: 0, wins: 0, losses: 0, active: false };
+            
+            let score = 0, wins = 0, losses = 0;
+            fights.forEach(f => {
+                const res = f.result ? f.result.toLowerCase() : '';
+                if (res === 'win') {
+                    score += 3; wins++;
+                    if (f.method_en && (f.method_en.includes('KO') || f.method_en.includes('TKO') || f.method_en.includes('Submission'))) score += 1;
+                } else if (res === 'loss') {
+                    score -= 1; losses++;
+                }
+            });
+
+            const formHTML = fights.slice(0, 3).reverse().map(f => {
+                const res = f.result ? f.result.toLowerCase() : 'n';
+                let cls = res === 'win' ? 'badge-w' : (res === 'loss' ? 'badge-l' : 'badge-d');
+                let initial = res[0] ? res[0].toUpperCase() : '-';
+                return `<span class="form-badge ${cls}" title="${f.event_en || 'Fight'}">${initial}</span>`;
+            }).join('') || "-";
+
+            return { formHTML, score, wins, losses, active: true };
+        }
+
+        // 3.2 ฟังก์ชันรับค่าจากตัวกรองเพื่อนำไปหานักมวยที่ตรงเงื่อนไข
+        function renderFilteredRanking() {
+            // สำคัญ: รีเซ็ตตารางให้กลับมาโชว์ 15 คนแรกเสมอเวลาเปลี่ยนตัวกรอง
+            currentDisplayLimit = 15; 
+            
+            const divFilter = document.getElementById('filter-division').value.toLowerCase();
+            const catFilter = document.getElementById('filter-category').value;
+            const yearFilter = document.getElementById('filter-year').value;
+            const ageFilter = document.getElementById('filter-age').value;
+            const countryFilter = document.getElementById('filter-country').value;
+            const teamSearch = document.getElementById('filter-team').value.toLowerCase().trim();
+
+            // เปลี่ยนข้อความหัวตารางคะแนน
+            const scoreHeader = document.getElementById('dynamic-score-header');
+            if (yearFilter === 'lifetime') {
+                scoreHeader.innerText = "คะแนน (ตลอดอาชีพ)";
+            } else {
+                scoreHeader.innerText = `คะแนน (เฉพาะปี ${yearFilter})`;
+            }
+
+            // กรองประวัติและบวกลบคะแนน
+            let processedFighters = globalDatabase.map(fighter => {
+                let rawHistory = fighter.fight_history || fighter.fight_history_one_championship || [];
+                
+                let filteredHistory = rawHistory.filter(fight => {
+                    let matchCat = true;
+                    let matchYear = true;
+
+                    const eventName = ((fight.event_en || "") + " " + (fight.event_th || "")).toLowerCase();
+                    if (catFilter === 'one') matchCat = eventName.includes('one');
+                    else if (catFilter === 'others') matchCat = !eventName.includes('one');
+
+                    if (yearFilter !== 'lifetime') {
+                        matchYear = (fight.date || "").includes(yearFilter);
+                    }
+
+                    return matchCat && matchYear;
+                });
+
+                return { ...fighter, calculatedStats: calculateStats(filteredHistory) };
+            });
+
+            // กรองตามโปรไฟล์
+            currentFilteredFighters = processedFighters.filter(f => {
+                const p = f.fighter_profile;
+                if (!p || !f.calculatedStats.active) return false;
+                const info = p.personal_info || {};
+                const phys = p.physical_stats || {};
+
+                let matchDiv = true;
+                if (divFilter !== 'all') {
+                    const fDiv = (phys.division || "").toLowerCase();
+                    matchDiv = fDiv.includes(divFilter);
+                }
+
+                let matchAge = true;
+                if (ageFilter !== 'all') {
+                    const age = parseInt(info.age) || 0;
+                    if (ageFilter === '15-20') matchAge = age >= 15 && age <= 20;
+                    else if (ageFilter === '21-25') matchAge = age >= 21 && age <= 25;
+                    else if (ageFilter === '26-30') matchAge = age >= 26 && age <= 30;
+                    else if (ageFilter === '31+') matchAge = age >= 31;
+                }
+
+                let matchCountry = true;
+                if (countryFilter !== 'all') {
+                    matchCountry = (info.country_th === countryFilter);
+                }
+                
+                let matchTeam = true;
+                if (teamSearch) {
+                    matchTeam = (info.team_th || "").toLowerCase().includes(teamSearch) || (info.team_en || "").toLowerCase().includes(teamSearch);
+                }
+
+                return matchDiv && matchAge && matchCountry && matchTeam;
+            });
+
+            // จัดเรียงอันดับตามคะแนน
+            currentFilteredFighters.sort((a, b) => {
+                if (b.calculatedStats.score !== a.calculatedStats.score) return b.calculatedStats.score - a.calculatedStats.score;
+                const gA = gradeWeight[a.fighter_profile.grade] || 0;
+                const gB = gradeWeight[b.fighter_profile.grade] || 0;
+                if (gB !== gA) return gB - gA;
+                return a.calculatedStats.losses - b.calculatedStats.losses; 
+            });
+
+            // เมื่อได้ข้อมูลครบแล้ว เรียกฟังก์ชันเพื่อวาดตารางส่วนแรก
+            drawTableChunk(); 
+        }
+
+        // 3.3 ฟังก์ชันวาดตารางตามจำนวนที่กำหนด (จำกัดไว้ที่ currentDisplayLimit)
+        function drawTableChunk() {
+            const tbody = document.getElementById('fighter-list');
+            const loadMoreContainer = document.getElementById('load-more-container');
+
+            if (currentFilteredFighters.length === 0) {
+                tbody.innerHTML = `<tr><td colspan='5' style='padding:50px; text-align:center; color:#888;'>ไม่มีนักมวยที่มีการขึ้นชกตรงตามเงื่อนไขที่เลือก</td></tr>`;
+                loadMoreContainer.style.display = 'none';
+                return;
+            }
+
+            // ใช้ .slice เพื่อตัดเอานักมวยมาโชว์เท่ากับจำนวนที่กำหนดไว้ (เริ่มแรก 15 คน)
+            const fightersToShow = currentFilteredFighters.slice(0, currentDisplayLimit);
+
+            tbody.innerHTML = fightersToShow.map((f, i) => {
+                let rankClass = i === 0 ? 'rank-1' : (i === 1 ? 'rank-2' : (i === 2 ? 'rank-3' : ''));
+                let rankDisplay = `<span class="rank-number ${rankClass}">${i+1}</span>`;
+                
+                const p = f.fighter_profile;
+                // เปลี่ยนลิงก์ให้ชี้ไปที่หน้าโปรไฟล์แยกตามชื่อนักมวย
+                const detailPath = `../fighter/${encodeURIComponent(f.fileName.replace('.json', '.html'))}`;
+                const imgUrl = fixImagePath(p.image_url);
+                const divisionText = p.physical_stats?.division || 'ไม่ระบุรุ่น';
+                const teamText = p.personal_info?.team_th || '-';
+                
+                return `
+                    <tr onclick="location.href='${detailPath}'">
+                        <td>${rankDisplay}</td>
+                        <td>
+                            <div class="fighter-cell">
+                                <img src="${imgUrl}" class="fighter-img" alt="${p.name_th}">
+                                <div>
+                                    <span class="fighter-name">${p.name_th || '-'}</span>
+                                    <span class="fighter-alias" style="color: #e50914;">${divisionText}</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td style="text-align: left;">
+                            <div style="font-size: 13px; color: #555;">ประเทศ: <strong>${p.personal_info?.country_th || '-'}</strong></div>
+                            <div style="font-size: 13px; color: #555;">ค่าย: <strong>${teamText}</strong></div>
+                        </td>
+                        <td>${f.calculatedStats.formHTML}</td>
+                        <td><span class="score-text">${f.calculatedStats.score}</span></td>
+                    </tr>
+                `;
+            }).join('');
+
+            // ปิดปุ่ม "แสดงอันดับเพิ่มเติม" ถ้าหากรายชื่อที่โชว์ ครบเท่ากับจำนวนนักมวยทั้งหมดแล้ว
+            if (currentDisplayLimit >= currentFilteredFighters.length) {
+                loadMoreContainer.style.display = 'none';
+            } else {
+                loadMoreContainer.style.display = 'block';
+            }
+        }
+
+        // 3.4 ฟังก์ชันเมื่อผู้ใช้กดปุ่ม "แสดงอันดับเพิ่มเติม"
+        function loadMoreFighters() {
+            currentDisplayLimit += 15; // สั่งบวกโควตาการแสดงผลเพิ่มทีละ 15 
+            drawTableChunk(); // เรียกวาดตารางใหม่โดยใช้โควตาที่เพิ่มขึ้น
+        }
+
+
+        // ==========================================
+        // 4. ผูก Event ให้ตัวกรองทำงานเมื่อผู้ใช้เปลี่ยนค่า
+        // ==========================================
+        const filterIds = ['filter-division', 'filter-category', 'filter-year', 'filter-age', 'filter-country'];
+        filterIds.forEach(id => {
+            document.getElementById(id).addEventListener('change', renderFilteredRanking);
+        });
+
+        document.getElementById('filter-team').addEventListener('keyup', renderFilteredRanking);
+
+
+        // ==========================================
+        // 5. ระบบค้นหานักมวย (แถบ Navbar ด้านบน)
+        // ==========================================
+        const mainSearchInput = document.getElementById('mainSearchInput');
+        const mainSearchDropdown = document.getElementById('mainSearchDropdown');
+        const mainSearchButton = document.getElementById('mainSearchButton');
+
+        function processSearch() {
+            const query = mainSearchInput.value.toLowerCase();
+            if (query.length === 0) { mainSearchDropdown.style.display = 'none'; return; }
+            const filtered = globalDatabase.filter(item => {
+                const p = item.fighter_profile || {};
+                return (p.name_th || '').toLowerCase().includes(query) || (p.name_en || '').toLowerCase().includes(query);
+            });
+            if (filtered.length === 0) {
+                mainSearchDropdown.innerHTML = '<div style="padding:15px; color:#888; text-align:center;">ไม่พบนักมวย</div>';
+            } else {
+                mainSearchDropdown.innerHTML = filtered.map(item => {
+                    const p = item.fighter_profile || {};
+                    const imgUrl = fixImagePath(p.image_url);
+                    // เปลี่ยนลิงก์ให้ชี้ไปที่หน้าโปรไฟล์แยกตามชื่อนักมวย
+                    const profileLink = `../fighter/${encodeURIComponent(item.fileName.replace('.json', '.html'))}`;
+                    return `
+                        <a href="${profileLink}" class="search-dropdown-item">
+                            <img src="${imgUrl}" class="search-dropdown-img">
+                            <div class="search-dropdown-info">
+                                <span class="search-dropdown-name">${p.name_th}</span>
+                                <span class="search-dropdown-meta">รุ่น: ${p.physical_stats?.division || '-'}</span>
+                            </div>
+                        </a>`;
+                }).join('');
+            }
+            mainSearchDropdown.style.display = 'block';
+        }
+
+        function executeDirectSearch() {
+            const query = mainSearchInput.value.toLowerCase();
+            if (!query) return;
+            const filtered = globalDatabase.filter(item => {
+                const p = item.fighter_profile || {};
+                return (p.name_th || '').toLowerCase().includes(query) || (p.name_en || '').toLowerCase().includes(query);
+            });
+            if (filtered.length > 0) {
+                // เปลี่ยนลิงก์ให้ชี้ไปที่หน้าโปรไฟล์แยกตามชื่อนักมวย
+                window.location.href = `../fighter/${encodeURIComponent(filtered[0].fileName.replace('.json', '.html'))}`;
+            } else { alert("ไม่พบข้อมูล"); }
+        }
+
+        mainSearchInput.addEventListener('input', processSearch);
+        mainSearchInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') executeDirectSearch(); });
+        mainSearchButton.addEventListener('click', executeDirectSearch);
+        document.addEventListener('click', (e) => { if (!e.target.closest('.search-container')) mainSearchDropdown.style.display = 'none'; });
+
+
+        // เริ่มการทำงานของสคริปต์ทั้งหมดเมื่อโหลดหน้าเว็บ
+        window.addEventListener('DOMContentLoaded', initGlobalSearch);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ระบบหลังบ้าน | สร้างข้อมูลศึกการแข่งขัน (Event JSON Maker)</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f2f5; color: #333; padding: 20px; }
+        .container { max-width: 1000px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: #e50914; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 20px; }
+        
+        .form-group { margin-bottom: 15px; }
+        label { display: block; font-weight: bold; margin-bottom: 5px; color: #555; }
+        input[type="text"], select, textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; }
+        
+        .match-card { background: #f9f9f9; border: 1px solid #ddd; padding: 20px; border-radius: 8px; margin-bottom: 20px; position: relative; }
+        .match-card h3 { margin-top: 0; color: #1a1a1a; }
+        .btn-remove { position: absolute; top: 15px; right: 15px; background: #dc3545; color: white; border: none; padding: 5px 10px; border-radius: 5px; cursor: pointer; }
+        
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        
+        .btn { background: #0d6efd; color: white; border: none; padding: 12px 20px; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold; }
+        .btn:hover { background: #0b5ed7; }
+        .btn-success { background: #198754; width: 100%; margin-top: 20px; font-size: 18px; }
+        .btn-success:hover { background: #157347; }
+        
+        #jsonOutput { width: 100%; height: 300px; font-family: monospace; background: #1e1e1e; color: #00ff00; padding: 15px; border-radius: 5px; margin-top: 20px; }
+        .loading { text-align: center; font-size: 18px; color: #888; font-weight: bold; padding: 50px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🛠️ BoxingFandom Event JSON Generator</h1>
+    <p style="color:#666; margin-bottom: 20px;">เครื่องมือสำหรับสร้างไฟล์ JSON ข้อมูลศึกการแข่งขันแบบอัตโนมัติ ไม่ต้องพิมพ์โค้ดเองให้เมื่อย!</p>
+
+    <div id="loadingBox" class="loading">กำลังดึงฐานข้อมูลนักมวย กรุณารอสักครู่... ⏳</div>
+
+    <div id="mainForm" style="display: none;">
+        <div class="grid-2">
+            <div class="form-group">
+                <label>รหัสศึก (Event ID) *ตั้งเป็นภาษาอังกฤษห้ามเว้นวรรค เช่น one-58</label>
+                <input type="text" id="eventId" placeholder="ex. one-lumpinee-58">
+            </div>
+            <div class="form-group">
+                <label>ชื่อศึก (Event Name)</label>
+                <input type="text" id="eventName" placeholder="ex. ONE ลุมพินี 58">
+            </div>
+            <div class="form-group">
+                <label>วันที่แข่งขัน (Date)</label>
+                <input type="text" id="eventDate" placeholder="ex. 10 เมษายน 2026">
+            </div>
+            <div class="form-group">
+                <label>โปรโมเตอร์ (Promotion)</label>
+                <input type="text" id="eventPromo" value="ONE Championship">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>สถานที่ (Location)</label>
+            <input type="text" id="eventLocation" value="สนามมวยเวทีลุมพินี, กรุงเทพมหานคร">
+        </div>
+
+        <h2 style="margin-top: 30px; border-bottom: 2px solid #eee; padding-bottom: 10px;">🥊 รายการคู่มวย (Fight Card)</h2>
+        
+        <div id="matchesContainer"></div>
+
+        <button class="btn" onclick="addMatch()">+ เพิ่มคู่มวย</button>
+
+        <button class="btn btn-success" onclick="generateJSON()">✨ สร้างโค้ด JSON (Generate)</button>
+
+        <h3 style="margin-top: 30px;">📋 โค้ด JSON ที่ได้ (ก๊อปปี้ไปใช้งานได้เลย)</h3>
+        <textarea id="jsonOutput" readonly placeholder="โค้ด JSON จะปรากฏตรงนี้..."></textarea>
+    </div>
+</div>
+
+<script>
+    let fighterOptionsHTML = ''; // เก็บ HTML ของตัวเลือกนักมวย
+    let matchCount = 0;
+
+    // 1. โหลดข้อมูลนักมวยทั้งหมดที่มีในคลังมาทำเป็นตัวเลือก (Dropdown)
+    async function loadFighters() {
+        try {
+            const listRes = await fetch('data/boxers/fighters-list.json');
+            const files = await listRes.json();
+            
+            const fetchPromises = files.map(async (f) => {
+                try {
+                    const res = await fetch(`data/boxers/${encodeURIComponent(f.trim())}`);
+                    if (res.ok) {
+                        const data = await res.json();
+                        return { name: data.fighter_profile.name_th, file: f };
+                    }
+                } catch(e) {}
+                return null;
+            });
+
+            const results = (await Promise.all(fetchPromises)).filter(item => item !== null);
+            
+            // สร้าง <option> สำหรับ Dropdown
+            fighterOptionsHTML = '<option value="">-- เลือกนักมวย --</option>';
+            results.sort((a,b) => a.name.localeCompare(b.name)).forEach(f => {
+                // เก็บค่าเป็น JSON string เพื่อให้ตอนดึงไปใช้ง่ายๆ
+                const val = JSON.stringify({ name: f.name, file_name: f.file });
+                fighterOptionsHTML += `<option value='${val}'>${f.name}</option>`;
+            });
+
+            document.getElementById('loadingBox').style.display = 'none';
+            document.getElementById('mainForm').style.display = 'block';
+
+            // เพิ่มคู่ที่ 1 เป็นค่าเริ่มต้น
+            addMatch();
+
+        } catch (e) {
+            document.getElementById('loadingBox').innerHTML = '❌ เกิดข้อผิดพลาดในการโหลดคลังข้อมูลนักมวย (โปรดรันผ่าน Live Server)';
+        }
+    }
+
+    // 2. ฟังก์ชันเพิ่มฟอร์มคู่มวย
+    function addMatch() {
+        matchCount++;
+        const div = document.createElement('div');
+        div.className = 'match-card';
+        div.id = `match-${matchCount}`;
+        
+        div.innerHTML = `
+            <button class="btn-remove" onclick="removeMatch('${div.id}')">X ลบ</button>
+            <h3>คู่ที่ <span class="match-order-label">${matchCount}</span></h3>
+            
+            <div class="grid-2">
+                <div class="form-group">
+                    <label style="color:#e50914;">มุมแดง (Red Corner)</label>
+                    <select class="fighter-red">${fighterOptionsHTML}</select>
+                </div>
+                <div class="form-group">
+                    <label style="color:#0d6efd;">มุมน้ำเงิน (Blue Corner)</label>
+                    <select class="fighter-blue">${fighterOptionsHTML}</select>
+                </div>
+                <div class="form-group">
+                    <label>รุ่นน้ำหนัก (Weight Class)</label>
+                    <input type="text" class="weight-class" placeholder="ex. Flyweight">
+                </div>
+                <div class="form-group">
+                    <label>โอกาสชนะ มุมแดง (%) *น้ำเงินจะคำนวณอัตโนมัติ</label>
+                    <input type="number" class="prob-red" value="50" min="1" max="99">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>บทวิเคราะห์จาก AI (AI Analysis)</label>
+                <textarea class="ai-analysis" rows="3" placeholder="พิมพ์บทวิเคราะห์ที่นี่..."></textarea>
+            </div>
+        `;
+        document.getElementById('matchesContainer').appendChild(div);
+        updateMatchOrders();
+    }
+
+    // 3. ลบคู่มวย
+    function removeMatch(id) {
+        document.getElementById(id).remove();
+        updateMatchOrders();
+    }
+
+    // อัปเดตเลขลำดับคู่มวย
+    function updateMatchOrders() {
+        const cards = document.querySelectorAll('.match-card');
+        cards.forEach((card, index) => {
+            card.querySelector('.match-order-label').innerText = index + 1;
+        });
+    }
+
+    // 4. สกัดข้อมูลทั้งหมดเป็น JSON
+    function generateJSON() {
+        const eventId = document.getElementById('eventId').value.trim();
+        if(!eventId) { alert("กรุณาใส่ รหัสศึก (Event ID) ด้วยครับ!"); return; }
+
+        const jsonObj = {
+            event_id: eventId,
+            event_name: document.getElementById('eventName').value.trim(),
+            promotion: document.getElementById('eventPromo').value.trim(),
+            date: document.getElementById('eventDate').value.trim(),
+            location: document.getElementById('eventLocation').value.trim(),
+            status: "upcoming",
+            banner_image: `https://via.placeholder.com/1200x500?text=${eventId.toUpperCase()}`,
+            event_description: "วิเคราะห์เจาะลึกไฟต์สำคัญประจำสัปดาห์",
+            matches: []
+        };
+
+        const cards = document.querySelectorAll('.match-card');
+        cards.forEach((card, index) => {
+            const redData = card.querySelector('.fighter-red').value;
+            const blueData = card.querySelector('.fighter-blue').value;
+            
+            // ถ้าเลือกนักมวยครบ 2 ฝั่ง ถึงจะบันทึก
+            if (redData && blueData) {
+                const redObj = JSON.parse(redData);
+                const blueObj = JSON.parse(blueData);
+                const probRed = parseInt(card.querySelector('.prob-red').value) || 50;
+
+                jsonObj.matches.push({
+                    match_order: index + 1,
+                    weight_class: card.querySelector('.weight-class').value.trim(),
+                    is_title_fight: false,
+                    fighter_red: redObj,
+                    fighter_blue: blueObj,
+                    ai_analysis: card.querySelector('.ai-analysis').value.trim(),
+                    win_probability: {
+                        red: probRed,
+                        blue: 100 - probRed
+                    },
+                    result: ""
+                });
+            }
+        });
+
+        // แสดงผลในกล่อง Textarea
+        const output = document.getElementById('jsonOutput');
+        output.value = JSON.stringify(jsonObj, null, 2);
+        output.select();
+        
+        alert("สร้างโค้ด JSON สำเร็จ! ก๊อปปี้โค้ดในกล่องดำด้านล่างไปใช้งานได้เลยครับ");
+    }
+
+    // เริ่มทำงาน
+    loadFighters();
+</script>
+
+</body>
+</html>

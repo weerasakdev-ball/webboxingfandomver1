@@ -1,0 +1,154 @@
+{
+    "fighter_profile": {
+        "name_th": "ตุย ลิน ทัต",
+        "name_en": "Thway Lin Htat",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://i.ibb.co/x81dQzbg/image.jpg",
+        "grade": "B+",
+        "fighting_style_th": "มวยหมัด/เตะหนัก",
+        "fighting_style_en": "Power Puncher",
+        "stance": "Orthodox",
+        "physical_stats": {
+            "weight_lbs": 124.3,
+            "weight_kg": 56.4,
+            "division": "Strawweight",
+            "height_ft": "5'6\"",
+            "height_cm": 169,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": 4.82
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 58,
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "เมียนมา",
+            "country_en": "Myanmar",
+            "age": 22,
+            "team_th": "Phyo Wai Group",
+            "team_en": "Phyo Wai Group"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/thway/"
+        ],
+        "short_biography": "ตุย ลิน ทัต (Thway Lin Htat) เป็นนักชกชาวเมียนมา วัย 22 ปี จากสังกัดPhyo Wai Group มีความถนัดในการต่อสู้สไตล์มวยหมัด/เตะหนัก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 56.4 กิโลกรัม) ส่วนสูง 169 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 140 สามารถพ่ายแพ้ให้กับ ก้องชัย ไฉนดอนเมือง ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 30, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 140"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สามเอ ไก่ย่างห้าดาว",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 26, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 126"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:52",
+            "opponent_th": "โชคปรีชา พีเค.ต้อมทีเค.อะไหล่ยนต์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 22, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 121"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:43",
+            "opponent_th": "กริชเพชร พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 13, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 112"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ร็อคกี้ ว.วรรณทวี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 21, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 101"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:39",
+            "opponent_th": "ยอดกิตติ เฟี้ยตปทุม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 10, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 93"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "บราซิล เอกเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 01, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 85"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "กานต์ชัย จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 23, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 76"
+        }
+    ]
+}

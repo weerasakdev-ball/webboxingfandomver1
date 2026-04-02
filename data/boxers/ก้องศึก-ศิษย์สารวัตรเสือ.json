@@ -1,0 +1,210 @@
+{
+    "fighter_profile": {
+        "name_th": "ก้องศึก ศิษย์สารวัตรเสือ",
+        "name_en": "Kongseuk Sitsawatsue",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324021/%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%A8%E0%B8%B6%E0%B8%81_%E0%B8%A8%E0%B8%B4%E0%B8%A9%E0%B8%A2%E0%B9%8C%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD_imoj1z.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยซ้าย, มวยฝีมือ",
+        "fighting_style_en": "Southpaw, Technical Fighter",
+        "stance": "Southpaw (Left-handed)",
+        "physical_stats": {
+            "weight_lbs": 138.8,
+            "weight_kg": 62.96,
+            "division": "Bantamweight",
+            "height_ft": "5'6\"",
+            "height_cm": 170,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 25,
+            "team_th": "ศิษย์สารวัตรเสือ",
+            "team_en": "Sitsawatsue Gym"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/kongsuk/"
+        ],
+        "short_biography": "ก้องศึก ศิษย์สารวัตรเสือ (Kongseuk Sitsawatsue) เป็นนักชกชาวไทย วัย 25 ปี จากสังกัดศิษย์สารวัตรเสือ มีความถนัดในการต่อสู้สไตล์มวยซ้าย, มวยฝีมือ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 62.96 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 146 สามารถเอาชนะ บาบัก โซลูคี ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "upcoming_fights": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 146",
+            "weight_lbs": 138.8,
+            "division": "Bantamweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:27",
+            "opponent_th": "บาบัก โซลูคี",
+            "opponent_en": "",
+            "opponent_country": "อิหร่าน",
+            "date": "Mar 13, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 146"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ลำน้ำมูลเล็ก ทอฝันฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 18, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 105"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ลำน้ำมูลเล็ก ทอฝันฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 14, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 97"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:14",
+            "opponent_th": "เมืองไทย พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 25, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 84"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยอดเหล็กเพชร อ.อัจฉริยะ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 30, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 77"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โจอาคิม อูรากี",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส/แอลจีเรีย",
+            "date": "Jul 26, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 72"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรสุขุมวิท ต้อมทุ่งใหญ่",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 23, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 53"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรทองหล่อ ศิษย์หลวงพี่น้ำฝน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 01, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 43"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เด็ดดวงเล็ก ทอฝันฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 29, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 35"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "จ้าวเสือใหญ่ ม.กรุงเทพธนบุรี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 11, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 28"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ไผ่แดง เกียรติทรงฤทธิ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 16, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 21"
+        }
+    ]
+}

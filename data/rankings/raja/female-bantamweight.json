@@ -1,0 +1,103 @@
+{
+  "last_updated": "2026-03-31T07:07:36.120Z",
+  "stadium": "Rajadamnern Stadium",
+  "division": "Female Bantamweight",
+  "fighters": [
+    {
+      "rank": "C",
+      "name": "Barbara Aguiar",
+      "image_url": "",
+      "country": "BR"
+    },
+    {
+      "rank": "1",
+      "name": "Morgane Mary-Pouliot",
+      "image_url": "",
+      "country": "CA"
+    },
+    {
+      "rank": "2",
+      "name": "Buachompoo Chootangduan",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "3",
+      "name": "Somratsamee Manop Muay Thai Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "4",
+      "name": "Christina Manop Muay Thai",
+      "image_url": "",
+      "country": "US"
+    },
+    {
+      "rank": "5",
+      "name": "Nongmay Rongrean Keela Korat",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "6",
+      "name": "Eeva Pohto",
+      "image_url": "",
+      "country": "FI"
+    },
+    {
+      "rank": "7",
+      "name": "Maria Eduarda",
+      "image_url": "",
+      "country": "BR"
+    },
+    {
+      "rank": "8",
+      "name": "Amy Duke",
+      "image_url": "",
+      "country": "US"
+    },
+    {
+      "rank": "9",
+      "name": "Laura Burgos",
+      "image_url": "",
+      "country": "MX"
+    },
+    {
+      "rank": "10",
+      "name": "Hollie Bowness",
+      "image_url": "",
+      "country": "GB-ENG"
+    },
+    {
+      "rank": "11",
+      "name": "Mayree Khongsittha Muay Thai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "12",
+      "name": "Zarina Islamova",
+      "image_url": "",
+      "country": "RU"
+    },
+    {
+      "rank": "13",
+      "name": "Sandra Vestergaard",
+      "image_url": "",
+      "country": "DK"
+    },
+    {
+      "rank": "14",
+      "name": "Jitti SorSor.Chiangmai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "15",
+      "name": "Monika Chochlikova",
+      "image_url": "",
+      "country": "SK"
+    }
+  ]
+}

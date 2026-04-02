@@ -1,0 +1,111 @@
+{
+    "last_updated": "2026-03-31",
+    "division": "Bantamweight (135 - 145 lbs)",
+    "fighters": [
+        {
+            "name_th": "เกรเกอร์ ทอม",
+            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772975723/Opera_%E0%B8%AA%E0%B9%81%E0%B8%99%E0%B8%9B%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%95_2026-03-08_201346_www.onefc.com_thqpyc.png",
+            "team_th": "อเบอร์ดีน คอมแบท เซ็นเตอร์ / เกียรติทรงฤทธิ์",
+            "country_th": "สกอตแลนด์",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 2,
+                        "losses": 2,
+                        "draws": 0,
+                        "ko_wins": 2,
+                        "points": 10
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 2,
+                        "losses": 2,
+                        "draws": 0,
+                        "ko_wins": 2,
+                        "points": 10
+                    }
+                },
+                "yearly": {
+                    "2024": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "เกรเกอร์-ทอม.html",
+            "trend": "steady",
+            "last_rank": 1
+        }
+    ]
+}

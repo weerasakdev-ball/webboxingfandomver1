@@ -1,0 +1,131 @@
+{
+    "fighter_profile": {
+        "name_th": "บันลือโลก ศิษย์วัชรชัย",
+        "name_en": "Banluelok Sittiwachachai",
+        "alias": "จอมทำลายล้างรุ่นเล็ก",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772953203/%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B9%82%E0%B8%A5%E0%B8%81_%E0%B8%A8%E0%B8%B4%E0%B8%A9%E0%B8%A2%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%8A%E0%B8%A3%E0%B8%8A%E0%B8%B1%E0%B8%A2_d9gwcc.png",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ, หมัดคม, เตะหนัก",
+        "fighting_style_en": "Technical Fighter, Sharp Puncher, Heavy Kicker",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 115,
+            "weight_kg": 52.16,
+            "division": "Atomweight",
+            "height_ft": "5'2\"",
+            "height_cm": 159,
+            "reach_cm": "162",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "41.2%"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "41.2%",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 28,
+            "team_th": "ราชานนท์ (Rachanon)",
+            "team_en": "Rachanon"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/banluerit-or-atchariya/"
+        ],
+        "short_biography": "บันลือโลก ศิษย์วัชรชัย (Banluelok Sittiwachachai) เป็นนักชกชาวไทย วัย 28 ปี จากสังกัดราชานนท์ (Rachanon) มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, หมัดคม, เตะหนัก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Atomweight (ประมาณ 52.16 กิโลกรัม) ส่วนสูง 159 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถเอาชนะ โทมะ คุโรดะ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โทมะ คุโรดะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Mar 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 145"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "นาดากะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Jun 27, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 114"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:16",
+            "opponent_th": "เพชรบ้านไร่ มาวินมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 02, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 106"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:45",
+            "opponent_th": "ทับทิมทอง อิงฟ้าโฮเทลอุบล",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 25, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 84"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:38",
+            "opponent_th": "เหนือธรณี จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 10, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 8"
+        }
+    ],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 145",
+            "weight_lbs": 115,
+            "division": "Atomweight"
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+  "last_updated": "2026-03-31T07:07:41.260Z",
+  "stadium": "Rajadamnern Stadium",
+  "division": "Female Minimumweight",
+  "fighters": [
+    {
+      "rank": "C",
+      "name": "Mongkutpetch Petchyindee Academy",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "1",
+      "name": "Sanehngarm Sakchamni",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "2",
+      "name": "Devina Martin",
+      "image_url": "",
+      "country": "AU"
+    },
+    {
+      "rank": "3",
+      "name": "Mookmanee Nor. Naksuwan",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "4",
+      "name": "Mafia Petchmongkoldee",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "5",
+      "name": "Baoplai Banchamek",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "6",
+      "name": "Kwanjira Sor. Yupawadee",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "7",
+      "name": "Prajanchai Wor. Petchchonjan",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "8",
+      "name": "Phuduan Sakchamni",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "9",
+      "name": "Petchsaiparn Sitpanancherng",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "10",
+      "name": "Payahong Banchamek",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "11",
+      "name": "Gabrielle De Ramos",
+      "image_url": "",
+      "country": "AU"
+    },
+    {
+      "rank": "12",
+      "name": "Winnia Leow",
+      "image_url": "",
+      "country": "SG"
+    },
+    {
+      "rank": "13",
+      "name": "Kaosuay Por. Kobkua",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "14",
+      "name": "Saya Ito",
+      "image_url": "",
+      "country": "JP"
+    },
+    {
+      "rank": "15",
+      "name": "Nina Karasek",
+      "image_url": "",
+      "country": "TH"
+    }
+  ]
+}

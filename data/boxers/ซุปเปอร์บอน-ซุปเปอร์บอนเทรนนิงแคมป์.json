@@ -1,0 +1,188 @@
+{
+    "fighter_profile": {
+        "name_th": "ซุปเปอร์บอน ซุปเปอร์บอนเทรนนิง แคมป์",
+        "name_en": "Superbon Singha Mawynn",
+        "alias": "The Kickboxing King",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531954/%E0%B8%8B%E0%B8%B8%E0%B8%9B%E0%B9%80%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%9A%E0%B8%AD%E0%B8%99_dibyex.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ, คิกบ็อกซิ่งเทคนิค",
+        "fighting_style_en": "Technical Fighter (Muay Fimeu), Kickboxing Specialist",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 154.3,
+            "weight_kg": 70,
+            "division": "Featherweight",
+            "height_ft": "5'10\"",
+            "height_cm": 177,
+            "reach_cm": "182",
+            "leg_reach_cm": "103"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 5,
+                "body": 6,
+                "legs": 2,
+                "total_per_minute": 13
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 48,
+                "accuracy_by_target_percentage": {
+                    "head": 35,
+                    "body": 45,
+                    "legs": 20
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 52,
+                "defense_by_target_percentage": {
+                    "head": 55,
+                    "body": 30,
+                    "legs": 15
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 35,
+            "team_th": "ซุปเปอร์บอน เทรนนิง แคมป์",
+            "team_en": "Superbon Training Camp"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/superbon/"
+        ],
+        "short_biography": "ซุปเปอร์บอน ซุปเปอร์บอนเทรนนิง แคมป์ (Superbon Singha Mawynn) เป็นนักชกชาวไทย วัย 35 ปี จากสังกัดซุปเปอร์บอน เทรนนิง แคมป์ มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, คิกบ็อกซิ่งเทคนิค ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Featherweight (ประมาณ 70 กิโลกรัม) ส่วนสูง 177 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 173: ซุปเปอร์บอน vs มาซาอากิ สามารถเอาชนะ มาซาอากิ โนอิริ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "มาซาอากิ โนอิริ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Nov 16, 2025",
+            "rating": 5,
+            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:10",
+            "opponent_th": "ตะวันฉาย พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 24, 2025",
+            "rating": 5,
+            "event_en": "ONE 170"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:43",
+            "opponent_th": "โจ ณัฐวุฒิ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 27, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "มารัต กริกอเรียน",
+            "opponent_en": "",
+            "opponent_country": "อาร์เมเนีย",
+            "date": "Apr 05, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 58: ซุปเปอร์บอน vs มารัต"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "ตะวันฉาย พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 22, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 46: ตะวันฉาย vs  ซุปเปอร์บอน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:46",
+            "opponent_th": "ไทฟุน ออสแคน",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี/เนเธอร์แลนด์",
+            "date": "Jun 09, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 11: รีเกียน vs ดีมิทรี"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:03",
+            "opponent_th": "ชิงกิซ อัลลาซอฟ",
+            "opponent_en": "",
+            "opponent_country": "อาเซอร์ไบจาน/เบลารุส",
+            "date": "Jan 14, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 6: ซุปเปอร์บอน vs ชิงกิซ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "มารัต กริกอเรียน",
+            "opponent_en": "",
+            "opponent_country": "อาร์เมเนีย",
+            "date": "Mar 26, 2022",
+            "rating": 5,
+            "event_en": "ONE X"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:20",
+            "opponent_th": "จอร์จิโอ เปโตรเซียน",
+            "opponent_en": "",
+            "opponent_country": "อิตาลี",
+            "date": "Oct 15, 2021",
+            "rating": 5,
+            "event_en": "ONE First Strike"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สิทธิชัย ศิษย์สองพี่น้อง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 31, 2020",
+            "rating": 5,
+            "event_en": "ONE No Surrender"
+        }
+    ]
+}

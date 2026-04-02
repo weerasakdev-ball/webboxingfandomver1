@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>จัดอันดับ ONE Championship | BoxingFandom</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #e50914;
+            --dark: #1a1a1a;
+            --bg: #f4f4f4;
+            --white: #ffffff;
+            --gold: #d97706;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background-color: var(--bg);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: var(--dark);
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid var(--primary);
+        }
+
+        header h1 { font-size: 24px; font-weight: 800; text-transform: uppercase; }
+        header h1 span { color: var(--primary); }
+
+        .ranking-dashboard {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+            flex: 1;
+        }
+
+        .dashboard-header {
+            background: var(--dark);
+            color: white;
+            padding: 25px;
+            border-radius: 12px 12px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .controls { display: flex; gap: 10px; }
+        .controls select {
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid #444;
+            background: #222;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .table-container {
+            background: var(--white);
+            border-radius: 0 0 12px 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        table { width: 100%; border-collapse: collapse; }
+        th { background: #f8f8f8; padding: 15px; font-size: 13px; color: #777; text-align: left; }
+        td { padding: 15px; border-bottom: 1px solid #eee; vertical-align: middle; }
+
+        .rank-col { width: 80px; text-align: center; font-size: 22px; font-weight: 900; color: #ddd; }
+        .rank-1 { color: var(--gold); font-size: 26px; }
+
+        .fighter-cell { display: flex; align-items: center; gap: 15px; }
+        .fighter-thumb { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 1px solid #ddd; }
+        .fighter-name { font-weight: 700; font-size: 17px; color: var(--dark); text-decoration: none; display: block; }
+        .fighter-name:hover { color: var(--primary); }
+        .fighter-team { font-size: 12px; color: #999; }
+
+        .pts-col { font-size: 20px; font-weight: 900; color: var(--primary); text-align: right; padding-right: 30px; }
+
+        footer { background: var(--dark); color: #666; text-align: center; padding: 20px; margin-top: 40px; }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1><span>Boxing</span>Fandom</h1>
+        <nav><a href="../../index.html" style="color:white; text-decoration:none; font-size: 14px;">หน้าแรก</a></nav>
+    </header>
+
+    <main class="ranking-dashboard">
+        <div class="dashboard-header">
+            <h2>ONE Rankings</h2>
+            <div class="controls">
+                <select id="year-filter">
+                    <option value="lifetime">คะแนนรวมตลอดชีพ</option>
+                    <option value="2026">ปี 2026</option>
+                    <option value="2025">ปี 2025</option>
+                    <option value="2024">ปี 2024</option>
+                    <option value="2023">ปี 2023</option>
+                </select>
+                <select id="division-filter">
+                    <option value="strawweight-flyweight">Strawweight / Flyweight</option>
+                    <option value="strawweight">Strawweight</option>
+                    <option value="flyweight">Flyweight</option>
+                    <option value="bantamweight">Bantamweight</option>
+                    <option value="featherweight">Featherweight</option>
+                    <option value="lightweight">Lightweight</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="text-align:center;">อันดับ</th>
+                        <th>นักมวย</th>
+                        <th>ค่าย / สังกัด</th>
+                        <th style="text-align:right; padding-right:30px;">คะแนน (ONE)</th>
+                    </tr>
+                </thead>
+                <tbody id="ranking-body">
+                    </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 BoxingFandom Rankings System</p>
+    </footer>
+
+    <script>
+        // --- 1. ประกาศตัวแปรเพื่อเชื่อมต่อกับหน้าเว็บ ---
+        const yearFilter = document.getElementById('year-filter');
+        const divisionFilter = document.getElementById('division-filter');
+        const rankingBody = document.getElementById('ranking-body');
+
+        // --- 2. ฟังก์ชันหลักสำหรับดึงข้อมูลและแสดงผล ---
+        async function updateRankings() {
+            const year = yearFilter.value;
+            const division = divisionFilter.value;
+
+            // แสดงสถานะกำลังโหลด
+            rankingBody.innerHTML = '<tr><td colspan="4" style="text-align:center; padding:50px; color:#888;">กำลังโหลดข้อมูลนักมวย...</td></tr>';
+
+            try {
+                // ดึงไฟล์ JSON ตามรุ่นที่เลือก
+                const res = await fetch(`../../data/rankings/one_championship/${division}.json`);
+                if (!res.ok) throw new Error("ไม่พบไฟล์ข้อมูลรุ่นนี้");
+                
+                const data = await res.json();
+                const fighters = data.fighters;
+
+                // --- 3. ประมวลผลคะแนนนักมวยทีละคน ---
+                let rankedList = fighters.map(f => {
+                    let pts = 0;
+                    let wins = 0;
+                    let losses = 0;
+
+                    if (f.stats) {
+                        if (year === 'lifetime') {
+                            // ดึงจาก stats -> lifetime -> one
+                            const target = f.stats.lifetime.one;
+                            pts = target.points;
+                            wins = target.wins;
+                            losses = target.losses;
+                        } else {
+                            // ดึงจาก stats -> yearly -> [ปี] -> one
+                            if (f.stats.yearly && f.stats.yearly[year] && f.stats.yearly[year].one) {
+                                const target = f.stats.yearly[year].one;
+                                pts = target.points;
+                                wins = target.wins;
+                                losses = target.losses;
+                            }
+                        }
+                    }
+
+                    return { 
+                        ...f, 
+                        currentPoints: pts, 
+                        currentWins: wins, 
+                        currentLosses: losses 
+                    };
+                });
+
+                // --- 4. กรองเฉพาะคนที่มีประวัติชก (คะแนนอาจเป็น 0 แต่ต้องเคยขึ้นชกในรายการ) ---
+                // กรองเอาคนที่มีคะแนนอย่างน้อย 0 ขึ้นไป และมีการระบุในตะกร้า ONE
+                rankedList = rankedList.filter(f => f.currentPoints >= 0);
+
+                // --- 5. จัดอันดับ (Sorting) ---
+                rankedList.sort((a, b) => {
+                    // เรียงตามคะแนนก่อน
+                    if (b.currentPoints !== a.currentPoints) {
+                        return b.currentPoints - a.currentPoints;
+                    }
+                    // ถ้าคะแนนเท่ากัน ให้คนชนะเยอะกว่าอยู่อันดับสูงกว่า
+                    return b.currentWins - a.currentWins;
+                });
+
+                // --- 6. แสดงผลลงตาราง ---
+                if (rankedList.length === 0) {
+                    rankingBody.innerHTML = '<tr><td colspan="4" style="text-align:center; padding:50px; color:#888;">ไม่มีข้อมูลอันดับในเงื่อนไขนี้</td></tr>';
+                    return;
+                }
+
+                rankingBody.innerHTML = rankedList.map((f, index) => {
+                    const isChampion = index === 0 && f.currentPoints > 0;
+                    return `
+                        <tr>
+                            <td class="rank-col ${isChampion ? 'rank-1' : ''}">${isChampion ? '👑' : index + 1}</td>
+                            <td>
+                                <div class="fighter-cell">
+                                    <img src="${f.image_url}" class="fighter-thumb" onerror="this.src='https://via.placeholder.com/50'">
+                                    <div>
+                                        <a href="../fighter/profile.html?id=${encodeURIComponent(f.profile_file.replace('.html', ''))}" class="fighter-name">${f.name_th}</a>
+                                        <div class="fighter-team">ผลงานใน ONE: <span style="color:green">ชนะ ${f.currentWins}</span> | <span style="color:red">แพ้ ${f.currentLosses}</span></div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span style="background:#f0f0f0; padding:4px 8px; border-radius:4px; font-size:12px; font-weight:bold;">${f.team_th}</span></td>
+                            <td class="pts-col">${f.currentPoints}</td>
+                        </tr>
+                    `;
+                }).join('');
+
+            } catch (err) {
+                console.error("Error:", err);
+                rankingBody.innerHTML = `<tr><td colspan="4" style="text-align:center; padding:50px; color:red;">ขออภัย: ไม่พบข้อมูลรุ่น ${division}</td></tr>`;
+            }
+        }
+
+        // --- 7. ผูกเหตุการณ์เมื่อมีการเปลี่ยนตัวเลือก ---
+        yearFilter.addEventListener('change', updateRankings);
+        divisionFilter.addEventListener('change', updateRankings);
+
+        // โหลดข้อมูลครั้งแรกทันทีที่เปิดหน้า
+        updateRankings();
+    </script>
+</body>
+</html>

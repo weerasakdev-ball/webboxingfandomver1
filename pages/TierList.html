@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>จัดอันดับนักมวย (Tier List) | BoxingFandom</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Sarabun', sans-serif; }
+        .tier-row { min-height: 110px; }
+        .boxer-card { width: 90px; transition: all 0.2s; }
+        .dropzone { min-height: 100px; display: flex; flex-wrap: wrap; gap: 8px; padding: 12px; }
+        
+        /* คลาสสำหรับซ่อนองค์ประกอบตอนแคปหน้าจอ */
+        .capture-mode .no-capture { display: none !important; }
+        
+        /* สกอร์บาร์แบบกำหนดเอง */
+        .custom-scroll::-webkit-scrollbar { width: 8px; }
+        .custom-scroll::-webkit-scrollbar-track { background: #111827; border-radius: 10px; }
+        .custom-scroll::-webkit-scrollbar-thumb { background: #e50914; border-radius: 10px; }
+        .custom-scroll::-webkit-scrollbar-thumb:hover { background: #b0070f; }
+
+        /* Animation ตอนลากวาง */
+        .dragging { opacity: 0.5; transform: scale(0.95); }
+        .drag-over { background-color: rgba(229, 9, 20, 0.2) !important; border: 2px dashed #e50914; }
+
+        /* สไตล์สำหรับฟิลเตอร์ */
+        .filter-input { background: #2a2a2a; border: 1px solid #444; color: white; padding: 10px 15px; border-radius: 8px; outline: none; width: 100%; font-size: 0.95rem; transition: 0.3s; }
+        .filter-input:focus { border-color: #e50914; background: #333; }
+    </style>
+</head>
+<body class="bg-[#121212] text-white font-sans p-4 md:p-8 transition-colors duration-300" id="body-context">
+
+    <div class="max-w-6xl mx-auto">
+        <header class="text-center mb-8 no-capture">
+            <h1 class="text-4xl md:text-5xl font-black uppercase tracking-tighter mb-2">
+                <span class="text-[#e50914]">Boxing</span><span class="text-white">Fandom</span> Tier List
+            </h1>
+            <p class="text-[#a0a0a0] text-sm md:text-base font-semibold">
+                จัดอันดับนักชกในดวงใจ เสร็จแล้วกดปุ่ม <b class="text-[#e50914]">"โหมดแคปหน้าจอ"</b> เพื่อบันทึกรูปไปอวดเพื่อนได้เลย!
+            </p>
+            
+            <div class="flex flex-wrap justify-center gap-3 mt-6">
+                <button onclick="resetBoard()" class="bg-[#1e1e1e] hover:bg-[#333333] px-6 py-3 rounded-full font-bold text-sm transition shadow-lg border border-[#333333] flex items-center gap-2">
+                    🔄 ล้างกระดาน
+                </button>
+                <button onclick="toggleCapture(true)" class="bg-gradient-to-r from-[#e50914] to-[#b0070f] hover:from-[#b0070f] hover:to-[#7a050a] px-8 py-3 rounded-full font-bold text-base transition shadow-lg text-white flex items-center gap-2 transform hover:scale-105">
+                    📸 เข้าสู่โหมดแคปหน้าจอ
+                </button>
+            </div>
+        </header>
+
+        <div id="exit-btn" class="hidden fixed top-6 right-6 z-50 flex flex-col items-end gap-2">
+            <div class="bg-black/80 text-white text-sm px-4 py-2 rounded-lg border border-gray-600 shadow-xl text-right animate-pulse">
+                <b>💡 พร้อมแคปแล้ว!</b><br>
+                📱 มือถือ: กดปุ่มแคปจอตามปกติ<br>
+                💻 คอมพิวเตอร์: กด Win + Shift + S
+            </div>
+            <button onclick="toggleCapture(false)" class="bg-[#e50914] hover:bg-[#b0070f] text-white px-6 py-2 rounded-full shadow-2xl font-bold border-2 border-white transition-transform hover:scale-105">
+                ❌ ออกจากโหมดนี้
+            </button>
+        </div>
+
+        <main id="capture-area" class="bg-[#0a0a0a] border-2 border-[#333333] rounded-2xl overflow-hidden shadow-2xl mb-10 pb-2">
+            
+            <div id="watermark" class="hidden text-center py-3 bg-[#000000] text-white font-black tracking-widest uppercase border-b border-[#333] text-lg">
+                จัดอันดับที่ <span class="text-[#e50914]">Boxing</span>Fandom.com
+            </div>
+
+            <div class="flex border-b border-[#333333] tier-row">
+                <div class="bg-red-600 w-24 md:w-32 flex items-center justify-center border-r border-[#333333] flex-shrink-0">
+                    <span class="text-4xl md:text-5xl font-black text-white drop-shadow-md">S</span>
+                </div>
+                <div class="dropzone flex-grow bg-[#1e1e1e]/50 transition-colors" id="tier-s" ondragover="allowDrop(event)" ondragleave="dragLeave(event)" ondrop="drop(event)"></div>
+            </div>
+
+            <div class="flex border-b border-[#333333] tier-row">
+                <div class="bg-orange-500 w-24 md:w-32 flex items-center justify-center border-r border-[#333333] flex-shrink-0">
+                    <span class="text-4xl md:text-5xl font-black text-white drop-shadow-md">A</span>
+                </div>
+                <div class="dropzone flex-grow bg-[#1e1e1e]/50 transition-colors" id="tier-a" ondragover="allowDrop(event)" ondragleave="dragLeave(event)" ondrop="drop(event)"></div>
+            </div>
+
+            <div class="flex border-b border-[#333333] tier-row">
+                <div class="bg-yellow-500 w-24 md:w-32 flex items-center justify-center border-r border-[#333333] flex-shrink-0">
+                    <span class="text-4xl md:text-5xl font-black text-white drop-shadow-md">B</span>
+                </div>
+                <div class="dropzone flex-grow bg-[#1e1e1e]/50 transition-colors" id="tier-b" ondragover="allowDrop(event)" ondragleave="dragLeave(event)" ondrop="drop(event)"></div>
+            </div>
+
+            <div class="flex border-b border-[#333333] tier-row">
+                <div class="bg-green-500 w-24 md:w-32 flex items-center justify-center border-r border-[#333333] flex-shrink-0">
+                    <span class="text-4xl md:text-5xl font-black text-white drop-shadow-md">C</span>
+                </div>
+                <div class="dropzone flex-grow bg-[#1e1e1e]/50 transition-colors" id="tier-c" ondragover="allowDrop(event)" ondragleave="dragLeave(event)" ondrop="drop(event)"></div>
+            </div>
+
+            <div class="flex tier-row border-b border-[#333333]">
+                <div class="bg-blue-500 w-24 md:w-32 flex items-center justify-center border-r border-[#333333] flex-shrink-0">
+                    <span class="text-4xl md:text-5xl font-black text-white drop-shadow-md">D</span>
+                </div>
+                <div class="dropzone flex-grow bg-[#1e1e1e]/50 transition-colors" id="tier-d" ondragover="allowDrop(event)" ondragleave="dragLeave(event)" ondrop="drop(event)"></div>
+            </div>
+        </main>
+
+        <section class="no-capture">
+            <h2 class="text-xl font-bold mb-4 text-[#ffffff] flex items-center gap-2">
+                <span class="w-2 h-6 bg-[#e50914] rounded-full"></span>
+                คลังนักมวยที่รอการจัดอันดับ
+            </h2>
+            
+            <div class="bg-[#1e1e1e] p-4 rounded-xl border border-[#333] mb-4 grid grid-cols-1 md:grid-cols-4 gap-4">
+                <input type="text" id="searchName" class="filter-input" placeholder="🔍 พิมพ์ค้นหาชื่อนักมวย..." oninput="filterFighters()">
+                
+                <select id="filterDivision" class="filter-input" onchange="filterFighters()">
+                    <option value="all">🥊 ทุกรุ่นน้ำหนัก (Division)</option>
+                </select>
+
+                <select id="filterCountry" class="filter-input" onchange="filterFighters()">
+                    <option value="all">🌍 ทุกสัญชาติ (Country)</option>
+                </select>
+
+                <select id="filterAge" class="filter-input" onchange="filterFighters()">
+                    <option value="all">⏳ ทุกช่วงอายุ (Age)</option>
+                    <option value="under20">อายุต่ำกว่า 20 ปี</option>
+                    <option value="20-25">อายุ 20 - 25 ปี</option>
+                    <option value="26-30">อายุ 26 - 30 ปี</option>
+                    <option value="over30">อายุมากกว่า 30 ปี</option>
+                </select>
+            </div>
+
+            <div id="boxer-pool" class="bg-[#1e1e1e] border border-[#333333] rounded-xl p-6 min-h-[250px] flex flex-wrap gap-4 dropzone custom-scroll max-h-[500px] overflow-y-auto" ondragover="allowDrop(event)" ondragleave="dragLeave(event)" ondrop="drop(event)">
+                <div id="loader" class="w-full text-center py-16">
+                    <div class="inline-block animate-spin rounded-full h-12 w-12 border-t-4 border-[#e50914] mb-4"></div>
+                    <p class="text-[#a0a0a0] font-bold text-lg">กำลังโหลดและจัดเรียงฐานข้อมูลนักมวย...</p>
+                </div>
+            </div>
+
+            <div id="load-more-container" class="text-center mt-6 mb-4 hidden">
+                <button onclick="loadMoreFighters()" class="bg-[#2a2a2a] hover:bg-[#e50914] text-white px-8 py-3 rounded-full font-bold shadow-lg border border-[#444] hover:border-[#e50914] transition-all">
+                    ⬇️ แสดงนักมวยเพิ่มเติม
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // ==========================================
+        // 1. ตัวแปรจัดการโควตาการแสดงผล (Pagination)
+        // ==========================================
+        let displayLimit = 20; // จำนวนสูงสุดที่จะแสดงในกล่องคลังนักมวย
+        let totalValidBoxers = 0;
+
+        // ==========================================
+        // 2. ระบบดึงข้อมูลและเตรียม Filter
+        // ==========================================
+        async function fetchBoxers() {
+            const pool = document.getElementById('boxer-pool');
+            try {
+                const listRes = await fetch('../data/boxers/fighters-list.json');
+                if (!listRes.ok) throw new Error('ไม่พบไฟล์ fighters-list.json');
+                const files = await listRes.json();
+                
+                const divisions = new Set();
+                const countries = new Set();
+
+                const fetchPromises = files.map(async (file) => {
+                    try {
+                        const res = await fetch(`../data/boxers/${encodeURIComponent(file.trim())}`);
+                        if (!res.ok) return null;
+                        return await res.json();
+                    } catch (e) { return null; }
+                });
+
+                const results = await Promise.all(fetchPromises);
+                pool.innerHTML = ''; 
+
+                results.forEach((json, index) => {
+                    if (json && json.fighter_profile) {
+                        totalValidBoxers++;
+                        const p = json.fighter_profile;
+                        const boxerId = `boxer-${index}`;
+                        
+                        const imageUrl = p.image_url ? (p.image_url.startsWith('http') ? p.image_url : '../' + p.image_url) : 'https://via.placeholder.com/150?text=?';
+                        const name = p.name_th || p.name_en || 'ไม่ระบุชื่อ';
+                        
+                        const division = p.physical_stats?.division || 'ไม่ระบุรุ่น';
+                        const country = p.personal_info?.country_th || 'ไม่ระบุสัญชาติ';
+                        const age = p.personal_info?.age || 0;
+
+                        if (division && division !== 'ไม่ระบุรุ่น') divisions.add(division);
+                        if (country && country !== 'ไม่ระบุสัญชาติ') countries.add(country);
+
+                        const card = createBoxerCard(boxerId, name, imageUrl, division, country, age);
+                        // ซ่อนการ์ดไว้ก่อนเดี๋ยวค่อยให้ updatePoolDisplay เป็นตัวเปิด
+                        card.style.display = 'none'; 
+                        pool.appendChild(card);
+                    }
+                });
+
+                const divSelect = document.getElementById('filterDivision');
+                Array.from(divisions).sort().forEach(d => { divSelect.innerHTML += `<option value="${d}">${d}</option>`; });
+                
+                const countrySelect = document.getElementById('filterCountry');
+                Array.from(countries).sort().forEach(c => { countrySelect.innerHTML += `<option value="${c}">${c}</option>`; });
+
+                if (totalValidBoxers === 0) {
+                    pool.innerHTML = `<div class="w-full text-center py-10 text-[#a0a0a0]">ไม่พบข้อมูลนักมวยในระบบ</div>`;
+                } else {
+                    // โหลดเสร็จสั่งให้ฟิลเตอร์ทำงานเพื่อโชว์ 20 คนแรก
+                    filterFighters(); 
+                }
+
+            } catch (error) {
+                console.error('Error fetching boxers:', error);
+                pool.innerHTML = `<div class="w-full text-center py-10 text-red-500 font-bold">❌ เกิดข้อผิดพลาดในการโหลดข้อมูลนักมวย</div>`;
+            }
+        }
+
+        function createBoxerCard(id, name, imgUrl, division, country, age) {
+            const div = document.createElement('div');
+            div.id = id;
+            div.draggable = true;
+            div.ondragstart = dragStart;
+            div.ondragend = dragEnd;
+            div.className = "boxer-card cursor-grab active:cursor-grabbing relative group";
+            
+            div.setAttribute('data-name', name.toLowerCase());
+            div.setAttribute('data-division', division);
+            div.setAttribute('data-country', country);
+            div.setAttribute('data-age', age);
+            
+            div.innerHTML = `
+                <div class="aspect-square bg-[#111] rounded-lg overflow-hidden border-2 border-[#444] group-hover:border-[#e50914] transition-all shadow-lg">
+                    <img src="${imgUrl}" alt="${name}" class="w-full h-full object-cover pointer-events-none" onerror="this.src='https://via.placeholder.com/150?text=No+Image'">
+                </div>
+                <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-black text-white text-[11px] font-bold py-1 px-2 rounded opacity-0 group-hover:opacity-100 transition whitespace-nowrap z-10 border border-[#444] shadow-xl pointer-events-none">
+                    ${name}
+                </div>
+            `;
+            return div;
+        }
+
+        // ==========================================
+        // 3. ระบบค้นหา คัดกรอง และควบคุมการแสดงผล 20 คน (Pagination)
+        // ==========================================
+        function filterFighters() {
+            displayLimit = 20; // รีเซ็ตโควตาการแสดงผลกลับมาที่ 20 เสมอเมื่อมีการค้นหาใหม่
+            updatePoolDisplay();
+        }
+
+        function loadMoreFighters() {
+            displayLimit += 20; // เพิ่มโควตาการแสดงผลทีละ 20
+            updatePoolDisplay();
+        }
+
+        function updatePoolDisplay() {
+            const searchQ = document.getElementById('searchName').value.toLowerCase();
+            const divQ = document.getElementById('filterDivision').value;
+            const countryQ = document.getElementById('filterCountry').value;
+            const ageQ = document.getElementById('filterAge').value;
+
+            // ค้นหาเฉพาะการ์ดที่ยังอยู่ในคลังนักมวยเท่านั้น (การ์ดที่ถูกลากไปจัด Tier แล้วจะไม่นำมานับโควตา)
+            const poolCards = document.querySelectorAll('#boxer-pool .boxer-card');
+            let matchCount = 0; // ตัวแปรนับจำนวนการ์ดที่ตรงกับเงื่อนไขที่ผู้ใช้ค้นหา
+
+            poolCards.forEach(card => {
+                const name = card.getAttribute('data-name');
+                const division = card.getAttribute('data-division');
+                const country = card.getAttribute('data-country');
+                const age = parseInt(card.getAttribute('data-age')) || 0;
+
+                const matchName = name.includes(searchQ);
+                const matchDiv = (divQ === 'all') || (division === divQ);
+                const matchCountry = (countryQ === 'all') || (country === countryQ);
+                
+                let matchAge = true;
+                if (ageQ === 'under20') matchAge = age > 0 && age < 20;
+                else if (ageQ === '20-25') matchAge = age >= 20 && age <= 25;
+                else if (ageQ === '26-30') matchAge = age >= 26 && age <= 30;
+                else if (ageQ === 'over30') matchAge = age > 30;
+
+                if (matchName && matchDiv && matchCountry && matchAge) {
+                    // ถ้าตรงเงื่อนไข ให้เช็คโควตาว่าโชว์ครบตาม Limit หรือยัง
+                    if (matchCount < displayLimit) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none'; // ซ่อนคนที่เกินโควตาไว้ก่อน
+                    }
+                    matchCount++; // นับจำนวนคนที่ตรงเงื่อนไขทั้งหมดไว้
+                } else {
+                    card.style.display = 'none'; // ไม่ตรงเงื่อนไขเลยให้ซ่อน
+                }
+            });
+
+            // ตรวจสอบว่าต้องโชว์ปุ่ม "โหลดเพิ่ม" หรือไม่
+            const loadMoreBtn = document.getElementById('load-more-container');
+            if (matchCount > displayLimit) {
+                loadMoreBtn.classList.remove('hidden'); // มีนักมวยเหลืออยู่เบื้องหลัง ให้โชว์ปุ่ม
+            } else {
+                loadMoreBtn.classList.add('hidden'); // แสดงครบหมดแล้ว ซ่อนปุ่ม
+            }
+        }
+
+        // ==========================================
+        // 4. ระบบ Drag & Drop
+        // ==========================================
+        function dragStart(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+            setTimeout(() => ev.target.classList.add('dragging'), 0);
+        }
+
+        function dragEnd(ev) {
+            ev.target.classList.remove('dragging');
+            document.querySelectorAll('.dropzone').forEach(zone => zone.classList.remove('drag-over'));
+        }
+
+        function allowDrop(ev) {
+            ev.preventDefault();
+            const dropzone = ev.target.closest('.dropzone');
+            if(dropzone) dropzone.classList.add('drag-over');
+        }
+
+        function dragLeave(ev) {
+            const dropzone = ev.target.closest('.dropzone');
+            if(dropzone) dropzone.classList.remove('drag-over');
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            const data = ev.dataTransfer.getData("text");
+            const draggedElement = document.getElementById(data);
+            const targetDropzone = ev.target.closest('.dropzone');
+
+            if (targetDropzone && draggedElement) {
+                targetDropzone.appendChild(draggedElement);
+                targetDropzone.classList.remove('drag-over');
+                draggedElement.style.display = 'block'; 
+                
+                // อัปเดตคลังภาพเสมอ: เมื่อลากเข้า/ออก คลังจะเติมโควตานักมวยให้เต็ม 20 อัตโนมัติ
+                updatePoolDisplay();
+            }
+        }
+
+        // ==========================================
+        // 5. ระบบควบคุม (Reset & Capture Mode)
+        // ==========================================
+        function resetBoard() {
+            const pool = document.getElementById('boxer-pool');
+            const cards = document.querySelectorAll('.boxer-card');
+            
+            // ย้ายการ์ดทั้งหมดกลับไปที่พูล
+            cards.forEach(card => pool.appendChild(card));
+            
+            // ล้างค่าตัวกรองกลับเป็นค่าเริ่มต้น
+            document.getElementById('searchName').value = '';
+            document.getElementById('filterDivision').value = 'all';
+            document.getElementById('filterCountry').value = 'all';
+            document.getElementById('filterAge').value = 'all';
+            
+            // เรียกใช้ฟิลเตอร์เพื่อจัดเรียงโควตากลับเป็น 20 คน
+            filterFighters();
+        }
+
+        function toggleCapture(active) {
+            const body = document.getElementById('body-context');
+            const exitBtn = document.getElementById('exit-btn');
+            const watermark = document.getElementById('watermark');
+            
+            if (active) {
+                body.classList.add('capture-mode', 'p-0', 'bg-black');
+                body.classList.remove('p-4', 'md:p-8', 'bg-[#121212]');
+                exitBtn.classList.remove('hidden');
+                watermark.classList.remove('hidden'); 
+            } else {
+                body.classList.remove('capture-mode', 'p-0', 'bg-black');
+                body.classList.add('p-4', 'md:p-8', 'bg-[#121212]');
+                exitBtn.classList.add('hidden');
+                watermark.classList.add('hidden'); 
+            }
+        }
+
+        // โหลดข้อมูลนักมวยเมื่อเข้าหน้าเว็บ
+        window.onload = fetchBoxers;
+    </script>
+</body>
+</html>

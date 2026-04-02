@@ -1,0 +1,110 @@
+{
+    "fighter_profile": {
+        "name_th": "ทาเครุ เซกาวา",
+        "name_en": "Takeru Segawa",
+        "alias": "The Natural Born Krusher",
+        "image_url": "https://i.ibb.co/kg8FXwp2/image.jpg",
+        "grade": "B",
+        "fighting_style_th": "คิกบ็อกซิ่ง / บุก",
+        "fighting_style_en": "Kickboxing / Aggressive Finisher",
+        "stance": "Orthodox",
+        "physical_stats": {
+            "weight_lbs": 134.8,
+            "weight_kg": 61.1,
+            "division": "Flyweight",
+            "height_ft": "5'6\"",
+            "height_cm": 168,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "4",
+                "body": "1",
+                "legs": "2",
+                "total_per_minute": "13"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "58",
+                "accuracy_by_target_percentage": {
+                    "head": "51",
+                    "body": "22",
+                    "legs": "22"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 54,
+                "defense_by_target_percentage": {
+                    "head": 48,
+                    "body": 16,
+                    "legs": 36
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 34,
+            "team_th": "ทีม วาซิเลียส",
+            "team_en": "Team Vasileus"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/takeru-segawa/"
+        ],
+        "short_biography": "ทาเครุ เซกาวา (Takeru Segawa) เป็นนักชกชาวญี่ปุ่น วัย 34 ปี จากสังกัดทีม วาซิเลียส มีความถนัดในการต่อสู้สไตล์คิกบ็อกซิ่ง / บุก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 61.1 กิโลกรัม) ส่วนสูง 168 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 173: ซุปเปอร์บอน vs มาซาอากิ สามารถเอาชนะ เดนิส พูริช ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:49",
+            "opponent_th": "เดนิส พูริช",
+            "opponent_en": "",
+            "opponent_country": "บอสเนียและเฮอร์เซโกวีนา/แคนาดา",
+            "date": "Nov 16, 2025",
+            "rating": 5,
+            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:20",
+            "opponent_th": "รถถัง จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 23, 2025",
+            "rating": 5,
+            "event_en": "ONE 172: ทาเครุ vs รถถัง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:47",
+            "opponent_th": "ธานท์ ซิน",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Sep 27, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "ซุปเปอร์เล็ก ซุปเปอร์เล็กมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 28, 2024",
+            "rating": 5,
+            "event_en": "ONE 165: ซุปเปอร์เล็ก vs ทาเครุ"
+        }
+    ]
+}

@@ -1,0 +1,292 @@
+{
+    "fighter_profile": {
+        "name_th": "ซุปเปอร์เล็ก ซุปเปอร์เล็กมวยไทย",
+        "name_en": "Superlek Kiatmoo9",
+        "alias": "The Kicking Machine",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531954/%E0%B8%8B%E0%B8%B8%E0%B8%9B%E0%B9%80%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81-2_vt4mmk.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ / เตะหนัก",
+        "fighting_style_en": "Technical Fighter / Kicking Specialist",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 134.5,
+            "weight_kg": 61,
+            "division": "Flyweight / Bantamweight",
+            "height_ft": "5'7\"",
+            "height_cm": 171,
+            "reach_cm": 175,
+            "leg_reach_cm": 97
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 1,
+                "body": 2,
+                "legs": 1,
+                "total_per_minute": 4
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 41,
+                "accuracy_by_target_percentage": {
+                    "head": 23,
+                    "body": 30,
+                    "legs": 47
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 32,
+                "defense_by_target_percentage": {
+                    "head": 42,
+                    "body": 30,
+                    "legs": 27
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 30,
+            "team_th": "เกียรติหมู่ 9",
+            "team_en": "Kiatmoo9 Gym"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/superlek-kiatmoo9/"
+        ],
+        "short_biography": "ซุปเปอร์เล็ก ซุปเปอร์เล็กมวยไทย (Superlek Kiatmoo9) เป็นนักชกชาวไทย วัย 30 ปี จากสังกัดเกียรติหมู่ 9 มีความถนัดในการต่อสู้สไตล์มวยฝีมือ / เตะหนัก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight / Bantamweight (ประมาณ 61 กิโลกรัม) ส่วนสูง 171 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 173: ซุปเปอร์บอน vs มาซาอากิ สามารถพ่ายแพ้ให้กับ ยูกิ โยซะ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยูกิ โยซะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Nov 16, 2025",
+            "rating": 5,
+            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "นาบิล อานาน",
+            "opponent_en": "",
+            "opponent_country": "แอลจีเรีย/ไทย",
+            "date": "Mar 23, 2025",
+            "rating": 5,
+            "event_en": "ONE 172: ทาเครุ vs รถถัง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:49",
+            "opponent_th": "โจนาธาน แฮ็กเกอร์ตี",
+            "opponent_en": "",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Sep 07, 2024",
+            "rating": 5,
+            "event_en": "ONE 168: Denver"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องธรณี ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 28, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 68: พระจันทร์ฉาย vs โจนาธาน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "ทาเครุ เซกาวา",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Jan 28, 2024",
+            "rating": 5,
+            "event_en": "ONE 165: ซุปเปอร์เล็ก vs ทาเครุ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "รถถัง จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 22, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 34: รถถัง vs ซุปเปอร์เล็ก"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:42",
+            "opponent_th": "ทาเกียร์ คาลิลอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย/อาเซอร์ไบจาน",
+            "date": "Jul 14, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 12: ซุปเปอร์เล็ก vs ทาเกียร์"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:03",
+            "opponent_th": "นาบิล อานาน",
+            "opponent_en": "",
+            "opponent_country": "แอลจีเรีย/ไทย",
+            "date": "Jun 23, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 22"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:55",
+            "opponent_th": "แดเนียล วิลเลียมส์",
+            "opponent_en": "",
+            "opponent_country": "ออสเตรเลีย/ไทย",
+            "date": "Mar 25, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 8: ซุปเปอร์เล็ก vs แดเนียล"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "แดเนียล พูแอร์ตัส",
+            "opponent_en": "",
+            "opponent_country": "สเปน",
+            "date": "Jan 14, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 6: ซุปเปอร์บอน vs ชิงกิซ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "พันธ์พยัคฆ์ จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 03, 2022",
+            "rating": 5,
+            "event_en": "ONE 164: โจชัว vs จาร์เร็ด"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:35",
+            "opponent_th": "วอลเตอร์ กอนซาลเวส",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Aug 27, 2022",
+            "rating": 5,
+            "event_en": "ONE Fight Night 1:  อาเดรียโน VS ดิมิเทรียส II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ทาอิกิ นาอิโตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "May 20, 2022",
+            "rating": 5,
+            "event_en": "ONE157: เพชรมรกต VS จิมมี"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "อิเลียส เอ็นนาฮาชิ",
+            "opponent_en": "",
+            "opponent_country": "เนเธอร์แลนด์/โมร็อกโก",
+            "date": "Feb 26, 2021",
+            "rating": 5,
+            "event_en": "ONE Fists of Fury"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฟาห์ดี คาเล็ด",
+            "opponent_en": "",
+            "opponent_country": "ตูนิเซีย",
+            "date": "Sep 11, 2020",
+            "rating": 5,
+            "event_en": "ONE A New Breed II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พันธ์พยัคฆ์ จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 31, 2020",
+            "rating": 5,
+            "event_en": "ONE No Surrender"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "รุย โบเทลโฮ",
+            "opponent_en": "",
+            "opponent_country": "โปรตุเกส",
+            "date": "May 10, 2019",
+            "rating": 5,
+            "event_en": "ONE WARRIORS OF LIGHT"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "N/A",
+            "opponent_th": "เลา เชตรา",
+            "opponent_en": "",
+            "opponent_country": "กัมพูชา",
+            "date": "Feb 16, 2019",
+            "rating": 5,
+            "event_en": "ONE CLASH OF LEGENDS"
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+  "last_updated": "2026-03-31T07:07:20.635Z",
+  "stadium": "Rajadamnern Stadium",
+  "division": "Super Bantamweight",
+  "fighters": [
+    {
+      "rank": "C",
+      "name": "Khunsueknoi Boomdeksian",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "1",
+      "name": "Petchsiam Jor. Patareeya",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "2",
+      "name": "Petchsaman Sor. Saman Garment",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "3",
+      "name": "Petchsila Wor. Auracha",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "4",
+      "name": "Songpayak Yokkao Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "5",
+      "name": "Teerapong Dabtidbangrak",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "6",
+      "name": "Chaitone Wor. Auracha",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "7",
+      "name": "Petchmongkol Samartpayakaroon Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "8",
+      "name": "Petchsonglay Rawai Muay Thai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "9",
+      "name": "Dokmaipa Santiubon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "10",
+      "name": "Petchthailand Yodmuayphonrat",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "11",
+      "name": "Khunsueklek Boomdeksian",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "12",
+      "name": "Siouey Singha Mawynn",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "13",
+      "name": "Poye Addsanpatong",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "14",
+      "name": "Tamnarnthai Addsanpatong",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "15",
+      "name": "Touch Wor. Wattanasupong",
+      "image_url": "",
+      "country": "TH"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ทำเนียบแชมป์มวยรอบปูนเสือ | BoxingFandom</title>
+    <meta name="description" content="ทำเนียบแชมป์มวยรอบปูนเสือตั้งแต่อดีตจนถึงปัจจุบัน อัปเดตข้อมูลแชมป์ล่าสุดโดย BoxingFandom">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+        body { background-color: #f4f4f4; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
+
+        header { background-color: #1a1a1a; color: #ffffff; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #e50914; }
+        header h1 { font-size: 24px; }
+        header h1 .text-red { color: #e50914; }
+        header h1 .text-white { color: #ffffff; }
+
+        nav { display: flex; align-items: center; }
+        nav ul { list-style: none; display: flex; margin: 0; padding: 0; }
+        nav ul li { position: relative; }
+        nav ul li a { color: #ffffff; text-decoration: none; padding: 15px 20px; display: block; transition: background 0.3s; }
+        nav ul li a:hover { background-color: #333333; }
+
+        nav ul ul { display: none; position: absolute; top: 100%; left: 0; background-color: #1a1a1a; min-width: 220px; flex-direction: column; border-top: 2px solid #e50914; z-index: 1000; }
+        nav ul li:hover > ul { display: flex; }
+        nav ul ul ul { top: 0; left: 100%; }
+
+        .search-container { position: relative; margin-left: 20px; }
+        .search-box { display: flex; }
+        .search-box input[type="text"] { padding: 8px 15px; border: none; border-radius: 4px 0 0 4px; outline: none; width: 220px; }
+        .search-box button { padding: 8px 15px; background-color: #e50914; color: white; border: none; border-radius: 0 4px 4px 0; cursor: pointer; transition: background 0.3s; }
+        .search-box button:hover { background-color: #b0070f; }
+
+        .search-dropdown { position: absolute; top: 100%; left: 0; width: calc(100% - 60px); background-color: #ffffff; color: #333; box-shadow: 0 5px 15px rgba(0,0,0,0.2); border-radius: 0 0 8px 8px; max-height: 350px; overflow-y: auto; z-index: 3000; display: none; border: 1px solid #ddd; border-top: none; }
+        .search-dropdown-item { padding: 10px 15px; cursor: pointer; border-bottom: 1px solid #eee; display: flex; align-items: center; gap: 10px; text-decoration: none; color: #333; transition: 0.2s; }
+        .search-dropdown-item:hover { background-color: #f8f9fa; }
+        .search-dropdown-img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; border: 1px solid #ddd; background: #eee; }
+        .search-dropdown-info { display: flex; flex-direction: column; }
+        .search-dropdown-name { font-weight: bold; font-size: 0.95rem; }
+        .search-dropdown-meta { font-size: 0.75rem; color: #888; }
+
+        main { flex: 1; padding: 40px 20px; }
+
+        .content-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .content-container h2 {
+            text-align: center;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        .content-container p.subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .champions-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .champions-table th, .champions-table td {
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+        }
+        .champions-table th {
+            background-color: #e50914;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: center;
+        }
+        .champions-table td {
+            font-size: 15px;
+            color: #333;
+        }
+        .champions-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .champions-table tr:hover {
+            background-color: #f1f1f1;
+            transition: background 0.3s ease;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .highlight-row {
+            background-color: #fff3f3 !important;
+            font-weight: bold;
+        }
+
+        footer { background-color: #1a1a1a; color: #ffffff; text-align: center; padding: 20px; margin-top: auto; }
+        footer nav ul { justify-content: center; }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="../../index.html" style="text-decoration: none;"><span class="text-red">Boxing</span><span class="text-white">Fandom</span></a></h1>
+
+        <nav>
+            <ul>
+                <li><a href="../../pages/articles/index.html">บทความ</a></li>
+                <li><a href="../../pages/news/index.html">ข่าว</a></li>
+                <li><a href="#">วิเคราะห์มวย</a></li>
+                
+                <li>
+                    <a href="#">เทียบสถิติ ▾</a>
+                    <ul>
+                        <li><a href="../../pages/stats/compare.html">เทียบสถิติแบบที่ 1</a></li>
+                        <li><a href="../../pages/stats/compare2.html">เทียบสถิติแบบที่ 2</a></li>
+                        <li><a href="../../pages/stats/analysis.html">วิเคราะห์เจาะลึก (AI)</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="../../pages/fighter/index.html">นักมวยทั้งหมด</a></li> 
+                
+                <li>
+                    <a href="#">ranking ▾</a>
+                    <ul>
+                        <li>
+                            <a href="one-championship.html">1 ONE Championship ▸</a>
+                            <ul>
+                                <li><a href="one-heavyweight.html">เฮฟวีเวต</a></li>
+                                <li><a href="one-light-heavyweight.html">ไลต์เฮฟวีเวต</a></li>
+                                <li><a href="one-middleweight.html">มิดเดิลเวต</a></li>
+                                <li><a href="one-welterweight.html">เวลเตอร์เวต</a></li>
+                                <li><a href="one-lightweight.html">ไลต์เวต</a></li>
+                                <li><a href="one-featherweight.html">เฟเธอร์เวต</a></li>
+                                <li><a href="one-bantamweight.html">แบนตัมเวต</a></li>
+                                <li><a href="one-flyweight.html">ฟลายเวต</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="overall-all.html">2 จัดอันดับรวมทุกสถาบัน (Overall)</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">แชมป์ ▾</a>
+                    <ul>
+                        <li><a href="champions-one.html">แชมป์ วันแชมป์เปี้ยนชิพ</a></li>
+                        <li><a href="#">แชมป์ปูนเสือ</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" id="mainSearchInput" placeholder="ค้นหานักมวย" autocomplete="off">
+                    <button type="button" id="mainSearchButton">ค้นหา</button>
+                </div>
+                <div id="mainSearchDropdown" class="search-dropdown"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <div class="content-container">
+            <h2>ทำเนียบแชมป์มวยรอบปูนเสือ มวยไทยพันธุ์แท้</h2>
+            <p class="subtitle">รวบรวมรายชื่อผู้ชนะเลิศมวยรอบปูนเสือตั้งแต่อดีตจนถึงปัจจุบัน (โดยประมาณ)</p>
+
+            <table class="champions-table">
+                <thead>
+                    <tr>
+                        <th width="20%">ครั้งที่</th>
+                        <th width="20%">ปี พ.ศ.</th>
+                        <th width="60%">ชื่อนักมวย (ผู้ชนะเลิศ)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-center">1</td>
+                        <td class="text-center">2544</td>
+                        <td>เด่นอิสลาม วันมณีน้อย (สี่จ่า)</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">2</td>
+                        <td class="text-center">2545</td>
+                        <td>กานต์ชัย ก.บางกรวย</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">3</td>
+                        <td class="text-center">2546</td>
+                        <td>นำศึก เพชรสุภาพรรณ</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">4</td>
+                        <td class="text-center">2547</td>
+                        <td>ปวริศ เสถียรยืนยง</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">5</td>
+                        <td class="text-center">2548</td>
+                        <td>ธงชัย เกียรติประภัสร์</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">6</td>
+                        <td class="text-center">2549</td>
+                        <td>เศรษฐี เอราวัณ</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">7</td>
+                        <td class="text-center">2550</td>
+                        <td>น้องอั๋น ศิษย์หมอลำบัติ</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">8</td>
+                        <td class="text-center">2551</td>
+                        <td>ทองสุข สิงห์ป่าตอง</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">9</td>
+                        <td class="text-center">2552</td>
+                        <td>หยกเพชร เพชรเกษม</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">10</td>
+                        <td class="text-center">2553</td>
+                        <td>ขวัญเมือง เพชรเมืองตราด</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">11</td>
+                        <td class="text-center">2554</td>
+                        <td>ก้องเกียรติ ท.พราน 49</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">12</td>
+                        <td class="text-center">2555</td>
+                        <td>เสมาเพชร ส.เชาวลิต</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">13</td>
+                        <td class="text-center">2556</td>
+                        <td>รุ่งเพชร เพชรเจริญ</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">14</td>
+                        <td class="text-center">2557</td>
+                        <td>สกุลชัย แป๋งกองปราบ</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">15</td>
+                        <td class="text-center">2558</td>
+                        <td>วันมีโชค ภูหงส์ทอง</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">16</td>
+                        <td class="text-center">2559</td>
+                        <td>สายฝน รัตนภานุ</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">17</td>
+                        <td class="text-center">2560</td>
+                        <td>โล่เงิน ดาบรันสารคาม</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">18</td>
+                        <td class="text-center">2561</td>
+                        <td>เอกลักษณ์ ส.สมานการ์เม้นท์</td>
+                    </tr>
+                    <tr class="highlight-row">
+                        <td class="text-center">24</td>
+                        <td class="text-center">2568</td>
+                        <td>ยอดเหล็กแหลม ต.พิทักษ์ชัย</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="../../privacy.html">นโยบายความเป็นส่วนตัว</a></li>
+                <li><a href="../../about.html">เกี่ยวกับฉัน</a></li>
+                <li><a href="../../contact.html">ติดต่อ</a></li>
+            </ul>
+        </nav>
+        <p style="margin-top: 10px; font-size: 14px; color: #888;">© 2026 สงวนลิขสิทธิ์ BoxingFandom</p>
+    </footer>
+
+    <script>
+        let searchDatabase = [];
+
+        async function initGlobalSearch() {
+            try {
+                const listRes = await fetch('../../data/boxers/fighters-list.json');
+                if (!listRes.ok) throw new Error("ไม่สามารถโหลดไฟล์ได้"); 
+                const files = await listRes.json();
+                const fetchPromises = files.map(async (f) => {
+                    try {
+                        const res = await fetch(`../../data/boxers/${encodeURIComponent(f.trim())}`);
+                        if (res.ok) {
+                            const data = await res.json();
+                            return Object.assign({}, data, { fileName: f });
+                        }
+                    } catch(e) {}
+                    return null;
+                });
+                const results = await Promise.all(fetchPromises);
+                searchDatabase = results.filter(item => item !== null);
+            } catch(e) {
+                console.log("⚠️ ระบบ Search ต้องการ Live Server", e);
+            }
+        }
+
+        const searchInput = document.getElementById('mainSearchInput');
+        const searchDropdown = document.getElementById('mainSearchDropdown');
+        const searchButton = document.getElementById('mainSearchButton');
+
+        function processSearch() {
+            const query = searchInput.value.toLowerCase();
+            if (query.length === 0) { searchDropdown.style.display = 'none'; return; }
+            const filtered = searchDatabase.filter(item => {
+                const p = item.fighter_profile || {};
+                return (p.name_th || '').toLowerCase().includes(query) ||
+                       (p.name_en || '').toLowerCase().includes(query) ||
+                       (p.alias || '').toLowerCase().includes(query);
+            });
+            if (filtered.length === 0) {
+                searchDropdown.innerHTML = '<div style="padding:15px; color:#888; text-align:center;">ไม่พบนักมวย</div>';
+            } else {
+                searchDropdown.innerHTML = filtered.map(item => {
+                    const p = item.fighter_profile || {};
+                    const imgUrl = p.image_url ? p.image_url : 'https://via.placeholder.com/40?text=?';
+                    const profileLink = `../../pages/fighter/profile.html?id=${encodeURIComponent(item.fileName.replace('.json', ''))}`;
+                    return `
+                        <a href="${profileLink}" class="search-dropdown-item">
+                            <img src="${imgUrl}" class="search-dropdown-img" alt="${p.name_th}">
+                            <div class="search-dropdown-info">
+                                <span class="search-dropdown-name">${p.name_th}</span>
+                                <span class="search-dropdown-meta">รุ่น: ${p.physical_stats?.division || '-'}</span>
+                            </div>
+                        </a>`;
+                }).join('');
+            }
+            searchDropdown.style.display = 'block';
+        }
+
+        function executeDirectSearch() {
+            const query = searchInput.value.toLowerCase();
+            if (!query) return;
+            const filtered = searchDatabase.filter(item => {
+                const p = item.fighter_profile || {};
+                return (p.name_th || '').toLowerCase().includes(query) || (p.name_en || '').toLowerCase().includes(query);
+            });
+            if (filtered.length > 0) {
+                window.location.href = `../../pages/fighter/profile.html?id=${encodeURIComponent(filtered[0].fileName.replace('.json', ''))}`;
+            } else { alert("ไม่พบข้อมูล"); }
+        }
+
+        searchInput.addEventListener('input', processSearch);
+        searchInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') executeDirectSearch(); });
+        searchButton.addEventListener('click', executeDirectSearch);
+        document.addEventListener('click', (e) => { if (!e.target.closest('.search-container')) searchDropdown.style.display = 'none'; });
+
+        initGlobalSearch();
+    </script>
+</body>
+</html>

@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>BoxingFandom | ข่าวมวย ONE RWS มวยช่อง7 UFC และมวยสากลโลก</title>
+    <meta name="description" content="BoxingFandom ศูนย์รวมข่าวมวย ผลมวย ทีเด็ดมวย จัดอันดับนักชก ONE Championship, RWS ราชดำเนิน, มวยไทย 7 สี, UFC และมวยสากลระดับโลก อัปเดตล่าสุดที่นี่">
+    <meta name="keywords" content="ข่าวมวย, ผลมวย, มวย ONE, ONE Championship, RWS, มวยราชดำเนิน, มวยช่อง7, มวยไทย7สี, UFC, MMA, มวยสากลโลก, จัดอันดับมวย, เทียบสถิติมวย, BoxingFandom">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="BoxingFandom">
+    <meta property="og:title" content="BoxingFandom | ข่าวมวย ONE RWS มวยช่อง7 UFC มวยสากล">
+    <meta property="og:description" content="ศูนย์รวมข่าวมวยและสถิติ จัดเต็มทุกวงการ ONE, RWS, มวยไทย 7 สี, UFC และมวยสากล">
+    <meta property="og:image" content="https://res.cloudinary.com/dia2yts2f/image/upload/v1773366539/boxingfandom.logo_lhocek.jpg">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "BoxingFandom",
+      "url": "https://www.boxingfandom.com/",
+      "description": "ศูนย์รวมข่าวมวย ผลมวย ONE Championship, RWS, มวยช่อง 7, UFC และมวยสากลโลก",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.boxingfandom.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* ========================================================================= */
+        /* --- 1. การตั้งค่า CSS พื้นฐานของหน้าเว็บ (Base Styles) --- */
+        /* ========================================================================= */
+        
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+            font-family: 'Prompt', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        }
+
+        body { 
+            background-color: #f8f9fa; 
+            color: #333333; 
+            display: flex; 
+            flex-direction: column; 
+            min-height: 100vh; 
+            line-height: 1.6; 
+        }
+
+        /* ========================================================================= */
+        /* --- 2. CSS ส่วนหัวของเว็บไซต์ (Header) และ โลโก้ (Logo) --- */
+        /* ========================================================================= */
+        
+        header { 
+            background-color: #111111; 
+            color: #ffffff; 
+            padding: 15px 5%; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            border-bottom: 4px solid #e50914; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+        }
+
+        .logo-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .site-logo {
+            height: 55px; 
+            width: auto; 
+            border-radius: 6px; 
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); 
+            transition: transform 0.3s ease; 
+        }
+
+        .site-logo:hover {
+            transform: scale(1.05);
+        }
+
+        /* ========================================================================= */
+        /* --- 3. CSS แถบเมนูนำทาง (Navigation Bar) --- */
+        /* ========================================================================= */
+        
+        nav { 
+            display: flex; 
+            align-items: center; 
+        }
+
+        nav ul { 
+            list-style: none; 
+            display: flex; 
+            margin: 0; 
+            padding: 0; 
+        }
+
+        nav ul li { 
+            position: relative; 
+        }
+
+        nav ul li a { 
+            color: #ffffff; 
+            text-decoration: none; 
+            padding: 10px 18px; 
+            margin: 0 5px;
+            display: block; 
+            border-radius: 6px; 
+            transition: all 0.3s ease; 
+            font-weight: 400;
+        }
+
+        nav ul li a:hover { 
+            background-color: rgba(255, 255, 255, 0.1); 
+            color: #e50914; 
+        }
+
+        nav ul ul { 
+            display: none; 
+            position: absolute; 
+            top: 100%; 
+            left: 0; 
+            background-color: #1a1a1a; 
+            min-width: 240px; 
+            flex-direction: column; 
+            border-radius: 0 0 8px 8px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            border-top: 3px solid #e50914; 
+            z-index: 1000; 
+        }
+
+        nav ul li:hover > ul { display: flex; }
+        
+        nav ul ul ul { 
+            top: 0; 
+            left: 100%; 
+            border-top: none;
+            border-left: 3px solid #e50914;
+        }
+
+        nav ul ul li a {
+            padding: 12px 20px;
+            margin: 0;
+            border-radius: 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        /* ========================================================================= */
+        /* --- 4. CSS ช่องค้นหานักมวยด้านบน (Search Box) --- */
+        /* ========================================================================= */
+        
+        .search-container { 
+            position: relative; 
+            margin-left: 20px; 
+        }
+
+        .search-box { 
+            display: flex; 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            border-radius: 20px; 
+            overflow: hidden;
+        }
+
+        .search-box input[type="text"] { 
+            padding: 10px 18px; 
+            border: none; 
+            outline: none; 
+            width: 240px; 
+            font-size: 14px;
+        }
+
+        .search-box button { 
+            padding: 10px 20px; 
+            background-color: #e50914; 
+            color: white; 
+            border: none; 
+            font-weight: 500;
+            cursor: pointer; 
+            transition: background 0.3s; 
+        }
+
+        .search-box button:hover { 
+            background-color: #b0070f; 
+        }
+
+        .search-dropdown { 
+            position: absolute; 
+            top: calc(100% + 10px); 
+            left: 0; 
+            width: 100%; 
+            background-color: #ffffff; 
+            color: #333; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15); 
+            border-radius: 10px; 
+            max-height: 350px; 
+            overflow-y: auto; 
+            z-index: 3000; 
+            display: none; 
+            border: 1px solid #eaeaea; 
+        }
+
+        .search-dropdown-item { 
+            padding: 12px 15px; 
+            cursor: pointer; 
+            border-bottom: 1px solid #f0f0f0; 
+            display: flex; 
+            align-items: center; 
+            gap: 12px; 
+            text-decoration: none; 
+            color: #333; 
+            transition: background 0.2s; 
+        }
+
+        .search-dropdown-item:hover { background-color: #f8f9fa; }
+        
+        .search-dropdown-img { 
+            width: 45px; 
+            height: 45px; 
+            border-radius: 50%; 
+            object-fit: cover; 
+            border: 2px solid #eaeaea; 
+            background: #f4f4f4; 
+        }
+
+        .search-dropdown-info { display: flex; flex-direction: column; }
+        .search-dropdown-name { font-weight: 600; font-size: 15px; color: #111; }
+        .search-dropdown-meta { font-size: 12px; color: #777; margin-top: 2px; }
+
+        /* ========================================================================= */
+        /* --- 5. CSS พื้นที่เนื้อหาหลัก และ SEO Tags --- */
+        /* ========================================================================= */
+        
+        main { 
+            flex: 1; 
+            padding: 50px 5%; 
+            max-width: 1300px; 
+            margin: 0 auto; 
+            width: 100%; 
+        }
+
+        /* --- SEO: สไตล์แฮชแท็กดึงดูดการค้นหา --- */
+        .seo-tags-container { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 10px; 
+            justify-content: center;
+            margin-bottom: 40px; 
+        }
+        .seo-tag { 
+            background-color: #ffffff; border: 1px solid #ddd; color: #555; 
+            padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; 
+            font-weight: 600; text-decoration: none; transition: 0.3s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+        }
+        .seo-tag:hover { background-color: #e50914; color: #ffffff; border-color: #e50914; transform: translateY(-2px); }
+        .seo-tag.highlight { background-color: #1a1a1a; color: #ffd700; border-color: #1a1a1a; }
+
+        footer { 
+            background-color: #111111; 
+            color: #ffffff; 
+            text-align: center; 
+            padding: 30px 20px; 
+            border-top: 2px solid #333;
+        }
+
+        footer nav ul { justify-content: center; flex-wrap: wrap; gap: 20px; }
+        footer nav ul li a { padding: 5px 10px; opacity: 0.8; }
+        footer nav ul li a:hover { opacity: 1; background: transparent; }
+
+        /* ========================================================================= */
+        /* --- 6. CSS สำหรับกล่องพรีวิว (Dashboard Grid) หน้าแรก --- */
+        /* ========================================================================= */
+        
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+            gap: 25px; 
+            margin-top: 10px;
+        }
+
+        .widget-box {
+            background-color: #ffffff;
+            border-radius: 12px; 
+            border: 1px solid #eaeaea; 
+            box-shadow: 0 8px 20px rgba(0,0,0,0.03); 
+            padding: 25px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .widget-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.08);
+        }
+
+        .widget-title {
+            font-size: 18px;
+            color: #111111;
+            border-bottom: 2px solid #e50914;
+            padding-bottom: 12px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .widget-list {
+            list-style: none;
+            margin-bottom: 20px;
+            flex: 1;
+        }
+
+        .widget-btn {
+            display: block;
+            text-align: center;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 8px; 
+            font-weight: 500;
+            transition: all 0.3s ease;
+            margin-top: auto; 
+        }
+
+        .widget-btn:hover {
+            background-color: #e50914;
+            box-shadow: 0 4px 12px rgba(229, 9, 20, 0.3);
+        }
+
+        /* ========================================================================= */
+        /* --- 7. ตกแต่งการ์ดนักมวยในลิสต์ --- */
+        /* ========================================================================= */
+        
+        .champ-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0; 
+        }
+
+        .champ-item:last-child { border-bottom: none; }
+
+        .champ-img {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #eaeaea; 
+            background-color: #f9f9f9;
+        }
+
+        .champ-info { display: flex; flex-direction: column; flex: 1; }
+        .champ-division { color: #888; font-size: 13px; font-weight: 400; margin-bottom: 2px; }
+        .champ-name { font-weight: 600; color: #1a1a1a; font-size: 16px; transition: color 0.2s; }
+        a.champ-name:hover { color: #e50914; } 
+
+        .rank-number {
+            font-size: 22px;
+            font-weight: 700;
+            color: #999;
+            width: 30px;
+            text-align: center;
+        }
+
+        /* ========================================================================= */
+        /* --- 8. CSS สำหรับไอคอนรูป Tier List --- */
+        /* ========================================================================= */
+        
+        .tier-icon-container {
+            background: #111;
+            border-radius: 10px;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-bottom: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .tier-icon-row { display: flex; gap: 6px; height: 35px; }
+        
+        .tier-icon-label { 
+            font-weight: 700; 
+            width: 40px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            border-radius: 6px; 
+            color: #111; 
+            font-size: 18px; 
+        }
+
+        .tier-icon-drop { 
+            flex: 1; 
+            background: #222; 
+            border-radius: 6px; 
+            display: flex; 
+            gap: 6px; 
+            padding: 4px; 
+            align-items: center; 
+        }
+
+        .tier-icon-avatar { 
+            width: 27px; 
+            height: 27px; 
+            background: #444; 
+            border-radius: 50%; 
+            border: 2px solid #555; 
+        }
+        
+        .tier-hover-effect:hover .tier-icon-container {
+            transform: scale(1.02);
+            box-shadow: 0 10px 20px rgba(229, 9, 20, 0.2);
+        }
+
+        /* ========================================================================= */
+        /* --- 9. CSS รองรับหน้าจอมือถือ --- */
+        /* ========================================================================= */
+        
+        @media screen and (max-width: 992px) {
+            header { flex-direction: column; gap: 20px; padding: 20px; }
+            nav { width: 100%; justify-content: center; }
+            nav ul { flex-wrap: wrap; justify-content: center; gap: 10px; }
+            .search-container { margin-left: 0; margin-top: 15px; width: 100%; display: flex; justify-content: center; }
+            .search-box { width: 100%; max-width: 400px; }
+            .search-box input[type="text"] { width: 100%; }
+            .search-dropdown { width: 100%; max-width: 400px; left: 50%; transform: translateX(-50%); }
+            nav ul ul { position: static; box-shadow: none; border: none; padding-left: 20px; }
+            nav ul li:hover > ul { display: none; } 
+        }
+
+        @media screen and (max-width: 480px) {
+            .dashboard-grid { grid-template-columns: 1fr; }
+            main { padding: 30px 15px; }
+            .site-logo { height: 45px; } 
+            
+            /* ปรับขนาด H1 ในมือถือ */
+            h1 { font-size: 22px !important; }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo-link">
+            <img src="https://res.cloudinary.com/dia2yts2f/image/upload/v1773366539/boxingfandom.logo_lhocek.jpg" alt="BoxingFandom Logo" class="site-logo">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="pages/articles/index.html">บทความ</a></li>
+                <li><a href="pages/news/index.html">ข่าว</a></li>
+                <li><a href="pages/analysis/index.html">วิเคราะห์มวย</a></li>
+                
+                <li>
+                    <a href="#">เทียบสถิติ ▾</a>
+                    <ul>
+                        <li><a href="pages/stats/compare.html">เทียบสถิติแบบที่ 1</a></li>
+                        <li><a href="pages/stats/compare2.html">เทียบสถิติแบบที่ 2</a></li>
+                        <li><a href="pages/stats/analysis.html">วิเคราะห์เจาะลึก (AI)</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="pages/fighter/index.html">นักมวยทั้งหมด</a></li> 
+                
+                <li><a href="pages/TierList.html" style="color: #facc15; font-weight: 600;">⭐ จัดเทียร์นักมวย</a></li>
+                
+                <li>
+                    <a href="#">Ranking ▾</a>
+                    <ul>
+                        <li>
+                            <a href="pages/rankings/one-championship.html">1 ONE Championship ▸</a>
+                            <ul>
+                                <li><a href="pages/rankings/one-heavyweight.html">เฮฟวีเวต</a></li>
+                                <li><a href="pages/rankings/one-light-heavyweight.html">ไลต์เฮฟวีเวต</a></li>
+                                <li><a href="pages/rankings/one-middleweight.html">มิดเดิลเวต</a></li>
+                                <li><a href="pages/rankings/one-welterweight.html">เวลเตอร์เวต</a></li>
+                                <li><a href="pages/rankings/one-lightweight.html">ไลต์เวต</a></li>
+                                <li><a href="pages/rankings/one-featherweight.html">เฟเธอร์เวต</a></li>
+                                <li><a href="pages/rankings/one-bantamweight.html">แบนตัมเวต</a></li>
+                                <li><a href="pages/rankings/one-flyweight.html">ฟลายเวต</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="pages/rankings/overall-all.html">2 จัดอันดับรวมทุกสถาบัน (Overall)</a></li>
+                        <li><a href="pages/rankings/rajadamnern.html">3 อันดับเวทีราชดำเนิน</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">แชมป์ ▾</a>
+                    <ul>
+                        <li><a href="pages/rankings/champions-one.html">แชมป์ วันแชมป์เปี้ยนชิพ</a></li>
+                        <li><a href="pages/rankings/champions-poonsuea.html">แชมป์ปูนเสือ</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" id="mainSearchInput" placeholder="ค้นหานักมวย..." autocomplete="off">
+                    <button type="button" id="mainSearchButton">ค้นหา</button>
+                </div>
+                <div id="mainSearchDropdown" class="search-dropdown"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        
+        <h1 style="text-align: center; margin-bottom: 5px; font-weight: 700; font-size: 28px; color: #1a1a1a;">
+            ศูนย์รวมข่าวมวย ONE RWS มวยช่อง7 UFC และ มวยสากลโลก
+        </h1>
+        <p style="text-align: center; color: #666; margin-bottom: 20px; font-size: 16px;">
+            อัปเดตผลมวย ทีเด็ดมวยวันนี้ และจัดอันดับนักมวยไทยทุกมุมโลก โดย BoxingFandom
+        </p>
+
+        <div class="seo-tags-container">
+            <a href="pages/news/index.html" class="seo-tag highlight">🔥 ข่าวมวยล่าสุด</a>
+            <a href="pages/rankings/one-championship.html" class="seo-tag">#ONEChampionship</a>
+            <a href="pages/rankings/rajadamnern.html" class="seo-tag">#RWSราชดำเนิน</a>
+            <a href="#" class="seo-tag">#มวยไทย7สี</a>
+            <a href="#" class="seo-tag">#มวยช่อง7</a>
+            <a href="#" class="seo-tag">#UFC</a>
+            <a href="#" class="seo-tag">#มวยสากลโลก</a>
+            <a href="pages/analysis/index.html" class="seo-tag highlight">🥊 ทีเด็ดมวยวันนี้</a>
+            <a href="pages/rankings/overall-all.html" class="seo-tag">#จัดอันดับมวย</a>
+        </div>
+
+        <div class="dashboard-grid">
+
+            <div class="widget-box" style="padding: 0; overflow: hidden;">
+                <div class="widget-title" style="padding: 20px 25px; margin-bottom: 0; background: #111; color: white; border-bottom: 4px solid #e50914; border-radius: 12px 12px 0 0;">
+                    🔥 คะแนนสะสมสูงสุด (Flyweight)
+                </div>
+                <div style="overflow-x: auto; background: #fff;">
+                    <table style="width: 100%; border-collapse: collapse; min-width: 300px;">
+                        <tbody id="mini-points-list">
+                            <tr><td style="padding: 30px; text-align: center; color: #888;">กำลังคำนวณคะแนน...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a href="pages/rankings/one-flyweight.html" class="widget-btn" style="border-radius: 0 0 12px 12px;">ดูตารางคะแนนทั้งหมด &rarr;</a>
+            </div>
+
+            <div class="widget-box">
+                <div class="widget-title">🤖 วิเคราะห์มวย </div>
+                <div style="text-align: center; margin-bottom: 20px;">
+                    <img src="https://res.cloudinary.com/dia2yts2f/image/upload/v1774883621/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9B_ilunz8.png" alt="AI Analysis" style="width: 100%; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                </div>
+                <p style="font-size: 15px; color: #666; line-height: 1.6; margin-bottom: 20px; flex: 1;">
+                    เปรียบเทียบนักชกแบบหมัดต่อหมัด วิเคราะห์จุดแข็ง จุดอ่อน และโอกาสชนะ ด้วยระบบ AI สุดล้ำ
+                </p>
+                <a href="pages/analysis/index.html" class="widget-btn">ทดลองใช้งานฟรี &rarr;</a>
+            </div>
+
+            <div class="widget-box">
+                <div class="widget-title">👑 อัปเดตแชมป์โลก ONE ล่าสุด</div>
+                <ul class="widget-list" id="mini-champs-list">
+                    <li style="color: #888; text-align: center; padding: 20px 0;">กำลังดึงข้อมูลแชมป์...</li>
+                </ul>
+                <a href="pages/rankings/champions-one.html" class="widget-btn">ดูทำเนียบแชมป์ทั้งหมด &rarr;</a>
+            </div>
+
+            <div class="widget-box">
+                <div class="widget-title">⭐ นักชก P4P น่าจับตามอง</div>
+                <ul class="widget-list" id="mini-fighters-list">
+                    <li style="color: #888; text-align: center; padding: 20px 0;">กำลังดึงข้อมูล...</li>
+                </ul>
+                <a href="pages/rankings/overall-all.html" class="widget-btn">ดูการจัดอันดับเต็ม &rarr;</a>
+            </div>
+
+            <div class="widget-box" style="border: 1px solid #c8e6c9; background-color: #fbfdfb;">
+                <div class="widget-title" style="border-bottom-color: #2e7d32; color: #2e7d32;">
+                    🏟️ อันดับ นักมวยราชดำเนิน 
+                </div>
+                <ul class="widget-list" id="mini-raja-list">
+                    <li style="color: #888; text-align: center; padding: 20px 0;">
+                        กำลังดึงข้อมูลจากราชดำเนิน...
+                    </li>
+                </ul>
+                <a href="pages/rankings/rajadamnern.html" class="widget-btn" style="background-color: #2e7d32;">ดูการจัดอันดับทั้งหมด &rarr;</a>
+            </div>
+
+            <div class="widget-box" style="border: 2px solid #e50914; background-color: #fffafb;">
+                <div class="widget-title" style="border-bottom-color: #e50914; color: #1a1a1a;">
+                    🏆 จัดเทียร์นักมวย (Tier List)
+                </div>
+                
+                <a href="pages/TierList.html" class="tier-hover-effect" style="text-decoration: none; flex: 1; display: flex; flex-direction: column;">
+                    <div class="tier-icon-container">
+                        <div class="tier-icon-row">
+                            <div class="tier-icon-label" style="background: #dc2626;">S</div>
+                            <div class="tier-icon-drop">
+                                <div class="tier-icon-avatar" style="background-image: url('https://placehold.co/27x27/e50914/ffffff?text=1'); background-size: cover;"></div>
+                                <div class="tier-icon-avatar" style="background-image: url('https://placehold.co/27x27/e50914/ffffff?text=2'); background-size: cover;"></div>
+                            </div>
+                        </div>
+                        <div class="tier-icon-row">
+                            <div class="tier-icon-label" style="background: #f97316;">A</div>
+                            <div class="tier-icon-drop">
+                                <div class="tier-icon-avatar" style="background-image: url('https://placehold.co/27x27/e50914/ffffff?text=3'); background-size: cover;"></div>
+                            </div>
+                        </div>
+                        <div class="tier-icon-row">
+                            <div class="tier-icon-label" style="background: #eab308;">B</div>
+                            <div class="tier-icon-drop"></div>
+                        </div>
+                    </div>
+                    
+                    <p style="font-size: 15px; color: #555; text-align: center; margin-bottom: 20px;">
+                        สร้าง Tier List จัดอันดับนักชกในดวงใจด้วยตัวคุณเอง แคปรูปไปขิงเพื่อนได้เลย!
+                    </p>
+                </a>
+                
+                <a href="pages/TierList.html" class="widget-btn" style="background-color: #e50914;">เข้าสู่โหมดจัดเทียร์ &rarr;</a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="privacy.html">นโยบายความเป็นส่วนตัว</a></li>
+                <li><a href="about.html">เกี่ยวกับฉัน</a></li>
+                <li><a href="contact.html">ติดต่อ</a></li>
+            </ul>
+        </nav>
+        <p style="margin-top: 15px; font-size: 14px; color: #888;">© 2026 สงวนลิขสิทธิ์ BoxingFandom</p>
+    </footer>
+
+    <script>
+        
+        let searchDatabase = [];
+
+        // =========================================================
+        // 1. ฟังก์ชันจัดการรูปภาพที่เสีย
+        // =========================================================
+        function fixImagePath(url) {
+            if (!url || url === "ไม่ระบุ" || url === "" || url.includes("via.placeholder")) {
+                return "https://placehold.co/60x60/1a1a1a/ffffff?text=No+Img";
+            }
+            return url; 
+        }
+
+        // =========================================================
+        // 2. ฟังก์ชันโหลดข้อมูลนักมวยทั้งหมดตอนเปิดเว็บ
+        // =========================================================
+        async function initGlobalSearch() {
+            try {
+                const listRes = await fetch('data/boxers/fighters-list.json');
+                if (!listRes.ok) throw new Error("ไม่สามารถโหลดไฟล์ได้"); 
+                const files = await listRes.json();
+                
+                const fetchPromises = files.map(async (f) => {
+                    try {
+                        const res = await fetch(`data/boxers/${encodeURIComponent(f.trim())}`);
+                        if (res.ok) {
+                            const data = await res.json();
+                            return { ...data, fileName: f };
+                        }
+                    } catch(e) {}
+                    return null;
+                });
+
+                const results = await Promise.all(fetchPromises);
+                searchDatabase = results.filter(item => item !== null);
+                
+                loadMiniPointsRanking(searchDatabase); 
+                loadMiniChampionsPreview(searchDatabase); 
+                loadMiniFightersPreview(searchDatabase); 
+
+            } catch(e) {
+                console.error("ระบบ Search/Ranking Error:", e);
+                document.getElementById('mini-fighters-list').innerHTML = '<li style="color:red; text-align:center;">ไม่สามารถโหลดข้อมูลได้</li>';
+            }
+        }
+
+        // =========================================================
+        // 3. ระบบพิมพ์ค้นหานักมวย
+        // =========================================================
+        const searchInput = document.getElementById('mainSearchInput');
+        const searchDropdown = document.getElementById('mainSearchDropdown');
+        const searchButton = document.getElementById('mainSearchButton');
+
+        function processSearch() {
+            const query = searchInput.value.toLowerCase();
+            if (query.length === 0) { searchDropdown.style.display = 'none'; return; }
+            
+            const filtered = searchDatabase.filter(item => {
+                const p = item.fighter_profile || {};
+                return (p.name_th || '').toLowerCase().includes(query) ||
+                       (p.name_en || '').toLowerCase().includes(query) ||
+                       (p.alias || '').toLowerCase().includes(query);
+            });
+
+            if (filtered.length === 0) {
+                searchDropdown.innerHTML = '<div style="padding:15px; color:#888; text-align:center;">ไม่พบนักมวย</div>';
+            } else {
+                searchDropdown.innerHTML = filtered.map(item => {
+                    const p = item.fighter_profile || {};
+                    const imgUrl = fixImagePath(p.image_url);
+                    const profileLink = `pages/fighter/${encodeURIComponent(item.fileName.replace('.json', '.html'))}`;
+                    return `
+                        <a href="${profileLink}" class="search-dropdown-item">
+                            <img src="${imgUrl}" class="search-dropdown-img" alt="${p.name_th}">
+                            <div class="search-dropdown-info">
+                                <span class="search-dropdown-name">${p.name_th}</span>
+                                <span class="search-dropdown-meta">รุ่น: ${p.physical_stats?.division || '-'}</span>
+                            </div>
+                        </a>`;
+                }).join('');
+            }
+            searchDropdown.style.display = 'block';
+        }
+
+        function executeDirectSearch() {
+            const query = searchInput.value.toLowerCase();
+            if (!query) return;
+            const filtered = searchDatabase.filter(item => {
+                const p = item.fighter_profile || {};
+                return (p.name_th || '').toLowerCase().includes(query) || (p.name_en || '').toLowerCase().includes(query);
+            });
+            if (filtered.length > 0) {
+                window.location.href = `pages/fighter/${encodeURIComponent(filtered[0].fileName.replace('.json', '.html'))}`;
+            } else { 
+                alert("ไม่พบข้อมูล"); 
+            }
+        }
+
+        searchInput.addEventListener('input', processSearch);
+        searchInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') executeDirectSearch(); });
+        searchButton.addEventListener('click', executeDirectSearch);
+        document.addEventListener('click', (e) => { 
+            if (!e.target.closest('.search-container')) searchDropdown.style.display = 'none'; 
+        });
+
+        // =========================================================
+        // 4. ฟังก์ชันของกล่องที่ 1: คะแนนสะสม Flyweight
+        // =========================================================
+        function analyzeStats(history) {
+            if (!history || history.length === 0) return { formHTML: "-", score: 0, wins: 0, losses: 0, active: false };
+            
+            let score = 0, wins = 0, losses = 0;
+            history.forEach(f => {
+                const res = f.result ? f.result.toLowerCase() : '';
+                if (res === 'win') {
+                    score += 3; wins++;
+                    if (f.method_en && (f.method_en.includes('KO') || f.method_en.includes('TKO') || f.method_en.includes('Submission'))) score += 1;
+                } else if (res === 'loss') {
+                    score -= 1; losses++;
+                }
+            });
+
+            const formHTML = history.slice(0, 3).reverse().map(f => {
+                const res = f.result ? f.result.toLowerCase() : 'n';
+                let bgCol = res === 'win' ? '#2e7d32' : (res === 'loss' ? '#c62828' : '#f57f17');
+                let initial = res[0] ? res[0].toUpperCase() : '-';
+                return `<span style="display:inline-block; width:18px; height:18px; line-height:18px; border-radius:50%; text-align:center; font-size:10px; font-weight:bold; color:white; background-color:${bgCol}; margin:0 1px;">${initial}</span>`;
+            }).join('') || "-";
+
+            return { formHTML, score, wins, losses, active: history.length > 0 };
+        }
+
+        function loadMiniPointsRanking(allData) {
+            try {
+                const targetDivision = "Flyweight"; 
+                const gradeWeight = { "S": 10, "A+": 9, "A": 8, "B+": 7, "B": 6, "C+": 5, "C": 4 };
+
+                let processed = allData.map(f => {
+                    let targetHistory = [];
+                    if (f.fight_history_one_championship && f.fight_history_one_championship.length > 0) {
+                        targetHistory = f.fight_history_one_championship;
+                    } else if (f.fight_history) {
+                        targetHistory = f.fight_history.filter(fight => {
+                            const eventName = (fight.event_en || "") + " " + (fight.event_th || "");
+                            return eventName.toLowerCase().includes('one');
+                        });
+                    }
+                    return { ...f, stats: analyzeStats(targetHistory) };
+                });
+
+                processed = processed.filter(f => {
+                    if (!f.fighter_profile) return false;
+                    const p = f.fighter_profile;
+                    const divMatch = p.physical_stats && (p.physical_stats.division || "").toLowerCase() === targetDivision.toLowerCase();
+                    return divMatch && f.stats.active;
+                });
+
+                processed.sort((a, b) => {
+                    if (b.stats.score !== a.stats.score) return b.stats.score - a.stats.score;
+                    const gA = gradeWeight[a.fighter_profile.grade] || 0;
+                    const gB = gradeWeight[b.fighter_profile.grade] || 0;
+                    if (gB !== gA) return gB - gA;
+                    return a.stats.losses - b.stats.losses;
+                });
+
+                const top3 = processed.slice(0, 3);
+                const list = document.getElementById('mini-points-list');
+                
+                list.innerHTML = top3.map((f, i) => {
+                    let rankBg = i === 0 ? '#d4af37' : (i === 1 ? '#c0c0c0' : (i === 2 ? '#cd7f32' : '#eee'));
+                    let rankCol = i < 3 ? 'white' : '#1a1a1a';
+                    let rankDisplay = `<div style="width: 28px; height: 28px; line-height: 28px; text-align: center; border-radius: 50%; font-weight: bold; background: ${rankBg}; color: ${rankCol}; font-size: 14px;">${i+1}</div>`;
+                    
+                    const p = f.fighter_profile;
+                    const profileLink = `pages/fighter/${encodeURIComponent(f.fileName.replace('.json', '.html'))}`;
+                    const imgUrl = fixImagePath(p.image_url);
+
+                    return `
+                        <tr style="border-bottom: 1px solid #f0f0f0; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.backgroundColor='#f9f9f9'" onmouseout="this.style.backgroundColor='transparent'" onclick="location.href='${profileLink}'">
+                            <td style="padding: 12px 15px; width: 40px;">${rankDisplay}</td>
+                            <td style="padding: 12px 0;">
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <img src="${imgUrl}" alt="${p.name_th}" style="width: 48px; height: 48px; border-radius: 50%; object-fit: cover; border: 2px solid #eaeaea; background: #f4f4f4;">
+                                    <div>
+                                        <span style="display: block; font-weight: 600; font-size: 15px; color: #1a1a1a;">${p.name_th || '-'}</span>
+                                        <div style="display: flex; align-items: center; gap: 5px; margin-top: 4px;">
+                                            ${f.stats.formHTML}
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td style="padding: 12px 15px; text-align: right;">
+                                <span style="font-size: 18px; font-weight: 700; color: #e50914;">${f.stats.score}</span>
+                            </td>
+                        </tr>
+                    `;
+                }).join('') || `<tr><td style="padding: 20px; text-align: center; color: #888;">ไม่พบข้อมูลรุ่น ${targetDivision}</td></tr>`;
+
+            } catch(e) { 
+                console.error("Load Points Error:", e); 
+                document.getElementById('mini-points-list').innerHTML = `<tr><td style="padding: 20px; text-align: center; color: #e50914;">เกิดข้อผิดพลาด</td></tr>`;
+            }
+        }
+
+        // =========================================================
+        // 5. ฟังก์ชันของกล่องที่ 3: แชมป์โลก ONE
+        // =========================================================
+        async function loadMiniChampionsPreview(allFightersData) {
+            try {
+                const res = await fetch('data/champions/one-champions.json');
+                if (!res.ok) return;
+                
+                const data = await res.json();
+                data.sort((a, b) => b.year - a.year);
+                
+                const latest = data.slice(0, 3);
+                let html = '';
+                
+                latest.forEach(champ => {
+                    let cleanName = "";
+                    if (champ.champion_name_th) {
+                        cleanName = champ.champion_name_th.replace("(เฉพาะกาล)", "").trim();
+                    }
+
+                    const matched = allFightersData.find(f => {
+                        const p = f.fighter_profile;
+                        if (!p || !p.name_th) return false;
+                        return p.name_th.includes(cleanName) || cleanName.includes(p.name_th);
+                    });
+                    
+                    const imgUrl = matched ? fixImagePath(matched.fighter_profile.image_url) : "https://placehold.co/60x60/e50914/ffffff?text=ONE";
+                    const profileLink = matched ? `pages/fighter/${encodeURIComponent(matched.fileName.replace('.json', '.html'))}` : '#';
+                    
+                    html += `
+                        <li class="champ-item" style="cursor: pointer; transition: background 0.2s;" onmouseover="this.style.backgroundColor='#f9f9f9'" onmouseout="this.style.backgroundColor='transparent'" onclick="location.href='${profileLink}'">
+                            <img src="${imgUrl}" alt="${champ.champion_name_th}" class="champ-img" onerror="this.src='https://placehold.co/60x60/eeeeee/333333?text=NO+IMG'">
+                            <div class="champ-info">
+                                <span class="champ-division" style="color:#e50914; font-weight:600;">${champ.weight_class_th}</span>
+                                <span class="champ-name">${champ.champion_name_th || 'แชมป์ว่าง'}</span>
+                            </div>
+                        </li>`;
+                });
+                
+                document.getElementById('mini-champs-list').innerHTML = html;
+            } catch(e) { 
+                console.error(e); 
+            }
+        }
+
+        // =========================================================
+        // 6. ฟังก์ชันของกล่องที่ 4: พรีวิวนักชก P4P
+        // =========================================================
+        function loadMiniFightersPreview(allFightersData) {
+            const listContainer = document.getElementById('mini-fighters-list');
+            
+            if (!allFightersData || allFightersData.length === 0) {
+                listContainer.innerHTML = '<li style="text-align:center; color:#888;">ไม่มีข้อมูลนักชก</li>';
+                return;
+            }
+            
+            const top3 = allFightersData.slice(0, 3);
+            let html = '';
+            
+            top3.forEach(fighter => {
+                const p = fighter.fighter_profile || {};
+                const imgUrl = fixImagePath(p.image_url);
+                const profileLink = `pages/fighter/${encodeURIComponent(fighter.fileName.replace('.json', '.html'))}`;
+                
+                html += `
+                    <li class="champ-item">
+                        <img src="${imgUrl}" alt="${p.name_th}" class="champ-img" style="border-color: #eaeaea;" onerror="this.src='https://placehold.co/60x60/eeeeee/333333?text=Error'">
+                        <div class="champ-info">
+                            <a href="${profileLink}" class="champ-name" style="text-decoration: none;">${p.name_th || 'ไม่ระบุ'}</a>
+                            <span class="champ-division" style="color:#777; font-weight: normal;">สไตล์: ${p.fighting_style_th || 'ไม่ระบุ'}</span>
+                        </div>
+                    </li>`;
+            });
+            
+            listContainer.innerHTML = html;
+        }
+
+        // =========================================================
+        // 7. ฟังก์ชันของกล่องที่ 5: พรีวิวข้อมูลเวทีราชดำเนิน
+        // =========================================================
+        async function loadMiniRajaRanking() {
+            try {
+                const res = await fetch('data/rankings/raja/super-bantamweight.json');
+                if (!res.ok) throw new Error("ไม่พบไฟล์ข้อมูลราชดำเนิน");
+                
+                const data = await res.json();
+                const top3 = data.fighters.slice(0, 3);
+                let html = '';
+                
+                top3.forEach((f) => {
+                    const imgUrl = f.image_url && f.image_url !== 'ไม่ระบุ' ? f.image_url : 'https://placehold.co/60x60/eeeeee/888888?text=Raja';
+                    const isChamp = f.rank === 'C';
+                    const rankText = isChamp ? '👑' : f.rank;
+                    
+                    html += `
+                        <li class="champ-item">
+                            <div class="rank-number" style="${isChamp ? 'color:#2e7d32;' : 'color:#999;'}">${rankText}</div>
+                            <img src="${imgUrl}" alt="${f.name}" class="champ-img" style="border-color: ${isChamp ? '#2e7d32' : '#eaeaea'};">
+                            <div class="champ-info">
+                                <span class="champ-name" style="${isChamp ? 'color:#2e7d32;' : 'color:#1a1a1a;'}">${f.name}</span>
+                                <span class="champ-division" style="color:#777; font-weight: normal;">สัญชาติ: ${f.country || '-'}</span>
+                            </div>
+                        </li>`;
+                });
+                
+                document.getElementById('mini-raja-list').innerHTML = html;
+            } catch (e) {
+                document.getElementById('mini-raja-list').innerHTML = '<li style="text-align:center; color:#e74c3c;">รออัปเดตข้อมูล...</li>';
+            }
+        }
+
+        // =========================================================
+        // 8. เริ่มต้นการทำงานของระบบทั้งหมดเมื่อโหลดหน้าเว็บ
+        // =========================================================
+        initGlobalSearch(); 
+        loadMiniRajaRanking(); 
+
+    </script>
+</body>
+</html>

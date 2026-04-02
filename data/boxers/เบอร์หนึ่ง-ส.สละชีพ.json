@@ -1,0 +1,106 @@
+{
+    "fighter_profile": {
+        "name_th": "เบอร์หนึ่ง ส.สละชีพ",
+        "name_en": "Bernueng Sor Salacheep",
+        "alias": "ไอ้หนูมหัศจรรย์",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772953266/%E0%B9%80%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87_%E0%B8%AA.%E0%B8%AA%E0%B8%A5%E0%B8%B0%E0%B8%8A%E0%B8%B5%E0%B8%9E_ocpxag.png",
+        "grade": "B+",
+        "fighting_style_th": "มวยขวา, บู๊ดุดัน, เตะขวาหนัก",
+        "fighting_style_en": "Orthodox, Aggressive Brawler, Powerful Right Kicker",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 116,
+            "weight_kg": 52.62,
+            "division": "Strawweight",
+            "height_ft": "5'4\"",
+            "height_cm": 165,
+            "reach_cm": "167",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 18,
+            "team_th": "ส.สละชีพ (Sor Salacheep)",
+            "team_en": "Sor Salacheep"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/bernueng-sor-salacheep/"
+        ],
+        "short_biography": "เบอร์หนึ่ง ส.สละชีพ (Bernueng Sor Salacheep) เป็นนักชกชาวไทย วัย 18 ปี จากสังกัดส.สละชีพ (Sor Salacheep) มีความถนัดในการต่อสู้สไตล์มวยขวา, บู๊ดุดัน, เตะขวาหนัก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 52.62 กิโลกรัม) ส่วนสูง 165 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถพ่ายแพ้ให้กับ เหิร เอ็นเอฟ.ลูกสวน ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:44",
+            "opponent_th": "เหิร เอ็นเอฟ.ลูกสวน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 145"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "รีฟดีน มาสดอร์",
+            "opponent_en": "",
+            "opponent_country": "มาเลเซีย",
+            "date": "Aug 01, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 118"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:10",
+            "opponent_th": "ชาไทย บางแสนไฟต์คลับ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 23, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 109"
+        }
+    ],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 145",
+            "weight_lbs": 116,
+            "division": "Strawweight"
+        }
+    ]
+}

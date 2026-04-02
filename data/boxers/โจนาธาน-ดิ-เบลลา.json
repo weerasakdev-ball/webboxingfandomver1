@@ -1,0 +1,137 @@
+{
+    "fighter_profile": {
+        "name_th": "โจนาธาน ดิ เบลลา",
+        "name_en": "Jonathan Di Bella",
+        "alias": "The Italian Technician",
+        "image_url": "https://i.ibb.co/GQ5xnhG8/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "คิกบ็อกซิ่ง, เทคนิคสูง, หมัดชุดรวดเร็ว",
+        "fighting_style_en": "Technical Kickboxing, Rapid Combinations, High IQ Striker",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 123.9,
+            "weight_kg": 56.2,
+            "division": "Strawweight",
+            "height_ft": "5'9\"",
+            "height_cm": 175,
+            "reach_cm": "178",
+            "leg_reach_cm": "98"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 7,
+                "body": 4,
+                "legs": 4,
+                "total_per_minute": 15
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 51,
+                "accuracy_by_target_percentage": {
+                    "head": 45,
+                    "body": 30,
+                    "legs": 25
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 62,
+                "defense_by_target_percentage": {
+                    "head": 65,
+                    "body": 25,
+                    "legs": 10
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "อิตาลี / แคนาดา",
+            "country_en": "Italy / Canada",
+            "age": 29,
+            "team_th": "ทีม ดิ เบลลา คิกบ็อกซิ่ง",
+            "team_en": "Team Di Bella Kickboxing"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/jonathan-di-bella/"
+        ],
+        "short_biography": "โจนาธาน ดิ เบลลา (Jonathan Di Bella) เป็นนักชกชาวอิตาลี / แคนาดา วัย 29 ปี จากสังกัดทีม ดิ เบลลา คิกบ็อกซิ่ง มีความถนัดในการต่อสู้สไตล์คิกบ็อกซิ่ง, เทคนิคสูง, หมัดชุดรวดเร็ว ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 56.2 กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 36: พระจันทร์ฉาย vs โจนาธาน II สามารถเอาชนะ พระจันทร์ฉาย ป๋องสุพรรณ พีเค. ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 04, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 36: พระจันทร์ฉาย vs โจนาธาน II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "สามเอ ไก่ย่างห้าดาว",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 23, 2025",
+            "rating": 5,
+            "event_en": "ONE 172: ทาเครุ vs รถถัง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "รุย โบเทลโฮ",
+            "opponent_en": "",
+            "opponent_country": "โปรตุเกส",
+            "date": "Dec 07, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 26: คริสเตียน vs อาลิเบก"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 28, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 68: พระจันทร์ฉาย vs โจนาธาน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "แดเนียล วิลเลียมส์",
+            "opponent_en": "",
+            "opponent_country": "ออสเตรเลีย/ไทย",
+            "date": "Oct 06, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 15: ธานฮ์ vs อิลยา"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "จาง เป่ยเหมียน",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Oct 21, 2022",
+            "rating": 5,
+            "event_en": "ONE 162: จาง vs โจนาธาน"
+        }
+    ]
+}

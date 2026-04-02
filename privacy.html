@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>นโยบายความเป็นส่วนตัว | BoxingFandom</title>
+    <meta name="description" content="นโยบายความเป็นส่วนตัวของเว็บไซต์ BoxingFandom">
+
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        header h1 .text-red {
+            color: #e50914;
+        }
+
+        header h1 .text-white {
+            color: #ffffff;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #333333;
+        }
+
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #1a1a1a;
+            min-width: 200px;
+            flex-direction: column;
+            border-top: 2px solid #e50914;
+            z-index: 1000;
+        }
+
+        nav ul li:hover > ul {
+            display: flex; 
+        }
+
+        nav ul ul ul {
+            top: 0;
+            left: 100%;
+        }
+
+        .search-box {
+            margin-left: 20px;
+            display: flex;
+        }
+
+        .search-box input[type="text"] {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px 0 0 4px;
+            outline: none;
+        }
+
+        .search-box button {
+            padding: 8px 15px;
+            background-color: #e50914;
+            color: white;
+            border: none;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .search-box button:hover {
+            background-color: #b0070f;
+        }
+
+        main {
+            flex: 1;
+            padding: 40px 20px;
+        }
+
+        /* ตกแต่งกล่องเนื้อหาให้อ่านง่าย */
+        .content-box {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .content-box h2 {
+            color: #e50914;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+
+        .content-box h3 {
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: #1a1a1a;
+        }
+
+        .content-box p, .content-box ul {
+            margin-bottom: 15px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .content-box ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer nav ul {
+            justify-content: center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1><span class="text-red">Boxing</span><span class="text-white">Fandom</span></h1>
+
+        <nav>
+            <ul>
+                <li><a href="#">บทความ</a></li>
+                <li><a href="#">ข่าว</a></li>
+                <li><a href="#">วิเคราะห์มวย</a></li>
+                <li><a href="#">เทียบสถิติ</a></li>
+                <li><a href="#">นักมวยทั้งหมด</a></li> 
+                <li>
+                    <a href="#">ranking ▾</a>
+                    <ul>
+                        <li>
+                            <a href="#">1 ONE ▸</a>
+                            <ul>
+                                <li><a href="#">เฮฟวีเวต</a></li>
+                                <li><a href="#">ไลต์เฮฟวีเวต</a></li>
+                                <li><a href="#">มิดเดิลเวต</a></li>
+                                <li><a href="#">เวลเตอร์เวต</a></li>
+                                <li><a href="#">ไลต์เวต</a></li>
+                                <li><a href="#">เฟเธอร์เวต</a></li>
+                                <li><a href="#">แบนตัมเวต</a></li>
+                                <li><a href="#">ฟลายเวต</a></li>
+                                <li><a href="#">สตรอว์เวต</a></li>
+                                <li><a href="#">อะตอมเวต</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">2 จัดอันดับทั้งหมด</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">แชมป์ ▾</a>
+                    <ul>
+                        <li><a href="#">แชมป์ วันแชมป์เปี้ยนชิพ</a></li>
+                        <li><a href="#">แชมป์ปูนเสือ</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="search-box">
+                <input type="text" placeholder="ค้นหานักมวย...">
+                <button type="button">ค้นหา</button>
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main id="main-content">
+        <div class="content-box">
+            <h2>นโยบายความเป็นส่วนตัว (Privacy Policy)</h2>
+            <p>เว็บไซต์ BoxingFandom (ต่อไปนี้จะเรียกว่า "เว็บไซต์") ให้ความสำคัญอย่างยิ่งกับการคุ้มครองข้อมูลส่วนบุคคลของผู้ใช้งาน นโยบายฉบับนี้จัดทำขึ้นเพื่ออธิบายถึงวิธีการที่เรารวบรวม ใช้ และเปิดเผยข้อมูลของท่านเมื่อท่านเข้าชมเว็บไซต์ของเรา</p>
+
+            <h3>1. การเก็บรวบรวมข้อมูล</h3>
+            <p>เราอาจมีการเก็บรวบรวมข้อมูลพื้นฐานเมื่อท่านเข้าชมเว็บไซต์ เช่น ข้อมูลสถิติการเข้าชม (Log Data), ที่อยู่ IP, ประเภทของเบราว์เซอร์, หน้าเว็บที่ท่านเยี่ยมชม และระยะเวลาที่ใช้ในแต่ละหน้า เพื่อนำไปวิเคราะห์และปรับปรุงประสิทธิภาพของเว็บไซต์ ข้อมูลเหล่านี้ถูกเก็บผ่านระบบมาตรฐานเช่น Google Analytics ซึ่งไม่สามารถระบุตัวตนของท่านได้โดยตรง</p>
+
+            <h3>2. การใช้คุกกี้ (Cookies)</h3>
+            <p>เว็บไซต์ของเรามีการใช้ "คุกกี้" เพื่อจดจำการตั้งค่าของท่านและมอบประสบการณ์การใช้งานที่ดียิ่งขึ้น คุกกี้เป็นไฟล์ข้อความขนาดเล็กที่ถูกส่งไปจัดเก็บไว้ในอุปกรณ์ของท่าน ท่านสามารถตั้งค่าเบราว์เซอร์ให้ปฏิเสธการรับคุกกี้ได้ แต่บางส่วนของเว็บไซต์อาจทำงานได้ไม่สมบูรณ์หากปิดการใช้งาน</p>
+
+            <h3>3. การนำข้อมูลไปใช้</h3>
+            <p>เรานำข้อมูลสถิติที่รวบรวมได้ไปใช้เพื่อวัตถุประสงค์ดังต่อไปนี้:</p>
+            <ul>
+                <li>เพื่อนำเสนอบทความ ข่าวสาร และวิเคราะห์มวยที่ตรงกับความสนใจของผู้ใช้งานมากขึ้น</li>
+                <li>เพื่อวิเคราะห์แนวโน้มการเข้าชม และพัฒนาโครงสร้างเว็บไซต์ให้ตอบโจทย์ผู้ใช้</li>
+                <li>เพื่อป้องกันปัญหาทางเทคนิคและรักษาความปลอดภัยของเว็บไซต์</li>
+            </ul>
+
+            <h3>4. การเปิดเผยข้อมูลแก่บุคคลที่สาม</h3>
+            <p>เราไม่มีนโยบายขายหรือแลกเปลี่ยนข้อมูลส่วนบุคคลของท่านให้กับบุคคลที่สาม อย่างไรก็ตาม เราอาจแชร์ข้อมูลเชิงสถิติที่ไม่ระบุตัวตนกับพันธมิตรหรือผู้ให้บริการด้านการวิเคราะห์ข้อมูล (เช่น Google) เพื่อช่วยให้เราเข้าใจการใช้งานเว็บไซต์ได้ดีขึ้น</p>
+
+            <h3>5. การเปลี่ยนแปลงนโยบาย</h3>
+            <p>เว็บไซต์อาจมีการปรับปรุงนโยบายความเป็นส่วนตัวฉบับนี้เป็นครั้งคราว โดยเราจะทำการอัปเดตข้อมูลบนหน้านี้ ขอแนะนำให้ท่านกลับมาตรวจสอบนโยบายอย่างสม่ำเสมอ</p>
+
+            <p style="margin-top: 30px;"><strong>อัปเดตล่าสุด:</strong> มีนาคม 2026</p>
+        </div>
+    </main>
+
+
+    <footer>
+
+        <nav>
+            <ul>
+                <li><a href="privacy.html">นโยบายความเป็นส่วนตัว</a></li>
+                <li><a href="about.html">เกี่ยวกับฉัน</a></li>
+                <li><a href="contact.html">ติดต่อ</a></li>
+            </ul>
+        </nav>
+        <p style="margin-top: 10px; font-size: 14px; color: #888;">© 2026 สงวนลิขสิทธิ์ BoxingFandom</p>
+
+    </footer>
+
+</body>
+
+</html>

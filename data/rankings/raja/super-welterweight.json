@@ -1,0 +1,103 @@
+{
+  "last_updated": "2026-03-31T07:07:05.091Z",
+  "stadium": "Rajadamnern Stadium",
+  "division": "Super Welterweight",
+  "fighters": [
+    {
+      "rank": "C",
+      "name": "Daniel Rodriguez",
+      "image_url": "",
+      "country": "CH"
+    },
+    {
+      "rank": "1",
+      "name": "Rittewada Petchyindee Academy",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "2",
+      "name": "Pheuthai Siriluck Muay Thai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "3",
+      "name": "Boonlert Sor. Boonmeerit",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "4",
+      "name": "Hercules Wan Khong Ohm MBK",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "5",
+      "name": "Burak Poyraz",
+      "image_url": "",
+      "country": "TR"
+    },
+    {
+      "rank": "6",
+      "name": "Dmitry Changelia",
+      "image_url": "",
+      "country": "RU"
+    },
+    {
+      "rank": "7",
+      "name": "Garrett Smylie",
+      "image_url": "",
+      "country": "IE"
+    },
+    {
+      "rank": "8",
+      "name": "Petchsamart Petchkiatpetch",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "9",
+      "name": "Rambo Mor. Rattanabandit",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "10",
+      "name": "Sansiri Mor. Rattanabundit",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "11",
+      "name": "Juan Andrade",
+      "image_url": "",
+      "country": "US"
+    },
+    {
+      "rank": "12",
+      "name": "Hamza Sabri",
+      "image_url": "",
+      "country": "MA"
+    },
+    {
+      "rank": "13",
+      "name": "Hichem Rahmoune",
+      "image_url": "",
+      "country": "DZ"
+    },
+    {
+      "rank": "14",
+      "name": "Hugh O'Donnell",
+      "image_url": "",
+      "country": "AU"
+    },
+    {
+      "rank": "15",
+      "name": "Daniel Matthews",
+      "image_url": "",
+      "country": "AU"
+    }
+  ]
+}

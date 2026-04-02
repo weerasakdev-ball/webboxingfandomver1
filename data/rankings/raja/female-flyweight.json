@@ -1,0 +1,103 @@
+{
+  "last_updated": "2026-03-31T07:07:38.700Z",
+  "stadium": "Rajadamnern Stadium",
+  "division": "Female Flyweight",
+  "fighters": [
+    {
+      "rank": "C",
+      "name": "Marie Ruumet",
+      "image_url": "",
+      "country": "EE"
+    },
+    {
+      "rank": "1",
+      "name": "Narak WKK Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "2",
+      "name": "Zaidania Looksaikongdin",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "3",
+      "name": "Pinpetch Mor.rajabhatkorat",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "4",
+      "name": "Suayngam Or. Oodudon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "5",
+      "name": "Alessia Bertellotti",
+      "image_url": "",
+      "country": "IT"
+    },
+    {
+      "rank": "6",
+      "name": "Nongnook Mor.Kor.Chor. Chaiyaphum",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "7",
+      "name": "Lisa Brierley",
+      "image_url": "",
+      "country": "GB-ENG"
+    },
+    {
+      "rank": "8",
+      "name": "Paula Silva",
+      "image_url": "",
+      "country": "ES"
+    },
+    {
+      "rank": "9",
+      "name": "Looknam Kor. Klomkiew",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "10",
+      "name": "Desiree Wodicker",
+      "image_url": "",
+      "country": "US"
+    },
+    {
+      "rank": "11",
+      "name": "Ananta N.F. Luksuan",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "12",
+      "name": "Nur Amisha",
+      "image_url": "",
+      "country": "MY"
+    },
+    {
+      "rank": "13",
+      "name": "Wakana Bring It On",
+      "image_url": "",
+      "country": "JP"
+    },
+    {
+      "rank": "14",
+      "name": "Yuri Hosokai",
+      "image_url": "",
+      "country": "JP"
+    },
+    {
+      "rank": "15",
+      "name": "Kaokanok Por. Petchpirun",
+      "image_url": "",
+      "country": "TH"
+    }
+  ]
+}

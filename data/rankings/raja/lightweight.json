@@ -1,0 +1,103 @@
+{
+  "last_updated": "2026-03-31T07:07:12.881Z",
+  "stadium": "Rajadamnern Stadium",
+  "division": "Lightweight",
+  "fighters": [
+    {
+      "rank": "C",
+      "name": "Sangmanee Sor. Samangarment",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "1",
+      "name": "Petchchonlatharn Kor. Adisak",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "2",
+      "name": "Samingdet Bangmadklongtan",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "3",
+      "name": "Nongbew Jitmuangnon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "4",
+      "name": "Somraknoi Muayded789",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "5",
+      "name": "Suphachailek Nengsubyai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "6",
+      "name": "Egor Bikrev",
+      "image_url": "",
+      "country": "RU"
+    },
+    {
+      "rank": "7",
+      "name": "Yod E.T. Por.Tor.Tor. Tongtawee",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "8",
+      "name": "Thanupetch Wor. Sangpraipai",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "9",
+      "name": "Chankrit Manop Muay Thai Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "10",
+      "name": "Superlek Jitmuangnon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "11",
+      "name": "Nichao Nuiseemoommuang",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "12",
+      "name": "Sniper Sor. Sasiwat",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "13",
+      "name": "Petchpichet Lookjaomaesaithong",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "14",
+      "name": "Saksri Superlek Muay Thai Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "15",
+      "name": "Longern Khuarynaimuang Gym",
+      "image_url": "",
+      "country": "TH"
+    }
+  ]
+}

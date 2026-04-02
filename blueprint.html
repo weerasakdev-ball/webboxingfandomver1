@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxingFandom Master Blueprint | Full Architecture V.2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        /* สไตล์แบบโปรแกรมทำเกม (Blueprint Node Editor) */
+        body, html {
+            margin: 0; padding: 0; width: 100%; height: 100%;
+            background-color: #121212;
+            /* ลายตาราง Grid */
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+            font-family: 'Sarabun', sans-serif;
+            color: #fff;
+            overflow: auto;
+        }
+
+        .header { position: fixed; top: 20px; left: 30px; z-index: 1000; background: rgba(18,18,18,0.8); padding: 15px 25px; border-radius: 12px; border: 1px solid #333; backdrop-filter: blur(10px); }
+        .header h1 { margin: 0; font-size: 26px; font-weight: 900; color: #fff; text-transform: uppercase; letter-spacing: 1px; }
+        .header h1 span { color: #e50914; }
+        .header p { margin: 5px 0 0 0; color: #aaa; font-size: 15px; font-weight: 600;}
+
+        /* พื้นที่วางกล่อง (Canvas) กว้างและสูงพอให้ Scroll ดูได้เต็มๆ */
+        #node-canvas {
+            position: relative;
+            width: 2200px; 
+            height: 1800px; /* เพิ่มความสูงรองรับกล่องที่มากขึ้น */
+            margin: 120px 50px 50px 50px;
+        }
+
+        /* SVG สำหรับวาดสายไฟ */
+        #svg-lines {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            pointer-events: none; z-index: 10;
+        }
+        path { fill: none; stroke-width: 4px; stroke-linecap: round; }
+        .line-data { stroke: rgba(59, 130, 246, 0.5); stroke-dasharray: 8, 8; animation: flow 1s linear infinite; }
+        .line-tpl { stroke: rgba(245, 158, 11, 0.5); stroke-dasharray: 8, 8; animation: flow 1s linear infinite; }
+        .line-build { stroke: rgba(168, 85, 247, 0.8); } /* เส้นทึบตอนสร้างเสร็จ */
+        .line-spider { stroke: rgba(229, 9, 20, 0.8); stroke-dasharray: 12, 6; animation: flowReverse 1s linear infinite; }
+        .line-reverse { stroke: rgba(234, 179, 8, 0.7); stroke-dasharray: 8, 8; animation: flowReverse 1s linear infinite; } /* เส้นย้อนกลับ */
+
+        @keyframes flow { to { stroke-dashoffset: -16; } }
+        @keyframes flowReverse { to { stroke-dashoffset: 16; } }
+
+        /* สไตล์ของกล่อง (Node) */
+        .node {
+            position: absolute; width: 290px; background: #1e1e1e;
+            border-radius: 10px; box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            border: 1px solid #333; z-index: 20; transition: transform 0.2s;
+        }
+        .node:hover { transform: translateY(-5px); border-color: #555; box-shadow: 0 15px 35px rgba(0,0,0,0.8); z-index: 30;}
+        .node-header {
+            padding: 12px 15px; border-top-left-radius: 9px; border-top-right-radius: 9px;
+            font-weight: 800; font-size: 16px; display: flex; align-items: center; gap: 10px; text-transform: uppercase;
+        }
+        .node-body { padding: 15px; font-size: 14px; color: #bbb; line-height: 1.6; }
+        .node-body b { color: #fff; font-size: 15px; }
+        .node-body code { background: #000; padding: 2px 5px; border-radius: 4px; color: #34d399; font-family: monospace;}
+        .node-body .tag { display: inline-block; padding: 2px 8px; background: #333; border-radius: 4px; font-size: 12px; margin-top: 5px; font-weight: bold;}
+
+        /* สีประจำหมวดหมู่ */
+        .hdr-data { background: linear-gradient(135deg, #1e3a8a, #2563eb); }
+        .hdr-tpl { background: linear-gradient(135deg, #9a3412, #d97706); }
+        .hdr-engine { background: linear-gradient(135deg, #581c87, #9333ea); }
+        .hdr-ui { background: linear-gradient(135deg, #064e3b, #059669); }
+        .hdr-manual { background: linear-gradient(135deg, #3f3f46, #64748b); }
+        .hdr-search { background: linear-gradient(135deg, #0f766e, #10b981); }
+
+        /* จุดเสียบสายไฟ (Ports) */
+        .port {
+            width: 16px; height: 16px; border-radius: 50%; background: #fff;
+            position: absolute; top: 50%; transform: translateY(-50%);
+            border: 4px solid #1e1e1e; z-index: 30; box-shadow: 0 0 8px rgba(0,0,0,0.8);
+        }
+        .port-out { right: -10px; }
+        .port-in { left: -10px; }
+        .port-top { top: -10px; left: 50%; transform: translateX(-50%); }
+        .port-bottom { bottom: -10px; top: auto; left: 50%; transform: translateX(-50%); }
+
+        /* สีของจุด Port */
+        .p-data { background: #3b82f6; }
+        .p-tpl { background: #f59e0b; }
+        .p-engine { background: #a855f7; }
+        .p-ui { background: #10b981; }
+        .p-spider { background: #e50914; }
+        .p-reverse { background: #eab308; }
+
+        /* Label บอกคอลัมน์ */
+        .column-label { position: absolute; top: -40px; font-size: 20px; font-weight: 900; color: #555; text-transform: uppercase; letter-spacing: 2px;}
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>BoxingFandom <span>Master Architecture V.2</span></h1>
+        <p>อัปเดตระบบ SSG เต็มรูปแบบ: Articles, Boxers, Matches, News, Rankings</p>
+    </div>
+
+    <div id="node-canvas">
+        
+        <svg id="svg-lines"></svg>
+
+        <div class="column-label" style="left: 50px;">1. ฐานข้อมูล (Data)</div>
+
+        <div class="node" style="top: 50px; left: 50px;" id="d-fighter-list">
+            <div class="node-header hdr-data">💾 data/boxers/fighters-list.json</div>
+            <div class="node-body"><b>สารบัญนักมวยทั้งหมด</b><br>อัปเดตโดย generate-list.js สำหรับระบบ Search<br><span class="tag">Array</span></div>
+            <div class="port port-out p-data" id="out-d-flist"></div>
+        </div>
+
+        <div class="node" style="top: 180px; left: 50px;" id="d-fighter-detail">
+            <div class="node-header hdr-data">💾 data/boxers/[fighter].json</div>
+            <div class="node-body"><b>เช่น รถถัง-จิตรเมืองนนท์.json</b><br>ข้อมูลดิบ ประวัติ, สถิติ, น้ำหนัก<br><span class="tag">Object Files</span></div>
+            <div class="port port-out p-data" id="out-d-fdetail"></div>
+        </div>
+
+        <div class="node" style="top: 310px; left: 50px;" id="d-event-list">
+            <div class="node-header hdr-data">💾 data/matches/events-list.json</div>
+            <div class="node-body"><b>สารบัญศึกทั้งหมด</b><br>ใช้โชว์ที่หน้า Index วิเคราะห์มวย<br><span class="tag">Array</span></div>
+            <div class="port port-out p-data" id="out-d-elist"></div>
+        </div>
+
+        <div class="node" style="top: 440px; left: 50px;" id="d-news-list">
+            <div class="port port-in p-reverse" id="in-d-newslist"></div>
+            <div class="node-header hdr-data">💾 data/news/news-list.json</div>
+            <div class="node-body"><b>สารบัญข่าวล่าสุด</b><br>ถูกสร้างโดย <code>generate-news-list.js</code> ไว้โชว์หน้า News Index<br><span class="tag">Array</span></div>
+            <div class="port port-out p-data" id="out-d-newslist"></div>
+        </div>
+
+        <div class="node" style="top: 570px; left: 50px;" id="d-rankings">
+            <div class="node-header hdr-data">💾 data/rankings/.../*.json</div>
+            <div class="node-body"><b>ข้อมูลอันดับแชมป์</b><br>แบ่งตาม ONE และ Overall แต่ละรุ่นน้ำหนัก<br><span class="tag">JSON Group</span></div>
+            <div class="port port-out p-data" id="out-d-rankings"></div>
+        </div>
+
+        <div class="node" style="top: 700px; left: 50px;" id="d-articles">
+            <div class="node-header hdr-data">💾 data/articles/videos-list.json</div>
+            <div class="node-body"><b>ข้อมูลบทความ/วิดีโอ</b><br>สารบัญรวมบทความต่างๆ ภายในเว็บ<br><span class="tag">Array</span></div>
+            <div class="port port-out p-data" id="out-d-articles"></div>
+        </div>
+
+
+        <div class="column-label" style="left: 450px;">2. แม่พิมพ์ (Templates)</div>
+
+        <div class="node" style="top: 180px; left: 450px;" id="t-fighter">
+            <div class="node-header hdr-tpl">🎨 pages/fighter/template.html</div>
+            <div class="node-body"><b>แม่พิมพ์โปรไฟล์นักมวย</b><br>รอรับข้อมูล JSON ไปฝังในหน้าเว็บ</div>
+            <div class="port port-out p-tpl" id="out-t-fighter"></div>
+        </div>
+
+        <div class="node" style="top: 310px; left: 450px;" id="t-event">
+            <div class="node-header hdr-tpl">🎨 pages/analysis/template-event.html</div>
+            <div class="node-body"><b>แม่พิมพ์วิเคราะห์ศึก</b><br>สำหรับระบบ AI หลอดสถิติ และสรุปผล</div>
+            <div class="port port-out p-tpl" id="out-t-event"></div>
+        </div>
+
+
+        <div class="column-label" style="left: 850px;">3. สคริปต์เสก (Node.js SSG)</div>
+
+        <div class="node" style="top: 100px; left: 850px;" id="e-fighter">
+            <div class="port port-in p-data" id="in-e-f-data" style="top: 30%;"></div>
+            <div class="port port-in p-tpl" id="in-e-f-tpl" style="top: 70%;"></div>
+            <div class="node-header hdr-engine">⚙️ generate-fighters.js</div>
+            <div class="node-body"><b>โรงงานเสกหน้านักมวย</b><br>อ่าน JSON + Template = บันทึกเป็นหน้า HTML ลงโฟลเดอร์ pages/fighter</div>
+            <div class="port port-out p-engine" id="out-e-fighter"></div>
+        </div>
+
+        <div class="node" style="top: 310px; left: 850px;" id="e-event">
+            <div class="port port-in p-data" id="in-e-e-data" style="top: 30%;"></div>
+            <div class="port port-in p-tpl" id="in-e-e-tpl" style="top: 70%;"></div>
+            <div class="node-header hdr-engine">⚙️ generate-events.js</div>
+            <div class="node-body"><b>โรงงานเสกหน้าศึกมวย</b><br>สร้างหน้าวิเคราะห์ศึกอัตโนมัติ</div>
+            <div class="port port-out p-engine" id="out-e-event"></div>
+        </div>
+
+        <div class="node" style="top: 440px; left: 850px;" id="e-news">
+            <div class="port port-in p-reverse" id="in-e-news"></div>
+            <div class="node-header hdr-engine">⚙️ generate-news-list.js</div>
+            <div class="node-body"><b>สแกนเนอร์ข่าว</b><br>อ่านไฟล์ HTML ข่าวทั้งหมด เพื่อสกัดข้อมูลย้อนกลับไปสร้าง <code>news-list.json</code></div>
+            <div class="port port-out p-reverse" id="out-e-news"></div>
+        </div>
+
+        <div class="node" style="top: 570px; left: 850px;" id="e-rankings">
+            <div class="port port-in p-data" id="in-e-rankings"></div>
+            <div class="node-header hdr-engine">⚙️ generate-rankings.js</div>
+            <div class="node-body"><b>โรงงานจัดอันดับ</b><br>อ่าน Data Rankings ไปสร้างหน้า HTML ในโฟลเดอร์ pages/rankings</div>
+            <div class="port port-out p-engine" id="out-e-rankings"></div>
+        </div>
+
+        <div class="node" style="top: 700px; left: 850px;" id="e-articles">
+            <div class="port port-in p-data" id="in-e-articles"></div>
+            <div class="node-header hdr-engine">⚙️ generate-articles.js</div>
+            <div class="node-body"><b>โรงงานบทความ</b><br>จัดการเนื้อหาและวิดีโอ</div>
+            <div class="port port-out p-engine" id="out-e-articles"></div>
+        </div>
+
+
+        <div class="column-label" style="left: 1300px;">4. หน้าเว็บจริง (UI Pages)</div>
+
+        <div class="node" style="top: 100px; left: 1300px; border-color: #10b981;" id="ui-fighter">
+            <div class="port port-in p-engine" id="in-ui-fighter"></div>
+            <div class="node-header hdr-ui">✨ pages/fighter/[fighter].html</div>
+            <div class="node-body"><b>หน้าโปรไฟล์สำเร็จรูป</b><br>เช่น รถถัง-จิตรเมืองนนท์.html</div>
+            <div class="port port-bottom p-spider" id="spider-f-to-e"></div>
+        </div>
+
+        <div class="node" style="top: 250px; left: 1300px; border-color: #10b981;" id="ui-event">
+            <div class="port port-in p-engine" id="in-ui-event"></div>
+            <div class="node-header hdr-ui">✨ pages/analysis/[event].html</div>
+            <div class="node-body"><b>หน้าวิเคราะห์ศึก</b><br>เช่น one-58.html</div>
+            <div class="port port-top p-spider" id="spider-e-to-f"></div>
+        </div>
+
+        <div class="node" style="top: 400px; left: 1300px;" id="ui-news-index">
+            <div class="port port-in p-data" id="in-ui-newsindex"></div>
+            <div class="node-header hdr-manual">📄 pages/news/index.html</div>
+            <div class="node-body"><b>หน้ารวมข่าวสาร</b><br>ใช้ JS ดึง <code>news-list.json</code> มาแสดงผลอัตโนมัติ</div>
+        </div>
+
+        <div class="node" style="top: 550px; left: 1300px;" id="ui-news-detail">
+            <div class="node-header hdr-manual">📰 pages/news/nadaka...html</div>
+            <div class="node-body"><b>หน้าเนื้อหาข่าว (พิมพ์มือ)</b><br>ไฟล์ข่าวเดี่ยวที่สร้างขึ้นเอง รอให้ระบบดึงข้อมูลไปแสดงหน้ารวม</div>
+            <div class="port port-out p-reverse" id="out-ui-news-detail"></div>
+        </div>
+
+        <div class="node" style="top: 700px; left: 1300px; border-color: #10b981;" id="ui-rankings">
+            <div class="port port-in p-engine" id="in-ui-rankings"></div>
+            <div class="node-header hdr-ui">🏆 pages/rankings/*.html</div>
+            <div class="node-body"><b>หน้าจัดอันดับ</b><br>ตารางแรงกิ้ง ONE และ Overall</div>
+        </div>
+
+        <div class="node" style="top: 850px; left: 1300px; border-color: #10b981;" id="ui-articles">
+            <div class="port port-in p-engine" id="in-ui-articles"></div>
+            <div class="node-header hdr-ui">📝 pages/articles/*.html</div>
+            <div class="node-body"><b>หน้าบทความ</b></div>
+        </div>
+
+        <div class="node" style="top: 1000px; left: 1300px;" id="ui-compare">
+            <div class="node-header hdr-manual">📊 pages/stats/compare.html</div>
+            <div class="node-body"><b>หน้าเทียบสถิติดิบ</b><br>ระบบเปรียบเทียบสถิตินักมวยหน้าเว็บ</div>
+        </div>
+
+        <div class="node" style="top: -50px; left: 600px; width: 400px; border-color: #10b981; box-shadow: 0 0 20px rgba(16, 185, 129, 0.3);" id="global-search">
+            <div class="port port-in p-data" id="in-search-data"></div>
+            <div class="node-header hdr-search">🔍 Global Search (Header Navbar)</div>
+            <div class="node-body" style="text-align: center;"><b>แถบค้นหาด้านบนสุดของเว็บ</b><br>ดึงข้อมูลจาก <code>fighters-list.json</code> เพื่อค้นหารายชื่อแบบ Realtime</div>
+            <div class="port port-out p-ui" id="out-search-link"></div>
+        </div>
+
+    </div>
+
+    <script>
+        const svg = document.getElementById('svg-lines');
+
+        function drawCurve(id1, id2, colorClass, curvature = 100, isVertical = false) {
+            const p1 = document.getElementById(id1);
+            const p2 = document.getElementById(id2);
+            if(!p1 || !p2) return;
+
+            const rect1 = p1.getBoundingClientRect();
+            const rect2 = p2.getBoundingClientRect();
+            const canvasRect = document.getElementById('node-canvas').getBoundingClientRect();
+
+            const startX = (rect1.left + rect1.width/2) - canvasRect.left;
+            const startY = (rect1.top + rect1.height/2) - canvasRect.top;
+            const endX = (rect2.left + rect2.width/2) - canvasRect.left;
+            const endY = (rect2.top + rect2.height/2) - canvasRect.top;
+
+            let d = '';
+            if (isVertical) {
+                // โค้งแนวตั้ง
+                d = `M ${startX} ${startY} C ${startX} ${startY + curvature}, ${endX} ${endY - curvature}, ${endX} ${endY}`;
+            } else {
+                // โค้งแนวนอน
+                d = `M ${startX} ${startY} C ${startX + curvature} ${startY}, ${endX - curvature} ${endY}, ${endX} ${endY}`;
+            }
+
+            const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+            path.setAttribute('d', d);
+            path.classList.add(colorClass);
+            svg.appendChild(path);
+        }
+
+        function renderAllConnections() {
+            svg.innerHTML = ''; // ล้างก่อนวาด
+            
+            // --- DATA -> ENGINE (เส้นประ สีฟ้า) ---
+            drawCurve('out-d-fdetail', 'in-e-f-data', 'line-data');
+            drawCurve('out-d-elist', 'in-e-e-data', 'line-data');
+            drawCurve('out-d-rankings', 'in-e-rankings', 'line-data');
+            drawCurve('out-d-articles', 'in-e-articles', 'line-data');
+
+            // --- TEMPLATE -> ENGINE (เส้นประ สีส้ม) ---
+            drawCurve('out-t-fighter', 'in-e-f-tpl', 'line-tpl');
+            drawCurve('out-t-event', 'in-e-e-tpl', 'line-tpl');
+
+            // --- ENGINE -> UI (เส้นทึบ สีม่วง) ---
+            drawCurve('out-e-fighter', 'in-ui-fighter', 'line-build');
+            drawCurve('out-e-event', 'in-ui-event', 'line-build');
+            drawCurve('out-e-rankings', 'in-ui-rankings', 'line-build');
+            drawCurve('out-e-articles', 'in-ui-articles', 'line-build');
+
+            // --- NEWS FLOW REVERSE (เส้นย้อนกลับ สีเหลือง) ---
+            // UI HTML -> Engine -> JSON
+            drawCurve('out-ui-news-detail', 'in-e-news', 'line-reverse', -150);
+            drawCurve('out-e-news', 'in-d-newslist', 'line-reverse', -150);
+            // JSON -> UI Index
+            drawCurve('out-d-newslist', 'in-ui-newsindex', 'line-data', 200);
+
+            // --- GLOBAL SEARCH ---
+            drawCurve('out-d-flist', 'in-search-data', 'line-data', 150);
+            drawCurve('out-search-link', 'in-ui-fighter', 'line-build', 100);
+
+            // --- SPIDER LINKS ---
+            drawCurve('spider-f-to-e', 'spider-e-to-f', 'line-spider', 100, true);
+        }
+
+        // โหลดเสร็จสั่งวาด
+        window.onload = () => {
+            setTimeout(renderAllConnections, 100);
+        };
+        window.onresize = renderAllConnections;
+    </script>
+
+</body>
+</html>

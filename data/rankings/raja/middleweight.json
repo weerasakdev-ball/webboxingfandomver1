@@ -1,0 +1,109 @@
+{
+  "last_updated": "2026-03-31T07:07:02.527Z",
+  "stadium": "Rajadamnern Stadium",
+  "division": "Middleweight",
+  "fighters": [
+    {
+      "rank": "C",
+      "name": "Petchmorakot Bangmadklongtan",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "IC",
+      "name": "Thananchai Sitsongpeenong",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "1",
+      "name": "Victor Hugo",
+      "image_url": "",
+      "country": "BR"
+    },
+    {
+      "rank": "2",
+      "name": "Ruslan Naghiyev",
+      "image_url": "",
+      "country": "AZ"
+    },
+    {
+      "rank": "3",
+      "name": "Kongjak Por. Paoin",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "4",
+      "name": "Emerson Bento",
+      "image_url": "",
+      "country": "BR"
+    },
+    {
+      "rank": "5",
+      "name": "Nayanesh Ayman",
+      "image_url": "",
+      "country": "ES"
+    },
+    {
+      "rank": "6",
+      "name": "Nuasingha Sitpooyainiran",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "7",
+      "name": "Lee Mackay",
+      "image_url": "",
+      "country": "GB-SCT"
+    },
+    {
+      "rank": "8",
+      "name": "Liam McDonnell",
+      "image_url": "",
+      "country": "IE"
+    },
+    {
+      "rank": "9",
+      "name": "Angel Bauza",
+      "image_url": "",
+      "country": "AR"
+    },
+    {
+      "rank": "10",
+      "name": "Elad Suman",
+      "image_url": "",
+      "country": "GH"
+    },
+    {
+      "rank": "11",
+      "name": "Thibaut Valentin",
+      "image_url": "",
+      "country": "FR"
+    },
+    {
+      "rank": "12",
+      "name": "David Pennimpede",
+      "image_url": "",
+      "country": "AU"
+    },
+    {
+      "rank": "13",
+      "name": "Petchmai Chor. Narongsak",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "14",
+      "name": "Yahya Boughanem Gym",
+      "image_url": "",
+      "country": "MA"
+    },
+    {
+      "rank": "15",
+      "name": "Pavel Hryshanovich",
+      "image_url": "",
+      "country": "BY"
+    }
+  ]
+}

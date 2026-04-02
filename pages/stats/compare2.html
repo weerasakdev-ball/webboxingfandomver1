@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เทียบสถิติก่อนชก (ข้อมูลดิบ) | BoxingFandom</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RTGDWTKBRG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RTGDWTKBRG');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7070993370449457" crossorigin="anonymous"></script>
+
+    <style>
+        
+        /* ---------------------------------- */
+        /* ตัวแปรสีดั้งเดิมของบอส (Premier League Vibe) */
+        /* ---------------------------------- */
+        :root {
+            --pl-purple: #37003c;
+            --pl-green: #00ff85;
+            --pl-pink: #ff2882;
+            --pl-blue: #02efff;
+            
+            --bg: #f3f4f6; 
+            --card: #ffffff; 
+            --text: #242424;
+            --muted: #6b7280;
+            --border: #e5e7eb;
+            --win: #13ce66; 
+            --loss: #ff2882; 
+            --gold: #f59e0b;
+        }
+
+        /* รีเซ็ตค่าเริ่มต้นของเบราว์เซอร์ */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* ตั้งค่าฟอนต์และพื้นหลังของทั้งหน้า */
+        body { 
+            font-family: 'Sarabun', 'Segoe UI', sans-serif; 
+            font-size: 16px; 
+            background: var(--bg); 
+            color: var(--text); 
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* ---------------------------------- */
+        /* CSS ส่วนหัว (Header) ของ BoxingFandom */
+        /* ---------------------------------- */
+        header.main-header {
+            background-color: #1a1a1a; 
+            color: #ffffff;
+            padding: 15px 30px;
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            border-bottom: 2px solid #e50914; 
+        }
+
+        header.main-header h1 { font-size: 24px; margin: 0; }
+        header.main-header h1 .text-red { color: #e50914; }
+        header.main-header h1 .text-white { color: #ffffff; }
+
+        nav.main-nav { display: flex; align-items: center; z-index: 2000; }
+        nav.main-nav ul { list-style: none; display: flex; margin: 0; padding: 0; }
+        nav.main-nav ul li { position: relative; }
+        nav.main-nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            transition: background 0.3s;
+            font-size: 16px;
+            font-weight: normal;
+        }
+        nav.main-nav ul li a:hover { background-color: #333333; }
+
+        /* Dropdown เมนูของ BoxingFandom */
+        nav.main-nav ul ul {
+            display: none; 
+            position: absolute; 
+            top: 100%; 
+            left: 0;
+            background-color: #1a1a1a;
+            min-width: 200px;
+            flex-direction: column; 
+            border-top: 2px solid #e50914; 
+            z-index: 2000; 
+        }
+        nav.main-nav ul li:hover > ul { display: flex; }
+        nav.main-nav ul ul ul { top: 0; left: 100%; }
+
+        /* ช่องค้นหาบนเมนูหลัก */
+        .header-search-box { margin-left: 20px; display: flex; }
+        .header-search-box input[type="text"] { padding: 8px 15px; border: none; border-radius: 4px 0 0 4px; outline: none; }
+        .header-search-box button { padding: 8px 15px; background-color: #e50914; color: white; border: none; border-radius: 0 4px 4px 0; cursor: pointer; transition: background 0.3s; }
+        .header-search-box button:hover { background-color: #b0070f; }
+
+
+        /* ---------------------------------- */
+        /* CSS ส่วนเนื้อหาหลักของบอส (PL Vibe) */
+        /* ---------------------------------- */
+        main { flex: 1; }
+        .container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
+        
+        .page-header { text-align: center; margin-bottom: 40px; margin-top: 20px; }
+        .page-badge { display: inline-block; background: var(--pl-purple); color: var(--pl-green); padding: 5px 20px; border-radius: 50px; font-size: 0.85rem; font-weight: 900; margin-bottom: 15px; letter-spacing: 1px; }
+        .page-header h1 { font-size: 2.8rem; font-weight: 900; letter-spacing: -1px; margin: 0 0 5px 0; color: var(--pl-purple); text-transform: uppercase; }
+        .page-header p { color: var(--muted); font-weight: 600; font-size: 1.1rem; }
+
+        /* [SELECTOR] */
+        .selector-area { display: grid; grid-template-columns: 1fr auto 1fr; gap: 30px; align-items: center; margin-bottom: 50px; }
+        .fighter-select-card { background: var(--card); padding: 30px; border-radius: 20px; text-align: center; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
+        .vs-badge { font-size: 2.5rem; font-weight: 900; color: var(--pl-purple); font-style: italic; }
+        
+        .search-box { position: relative; width: 100%; margin-top: 20px; text-align: left; }
+        .search-input { width: 100%; padding: 15px; background: #f9fafb; border: 1px solid var(--border); color: var(--pl-purple); font-weight:700; border-radius: 10px; font-family: 'Sarabun', sans-serif; font-size: 1rem; box-sizing: border-box; transition: 0.2s; }
+        .search-input:focus { outline: none; border-color: var(--pl-purple); background: #ffffff; }
+        
+        .dropdown-list { position: absolute; top: 100%; left: 0; right: 0; background: #ffffff; border: 1px solid var(--border); border-top: none; border-radius: 0 0 10px 10px; max-height: 250px; overflow-y: auto; z-index: 100; display: none; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        .dropdown-list.show { display: block; }
+        .dropdown-item { padding: 12px 15px; cursor: pointer; border-bottom: 1px solid #f1f5f9; transition: 0.2s; font-weight: 600; color: var(--pl-purple); }
+        .dropdown-item:hover { background: #f8fafc; color: var(--pl-pink); padding-left:20px; }
+
+        .img-compare { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; object-position: top center; border: 4px solid var(--card); box-shadow: 0 10px 20px rgba(0,0,0,0.1); background: #f1f5f9; }
+
+        /* [PREDICTION & ODDS] */
+        .prediction-box { background: var(--pl-purple); color: white; border-radius: 20px; padding: 40px; margin-bottom: 40px; text-align: center; box-shadow: 0 15px 35px rgba(55,0,60,0.2); }
+        .pred-title { color: var(--pl-green); font-size: 1.5rem; font-weight: 900; margin-top: 0; margin-bottom: 30px; letter-spacing: 1px; text-transform: uppercase; }
+        
+        .prob-bar-container { display: flex; height: 35px; border-radius: 20px; overflow: hidden; margin: 20px 0; background: rgba(255,255,255,0.1); }
+        .prob-bar-f1 { background: var(--pl-blue); display: flex; align-items: center; justify-content: flex-start; padding-left: 15px; font-weight: 900; color: var(--pl-purple); transition: width 1s; }
+        .prob-bar-f2 { background: var(--pl-pink); display: flex; align-items: center; justify-content: flex-end; padding-right: 15px; font-weight: 900; color: white; transition: width 1s; }
+        
+        .odds-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 30px; }
+        .odds-card { background: rgba(255,255,255,0.05); padding: 25px; border-radius: 15px; text-align: center; }
+        .odds-card.f1 { border-top: 4px solid var(--pl-blue); }
+        .odds-card.f2 { border-top: 4px solid var(--pl-pink); }
+        .odds-val { font-size: 2.5rem; font-weight: 900; color: white; margin: 10px 0; display:block; }
+        .odds-label { font-size: 0.85rem; color: var(--pl-green); font-weight: 800; }
+        
+        .ai-insight { text-align: left; font-size: 0.95rem; color: #cbd5e1; margin-top: 15px; padding-top: 15px; border-top: 1px dashed rgba(255,255,255,0.2); }
+        .ai-insight ul { margin: 8px 0 0 0; padding-left: 20px; }
+
+        /* [TABLE COMPARISON] */
+        .comp-table { width: 100%; border-collapse: separate; border-spacing: 0 8px; margin-bottom: 40px; }
+        .section-header { background: #f9fafb; color: var(--pl-purple); font-weight: 900; font-size: 0.9rem; letter-spacing: 1px; }
+        .section-header td { padding: 15px !important; border-radius: 10px; text-align: center; }
+        
+        .row-data { background: var(--card); box-shadow: 0 2px 5px rgba(0,0,0,0.02); }
+        .row-data td { padding: 18px; text-align: center; border-top: 1px solid transparent; border-bottom: 1px solid transparent; }
+        .row-data td:first-child { border-radius: 10px 0 0 10px; }
+        .row-data td:last-child { border-radius: 0 10px 10px 0; }
+        
+        .label-name { width: 20%; color: var(--muted); font-weight: 800; font-size: 0.85rem; background: #f9fafb; }
+        .val-cell { width: 40%; font-size: 1.1rem; font-weight: 800; color: var(--pl-purple); }
+        
+        .better { color: var(--win); background: rgba(19, 206, 102, 0.1); border: 1px solid var(--win); }
+        .worse { color: var(--muted); font-weight: 600; }
+        .neutral { color: var(--text); }
+
+        /* [ALGO NOTE] */
+        .algo-explanation { background: var(--card); border-radius: 20px; padding: 30px; margin-top: 40px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
+        .algo-title { color: var(--pl-purple); font-size: 1.2rem; margin-top: 0; border-left: 5px solid var(--pl-pink); padding-left: 15px; font-weight: 900; }
+        
+        @media (max-width: 768px) {
+            .selector-area { grid-template-columns: 1fr; }
+            .odds-grid { grid-template-columns: 1fr; }
+        }
+
+        /* ---------------------------------- */
+        /* CSS ส่วนท้าย (Footer) ของ BoxingFandom */
+        /* ---------------------------------- */
+        footer {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto; 
+        }
+        footer nav ul { justify-content: center; list-style: none; display: flex; padding: 0; }
+        footer nav ul li { margin: 0 10px; }
+        footer nav ul li a { color: #ffffff; text-decoration: none; font-size: 16px; }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header class="main-header">
+        <h1><span class="text-red">Boxing</span><span class="text-white">Fandom</span></h1>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="../../index.html">หน้าแรก</a></li>
+                <li><a href="../articles/index.html">บทความ</a></li>
+                <li><a href="../news/index.html">ข่าว</a></li>
+                <li><a href="../analysis/index.html">วิเคราะห์มวย</a></li>
+                <li><a href="index.html">เทียบสถิติ</a></li>
+                <li><a href="../fighter/index.html">นักมวยทั้งหมด</a></li> 
+                <li>
+                    <a href="#">ranking ▾</a>
+                    <ul>
+                        <li>
+                            <a href="#">1 ONE ▸</a>
+                            <ul>
+                                <li><a href="#">สตรอว์เวต</a></li>
+                                <li><a href="#">ฟลายเวต</a></li>
+                                <li><a href="#">แบนตัมเวต</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">2 จัดอันดับทั้งหมด</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="header-search-box">
+                <input type="text" placeholder="ค้นหานักมวยทั่วเว็บ...">
+                <button type="button">ค้นหา</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="page-header">
+                <span class="page-badge">วิเคราะห์แบบที่ 1</span>
+                <h1>เปิดสถิติเทียบหมัดต่อหมัด</h1>
+                <p>เจาะลึกข้อมูลดิบ ใครได้เปรียบ ใครเสียเปรียบ สไตล์ "BoxingFandom"</p>
+            </div>
+
+            <div class="selector-area">
+                <div class="fighter-select-card" style="border-top: 5px solid var(--pl-blue);">
+                    <div id="img-p1"><img src="https://via.placeholder.com/150/eff6ff/3b82f6?text=Blue" class="img-compare"></div>
+                    <div class="search-box">
+                        <input type="text" id="search1" class="search-input" placeholder="🔍 ค้นหามุมน้ำเงิน..." autocomplete="off" oninput="filterList(1)" onclick="toggleList(1, true)">
+                        <div id="list1" class="dropdown-list"></div>
+                    </div>
+                </div>
+                
+                <div class="vs-badge">VS</div>
+                
+                <div class="fighter-select-card" style="border-top: 5px solid var(--pl-pink);">
+                    <div id="img-p2"><img src="https://via.placeholder.com/150/fef2f2/ef4444?text=Red" class="img-compare"></div>
+                    <div class="search-box">
+                        <input type="text" id="search2" class="search-input" placeholder="🔍 ค้นหามุมแดง..." autocomplete="off" oninput="filterList(2)" onclick="toggleList(2, true)">
+                        <div id="list2" class="dropdown-list"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="result-view">
+                <div style="text-align:center; padding:80px 20px; background: #ffffff; border:2px dashed #d1d5db; border-radius:20px;">
+                    <h2 style="margin:0 0 10px 0; color:var(--pl-purple); font-weight:900;">พร้อมเทียบสถิติแบบจัดเต็ม</h2>
+                    <p style="margin:0; color:var(--muted);">เลือกนักมวยมุมน้ำเงินและแดง แล้วให้ BoxingFandom กางสถิติให้ดูเลย!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">นโยบายความเป็นส่วนตัว</a></li>
+                <li><a href="#">เกี่ยวกับฉัน</a></li>
+                <li><a href="#">ติดต่อ</a></li>
+            </ul>
+        </nav>
+        <p style="margin-top: 10px; font-size: 14px; color: #888;">© 2026 สงวนลิขสิทธิ์ BoxingFandom</p>
+    </footer>
+
+    <script>
+        let db = [];
+        let selectedFighter1 = null;
+        let selectedFighter2 = null;
+
+        function getSmartAge(staticAge) {
+            if (!staticAge) return 28; 
+            const baseYear = 2026; 
+            const currentYear = new Date().getFullYear();
+            return parseInt(staticAge) + (currentYear - baseYear);
+        }
+
+        /** [1. INITIALIZE SYSTEM] อัปเดต Path ไปหาโฟลเดอร์ data/boxers/ */
+        async function init() {
+            try {
+                // วิ่งทะลุโฟลเดอร์กลับไปหาไฟล์ fighters-list.json
+                const listRes = await fetch('../../data/boxers/fighters-list.json');
+                const files = await listRes.json();
+                
+                const fetchPromises = files.map(async (f) => {
+                    try {
+                        // วิ่งทะลุโฟลเดอร์กลับไปหาไฟล์ JSON ของนักมวย
+                        const res = await fetch(`../../data/boxers/${encodeURIComponent(f.trim())}`);
+                        if (res.ok) {
+                            const data = await res.json();
+                            return { ...data, fileName: f };
+                        }
+                    } catch (err) {}
+                    return null;
+                });
+                
+                const results = await Promise.all(fetchPromises);
+                db = results.filter(item => item !== null);
+            } catch (e) { console.error("System Error during Init:", e); }
+        }
+
+        function filterList(side) {
+            const query = document.getElementById(`search${side}`).value.toLowerCase();
+            const filtered = db.filter(item => 
+                (item.fighter_profile?.name_th || '').toLowerCase().includes(query) ||
+                (item.fighter_profile?.name_en || '').toLowerCase().includes(query)
+            );
+            
+            const listContainer = document.getElementById(`list${side}`);
+            if (filtered.length === 0) {
+                listContainer.innerHTML = `<div class="dropdown-item" style="color:var(--muted); text-align:center;">ไม่พบข้อมูล</div>`;
+            } else {
+                listContainer.innerHTML = filtered.map(item => `
+                    <div class="dropdown-item" onclick="selectFighter(${side}, '${item.fileName}')">
+                        ${item.fighter_profile?.name_th} <small style="color:var(--muted)">(${item.fighter_profile?.grade})</small>
+                    </div>`).join('');
+            }
+            toggleList(side, true);
+        }
+
+        function toggleList(side, forceShow) { document.getElementById(`list${side}`).classList.toggle('show', forceShow); }
+        
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.search-box')) { document.getElementById('list1').classList.remove('show'); document.getElementById('list2').classList.remove('show'); }
+        });
+
+        function selectFighter(side, fileName) {
+            const fighter = db.find(x => x.fileName === fileName);
+            if (!fighter) return;
+            document.getElementById(`search${side}`).value = fighter.fighter_profile?.name_th;
+            
+            const shadowColor = side === 1 ? 'rgba(2, 239, 255, 0.4)' : 'rgba(255, 40, 130, 0.4)';
+            document.getElementById(`img-p${side}`).innerHTML = `
+                <img src="${fighter.fighter_profile?.image_url || 'https://via.placeholder.com/150'}" 
+                     class="img-compare" style="box-shadow: 0 10px 25px ${shadowColor}; border-color:var(--card);"
+                     onerror="this.src='https://via.placeholder.com/150'">`;
+            
+            toggleList(side, false);
+            if (side === 1) selectedFighter1 = fighter;
+            if (side === 2) selectedFighter2 = fighter;
+            if (selectedFighter1 && selectedFighter2) runComparison();
+        }
+
+        function calculateOdds(f1, f2) {
+            const p1 = f1.fighter_profile || {}; const p2 = f2.fighter_profile || {};
+            const st1 = p1.performance_stats || {}; const st2 = p2.performance_stats || {};
+            const ph1 = p1.physical_stats || {}; const ph2 = p2.physical_stats || {};
+            
+            let score1 = 1000; let score2 = 1000;
+            let advantages1 = []; let advantages2 = [];
+
+            const gradeMap = { "S": 100, "A+": 90, "A": 85, "B+": 80, "B": 75, "C+": 70, "C": 65 };
+            const g1 = gradeMap[p1.grade] || 70; const g2 = gradeMap[p2.grade] || 70;
+            score1 += (g1 - g2) * 4; score2 += (g2 - g1) * 4;
+            if (g1 > g2 + 5) advantages1.push("เกรดมวยและประสบการณ์เหนือกว่าชัดเจน");
+            else if (g2 > g1 + 5) advantages2.push("เกรดมวยและประสบการณ์เหนือกว่าชัดเจน");
+
+            const a1 = parseInt(getSmartAge(p1.personal_info?.age)); const a2 = parseInt(getSmartAge(p2.personal_info?.age));
+            if (a1 < a2) { score1 += (a2 - a1) * 3; advantages1.push("สดกว่า หนุ่มกว่า ฟื้นตัวไวกว่า"); }
+            else if (a2 < a1) { score2 += (a1 - a2) * 3; advantages2.push("สดกว่า หนุ่มกว่า ฟื้นตัวไวกว่า"); }
+
+            const h1 = parseFloat(ph1.height_cm) || 170; const h2 = parseFloat(ph2.height_cm) || 170;
+            if (h1 > h2 + 3) { score1 += (h1 - h2) * 2; advantages1.push("ได้เปรียบส่วนสูง รูปร่างดีกว่า"); }
+            else if (h2 > h1 + 3) { score2 += (h2 - h1) * 2; advantages2.push("ได้เปรียบส่วนสูง รูปร่างดีกว่า"); }
+
+            const offPower1 = (parseFloat(st1.significant_strikes_per_minute?.total_per_minute) || 0) * ((parseFloat(st1.significant_strike_accuracy?.overall_accuracy_percentage) || 0) / 100);
+            const offPower2 = (parseFloat(st2.significant_strikes_per_minute?.total_per_minute) || 0) * ((parseFloat(st2.significant_strike_accuracy?.overall_accuracy_percentage) || 0) / 100);
+            if (offPower1 > offPower2 + 1) { score1 += 30; advantages1.push("ออกอาวุธแม่นยำและดุดันกว่า"); }
+            else if (offPower2 > offPower1 + 1) { score2 += 30; advantages2.push("ออกอาวุธแม่นยำและดุดันกว่า"); }
+
+            const evaluateForm = (history) => {
+                if (!history || history.length === 0) return 0;
+                let formScore = 0;
+                history.slice(0, 3).forEach(f => {
+                    const res = (f.result || '').toLowerCase();
+                    if (res === 'win') formScore += 15;
+                    else if (res === 'loss') formScore -= 10;
+                });
+                return formScore;
+            };
+            
+            const fScore1 = evaluateForm(f1.fight_history_one_championship || f1.fight_history);
+            const fScore2 = evaluateForm(f2.fight_history_one_championship || f2.fight_history);
+            score1 += fScore1; score2 += fScore2;
+            if (fScore1 > fScore2 + 10) advantages1.push("ความมั่นใจมาเต็ม ฟอร์มกำลังสด");
+            else if (fScore2 > fScore1 + 10) advantages2.push("ความมั่นใจมาเต็ม ฟอร์มกำลังสด");
+
+            score1 = Math.max(100, score1); score2 = Math.max(100, score2);
+
+            let prob1 = (score1 / (score1 + score2)) * 100; let prob2 = (score2 / (score1 + score2)) * 100;
+            
+            return { prob1: prob1.toFixed(0), prob2: prob2.toFixed(0), adv1: advantages1.slice(0, 4), adv2: advantages2.slice(0, 4) };
+        }
+
+        function compareValues(v1, v2, type) {
+            if (type === 'none' || v1 === '-' || v2 === '-' || !v1 || !v2) return ['neutral', 'neutral'];
+            let n1 = parseFloat(v1); let n2 = parseFloat(v2);
+            if (isNaN(n1) || isNaN(n2) || n1 === n2) return ['neutral', 'neutral'];
+            if (type === 'high') return n1 > n2 ? ['better', 'worse'] : ['worse', 'better'];
+            else if (type === 'low') return n1 < n2 ? ['better', 'worse'] : ['worse', 'better'];
+            return ['neutral', 'neutral'];
+        }
+
+        function runComparison() {
+            const view = document.getElementById('result-view');
+            const calc = calculateOdds(selectedFighter1, selectedFighter2);
+            const p1 = selectedFighter1.fighter_profile; const p2 = selectedFighter2.fighter_profile;
+            const s1 = p1.physical_stats; const s2 = p2.physical_stats;
+            const st1 = p1.performance_stats || {}; const st2 = p2.performance_stats || {};
+
+            const row = (label, v1Raw, v2Raw, type = 'high', unit = '') => {
+                const cleanVal = (v) => (!v && v !== 0) || v === "ยังไม่มีข้อมูล" ? "-" : v;
+                const v1 = cleanVal(v1Raw); const v2 = cleanVal(v2Raw);
+                const cls = compareValues(v1, v2, type);
+                return `<tr class="row-data"><td class="val-cell ${cls[0]}">${v1} <span style="font-weight:normal; font-size:0.8rem; color:var(--muted);">${v1 !== '-' ? unit : ''}</span></td><td class="label-name">${label}</td><td class="val-cell ${cls[1]}">${v2} <span style="font-weight:normal; font-size:0.8rem; color:var(--muted);">${v2 !== '-' ? unit : ''}</span></td></tr>`;
+            };
+
+            const header = (title) => `<tr class="section-header"><td colspan="3">${title}</td></tr>`;
+            const renderAdv = (advList) => advList.length > 0 ? `<ul>${advList.map(a => `<li>✅ ${a}</li>`).join('')}</ul>` : `<div style="color:#cbd5e1; margin-top:10px;">สถิติสูสี เบียดกันสนุกแน่นอน!</div>`;
+
+            view.innerHTML = `
+                <div class="prediction-box">
+                    <h3 class="pred-title">บทสรุปความน่าจะเป็น (อิงจากสถิติดิบ)</h3>
+                    <div style="display:flex; justify-content:space-between; font-weight:900; font-size:1.6rem;">
+                        <span style="color:var(--pl-blue)">${p1.name_th} (${calc.prob1}%)</span>
+                        <span style="color:var(--pl-pink)">${p2.name_th} (${calc.prob2}%)</span>
+                    </div>
+                    <div class="prob-bar-container">
+                        <div class="prob-bar-f1" style="width: ${calc.prob1}%;"></div>
+                        <div class="prob-bar-f2" style="width: ${calc.prob2}%;"></div>
+                    </div>
+                    <div class="odds-grid">
+                        <div class="odds-card f1">
+                            <span class="odds-label">จุดแข็งมุมน้ำเงิน</span>
+                            <div class="ai-insight">${renderAdv(calc.adv1)}</div>
+                        </div>
+                        <div class="odds-card f2">
+                            <span class="odds-label">จุดแข็งมุมแดง</span>
+                            <div class="ai-insight">${renderAdv(calc.adv2)}</div>
+                        </div>
+                    </div>
+                </div>
+
+                <table class="comp-table">
+                    ${header('หมวดข้อมูลทั่วไป')}
+                    ${row('เกรดนักมวย', p1.grade, p2.grade, 'none')}
+                    ${row('อายุ (ปี)', getSmartAge(p1.personal_info?.age), getSmartAge(p2.personal_info?.age), 'low')} 
+                    
+                    ${header('หมวดสรีระ (สำคัญมาก)')}
+                    ${row('ส่วนสูง (cm)', s1.height_cm, s2.height_cm, 'high')}
+                    ${row('น้ำหนัก (lbs)', s1.weight_lbs, s2.weight_lbs, 'high')}
+                    ${row('ระยะเอื้อมมือ (cm)', s1.reach_cm, s2.reach_cm, 'high')}
+                    
+                    ${header('หมวดความถี่การออกอาวุธ')}
+                    ${row('จำนวนอาวุธ/นาที', st1.significant_strikes_per_minute?.total_per_minute, st2.significant_strikes_per_minute?.total_per_minute, 'high')}
+                    
+                    ${header('หมวดความแม่นยำ (%)')}
+                    ${row('ความแม่นยำรวม', st1.significant_strike_accuracy?.overall_accuracy_percentage, st2.significant_strike_accuracy?.overall_accuracy_percentage, 'high', '%')}
+                </table>
+
+                <div class="algo-explanation">
+                    <h4 class="algo-title">📣 มุมมองจาก BoxingFandom</h4>
+                    <p style="color: var(--muted); font-weight: 600; font-size: 1rem; line-height:1.6;">
+                        "หน้านี้คือการกางสมุดสถิติดิบๆ มาวัดกันปอนด์ต่อปอนด์! เราให้ระบบไฮไลท์ <span style="color:var(--win); font-weight:800;">สีเขียว</span> ตรงช่องที่นักสู้คนนั้นทำได้ดีกว่า เพื่อให้เพื่อนๆ แฟนมวยเห็นภาพชัดเจนที่สุดว่าไฟต์นี้ใครได้เปรียบรูปร่าง ใครออกอาวุธแม่นกว่ากัน<br><br>
+                        *แต่อย่าลืมนะ สถิติเป็นแค่ตัวเลข บนเวทีของจริง หัวใจและจังหวะสำคัญที่สุด!"
+                    </p>
+                </div>
+            `;
+        }
+
+        // โหลดข้อมูลนักมวยทันทีเมื่อเปิดหน้า
+        init();
+    </script>
+
+</body>
+</html>

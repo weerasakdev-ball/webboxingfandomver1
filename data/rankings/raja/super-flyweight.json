@@ -1,0 +1,103 @@
+{
+  "last_updated": "2026-03-31T07:07:25.780Z",
+  "stadium": "Rajadamnern Stadium",
+  "division": "Super Flyweight",
+  "fighters": [
+    {
+      "rank": "C",
+      "name": "Petchdej Muayded789",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "1",
+      "name": "Petchtaechin Bangsaen Fight Club",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "2",
+      "name": "Petchanuwat Taikoobon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "3",
+      "name": "Buernueng Sor. Salacheep",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "4",
+      "name": "Asoonnoi Captainken Boxing Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "5",
+      "name": "Chatngernlek Paniwat Muay Thai Gym",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "6",
+      "name": "Chokdee Maxjandee",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "7",
+      "name": "Petchkriangkrai Jitmuangnon",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "8",
+      "name": "Baknova Bangsaen Fight Club",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "9",
+      "name": "Thailand Sor. Rungsak",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "10",
+      "name": "Petchnipphon Petchsimuen",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "11",
+      "name": "Petchake Sitbigjazzkonrakpathum",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "12",
+      "name": "Ritthipan Pandakrattanaburi",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "13",
+      "name": "Fourwin Sitjaroensap",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "14",
+      "name": "Klanarong Panpinit",
+      "image_url": "",
+      "country": "TH"
+    },
+    {
+      "rank": "15",
+      "name": "Talumphuk Sor.Sasiwat",
+      "image_url": "",
+      "country": "TH"
+    }
+  ]
+}
