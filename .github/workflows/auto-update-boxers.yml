@@ -1,39 +1,43 @@
-name: Boxing-Scraper
+name: Auto MuayThai Scraper
 
 on:
   schedule:
-    # ตั้งเวลารันทุกวันพฤหัสบดี เวลา 17:00 UTC (ตรงกับ เที่ยงคืนวันศุกร์ไทย)
-    - cron: '0 17 * * 4'
-  workflow_dispatch: # ปุ่มกดรันเองจากหน้า GitHub
+    - cron: '0 11 * * 5'  # ศุกร์ 18:00 น.
+    - cron: '0 17 * * 4'  # เที่ยงคืนวันศุกร์ (พฤหัส 17:00 UTC)
+  workflow_dispatch:      # ปุ่มกดรันเอง
 
 permissions:
-  contents: write
+  contents: write         # มอบสิทธิ์ให้บอทเขียนไฟล์ลง Repo ได้
 
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
+    - name: 📥 Checkout Code
+      uses: actions/checkout@v4
 
-      - name: Setup Node.js 22
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
+    - name: ⚙️ Setup Node.js 22
+      uses: actions/setup-node@v4
+      with:
+        node-version: '22'
 
-      - name: Install Dependencies & Browser
-        run: |
-          npm install
-          # แก้ปัญหา Permission Denied โดยการเรียกใช้ผ่าน path โดยตรง
-          ./node_modules/.bin/puppeteer browsers install chrome
+    - name: 📦 Install Dependencies
+      run: |
+        npm install
+        # 🔑 แก้ปัญหา Permission Denied: เปิดสิทธิ์ให้โฟลเดอร์ทำงานได้
+        chmod -R +x node_modules/.bin/
 
-      - name: Run Scraper Bot
-        run: node real_scraper_bot.js
+    - name: 🌐 Install Chrome for Puppeteer
+      run: npx puppeteer browsers install chrome
 
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-          git add .
-          # บันทึกการเปลี่ยนแปลง ถ้าไม่มีข้อมูลใหม่ให้ข้ามไป
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-update: Boxing Statistics" && git push)
+    - name: 🤖 Run MuayThai Bot
+      run: node real_scraper_bot.js
+
+    - name: 💾 Update Database & Website
+      run: |
+        git config --global user.name 'GitHub Actions Bot'
+        git config --global user.email 'actions@github.com'
+        git add .
+        # ป้องกัน Error กรณีไม่มีข้อมูลใหม่
+        git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 อัปเดตสถิติอัตโนมัติ" && git push)
