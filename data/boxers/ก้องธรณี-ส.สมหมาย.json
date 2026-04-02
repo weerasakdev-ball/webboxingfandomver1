@@ -54,19 +54,7 @@
         "short_biography": "ก้องธรณี ส.สมหมาย (Kongthoranee Sor.Sommai) เป็นนักชกชาวไทย วัย 29 ปี จากสังกัดส.สมหมาย มีความถนัดในการต่อสู้สไตล์มวยฝีมือ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 61.1 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา สามารถพ่ายแพ้ให้กับ อัสซาดูลาห์ อิมานกาซาลิเอฟ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
     },
     "fight_history": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:06",
-            "opponent_th": "อัสซาดูลาห์ อิมานกาซาลิเอฟ",
-            "opponent_en": "",
-            "opponent_country": "รัสเซีย",
-            "date": "Jan 24, 2026",
-            "rating": 5,
-            "event_en": "ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา"
-        },
+        
         {
             "result": "Loss",
             "discipline_en": "Muay Thai",
