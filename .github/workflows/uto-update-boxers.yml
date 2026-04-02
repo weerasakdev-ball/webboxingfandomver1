@@ -1,0 +1,37 @@
+name: 🥊 Weekly Boxing Update (Friday Midnight)
+
+on:
+  schedule:
+    # รันทุกวันพฤหัสบดี เวลา 17:00 UTC (ตรงกับ เที่ยงคืนวันศุกร์ไทยพอดี)
+    - cron: '0 17 * * 4'
+  workflow_dispatch: # ปุ่มสำหรับกดรันเองมือได้จากหน้าเว็บ GitHub
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: ⬇️ Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 📦 Install Dependencies
+        run: |
+          npm install axios cheerio puppeteer
+
+      - name: 🚀 Run Update Scraper
+        # สั่งรันไฟล์ที่อยู่หน้าแรกของคุณ
+        run: node update-fighters.js
+
+      - name: 💾 Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          git add .
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Weekly Auto-update: ข้อมูลนักมวยประจำสัปดาห์" && git push)
