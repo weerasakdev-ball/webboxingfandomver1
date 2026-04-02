@@ -1,7 +1,10 @@
 name: Boxing-Scraper
 
 on:
-  workflow_dispatch:
+  schedule:
+    # ตั้งเวลารันทุกวันพฤหัสบดี เวลา 17:00 UTC (ตรงกับ เที่ยงคืนวันศุกร์ไทย)
+    - cron: '0 17 * * 4'
+  workflow_dispatch: # ปุ่มกดรันเองจากหน้า GitHub
 
 permissions:
   contents: write
@@ -10,26 +13,27 @@ jobs:
   run-scraper:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js 22
         uses: actions/setup-node@v4
         with:
           node-version: '22'
 
-      - name: Install
+      - name: Install Dependencies & Browser
         run: |
           npm install
-          npx puppeteer browsers install chrome
+          # แก้ปัญหา Permission Denied โดยการเรียกใช้ผ่าน path โดยตรง
+          ./node_modules/.bin/puppeteer browsers install chrome
 
-      - name: Run
+      - name: Run Scraper Bot
         run: node real_scraper_bot.js
 
-      - name: Push
+      - name: Commit and Push Changes
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add .
-          git commit -m "update" || echo "no changes"
-          git push
+          # บันทึกการเปลี่ยนแปลง ถ้าไม่มีข้อมูลใหม่ให้ข้ามไป
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-update: Boxing Statistics" && git push)
