@@ -8,12 +8,9 @@ const { execSync } = require('child_process');
 // ==========================================================================
 // ⚙️ อัปเดต Path สำหรับโปรเจกต์ใหม่
 // ==========================================================================
-// ชี้ไปที่โฟลเดอร์ data/boxers ในโปรเจกต์ใหม่ของคุณ
-// (สามารถเปลี่ยนเป็นแบบ Absolute Path: 'C:\\Users\\BOX\\Desktop\\balldev\\data\\boxers' ได้หากต้องการ)
 const dataFolder = path.join(__dirname, 'data', 'boxers');
-
-// ชี้ไปที่ไฟล์ประกอบร่าง HTML (อิงจากโครงสร้างใหม่ของคุณคือ generate-fighters.js)
 const generateScriptPath = path.join(__dirname, 'generate-fighters.js');
+const generateListPath = path.join(__dirname, 'generate-list.js'); // ➕ ไฟล์ดัชนีรายชื่อนักมวย
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -21,7 +18,6 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 // 🛠️ UTILITY FUNCTIONS (ฟังก์ชันแปลงวันที่ของแต่ละเว็บ)
 // ==========================================================================
 
-// สำหรับเว็บ THBoxing (รูปแบบ DD/MM/YYYY ปีพ.ศ.)
 function formatThaiDateToEnglish(thaiDateStr) {
     if (!thaiDateStr) return null;
     const datePart = thaiDateStr.split(' ')[0]; 
@@ -38,7 +34,6 @@ function formatThaiDateToEnglish(thaiDateStr) {
     return thaiDateStr;
 }
 
-// สำหรับยานแม่ ONE FC (รูปแบบ 6 มี.ค. 2026)
 function parseOneFcDate(thaiDateString) {
     if (!thaiDateString) return null;
     let cleanStr = thaiDateString.trim().replace(/\s+/g, ' ');
@@ -170,7 +165,7 @@ async function scrapeThboxing(url, fighterData, fighterName, historyKey) {
 }
 
 // ==========================================================================
-// 🛸 MODULE 2: ดึงข้อมูลจากยานแม่ ONE FC (เวอร์ชันที่ดีที่สุดของคุณ)
+// 🛸 MODULE 2: ดึงข้อมูลจากยานแม่ ONE FC
 // ==========================================================================
 async function scrapeOneFc(page, url, fighterData, fighterName, historyKey) {
     let addedCount = 0;
@@ -181,11 +176,11 @@ async function scrapeOneFc(page, url, fighterData, fighterName, historyKey) {
         console.log(`      🔍 กำลังตรวจสอบประวัติการชกที่ซ่อนอยู่...`);
         let hasMore = true;
         let clickCount = 0;
-        const maxClicks = 50; // ขยายเผื่อนักมวยที่มีสถิติเยอะจัดๆ
+        const maxClicks = 50;
 
         while (hasMore && clickCount < maxClicks) {
             hasMore = await page.evaluate(() => {
-                window.scrollBy(0, 500); // ไถจอลงนิดนึงให้ปุ่มโผล่
+                window.scrollBy(0, 500);
                 const elements = Array.from(document.querySelectorAll('a, button'));
                 const loadBtn = elements.find(el => {
                     const text = (el.innerText || el.textContent || '').toLowerCase();
@@ -213,7 +208,6 @@ async function scrapeOneFc(page, url, fighterData, fighterName, historyKey) {
         const content = await page.content();
         const $ = cheerio.load(content);
         
-        // ใช้ Selector ดั้งเดิมของคุณที่ทำงานได้เป๊ะที่สุด
         const fightRows = $('table.simple-table.is-mobile-row-popup tr.is-data-row, table tr.is-data-row');
 
         if (fightRows.length > 0) {
@@ -334,7 +328,6 @@ async function runMultiSourceScraper() {
             if (!fighterData.fighter_profile) continue;
 
             const fighterName = fighterData.fighter_profile.name_th;
-            
             let urlsToScrape = [];
             let jsonNeedsStructureUpdate = false;
 
@@ -370,7 +363,6 @@ async function runMultiSourceScraper() {
 
             if (totalAddedForFighter > 0 || jsonNeedsStructureUpdate) {
                 fighterData[historyKey].sort((a, b) => new Date(b.date) - new Date(a.date));
-                
                 fs.writeFileSync(filePath, JSON.stringify(fighterData, null, 2), 'utf-8');
                 
                 if (totalAddedForFighter > 0) {
@@ -386,11 +378,22 @@ async function runMultiSourceScraper() {
 
         console.log(`\n🤖 ปฏิบัติการกวาดข้อมูลอัจฉริยะเสร็จสิ้น! (มีการอัปเดตฐานข้อมูลไป ${totalFilesUpdated} รายการ)`);
 
+        // ==========================================================================
+        // 🔄 ส่วนงานประกอบร่างหน้าเว็บ (รันเสมอถ้ามีการอัปเดต)
+        // ==========================================================================
         if (totalFilesUpdated > 0) {
-            console.log('\n⚙️ กำลังสั่งงาน Generator ประกอบร่างหน้าเว็บ HTML...');
+            console.log('\n⚙️ กำลังสั่งงาน Generator ประกอบร่างระบบ...');
             try {
+                // 1. สร้างหน้าเว็บนักมวยรายบุคคล
                 if (fs.existsSync(generateScriptPath)) {
+                    console.log('📄 กำลังสร้างหน้าเว็บ HTML ของนักมวย...');
                     execSync(`node "${generateScriptPath}"`, { stdio: 'inherit' });
+                }
+
+                // 2. ➕ อัปเดตรายชื่อนักมวยเข้าสู่ระบบค้นหา (Search Index)
+                if (fs.existsSync(generateListPath)) {
+                    console.log('🔍 กำลังอัปเดตรายชื่อนักมวยเข้าสู่ระบบค้นหา...');
+                    execSync(`node "${generateListPath}"`, { stdio: 'inherit' });
                 }
             } catch (execErr) {
                 console.error('❌ Generator ทำงานพลาด:', execErr.message);
