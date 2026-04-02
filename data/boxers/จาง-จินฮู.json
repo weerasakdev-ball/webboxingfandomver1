@@ -1,0 +1,160 @@
+{
+  "fighter_profile": {
+    "name_th": "จาง จินฮู",
+    "name_en": "zhang jinhu",
+    "alias": "ไม่ระบุ",
+    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324026/%E0%B8%88%E0%B8%B2%E0%B8%87_%E0%B8%88%E0%B8%B4%E0%B8%99%E0%B8%AE%E0%B8%B9_ppnqnu.png",
+    "grade": "N/A",
+    "fighting_style_th": "ยังไม่มีข้อมูล",
+    "fighting_style_en": "ยังไม่มีข้อมูล",
+    "stance": "ยังไม่มีข้อมูล",
+    "physical_stats": {
+      "weight_lbs": 135,
+      "weight_kg": 61.23,
+      "division": "Flyweight",
+      "height_ft": "ยังไม่มีข้อมูล",
+      "height_cm": 0,
+      "leg_reach_cm": "ยังไม่มีข้อมูล"
+    },
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ยังไม่มีข้อมูล",
+        "body": "ยังไม่มีข้อมูล",
+        "legs": "ยังไม่มีข้อมูล",
+        "total_per_minute": "ยังไม่มีข้อมูล"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+        "accuracy_by_target_percentage": {
+          "head": "ยังไม่มีข้อมูล",
+          "body": "ยังไม่มีข้อมูล",
+          "legs": "ยังไม่มีข้อมูล"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "จีน",
+      "country_en": "China",
+      "age": 0,
+      "team_th": "ยังไม่มีข้อมูล",
+      "team_en": "ยังไม่มีข้อมูล"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/zhang-jinhu/"
+    ]
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 146",
+      "weight_lbs": 135,
+      "division": "Flyweight"
+    }
+  ],
+  "upcoming_fights": [],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "3:00",
+      "opponent_th": "สุไลมาน เอ็นเอฟ.ลูกสวน",
+      "opponent_en": "",
+      "opponent_country": "เมียนมา",
+      "date": "Mar 13, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 146"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "อาเมียร์ นาซิรี",
+      "opponent_en": "",
+      "opponent_country": "มาเลเซีย/อิหร่าน",
+      "date": "Dec 12, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 136"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เสกสรร แฟร์เท็กซ์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Feb 28, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 98"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Kickboxing",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "1:23",
+      "opponent_th": "ฮิโรกิ นารูโอะ",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Nov 22, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 88"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "โซอิชิโระ อาราตะ",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "May 31, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 65"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "0:23",
+      "opponent_th": "ยามีน พีเค.แสนชัย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Sep 15, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 33"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:05",
+      "opponent_th": "ฮารูน บังหมัดคลองตัน",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Aug 04, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 27"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "0:34",
+      "opponent_th": "ใจสิงห์ ศิษย์นายกพันศักดิ์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jun 09, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 20"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+    "fighter_profile": {
+        "name_th": "อานาร์ มัมมาดอฟ",
+        "name_en": "Anar Mammadov",
+        "alias": "The Azerbaijani Warrior",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772549099/อานาร์-มัมมาดอฟ_v4sekj.jpg",
+        "grade": "B+",
+        "fighting_style_th": "มวยไทย, บู๊",
+        "fighting_style_en": "Muay Thai, Aggressive",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 134.5,
+            "weight_kg": 61,
+            "division": "Flyweight",
+            "height_ft": "5'8\"",
+            "height_cm": 173,
+            "reach_cm": "175",
+            "leg_reach_cm": "98"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 6,
+                "body": 4,
+                "legs": 2,
+                "total_per_minute": 12
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 40,
+                "accuracy_by_target_percentage": {
+                    "head": 50,
+                    "body": 30,
+                    "legs": 20
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 40,
+                "defense_by_target_percentage": {
+                    "head": 40,
+                    "body": 35,
+                    "legs": 25
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "อาเซอร์ไบจาน",
+            "country_en": "Azerbaijan",
+            "age": 30,
+            "team_th": "ทีม เมห์ดี ซาทูต",
+            "team_en": "Team Mehdi Zatout"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/anar-mammadov/"
+        ],
+        "short_biography": "อานาร์ มัมมาดอฟ (Anar Mammadov) เป็นนักชกชาวอาเซอร์ไบจาน วัย 30 ปี จากสังกัดทีม เมห์ดี ซาทูต มีความถนัดในการต่อสู้สไตล์มวยไทย, บู๊ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 61 กิโลกรัม) ส่วนสูง 173 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 134 สามารถพ่ายแพ้ให้กับ ยอดเหล็กเพชร อ.อัจฉริยะ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยอดเหล็กเพชร อ.อัจฉริยะ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 21, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 134"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:44",
+            "opponent_th": "คมอาวุธ เอฟเอ.กรุ๊ป",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 10, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 128"
+        }
+    ]
+}

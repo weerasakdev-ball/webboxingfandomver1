@@ -1,0 +1,85 @@
+{
+    "fighter_profile": {
+        "name_th": "เทพคามิน ธนพลรีสอร์ท",
+        "name_en": "Thepkamin Thanapolresort",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773124653/%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%84%E0%B8%B2%E0%B8%A1%E0%B8%B4%E0%B8%99_gxnyhu.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": "ไม่ระบุ",
+            "weight_kg": "ไม่ระบุ",
+            "division": "ไม่ระบุ",
+            "height_ft": "5'4\"",
+            "height_cm": 165,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 26,
+            "team_th": "ป.ประมุข",
+            "team_en": "Por Pramuk"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/tepkamin-thanapolresort/"
+        ],
+        "short_biography": "เทพคามิน ธนพลรีสอร์ท (Thepkamin Thanapolresort) เป็นนักชกชาวไทย วัย 26 ปี จากสังกัดป.ประมุข มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ส่วนสูง 165 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 127 สามารถเอาชนะ เหลี่ยมเพชร ส.เดชะพันธ์ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:03",
+            "opponent_th": "เหลี่ยมเพชร ส.เดชะพันธ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 03, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 127"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:21",
+            "opponent_th": "ยอดนำชัย แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 17, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 41"
+        }
+    ]
+}

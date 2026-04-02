@@ -1,0 +1,138 @@
+{
+    "fighter_profile": {
+        "name_th": "ซุปเปอร์เกิร์ล",
+        "name_en": "Supergirl",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773503429/%E0%B8%8B%E0%B8%B8%E0%B8%9B%E0%B9%80%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%A5_m9m2sz.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 117.1,
+            "weight_kg": 53.1,
+            "division": "ไม่ระบุ",
+            "height_ft": "5'7\"",
+            "height_cm": 172,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 22,
+            "team_th": "จรูญศักดิ์มวยไทย",
+            "team_en": "Jaroonsak Muaythai"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/supergirl/"
+        ],
+        "short_biography": "ซุปเปอร์เกิร์ล (Supergirl) เป็นนักชกชาวไทย วัย 22 ปี จากสังกัดจรูญศักดิ์มวยไทย มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ (ประมาณ 53.1 กิโลกรัม) ส่วนสูง 172 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 41: สินสมุทร vs จอร์จ สามารถพ่ายแพ้ให้กับ หยู เหยา ปุย ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:15",
+            "opponent_th": "หยู เหยา ปุย",
+            "opponent_en": "",
+            "opponent_country": "ฮ่องกง เขตปกครองพิเศษประเทศจีน",
+            "date": "Mar 14, 2026",
+            "rating": 5,
+            "event_en": "ONE Fight Night 41: สินสมุทร vs จอร์จ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:54",
+            "opponent_th": "คริสตินา โมราเลส",
+            "opponent_en": "",
+            "opponent_country": "สเปน",
+            "date": "Nov 03, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 16: โจนาธาน vs ฟาบริซิโอ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ลารา เฟอร์นานเดซ",
+            "opponent_en": "",
+            "opponent_country": "สเปน",
+            "date": "Aug 04, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แสตมป์ แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 14, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 6: ซุปเปอร์บอน vs ชิงกิซ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เอคาเทรินา วานดารีวา",
+            "opponent_en": "",
+            "opponent_country": "เบลารุส",
+            "date": "Jan 14, 2022",
+            "rating": 5,
+            "event_en": "HEAVY HITTERS"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:00",
+            "opponent_th": "มิลากรอส โลเปซ",
+            "opponent_en": "",
+            "opponent_country": "อาร์เจนตินา",
+            "date": "Sep 11, 2020",
+            "rating": 5,
+            "event_en": "A New Breed II"
+        }
+    ]
+}

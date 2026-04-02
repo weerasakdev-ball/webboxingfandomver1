@@ -1,0 +1,163 @@
+{
+    "fighter_profile": {
+        "name_th": "ฟิลิปเป โลโบ",
+        "name_en": "Felipe Lobo",
+        "alias": "Demolition Man",
+        "image_url": "https://i.ibb.co/twhNBfqw/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ / บู๊ดุดัน",
+        "fighting_style_en": "Technical / Aggressive Striker",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 143.7,
+            "weight_kg": 65.2,
+            "division": "Bantamweight",
+            "height_ft": "5'8\"",
+            "height_cm": 175,
+            "reach_cm": "173",
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ยังไม่มีข้อมูล",
+                "defense_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "บราซิล",
+            "country_en": "Brazil",
+            "age": 32,
+            "team_th": "เรโวลูชัน มวยไทย ภูเก็ต",
+            "team_en": "Revolution Muay Thai Phuket"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/felipe-lobo/"
+        ],
+        "short_biography": "ฟิลิปเป โลโบ (Felipe Lobo) เป็นนักชกชาวบราซิล วัย 32 ปี จากสังกัดเรโวลูชัน มวยไทย ภูเก็ต มีความถนัดในการต่อสู้สไตล์มวยฝีมือ / บู๊ดุดัน ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 65.2 กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 123 สามารถพ่ายแพ้ให้กับ ราชสีห์อีสาน เหล่าโชคเจริญ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ราชสีห์อีสาน เหล่าโชคเจริญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 05, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 123"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:22",
+            "opponent_th": "เสมาเพชร แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 08, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 28: พระจันทร์ฉาย vs เอลลิส"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "นาบิล อานาน",
+            "opponent_en": "",
+            "opponent_country": "แอลจีเรีย/ไทย",
+            "date": "Aug 02, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 24: จาร์เร็ด vs กุสตาโว"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:45",
+            "opponent_th": "โจนาธาน แฮ็กเกอร์ตี",
+            "opponent_en": "",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Feb 16, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 19: โจนาธาน vs ฟิลิปเป"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:56",
+            "opponent_th": "เสมาเพชร แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 22, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 9: น้องโอ๋ vs โจนาธาน"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:15",
+            "opponent_th": "น้องโอ๋ ฮาม่ามวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 26, 2022",
+            "rating": 5,
+            "event_en": "ONE X"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "รถเหล็ก พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 26, 2021",
+            "rating": 5,
+            "event_en": "ONE NextGen III"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยอดพนมรุ้ง จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 18, 2020",
+            "rating": 5,
+            "event_en": "ONE A New Breed III"
+        }
+    ]
+}

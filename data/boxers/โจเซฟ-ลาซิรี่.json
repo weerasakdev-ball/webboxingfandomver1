@@ -1,0 +1,192 @@
+{
+  "fighter_profile": {
+    "name_th": "โจเซฟ ลาซิรี",
+    "name_en": "Joseph Lasiri",
+    "alias": "The Hurricane",
+    "image_url": "https://i.ibb.co/fw3x8F0/image.jpg",
+    "grade": "ยังไม่มีข้อมูล",
+    "fighting_style_th": "ยังไม่มีข้อมูล",
+    "fighting_style_en": "ยังไม่มีข้อมูล",
+    "stance": "Orthodox",
+    "physical_stats": {
+      "weight_lbs": 124.8,
+      "weight_kg": 56.6,
+      "division": "Strawweight / Flyweight",
+      "height_ft": "5'6\"",
+      "height_cm": 170,
+      "leg_reach_cm": "ยังไม่มีข้อมูล"
+    },
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ยังไม่มีข้อมูล",
+        "body": "ยังไม่มีข้อมูล",
+        "legs": "ยังไม่มีข้อมูล",
+        "total_per_minute": "ยังไม่มีข้อมูล"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+        "accuracy_by_target_percentage": {
+          "head": "ยังไม่มีข้อมูล",
+          "body": "ยังไม่มีข้อมูล",
+          "legs": "ยังไม่มีข้อมูล"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "อิตาลี/โมร็อกโก",
+      "country_en": "Italy / Morocco",
+      "age": 34,
+      "team_th": "Kick and Punch Milano",
+      "team_en": "Kick and Punch Milano"
+    },
+    "target_url": "",
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/joseph-lasiri/"
+    ]
+  },
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:28",
+      "opponent_th": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค.",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Dec 22, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 46: ตะวันฉาย vs  ซุปเปอร์บอน"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "รถถัง จิตรเมืองนนท์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Nov 19, 2022",
+      "rating": 5,
+      "event_en": "ONE Fight Night 4: เคียมเรียน vs คริสเตียน"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค.",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "May 20, 2022",
+      "rating": 5,
+      "event_en": "ONE157: เพชรมรกต VS จิมมี"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:05",
+      "opponent_th": "อาซาฮี ชินากาวา",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Dec 17, 2021",
+      "rating": 5,
+      "event_en": "Winter Warriors II"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ร็อกกี อ็อกเดน",
+      "opponent_en": "",
+      "opponent_country": "ออสเตรเลีย",
+      "date": "Nov 20, 2020",
+      "rating": 5,
+      "event_en": "Inside the Matrix IV"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Majority Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "มงคลเพชร เพชรยินดีอะคาเดมี",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Sep 06, 2019",
+      "rating": 5,
+      "event_en": "IMMORTAL TRIUMPH"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Kickboxing",
+      "method_en": "Majority Decision",
+      "round": 3,
+      "time": "N/A",
+      "opponent_th": "ฮิโรกิ อากิโมโตะ",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Mar 31, 2019",
+      "rating": 5,
+      "event_en": "ONE A NEW ERA"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "N/A",
+      "opponent_th": "โจนาธาน แฮ็กเกอร์ตี",
+      "opponent_en": "",
+      "opponent_country": "สหราชอาณาจักร",
+      "date": "Jan 19, 2019",
+      "rating": 5,
+      "event_en": "ONE ETERNAL GLORY"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Kickboxing",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "N/A",
+      "opponent_th": "จอช ทอนนา",
+      "opponent_en": "",
+      "opponent_country": "ออสเตรเลีย",
+      "date": "Oct 26, 2018",
+      "rating": 5,
+      "event_en": "ONE PURSUIT OF GREATNESS"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:36",
+      "opponent_th": "สิงห์ทองน้อย ป.เตละกุล",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "May 18, 2018",
+      "rating": 5,
+      "event_en": "ONE UNSTOPPABLE DREAMS"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:30",
+      "opponent_th": "สามเอ ไก่ย่างห้าดาว",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jan 26, 2018",
+      "rating": 5,
+      "event_en": "ONE GLOBAL SUPERHEROES"
+    }
+  ]
+}

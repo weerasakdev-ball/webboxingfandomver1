@@ -1,0 +1,110 @@
+{
+    "fighter_profile": {
+        "name_th": "หลิว เมิงหยาง",
+        "name_en": "Liu Mengyang",
+        "alias": "Spirit Dragon (Shenlong)",
+        "image_url": "https://i.ibb.co/qLfQYnSJ/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "คิกบ็อกซิ่ง, บู๊, หมัดสวน",
+        "fighting_style_en": "Kickboxing, Aggressive, Counterpuncher",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 155,
+            "weight_kg": 70.3,
+            "division": "Featherweight",
+            "height_ft": "6'0\"",
+            "height_cm": 183,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "104"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 8,
+                "body": 3,
+                "legs": 4,
+                "total_per_minute": 15
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 48,
+                "accuracy_by_target_percentage": {
+                    "head": 55,
+                    "body": 20,
+                    "legs": 25
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 45,
+                "defense_by_target_percentage": {
+                    "head": 50,
+                    "body": 30,
+                    "legs": 20
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "จีน",
+            "country_en": "China",
+            "age": 23,
+            "team_th": "ชุนหยวน ไฟต์ติ้ง คลับ",
+            "team_en": "Shunyuan Fighting Club"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/liu-mengyang/"
+        ],
+        "short_biography": "หลิว เมิงหยาง (Liu Mengyang) เป็นนักชกชาวจีน วัย 23 ปี จากสังกัดชุนหยวน ไฟต์ติ้ง คลับ มีความถนัดในการต่อสู้สไตล์คิกบ็อกซิ่ง, บู๊, หมัดสวน ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Featherweight (ประมาณ 70.3 กิโลกรัม) ส่วนสูง 183 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง สามารถเอาชนะ ตะวันฉาย พีเค.แสนชัย ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:52",
+            "opponent_th": "ตะวันฉาย พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ชาโด้ มาวินมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 26, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 126"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โมฮัมหมัด เซียซารานี",
+            "opponent_en": "",
+            "opponent_country": "อิหร่าน",
+            "date": "Apr 18, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 105"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "มาซาอากิ โนอิริ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Dec 20, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 92"
+        }
+    ]
+}

@@ -1,0 +1,236 @@
+{
+    "fighter_profile": {
+        "name_th": "วรพล ลูกเจ้าพ่อโรงต้ม",
+        "name_en": "Worapon Lukjaoporongtom",
+        "alias": "มวยซ้ายใจสู้",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773123007/%E0%B8%A7%E0%B8%A3%E0%B8%9E%E0%B8%A5_%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%9E%E0%B9%88%E0%B8%AD%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%A1_cdcwew.png",
+        "grade": "B+",
+        "fighting_style_th": "มวยซ้าย, บู๊ดุดัน, ศอกคม",
+        "fighting_style_en": "Southpaw, Aggressive Brawler, Elbow Specialist",
+        "stance": "Southpaw (Left-handed)",
+        "physical_stats": {
+            "weight_lbs": 145,
+            "weight_kg": 65.77,
+            "division": "Bantamweight",
+            "height_ft": "5'6\"",
+            "height_cm": 168,
+            "reach_cm": "170",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "34.6%",
+                "body": "34.6%",
+                "legs": "30.8%",
+                "total_accuracy": "42.6%"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "42.6%",
+                "accuracy_by_target_percentage": {
+                    "head": "34.6%",
+                    "body": "34.6%",
+                    "legs": "30.8%"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย (บุรีรัมย์)",
+            "country_en": "Thailand",
+            "age": 23,
+            "team_th": "ส.เดชะพันธ์ (Sor Dechapan)",
+            "team_en": "Sor Dechapan"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/worapon-lukjaoporongtom/"
+        ],
+        "short_biography": "วรพล ลูกเจ้าพ่อโรงต้ม (Worapon Lukjaoporongtom) เป็นนักชกชาวไทย (บุรีรัมย์) วัย 23 ปี จากสังกัดส.เดชะพันธ์ (Sor Dechapan) มีความถนัดในการต่อสู้สไตล์มวยซ้าย, บู๊ดุดัน, ศอกคม ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 65.77 กิโลกรัม) ส่วนสูง 168 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถเอาชนะ อาร์ตูร์ บรอสซิเยร์ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:56",
+            "opponent_th": "อาร์ตูร์ บรอสซิเยร์",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส",
+            "date": "Mar 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 145"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:27",
+            "opponent_th": "ซอ ลิน อู",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Jan 23, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 139"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "จูลิโอ โลโบ",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Nov 28, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 135"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:49",
+            "opponent_th": "ก้องกุลา จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 03, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 127"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โซเนอร์ เซน",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "Aug 01, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 118"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อิลยาส มูซาเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "May 30, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 110"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โซเนอร์ เซน",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "Mar 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 99"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โซเนอร์ เซน",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "Jan 10, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 93"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แอนตาร์ คาเซม",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส/เบลารุส",
+            "date": "Oct 18, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 83"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พันฤทธิ์ ลูกเจ้าแม่สายวารี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 02, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 73"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฮิโรกิ คาซาฮารา",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Feb 23, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 53"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:47",
+            "opponent_th": "สลาตัน จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 25, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 30"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สิบแสน นกเขากม.11",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 05, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 15"
+        }
+    ],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 145",
+            "weight_lbs": 145,
+            "division": "Bantamweight"
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "fighter_profile": {
+        "name_th": "เชียร์ โคเฮน",
+        "name_en": "Shir Cohen",
+        "alias": "The Israeli Warrior",
+        "image_url": "https://i.ibb.co/hvNLPMV/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยไทย, บู๊",
+        "fighting_style_en": "Muay Thai, Aggressive",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 115,
+            "weight_kg": 52.2,
+            "division": "Strawweight",
+            "height_ft": "5'2\"",
+            "height_cm": 158,
+            "reach_cm": "160",
+            "leg_reach_cm": "92"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 8,
+                "body": 4,
+                "legs": 2,
+                "total_per_minute": 14
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 46,
+                "accuracy_by_target_percentage": {
+                    "head": 50,
+                    "body": 35,
+                    "legs": 15
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 45,
+                "defense_by_target_percentage": {
+                    "head": 48,
+                    "body": 32,
+                    "legs": 20
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "อิสราเอล",
+            "country_en": "Israel",
+            "age": 25,
+            "team_th": "ทีม อิสราเอล",
+            "team_en": "Team Israel"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/shir-cohen/"
+        ],
+        "short_biography": "เชียร์ โคเฮน (Shir Cohen) เป็นนักชกชาวอิสราเอล วัย 25 ปี จากสังกัดทีม อิสราเอล มีความถนัดในการต่อสู้สไตล์มวยไทย, บู๊ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 52.2 กิโลกรัม) ส่วนสูง 158 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 143 สามารถพ่ายแพ้ให้กับ เวโร ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เวโร",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Feb 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 143"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เอมี เพอร์นี",
+            "opponent_en": "",
+            "opponent_country": "สกอตแลนด์",
+            "date": "Oct 04, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 25: อเล็กซิส vs รีเกียน II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฟรานซิสกา เวรา",
+            "opponent_en": "",
+            "opponent_country": "ชิลี",
+            "date": "Aug 16, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 75"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:27",
+            "opponent_th": "เทโอโดรา คิริโลวา",
+            "opponent_en": "",
+            "opponent_country": "บัลแกเรีย",
+            "date": "Mar 08, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 20: เจเน็ต vs เพชรจีจ้า"
+        }
+    ]
+}

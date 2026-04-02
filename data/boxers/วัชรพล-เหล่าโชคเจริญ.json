@@ -1,0 +1,131 @@
+{
+    "fighter_profile": {
+        "name_th": "วัชรพล เหล่าโชคเจริญ",
+        "name_en": "Watcharaphon Laochokcharoen",
+        "alias": "วัชรพล พีเค.แสนชัยฯ / จอมเก๋าเข่าพิฆาต",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531965/%E0%B8%A7%E0%B8%B1%E0%B8%8A%E0%B8%A3%E0%B8%9E%E0%B8%A5-%E0%B8%9E%E0%B8%B5%E0%B9%80%E0%B8%84_hkrqbn.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ, หมัดหนัก, ประสบการณ์สูง",
+        "fighting_style_en": "Technical Fighter, Heavy Puncher, Highly Experienced",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 121.4,
+            "weight_kg": 55.07,
+            "division": "Strawweight",
+            "height_ft": "5'4\"",
+            "height_cm": 163,
+            "reach_cm": "165",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "45.2%",
+                "body": "30.8%",
+                "legs": "24.0%",
+                "total_accuracy": "48.5%"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "48.5%",
+                "accuracy_by_target_percentage": {
+                    "head": "45.2%",
+                    "body": "30.8%",
+                    "legs": "24.0%"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 33,
+            "team_th": "พีเค.แสนชัยมวยไทยยิม (PK.Saenchai Muaythaigym)",
+            "team_en": "PK.Saenchai Muaythaigym"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/watcharaphon-laochokcharoen/"
+        ],
+        "short_biography": "วัชรพล เหล่าโชคเจริญ (Watcharaphon Laochokcharoen) เป็นนักชกชาวไทย วัย 33 ปี จากสังกัดพีเค.แสนชัยมวยไทยยิม (PK.Saenchai Muaythaigym) มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, หมัดหนัก, ประสบการณ์สูง ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 55.07 กิโลกรัม) ส่วนสูง 163 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถเอาชนะ ลีอันโดร ดูกลาส ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ลีอันโดร ดูกลาส",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Mar 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 145"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:52",
+            "opponent_th": "มังกร บูมเด็กเซียน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 04, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 103"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:22",
+            "opponent_th": "ไม้ซางคำ ส.ยิ่งเจริญการช่าง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 20, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 92"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:27",
+            "opponent_th": "ดานิลา วาซิลิคิน",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Sep 13, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 79"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:04",
+            "opponent_th": "เพชรน้ำคำ พันธ์ดักษ์รัตนบุรี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 31, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 65"
+        }
+    ],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 145",
+            "weight_lbs": 121.4,
+            "division": "Strawweight"
+        }
+    ]
+}

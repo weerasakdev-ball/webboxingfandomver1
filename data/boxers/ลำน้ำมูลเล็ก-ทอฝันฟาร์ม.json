@@ -1,0 +1,189 @@
+{
+<<<<<<< HEAD
+    "fighter_profile": {
+        "name_th": "ลำน้ำมูลเล็ก ทอฝันฟาร์ม / ทีเด็ด99",
+        "name_en": "Lamnammoonlek Tor.Funmarm / Teeded99",
+        "alias": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772952186/%E0%B8%A5%E0%B8%B3%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81_angfg0.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยซ้าย, มวยฝีมือ, เตะซ้ายจัดจ้าน",
+        "fighting_style_en": "Southpaw, Technical Fighter",
+        "stance": "Southpaw (Left-handed)",
+        "physical_stats": {
+            "weight_lbs": 134.6,
+            "weight_kg": 61.05,
+            "division": "Flyweight",
+            "height_ft": "5'6\"",
+            "height_cm": 169,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 27,
+            "team_th": "ทีเด็ด99",
+            "team_en": "Teeded99"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/lamnamoonlek-tded99/"
+        ],
+        "short_biography": "ลำน้ำมูลเล็ก ทอฝันฟาร์ม / ทีเด็ด99 (Lamnammoonlek Tor.Funmarm / Teeded99) เป็นนักชกชาวไทย วัย 27 ปี จากสังกัดทีเด็ด99 มีความถนัดในการต่อสู้สไตล์มวยซ้าย, มวยฝีมือ, เตะซ้ายจัดจ้าน ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 61.05 กิโลกรัม) ส่วนสูง 169 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 141 สามารถเอาชนะ แดเนียล พูแอร์ตัส ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+=======
+  "fighter_profile": {
+    "name_th": "ลำน้ำมูลเล็ก ทอฝันฟาร์ม / ทีเด็ด99",
+    "name_en": "Lamnammoonlek Tor.Funmarm / Teeded99",
+    "alias": "",
+    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772952186/%E0%B8%A5%E0%B8%B3%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81_angfg0.png",
+    "grade": "ไม่ระบุ",
+    "fighting_style_th": "มวยซ้าย, มวยฝีมือ, เตะซ้ายจัดจ้าน",
+    "fighting_style_en": "Southpaw, Technical Fighter",
+    "stance": "Southpaw (Left-handed)",
+    "physical_stats": {
+      "weight_lbs": 134.6,
+      "weight_kg": 61.05,
+      "division": "Flyweight",
+      "height_ft": "5'6\"",
+      "height_cm": 169,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
+>>>>>>> 800a84f76550249bee288e51067c82265bb7a017
+    },
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ไม่ระบุ",
+        "body": "ไม่ระบุ",
+        "legs": "ไม่ระบุ",
+        "total_accuracy": "ไม่ระบุ"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ไม่ระบุ",
+        "accuracy_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
+        }
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": "ไม่ระบุ",
+        "distance_control_percentage": "ไม่ระบุ",
+        "defense_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 27,
+      "team_th": "ทีเด็ด99",
+      "team_en": "Teeded99"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/lamnamoonlek-tded99/"
+    ]
+  },
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Kickboxing",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "หยวน เผิงเจี๋ย",
+      "opponent_en": "",
+      "opponent_country": "จีน",
+      "date": "Mar 27, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 148 & The Inner Circle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Kickboxing",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "แดเนียล พูแอร์ตัส",
+      "opponent_en": "",
+      "opponent_country": "สเปน",
+      "date": "Feb 06, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 141"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Kickboxing",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ฮาเวียร์ กัลเวซ",
+      "opponent_en": "",
+      "opponent_country": "สเปน",
+      "date": "Nov 28, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 135"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ก้องศึก ศิษย์สารวัตรเสือ",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 18, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 105"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ก้องศึก ศิษย์สารวัตรเสือ",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Feb 14, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 97"
+    }
+  ],
+  "fight_history_one_championship": [],
+  "upcoming_fights": [],
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 148",
+      "weight_lbs": 134.6,
+      "division": "Flyweight"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "fighter_profile": {
+    "name_th": "ก้องชัย ไฉนดอนเมือง",
+    "name_en": "Kongchai Chanaidonmueang",
+    "alias": "ไม่ระบุ",
+    "image_url": "https://i.ibb.co/nsv07wKG/image.jpg",
+    "grade": "B+",
+    "fighting_style_th": "มวยบู๊ / หมัดหนัก",
+    "fighting_style_en": "Aggressive / Puncher",
+    "stance": "Southpaw (ซ้าย)",
+    "physical_stats": {
+      "weight_lbs": 125,
+      "weight_kg": 56.7,
+      "division": "Strawweight",
+      "height_ft": "5'6\"",
+      "height_cm": 170,
+      "leg_reach_cm": "ยังไม่มีข้อมูล"
+    },
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ยังไม่มีข้อมูล",
+        "body": "ยังไม่มีข้อมูล",
+        "legs": "ยังไม่มีข้อมูล",
+        "total_per_minute": "ยังไม่มีข้อมูล"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+        "accuracy_by_target_percentage": {
+          "head": "ยังไม่มีข้อมูล",
+          "body": "ยังไม่มีข้อมูล",
+          "legs": "ยังไม่มีข้อมูล"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 23,
+      "team_th": "ท.แสงเทียนน้อย",
+      "team_en": "Tor.Sangtiennoi"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/kongchai-chanaidonmueang/"
+    ]
+  },
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เมห์ดาด คานซาเดห์",
+      "opponent_en": "",
+      "opponent_country": "อิหร่าน",
+      "date": "Mar 27, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 148 & The Inner Circle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ตุย ลิน ทัต",
+      "opponent_en": "",
+      "opponent_country": "เมียนมา",
+      "date": "Jan 30, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 140"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "วอลเตอร์ กอนซาลเวส",
+      "opponent_en": "",
+      "opponent_country": "บราซิล",
+      "date": "Sep 19, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 125"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "คมเพชร ศิษย์สารวัตรเสือ",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jun 27, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 114"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "0:26",
+      "opponent_th": "โชคปรีชา พีเค.ต้อมทีเค.อะไหล่ยนต์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "May 16, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 108"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ชาติพยัคฆ์ ศักดิ์สตูล",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Feb 28, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 98"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "รามาดาน ออนดาช",
+      "opponent_en": "",
+      "opponent_country": "เลบานอน",
+      "date": "Jan 10, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 93"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "โชคปรีชา พีเค.ต้อมทีเค.อะไหล่ยนต์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Nov 15, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 87"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "อาเมียร์ อับดุลมุสลิมอฟ",
+      "opponent_en": "",
+      "opponent_country": "รัสเซีย",
+      "date": "Sep 13, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 79"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:41",
+      "opponent_th": "อัคราม ฮามิดี",
+      "opponent_en": "",
+      "opponent_country": "ฝรั่งเศส/แอลจีเรีย",
+      "date": "Jun 07, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 66"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "คมเพชร ศิษย์สารวัตรเสือ",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 05, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 58: ซุปเปอร์บอน vs มารัต"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ซาเวียร์ กอนซาเลส",
+      "opponent_en": "",
+      "opponent_country": "สเปน",
+      "date": "Jan 26, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 49"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "คมเพชร ศิษย์สารวัตรเสือ",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Sep 08, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 32"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เยลเต้ บลอมเมิร์ต",
+      "opponent_en": "",
+      "opponent_country": "เบลเยียม",
+      "date": "Jul 21, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 26"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Majority Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ซาเวียร์ กอนซาเลส",
+      "opponent_en": "",
+      "opponent_country": "สเปน",
+      "date": "Apr 28, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 14"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ฉลามขาว พีเค.แสนชัย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 03, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 7"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:15",
+      "opponent_th": "กริชเพชร พีเค.แสนชัย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Feb 03, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 3"
+    }
+  ],
+  "fight_history_one_championship": [],
+  "upcoming_fights": [],
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 148",
+      "weight_lbs": 125,
+      "division": "Strawweight"
+    }
+  ]
+}

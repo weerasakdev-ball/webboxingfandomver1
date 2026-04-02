@@ -1,0 +1,111 @@
+{
+    "fighter_profile": {
+        "name_th": "ปตท. อภิชาติฟาร์ม",
+        "name_en": "PTT Apichart Farm",
+        "alias": "The Pink Thigh Torturer",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531959/ปตท_อภิชาติฟาร์ม_rkab49.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ, บุก",
+        "fighting_style_en": "Technical Fighter (Muay Fimeu), Aggressive",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 145,
+            "weight_kg": 65.8,
+            "division": "Bantamweight",
+            "height_ft": "5'10\"",
+            "height_cm": 178,
+            "reach_cm": "183",
+            "leg_reach_cm": "102"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 6,
+                "body": 4,
+                "legs": 2,
+                "total_per_minute": 12
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 48,
+                "accuracy_by_target_percentage": {
+                    "head": 40,
+                    "body": 35,
+                    "legs": 25
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 40,
+                "defense_by_target_percentage": {
+                    "head": 45,
+                    "body": 30,
+                    "legs": 25
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 28,
+            "team_th": "ทีม เมห์ดี ซาทูต",
+            "team_en": "Team Mehdi Zatout"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/ptt-apichart-farm/"
+        ],
+        "short_biography": "ปตท. อภิชาติฟาร์ม (PTT Apichart Farm) เป็นนักชกชาวไทย วัย 28 ปี จากสังกัดทีม เมห์ดี ซาทูต มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, บุก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 65.8 กิโลกรัม) ส่วนสูง 178 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 147 สามารถเอาชนะ อาเรียน เอสพาร์ซา ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:01",
+            "opponent_th": "อาเรียน เอสพาร์ซา",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "Mar 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 147"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ราชสีห์อีสาน เหล่าโชคเจริญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อาเลสสิโอ มาลาเทสตา",
+            "opponent_en": "",
+            "opponent_country": "อิตาลี",
+            "date": "Sep 26, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 126"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เอเลียส อับเดลาลี",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส",
+            "date": "Jun 27, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 114"
+        }
+    ]
+}

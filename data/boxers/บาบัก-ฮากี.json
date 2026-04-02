@@ -1,0 +1,59 @@
+{
+    "fighter_profile": {
+        "name_th": "บาบัก ฮากี",
+        "name_en": "",
+        "alias": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773155463/%E0%B8%9A%E0%B8%B2%E0%B8%9A%E0%B8%B1%E0%B8%81_%E0%B8%AE%E0%B8%B2%E0%B8%81%E0%B8%B5_icmy3u.png",
+        "grade": "N/A",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 131.8,
+            "weight_kg": 59.78,
+            "division": "Flyweight",
+            "height_ft": "",
+            "height_cm": 0,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "",
+            "country_en": "",
+            "age": 0,
+            "team_th": "",
+            "team_en": ""
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/babak-haghi/"
+        ],
+        "short_biography": "บาบัก ฮากี () เป็นนักชกชาว วัย 0 ปี จากสังกัด มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 59.78 กิโลกรัม) ส่วนสูง 0 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถพ่ายแพ้ให้กับ กล้ารบ หนุ่ยกาแฟโบราณ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 145",
+            "weight_lbs": 131.8,
+            "division": "Flyweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:30",
+            "opponent_th": "กล้ารบ หนุ่ยกาแฟโบราณ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 145"
+        }
+    ]
+}

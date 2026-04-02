@@ -1,0 +1,98 @@
+{
+    "fighter_profile": {
+        "name_th": "เด่นภูไท ซุปเปอร์เล็ก มวยไทย",
+        "name_en": "Denputhai Superlek Muaythai",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773128465/%E0%B9%80%E0%B8%94%E0%B9%88%E0%B8%99%E0%B8%A0%E0%B8%B9%E0%B9%84%E0%B8%97%E0%B8%A2_ph2zh4.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": "ไม่ระบุ",
+            "weight_kg": "ไม่ระบุ",
+            "division": "ไม่ระบุ",
+            "height_ft": "5'6\"",
+            "height_cm": 169,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 28,
+            "team_th": "ซุปเปอร์เล็ก มวยไทย",
+            "team_en": "Superlek Muaythai"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/denphuthai-mc-superlek/"
+        ],
+        "short_biography": "เด่นภูไท ซุปเปอร์เล็ก มวยไทย (Denputhai Superlek Muaythai) เป็นนักชกชาวไทย วัย 28 ปี จากสังกัดซุปเปอร์เล็ก มวยไทย มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ส่วนสูง 169 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 113 สามารถพ่ายแพ้ให้กับ อัสซาดูลาห์ อิมานกาซาลิเอฟ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:52",
+            "opponent_th": "อัสซาดูลาห์ อิมานกาซาลิเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Jun 20, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 113"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:19",
+            "opponent_th": "เพชรเมืองศรี ทอฝันฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 24, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 64"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฮวม เฟลิเป",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Mar 15, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 55"
+        }
+    ]
+}

@@ -1,0 +1,202 @@
+{
+    "fighter_profile": {
+        "name_th": "โจฮัน กาซาลี",
+        "name_en": "Johan Ghazali",
+        "alias": "Jojo",
+        "image_url": "https://i.ibb.co/C5LvXVRZ/image.jpg",
+        "grade": "B",
+        "fighting_style_th": "บุก",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 134.2,
+            "weight_kg": null,
+            "division": "Flyweight",
+            "height_ft": "5'6\"",
+            "height_cm": 170,
+            "reach_cm": null,
+            "leg_reach_cm": null
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 3,
+                "body": 1,
+                "legs": 1,
+                "total_per_minute": 16
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": null,
+                "accuracy_by_target_percentage": {
+                    "head": 50,
+                    "body": 27,
+                    "legs": 23
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 34,
+                "defense_by_target_percentage": {
+                    "head": 35,
+                    "body": 31,
+                    "legs": 34
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "มาเลเซีย / สหรัฐอเมริกา",
+            "country_en": "Malaysia / USA",
+            "age": 19,
+            "team_th": "เรนทัพ มวยไทย ยิม",
+            "team_en": "Rentap Muaythai Gym"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/johan-ghazali/"
+        ],
+        "short_biography": "โจฮัน กาซาลี (Johan Ghazali) เป็นนักชกชาวมาเลเซีย / สหรัฐอเมริกา วัย 19 ปี จากสังกัดเรนทัพ มวยไทย ยิม มีความถนัดในการต่อสู้สไตล์บุก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ None กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 141 สามารถเอาชนะ เย ยิ่น เนา ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เย ยิ่น เนา",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Feb 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 141"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:10",
+            "opponent_th": "ซากาเรีย เอล จามารี",
+            "opponent_en": "",
+            "opponent_country": "โมร็อกโก",
+            "date": "Sep 06, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 35: แจ็กกี vs สเตลลา"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ดิเอโก ปาเอซ",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา/โคลอมเบีย",
+            "date": "Jun 07, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 32: นักรบ vs จ้าวเสือใหญ่"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โยฮัน เอสตูปินาน",
+            "opponent_en": "",
+            "opponent_country": "โคลอมเบีย",
+            "date": "Jan 24, 2025",
+            "rating": 5,
+            "event_en": "ONE 170"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "3:00",
+            "opponent_th": "โจชัว ครูซ",
+            "opponent_en": "",
+            "opponent_country": "เม็กซิโก",
+            "date": "Sep 07, 2024",
+            "rating": 5,
+            "event_en": "ONE 168: Denver"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เหงียน ตรัน ดุย งัด",
+            "opponent_en": "",
+            "opponent_country": "เวียดนาม",
+            "date": "Jun 07, 2024",
+            "rating": 5,
+            "event_en": "ONE 167: ตะวันฉาย vs โจ II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:36",
+            "opponent_th": "เอ็ดการ์ ทาบาเรส",
+            "opponent_en": "",
+            "opponent_country": "เม็กซิโก",
+            "date": "Dec 08, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 17: โรมัน vs อเล็กซ์"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:43",
+            "opponent_th": "เทเมียร์ลัน เบ็กมูร์ซาเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Oct 06, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 36"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซามูไร สีโอปอล",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 14, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 25"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:37",
+            "opponent_th": "ไท สจ.เปี๊ยกอุทัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 26, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 18"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:16",
+            "opponent_th": "เผด็จศึก แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 24, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 6"
+        }
+    ]
+}

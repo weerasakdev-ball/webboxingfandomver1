@@ -1,0 +1,279 @@
+{
+    "fighter_profile": {
+        "name_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
+        "name_en": "Suriyanlek Por Yenying",
+        "alias": "Buffalo-killing ",
+        "image_url": "https://i.ibb.co/PsgLhbZv/image.jpg",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยบุก",
+        "fighting_style_en": "Aggressive Fighter",
+        "stance": "Orthodox (Right-handed) / กาดขวา",
+        "physical_stats": {
+            "weight_lbs": 133,
+            "weight_kg": 60.3,
+            "division": "Flyweight",
+            "height_ft": "5'2\"",
+            "height_cm": 160,
+            "reach_cm": "ยังไม่มีข้อมูล",
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "3",
+                "body": "1",
+                "legs": "1",
+                "total_per_minute": "14"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "42",
+                "accuracy_by_target_percentage": {
+                    "head": "57",
+                    "body": "21",
+                    "legs": "22"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 41,
+                "defense_by_target_percentage": {
+                    "head": 48,
+                    "body": 33,
+                    "legs": 19
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 29,
+            "team_th": "ท.แสงเทียนน้อย",
+            "team_en": "Tor.Sangtiennoi"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/suriyanlek-por-yenying/"
+        ],
+        "short_biography": "สุริยันต์เล็ก พ.เย็นยิ่ง (Suriyanlek Por Yenying) เป็นนักชกชาวไทย วัย 29 ปี จากสังกัดท.แสงเทียนน้อย มีความถนัดในการต่อสู้สไตล์มวยบุก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 60.3 กิโลกรัม) ส่วนสูง 160 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 147 สามารถเอาชนะ เกรเกอร์ ทอม ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เกรเกอร์ ทอม",
+            "opponent_en": "",
+            "opponent_country": "สกอตแลนด์",
+            "date": "Mar 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 147"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ตาวฟิก มาวินมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "โมร็อกโก",
+            "date": "Feb 13, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 142"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "กิ่งซางเล็ก ว.คำชำนาญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เดโช ป.บริรักษ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 31, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 131"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เดโช ป.บริรักษ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 12, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 124"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:39",
+            "opponent_th": "แรมบ๊อง ส.เถระพัฒน์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 04, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 115"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ริวเซอิ คุมางาอิ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Mar 23, 2025",
+            "rating": 5,
+            "event_en": "ONE 172: ทาเครุ vs รถถัง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:09",
+            "opponent_th": "ธานท์ ซิน",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Jan 24, 2025",
+            "rating": 5,
+            "event_en": "ONE 170"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "จ้าวเสือใหญ่ ม.กรุงเทพธนบุรี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 27, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:50",
+            "opponent_th": "ป้อมเพชร ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 28, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 68: พระจันทร์ฉาย vs โจนาธาน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฤทธิเดช ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 26, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 60"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ป้อมเพชร ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 08, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 54"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:15",
+            "opponent_th": "ยอดกฤษดา ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 22, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 46: ตะวันฉาย vs  ซุปเปอร์บอน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:47",
+            "opponent_th": "ต้มยำกุ้ง ภูมิใจไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 17, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 41"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แบล็คแพนเธอร์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 29, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 35"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:46",
+            "opponent_th": "สองฝั่งโขง เอฟเอ.กรุ๊ป",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 11, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 28"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:50",
+            "opponent_th": "ยอดดวงใจ สจ.มนตรี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 14, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 25"
+        }
+    ]
+}

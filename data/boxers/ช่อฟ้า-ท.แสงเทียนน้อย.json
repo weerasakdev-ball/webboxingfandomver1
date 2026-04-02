@@ -1,0 +1,161 @@
+{
+    "fighter_profile": {
+        "name_th": "ช่อฟ้า ท.แสงเทียนน้อย",
+        "name_en": "Chorfah Tor.Sangtiennoi",
+        "alias": "จอมเตะแห่งบุรีรัมย์",
+        "image_url": "https://i.ibb.co/1GRWZCd9/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยบู๊, มวยเข่า",
+        "fighting_style_en": "Aggressive, Muay Khao (Knee Fighter)",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 131.6,
+            "weight_kg": 59.7,
+            "division": "Flyweight",
+            "height_ft": "5'7\"",
+            "height_cm": 170,
+            "reach_cm": "173",
+            "leg_reach_cm": "98"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 6,
+                "body": 5,
+                "legs": 4,
+                "total_per_minute": 15
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 42,
+                "accuracy_by_target_percentage": {
+                    "head": 40,
+                    "body": 45,
+                    "legs": 15
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 38,
+                "defense_by_target_percentage": {
+                    "head": 35,
+                    "body": 40,
+                    "legs": 25
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 32,
+            "team_th": "ท.แสงเทียนน้อย",
+            "team_en": "Tor.Sangtiennoi Gym"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/chorfah-tor-sangtiennoi/"
+        ],
+        "short_biography": "ช่อฟ้า ท.แสงเทียนน้อย (Chorfah Tor.Sangtiennoi) เป็นนักชกชาวไทย วัย 32 ปี จากสังกัดท.แสงเทียนน้อย มีความถนัดในการต่อสู้สไตล์มวยบู๊, มวยเข่า ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 59.7 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 46: ตะวันฉาย vs  ซุปเปอร์บอน สามารถเอาชนะ เอซากุ โอกาซาวาระ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "notable_career_highlights": [
+        {
+            "title": "S1 World Champion",
+            "weight_class": "122 lbs",
+            "details": "แชมป์โลกมวยไทยรายการ S1"
+        },
+        {
+            "title": "Nai Khanomtom Champion",
+            "weight_class": "135 lbs",
+            "details": "แชมป์สมาคมนายขนมต้ม"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:57",
+            "opponent_th": "เอซากุ โอกาซาวาระ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Dec 22, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 46: ตะวันฉาย vs  ซุปเปอร์บอน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ป้อมเพชร ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 27, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 38"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:30",
+            "opponent_th": "มงคลแก้ว ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 01, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 31"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:13",
+            "opponent_th": "กิ่งซางเล็ก ว.คำชำนาญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 28, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 14"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แชร์ซอด คาบูทอฟ",
+            "opponent_en": "",
+            "opponent_country": "คีร์กีซสถาน",
+            "date": "Mar 24, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 10"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรสุขุมวิท ต้อมทุ่งใหญ่",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 03, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 3"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:29",
+            "opponent_th": "ทาเกียร์ คาลิลอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย/อาเซอร์ไบจาน",
+            "date": "Dec 03, 2022",
+            "rating": 5,
+            "event_en": "ONE 164: โจชัว vs จาร์เร็ด"
+        }
+    ]
+}

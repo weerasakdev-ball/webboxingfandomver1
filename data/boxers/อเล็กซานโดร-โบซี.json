@@ -1,0 +1,85 @@
+{
+    "fighter_profile": {
+        "name_th": "อเล็กซานโดร โบซี",
+        "name_en": "Alexandro Bozi",
+        "alias": "อเล็ก / ยอดมวยฝรั่งเศสหัวใจไทย",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531969/%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81-%E0%B8%8B%E0%B8%B2%E0%B8%99%E0%B9%82%E0%B8%94%E0%B8%A3-%E0%B9%82%E0%B8%9A%E0%B8%8B%E0%B8%B5_prq9yz.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ, สูงยาว, แทงเข่าเจ็บ, สายตาดี",
+        "fighting_style_en": "Technical Fighter, Tall & Rangy, Sharp Knee Strikes, Great Vision",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 115.1,
+            "weight_kg": 52.2,
+            "division": "Strawweight (115 - 125 lbs)",
+            "height_ft": "5'9\"",
+            "height_cm": 176,
+            "reach_cm": "183",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "46.0%"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "46.0%",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ฝรั่งเศส",
+            "country_en": "France",
+            "age": 17,
+            "team_th": "สิงห์มาวิน (Singha Mawynn)",
+            "team_en": "Singha Mawynn"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/sandro-bosi/"
+        ],
+        "short_biography": "อเล็กซานโดร โบซี (Alexandro Bozi) เป็นนักชกชาวฝรั่งเศส วัย 17 ปี จากสังกัดสิงห์มาวิน (Singha Mawynn) มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, สูงยาว, แทงเข่าเจ็บ, สายตาดี ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (115 - 125 lbs) (ประมาณ 52.2 กิโลกรัม) ส่วนสูง 176 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 139 สามารถเอาชนะ เพชรสังวาลย์ ส.สมานการ์เม้นท์ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรสังวาลย์ ส.สมานการ์เม้นท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 23, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 139"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:45",
+            "opponent_th": "คิริลล์ ชีชิค",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Sep 12, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 124"
+        }
+    ]
+}

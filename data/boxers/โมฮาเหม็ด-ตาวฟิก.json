@@ -1,0 +1,72 @@
+{
+    "fighter_profile": {
+        "name_th": "โมฮาเหม็ด ตาวฟิก",
+        "name_en": "Mohamed Toufiq",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772548100/%E0%B8%95%E0%B8%B2%E0%B8%A7%E0%B8%9F%E0%B8%B4%E0%B8%81_pycjvj.jpg",
+        "grade": "B",
+        "fighting_style_th": "บุก",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "Orthodox",
+        "physical_stats": {
+            "weight_lbs": 134,
+            "weight_kg": 60.8,
+            "division": "Flyweight",
+            "height_ft": "6'0\"",
+            "height_cm": 184,
+            "reach_cm": "ยังไม่มีข้อมูล",
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 2,
+                "body": 1,
+                "legs": 2,
+                "total_per_minute": 12
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 39,
+                "accuracy_by_target_percentage": {
+                    "head": 53,
+                    "body": 30,
+                    "legs": 15
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 35,
+                "defense_by_target_percentage": {
+                    "head": 61,
+                    "body": 23,
+                    "legs": 15
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "โมร็อกโก",
+            "country_en": "Morocco",
+            "age": 21,
+            "team_th": "เอลามการี มวยไทย / เสถียรมวยไทย",
+            "team_en": "Elamghari Muaythai Team / Sathian MuayThai"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/mohamed/"
+        ],
+        "short_biography": "โมฮาเหม็ด ตาวฟิก (Mohamed Toufiq) เป็นนักชกชาวโมร็อกโก วัย 21 ปี จากสังกัดเอลามการี มวยไทย / เสถียรมวยไทย มีความถนัดในการต่อสู้สไตล์บุก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 60.8 กิโลกรัม) ส่วนสูง 184 เซนติเมตร ผลงานการชกล่าสุดในรายการ UNION OF WARRIORS สามารถพ่ายแพ้ให้กับ ออง ลา เอ็น ซาง ด้วยรูปแบบ Submission ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "2:38",
+            "opponent_th": "ออง ลา เอ็น ซาง",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Mar 18, 2016",
+            "rating": 5,
+            "event_en": "UNION OF WARRIORS"
+        }
+    ]
+}

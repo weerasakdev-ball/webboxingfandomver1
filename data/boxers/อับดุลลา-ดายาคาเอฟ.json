@@ -1,0 +1,189 @@
+{
+    "fighter_profile": {
+        "name_th": "อับดุลลา ดายาคาเอฟ",
+        "name_en": "Abdulla Dayakaev",
+        "alias": "Smash Boy",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531967/%E0%B8%AD%E0%B8%B1%E0%B8%9A%E0%B8%94%E0%B8%B8%E0%B8%A5%E0%B8%A5%E0%B8%B2-%E0%B8%94%E0%B8%B2%E0%B8%A2%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B9%80%E0%B8%AD%E0%B8%9F_kwieqi.jpg",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 145,
+            "weight_kg": 65.8,
+            "division": "Bantamweight",
+            "height_ft": "5'10\"",
+            "height_cm": 179,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "รัสเซีย",
+            "country_en": "Russia",
+            "age": 24,
+            "team_th": "ทีมเมห์ดี ซาทูต (Team Mehdi Zatout)",
+            "team_en": "Team Mehdi Zatout"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/abdulla-dayakaev/"
+        ],
+        "short_biography": "อับดุลลา ดายาคาเอฟ (Abdulla Dayakaev) เป็นนักชกชาวรัสเซีย วัย 24 ปี จากสังกัดทีมเมห์ดี ซาทูต (Team Mehdi Zatout) มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 65.8 กิโลกรัม) ส่วนสูง 179 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา สามารถพ่ายแพ้ให้กับ แรมโบ้เล็ก ฉ.อจลบุญ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:41",
+            "opponent_th": "แรมโบ้เล็ก ฉ.อจลบุญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 24, 2026",
+            "rating": 5,
+            "event_en": "ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:24",
+            "opponent_th": "นนทชัย จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 12, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 33: อัลลิเซีย vs โยฮันนา"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:44",
+            "opponent_th": "เสมาเพชร แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 03, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 31: ก้องธรณี vs น้องโอ๋ II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:37",
+            "opponent_th": "อาเลสสิโอ มาลาเทสตา",
+            "opponent_en": "",
+            "opponent_country": "อิตาลี",
+            "date": "Feb 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 96"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:35",
+            "opponent_th": "สิบหมื่น โค้ชนาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 20, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 92"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยอดไอคิว อ.พิมลศรี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 04, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 82"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:34",
+            "opponent_th": "องค์บาก แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 19, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 71"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อวตาร พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 31, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 65"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:39",
+            "opponent_th": "เซฟเคต เซอร์เคซ",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "Jan 26, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 49"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เดชฤทธิ์ ลูกสวน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 03, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 39"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "fighter_profile": {
+        "name_th": "ต้มยำกุ้ง ภูมิใจไทย",
+        "name_en": "Tomyamkoong Bhumjaithai",
+        "alias": "ไม่ระบุ",
+        "image_url": "ไม่ระบุ",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": "ไม่ระบุ",
+            "weight_kg": "ไม่ระบุ",
+            "division": "ไม่ระบุ",
+            "height_ft": "5'7\"",
+            "height_cm": 171,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 21,
+            "team_th": "พีเค.แสนชัยมวยไทยยิม",
+            "team_en": "PK.Saenchai Muaythai Gym"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/tomyamkoong-bhumjaithai/"
+        ],
+        "short_biography": "ต้มยำกุ้ง ภูมิใจไทย (Tomyamkoong Bhumjaithai) เป็นนักชกชาวไทย วัย 21 ปี จากสังกัดพีเค.แสนชัยมวยไทยยิม มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 171 เซนติเมตร (5'7\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)"
+    },
+    "weigh_in_history": [],
+    "fight_history": [],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO",
+            "round": 2,
+            "time": "0:34",
+            "opponent_th": "วัชรพล มาวินมวยไทย",
+            "opponent_en": "Watcharaphon Mawinmuaythai",
+            "opponent_country": "ไทย",
+            "date": "Jul 18, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 116"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เด่นเกรียงไกร มาวินมวยไทย",
+            "opponent_en": "Denkriangkrai Mawinmuaythai",
+            "opponent_country": "ไทย",
+            "date": "Feb 14, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 97"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO",
+            "round": 2,
+            "time": "1:25",
+            "opponent_th": "ฤทธิเดช ส.สมหมาย",
+            "opponent_en": "Rittidet Sor.Sommai",
+            "opponent_country": "ไทย",
+            "date": "Mar 15, 2024",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 55"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO",
+            "round": 3,
+            "time": "2:47",
+            "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
+            "opponent_en": "Suriyanlek Por.Yenying",
+            "opponent_country": "ไทย",
+            "date": "Nov 17, 2023",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 41"
+        }
+    ],
+    "upcoming_fights": []
+}

@@ -1,0 +1,176 @@
+{
+    "fighter_profile": {
+        "name_th": "เอลบรุส ออสมานอฟ",
+        "name_en": "Elbrus Osmanov",
+        "alias": "The Samurai",
+        "image_url": "https://i.ibb.co/Q7hWpS6J/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "คิกบ็อกซิ่ง, บู๊ (พื้นฐานคาราเต้)",
+        "fighting_style_en": "Kickboxing, Aggressive (Karate-influenced style)",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 145,
+            "weight_kg": 65.8,
+            "division": "Bantamweight",
+            "height_ft": "5'8\"",
+            "height_cm": 173,
+            "reach_cm": "170",
+            "leg_reach_cm": "100"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 8,
+                "body": 4,
+                "legs": 4,
+                "total_per_minute": 16
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 52,
+                "accuracy_by_target_percentage": {
+                    "head": 53,
+                    "body": 24,
+                    "legs": 23
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 48,
+                "defense_by_target_percentage": {
+                    "head": 55,
+                    "body": 30,
+                    "legs": 15
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "รัสเซีย",
+            "country_en": "Russia",
+            "age": 24,
+            "team_th": "อาคมาต คิกบ็อกซิ่ง / ทีม เมห์ดี ซาทูต",
+            "team_en": "Akhmat Kickboxing / Team Mehdi Zatout"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/elbrus-osmanov/"
+        ],
+        "short_biography": "เอลบรุส ออสมานอฟ (Elbrus Osmanov) เป็นนักชกชาวรัสเซีย วัย 24 ปี จากสังกัดอาคมาต คิกบ็อกซิ่ง / ทีม เมห์ดี ซาทูต มีความถนัดในการต่อสู้สไตล์คิกบ็อกซิ่ง, บู๊ (พื้นฐานคาราเต้) ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 65.8 กิโลกรัม) ส่วนสูง 173 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 125 สามารถเอาชนะ เสมาเพชร แฟร์เท็กซ์ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เสมาเพชร แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 125"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:10",
+            "opponent_th": "คัมภีร์เทวดา สิทธิกุล",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 25, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 117"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยูกิ โยซะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "May 23, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 109"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "นาธาน เบนดอน",
+            "opponent_en": "",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Dec 20, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 92"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เหมียว เอ้าฉี",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 69"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "จาง เฉิงหลง",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Nov 24, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 42"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "วาอิล คาร์รูมี",
+            "opponent_en": "",
+            "opponent_country": "เนเธอร์แลนด์/โมร็อกโก",
+            "date": "Aug 18, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 29"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้าวหน้า สจ.โต้งปราจีน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 02, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 19"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:41",
+            "opponent_th": "แปดแสนเล็ก พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 03, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 3"
+        }
+    ]
+}

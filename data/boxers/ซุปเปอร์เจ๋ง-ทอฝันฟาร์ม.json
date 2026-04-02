@@ -1,0 +1,141 @@
+{
+<<<<<<< HEAD
+    "fighter_profile": {
+        "name_th": "ซุปเปอร์เจ๋ง ทอฝันฟาร์ม",
+        "name_en": "Superjeng Thorfunfarm",
+        "alias": "ซุปเปอร์เจ๋ง ทีเด็ด99",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1740716400/superjeng-tded99-1600x1200-1_c666f2.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 137.4,
+            "weight_kg": 62.32,
+            "division": "Bantamweight",
+            "height_ft": "5'6\"",
+            "height_cm": 170,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 20,
+            "team_th": "ทีเด็ด99",
+            "team_en": "Tded99"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/superjeng-tded99/"
+        ],
+        "short_biography": "ซุปเปอร์เจ๋ง ทอฝันฟาร์ม (Superjeng Thorfunfarm) เป็นนักชกชาวไทย วัย 20 ปี จากสังกัดทีเด็ด99 มีความถนัดในการต่อสู้สไตล์มวยไทย ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 62.32 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 139 สามารถเอาชนะ แมมมอส ส.สละชีพ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+=======
+  "fighter_profile": {
+    "name_th": "ซุปเปอร์เจ๋ง ทอฝันฟาร์ม",
+    "name_en": "Superjeng Thorfunfarm",
+    "alias": "ซุปเปอร์เจ๋ง ทีเด็ด99",
+    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1740716400/superjeng-tded99-1600x1200-1_c666f2.png",
+    "grade": "ไม่ระบุ",
+    "fighting_style_th": "มวยไทย",
+    "fighting_style_en": "Muay Thai",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": 137.4,
+      "weight_kg": 62.32,
+      "division": "Bantamweight",
+      "height_ft": "5'6\"",
+      "height_cm": 170,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
+>>>>>>> 800a84f76550249bee288e51067c82265bb7a017
+    },
+    "performance_stats": {
+      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+      "defensive_stats": "ยังไม่มีข้อมูล"
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 20,
+      "team_th": "ทีเด็ด99",
+      "team_en": "Tded99"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/superjeng-tded99/"
+    ]
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 148",
+      "weight_lbs": 137.4,
+      "division": "Bantamweight"
+    },
+    {
+      "event_name": "ONE ลุมพินี 139",
+      "weight_lbs": "123.0",
+      "division": "Catchweight"
+    }
+  ],
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "พร้อมเผด็จ เอ็นเอฟ.ลูกสวน",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 27, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 148 & The Inner Circle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "แมมมอส ส.สละชีพ",
+      "opponent_en": "Mammoth Sor.Salacheep",
+      "opponent_country": "ไทย",
+      "date": "Jan 23, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 139"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ลำน้ำโขง บีเอส.มวยไทย",
+      "opponent_en": "Lamnamkhong BS.Muaythai",
+      "opponent_country": "ลาว",
+      "date": "Jul 25, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 117"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "1:57",
+      "opponent_th": "ชามา ซุปเปอร์บอนเทรนนิงแคมป์",
+      "opponent_en": "Shama Superbon Training Camp",
+      "opponent_country": "ไทย",
+      "date": "May 23, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 109"
+    }
+  ],
+  "fight_history_one_championship": [],
+  "upcoming_fights": []
+}

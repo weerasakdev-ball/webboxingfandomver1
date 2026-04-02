@@ -1,0 +1,84 @@
+{
+  "fighter_profile": {
+    "name_th": "จ้าว เจิงตง",
+    "name_en": "Zhao Zhengdong",
+    "alias": "ไม่ระบุ",
+    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773126169/%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%A7_%E0%B9%80%E0%B8%88%E0%B8%B4%E0%B8%87%E0%B8%95%E0%B8%87_bgwwtg.png",
+    "grade": "ไม่ระบุ",
+    "fighting_style_th": "ไม่ระบุ",
+    "fighting_style_en": "ไม่ระบุ",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": 125,
+      "weight_kg": 56.7,
+      "division": "Strawweight",
+      "height_ft": "ไม่ระบุ",
+      "height_cm": "178",
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
+    },
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ไม่ระบุ",
+        "body": "ไม่ระบุ",
+        "legs": "ไม่ระบุ",
+        "total_accuracy": "ไม่ระบุ"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ไม่ระบุ",
+        "accuracy_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
+        }
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": "ไม่ระบุ",
+        "distance_control_percentage": "ไม่ระบุ",
+        "defense_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "จีน",
+      "country_en": "China",
+      "age": "21",
+      "team_th": "ไม่ระบุ",
+      "team_en": "ไม่ระบุ"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/zhao-zhengdong/"
+    ]
+  },
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ยูนิส อานาน",
+      "opponent_en": "",
+      "opponent_country": "ฝรั่งเศส/ไทย",
+      "date": "Mar 20, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 147"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Kickboxing",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "1:21",
+      "opponent_th": "เคสุเกะ มงกุชิ",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Jan 23, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 139"
+    }
+  ]
+}

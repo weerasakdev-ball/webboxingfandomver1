@@ -1,0 +1,72 @@
+{
+    "fighter_profile": {
+        "name_th": "อาฮัด วาร์เกฮาเอียน",
+        "name_en": "Ahad Vaghehaian",
+        "alias": "ไม่ระบุ",
+        "image_url": "ไม่ระบุ",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": "ไม่ระบุ",
+            "weight_kg": "ไม่ระบุ",
+            "division": "ไม่ระบุ",
+            "height_ft": "5'9\"",
+            "height_cm": 175,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "อิหร่าน",
+            "country_en": "Iran",
+            "age": 24,
+            "team_th": "ไม่ระบุ",
+            "team_en": "ไม่ระบุ"
+        },
+        "target_urls": [
+            "ยังไม่มีข้อมูล"
+        ],
+        "short_biography": "อาฮัด วาร์เกฮาเอียน (Ahad Vaghehaian) เป็นนักชกชาวอิหร่าน วัย 24 ปี มีความถนัดในการต่อสู้สไตล์มวยไทย ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ LUMPINEE WORLD CHAMPIONSHIP SUPER CHAMP สามารถเอาชนะ เพชรแดนเหนือ สังข์หะมวยไทย ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [
+        {
+            "event_name": "LUMPINEE WORLD CHAMPIONSHIP SUPER CHAMP",
+            "weight_lbs": "ไม่ระบุ",
+            "division": "ไม่ระบุ"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "ไม่ระบุ",
+            "opponent_th": "เพชรแดนเหนือ สังข์หะมวยไทย",
+            "opponent_en": "Phetdaennuea Sanghamuaythai",
+            "opponent_country": "ไทย",
+            "date": "Nov 15, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "LUMPINEE WORLD CHAMPIONSHIP SUPER CHAMP"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ตูฟิค ชาบิบี",
+            "opponent_en": "Toufik Chabibi",
+            "opponent_country": "โมร็อกโก",
+            "date": "Oct 18, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "LUMPINEE WORLD CHAMPIONSHIP SUPER CHAMP"
+        }
+    ]
+}

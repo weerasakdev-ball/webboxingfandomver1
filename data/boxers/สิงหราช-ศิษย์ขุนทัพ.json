@@ -1,0 +1,59 @@
+{
+    "fighter_profile": {
+        "name_th": "สิงหราช ศิษย์ขุนทัพ",
+        "name_en": "Singharat SitKhuntab",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324024/%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B8%A3%E0%B8%B2%E0%B8%8A_%E0%B8%A8%E0%B8%B4%E0%B8%A9%E0%B8%A2%E0%B9%8C%E0%B8%82%E0%B8%B8%E0%B8%99%E0%B8%97%E0%B8%B1%E0%B8%9E_t3ncii.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 139.6,
+            "weight_kg": 63.32,
+            "division": "Bantamweight",
+            "height_ft": "5'9\"",
+            "height_cm": 175,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 18,
+            "team_th": "ศิษย์ขุนทัพ",
+            "team_en": "SitKhuntab"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/singharat-sitkhuntab/"
+        ],
+        "short_biography": "สิงหราช ศิษย์ขุนทัพ (Singharat SitKhuntab) เป็นนักชกชาวไทย วัย 18 ปี จากสังกัดศิษย์ขุนทัพ มีความถนัดในการต่อสู้สไตล์มวยไทย ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 63.32 กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 146 สามารถเอาชนะ ขจรไกล สส.ต้อยแปดริ้ว ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 146",
+            "weight_lbs": 139.6,
+            "division": "Bantamweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:19",
+            "opponent_th": "ขจรไกล สส.ต้อยแปดริ้ว",
+            "opponent_en": "Kajornklai Sor Sor Toipadriew",
+            "opponent_country": "ไทย",
+            "date": "Mar 13, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 146"
+        }
+    ]
+}

@@ -195,7 +195,6 @@
         .view-count-number { color: var(--primary); font-weight: 800; font-size: 15px; }
         .view-text { color: var(--text-muted); font-size: 13px; }
 
-
         /* ---------------------------------- */
         /* SEO: สไตล์สำหรับ Hashtag */
         /* ---------------------------------- */
@@ -362,6 +361,7 @@
             const pathArray = window.location.pathname.split('/');
             let currentPage = pathArray[pathArray.length - 1]; 
             
+            // ดึงชื่อไฟล์นักมวยอัตโนมัติ
             if (!currentPage || currentPage === "template.html" || currentPage === "index.html") {
                 const urlParams = new URLSearchParams(window.location.search);
                 fileName = urlParams.get('id');
@@ -382,15 +382,41 @@
             }
 
             try {
-                const res = await fetch(`../../data/boxers/${encodeURIComponent(fileName)}`);
-                if (!res.ok) throw new Error("File not found");
-                const data = await res.json();
+                // 🚀 อัปเกรด: กวาดหาไฟล์ JSON จากหลายระดับ Path เผื่อ Live Server เปิดผิดโฟลเดอร์
+                let response;
+                const encodedFileName = encodeURIComponent(fileName);
+                const possiblePaths = [
+                    `../../data/boxers/${encodedFileName}`, // ปกติสำหรับโฟลเดอร์ย่อย 2 ชั้น
+                    `../data/boxers/${encodedFileName}`,    // สำหรับโฟลเดอร์ย่อย 1 ชั้น
+                    `./data/boxers/${encodedFileName}`      // สำหรับระดับเดียวกัน
+                ];
+
+                for (let path of possiblePaths) {
+                    try {
+                        response = await fetch(path);
+                        if (response.ok) break; // ถ้าเจอไฟล์ให้หยุดค้นหา
+                    } catch (e) {}
+                }
+
+                if (!response || !response.ok) throw new Error("File not found");
+                const data = await response.json();
                 
+                // ดึงรายชื่อนักมวยทั้งหมดมาไว้เชื่อมโยงลิงก์คู่ชก
                 let allFiles = [];
-                try {
-                    const listRes = await fetch('../../data/boxers/fighters-list.json');
-                    if (listRes.ok) allFiles = await listRes.json();
-                } catch (e) {}
+                const listPaths = [
+                    '../../data/boxers/fighters-list.json',
+                    '../data/boxers/fighters-list.json',
+                    './data/boxers/fighters-list.json'
+                ];
+                for (let listPath of listPaths) {
+                    try {
+                        const listRes = await fetch(listPath);
+                        if (listRes.ok) {
+                            allFiles = await listRes.json();
+                            break;
+                        }
+                    } catch (e) {}
+                }
 
                 const p = data.fighter_profile;
                 const rawHistory = data.fight_history || data.fight_history_one_championship || [];
@@ -472,17 +498,22 @@
 
                         if (foundFile) {
                             opponentFileName = foundFile;
-                            try {
-                                const oppRes = await fetch(`../../data/boxers/${encodeURIComponent(foundFile.trim())}`);
-                                if (oppRes.ok) {
-                                    const oppData = await oppRes.json();
-                                    if (oppData.fighter_profile?.image_url) {
-                                        opponentImage = oppData.fighter_profile.image_url.startsWith('http') 
-                                            ? oppData.fighter_profile.image_url 
-                                            : '../../' + oppData.fighter_profile.image_url;
+                            // ค้นหารูปคู่ชกด้วย Path ที่ยืดหยุ่น
+                            for (let path of possiblePaths) {
+                                let oppPath = path.replace(encodedFileName, encodeURIComponent(foundFile.trim()));
+                                try {
+                                    const oppRes = await fetch(oppPath);
+                                    if (oppRes.ok) {
+                                        const oppData = await oppRes.json();
+                                        if (oppData.fighter_profile?.image_url) {
+                                            opponentImage = oppData.fighter_profile.image_url.startsWith('http') 
+                                                ? oppData.fighter_profile.image_url 
+                                                : '../../' + oppData.fighter_profile.image_url;
+                                        }
+                                        break;
                                     }
-                                }
-                            } catch (err) {}
+                                } catch (err) {}
+                            }
                         }
                     }
                     return { ...f, opponentImage, opponentFileName, oppName };
@@ -517,7 +548,7 @@
                 const loadMoreBtnHTML = pastFights.length > initialShowCount ? `<button id="loadMoreBtn" class="load-more-btn" onclick="showMoreFights()">โหลดประวัติเพิ่มเติม (${pastFights.length - initialShowCount} ไฟต์)</button>` : '';
 
                 // ==========================================
-                // ประกอบร่าง HTML โดยเพิ่มกล่องนับยอดวิวเข้าไปด้วย
+                // ประกอบร่าง HTML
                 // ==========================================
                 container.innerHTML = `
                     <article>
@@ -621,7 +652,7 @@
             if (!countDisplay) return; 
 
             try {
-                // เอาชื่อไฟล์ (เช่น rodtang.json) มาตัด .json ออกเพื่อใช้เป็น ID ประจำตัวนักมวย
+                // เอาชื่อไฟล์มาตัด .json ออกเพื่อใช้เป็น ID
                 const pageId = fileName.replace('.json', '').toLowerCase();
                 const safePageId = encodeURIComponent(pageId);
                 const namespace = 'boxingfandom_views'; 
@@ -634,7 +665,6 @@
                 countDisplay.innerText = Number(data.count).toLocaleString('en-US');
 
             } catch (error) {
-                // ถ้ามีปัญหาเรื่องเน็ตหรือ API ให้ซ่อนตัวเลขไว้จะได้ไม่ดูน่าเกลียด
                 countDisplay.innerText = "-";
             }
         }
@@ -646,13 +676,33 @@
 
         async function initSearchSystem() {
             try {
-                const listRes = await fetch('../../data/boxers/fighters-list.json');
-                if (!listRes.ok) return;
-                const files = await listRes.json();
+                // 🚀 อัปเกรด Path ค้นหา
+                let files = [];
+                const listPaths = [
+                    '../../data/boxers/fighters-list.json',
+                    '../data/boxers/fighters-list.json',
+                    './data/boxers/fighters-list.json'
+                ];
+                let workingPathIndex = 0;
+                
+                for (let i = 0; i < listPaths.length; i++) {
+                    try {
+                        const listRes = await fetch(listPaths[i]);
+                        if (listRes.ok) {
+                            files = await listRes.json();
+                            workingPathIndex = i;
+                            break;
+                        }
+                    } catch(e) {}
+                }
+                
+                if (files.length === 0) return;
                 
                 const fetchPromises = files.map(async (f) => {
                     try {
-                        const res = await fetch(`../../data/boxers/${encodeURIComponent(f.trim())}`);
+                        // ใช้ระดับ Path เดียวกันกับที่เจอ list
+                        let basePath = listPaths[workingPathIndex].replace('fighters-list.json', '');
+                        const res = await fetch(`${basePath}${encodeURIComponent(f.trim())}`);
                         if (res.ok) {
                             const data = await res.json();
                             return { ...data, fileName: f };

@@ -1,0 +1,201 @@
+{
+    "fighter_profile": {
+        "name_th": "อาลีฟ ส.เดชะพันธ์",
+        "name_en": "Aliff Sor Dechapan",
+        "alias": "The Tall Giant",
+        "image_url": "https://i.ibb.co/MyHDwB30/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ, อาวุธยาว, หมัดและเข่าแม่นยำ",
+        "fighting_style_en": "Technical Striker, Long Range, Precise Punches & Knees",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 125,
+            "weight_kg": 56.7,
+            "division": "Strawweight",
+            "height_ft": "5'9\"",
+            "height_cm": 177,
+            "reach_cm": "183",
+            "leg_reach_cm": "104"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 8,
+                "body": 5,
+                "legs": 2,
+                "total_per_minute": 15
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 54,
+                "accuracy_by_target_percentage": {
+                    "head": 50,
+                    "body": 40,
+                    "legs": 10
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 52,
+                "defense_by_target_percentage": {
+                    "head": 55,
+                    "body": 30,
+                    "legs": 15
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "มาเลเซีย / ไทย",
+            "country_en": "Malaysia / Thailand",
+            "age": 22,
+            "team_th": "ส.เดชะพันธ์",
+            "team_en": "Sor Dechapan"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/aliff-sor-dechapan/"
+        ],
+        "short_biography": "อาลีฟ ส.เดชะพันธ์ (Aliff Sor Dechapan) เป็นนักชกชาวมาเลเซีย / ไทย วัย 22 ปี จากสังกัดส.เดชะพันธ์ มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, อาวุธยาว, หมัดและเข่าแม่นยำ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 56.7 กิโลกรัม) ส่วนสูง 177 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 38: ฟาบริซิโอ vs เอ็งค์-ออร์กิล สามารถเอาชนะ รามาดาน ออนดาช ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "รามาดาน ออนดาช",
+            "opponent_en": "",
+            "opponent_country": "เลบานอน",
+            "date": "Dec 06, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 38: ฟาบริซิโอ vs เอ็งค์-ออร์กิล"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เอลเมห์ดี เอล จามารี",
+            "opponent_en": "",
+            "opponent_country": "โมร็อกโก",
+            "date": "Jun 07, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 32: นักรบ vs จ้าวเสือใหญ่"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:10",
+            "opponent_th": "ชามิล อาดูคอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Feb 08, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 28: พระจันทร์ฉาย vs เอลลิส"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "วอลเตอร์ กอนซาลเวส",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Nov 08, 2024",
+            "rating": 5,
+            "event_en": "ONE 169: อนาโตลี vs รุง รุง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:37",
+            "opponent_th": "ซากาเรีย เอล จามารี",
+            "opponent_en": "",
+            "opponent_country": "โมร็อกโก",
+            "date": "Aug 02, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 24: จาร์เร็ด vs กุสตาโว"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เอลลิส บาดร์ บาร์โบซา",
+            "opponent_en": "",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "จาง เป่ยเหมียน",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Apr 05, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 58: ซุปเปอร์บอน vs มารัต"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:44",
+            "opponent_th": "เพย์มาน โซลฟาการี",
+            "opponent_en": "",
+            "opponent_country": "อิหร่าน",
+            "date": "Nov 10, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 40"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยางดำ จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 25, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 30"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:50",
+            "opponent_th": "ราชเดช ส.เพชรจำรัส",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 07, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 24"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:46",
+            "opponent_th": "ฤทธิเดช ลูกเจ้าพ่อโรงต้ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 21, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 13"
+        }
+    ]
+}

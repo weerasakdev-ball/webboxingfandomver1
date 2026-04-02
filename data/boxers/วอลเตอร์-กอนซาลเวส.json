@@ -1,0 +1,167 @@
+{
+    "fighter_profile": {
+        "name_th": "วอลเตอร์ กอนซาลเวส",
+        "name_en": "Walter Goncalves",
+        "alias": "ยังไม่มีข้อมูล",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772549099/วอเตอร์_ygnlnj.jpg",
+        "grade": "B",
+        "fighting_style_th": "มวยฝีมือ / รวดเร็ว",
+        "fighting_style_en": "Technical / Speed",
+        "stance": "Orthodox",
+        "physical_stats": {
+            "weight_lbs": 135.8,
+            "weight_kg": 61.6,
+            "division": "Flyweight",
+            "height_ft": "5'3\"",
+            "height_cm": 161,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "บราซิล",
+            "country_en": "Brazil",
+            "age": 27,
+            "team_th": "Blackthai CT",
+            "team_en": "Blackthai CT"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/walter-goncalves/"
+        ],
+        "short_biography": "วอลเตอร์ กอนซาลเวส (Walter Goncalves) เป็นนักชกชาวบราซิล วัย 27 ปี จากสังกัดBlackthai CT มีความถนัดในการต่อสู้สไตล์มวยฝีมือ / รวดเร็ว ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 61.6 กิโลกรัม) ส่วนสูง 161 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 125 สามารถพ่ายแพ้ให้กับ ก้องชัย ไฉนดอนเมือง ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 125"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซาเวียร์ กอนซาเลส",
+            "opponent_en": "",
+            "opponent_country": "สเปน",
+            "date": "Apr 04, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 103"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อาลีฟ ส.เดชะพันธ์",
+            "opponent_en": "",
+            "opponent_country": "มาเลเซีย/ไทย",
+            "date": "Nov 08, 2024",
+            "rating": 5,
+            "event_en": "ONE 169: อนาโตลี vs รุง รุง"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:54",
+            "opponent_th": "จาค็อบ สมิธ",
+            "opponent_en": "",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Dec 08, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 17: โรมัน vs อเล็กซ์"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "บันหม่า ตั่วจี๋",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Jul 14, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 12: ซุปเปอร์เล็ก vs ทาเกียร์"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:35",
+            "opponent_th": "ซุปเปอร์เล็ก ซุปเปอร์เล็กมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 27, 2022",
+            "rating": 5,
+            "event_en": "ONE Fight Night 1:  อาเดรียโน VS ดิมิเทรียส II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:35",
+            "opponent_th": "โจชัว ครูซ",
+            "opponent_en": "",
+            "opponent_country": "เม็กซิโก",
+            "date": "May 20, 2022",
+            "rating": 5,
+            "event_en": "ONE157: เพชรมรกต VS จิมมี"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:30",
+            "opponent_th": "โคเฮอิ โคเดระ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Dec 25, 2020",
+            "rating": 5,
+            "event_en": "ONE Collision Course II"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 5,
+            "time": "5:00",
+            "opponent_th": "รถถัง จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 13, 2019",
+            "rating": 5,
+            "event_en": "ONE CENTURY PART II"
+        }
+    ]
+}

@@ -1,0 +1,202 @@
+{
+    "fighter_profile": {
+        "name_th": "ทรงชัยน้อย เกียรติทรงฤทธิ์",
+        "name_en": "Songchainoi Kiatsongrit",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772550077/%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%8A%E0%B8%B1%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2_reivop.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยบู๊ / หมัดหนัก",
+        "fighting_style_en": "Aggressive / Puncher",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 115,
+            "weight_kg": 52.2,
+            "division": "Strawweight",
+            "height_ft": "5'1\"",
+            "height_cm": 156,
+            "reach_cm": "ยังไม่มีข้อมูล",
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ยังไม่มีข้อมูล",
+                "defense_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 25,
+            "team_th": "เกียรติทรงฤทธิ์",
+            "team_en": "Kiatsongrit Muay Thai Gym"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/songchainoi-kiatsongrit/"
+        ],
+        "short_biography": "ทรงชัยน้อย เกียรติทรงฤทธิ์ (Songchainoi Kiatsongrit) เป็นนักชกชาวไทย วัย 25 ปี จากสังกัดเกียรติทรงฤทธิ์ มีความถนัดในการต่อสู้สไตล์มวยบู๊ / หมัดหนัก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 52.2 กิโลกรัม) ส่วนสูง 156 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 130 สามารถเอาชนะ สไล ทาน คี เชน ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สไล ทาน คี เชน",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Oct 24, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 130"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "หนุ่มสุรินทร์ ช.เกตุวีณา",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 29, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 122"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ตี๋ใหญ่ ทอฝันฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 14, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 100"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:18",
+            "opponent_th": "ยอดนำชัย แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 20, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 92"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "รักษ์ เอราวัณ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 19, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 71"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "นิโคลัส เลตเท ซิลวา",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Apr 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 21: รีเกียน vs อเล็กซิส"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "รักษ์ เอราวัณ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 17, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 41"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:54",
+            "opponent_th": "จอมโหด ออโต้มวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 22, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 34: รถถัง vs ซุปเปอร์เล็ก"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:45",
+            "opponent_th": "โชคดี แม็กจันดี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 25, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 30"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:52",
+            "opponent_th": "มังกร บูมเด็กเซียน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 30, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 23"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยอดดอย แก้วสัมฤทธิ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 27, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 2"
+        }
+    ]
+}

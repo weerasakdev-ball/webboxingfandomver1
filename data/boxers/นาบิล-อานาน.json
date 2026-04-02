@@ -1,0 +1,201 @@
+{
+    "fighter_profile": {
+        "name_th": "นาบิล อานาน",
+        "name_en": "Nabil Anane",
+        "alias": "The Starboy",
+        "image_url": "https://i.ibb.co/TCnLWSH/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ, บุก",
+        "fighting_style_en": "Technical Fighter (Muay Fimeu), Aggressive",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 145,
+            "weight_kg": 65.3,
+            "division": "Lightweight",
+            "height_ft": "6'4\"",
+            "height_cm": 195,
+            "reach_cm": "200",
+            "leg_reach_cm": "108"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 7,
+                "body": 4,
+                "legs": 2,
+                "total_per_minute": 13
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 39,
+                "accuracy_by_target_percentage": {
+                    "head": 55,
+                    "body": 32,
+                    "legs": 13
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 42,
+                "defense_by_target_percentage": {
+                    "head": 50,
+                    "body": 35,
+                    "legs": 15
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "แอลจีเรีย/ไทย",
+            "country_en": "Algeria/Thailand",
+            "age": 21,
+            "team_th": "ทีม เมห์ดี ซาทูต",
+            "team_en": "Team Mehdi Zatout"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/nabil-anane/"
+        ],
+        "short_biography": "นาบิล อานาน (Nabil Anane) เป็นนักชกชาวแอลจีเรีย/ไทย วัย 21 ปี จากสังกัดทีม เมห์ดี ซาทูต มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, บุก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Lightweight (ประมาณ 65.3 กิโลกรัม) ส่วนสูง 195 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 147 สามารถพ่ายแพ้ให้กับ แรมโบ้เล็ก ฉ.อจลบุญ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "แรมโบ้เล็ก ฉ.อจลบุญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 147"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฮิโรมิ วาจิมะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Nov 16, 2025",
+            "rating": 5,
+            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+        },
+        {
+            "result": "Draw",
+            "discipline_en": "Kickboxing",
+            "method_en": "Decision",
+            "round": 3,
+            "time": "N/A",
+            "opponent_th": "อิเลียส เอ็นนาฮาชิ",
+            "opponent_en": "",
+            "opponent_country": "เนเธอร์แลนด์/โมร็อกโก",
+            "date": "Sep 26, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 126"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซุปเปอร์เล็ก ซุปเปอร์เล็กมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 23, 2025",
+            "rating": 5,
+            "event_en": "ONE 172: ทาเครุ vs รถถัง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:35",
+            "opponent_th": "นิโค คาร์ริลโล",
+            "opponent_en": "",
+            "opponent_country": "สกอตแลนด์",
+            "date": "Jan 24, 2025",
+            "rating": 5,
+            "event_en": "ONE 170"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซอ ลิน อู",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Sep 27, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฟิลิปเป โลโบ",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Aug 02, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 24: จาร์เร็ด vs กุสตาโว"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:54",
+            "opponent_th": "ราชสีห์อีสาน เหล่าโชคเจริญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 69"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เมืองไทย พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 22, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 46: ตะวันฉาย vs  ซุปเปอร์บอน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:08",
+            "opponent_th": "นักรบ แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 08, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 32"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:03",
+            "opponent_th": "ซุปเปอร์เล็ก ซุปเปอร์เล็กมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 23, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 22"
+        }
+    ]
+}

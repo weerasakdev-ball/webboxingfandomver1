@@ -1,0 +1,165 @@
+{
+    "fighter_profile": {
+        "name_th": "วลาดิเมียร์ คุซมิน",
+        "name_en": "Vladimir Kuzmin",
+        "alias": "ไม่มี (Agile Striker)",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773127098/%E0%B8%A7%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%B4%E0%B9%80%E0%B8%A1%E0%B8%B5%E0%B8%A2_bzmlku.png",
+        "grade": "B+",
+        "fighting_style_th": "มวยไทย, สไตรเกอร์คล่องตัว, เน้นเตะและต่อยระยะกลาง",
+        "fighting_style_en": "Muay Thai Striker, Agile Distance Fighter, Technical Kicker & Puncher",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 147.5,
+            "weight_kg": 66.9,
+            "division": "Bantamweight Muay Thai / Featherweight Muay Thai",
+            "height_ft": "5'8\"",
+            "height_cm": 175,
+            "reach_cm": "183",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "35.9%",
+                "body": "43.8%",
+                "legs": "20.3%",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "35.9%",
+                    "body": "43.8%",
+                    "legs": "20.3%"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "รัสเซีย",
+            "country_en": "Russia",
+            "age": 28,
+            "team_th": "ไฟต์ คลับ อาร์คแองเจิล ไมเคิล (Fight Club Archangel Michael)",
+            "team_en": "Fight Club Archangel Michael"
+        },
+        "overall_record": "23-4 (Muay Thai / ONE Record 6-3)",
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/vladimir-kuzmin/"
+        ],
+        "short_biography": "วลาดิเมียร์ คุซมิน (Vladimir Kuzmin) เป็นนักชกชาวรัสเซีย วัย 28 ปี จากสังกัดไฟต์ คลับ อาร์คแองเจิล ไมเคิล (Fight Club Archangel Michael) มีความถนัดในการต่อสู้สไตล์มวยไทย, สไตรเกอร์คล่องตัว, เน้นเตะและต่อยระยะกลาง ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight Muay Thai / Featherweight Muay Thai (ประมาณ 66.9 กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา สามารถเอาชนะ โมฮานาด บาตบูตติ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โมฮานาด บาตบูตติ",
+            "opponent_en": "",
+            "opponent_country": "อิรัก",
+            "date": "Jan 24, 2026",
+            "rating": 5,
+            "event_en": "ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สเตฟาน โคโรดี",
+            "opponent_en": "",
+            "opponent_country": "ไอร์แลนด์",
+            "date": "Jul 12, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 33: อัลลิเซีย vs โยฮันนา"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เสือแบล็ค ท.พราน49",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 21: รีเกียน vs อเล็กซิส"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซาเฟอร์ ซายิก",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "Mar 01, 2024",
+            "rating": 5,
+            "event_en": "ONE 166: Qatar"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฟาบิโอ เรอิส",
+            "opponent_en": "",
+            "opponent_country": "โปรตุเกส",
+            "date": "Nov 03, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 39"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โจนาธาน แฮ็กเกอร์ตี",
+            "opponent_en": "",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Nov 19, 2022",
+            "rating": 5,
+            "event_en": "ONE Fight Night 4: เคียมเรียน vs คริสเตียน"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เมืองไทย พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 22, 2022",
+            "rating": 5,
+            "event_en": "ONE 159: ไรเนียร์ vs วิตาลี"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "คริส ชอว์",
+            "opponent_en": "",
+            "opponent_country": "สกอตแลนด์",
+            "date": "Feb 25, 2022",
+            "rating": 5,
+            "event_en": "ONE FULL CIRCLE"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "fighter_profile": {
+        "name_th": "พาเวล ยาวอร์สกี",
+        "name_en": "Pawel Jaworski",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773503429/%E0%B8%9E%E0%B8%B2%E0%B9%80%E0%B8%A7%E0%B8%A5_%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%AA%E0%B8%81%E0%B8%B5_sxoiif.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": null,
+            "weight_kg": null,
+            "division": "ไม่ระบุ",
+            "height_ft": "ไม่ระบุ",
+            "height_cm": null,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "โปแลนด์",
+            "country_en": "Poland",
+            "age": null,
+            "team_th": "ไม่ระบุ",
+            "team_en": "ไม่ระบุ"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/pawel-jaworski/"
+        ],
+        "short_biography": "พาเวล ยาวอร์สกี (Pawel Jaworski) เป็นนักชกชาวโปแลนด์ วัย None ปี มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ (ประมาณ None กิโลกรัม) ส่วนสูง None เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 41: สินสมุทร vs จอร์จ สามารถพ่ายแพ้ให้กับ ไท รูโทโล ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Submission Grappling",
+            "method_en": "Unanimous Decision",
+            "round": 1,
+            "time": "10:0",
+            "opponent_th": "ไท รูโทโล",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "Mar 14, 2026",
+            "rating": 5,
+            "event_en": "ONE Fight Night 41: สินสมุทร vs จอร์จ"
+        }
+    ]
+}

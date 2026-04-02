@@ -1,0 +1,123 @@
+{
+    "fighter_profile": {
+        "name_th": "รามาดาน ออนดาช",
+        "name_en": "Ramadan Ondash",
+        "alias": "The Scorpion",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772549100/รามาดาน-ออนดาช_o7usnk.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยไทย, บู๊ดุดัน, หมัดชุดรวดเร็ว",
+        "fighting_style_en": "Muay Thai, High-Intensity Aggressive, Fast Combinations",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 125,
+            "weight_kg": 56.7,
+            "division": "Strawweight",
+            "height_ft": "5'6\"",
+            "height_cm": 168,
+            "reach_cm": "170",
+            "leg_reach_cm": "96"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 9,
+                "body": 4,
+                "legs": 2,
+                "total_per_minute": 15
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 48,
+                "accuracy_by_target_percentage": {
+                    "head": 60,
+                    "body": 25,
+                    "legs": 15
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 44,
+                "defense_by_target_percentage": {
+                    "head": 45,
+                    "body": 35,
+                    "legs": 20
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "เลบานอน",
+            "country_en": "Lebanon",
+            "age": 19,
+            "team_th": "ไทเกอร์ มวยไทย",
+            "team_en": "Tiger Muay Thai"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/ramadan-ondash/"
+        ],
+        "short_biography": "รามาดาน ออนดาช (Ramadan Ondash) เป็นนักชกชาวเลบานอน วัย 19 ปี จากสังกัดไทเกอร์ มวยไทย มีความถนัดในการต่อสู้สไตล์มวยไทย, บู๊ดุดัน, หมัดชุดรวดเร็ว ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 56.7 กิโลกรัม) ส่วนสูง 168 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 38: ฟาบริซิโอ vs เอ็งค์-ออร์กิล สามารถพ่ายแพ้ให้กับ อาลีฟ ส.เดชะพันธ์ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อาลีฟ ส.เดชะพันธ์",
+            "opponent_en": "",
+            "opponent_country": "มาเลเซีย/ไทย",
+            "date": "Dec 06, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 38: ฟาบริซิโอ vs เอ็งค์-ออร์กิล"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:33",
+            "opponent_th": "ชาติพยัคฆ์ ศักดิ์สตูล",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 27, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 114"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 10, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 93"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พิชิตชัย พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 03, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 61"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:20",
+            "opponent_th": "ยางดำ จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 26, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 49"
+        }
+    ]
+}

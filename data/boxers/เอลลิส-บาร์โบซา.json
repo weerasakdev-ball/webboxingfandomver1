@@ -1,0 +1,123 @@
+{
+    "fighter_profile": {
+        "name_th": "เอลลิส บาดร์ บาร์โบซา",
+        "name_en": "Ellis Badr Barboza",
+        "alias": "El Jéfe",
+        "image_url": "https://i.ibb.co/FbsJ9qnC/image.jpg",
+        "grade": "B+",
+        "fighting_style_th": "มวยไทย, บู๊, หมัดชุด",
+        "fighting_style_en": "Muay Thai, Aggressive, Boxing Combinations",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 125,
+            "weight_kg": 56.7,
+            "division": "Strawweight",
+            "height_ft": "5'6\"",
+            "height_cm": 168,
+            "reach_cm": "170",
+            "leg_reach_cm": "96"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 7,
+                "body": 4,
+                "legs": 2,
+                "total_per_minute": 13
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 44,
+                "accuracy_by_target_percentage": {
+                    "head": 55,
+                    "body": 30,
+                    "legs": 15
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 40,
+                "defense_by_target_percentage": {
+                    "head": 38,
+                    "body": 35,
+                    "legs": 27
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "สหราชอาณาจักร",
+            "country_en": "United Kingdom",
+            "age": 25,
+            "team_th": "ทีม เมห์ดี ซาทูต",
+            "team_en": "Team Mehdi Zatout"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/ellis-badr-barboza/"
+        ],
+        "short_biography": "เอลลิส บาดร์ บาร์โบซา (Ellis Badr Barboza) เป็นนักชกชาวสหราชอาณาจักร วัย 25 ปี จากสังกัดทีม เมห์ดี ซาทูต มีความถนัดในการต่อสู้สไตล์มวยไทย, บู๊, หมัดชุด ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 56.7 กิโลกรัม) ส่วนสูง 168 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 142 สามารถพ่ายแพ้ให้กับ จาง เป่ยเหมียน ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "จาง เป่ยเหมียน",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Feb 13, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 142"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:08",
+            "opponent_th": "ชามิล อาดูคอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Aug 02, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 34: รีเกียน vs จอร์จ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 4,
+            "time": "1:55",
+            "opponent_th": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 08, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 28: พระจันทร์ฉาย vs เอลลิส"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อาลีฟ ส.เดชะพันธ์",
+            "opponent_en": "",
+            "opponent_country": "มาเลเซีย/ไทย",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
+        },
+        {
+            "result": "Draw",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 3,
+            "time": "N/A",
+            "opponent_th": "ทองพูน พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 08, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 17: โรมัน vs อเล็กซ์"
+        }
+    ]
+}

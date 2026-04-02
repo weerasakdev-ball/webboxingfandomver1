@@ -1,0 +1,179 @@
+{
+    "fighter_profile": {
+        "name_th": "ซาเวียร์ กอนซาเลส",
+        "name_en": "Xavier Gonzalez",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://i.ibb.co/NdgbN8Jf/image.jpg",
+        "grade": "B",
+        "fighting_style_th": "มวยบู๊ / เตะขาเจาะยาง",
+        "fighting_style_en": "Aggressive / Leg Kicker",
+        "stance": "Orthodox",
+        "physical_stats": {
+            "weight_lbs": "ยังไม่มีข้อมูล",
+            "weight_kg": "ยังไม่มีข้อมูล",
+            "division": "Flyweight / Strawweight",
+            "height_ft": "5'7\"",
+            "height_cm": 171,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "สเปน",
+            "country_en": "Spain",
+            "age": 24,
+            "team_th": "ส.เดชะพันธ์",
+            "team_en": "S.Dechaphan"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/xavier-gonzalez/"
+        ],
+        "short_biography": "ซาเวียร์ กอนซาเลส (Xavier Gonzalez) เป็นนักชกชาวสเปน วัย 24 ปี จากสังกัดส.เดชะพันธ์ มีความถนัดในการต่อสู้สไตล์มวยบู๊ / เตะขาเจาะยาง ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight / Strawweight (ประมาณ ยังไม่มีข้อมูล กิโลกรัม) ส่วนสูง 171 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 103 สามารถพ่ายแพ้ให้กับ วอลเตอร์ กอนซาลเวส ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "วอลเตอร์ กอนซาลเวส",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Apr 04, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 103"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:21",
+            "opponent_th": "เพชรกิตติ เจี๊ยบรามอินทรา",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 06, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 90"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พลังบุญ ว.สันต์ใต้",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 25, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 84"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:28",
+            "opponent_th": "วิน ศิษย์เจ๊นิ่ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 02, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 73"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "วิน ศิษย์เจ๊นิ่ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 10, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 62"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 26, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 49"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โอมาร์ เอล ฮาลาบี",
+            "opponent_en": "",
+            "opponent_country": "เลบานอน",
+            "date": "Nov 10, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 40"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ดาบดำ ปตท.ทองทวี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 11, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 28"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ดาบดำ ปตท.ทองทวี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 16, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 21"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 28, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 14"
+        }
+    ]
+}

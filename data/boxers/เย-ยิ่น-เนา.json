@@ -1,0 +1,136 @@
+{
+    "fighter_profile": {
+        "name_th": "เย ยิ่น เนา",
+        "name_en": "Ye Yint Nao",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324028/%E0%B9%80%E0%B8%A2_%E0%B8%A2%E0%B8%B4%E0%B9%88%E0%B8%99_%E0%B9%80%E0%B8%99%E0%B8%B2_mwwlhe.png",
+        "grade": "ยังไม่มีข้อมูล",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 136.4,
+            "weight_kg": 61.87,
+            "division": "Bantamweight",
+            "height_ft": "5'6\"",
+            "height_cm": 168,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "เมียนมา",
+            "country_en": "Myanmar",
+            "age": 21,
+            "team_th": "Team Mehdi Zatout : เพชรเขากระโดง ลูกเจ้าแม่ไทรทอง",
+            "team_en": "Team Mehdi Zatout"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/ye/"
+        ],
+        "short_biography": "เย ยิ่น เนา (Ye Yint Nao) เป็นนักชกชาวเมียนมา วัย 21 ปี จากสังกัดTeam Mehdi Zatout : เพชรเขากระโดง ลูกเจ้าแม่ไทรทอง มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 61.87 กิโลกรัม) ส่วนสูง 168 เซนติเมตร กำลังมุ่งมั่นฝึกซ้อมและรอพิสูจน์ฝีมือในไฟต์ต่อไปบนสังเวียน"
+    },
+    "upcoming_fights": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 146",
+            "weight_lbs": 136.4,
+            "division": "Bantamweight"
+        }
+<<<<<<< HEAD
+    ],
+    "fight_history": []
+=======
+      }
+    },
+    "personal_info": {
+      "country_th": "เมียนมา",
+      "country_en": "Myanmar",
+      "age": 21,
+      "team_th": "Team Mehdi Zatout : เพชรเขากระโดง ลูกเจ้าแม่ไทรทอง",
+      "team_en": "Team Mehdi Zatout"
+    },
+    "target_url": "",
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/ye/"
+    ]
+  },
+  "upcoming_fights": [],
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 146",
+      "weight_lbs": 136.4,
+      "division": "Bantamweight"
+    }
+  ],
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "N/A",
+      "opponent_th": "ไมต์ ไยน์",
+      "opponent_en": "",
+      "opponent_country": "เมียนมา",
+      "date": "Oct 26, 2018",
+      "rating": 5,
+      "event_en": "ONE PURSUIT OF GREATNESS"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "N/A",
+      "opponent_th": "ซอว์ มิน มิน",
+      "opponent_en": "",
+      "opponent_country": "เมียนมา",
+      "date": "Feb 23, 2018",
+      "rating": 5,
+      "event_en": "ONE QUEST FOR GOLD"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "3:57",
+      "opponent_th": "ซอ ทาร์ เง",
+      "opponent_en": "",
+      "opponent_country": "เมียนมา",
+      "date": "Nov 03, 2017",
+      "rating": 5,
+      "event_en": "ONE HERO’S DREAM"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Unanimous Decision",
+      "round": 2,
+      "time": "N/A",
+      "opponent_th": "พัต จอว์ ลิน ไหนง์",
+      "opponent_en": "",
+      "opponent_country": "เมียนมา",
+      "date": "Jun 30, 2017",
+      "rating": 5,
+      "event_en": "ONE LIGHT OF A NATION"
+    }
+  ]
+>>>>>>> 800a84f76550249bee288e51067c82265bb7a017
+}

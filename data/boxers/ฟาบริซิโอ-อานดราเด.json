@@ -1,0 +1,190 @@
+{
+    "fighter_profile": {
+        "name_th": "ฟาบริซิโอ อานดราเด",
+        "name_en": "Fabrício Andrade",
+        "alias": "Wonder Boy / เด็กมหัศจรรย์",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773124960/%E0%B8%AD%E0%B8%B1%E0%B8%99%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B9%89_xfig5k.png",
+        "grade": "A+",
+        "fighting_style_th": "มวยไทย, คิกบ็อกซิ่ง, MMA ครบเครื่อง, เน้น KO/TKO",
+        "fighting_style_en": "Muay Thai Striker, Kickboxing base, Power Puncher & Knee Specialist, MMA Finisher",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 145,
+            "weight_kg": 65.8,
+            "division": "Bantamweight (ONE MMA)",
+            "height_ft": "5'7.5\"",
+            "height_cm": 171,
+            "reach_cm": "181",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "บราซิล",
+            "country_en": "Brazil",
+            "age": 28,
+            "team_th": "ไทเกอร์ มวยไทย / อีโวลฟ์ เอ็มเอ็มเอ",
+            "team_en": "Tiger Muay Thai / Evolve MMA"
+        },
+        "overall_record": "MMA: 10-3 (1 NC) | Kickboxing/Muay Thai: 20-4 (7 KO)",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/fabricio-andrade/"
+        ],
+        "short_biography": "ฟาบริซิโอ อานดราเด (Fabrício Andrade) เป็นนักชกชาวบราซิล วัย 28 ปี จากสังกัดไทเกอร์ มวยไทย / อีโวลฟ์ เอ็มเอ็มเอ มีความถนัดในการต่อสู้สไตล์มวยไทย, คิกบ็อกซิ่ง, MMA ครบเครื่อง, เน้น KO/TKO ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ONE MMA) (ประมาณ 65.8 กิโลกรัม) ส่วนสูง 171 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 38: ฟาบริซิโอ vs เอ็งค์-ออร์กิล สามารถพ่ายแพ้ให้กับ เอ็งค์-ออร์กิล บาทาร์คู ด้วยรูปแบบ Submission ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 4,
+            "time": "1:33",
+            "opponent_th": "เอ็งค์-ออร์กิล บาทาร์คู",
+            "opponent_en": "",
+            "opponent_country": "มองโกเลีย",
+            "date": "Dec 06, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 38: ฟาบริซิโอ vs เอ็งค์-ออร์กิล"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:42",
+            "opponent_th": "ควอน วอน อิล",
+            "opponent_en": "",
+            "opponent_country": "เกาหลีใต้",
+            "date": "Jan 24, 2025",
+            "rating": 5,
+            "event_en": "ONE 170"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:57",
+            "opponent_th": "โจนาธาน แฮ็กเกอร์ตี",
+            "opponent_en": "",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Nov 03, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 16: โจนาธาน vs ฟาบริซิโอ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 4,
+            "time": "5:00",
+            "opponent_th": "จอห์น ลินีเคอร์",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Feb 25, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 7: จอห์น vs ฟาบริซิโอ II"
+        },
+        {
+            "result": "Draw",
+            "discipline_en": "MMA",
+            "method_en": "Decision",
+            "round": 3,
+            "time": "N/A",
+            "opponent_th": "จอห์น ลินีเคอร์",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Oct 22, 2022",
+            "rating": 5,
+            "event_en": "ONE Fight Night 3: จอห์น vs ฟาบริซิโอ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:02",
+            "opponent_th": "ควอน วอน อิล",
+            "opponent_en": "",
+            "opponent_country": "เกาหลีใต้",
+            "date": "Jun 03, 2022",
+            "rating": 5,
+            "event_en": "ONE 158: ตะวันฉาย vs นิคลาส"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:37",
+            "opponent_th": "เจเรมี ปาคาทิว",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Feb 25, 2022",
+            "rating": 5,
+            "event_en": "ONE FULL CIRCLE"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "4:41",
+            "opponent_th": "หลี่ ไค เวิน",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Dec 17, 2021",
+            "rating": 5,
+            "event_en": "ONE Winter Warriors II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "โชโก ซาโตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Feb 05, 2021",
+            "rating": 5,
+            "event_en": "ONE Unbreakable III"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 2,
+            "time": "1:11",
+            "opponent_th": "มาร์ค แฟร์เท็กซ์ อาเบลาร์โด",
+            "opponent_en": "",
+            "opponent_country": "นิวซีแลนด์/ฟิลิปปินส์",
+            "date": "Jul 31, 2020",
+            "rating": 5,
+            "event_en": "ONE No Surrender"
+        }
+    ]
+}

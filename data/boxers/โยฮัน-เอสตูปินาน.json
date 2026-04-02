@@ -1,0 +1,141 @@
+{
+    "fighter_profile": {
+        "name_th": "โยฮัน เอสตูปินาน",
+        "name_en": "Johan Estupinan",
+        "alias": "Panda Kick",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531979/%E0%B9%82%E0%B8%A2%E0%B8%AE%E0%B8%B1%E0%B8%99-%E0%B9%80%E0%B8%AD%E0%B8%AA%E0%B8%95%E0%B8%B9%E0%B8%9B%E0%B8%B4%E0%B8%99%E0%B8%B2%E0%B8%99_bzlhwo.jpg",
+        "grade": "A",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 134.9,
+            "weight_kg": 61.2,
+            "division": "Flyweight",
+            "height_ft": "5'8\"",
+            "height_cm": 175,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "โคลอมเบีย",
+            "country_en": "Colombia",
+            "age": 23,
+            "team_th": "JCFernandez / Team CSK",
+            "team_en": "JCFernandez / Team CSK"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/johan-estupinan/"
+        ],
+        "short_biography": "โยฮัน เอสตูปินาน (Johan Estupinan) เป็นนักชกชาวโคลอมเบีย วัย 23 ปี จากสังกัดJCFernandez / Team CSK มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 61.2 กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 37: โรมัน vs ซาเมต สามารถพ่ายแพ้ให้กับ แบล็คแพนเธอร์ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:29",
+            "opponent_th": "แบล็คแพนเธอร์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 08, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 37: โรมัน vs ซาเมต"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ทาอิกิ นาอิโตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Jun 07, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 32: นักรบ vs จ้าวเสือใหญ่"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โจฮัน กาซาลี",
+            "opponent_en": "",
+            "opponent_country": "มาเลเซีย/สหรัฐอเมริกา",
+            "date": "Jan 24, 2025",
+            "rating": 5,
+            "event_en": "ONE 170"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:07",
+            "opponent_th": "ซากาเรีย เอล จามารี",
+            "opponent_en": "",
+            "opponent_country": "โมร็อกโก",
+            "date": "Oct 04, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 25: อเล็กซิส vs รีเกียน II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:28",
+            "opponent_th": "ฌอน คลิมาโค",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์/สหรัฐอเมริกา",
+            "date": "Sep 07, 2024",
+            "rating": 5,
+            "event_en": "ONE 168: Denver"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซาเฟอร์ ซายิก",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "Jun 07, 2024",
+            "rating": 5,
+            "event_en": "ONE 167: ตะวันฉาย vs โจ II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:27",
+            "opponent_th": "โคอูตะ โอโมริ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "May 24, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 64"
+        }
+    ]
+}

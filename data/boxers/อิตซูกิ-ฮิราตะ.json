@@ -1,0 +1,183 @@
+{
+    "fighter_profile": {
+        "name_th": "อิตซูกิ ฮิราตะ",
+        "name_en": "Itsuki Hirata",
+        "alias": "STRONG HEART FIGHTER",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 113.5,
+            "weight_kg": 51.5,
+            "division": "",
+            "height_ft": "5'1\"",
+            "height_cm": 157,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 26,
+            "team_th": "Serra-Longo Fight Team",
+            "team_en": ""
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/itsuki-hirata/"
+        ],
+        "short_biography": "อิตซูกิ ฮิราตะ (Itsuki Hirata) เป็นนักชกชาวญี่ปุ่น วัย 26 ปี จากสังกัดSerra-Longo Fight Team มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก  (ประมาณ 51.5 กิโลกรัม) ส่วนสูง 157 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 173: ซุปเปอร์บอน vs มาซาอากิ สามารถพ่ายแพ้ให้กับ ชิฮิโร ซาวาดะ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "ชิฮิโร ซาวาดะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Nov 16, 2025",
+            "rating": "",
+            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "อาร์ตี คาตรี",
+            "opponent_en": "",
+            "opponent_country": "อินเดีย",
+            "date": "Aug 15, 2025",
+            "rating": "",
+            "event_en": "ONE ลุมพินี 120"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "1:31",
+            "opponent_th": "วิกตอเรีย ซูซา",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Jun 07, 2024",
+            "rating": "",
+            "event_en": "ONE 167: ตะวันฉาย vs โจ II"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "อายากะ มิอูระ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Jan 28, 2024",
+            "rating": "",
+            "event_en": "ONE 165: ซุปเปอร์เล็ก vs ทาเครุ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "ฮาม ซอ ฮี",
+            "opponent_en": "",
+            "opponent_country": "เกาหลีใต้",
+            "date": "Mar 25, 2023",
+            "rating": "",
+            "event_en": "ONE Fight Night 8: ซุปเปอร์เล็ก vs แดเนียล"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "หลิน เฮอจิน",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Aug 27, 2022",
+            "rating": "",
+            "event_en": "ONE Fight Night 1: อาเดรียโน VS ดิมิเทรียส II"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "จีฮิน รัดซวน",
+            "opponent_en": "",
+            "opponent_country": "มาเลเซีย",
+            "date": "Mar 26, 2022",
+            "rating": "",
+            "event_en": "ONE X"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "อลิส แอนเดอร์สัน",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "Sep 03, 2021",
+            "rating": "",
+            "event_en": "Empower"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "3:27",
+            "opponent_th": "ไนเรน ครอว์ลีย์",
+            "opponent_en": "",
+            "opponent_country": "นิวซีแลนด์",
+            "date": "Feb 07, 2020",
+            "rating": "",
+            "event_en": "Warrior’s Code"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 2,
+            "time": "4:44",
+            "opponent_th": "ริกะ อิชิเกะ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 13, 2019",
+            "rating": "",
+            "event_en": "CENTURY PART I"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "2:59",
+            "opponent_th": "แองเจลี ซาบานาล",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Jun 15, 2019",
+            "rating": "",
+            "event_en": "LEGENDARY QUEST"
+        }
+    ]
+}

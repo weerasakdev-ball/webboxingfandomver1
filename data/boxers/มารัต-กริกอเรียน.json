@@ -1,0 +1,176 @@
+{
+    "fighter_profile": {
+        "name_th": "มารัต กริกอเรียน",
+        "name_en": "Marat Grigorian",
+        "alias": "The Armenian Powerhouse",
+        "image_url": "https://i.ibb.co/S4bR15PR/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "คิกบ็อกซิ่ง, มวยหมัด, บู๊ดุดัน",
+        "fighting_style_en": "Kickboxing, Power Puncher, High-Pressure Aggressive",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 155.2,
+            "weight_kg": 70.4,
+            "division": "Featherweight",
+            "height_ft": "5'9\"",
+            "height_cm": 176,
+            "reach_cm": "180",
+            "leg_reach_cm": "100"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 9,
+                "body": 4,
+                "legs": 2,
+                "total_per_minute": 15
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 42,
+                "accuracy_by_target_percentage": {
+                    "head": 60,
+                    "body": 25,
+                    "legs": 15
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 48,
+                "defense_by_target_percentage": {
+                    "head": 50,
+                    "body": 35,
+                    "legs": 15
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "อาร์เมเนีย",
+            "country_en": "Armenia",
+            "age": 34,
+            "team_th": "เฮมเมอร์ส ยิม",
+            "team_en": "Hemmers Gym"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/marat-grigorian/"
+        ],
+        "short_biography": "มารัต กริกอเรียน (Marat Grigorian) เป็นนักชกชาวอาร์เมเนีย วัย 34 ปี จากสังกัดเฮมเมอร์ส ยิม มีความถนัดในการต่อสู้สไตล์คิกบ็อกซิ่ง, มวยหมัด, บู๊ดุดัน ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Featherweight (ประมาณ 70.4 กิโลกรัม) ส่วนสูง 176 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 173: ซุปเปอร์บอน vs มาซาอากิ สามารถเอาชนะ รูคิยะ อันโปะ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "รูคิยะ อันโปะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Nov 16, 2025",
+            "rating": 5,
+            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:36",
+            "opponent_th": "อับเดลาลี เซฮิดี",
+            "opponent_en": "",
+            "opponent_country": "โมร็อกโก",
+            "date": "Dec 20, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 92"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "ซุปเปอร์บอน ซุปเปอร์บอนเทรนนิงแคมป์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 05, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 58: ซุปเปอร์บอน vs มารัต"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:20",
+            "opponent_th": "สิทธิชัย ศิษย์สองพี่น้อง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 28, 2024",
+            "rating": 5,
+            "event_en": "ONE 165: ซุปเปอร์เล็ก vs ทาเครุ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "ชิงกิซ อัลลาซอฟ",
+            "opponent_en": "",
+            "opponent_country": "อาเซอร์ไบจาน/เบลารุส",
+            "date": "Aug 04, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ไทฟุน ออสแคน",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี/เนเธอร์แลนด์",
+            "date": "Oct 01, 2022",
+            "rating": 5,
+            "event_en": "ONE Fight Night 2: ซง vs แองเจลา III"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "ซุปเปอร์บอน ซุปเปอร์บอนเทรนนิงแคมป์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 26, 2022",
+            "rating": 5,
+            "event_en": "ONE X"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:26",
+            "opponent_th": "แอนดี ซาวเวอร์",
+            "opponent_en": "",
+            "opponent_country": "เนเธอร์แลนด์",
+            "date": "Oct 15, 2021",
+            "rating": 5,
+            "event_en": "ONE First Strike"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:52",
+            "opponent_th": "อีวาน คอนดราเทฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Dec 04, 2020",
+            "rating": 5,
+            "event_en": "ONE Big Bang"
+        }
+    ]
+}

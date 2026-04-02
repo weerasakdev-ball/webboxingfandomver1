@@ -1,0 +1,50 @@
+{
+  "fighter_profile": {
+    "name_th": "จอว์ สวาร์ วิน",
+    "name_en": "",
+    "alias": "",
+    "image_url": "",
+    "grade": "",
+    "fighting_style_th": "",
+    "fighting_style_en": "",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": "",
+      "weight_kg": "",
+      "division": "",
+      "height_ft": "",
+      "height_cm": 175,
+      "reach_cm": "",
+      "leg_reach_cm": ""
+    },
+    "performance_stats": {
+      "significant_strikes_per_minute": {},
+      "significant_strike_accuracy": {},
+      "defensive_stats": {}
+    },
+    "personal_info": {
+      "country_th": "เมียนมา",
+      "country_en": "Myanmar",
+      "age": 24,
+      "team_th": "",
+      "team_en": ""
+    },
+    "target_urls": []
+  },
+  "weigh_in_history": [],
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:25",
+      "opponent_th": "มูกะ",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Jan 23, 2026",
+      "rating": "",
+      "event_en": "ONE ลุมพินี 139"
+    }
+  ]
+}

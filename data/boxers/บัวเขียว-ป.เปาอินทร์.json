@@ -1,0 +1,176 @@
+{
+    "fighter_profile": {
+        "name_th": "บัวเขียว ป.เปาอินทร์",
+        "name_en": "Buakiao Por.Paoin",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773123495/%E0%B8%9A%E0%B8%B1%E0%B8%A7%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7_%E0%B8%9B.%E0%B9%80%E0%B8%9B%E0%B8%B2%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C_lmiu4d.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": "ไม่ระบุ",
+            "weight_kg": "ไม่ระบุ",
+            "division": "ไม่ระบุ",
+            "height_ft": "5'9\"",
+            "height_cm": 177,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 24,
+            "team_th": "เอ็นแอนด์พี บ็อกซิ่ง ยิม",
+            "team_en": "N&P Boxing Gym"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/buakhiao-por-paoin/"
+        ],
+        "short_biography": "บัวเขียว ป.เปาอินทร์ (Buakiao Por.Paoin) เป็นนักชกชาวไทย วัย 24 ปี จากสังกัดเอ็นแอนด์พี บ็อกซิ่ง ยิม มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ส่วนสูง 177 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 140 สามารถพ่ายแพ้ให้กับ ซ่อนรัก แฟร์เท็กซ์ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:21",
+            "opponent_th": "ซ่อนรัก แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Jan 30, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 140"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แมมมอส ส.สละชีพ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 31, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 131"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เด็ดดวงเล็ก ทอฝันฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 05, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 123"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:10",
+            "opponent_th": "ยาคุบ โพสลอว์สกี",
+            "opponent_en": "",
+            "opponent_country": "โปแลนด์",
+            "date": "Apr 18, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 105"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรวิชิต มาวินมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 18, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 83"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรกาฟิวส์ จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 16, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 75"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "รักสยาม ส.บุญมีฤทธิ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 69"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:59",
+            "opponent_th": "เดอนิส เดอมีร์คาปู",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี/โมร็อกโก",
+            "date": "Feb 23, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 53"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พฤหัสน้อย ทีบีเอ็มยิม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 17, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 41"
+        }
+    ]
+}

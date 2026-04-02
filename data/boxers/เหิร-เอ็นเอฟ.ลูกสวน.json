@@ -1,0 +1,118 @@
+{
+    "fighter_profile": {
+        "name_th": "เหิร เอ็นเอฟ.ลูกสวน",
+        "name_en": "Hern NF Looksuan",
+        "alias": "ซ้ายคอลเซ็นเตอร์ / แข้งซ้ายมหาโหด",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772953374/เหิร_เอ็นเอฟ.ลูกสวน_f7z0va.png",
+        "grade": "A",
+        "fighting_style_th": "มวยซ้าย, เตะซ้ายหนัก, บู๊ดุดัน",
+        "fighting_style_en": "Southpaw, Powerful Left Kicker, Aggressive Brawler",
+        "stance": "Southpaw (Left-handed)",
+        "physical_stats": {
+            "weight_lbs": 116.6,
+            "weight_kg": 52.89,
+            "division": "Strawweight",
+            "height_ft": "5'4\"",
+            "height_cm": 164,
+            "reach_cm": "165",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย (ตราด)",
+            "country_en": "Thailand",
+            "age": 23,
+            "team_th": "เอ็นเอฟ.ลูกสวน (NF Looksuan)",
+            "team_en": "NF Looksuan"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/hern-nf-looksuan/"
+        ],
+        "short_biography": "เหิร เอ็นเอฟ.ลูกสวน (Hern NF Looksuan) เป็นนักชกชาวไทย (ตราด) วัย 23 ปี จากสังกัดเอ็นเอฟ.ลูกสวน (NF Looksuan) มีความถนัดในการต่อสู้สไตล์มวยซ้าย, เตะซ้ายหนัก, บู๊ดุดัน ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 52.89 กิโลกรัม) ส่วนสูง 164 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถเอาชนะ เบอร์หนึ่ง ส.สละชีพ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:44",
+            "opponent_th": "เบอร์หนึ่ง ส.สละชีพ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 145"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เหลี่ยมเพชร ส.เดชะพันธ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 04, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 103"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:21",
+            "opponent_th": "หินเหล็กไฟ สามชัยวิเศษสุข",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 17, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 94"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:39",
+            "opponent_th": "เพชรทองเก้า พชรยิม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 18, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 83"
+        }
+    ],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 145",
+            "weight_lbs": 116.6,
+            "division": "Strawweight"
+        }
+    ]
+}

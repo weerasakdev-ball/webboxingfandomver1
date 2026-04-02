@@ -1,0 +1,131 @@
+{
+    "fighter_profile": {
+        "name_th": "หยวน เผิงเจี๋ย",
+        "name_en": "Yuan Pengjie",
+        "alias": "ไม่ระบุ",
+        "image_url": "ไม่ระบุ",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "คิกบ็อกซิ่ง / มวยไทย",
+        "fighting_style_en": "Kickboxing / Muay Thai",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 134.6,
+            "weight_kg": 61.05,
+            "division": "Flyweight",
+            "height_ft": "ไม่ระบุ",
+            "height_cm": 0,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "จีน",
+            "country_en": "China",
+            "age": 23,
+            "team_th": "ไม่ระบุ",
+            "team_en": "ไม่ระบุ"
+        },
+        "target_urls": [
+            "ยังไม่มีข้อมูล"
+        ],
+        "short_biography": "หยวน เผิงเจี๋ย (Yuan Pengjie) เป็นนักชกชาวจีน วัย 23 ปี มีความถนัดในการต่อสู้สไตล์คิกบ็อกซิ่ง / มวยไทย ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 61.05 กิโลกรัม) ส่วนสูง 0 เซนติเมตร ผลงานการชกล่าสุดในรายการ Rise World Series 2025 Final สามารถพ่ายแพ้ให้กับ คาน นากามูระ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 148",
+            "weight_lbs": 134.6,
+            "division": "Flyweight"
+        },
+        {
+            "event_name": "ไม่ระบุ",
+            "weight_lbs": "ไม่ระบุ",
+            "division": "ไม่ระบุ"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "คาน นากามูระ",
+            "opponent_en": "Kan Nakamura",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "ไม่ระบุ 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "Rise World Series 2025 Final"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฮิวมะ ฮิตาชิ",
+            "opponent_en": "Hyuma Hitachi",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Nov 02, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "Rise World Series 2025 Yokohama"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ริดา เบลลาเซน",
+            "opponent_en": "Rida Bellahcen",
+            "opponent_country": "โมร็อกโก",
+            "date": "Jun 21, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "Rise El Dorado 2025"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฮิวมะ ฮิตาชิ",
+            "opponent_en": "Hyuma Hitachi",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Mar 28, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "Rise 185"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "คาน นากามูระ",
+            "opponent_en": "Kan Nakamura",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Jan 25, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "Rise World Series 2024 Yokohama"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "หรงหลง เจียง",
+            "opponent_en": "Ronglong Jiang",
+            "opponent_country": "จีน",
+            "date": "Sep 07, 2024",
+            "rating": "ไม่ระบุ",
+            "event_en": "Battle Time Championship"
+        }
+    ],
+    "fight_history_one_championship": [],
+    "upcoming_fights": []
+}

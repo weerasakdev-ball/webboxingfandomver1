@@ -1,0 +1,146 @@
+{
+    "fighter_profile": {
+        "name_th": "ทุน มิน ออง",
+        "name_en": "Tun Min Aung",
+        "alias": "The Phenom",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324027/%E0%B8%97%E0%B8%B8%E0%B8%99_%E0%B8%A1%E0%B8%B4%E0%B8%99_%E0%B8%AD%E0%B8%AD%E0%B8%87_ktepyy.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 170.8,
+            "weight_kg": 77.47,
+            "division": "Welterweight",
+            "height_ft": "5'11\"",
+            "height_cm": 182,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "เมียนมา",
+            "country_en": "Myanmar",
+            "age": 19,
+            "team_th": "จีซีซี เลทเวย์ คลับ",
+            "team_en": "GCC Lethwei Club"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/tun-min-aung/"
+        ],
+        "short_biography": "ทุน มิน ออง (Tun Min Aung) เป็นนักชกชาวเมียนมา วัย 19 ปี จากสังกัดจีซีซี เลทเวย์ คลับ มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Welterweight (ประมาณ 77.47 กิโลกรัม) ส่วนสูง 182 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 146 สามารถพ่ายแพ้ให้กับ เพชรเขากระโดง ลูกเจ้าแม่ไทรทอง ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "upcoming_fights": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 146",
+            "weight_lbs": 170.8,
+            "division": "Welterweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรเขากระโดง ลูกเจ้าแม่ไทรทอง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 13, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 146"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เต็งหนึ่ง แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 17, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 129"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:49",
+            "opponent_th": "ฉัตรเพชร รร.กีฬาลำปาง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 30, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 110"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:40",
+            "opponent_th": "อับเดลาลี เซฮิดี",
+            "opponent_en": "",
+            "opponent_country": "โมร็อกโก",
+            "date": "Nov 22, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 88"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:01",
+            "opponent_th": "ตรัน ก๊วก ตวน",
+            "opponent_en": "",
+            "opponent_country": "เวียดนาม",
+            "date": "Jul 12, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 70"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ดีมิทรี คิรีเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "May 31, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 65"
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "fighter_profile": {
+        "name_th": "อสูรน้อย ศิษย์จ่าสิงห์",
+        "name_en": "",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324023/%E0%B8%AD%E0%B8%AA%E0%B8%B9%E0%B8%A3%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2_%E0%B8%A8%E0%B8%B4%E0%B8%A9%E0%B8%A2%E0%B9%8C%E0%B8%88%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C_yflcrx.png",
+        "grade": "N/A",
+        "fighting_style_th": "ยังไม่มีข้อมูล",
+        "fighting_style_en": "ยังไม่มีข้อมูล",
+        "stance": "ยังไม่มีข้อมูล",
+        "physical_stats": {
+            "weight_lbs": 127.4,
+            "weight_kg": 57.79,
+            "division": "Flyweight",
+            "height_ft": "ยังไม่มีข้อมูล",
+            "height_cm": 0,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 0,
+            "team_th": "ยังไม่มีข้อมูล",
+            "team_en": "ยังไม่มีข้อมูล"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/arsoonnoi-sitjasing/"
+        ],
+        "short_biography": "อสูรน้อย ศิษย์จ่าสิงห์ () เป็นนักชกชาวไทย วัย 0 ปี จากสังกัดยังไม่มีข้อมูล มีความถนัดในการต่อสู้สไตล์ยังไม่มีข้อมูล ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 57.79 กิโลกรัม) ส่วนสูง 0 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 146 สามารถเอาชนะ เหนือพยัคฆ์ จิตรเมืองนนท์ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 146",
+            "weight_lbs": 127.4,
+            "division": "Flyweight"
+        }
+    ],
+    "upcoming_fights": [],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เหนือพยัคฆ์ จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 13, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 146"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:43",
+            "opponent_th": "สมานชัย ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 13, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 112"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "fighter_profile": {
+        "name_th": "ฮิว",
+        "name_en": "Hyu",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773503431/%E0%B8%AE%E0%B8%B4%E0%B8%A7_abo6bc.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 134.9,
+            "weight_kg": 61.2,
+            "division": "ไม่ระบุ",
+            "height_ft": "ไม่ระบุ",
+            "height_cm": null,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 23,
+            "team_th": "ทีมเมห์ดี ซาทูต / ทีมทรีเค",
+            "team_en": "Team Mehdi Zatout / TEAM3K"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/hyu/"
+        ],
+        "short_biography": "ฮิว (Hyu) เป็นนักชกชาวญี่ปุ่น วัย 23 ปี จากสังกัดทีมเมห์ดี ซาทูต / ทีมทรีเค มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ (ประมาณ 61.2 กิโลกรัม) ส่วนสูง None เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 41: สินสมุทร vs จอร์จ สามารถเอาชนะ เสือแบล็ค ท.พราน49 ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:35",
+            "opponent_th": "เสือแบล็ค ท.พราน49",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 14, 2026",
+            "rating": 5,
+            "event_en": "ONE Fight Night 41: สินสมุทร vs จอร์จ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:45",
+            "opponent_th": "จอร์แดน เอสตูปินาน",
+            "opponent_en": "",
+            "opponent_country": "โคลอมเบีย",
+            "date": "Sep 06, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 35: แจ็กกี vs สเตลลา"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:12",
+            "opponent_th": "ซากาเรีย เอล จามารี",
+            "opponent_en": "",
+            "opponent_country": "โมร็อกโก",
+            "date": "Mar 23, 2025",
+            "rating": 5,
+            "event_en": "ONE 172: ทาเครุ vs รถถัง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:42",
+            "opponent_th": "ลีอันโดร มิรานดา",
+            "opponent_en": "",
+            "opponent_country": "โปรตุเกส",
+            "date": "Feb 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 96"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยูเซฟ ซาด",
+            "opponent_en": "",
+            "opponent_country": "แอลจีเรีย",
+            "date": "Sep 27, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
+        }
+    ]
+}

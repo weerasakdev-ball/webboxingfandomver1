@@ -1,0 +1,73 @@
+{
+    "fighter_profile": {
+        "name_th": "เบน วูลลิส",
+        "name_en": "Ben Woolliss",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773503429/%E0%B9%80%E0%B8%9A%E0%B8%99_%E0%B8%A7%E0%B8%B9%E0%B8%A5%E0%B8%A5%E0%B8%B4%E0%B8%AA_qua55g.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 145,
+            "weight_kg": 65.8,
+            "division": "ไม่ระบุ",
+            "height_ft": "5'9\"",
+            "height_cm": 175,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไม่ระบุ",
+            "country_en": "ไม่ระบุ",
+            "age": null,
+            "team_th": "ไม่ระบุ",
+            "team_en": "ไม่ระบุ"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/ben-woolliss/"
+        ],
+        "short_biography": "เบน วูลลิส (Ben Woolliss) เป็นนักชกชาวไม่ระบุ วัย None ปี มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ (ประมาณ 65.8 กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 41: สินสมุทร vs จอร์จ สามารถเอาชนะ จอห์น ลินีเคอร์ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:57",
+            "opponent_th": "จอห์น ลินีเคอร์",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Mar 14, 2026",
+            "rating": 5,
+            "event_en": "ONE Fight Night 41: สินสมุทร vs จอร์จ"
+        }
+    ]
+}

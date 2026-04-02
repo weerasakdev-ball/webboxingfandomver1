@@ -1,0 +1,150 @@
+{
+    "fighter_profile": {
+        "name_th": "มังกร บูมเด็กเซียน",
+        "name_en": "Mungkorn Boomdeksean",
+        "alias": "มังกรสุรินทร์ / จอมถล่มหัวใจเพชร",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773123898/%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3_wkqde6.png",
+        "grade": "B",
+        "fighting_style_th": "มวยเดินบู๊, ทรหด, อาวุธหนัก",
+        "fighting_style_en": "Aggressive Brawler, Highly Durable, Heavy Hitter",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 119,
+            "weight_kg": 54,
+            "division": "Catchweight (119 lbs / 121 lbs)",
+            "height_ft": "5'2\"",
+            "height_cm": 159,
+            "reach_cm": "161",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "43.0%"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "43.0%",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย (สุรินทร์)",
+            "country_en": "Thailand",
+            "age": 24,
+            "team_th": "บูมเด็กเซียน (Boomdeksean)",
+            "team_en": "Boomdeksean"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/mungkorn-boomdeksean/"
+        ],
+        "short_biography": "มังกร บูมเด็กเซียน (Mungkorn Boomdeksean) เป็นนักชกชาวไทย (สุรินทร์) วัย 24 ปี จากสังกัดบูมเด็กเซียน (Boomdeksean) มีความถนัดในการต่อสู้สไตล์มวยเดินบู๊, ทรหด, อาวุธหนัก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Catchweight (119 lbs / 121 lbs) (ประมาณ 54 กิโลกรัม) ส่วนสูง 159 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 103 สามารถพ่ายแพ้ให้กับ วัชรพล เหล่าโชคเจริญ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:52",
+            "opponent_th": "วัชรพล เหล่าโชคเจริญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 04, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 103"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ทองลำพูน เอฟเอ.กรุ๊ป",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 14, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 97"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ทองลำพูน เอฟเอ.กรุ๊ป",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 29, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 89"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:24",
+            "opponent_th": "โปเย แอ๊ดสันป่าตอง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 18, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 83"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แก่นเหล็ก ส.โชคมีชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 69"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ไม้ซางคำ ส.ยิ่งเจริญการช่าง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 06, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 36"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:52",
+            "opponent_th": "ทรงชัยน้อย เกียรติทรงฤทธิ์",
+            "opponent_en": "",
+            "opponent_country": "ไม่ระบุ",
+            "date": "Jun 30, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 23"
+        }
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "fighter_profile": {
+        "name_th": "เยลเต้ บลอมเมิร์ต",
+        "name_en": "Jelte Blommaert",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773128326/%E0%B9%80%E0%B8%A2%E0%B9%80%E0%B8%95%E0%B9%89_qg93kv.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 126,
+            "weight_kg": 57.1,
+            "division": "Catchweight (126 lbs) / Strawweight",
+            "height_ft": "5'6\"",
+            "height_cm": 170,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "เบลเยียม",
+            "country_en": "Belgium",
+            "age": 26,
+            "team_th": "เอฟเอ กรุ๊ป (FA Group)",
+            "team_en": "FA Group"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/jelte-blommaert/"
+        ],
+        "short_biography": "เยลเต้ บลอมเมิร์ต (Jelte Blommaert) เป็นนักชกชาวเบลเยียม วัย 26 ปี จากสังกัดเอฟเอ กรุ๊ป (FA Group) มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Catchweight (126 lbs) / Strawweight (ประมาณ 57.1 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 72 สามารถพ่ายแพ้ให้กับ เทพทักษิณ ศ.ศรสิงห์ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เทพทักษิณ ศ.ศรสิงห์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 26, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 72"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:26",
+            "opponent_th": "กริชเพชร พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 22, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 56"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ทาคูมะ โอตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Sep 08, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 32"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 21, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 26"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:49",
+            "opponent_th": "หลี่ โกวเจิน",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "May 19, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 17"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "3:00",
+            "opponent_th": "ตี๋ใหญ่ พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 17, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 5"
+        }
+    ]
+}

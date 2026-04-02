@@ -1,0 +1,101 @@
+{
+    "fighter_profile": {
+        "name_th": "อัคราม ฮามิดี",
+        "name_en": "Akram Hamidi",
+        "alias": "La Pépite",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772549099/อัคคราม_v1ogin.jpg",
+        "grade": "ยังไม่มีข้อมูล",
+        "fighting_style_th": "ยังไม่มีข้อมูล",
+        "fighting_style_en": "ยังไม่มีข้อมูล",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": "ยังไม่มีข้อมูล",
+            "weight_kg": "ยังไม่มีข้อมูล",
+            "division": "Strawweight / Flyweight",
+            "height_ft": "5'6\"",
+            "height_cm": 168,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ฝรั่งเศส/แอลจีเรีย",
+            "country_en": "France / Algeria",
+            "age": 27,
+            "team_th": "Team Valente",
+            "team_en": "Team Valente"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/akram-hamidi/"
+        ],
+        "short_biography": "อัคราม ฮามิดี (Akram Hamidi) เป็นนักชกชาวฝรั่งเศส/แอลจีเรีย วัย 27 ปี จากสังกัดTeam Valente มีความถนัดในการต่อสู้สไตล์ยังไม่มีข้อมูล ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight / Flyweight (ประมาณ ยังไม่มีข้อมูล กิโลกรัม) ส่วนสูง 168 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ สามารถพ่ายแพ้ให้กับ สามเอ ไก่ย่างห้าดาว ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:22",
+            "opponent_th": "สามเอ ไก่ย่างห้าดาว",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 27, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:41",
+            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 07, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 66"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 22, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 34: รถถัง vs ซุปเปอร์เล็ก"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:36",
+            "opponent_th": "จอมโหด ออโต้มวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 23, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 22"
+        }
+    ]
+}

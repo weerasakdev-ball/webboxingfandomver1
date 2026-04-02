@@ -1,0 +1,203 @@
+{
+    "fighter_profile": {
+        "name_th": "ไท รูโทโล",
+        "name_en": "Tye Ruotolo",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773503429/%E0%B9%84%E0%B8%97_%E0%B8%A3%E0%B8%B9%E0%B9%82%E0%B8%97%E0%B9%82%E0%B8%A5_wsgwb8.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 179.9,
+            "weight_kg": 81.6,
+            "division": "ไม่ระบุ",
+            "height_ft": "5'10\"",
+            "height_cm": 178,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "สหรัฐอเมริกา",
+            "country_en": "United States",
+            "age": 23,
+            "team_th": "เอทอส",
+            "team_en": "Atos"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/tye-ruotolo/"
+        ],
+        "short_biography": "ไท รูโทโล (Tye Ruotolo) เป็นนักชกชาวสหรัฐอเมริกา วัย 23 ปี จากสังกัดเอทอส มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ (ประมาณ 81.6 กิโลกรัม) ส่วนสูง 178 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 41: สินสมุทร vs จอร์จ สามารถเอาชนะ พาเวล ยาวอร์สกี ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Submission Grappling",
+            "method_en": "Unanimous Decision",
+            "round": 1,
+            "time": "10:0",
+            "opponent_th": "พาเวล ยาวอร์สกี",
+            "opponent_en": "",
+            "opponent_country": "โปแลนด์",
+            "date": "Mar 14, 2026",
+            "rating": 5,
+            "event_en": "ONE Fight Night 41: สินสมุทร vs จอร์จ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "2:26",
+            "opponent_th": "โชโสะ อิโซจิมะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Nov 16, 2025",
+            "rating": 5,
+            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 2,
+            "time": "4:14",
+            "opponent_th": "อาเดรียน ลี",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา/สิงคโปร์",
+            "date": "Sep 06, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 35: แจ็กกี vs สเตลลา"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Submission Grappling",
+            "method_en": "Unanimous Decision",
+            "round": 1,
+            "time": "10:0",
+            "opponent_th": "แดนเต ลีออน",
+            "opponent_en": "",
+            "opponent_country": "แคนาดา",
+            "date": "May 03, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 31: ก้องธรณี vs น้องโอ๋ II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Submission Grappling",
+            "method_en": "Unanimous Decision",
+            "round": 1,
+            "time": "N/A",
+            "opponent_th": "โจเซฟ เฉิน",
+            "opponent_en": "",
+            "opponent_country": "แอฟริกาใต้",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Submission Grappling",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "4:43",
+            "opponent_th": "ไอแซค มิเชลล์",
+            "opponent_en": "",
+            "opponent_country": "ออสเตรเลีย",
+            "date": "Apr 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 21: รีเกียน vs อเล็กซิส"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Submission Grappling",
+            "method_en": "Unanimous Decision",
+            "round": 1,
+            "time": "N/A",
+            "opponent_th": "มาโกเมด อับดุลคาดิรอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Nov 03, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 16: โจนาธาน vs ฟาบริซิโอ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Submission Grappling",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "2:39",
+            "opponent_th": "ดากี อาร์สลานาลิเอฟ",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "Aug 04, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Submission Grappling",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "N/A",
+            "opponent_th": "ไรเนียร์ เดอ ริดเดอร์",
+            "opponent_en": "",
+            "opponent_country": "เนเธอร์แลนด์",
+            "date": "May 06, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 10: ดิมิเทรียส vs อาเดรียโน III"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Submission Grappling",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "5:09",
+            "opponent_th": "มารัต กาฟูรอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Dec 03, 2022",
+            "rating": 5,
+            "event_en": "ONE Fight Night 5: ไรเนียร์ vs อนาโตลี"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Submission Grappling",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "1:37",
+            "opponent_th": "แกรี โทนอน",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "May 20, 2022",
+            "rating": 5,
+            "event_en": "ONE157: เพชรมรกต VS จิมมี"
+        }
+    ]
+}

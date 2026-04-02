@@ -1,0 +1,72 @@
+{
+    "fighter_profile": {
+        "name_th": "ดาวแดง เอ็นนี่มวยไทย",
+        "name_en": "",
+        "alias": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773155463/%E0%B8%94%E0%B8%B2%E0%B8%A7%E0%B9%81%E0%B8%94%E0%B8%87_%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B8%99%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%A7%E0%B8%A2%E0%B9%84%E0%B8%97%E0%B8%A2_ur47bk.png",
+        "grade": "N/A",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 115.8,
+            "weight_kg": 52.53,
+            "division": "Strawweight",
+            "height_ft": "",
+            "height_cm": 167,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "",
+            "country_en": "",
+            "age": 19,
+            "team_th": "",
+            "team_en": "Keatkhamtorn Gym"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/daodaeng-annymuaythai/"
+        ],
+        "short_biography": "ดาวแดง เอ็นนี่มวยไทย () เป็นนักชกชาว วัย 19 ปี จากสังกัด มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 52.53 กิโลกรัม) ส่วนสูง 167 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถพ่ายแพ้ให้กับ เผด็จศึก ส.สมหมาย ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 145",
+            "weight_lbs": 115.8,
+            "division": "Strawweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เผด็จศึก ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 145"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อิคคิวซัง ส.สละชีพ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 31, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 131"
+        }
+    ]
+}

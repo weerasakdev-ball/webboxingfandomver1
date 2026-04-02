@@ -1,0 +1,75 @@
+{
+    "fighter_profile": {
+        "name_th": "เว่ย รุย",
+        "name_en": "Wei Rui",
+        "alias": "Demon Blade / มีดปีศาจ / 妖刀",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772977459/Opera_%E0%B8%AA%E0%B9%81%E0%B8%99%E0%B8%9B%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%95_2026-03-08_204346_20251115183952-blue.jpg_ghgz0q.png",
+        "grade": "A",
+        "fighting_style_th": "ซานด้า คิกบ็อกซิ่งสไตล์จีน เร็ว เข่า หมัด เตะหัว บิน",
+        "fighting_style_en": "Sanda-based Kickboxing, Technical Striker, Fast Combinations, Flying Knee & KO Specialist",
+        "stance": "Southpaw (Left-handed)",
+        "physical_stats": {
+            "weight_lbs": 144.2,
+            "weight_kg": 65.4,
+            "division": "Featherweight / Bantamweight Kickboxing (-65kg / -63kg)",
+            "height_ft": "5'8\"",
+            "height_cm": 175,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "personal_info": {
+            "country_th": "จีน",
+            "country_en": "China",
+            "age": 36,
+            "team_th": "ต้าตงเซียง ไฟต์ คลับ / หลุยยี่ เซาเหลิน เหวินอู่ สคูล",
+            "team_en": "Da Dong Xiang Fight Club / Luyi Shaolin Wenwu School"
+        },
+        "overall_record": "70 Wins (26 KO/TKO), 5 Losses",
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/wei-rui/"
+        ],
+        "short_biography": "เว่ย รุย (Wei Rui) เป็นนักชกชาวจีน วัย 36 ปี จากสังกัดต้าตงเซียง ไฟต์ คลับ / หลุยยี่ เซาเหลิน เหวินอู่ สคูล มีความถนัดในการต่อสู้สไตล์ซานด้า คิกบ็อกซิ่งสไตล์จีน เร็ว เข่า หมัด เตะหัว บิน ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Featherweight / Bantamweight Kickboxing (-65kg / -63kg) (ประมาณ 65.4 กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 173: ซุปเปอร์บอน vs มาซาอากิ สามารถพ่ายแพ้ให้กับ ฮิโรกิ อากิโมโตะ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฮิโรกิ อากิโมโตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Nov 16, 2025",
+            "rating": 5,
+            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "โจนาธาน แฮ็กเกอร์ตี",
+            "opponent_en": "",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Feb 20, 2025",
+            "rating": 5,
+            "event_en": "ONE 171: Qatar"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฮิโรกิ อากิโมโตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "May 03, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 22: สมิลลา vs นาตาเลีย"
+        }
+    ]
+}

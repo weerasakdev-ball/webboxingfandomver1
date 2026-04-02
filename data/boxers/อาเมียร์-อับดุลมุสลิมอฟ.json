@@ -1,0 +1,99 @@
+{
+    "fighter_profile": {
+        "name_th": "อาเมียร์ อับดุลมุสลิมอฟ",
+        "name_en": "Amir Abdulmuslimov",
+        "alias": "The Tiger",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773127676/%E0%B8%AD%E0%B8%B2%E0%B9%80%E0%B8%A1%E0%B8%B5%E0%B8%A2%E0%B8%A3%E0%B9%8C_%E0%B8%AD%E0%B8%B1%E0%B8%9A%E0%B8%94%E0%B8%B8%E0%B8%A5%E0%B8%A1%E0%B8%B8%E0%B8%AA%E0%B8%A5%E0%B8%B4%E0%B8%A1%E0%B8%AD%E0%B8%9F_m6zmrp.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 134,
+            "weight_kg": 60.8,
+            "division": "Flyweight / Catchweight (134 lbs)",
+            "height_ft": "5'9\"",
+            "height_cm": 176,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "รัสเซีย",
+            "country_en": "Russia",
+            "age": 23,
+            "team_th": "ทีมเมห์ดี ซาทูต (Team Mehdi Zatout)",
+            "team_en": "Team Mehdi Zatout"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/amir-abdulmuslimov/"
+        ],
+        "short_biography": "อาเมียร์ อับดุลมุสลิมอฟ (Amir Abdulmuslimov) เป็นนักชกชาวรัสเซีย วัย 23 ปี จากสังกัดทีมเมห์ดี ซาทูต (Team Mehdi Zatout) มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight / Catchweight (134 lbs) (ประมาณ 60.8 กิโลกรัม) ส่วนสูง 176 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 79 สามารถพ่ายแพ้ให้กับ ก้องชัย ไฉนดอนเมือง ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 13, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 79"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรน้ำงาม พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 12, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 70"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:28",
+            "opponent_th": "ใจสิงห์ ศิษย์นายกพันศักดิ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 07, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 24"
+        }
+    ]
+}

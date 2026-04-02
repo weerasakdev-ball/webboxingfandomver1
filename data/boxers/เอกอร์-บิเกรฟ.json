@@ -1,0 +1,85 @@
+{
+    "fighter_profile": {
+        "name_th": "เอกอร์ บิเกรฟ",
+        "name_en": "Egor Bikrev",
+        "alias": "The Rising Tank",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772549099/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AD%E0%B8%A3%E0%B9%8C-%E0%B8%9A%E0%B8%B4%E0%B9%80%E0%B8%81%E0%B8%A3%E0%B8%9F_yhh4nv.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยไทย, บู๊, หมัดหนัก",
+        "fighting_style_en": "Muay Thai, Aggressive, Power Puncher",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 135,
+            "weight_kg": 61.2,
+            "division": "Flyweight / Catchweight",
+            "height_ft": "5'9\"",
+            "height_cm": 176,
+            "reach_cm": "178",
+            "leg_reach_cm": "99"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 9,
+                "body": 3,
+                "legs": 2,
+                "total_per_minute": 14
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 52,
+                "accuracy_by_target_percentage": {
+                    "head": 65,
+                    "body": 20,
+                    "legs": 15
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 45,
+                "defense_by_target_percentage": {
+                    "head": 42,
+                    "body": 38,
+                    "legs": 20
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "รัสเซีย",
+            "country_en": "Russia",
+            "age": 23,
+            "team_th": "ซิตี้ ออฟ ไฟต์เตอร์ส / คุซบาส มวยไทย",
+            "team_en": "City of Fighters / Kuzbass Muay Thai"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/egor-bikrev/"
+        ],
+        "short_biography": "เอกอร์ บิเกรฟ (Egor Bikrev) เป็นนักชกชาวรัสเซีย วัย 23 ปี จากสังกัดซิตี้ ออฟ ไฟต์เตอร์ส / คุซบาส มวยไทย มีความถนัดในการต่อสู้สไตล์มวยไทย, บู๊, หมัดหนัก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight / Catchweight (ประมาณ 61.2 กิโลกรัม) ส่วนสูง 176 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 92 สามารถเอาชนะ พันธ์พยัคฆ์ จิตรเมืองนนท์ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:08",
+            "opponent_th": "พันธ์พยัคฆ์ จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 20, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 92"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:45",
+            "opponent_th": "กิ่งซางเล็ก ว.คำชำนาญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 08, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 86"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+  "fighter_profile": {
+    "name_th": "กล้ารบ หนุ่ยกาแฟโบราณ",
+    "name_en": "",
+    "alias": "",
+    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773155463/%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%A3%E0%B8%9A_%E0%B8%AB%E0%B8%99%E0%B8%B8%E0%B9%88%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93_irokda.png",
+    "grade": "N/A",
+    "fighting_style_th": "",
+    "fighting_style_en": "",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": 130.6,
+      "weight_kg": 59.24,
+      "division": "Flyweight",
+      "height_ft": "",
+      "height_cm": 0,
+      "reach_cm": "",
+      "leg_reach_cm": ""
+    },
+    "performance_stats": {
+      "significant_strikes_per_minute": {},
+      "significant_strike_accuracy": {},
+      "defensive_stats": {}
+    },
+    "personal_info": {
+      "country_th": "",
+      "country_en": "",
+      "age": 0,
+      "team_th": "",
+      "team_en": ""
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/klarob-nuicafeboran/"
+    ]
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 145",
+      "weight_lbs": 130.6,
+      "division": "Flyweight"
+    }
+  ],
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "0:30",
+      "opponent_th": "บาบัก ฮากี",
+      "opponent_en": "",
+      "opponent_country": "อิหร่าน",
+      "date": "Mar 06, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 145"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ศิริโชค ส.สมหมาย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Nov 14, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 133"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:39",
+      "opponent_th": "โมฮัมหมัด อาลี",
+      "opponent_en": "",
+      "opponent_country": "อิหร่าน",
+      "date": "Aug 22, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 121"
+    }
+  ]
+}

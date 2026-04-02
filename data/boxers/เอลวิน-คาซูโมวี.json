@@ -1,0 +1,53 @@
+{
+    "fighter_profile": {
+        "name_th": "เอลวิน คาซูโมวี",
+        "name_en": "",
+        "alias": "",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": "",
+            "weight_kg": "",
+            "division": "",
+            "height_ft": "",
+            "height_cm": 0,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "จอร์เจีย/อาเซอร์ไบจาน",
+            "country_en": "",
+            "age": 0,
+            "team_th": "",
+            "team_en": ""
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/elvin-kazumovi/"
+        ],
+        "short_biography": "เอลวิน คาซูโมวี () เป็นนักชกชาวจอร์เจีย/อาเซอร์ไบจาน วัย 0 ปี จากสังกัด มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก  (ประมาณ  กิโลกรัม) ส่วนสูง 0 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 147 สามารถพ่ายแพ้ให้กับ เดโช ป.บริรักษ์ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:14",
+            "opponent_th": "เดโช ป.บริรักษ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 147"
+        }
+    ]
+}

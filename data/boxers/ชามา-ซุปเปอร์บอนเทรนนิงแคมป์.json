@@ -1,0 +1,97 @@
+{
+    "fighter_profile": {
+        "name_th": "ชามา ซุปเปอร์บอนเทรนนิงแคมป์",
+        "name_en": "Shama Superbon Training Camp",
+        "alias": "ยังไม่มีข้อมูล",
+        "image_url": "https://i.ibb.co/WWYwZzP3/image.jpg",
+        "grade": "B+",
+        "fighting_style_th": "มวยฝีมือ / บู๊ดุดัน",
+        "fighting_style_en": "Technical / Aggressive",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 146.6,
+            "weight_kg": 66.5,
+            "division": "Bantamweight",
+            "height_ft": "5'7\"",
+            "height_cm": 172,
+            "reach_cm": "ยังไม่มีข้อมูล",
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ยังไม่มีข้อมูล",
+                "defense_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 27,
+            "team_th": "ซุปเปอร์บอน เทรนนิง แคมป์",
+            "team_en": "Superbon Training Camp"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/chama-superbon-training-camp/"
+        ],
+        "short_biography": "ชามา ซุปเปอร์บอนเทรนนิงแคมป์ (Shama Superbon Training Camp) เป็นนักชกชาวไทย วัย 27 ปี จากสังกัดซุปเปอร์บอน เทรนนิง แคมป์ มีความถนัดในการต่อสู้สไตล์มวยฝีมือ / บู๊ดุดัน ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 66.5 กิโลกรัม) ส่วนสูง 172 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 118 สามารถพ่ายแพ้ให้กับ โลแกน ชาน ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:51",
+            "opponent_th": "โลแกน ชาน",
+            "opponent_en": "",
+            "opponent_country": "สกอตแลนด์/ฮ่องกง เขตปกครองพิเศษประเทศจีน",
+            "date": "Aug 01, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 118"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:57",
+            "opponent_th": "ซุปเปอร์เจ๋ง ทอฝันฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 23, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 109"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อูซาอีร์ อิสมออิลจอนอฟ",
+            "opponent_en": "",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Oct 04, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 82"
+        }
+    ]
+}

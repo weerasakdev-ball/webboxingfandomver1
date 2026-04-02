@@ -1,0 +1,150 @@
+{
+    "fighter_profile": {
+        "name_th": "อาเลสสิโอ มาลาเทสตา",
+        "name_en": "Alessio Malatesta",
+        "alias": "Italian Firecracker",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772549099/%E0%B8%A1%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%AA%E0%B8%95%E0%B9%89%E0%B8%B2_xvxo0c.jpg",
+        "grade": "B",
+        "fighting_style_th": "มวยฝีมือ, บู๊",
+        "fighting_style_en": "Technical Fighter (Muay Fimeu), Aggressive",
+        "stance": "Southpaw (Left-handed)",
+        "physical_stats": {
+            "weight_lbs": 149.3,
+            "weight_kg": 67.7,
+            "division": "Bantamweight",
+            "height_ft": "5'8\"",
+            "height_cm": 175,
+            "reach_cm": "170",
+            "leg_reach_cm": "98"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 9,
+                "body": 3,
+                "legs": 1,
+                "total_per_minute": 13
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 47,
+                "accuracy_by_target_percentage": {
+                    "head": 67,
+                    "body": 26,
+                    "legs": 7
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 37,
+                "defense_by_target_percentage": {
+                    "head": 45,
+                    "body": 30,
+                    "legs": 25
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "อิตาลี",
+            "country_en": "Italy",
+            "age": 24,
+            "team_th": "ทีม มาลาเทสตา",
+            "team_en": "Team Malatesta"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/alessio-malatesta/"
+        ],
+        "short_biography": "อาเลสสิโอ มาลาเทสตา (Alessio Malatesta) เป็นนักชกชาวอิตาลี วัย 24 ปี จากสังกัดทีม มาลาเทสตา มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, บู๊ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 67.7 กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 126 สามารถพ่ายแพ้ให้กับ ปตท. อภิชาติฟาร์ม ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ปตท. อภิชาติฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 26, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 126"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยอดไอคิว อ.พิมลศรี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 25, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 117"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:28",
+            "opponent_th": "คัมภีร์เทวดา สิทธิกุล",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 23, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 109"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:37",
+            "opponent_th": "อับดุลลา ดายาคาเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Feb 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 96"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:53",
+            "opponent_th": "ฟาบิโอ เรอิส",
+            "opponent_en": "",
+            "opponent_country": "โปรตุเกส",
+            "date": "Dec 06, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 90"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:19",
+            "opponent_th": "วิละชน พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ลาว",
+            "date": "Oct 04, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 82"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "นนทชัย จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 69"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "fighter_profile": {
+        "name_th": "บาบัก โซลูคี",
+        "name_en": "Babak Solouki",
+        "alias": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324021/%E0%B8%9A%E0%B8%B2%E0%B8%9A%E0%B8%B1%E0%B8%81_%E0%B9%82%E0%B8%8B%E0%B8%A5%E0%B8%B9%E0%B8%84%E0%B8%B5_pfce35.png",
+        "grade": "B",
+        "fighting_style_th": "บุก",
+        "fighting_style_en": "",
+        "stance": "Orthodox",
+        "physical_stats": {
+            "weight_lbs": 140,
+            "weight_kg": 63.5,
+            "division": "Bantamweight",
+            "height_ft": "",
+            "height_cm": 170,
+            "reach_cm": null,
+            "leg_reach_cm": null
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 0,
+                "body": 0,
+                "legs": 0,
+                "total_per_minute": 0
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 0,
+                "accuracy_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 0,
+                "defense_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "อิหร่าน",
+            "country_en": "Iran",
+            "age": 24,
+            "dob": "",
+            "team_th": "CN19 :ขจรไกล สส.ต้อยแปดริ้ว",
+            "team_en": ""
+        },
+        "target_url": "https://www.onefc.com/th/athletes/babak-solouki/",
+        "target_urls": [
+            ""
+        ],
+        "short_biography": "บาบัก โซลูคี (Babak Solouki) เป็นนักชกชาวอิหร่าน วัย 24 ปี จากสังกัดCN19 :ขจรไกล สส.ต้อยแปดริ้ว มีความถนัดในการต่อสู้สไตล์บุก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 63.5 กิโลกรัม) ส่วนสูง 170 เซนติเมตร กำลังมุ่งมั่นฝึกซ้อมและรอพิสูจน์ฝีมือในไฟต์ต่อไปบนสังเวียน"
+    },
+    "upcoming_fights": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 146",
+            "weight_lbs": 140,
+            "division": "Bantamweight"
+        }
+    ],
+    "fight_history": []
+}

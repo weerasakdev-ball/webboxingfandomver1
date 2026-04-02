@@ -1,0 +1,124 @@
+{
+    "fighter_profile": {
+        "name_th": "ยอดอุดร เค.โต้งตลิ่งชัน",
+        "name_en": "Yodudon K.Tongtalingchan",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531962/%E0%B8%A2%E0%B8%AD%E0%B8%94%E0%B8%AD%E0%B8%B8%E0%B8%94%E0%B8%A3-%E0%B9%80%E0%B8%84.%E0%B9%82%E0%B8%95%E0%B9%89%E0%B8%87%E0%B8%95%E0%B8%A5%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B1%E0%B8%99_arbkor.jpg",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 116,
+            "weight_kg": 52.6,
+            "division": "Strawweight (115 - 125 lbs)",
+            "height_ft": "5'4\"",
+            "height_cm": 165,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 27,
+            "team_th": "บีเอส มวยไทย / เค.โต้งตลิ่งชัน",
+            "team_en": "BS Muaythai"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/yodudon-k-tongtalingchan/"
+        ],
+        "short_biography": "ยอดอุดร เค.โต้งตลิ่งชัน (Yodudon K.Tongtalingchan) เป็นนักชกชาวไทย วัย 27 ปี จากสังกัดบีเอส มวยไทย / เค.โต้งตลิ่งชัน มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (115 - 125 lbs) (ประมาณ 52.6 กิโลกรัม) ส่วนสูง 165 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 139 สามารถพ่ายแพ้ให้กับ สไล ทาน คี เชน ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:21",
+            "opponent_th": "สไล ทาน คี เชน",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Jan 23, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 139"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:52",
+            "opponent_th": "เพชรเกรียงไกร จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 132"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:55",
+            "opponent_th": "ก้องบูรพา อ.เทพสุภา",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 12, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 124"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:56",
+            "opponent_th": "โตโยต้า อีเกิลมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 30, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 110"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:39",
+            "opponent_th": "ตี๋ใหญ่ ทอฝันฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 30, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 77"
+        }
+    ]
+}

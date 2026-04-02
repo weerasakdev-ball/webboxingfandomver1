@@ -1,0 +1,53 @@
+{
+    "fighter_profile": {
+        "name_th": "อดัม เมสซาอูดี",
+        "name_en": "Adam Messaoudi",
+        "alias": "",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": "",
+            "weight_kg": "",
+            "division": "",
+            "height_ft": "5'7\"",
+            "height_cm": 172,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "ฝรั่งเศส/แอลจีเรีย",
+            "country_en": "",
+            "age": 25,
+            "team_th": "Team Nasser K",
+            "team_en": ""
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/adam-messaoudi/"
+        ],
+        "short_biography": "อดัม เมสซาอูดี (Adam Messaoudi) เป็นนักชกชาวฝรั่งเศส/แอลจีเรีย วัย 25 ปี จากสังกัดTeam Nasser K มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก  (ประมาณ  กิโลกรัม) ส่วนสูง 172 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 147 สามารถพ่ายแพ้ให้กับ ฮิคารุ ฟูรุมูระ ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฮิคารุ ฟูรุมูระ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Mar 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 147"
+        }
+    ]
+}

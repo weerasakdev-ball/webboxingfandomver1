@@ -1,0 +1,183 @@
+{
+    "fighter_profile": {
+        "name_th": "ริตู โฟกาต",
+        "name_en": "Ritu Phogat",
+        "alias": "THE INDIAN TIGRESS",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 114.9,
+            "weight_kg": 52.1,
+            "division": "",
+            "height_ft": "5'1\"",
+            "height_cm": 156,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "อินเดีย",
+            "country_en": "India",
+            "age": 31,
+            "team_th": "Evolve MMA",
+            "team_en": ""
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/ritu-phogat/"
+        ],
+        "short_biography": "ริตู โฟกาต (Ritu Phogat) เป็นนักชกชาวอินเดีย วัย 31 ปี จากสังกัดEvolve MMA มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก  (ประมาณ 52.1 กิโลกรัม) ส่วนสูง 156 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 171: Qatar สามารถพ่ายแพ้ให้กับ อายากะ มิอูระ ด้วยรูปแบบ Submission ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "2:24",
+            "opponent_th": "อายากะ มิอูระ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Feb 20, 2025",
+            "rating": "",
+            "event_en": "ONE 171: Qatar"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "4:52",
+            "opponent_th": "ทิฟฟานี เตียว",
+            "opponent_en": "",
+            "opponent_country": "สิงคโปร์",
+            "date": "Sep 29, 2022",
+            "rating": "",
+            "event_en": "ONE 161: เพชรมรกต vs ตะวันฉาย"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 2,
+            "time": "2:14",
+            "opponent_th": "แสตมป์ แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 03, 2021",
+            "rating": "",
+            "event_en": "Winter Warriors"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "เจเนลีน โอลซิม",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Oct 29, 2021",
+            "rating": "",
+            "event_en": "NextGen"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "เมง โบ",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Sep 03, 2021",
+            "rating": "",
+            "event_en": "Empower"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "หลิน เฮอจิน",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Jul 30, 2021",
+            "rating": "",
+            "event_en": "Battleground"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "บิ เหงียน",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา/เวียดนาม",
+            "date": "May 15, 2021",
+            "rating": "",
+            "event_en": "Dangal"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "3:55",
+            "opponent_th": "โจมารี ทอร์เรส",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Dec 04, 2020",
+            "rating": "",
+            "event_en": "Big Bang"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:02",
+            "opponent_th": "นู สเรย์ โปว",
+            "opponent_en": "",
+            "opponent_country": "กัมพูชา",
+            "date": "Oct 30, 2020",
+            "rating": "",
+            "event_en": "Inside the Matrix"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "หวู เฉี่ยว เฉิน",
+            "opponent_en": "",
+            "opponent_country": "ไต้หวัน",
+            "date": "Feb 28, 2020",
+            "rating": "",
+            "event_en": "King of the Jungle"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "3:37",
+            "opponent_th": "นัม ฮี คิม",
+            "opponent_en": "",
+            "opponent_country": "เกาหลีใต้",
+            "date": "Nov 16, 2019",
+            "rating": "",
+            "event_en": "Age Of Dragons"
+        }
+    ]
+}

@@ -1,0 +1,135 @@
+{
+    "fighter_profile": {
+        "name_th": "เดโช ป.บริรักษ์",
+        "name_en": "Decho Por.Borirak",
+        "alias": "ยังไม่มีข้อมูล",
+        "image_url": "https://i.ibb.co/svt6GV92/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "บุก + ฝีมือ",
+        "fighting_style_en": "Aggressive / Technical Fighter",
+        "stance": "Orthodox",
+        "physical_stats": {
+            "weight_lbs": "135",
+            "weight_kg": "ยังไม่มีข้อมูล",
+            "division": "flyweight",
+            "height_ft": "5'8\"",
+            "height_cm": 175,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "1",
+                "body": "1",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "12"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "33",
+                "accuracy_by_target_percentage": {
+                    "head": "45",
+                    "body": "33",
+                    "legs": "16"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 38,
+                "defense_by_target_percentage": {
+                    "head": 70,
+                    "body": 19,
+                    "legs": 11
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 22,
+            "team_th": "สิงห์มาวิน",
+            "team_en": "Singha Mawynn"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/decho-por-borirak/"
+        ],
+        "short_biography": "เดโช ป.บริรักษ์ (Decho Por.Borirak) เป็นนักชกชาวไทย วัย 22 ปี จากสังกัดสิงห์มาวิน มีความถนัดในการต่อสู้สไตล์บุก + ฝีมือ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก flyweight (ประมาณ ยังไม่มีข้อมูล กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 147 สามารถเอาชนะ เอลวิน คาซูโมวี ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:14",
+            "opponent_th": "เอลวิน คาซูโมวี",
+            "opponent_en": "",
+            "opponent_country": "จอร์เจีย/อาเซอร์ไบจาน",
+            "date": "Mar 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 147"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ป้อมเพชร ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 16, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 138"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 31, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 131"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 12, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 124"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อีสานเหนือ โชติบางแสน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 20, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 113"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อีสานเหนือ โชติบางแสน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 11, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 104"
+        }
+    ]
+}

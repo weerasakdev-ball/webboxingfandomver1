@@ -1,0 +1,76 @@
+{
+    "fighter_profile": {
+        "name_th": "ดิเอโก ปาเอซ",
+        "name_en": "Diego Paez",
+        "alias": "ยังไม่มีข้อมูล",
+        "image_url": "https://i.ibb.co/JRbrBP26/image.jpg",
+        "grade": "ยังไม่มีข้อมูล",
+        "fighting_style_th": "ยังไม่มีข้อมูล",
+        "fighting_style_en": "ยังไม่มีข้อมูล",
+        "stance": "ยังไม่มีข้อมูล",
+        "physical_stats": {
+            "weight_lbs": "ยังไม่มีข้อมูล",
+            "weight_kg": "ยังไม่มีข้อมูล",
+            "division": "Flyweight",
+            "height_ft": "5'6\"",
+            "height_cm": 170,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "สหรัฐอเมริกา/โคลอมเบีย",
+            "country_en": "USA / Colombia",
+            "age": 32,
+            "team_th": "Classic Fight Team",
+            "team_en": "Classic Fight Team"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/diego-paez/"
+        ],
+        "short_biography": "ดิเอโก ปาเอซ (Diego Paez) เป็นนักชกชาวสหรัฐอเมริกา/โคลอมเบีย วัย 32 ปี จากสังกัดClassic Fight Team มีความถนัดในการต่อสู้สไตล์ยังไม่มีข้อมูล ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ ยังไม่มีข้อมูล กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 32: นักรบ vs จ้าวเสือใหญ่ สามารถเอาชนะ โจฮัน กาซาลี ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โจฮัน กาซาลี",
+            "opponent_en": "",
+            "opponent_country": "มาเลเซีย/สหรัฐอเมริกา",
+            "date": "Jun 07, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 32: นักรบ vs จ้าวเสือใหญ่"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฌอน คลิมาโค",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์/สหรัฐอเมริกา",
+            "date": "Feb 08, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 28: พระจันทร์ฉาย vs เอลลิส"
+        }
+    ]
+}

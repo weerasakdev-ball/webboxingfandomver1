@@ -1,0 +1,226 @@
+{
+  "fighter_profile": {
+    "name_th": "ป้อมเพชร ป๋องสุพรรณ พีเค.",
+    "name_en": "Pompetch PK.Saenchai",
+    "alias": "ยังไม่มีข้อมูล",
+    "image_url": "https://i.ibb.co/WNHmCmtC/image.jpg",
+    "grade": "A",
+    "fighting_style_th": "บุก/ ฝีมือ",
+    "fighting_style_en": "Southpaw / Technical Fighter",
+    "stance": "Orthodox",
+    "physical_stats": {
+      "weight_lbs": 135,
+      "weight_kg": 61.2,
+      "division": "Flyweight / Bantamweight",
+      "height_ft": "5'6\"",
+      "height_cm": 170,
+      "leg_reach_cm": "ยังไม่มีข้อมูล"
+    },
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "3",
+        "body": "2",
+        "legs": "1",
+        "total_per_minute": "17"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "40",
+        "accuracy_by_target_percentage": {
+          "head": "55",
+          "body": "30",
+          "legs": "14"
+        }
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": 36,
+        "defense_by_target_percentage": {
+          "head": 61,
+          "body": 23,
+          "legs": 15
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 27,
+      "team_th": "พีเค.แสนชัยมวยไทยยิม",
+      "team_en": "PK.Saenchai Muaythaigym"
+    },
+    "target_url": "",
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/pompetch-pk-saenchai/"
+    ]
+  },
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "2:25",
+      "opponent_th": "จ้าวเสือใหญ่ ม.กรุงเทพธนบุรี",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 20, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 147"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เดโช ป.บริรักษ์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jan 16, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 138"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:23",
+      "opponent_th": "เกรเกอร์ ทอม",
+      "opponent_en": "",
+      "opponent_country": "สกอตแลนด์",
+      "date": "Nov 14, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 133"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ยอดเหล็กเพชร อ.อัจฉริยะ",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Sep 26, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 126"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ยอดเหล็กเพชร อ.อัจฉริยะ",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Aug 15, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 120"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:47",
+      "opponent_th": "ผึ้งหลวง บ้านแรมบ้า",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jun 06, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 111"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "อัสลามจอน ออร์ติคอฟ",
+      "opponent_en": "",
+      "opponent_country": "อุซเบกิสถาน",
+      "date": "Nov 22, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 88"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:50",
+      "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jun 28, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 68: พระจันทร์ฉาย vs โจนาธาน"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 08, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 54"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "1:56",
+      "opponent_th": "ฤทธิเดช ส.สมหมาย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Dec 08, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 44"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ช่อฟ้า ท.แสงเทียนน้อย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Oct 27, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 38"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เทพทักษิณ ศ.ศรสิงห์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Aug 04, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 27"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:15",
+      "opponent_th": "ดวงสมพงษ์ จิตรเมืองนนท์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "May 19, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 17"
+    }
+  ]
+}

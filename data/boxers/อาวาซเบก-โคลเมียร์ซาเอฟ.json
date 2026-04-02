@@ -1,0 +1,170 @@
+{
+    "fighter_profile": {
+        "name_th": "อาวาซเบก โคลเมียร์ซาเอฟ",
+        "name_en": "Avazbek Kholmirzaev",
+        "alias": "Ninzya",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 125,
+            "weight_kg": 56.7,
+            "division": "",
+            "height_ft": "5'8\"",
+            "height_cm": 175,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "อุซเบกิสถาน",
+            "country_en": "Uzbekistan",
+            "age": 25,
+            "team_th": "Raqobat",
+            "team_en": ""
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/avazbek-kholmirzaev/"
+        ],
+        "short_biography": "อาวาซเบก โคลเมียร์ซาเอฟ (Avazbek Kholmirzaev) เป็นนักชกชาวอุซเบกิสถาน วัย 25 ปี จากสังกัดRaqobat มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก  (ประมาณ 56.7 กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 38: ฟาบริซิโอ vs เอ็งค์-ออร์กิล สามารถเอาชนะ เจเรมี มิเอโด ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "4:53",
+            "opponent_th": "เจเรมี มิเอโด",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Dec 06, 2025",
+            "rating": "",
+            "event_en": "ONE Fight Night 38: ฟาบริซิโอ vs เอ็งค์-ออร์กิล"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "3:52",
+            "opponent_th": "วิลลี ฟาน รอยเอน",
+            "opponent_en": "",
+            "opponent_country": "แอฟริกาใต้",
+            "date": "Nov 08, 2025",
+            "rating": "",
+            "event_en": "ONE Fight Night 37: โรมัน vs ซาเมต"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "ทัตสึมิตสึ วาดะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Jul 18, 2025",
+            "rating": "",
+            "event_en": "ONE ลุมพินี 116"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "3:44",
+            "opponent_th": "ร็อบสัน เด โอลิเวรา",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "May 09, 2025",
+            "rating": "",
+            "event_en": "ONE ลุมพินี 107"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "1:31",
+            "opponent_th": "โบลาต ซามาเบคอฟ",
+            "opponent_en": "",
+            "opponent_country": "คาซัคสถาน",
+            "date": "Feb 28, 2025",
+            "rating": "",
+            "event_en": "ONE ลุมพินี 98"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 2,
+            "time": "1:32",
+            "opponent_th": "วาลเมียร์ กาลิเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Dec 06, 2024",
+            "rating": "",
+            "event_en": "ONE ลุมพินี 90"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "เบกตูร์ เชนิชเบก อูลู",
+            "opponent_en": "",
+            "opponent_country": "คีร์กีซสถาน",
+            "date": "Sep 20, 2024",
+            "rating": "",
+            "event_en": "ONE ลุมพินี 80"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "3:39",
+            "opponent_th": "ชานกี คาราอูล",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Jul 05, 2024",
+            "rating": "",
+            "event_en": "ONE ลุมพินี 69"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:16",
+            "opponent_th": "ไซอุนดิน ซูไลมานอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Apr 19, 2024",
+            "rating": "",
+            "event_en": "ONE ลุมพินี 59"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "4:40",
+            "opponent_th": "ลีอันโดร โกเมส",
+            "opponent_en": "",
+            "opponent_country": "โปรตุเกส",
+            "date": "Feb 02, 2024",
+            "rating": "",
+            "event_en": "ONE ลุมพินี 50"
+        }
+    ]
+}

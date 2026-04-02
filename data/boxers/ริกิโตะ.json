@@ -1,0 +1,85 @@
+{
+    "fighter_profile": {
+        "name_th": "ริกิโตะ",
+        "name_en": "Rikito",
+        "alias": "ยังไม่มีข้อมูล",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772549100/ริกิโตะ_gthqxj.jpg",
+        "grade": "B",
+        "fighting_style_th": "ยังไม่มีข้อมูล",
+        "fighting_style_en": "ยังไม่มีข้อมูล",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 144.2,
+            "weight_kg": 65.4,
+            "division": "Bantamweight",
+            "height_ft": "5'7\"",
+            "height_cm": 172,
+            "reach_cm": "ยังไม่มีข้อมูล",
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ยังไม่มีข้อมูล",
+                "defense_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 24,
+            "team_th": "พรีแพร์ด ยิม",
+            "team_en": "Prepared Gym"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/rikito/"
+        ],
+        "short_biography": "ริกิโตะ (Rikito) เป็นนักชกชาวญี่ปุ่น วัย 24 ปี จากสังกัดพรีแพร์ด ยิม มีความถนัดในการต่อสู้สไตล์ยังไม่มีข้อมูล ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 65.4 กิโลกรัม) ส่วนสูง 172 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 122 สามารถเอาชนะ เจิง จาวบิน ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เจิง จาวบิน",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Aug 29, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 122"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อูซาอีร์ อิสมออิลจอนอฟ",
+            "opponent_en": "",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Nov 29, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 89"
+        }
+    ]
+}

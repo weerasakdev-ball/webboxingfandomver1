@@ -1,0 +1,144 @@
+{
+    "fighter_profile": {
+        "name_th": "นนทชัย จิตรเมืองนนท์",
+        "name_en": "Nontachai Jitmuangnon",
+        "alias": "ขุนเข่าลอยน้ำ / ยอดมวยจิตรเมืองนนท์",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773123497/%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%8A%E0%B8%B1%E0%B8%A2_%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%A3%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%99%E0%B8%97%E0%B9%8C_yg2abc.png",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ, เข่าดุ, อาวุธหนัก",
+        "fighting_style_en": "Technical Fighter (Muay Fimeu), Clinch & Knee Specialist",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 147.6,
+            "weight_kg": 66.95,
+            "division": "Featherweight",
+            "height_ft": "5'10\"",
+            "height_cm": 180,
+            "reach_cm": "185",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "38.2%",
+                "body": "41.5%",
+                "legs": "20.3%",
+                "total_accuracy": "45.8%"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "45.8%",
+                "accuracy_by_target_percentage": {
+                    "head": "38.2%",
+                    "body": "41.5%",
+                    "legs": "20.3%"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย (ชุมพร)",
+            "country_en": "Thailand",
+            "age": 26,
+            "team_th": "จิตรเมืองนนท์ (Jitmuangnon Gym)",
+            "team_en": "Jitmuangnon Gym"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/nontachai-jitmuangnon/"
+        ],
+        "short_biography": "นนทชัย จิตรเมืองนนท์ (Nontachai Jitmuangnon) เป็นนักชกชาวไทย (ชุมพร) วัย 26 ปี จากสังกัดจิตรเมืองนนท์ (Jitmuangnon Gym) มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, เข่าดุ, อาวุธหนัก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Featherweight (ประมาณ 66.95 กิโลกรัม) ส่วนสูง 180 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถเอาชนะ เซมิห์ ชาห์ จินดีร์ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:54",
+            "opponent_th": "เซมิห์ ชาห์ จินดีร์",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "Mar 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 145"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โซเนอร์ เซน",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "Oct 24, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 130"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:24",
+            "opponent_th": "อับดุลลา ดายาคาเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Jul 12, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 33: อัลลิเซีย vs โยฮันนา"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อาเรียน เอสพาร์ซา",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "Mar 08, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 29: อัลลิเซีย vs มารี"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:39",
+            "opponent_th": "ดีมิทรี คอฟตุน",
+            "opponent_en": "",
+            "opponent_country": "ทาจิกิสถาน/รัสเซีย",
+            "date": "Nov 08, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 86"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อาเลสสิโอ มาลาเทสตา",
+            "opponent_en": "",
+            "opponent_country": "อิตาลี",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 69"
+        }
+    ],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 145",
+            "weight_lbs": 147.6,
+            "division": "Featherweight"
+        }
+    ]
+}

@@ -1,0 +1,190 @@
+{
+    "fighter_profile": {
+        "name_th": "ทาเกียร์ คาลิลอฟ",
+        "name_en": "Tagir Khalilov",
+        "alias": "สมิงพราย (Samingpri)",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773125366/%E0%B8%97%E0%B8%B2%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B8%A2%E0%B8%A3%E0%B9%8C_%E0%B8%84%E0%B8%B2%E0%B8%A5%E0%B8%B4%E0%B8%A5%E0%B8%AD%E0%B8%9F_i4fc4o.jpg",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 135,
+            "weight_kg": 61.2,
+            "division": "Flyweight (125 - 135 lbs)",
+            "height_ft": "5'7\"",
+            "height_cm": 170,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "รัสเซีย",
+            "country_en": "Russia",
+            "age": 33,
+            "team_th": "สมิงพราย มวยไทย / แฟมิลี มวยไทย",
+            "team_en": "Samingpri Muay Thai / Family Muay Thai"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/tagir-khalilov/"
+        ],
+        "short_biography": "ทาเกียร์ คาลิลอฟ (Tagir Khalilov) เป็นนักชกชาวรัสเซีย วัย 33 ปี จากสังกัดสมิงพราย มวยไทย / แฟมิลี มวยไทย มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (125 - 135 lbs) (ประมาณ 61.2 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 134 สามารถเสมอผลคะแนนกับ ชิมอน ด้วยรูปแบบ Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Draw",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 3,
+            "time": "N/A",
+            "opponent_th": "ชิมอน",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Nov 21, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 134"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เหลียว ชือชู",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Jun 07, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 32: นักรบ vs จ้าวเสือใหญ่"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องธรณี ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 08, 2024",
+            "rating": 5,
+            "event_en": "ONE 169: อนาโตลี vs รุง รุง"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:02",
+            "opponent_th": "นักรบ แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 14, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 67"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยอดเหล็กเพชร อ.อัจฉริยะ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 17, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 41"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:42",
+            "opponent_th": "ซุปเปอร์เล็ก ซุปเปอร์เล็กมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 14, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 12: ซุปเปอร์เล็ก vs ทาเกียร์"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:04",
+            "opponent_th": "แบล็คแพนเธอร์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 17, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 9"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:29",
+            "opponent_th": "ช่อฟ้า ท.แสงเทียนน้อย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 03, 2022",
+            "rating": 5,
+            "event_en": "ONE 164: โจชัว vs จาร์เร็ด"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เดนิส พูริช",
+            "opponent_en": "",
+            "opponent_country": "บอสเนียและเฮอร์เซโกวีนา/แคนาดา",
+            "date": "Oct 21, 2022",
+            "rating": 5,
+            "event_en": "ONE 162: จาง vs โจนาธาน"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "รถถัง จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 26, 2021",
+            "rating": 5,
+            "event_en": "ONE Fists of Fury"
+        }
+    ]
+}

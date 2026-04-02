@@ -1,0 +1,137 @@
+{
+    "fighter_profile": {
+        "name_th": "รีฟดีน มาสดอร์",
+        "name_en": "Rifdean Masdor",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773124543/%E0%B8%A3%E0%B8%B5%E0%B8%9F%E0%B8%94%E0%B8%B5%E0%B8%99_%E0%B8%A1%E0%B8%B2%E0%B8%AA%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C_yphary.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 111.6,
+            "weight_kg": 50.6,
+            "division": "Catchweight (112.0 lbs) / Atomweight",
+            "height_ft": "5'3\"",
+            "height_cm": 162,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "มาเลเซีย",
+            "country_en": "Malaysia",
+            "age": 23,
+            "team_th": "ส.สมหมาย",
+            "team_en": "Sor.Sommai"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/rifdean-masdor/"
+        ],
+        "short_biography": "รีฟดีน มาสดอร์ (Rifdean Masdor) เป็นนักชกชาวมาเลเซีย วัย 23 ปี จากสังกัดส.สมหมาย มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Catchweight (112.0 lbs) / Atomweight (ประมาณ 50.6 กิโลกรัม) ส่วนสูง 162 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 138 สามารถเอาชนะ โมฮาหมัด เรโด ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:34",
+            "opponent_th": "โมฮาหมัด เรโด",
+            "opponent_en": "",
+            "opponent_country": "อินโดนีเซีย",
+            "date": "Jan 16, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 138"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เบอร์หนึ่ง ส.สละชีพ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 01, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 118"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:47",
+            "opponent_th": "น้องเบีย ลาวล้านช้าง",
+            "opponent_en": "",
+            "opponent_country": "ลาว",
+            "date": "May 09, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 107"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรนิลมังกร น้ำแข็งไอซ์แลนด์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 10, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 93"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:49",
+            "opponent_th": "เพชรเอก ศิษย์บิ๊กแจ๊สคนรักปทุม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 19, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 71"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:18",
+            "opponent_th": "พิชัย ลูกบ้านใหม่",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 22, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 56"
+        }
+    ]
+}

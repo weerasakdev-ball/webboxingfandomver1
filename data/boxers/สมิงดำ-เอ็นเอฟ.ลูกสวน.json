@@ -1,0 +1,214 @@
+{
+    "fighter_profile": {
+        "name_th": "สมิงดำ เอ็นเอฟ.ลูกสวน",
+        "name_en": "Samingdam NF.Looksuan",
+        "alias": "",
+        "image_url": "https://i.ibb.co/WNLxjqXD/image.jpg",
+        "grade": "B",
+        "fighting_style_th": "มวยบุก,มวยฝีมือ",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 134.8,
+            "weight_kg": 60.4,
+            "division": "Catchweight / Bantamweight",
+            "height_ft": "5'4\"",
+            "height_cm": 165,
+            "reach_cm": null,
+            "leg_reach_cm": null
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 2,
+                "body": 1,
+                "legs": 3,
+                "total_per_minute": 16
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 31,
+                "accuracy_by_target_percentage": {
+                    "head": 54,
+                    "body": 18,
+                    "legs": 28
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 37,
+                "defense_by_target_percentage": {
+                    "head": 47,
+                    "body": 33,
+                    "legs": 20
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 23,
+            "team_th": "ลูกสวน",
+            "team_en": "Looksuan"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/samingdam-nf-looksuan/"
+        ],
+        "short_biography": "สมิงดำ เอ็นเอฟ.ลูกสวน (Samingdam NF.Looksuan) เป็นนักชกชาวไทย วัย 23 ปี จากสังกัดลูกสวน มีความถนัดในการต่อสู้สไตล์มวยบุก,มวยฝีมือ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Catchweight / Bantamweight (ประมาณ 60.4 กิโลกรัม) ส่วนสูง 165 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 147 สามารถเอาชนะ จอว์ สวาร์ วิน ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "จอว์ สวาร์ วิน",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Mar 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 147"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "คมอาวุธ เอฟเอ.กรุ๊ป",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 141"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซ่อนรัก แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Aug 08, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 119"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:17",
+            "opponent_th": "อาเมียร์ นาซิรี",
+            "opponent_en": "",
+            "opponent_country": "มาเลเซีย/อิหร่าน",
+            "date": "May 30, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 110"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โม เทต ออง",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Jan 31, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 95"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:41",
+            "opponent_th": "อาคีฟ กูลูซาดา",
+            "opponent_en": "",
+            "opponent_country": "อาเซอร์ไบจาน",
+            "date": "Nov 01, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 85"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ผึ้งหลวง บ้านแรมบ้า",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 23, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 76"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:43",
+            "opponent_th": "เพชรสีคิ้ว ก.กัมปนาท",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 14, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 67"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เสกสรร แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 23, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 53"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฮวม เฟลิเป",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Nov 10, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 40"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:33",
+            "opponent_th": "จาวาด บิกเดลี",
+            "opponent_en": "",
+            "opponent_country": "อิหร่าน",
+            "date": "Apr 07, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 12"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ชาคริยอร์ ยูราเยฟ",
+            "opponent_en": "",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Mar 03, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 7"
+        }
+    ]
+}

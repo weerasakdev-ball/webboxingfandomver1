@@ -1,0 +1,94 @@
+{
+    "fighter_profile": {
+        "name_th": "ขุนพล เอกเมืองนนท์",
+        "name_en": "Khunpon Aekmuangnon",
+        "alias": "ไม่ระบุ",
+        "image_url": "ไม่ระบุ",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": "ไม่ระบุ",
+            "weight_kg": "ไม่ระบุ",
+            "division": "ไม่ระบุ",
+            "height_ft": "5'10\"",
+            "height_cm": 179,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 20,
+            "team_th": "Petchnumnoi",
+            "team_en": "Petchnumnoi"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/khunpon-aekmuangnon/"
+        ],
+        "short_biography": "ขุนพล เอกเมืองนนท์ (Khunpon Aekmuangnon) เป็นนักชกชาวไทย วัย 20 ปี จากสังกัดทีม Petchnumnoi มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 179 เซนติเมตร (5'10\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)"
+    },
+    "weigh_in_history": [],
+    "fight_history": [],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ศรศึกน้อย เอฟเอ.กรุ๊ป",
+            "opponent_en": "Sornsuknoi FA Group",
+            "opponent_country": "ไทย",
+            "date": "Feb 6, 2026",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 141"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรนาเคียน ศ.นาเคียน",
+            "opponent_en": "Phetnakian Sor.Nakian",
+            "opponent_country": "ไทย",
+            "date": "Nov 7, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 132"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เอดิลสัน รอดริเกส",
+            "opponent_en": "Edilson Rodrigues",
+            "opponent_country": "ฝรั่งเศส",
+            "date": "Sep 5, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 123"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ถัง ฉีชิน",
+            "opponent_en": "Tang Qiqin",
+            "opponent_country": "จีน",
+            "date": "Jun 13, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 112"
+        }
+    ],
+    "upcoming_fights": []
+}

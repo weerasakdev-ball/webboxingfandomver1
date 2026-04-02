@@ -1,0 +1,183 @@
+{
+    "fighter_profile": {
+        "name_th": "สิงห์ดำ กาแฟโฟกัส",
+        "name_en": "Singdom Kafoefocus",
+        "alias": "ยอดมวยเมืองหมอแคน / สิงห์ดำ บูมเด็กเซียน",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773127097/%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%94%E0%B8%B3_kqxvvq.png",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ, เตะหนัก, สายตาดี",
+        "fighting_style_en": "Technical Fighter (Muay Fimeu), Powerful Kicks, High Fight IQ",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 122,
+            "weight_kg": 55.34,
+            "division": "Strawweight",
+            "height_ft": "5'6\"",
+            "height_cm": 169,
+            "reach_cm": "172",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "44.5%"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "44.5%",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย (ขอนแก่น)",
+            "country_en": "Thailand",
+            "age": 23,
+            "team_th": "บูมเด็กเซียน / ส.จ.เล็กเมืองนนท์",
+            "team_en": "Boomdeksean / Sor Jor Lekmuangnon"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/singdom/"
+        ],
+        "short_biography": "สิงห์ดำ กาแฟโฟกัส (Singdom Kafoefocus) เป็นนักชกชาวไทย (ขอนแก่น) วัย 23 ปี จากสังกัดบูมเด็กเซียน / ส.จ.เล็กเมืองนนท์ มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, เตะหนัก, สายตาดี ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 55.34 กิโลกรัม) ส่วนสูง 169 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 128 สามารถพ่ายแพ้ให้กับ สานิตย์ เอกเมืองนนท์ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สานิตย์ เอกเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 10, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 128"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:02",
+            "opponent_th": "อับดาลลาห์ ออนดาช",
+            "opponent_en": "",
+            "opponent_country": "เลบานอน",
+            "date": "Jun 13, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 112"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เหนือเพชร ทอฝันฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 96"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:38",
+            "opponent_th": "วัชรพล มาวินมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 15, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 87"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรลำพูน หมวดดับลำปาง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 13, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 79"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เทพทักษิณ ศ.ศรสิงห์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 16, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 52"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สตีเฟน เออร์วิน",
+            "opponent_en": "",
+            "opponent_country": "สกอตแลนด์",
+            "date": "Oct 27, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 38"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สุรชัย ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 18, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 29"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แรมบ๊อง ส.เถระพัฒน์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 07, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 24"
+        }
+    ],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 145",
+            "weight_lbs": 122,
+            "division": "Strawweight"
+        }
+    ]
+}

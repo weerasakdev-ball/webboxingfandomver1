@@ -1,0 +1,130 @@
+{
+  "fighter_profile": {
+    "name_th": "เพชร สวนหลวงรถยก",
+    "name_en": "Pet Suanluangrodyok",
+    "alias": "",
+    "image_url": "",
+    "grade": "",
+    "fighting_style_th": "",
+    "fighting_style_en": "",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": 113.8,
+      "weight_kg": 51.6,
+      "division": "",
+      "height_ft": "5'6\"",
+      "height_cm": 168,
+      "reach_cm": "",
+      "leg_reach_cm": ""
+    },
+    "performance_stats": {
+      "significant_strikes_per_minute": {},
+      "significant_strike_accuracy": {},
+      "defensive_stats": {}
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 19,
+      "team_th": "",
+      "team_en": ""
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/pet-suanluangrodyok/"
+    ]
+  },
+  "weigh_in_history": [],
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "หนุ่มสุรินทร์ ช.เกตุวีณา",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 20, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 147"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ริวยะ โอคุวากิ",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Dec 19, 2025",
+      "rating": "",
+      "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:30",
+      "opponent_th": "ฟ้าลิขิต นายกจอยปราจีน",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Nov 07, 2025",
+      "rating": "",
+      "event_en": "ONE ลุมพินี 132"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:56",
+      "opponent_th": "เพชรธันวา อีเกิลมวยไทย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Aug 01, 2025",
+      "rating": "",
+      "event_en": "ONE ลุมพินี 118"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:12",
+      "opponent_th": "เพชรนาเรือง ส.รุ่งศักดิ์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "May 16, 2025",
+      "rating": "",
+      "event_en": "ONE ลุมพินี 108"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:24",
+      "opponent_th": "ขุนศึก ม.กรุงเทพธนบุรี",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 11, 2025",
+      "rating": "",
+      "event_en": "ONE ลุมพินี 104"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "2:30",
+      "opponent_th": "มเหศวร เอกเมืองนนท์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Feb 23, 2024",
+      "rating": "",
+      "event_en": "ONE ลุมพินี 53"
+    }
+  ]
+}

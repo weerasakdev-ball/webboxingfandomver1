@@ -1,0 +1,50 @@
+{
+    "fighter_profile": {
+        "name_th": "เบเจนูซา มักซิมุส",
+        "name_en": "Bejenuta Maximus",
+        "alias": "ไม่ระบุ",
+        "image_url": "ไม่ระบุ",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": "ไม่ระบุ",
+            "weight_kg": "ไม่ระบุ",
+            "division": "Flyweight",
+            "height_ft": "5'11\"",
+            "height_cm": 180,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "มอลโดวา",
+            "country_en": "Moldova",
+            "age": 23,
+            "team_th": "ไม่ระบุ",
+            "team_en": "ไม่ระบุ"
+        },
+        "target_urls": [
+            "ไม่ระบุ"
+        ],
+        "short_biography": "เบเจนูซา มักซิมุส (Bejenuta Maximus) เป็นนักชกชาวมอลโดวา วัย 23 ปี ส่วนสูง 180 เซนติเมตร (5'11\") มีความถนัดในการต่อสู้สไตล์มวยไทย ปัจจุบันแข่งขันอยู่ในพิกัดน้ำหนัก Flyweight"
+    },
+    "weigh_in_history": [],
+    "fight_history": [],
+    "fight_history_one_championship": [],
+    "upcoming_fights": [
+        {
+            "event_name": "ONE ลุมพินี 149",
+            "date": "Apr 3, 2026",
+            "opponent_th": "ต้มยำกุ้ง ภูมิใจไทย",
+            "opponent_en": "Tomyamkoong Bhumjaithai",
+            "division": "Flyweight",
+            "discipline_en": "Muay Thai"
+        }
+    ]
+}

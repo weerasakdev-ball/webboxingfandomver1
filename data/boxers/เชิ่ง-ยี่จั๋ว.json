@@ -1,0 +1,161 @@
+{
+    "fighter_profile": {
+        "name_th": "เชิ่ง ยี่จั๋ว",
+        "name_en": "",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324028/%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B9%88%E0%B8%87_%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%88%E0%B8%B1%E0%B9%8B%E0%B8%A7_zhs1at.png",
+        "grade": "N/A",
+        "fighting_style_th": "ยังไม่มีข้อมูล",
+        "fighting_style_en": "ยังไม่มีข้อมูล",
+        "stance": "ยังไม่มีข้อมูล",
+        "physical_stats": {
+            "weight_lbs": 125,
+            "weight_kg": 56.7,
+            "division": "Strawweight",
+            "height_ft": "ยังไม่มีข้อมูล",
+            "height_cm": 0,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "จีน",
+            "country_en": "China",
+            "age": 0,
+            "team_th": "ยังไม่มีข้อมูล",
+            "team_en": "ยังไม่มีข้อมูล"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/oumar-kane/"
+        ],
+        "short_biography": "เชิ่ง ยี่จั๋ว () เป็นนักชกชาวจีน วัย 0 ปี จากสังกัดยังไม่มีข้อมูล มีความถนัดในการต่อสู้สไตล์ยังไม่มีข้อมูล ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 56.7 กิโลกรัม) ส่วนสูง 0 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 169: อนาโตลี vs รุง รุง สามารถเอาชนะ อนาโตลี มาลีคิน ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 146",
+            "weight_lbs": 125,
+            "division": "Strawweight"
+        }
+    ],
+    "upcoming_fights": [],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Split Decision",
+            "round": 5,
+            "time": "5:00",
+            "opponent_th": "อนาโตลี มาลีคิน",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Nov 08, 2024",
+            "rating": 5,
+            "event_en": "ONE 169: อนาโตลี vs รุง รุง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:08",
+            "opponent_th": "บูเชอร์ เคตชัป",
+            "opponent_en": "",
+            "opponent_country": "เซเนกัล",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "มาร์คัส อัลเมดา",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Aug 04, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "จาซูร์ เมียร์ซามูคาเมดอฟ",
+            "opponent_en": "",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Dec 03, 2022",
+            "rating": 5,
+            "event_en": "ONE Fight Night 5: ไรเนียร์ vs อนาโตลี"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:15",
+            "opponent_th": "บาทราดซ์ กาซาเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Sep 29, 2022",
+            "rating": 5,
+            "event_en": "ONE 161: เพชรมรกต vs ตะวันฉาย"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "5:00",
+            "opponent_th": "คิริลล์ กรีเชนโก",
+            "opponent_en": "",
+            "opponent_country": "เบลารุส",
+            "date": "Apr 29, 2021",
+            "rating": 5,
+            "event_en": "ONE on TNT IV"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:48",
+            "opponent_th": "แพทริก ชมิด",
+            "opponent_en": "",
+            "opponent_country": "สวิตเซอร์แลนด์",
+            "date": "Apr 08, 2021",
+            "rating": 5,
+            "event_en": "ONE on TNT I"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "4:32",
+            "opponent_th": "อเล็น เอ็นกาลานี",
+            "opponent_en": "",
+            "opponent_country": "ฮ่องกง เขตปกครองพิเศษประเทศจีน",
+            "date": "Jan 29, 2021",
+            "rating": 5,
+            "event_en": "ONE Unbreakable II"
+        }
+    ]
+}

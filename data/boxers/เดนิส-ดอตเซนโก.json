@@ -1,0 +1,54 @@
+{
+    "fighter_profile": {
+        "name_th": "เดนิส ดอตเซนโก",
+        "name_en": "Denis Dotsenko",
+        "alias": "เดนิส TMT",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324022/%E0%B9%80%E0%B8%94%E0%B8%99%E0%B8%B4%E0%B8%AA_%E0%B8%94%E0%B8%AD%E0%B8%95%E0%B9%80%E0%B8%8B%E0%B8%99%E0%B9%82%E0%B8%81_ndfpj0.png",
+        "grade": "B",
+        "fighting_style_th": "มวยฝีมือ, สเต็ปเท้าดี, หมัดชุดคม, มีเข่าและศอกเสริมในวงใน",
+        "fighting_style_en": "Technical Fighter, Great Footwork, Sharp Combination Punching, Improved Clinch with Knees and Elbows",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 144,
+            "weight_kg": 65.32,
+            "division": "Bantamweight",
+            "height_cm": 180,
+            "height_ft": "5'11\""
+        },
+        "personal_info": {
+            "country_th": "ยูเครน",
+            "country_en": "ยูเครน",
+            "age": 25,
+            "team_th": "Tiger Muay Thai : บาบัก โซลูคี",
+            "team_en": "TMT Fight Store / Tiger Muay Thai"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/denis-dotsenko/"
+        ],
+        "short_biography": "เดนิส ดอตเซนโก (Denis Dotsenko) เป็นนักชกชาวยูเครน วัย 25 ปี จากสังกัดTiger Muay Thai : บาบัก โซลูคี มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, สเต็ปเท้าดี, หมัดชุดคม, มีเข่าและศอกเสริมในวงใน ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 65.32 กิโลกรัม) ส่วนสูง 180 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 146 สามารถพ่ายแพ้ให้กับ เดชชวลิต ซิลค์มวยไทย ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "upcoming_fights": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 146",
+            "weight_lbs": 144,
+            "division": "Bantamweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:37",
+            "opponent_th": "เดชชวลิต ซิลค์มวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 13, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 146"
+        }
+    ]
+}

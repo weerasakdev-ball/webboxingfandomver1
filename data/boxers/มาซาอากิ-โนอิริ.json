@@ -1,0 +1,124 @@
+{
+    "fighter_profile": {
+        "name_th": "มาซาอากิ โนอิริ",
+        "name_en": "Masaaki Noiri",
+        "alias": "The K-1 Monster",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531798/20251115185620-blue_w6pa7j.jpg",
+        "grade": "A",
+        "fighting_style_th": "คิกบ็อกซิ่ง, บู๊",
+        "fighting_style_en": "Kickboxing, Aggressive",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 154.3,
+            "weight_kg": 70,
+            "division": "Featherweight",
+            "height_ft": "5'8\"",
+            "height_cm": 175,
+            "reach_cm": "183",
+            "leg_reach_cm": "100"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 5,
+                "body": 5,
+                "legs": 5,
+                "total_per_minute": 15
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 43,
+                "accuracy_by_target_percentage": {
+                    "head": 31,
+                    "body": 37,
+                    "legs": 32
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 48,
+                "defense_by_target_percentage": {
+                    "head": 50,
+                    "body": 35,
+                    "legs": 15
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 32,
+            "team_th": "ทีม วาซิลิอุส",
+            "team_en": "Team VASILEUS"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/masaaki-noiri/"
+        ],
+        "short_biography": "มาซาอากิ โนอิริ (Masaaki Noiri) เป็นนักชกชาวญี่ปุ่น วัย 32 ปี จากสังกัดทีม วาซิลิอุส มีความถนัดในการต่อสู้สไตล์คิกบ็อกซิ่ง, บู๊ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Featherweight (ประมาณ 70 กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 173: ซุปเปอร์บอน vs มาซาอากิ สามารถพ่ายแพ้ให้กับ ซุปเปอร์บอน ซุปเปอร์บอนเทรนนิงแคมป์ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "ซุปเปอร์บอน ซุปเปอร์บอนเทรนนิงแคมป์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 16, 2025",
+            "rating": 5,
+            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:55",
+            "opponent_th": "ตะวันฉาย พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 23, 2025",
+            "rating": 5,
+            "event_en": "ONE 172: ทาเครุ vs รถถัง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:14",
+            "opponent_th": "ชากีร์ แอล เตครีติ",
+            "opponent_en": "",
+            "opponent_country": "อิรัก",
+            "date": "Jan 24, 2025",
+            "rating": 5,
+            "event_en": "ONE 170"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "หลิว เมิงหยาง",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Dec 20, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 92"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สิทธิชัย ศิษย์สองพี่น้อง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 07, 2024",
+            "rating": 5,
+            "event_en": "ONE 167: ตะวันฉาย vs โจ II"
+        }
+    ]
+}

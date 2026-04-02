@@ -1,0 +1,111 @@
+{
+    "fighter_profile": {
+        "name_th": "เวโร",
+        "name_en": "Vero Nika",
+        "alias": "The Kayan Leopard",
+        "image_url": "https://i.ibb.co/sdCSDfSz/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยไทย, บู๊",
+        "fighting_style_en": "Muay Thai, Aggressive",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 115,
+            "weight_kg": 52.2,
+            "division": "Strawweight",
+            "height_ft": "5'4\"",
+            "height_cm": 164,
+            "reach_cm": "165",
+            "leg_reach_cm": "96"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 7,
+                "body": 4,
+                "legs": 2,
+                "total_per_minute": 13
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 45,
+                "accuracy_by_target_percentage": {
+                    "head": 55,
+                    "body": 30,
+                    "legs": 15
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 48,
+                "defense_by_target_percentage": {
+                    "head": 50,
+                    "body": 30,
+                    "legs": 20
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "เมียนมา",
+            "country_en": "Myanmar",
+            "age": 29,
+            "team_th": "ไทเกอร์ มวยไทย",
+            "team_en": "Tiger Muay Thai"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/vero-nika/"
+        ],
+        "short_biography": "เวโร (Vero Nika) เป็นนักชกชาวเมียนมา วัย 29 ปี จากสังกัดไทเกอร์ มวยไทย มีความถนัดในการต่อสู้สไตล์มวยไทย, บู๊ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 52.2 กิโลกรัม) ส่วนสูง 164 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 143 สามารถเอาชนะ เชียร์ โคเฮน ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เชียร์ โคเฮน",
+            "opponent_en": "",
+            "opponent_country": "อิสราเอล",
+            "date": "Feb 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 143"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "หลี่ หมิงรุย",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Nov 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 132"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:09",
+            "opponent_th": "จูเนียร์ แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 09, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 107"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฟรานซิสกา เวรา",
+            "opponent_en": "",
+            "opponent_country": "ชิลี",
+            "date": "Feb 14, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 97"
+        }
+    ]
+}

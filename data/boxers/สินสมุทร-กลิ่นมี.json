@@ -1,0 +1,202 @@
+{
+    "fighter_profile": {
+        "name_th": "สินสมุทร กลิ่นมี",
+        "name_en": "Sinsamut Klinmee",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773503431/%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3_aqydrr.png",
+        "grade": "B+",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 166.4,
+            "weight_kg": 75.5,
+            "division": "ไม่ระบุ",
+            "height_ft": "5'11\"",
+            "height_cm": 182,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 30,
+            "team_th": "ทีมเมห์ดี ซาทูต",
+            "team_en": "Team Mehdi Zatout"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/sinsamut-klinmee/"
+        ],
+        "short_biography": "สินสมุทร กลิ่นมี (Sinsamut Klinmee) เป็นนักชกชาวไทย วัย 30 ปี จากสังกัดทีมเมห์ดี ซาทูต มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ (ประมาณ 75.5 กิโลกรัม) ส่วนสูง 182 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 41: สินสมุทร vs จอร์จ สามารถพ่ายแพ้ให้กับ จอร์จ จาร์วิส ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "จอร์จ จาร์วิส",
+            "opponent_en": "",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Mar 14, 2026",
+            "rating": 5,
+            "event_en": "ONE Fight Night 41: สินสมุทร vs จอร์จ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:58",
+            "opponent_th": "นิกี โฮลสเกน",
+            "opponent_en": "",
+            "opponent_country": "เนเธอร์แลนด์",
+            "date": "Mar 14, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 100"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:34",
+            "opponent_th": "นาวเซต ทรูจิลโล",
+            "opponent_en": "",
+            "opponent_country": "สเปน",
+            "date": "Jan 24, 2025",
+            "rating": 5,
+            "event_en": "ONE 170"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยูเซฟ อัสซูอิก",
+            "opponent_en": "",
+            "opponent_country": "เดนมาร์ก/โมร็อกโก",
+            "date": "Oct 04, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 25: อเล็กซิส vs รีเกียน II"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:33",
+            "opponent_th": "ดีมิทรี เมนชิคอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "May 03, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 22: สมิลลา vs นาตาเลีย"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "มูชีน ชาฟี",
+            "opponent_en": "",
+            "opponent_country": "สเปน/โมร็อกโก",
+            "date": "Nov 03, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 16: โจนาธาน vs ฟาบริซิโอ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:35",
+            "opponent_th": "วิคเตอร์ เทกเซรา",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Jul 07, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 24"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 4,
+            "time": "1:17",
+            "opponent_th": "รีเกียน เออร์เซล",
+            "opponent_en": "",
+            "opponent_country": "ซูรินาม",
+            "date": "Mar 17, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 9"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "รีเกียน เออร์เซล",
+            "opponent_en": "",
+            "opponent_country": "ซูรินาม",
+            "date": "Oct 22, 2022",
+            "rating": 5,
+            "event_en": "ONE Fight Night 3: จอห์น vs ฟาบริซิโอ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:05",
+            "opponent_th": "เลียม โนแลน",
+            "opponent_en": "",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Jul 22, 2022",
+            "rating": 5,
+            "event_en": "ONE 159: ไรเนียร์ vs วิตาลี"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:39",
+            "opponent_th": "นิกี โฮลสเกน",
+            "opponent_en": "",
+            "opponent_country": "เนเธอร์แลนด์",
+            "date": "Mar 26, 2022",
+            "rating": 5,
+            "event_en": "ONE X"
+        }
+    ]
+}

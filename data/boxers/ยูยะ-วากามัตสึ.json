@@ -1,0 +1,222 @@
+{
+    "fighter_profile": {
+        "name_th": "ยูยะ วากามัตสึ",
+        "name_en": "Yuya Wakamatsu",
+        "alias": "Little Piranha",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 134.5,
+            "weight_kg": 61,
+            "division": "",
+            "height_ft": "5'6\"",
+            "height_cm": 168,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 31,
+            "team_th": "Tribe Tokyo MMA",
+            "team_en": ""
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/yuya-wakamatsu/"
+        ],
+        "short_biography": "ยูยะ วากามัตสึ (Yuya Wakamatsu) เป็นนักชกชาวญี่ปุ่น วัย 31 ปี จากสังกัดTribe Tokyo MMA มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก  (ประมาณ 61 กิโลกรัม) ส่วนสูง 168 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 173: ซุปเปอร์บอน vs มาซาอากิ สามารถเอาชนะ โจชัว พาซิโอ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:54",
+            "opponent_th": "โจชัว พาซิโอ",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Nov 16, 2025",
+            "rating": "",
+            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "3:39",
+            "opponent_th": "อาเดรียโน โมราเอส",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Mar 23, 2025",
+            "rating": "",
+            "event_en": "ONE 172: ทาเครุ vs รถถัง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "จิลเบิร์ต นาคาทานี",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "Dec 07, 2024",
+            "rating": "",
+            "event_en": "ONE Fight Night 26: คริสเตียน vs อาลิเบก"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "แดนนี คิงกาด",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Jan 28, 2024",
+            "rating": "",
+            "event_en": "ONE 165: ซุปเปอร์เล็ก vs ทาเครุ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:03",
+            "opponent_th": "เซียะ เหวย",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Jul 14, 2023",
+            "rating": "",
+            "event_en": "ONE Fight Night 12: ซุปเปอร์เล็ก vs ทาเกียร์"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:46",
+            "opponent_th": "วู ซอง ฮูน",
+            "opponent_en": "",
+            "opponent_country": "เกาหลีใต้",
+            "date": "Nov 19, 2022",
+            "rating": "",
+            "event_en": "ONE 163: ฮิโรกิ vs เพชรทนง"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 3,
+            "time": "3:58",
+            "opponent_th": "อาเดรียโน โมราเอส",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Mar 26, 2022",
+            "rating": "",
+            "event_en": "ONE X"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "ฮู หยง",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Dec 03, 2021",
+            "rating": "",
+            "event_en": "Winter Warriors"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "รีซ แม็คลาเรน",
+            "opponent_en": "",
+            "opponent_country": "ออสเตรเลีย",
+            "date": "Apr 22, 2021",
+            "rating": "",
+            "event_en": "ONE on TNT III"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:46",
+            "opponent_th": "คิม เคียว ซุง",
+            "opponent_en": "",
+            "opponent_country": "เกาหลีใต้",
+            "date": "Nov 06, 2020",
+            "rating": "",
+            "event_en": "Inside the Matrix II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "แด ควอน คิม",
+            "opponent_en": "",
+            "opponent_country": "เกาหลีใต้",
+            "date": "Oct 13, 2019",
+            "rating": "",
+            "event_en": "CENTURY PART I"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:59",
+            "opponent_th": "เจเฮ อุสตาคิโอ",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Aug 02, 2019",
+            "rating": "",
+            "event_en": "DAWN OF HEROES"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 2,
+            "time": "2:40",
+            "opponent_th": "ดิมิเทรียส จอห์นสัน",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "Mar 31, 2019",
+            "rating": "",
+            "event_en": "A NEW ERA"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "",
+            "opponent_th": "แดนนี คิงกาด",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Sep 22, 2018",
+            "rating": "",
+            "event_en": "CONQUEST OF HEROES"
+        }
+    ]
+}

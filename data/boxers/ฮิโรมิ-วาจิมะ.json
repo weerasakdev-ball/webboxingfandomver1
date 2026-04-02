@@ -1,0 +1,83 @@
+{
+    "fighter_profile": {
+        "name_th": "ฮิโรมิ วาจิมะ",
+        "name_en": "Hiromi Wajima",
+        "alias": "The Destroyer",
+        "image_url": "https://i.ibb.co/xtNKKJLV/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "คิกบ็อกซิ่ง, บู๊",
+        "fighting_style_en": "Kickboxing, Aggressive",
+        "stance": "Southpaw (Left-handed)",
+        "physical_stats": {
+            "weight_lbs": 154.3,
+            "weight_kg": 70,
+            "division": "Featherweight / Super Welterweight",
+            "height_ft": "5'11\"",
+            "height_cm": 180,
+            "reach_cm": "182",
+            "leg_reach_cm": "100"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 5,
+                "body": 4,
+                "legs": 6,
+                "total_per_minute": 15
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 44,
+                "accuracy_by_target_percentage": {
+                    "head": 35,
+                    "body": 30,
+                    "legs": 35
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 45,
+                "defense_by_target_percentage": {
+                    "head": 40,
+                    "body": 35,
+                    "legs": 25
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 30,
+            "team_th": "ทีม ซึกิโมโตะ",
+            "team_en": "Tsukimoto Dojo"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/hiromi-wajima/"
+        ],
+        "short_biography": "ฮิโรมิ วาจิมะ (Hiromi Wajima) เป็นนักชกชาวญี่ปุ่น วัย 30 ปี จากสังกัดทีม ซึกิโมโตะ มีความถนัดในการต่อสู้สไตล์คิกบ็อกซิ่ง, บู๊ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Featherweight / Super Welterweight (ประมาณ 70 กิโลกรัม) ส่วนสูง 180 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 173: ซุปเปอร์บอน vs มาซาอากิ สามารถพ่ายแพ้ให้กับ นาบิล อานาน ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "notable_career_highlights": [
+        {
+            "title": "Former K-1 Super Welterweight Champion",
+            "organization": "K-1 World GP",
+            "details": "ชนะน็อก จอร์แดน พิกเกียว เพื่อคว้าแชมป์ และป้องกันตำแหน่งได้หลายครั้ง"
+        },
+        {
+            "achievement": "Knockout Power",
+            "description": "มีสถิติการปิดเกมด้วยการน็อกเอาต์สูงถึง 80% ในการชกที่ญี่ปุ่น"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "นาบิล อานาน",
+            "opponent_en": "",
+            "opponent_country": "แอลจีเรีย/ไทย",
+            "date": "Nov 16, 2025",
+            "rating": 5,
+            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+        }
+    ]
+}

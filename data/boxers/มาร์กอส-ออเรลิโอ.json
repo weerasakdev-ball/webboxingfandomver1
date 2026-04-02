@@ -1,0 +1,86 @@
+{
+    "fighter_profile": {
+        "name_th": "มาร์กอส ออเรลิโอ",
+        "name_en": "Marcos Aurelio",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773503430/%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%81%E0%B8%AD%E0%B8%AA_%E0%B8%AD%E0%B8%AD%E0%B9%80%E0%B8%A3%E0%B8%A5%E0%B8%B4%E0%B9%82%E0%B8%AD_ltisxm.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": null,
+            "weight_kg": null,
+            "division": "ไม่ระบุ",
+            "height_ft": "5'7\"",
+            "height_cm": 172,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "บราซิล",
+            "country_en": "Brazil",
+            "age": 21,
+            "team_th": "ไม่ระบุ",
+            "team_en": "ไม่ระบุ"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/marcos-aurelio/"
+        ],
+        "short_biography": "มาร์กอส ออเรลิโอ (Marcos Aurelio) เป็นนักชกชาวบราซิล วัย 21 ปี มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ (ประมาณ None กิโลกรัม) ส่วนสูง 172 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 41: สินสมุทร vs จอร์จ สามารถเอาชนะ มาวโร มาสโตรมารินี ด้วยรูปแบบ Submission ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 2,
+            "time": "3:27",
+            "opponent_th": "มาวโร มาสโตรมารินี",
+            "opponent_en": "",
+            "opponent_country": "อาร์เจนตินา",
+            "date": "Mar 14, 2026",
+            "rating": 5,
+            "event_en": "ONE Fight Night 41: สินสมุทร vs จอร์จ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:50",
+            "opponent_th": "คาร์โล บูมินาอัง",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Jan 24, 2026",
+            "rating": 5,
+            "event_en": "ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา"
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "fighter_profile": {
+        "name_th": "ซากาเรีย เอล จามารี",
+        "name_en": "Zakaria El Jamari",
+        "alias": "ยังไม่มีข้อมูล",
+        "image_url": "https://i.ibb.co/MxfJkSHd/image.jpg",
+        "grade": "ยังไม่มีข้อมูล",
+        "fighting_style_th": "ยังไม่มีข้อมูล",
+        "fighting_style_en": "ยังไม่มีข้อมูล",
+        "stance": "ยังไม่มีข้อมูล",
+        "physical_stats": {
+            "weight_lbs": 125,
+            "weight_kg": 56.7,
+            "division": "Flyweight",
+            "height_ft": "5'4\"",
+            "height_cm": 163,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "โมร็อกโก",
+            "country_en": "Morocco",
+            "age": 36,
+            "team_th": "Superlek Gym",
+            "team_en": "Superlek Gym"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/zakaria-el-jamari/"
+        ],
+        "short_biography": "ซากาเรีย เอล จามารี (Zakaria El Jamari) เป็นนักชกชาวโมร็อกโก วัย 36 ปี จากสังกัดSuperlek Gym มีความถนัดในการต่อสู้สไตล์ยังไม่มีข้อมูล ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 56.7 กิโลกรัม) ส่วนสูง 163 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 35: แจ็กกี vs สเตลลา สามารถพ่ายแพ้ให้กับ โจฮัน กาซาลี ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:10",
+            "opponent_th": "โจฮัน กาซาลี",
+            "opponent_en": "",
+            "opponent_country": "มาเลเซีย/สหรัฐอเมริกา",
+            "date": "Sep 06, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 35: แจ็กกี vs สเตลลา"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:12",
+            "opponent_th": "ฮิว",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Mar 23, 2025",
+            "rating": 5,
+            "event_en": "ONE 172: ทาเครุ vs รถถัง"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:07",
+            "opponent_th": "โยฮัน เอสตูปินาน",
+            "opponent_en": "",
+            "opponent_country": "โคลอมเบีย",
+            "date": "Oct 04, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 25: อเล็กซิส vs รีเกียน II"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:37",
+            "opponent_th": "อาลีฟ ส.เดชะพันธ์",
+            "opponent_en": "",
+            "opponent_country": "มาเลเซีย/ไทย",
+            "date": "Aug 02, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 24: จาร์เร็ด vs กุสตาโว"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ทองพูน พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 03, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 22: สมิลลา vs นาตาเลีย"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:51",
+            "opponent_th": "อาลี ซาลโดเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Mar 01, 2024",
+            "rating": 5,
+            "event_en": "ONE 166: Qatar"
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "fighter_profile": {
+        "name_th": "อาคีฟ กูลูซาดา",
+        "name_en": "Akif Guluzada",
+        "alias": "King",
+        "image_url": "https://i.ibb.co/Z6HLVynq/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "บุก",
+        "fighting_style_en": "Aggressive / Pressure Fighter",
+        "stance": " Orthodox",
+        "physical_stats": {
+            "weight_lbs": 133.4,
+            "weight_kg": "",
+            "division": "Flyweight",
+            "height_ft": "5'9\"",
+            "height_cm": 176,
+            "reach_cm": "",
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 5,
+                "body": 2,
+                "legs": 0,
+                "total_per_minute": 16
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 50,
+                "accuracy_by_target_percentage": {
+                    "head": 65,
+                    "body": 24,
+                    "legs": 11
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 40,
+                "defense_by_target_percentage": {
+                    "head": 58,
+                    "body": 23,
+                    "legs": 19
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "อาเซอร์ไบจาน",
+            "country_en": "Azerbaijan",
+            "age": 20,
+            "team_th": "Team Mehdi Zatout",
+            "team_en": "Team Mehdi Zatout"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/akif-guluzada/"
+        ],
+        "short_biography": "อาคีฟ กูลูซาดา (Akif Guluzada) เป็นนักชกชาวอาเซอร์ไบจาน วัย 20 ปี จากสังกัดTeam Mehdi Zatout มีความถนัดในการต่อสู้สไตล์บุก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ  กิโลกรัม) ส่วนสูง 176 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 36: พระจันทร์ฉาย vs โจนาธาน II สามารถเอาชนะ จ้าวเสือใหญ่ ม.กรุงเทพธนบุรี ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "จ้าวเสือใหญ่ ม.กรุงเทพธนบุรี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 04, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 36: พระจันทร์ฉาย vs โจนาธาน II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฌอน คลิมาโค",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์/สหรัฐอเมริกา",
+            "date": "May 03, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 31: ก้องธรณี vs น้องโอ๋ II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:17",
+            "opponent_th": "ผึ้งหลวง บ้านแรมบ้า",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 17, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 94"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:41",
+            "opponent_th": "สมิงดำ เอ็นเอฟ.ลูกสวน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 01, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 85"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฮารูโตะ ยาซูโมโตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Jul 26, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 72"
+        }
+    ]
+}

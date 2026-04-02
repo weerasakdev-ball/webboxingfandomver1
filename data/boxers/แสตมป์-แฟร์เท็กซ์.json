@@ -1,0 +1,306 @@
+{
+    "fighter_profile": {
+        "name_th": "แสตมป์ แฟร์เท็กซ์",
+        "name_en": "Stamp Fairtex",
+        "alias": "The 3-Sport Queen",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531966/%E0%B8%AA%E0%B9%81%E0%B8%95%E0%B8%97%E0%B8%9B%E0%B9%8C_bhkr8k.jpg",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ครบเครื่อง (มวยไทย, คิกบ็อกซิ่ง, การต่อสู้แบบผสมผสาน)",
+        "fighting_style_en": "All-around Striker, Muay Thai & MMA",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 115,
+            "weight_kg": 52.2,
+            "division": "Atomweight",
+            "height_ft": "5'2\"",
+            "height_cm": 157,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 28,
+            "team_th": "ค่ายมวยแฟร์เท็กซ์ (Fairtex Training Center)",
+            "team_en": "Fairtex Training Center"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/stamp-fairtex/"
+        ],
+        "short_biography": "แสตมป์ แฟร์เท็กซ์ (Stamp Fairtex) เป็นนักชกชาวไทย วัย 28 ปี จากสังกัดค่ายมวยแฟร์เท็กซ์ (Fairtex Training Center) มีความถนัดในการต่อสู้สไตล์ครบเครื่อง (มวยไทย, คิกบ็อกซิ่ง, การต่อสู้แบบผสมผสาน) ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Atomweight (ประมาณ 52.2 กิโลกรัม) ส่วนสูง 157 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 173: ซุปเปอร์บอน vs มาซาอากิ สามารถพ่ายแพ้ให้กับ คานะ โมริโมโตะ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "คานะ โมริโมโตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Nov 16, 2025",
+            "rating": 5,
+            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:04",
+            "opponent_th": "ฮาม ซอ ฮี",
+            "opponent_en": "",
+            "opponent_country": "เกาหลีใต้",
+            "date": "Sep 29, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 14: แสตมป์ vs ซอ ฮี"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:27",
+            "opponent_th": "อลิส แอนเดอร์สัน",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "May 06, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 10: ดิมิเทรียส vs อาเดรียโน III"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซุปเปอร์เกิร์ล",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 14, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 6: ซุปเปอร์บอน vs ชิงกิซ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "จีฮิน รัดซวน",
+            "opponent_en": "",
+            "opponent_country": "มาเลเซีย",
+            "date": "Oct 01, 2022",
+            "rating": 5,
+            "event_en": "ONE Fight Night 2: ซง vs แองเจลา III"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 2,
+            "time": "4:50",
+            "opponent_th": "แองเจลา ลี",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา/สิงคโปร์",
+            "date": "Mar 26, 2022",
+            "rating": 5,
+            "event_en": "ONE X"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 2,
+            "time": "2:14",
+            "opponent_th": "ริตู โฟกาต",
+            "opponent_en": "",
+            "opponent_country": "อินเดีย",
+            "date": "Dec 03, 2021",
+            "rating": 5,
+            "event_en": "ONE Winter Warriors"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "จูลี เมซาบาร์บา",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Oct 29, 2021",
+            "rating": 5,
+            "event_en": "ONE NextGen"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "อาลีโอนา ราสโซฮินา",
+            "opponent_en": "",
+            "opponent_country": "ยูเครน",
+            "date": "Sep 03, 2021",
+            "rating": 5,
+            "event_en": "ONE Empower"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 3,
+            "time": "4:53",
+            "opponent_th": "อาลีโอนา ราสโซฮินา",
+            "opponent_en": "",
+            "opponent_country": "ยูเครน",
+            "date": "Feb 05, 2021",
+            "rating": 5,
+            "event_en": "ONE Unbreakable III"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "อัลลิเซีย เฮลเลน รอดริเกส",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Aug 28, 2020",
+            "rating": 5,
+            "event_en": "ONE A New Breed"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "3:59",
+            "opponent_th": "สุนิษา ศรีแสน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 31, 2020",
+            "rating": 5,
+            "event_en": "ONE No Surrender"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Split Decision",
+            "round": 5,
+            "time": "5:00",
+            "opponent_th": "เจเน็ต ท็อดด์",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "Feb 28, 2020",
+            "rating": 5,
+            "event_en": "ONE King of the Jungle"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "4:27",
+            "opponent_th": "พูจา โทมาร์",
+            "opponent_en": "",
+            "opponent_country": "อินเดีย",
+            "date": "Jan 10, 2020",
+            "rating": 5,
+            "event_en": "ONE A New Tomorrow"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "บิ เหงียน",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา/เวียดนาม",
+            "date": "Nov 08, 2019",
+            "rating": 5,
+            "event_en": "ONE MASTERS OF FATE"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 3,
+            "time": "1:29",
+            "opponent_th": "อาชา โรกา",
+            "opponent_en": "",
+            "opponent_country": "อินเดีย/เนปาล",
+            "date": "Aug 16, 2019",
+            "rating": 5,
+            "event_en": "ONE DREAMS OF GOLD"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "อัลมา ยูนิคู",
+            "opponent_en": "",
+            "opponent_country": "ออสเตรเลีย",
+            "date": "Jun 15, 2019",
+            "rating": 5,
+            "event_en": "ONE LEGENDARY QUEST"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "5:00",
+            "opponent_th": "เจเน็ต ท็อดด์",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "Feb 22, 2019",
+            "rating": 5,
+            "event_en": "ONE CALL TO GREATNESS"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "N/A",
+            "opponent_th": "ไค่ ถิง ฉวง",
+            "opponent_en": "",
+            "opponent_country": "ไต้หวัน",
+            "date": "Oct 06, 2018",
+            "rating": 5,
+            "event_en": "ONE KINGDOM OF HEROES"
+        }
+    ]
+}

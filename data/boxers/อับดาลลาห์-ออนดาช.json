@@ -1,0 +1,164 @@
+{
+    "fighter_profile": {
+        "name_th": "อับดาลลาห์ ออนดาช",
+        "name_en": "Abdallah Ondash",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772979174/%E0%B8%AD%E0%B8%B1%E0%B8%9A%E0%B8%94%E0%B8%B2%E0%B8%A5%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B9%8C_%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B8%94%E0%B8%B2%E0%B8%8A_hck0j2.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 125,
+            "weight_kg": 56.7,
+            "division": "Strawweight (125 lbs)",
+            "height_ft": "5'8\"",
+            "height_cm": 173,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "เลบานอน",
+            "country_en": "Lebanon",
+            "age": 24,
+            "team_th": "ไทเกอร์ มวยไทย",
+            "team_en": "Tiger Muay Thai"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/abdallah-ondash/"
+        ],
+        "short_biography": "อับดาลลาห์ ออนดาช (Abdallah Ondash) เป็นนักชกชาวเลบานอน วัย 24 ปี จากสังกัดไทเกอร์ มวยไทย มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (125 lbs) (ประมาณ 56.7 กิโลกรัม) ส่วนสูง 173 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 132 สามารถเอาชนะ คมเพชร ศิษย์สารวัตรเสือ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:25",
+            "opponent_th": "คมเพชร ศิษย์สารวัตรเสือ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 132"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:02",
+            "opponent_th": "สิงห์โดมทอง นกยีนส์ลาดกระบัง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 13, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 112"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:07",
+            "opponent_th": "เพชรลำพูน หมวดดับลำปาง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 10, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 93"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โชคปรีชา พีเค.ต้อมทีเค.อะไหล่ยนต์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 12, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 70"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซื่อสัตย์ มานพยิม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 03, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 61"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:12",
+            "opponent_th": "ปานเพชร สจ.เล็กเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 26, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 49"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พลังบุญ ว.สันต์ใต้",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 15, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 33"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:59",
+            "opponent_th": "ปานเพชร สจ.เล็กเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 04, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 27"
+        }
+    ]
+}

@@ -1,0 +1,240 @@
+{
+  "fighter_profile": {
+    "name_th": "จอห์น ลินีเคอร์",
+    "name_en": "John Lineker",
+    "alias": "Hands of Stone",
+    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773503429/%E0%B8%88%E0%B8%AD%E0%B8%AB%E0%B9%8C%E0%B8%99_%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B5%E0%B9%80%E0%B8%84%E0%B8%AD%E0%B8%A3%E0%B9%8C_trrirb.png",
+    "grade": "A",
+    "fighting_style_th": "ไม่ระบุ",
+    "fighting_style_en": "ไม่ระบุ",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": 144.8,
+      "weight_kg": 65.7,
+      "division": "ไม่ระบุ",
+      "height_ft": "5'2\"",
+      "height_cm": 160,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
+    },
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ไม่ระบุ",
+        "body": "ไม่ระบุ",
+        "legs": "ไม่ระบุ",
+        "total_accuracy": "ไม่ระบุ"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ไม่ระบุ",
+        "accuracy_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
+        }
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": "ไม่ระบุ",
+        "distance_control_percentage": "ไม่ระบุ",
+        "defense_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "บราซิล",
+      "country_en": "Brazil",
+      "age": 35,
+      "team_th": "อเมริกัน ท็อป ทีม",
+      "team_en": "American Top Team"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/john-lineker/"
+    ]
+  },
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Kickboxing",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:57",
+      "opponent_th": "เบน วูลลิส",
+      "opponent_en": "",
+      "opponent_country": "ไม่ระบุ",
+      "date": "Mar 14, 2026",
+      "rating": 5,
+      "event_en": "ONE Fight Night 41: สินสมุทร vs จอร์จ"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Kickboxing",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ฮิโรกิ อากิโมโตะ",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Mar 23, 2025",
+      "rating": 5,
+      "event_en": "ONE 172: ทาเครุ vs รถถัง"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ราชสีห์อีสาน เหล่าโชคเจริญ",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jan 11, 2025",
+      "rating": 5,
+      "event_en": "ONE Fight Night 27: ถัง ไค vs อักบาร์"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:14",
+      "opponent_th": "อเล็กเซย์ บาลีโก",
+      "opponent_en": "",
+      "opponent_country": "รัสเซีย",
+      "date": "Oct 04, 2024",
+      "rating": 5,
+      "event_en": "ONE Fight Night 25: อเล็กซิส vs รีเกียน II"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:50",
+      "opponent_th": "เอซา เทน พาว",
+      "opponent_en": "",
+      "opponent_country": "สหรัฐอเมริกา",
+      "date": "Sep 07, 2024",
+      "rating": 5,
+      "event_en": "ONE 168: Denver"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "Submission",
+      "round": 1,
+      "time": "3:00",
+      "opponent_th": "ชินยะ อาโอกิ",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Jan 28, 2024",
+      "rating": 5,
+      "event_en": "ONE 165: ซุปเปอร์เล็ก vs ทาเครุ"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "5:00",
+      "opponent_th": "มาร์ค สเตฟาน โลมาน",
+      "opponent_en": "",
+      "opponent_country": "ฟิลิปปินส์",
+      "date": "Sep 29, 2023",
+      "rating": 5,
+      "event_en": "ONE Fight Night 14: แสตมป์ vs ซอ ฮี"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "4:56",
+      "opponent_th": "คิม แจ วุง",
+      "opponent_en": "",
+      "opponent_country": "เกาหลีใต้",
+      "date": "Aug 04, 2023",
+      "rating": 5,
+      "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 4,
+      "time": "5:00",
+      "opponent_th": "ฟาบริซิโอ อานดราเด",
+      "opponent_en": "",
+      "opponent_country": "บราซิล",
+      "date": "Feb 25, 2023",
+      "rating": 5,
+      "event_en": "ONE Fight Night 7: จอห์น vs ฟาบริซิโอ II"
+    },
+    {
+      "result": "Draw",
+      "discipline_en": "MMA",
+      "method_en": "Decision",
+      "round": 3,
+      "time": "N/A",
+      "opponent_th": "ฟาบริซิโอ อานดราเด",
+      "opponent_en": "",
+      "opponent_country": "บราซิล",
+      "date": "Oct 22, 2022",
+      "rating": 5,
+      "event_en": "ONE Fight Night 3: จอห์น vs ฟาบริซิโอ"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "3:40",
+      "opponent_th": "บิเบียโน เฟอร์นานเดส",
+      "opponent_en": "",
+      "opponent_country": "บราซิล/แคนาดา",
+      "date": "Mar 11, 2022",
+      "rating": 5,
+      "event_en": "ONE LIGHTS OUT"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "4:35",
+      "opponent_th": "ทรอย เวิร์ทเธน",
+      "opponent_en": "",
+      "opponent_country": "สหรัฐอเมริกา",
+      "date": "Apr 22, 2021",
+      "rating": 5,
+      "event_en": "ONE on TNT III"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:16",
+      "opponent_th": "เควิน เบลิงกอน",
+      "opponent_en": "",
+      "opponent_country": "ฟิลิปปินส์",
+      "date": "Nov 13, 2020",
+      "rating": 5,
+      "event_en": "ONE Inside the Matrix III"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "5:00",
+      "opponent_th": "มูอิน กาฟูรอฟ",
+      "opponent_en": "",
+      "opponent_country": "ทาจิกิสถาน",
+      "date": "Oct 25, 2019",
+      "rating": 5,
+      "event_en": "ONE DAWN OF VALOR"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+    "fighter_profile": {
+        "name_th": "โตโยต้า อีเกิลมวยไทย",
+        "name_en": "Toyota Eaglemuaythai",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773124003/%E0%B9%82%E0%B8%95%E0%B9%82%E0%B8%A2%E0%B8%95%E0%B9%89%E0%B8%B2_kf2itl.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 114.8,
+            "weight_kg": 52.1,
+            "division": "Atomweight (105 - 115 lbs)",
+            "height_ft": "5'5\"",
+            "height_cm": 167,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 25,
+            "team_th": "อีเกิลมวยไทย",
+            "team_en": "Eagle Muay Thai"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/toyota-eaglemuaythai/"
+        ],
+        "short_biography": "โตโยต้า อีเกิลมวยไทย (Toyota Eaglemuaythai) เป็นนักชกชาวไทย วัย 25 ปี จากสังกัดอีเกิลมวยไทย มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Atomweight (105 - 115 lbs) (ประมาณ 52.1 กิโลกรัม) ส่วนสูง 167 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 138 สามารถพ่ายแพ้ให้กับ เพชรนิลมังกร น้ำแข็งไอซ์แลนด์ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:03",
+            "opponent_th": "เพชรนิลมังกร น้ำแข็งไอซ์แลนด์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 16, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 138"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:56",
+            "opponent_th": "ยอดอุดร เค.โต้งตลิ่งชัน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 30, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 110"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:37",
+            "opponent_th": "เดชอนันต์ ว.เวียงสระ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 01, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 85"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:59",
+            "opponent_th": "ฟีโน่ ช.เกตุวีณา",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 02, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 73"
+        }
+    ]
+}

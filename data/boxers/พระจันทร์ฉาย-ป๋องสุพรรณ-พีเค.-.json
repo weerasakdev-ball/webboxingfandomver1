@@ -1,0 +1,176 @@
+{
+    "fighter_profile": {
+        "name_th": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค.",
+        "name_en": "Prajanchai PK.Saenchai",
+        "alias": "(The White Shark)",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531960/พระจันทร์ฉาย-พีเค.แสนชัย_rw4tm0.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ, รวดเร็ว, เทคนิคสูง",
+        "fighting_style_en": "Technical Striker (Muay Fimeu), Rapid, High IQ",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 123.9,
+            "weight_kg": 56.2,
+            "division": "Strawweight",
+            "height_ft": "5'4\"",
+            "height_cm": 163,
+            "reach_cm": "165",
+            "leg_reach_cm": "96"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 6,
+                "body": 5,
+                "legs": 2,
+                "total_per_minute": 13
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 55,
+                "accuracy_by_target_percentage": {
+                    "head": 45,
+                    "body": 45,
+                    "legs": 10
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 60,
+                "defense_by_target_percentage": {
+                    "head": 65,
+                    "body": 25,
+                    "legs": 10
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 31,
+            "team_th": "พีเค.แสนชัยมวยไทยยิม",
+            "team_en": "PK.Saenchai Muaythaigym"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/prajanchai/"
+        ],
+        "short_biography": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค. (Prajanchai PK.Saenchai) เป็นนักชกชาวไทย วัย 31 ปี จากสังกัดพีเค.แสนชัยมวยไทยยิม มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, รวดเร็ว, เทคนิคสูง ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 56.2 กิโลกรัม) ส่วนสูง 163 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 36: พระจันทร์ฉาย vs โจนาธาน II สามารถพ่ายแพ้ให้กับ โจนาธาน ดิ เบลลา ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "โจนาธาน ดิ เบลลา",
+            "opponent_en": "",
+            "opponent_country": "อิตาลี/แคนาดา",
+            "date": "Oct 04, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 36: พระจันทร์ฉาย vs โจนาธาน II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 4,
+            "time": "1:55",
+            "opponent_th": "เอลลิส บาดร์ บาร์โบซา",
+            "opponent_en": "",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Feb 08, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 28: พระจันทร์ฉาย vs เอลลิส"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "โจนาธาน ดิ เบลลา",
+            "opponent_en": "",
+            "opponent_country": "อิตาลี/แคนาดา",
+            "date": "Jun 28, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 68: พระจันทร์ฉาย vs โจนาธาน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:28",
+            "opponent_th": "โจเซฟ ลาซิรี",
+            "opponent_en": "",
+            "opponent_country": "อิตาลี/โมร็อกโก",
+            "date": "Dec 22, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 46: ตะวันฉาย vs  ซุปเปอร์บอน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อัคราม ฮามิดี",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส/แอลจีเรีย",
+            "date": "Sep 22, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 34: รถถัง vs ซุปเปอร์เล็ก"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:10",
+            "opponent_th": "สามเอ ไก่ย่างห้าดาว",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 23, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 22"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "คมเพชร ศิษย์สารวัตรเสือ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 20, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 1"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โจเซฟ ลาซิรี",
+            "opponent_en": "",
+            "opponent_country": "อิตาลี/โมร็อกโก",
+            "date": "May 20, 2022",
+            "rating": 5,
+            "event_en": "ONE157: เพชรมรกต VS จิมมี"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "สามเอ ไก่ย่างห้าดาว",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 30, 2021",
+            "rating": 5,
+            "event_en": "ONE Battleground"
+        }
+    ]
+}

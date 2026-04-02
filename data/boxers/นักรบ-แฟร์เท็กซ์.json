@@ -1,0 +1,254 @@
+{
+    "fighter_profile": {
+        "name_th": "นักรบ แฟร์เท็กซ์",
+        "name_en": "Nakrob Fairtex",
+        "alias": "จอมทำลายล้างจากสุรินทร์",
+        "image_url": "https://i.ibb.co/Q7tXgJTN/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยบู๊, ขยันออกอาวุธ",
+        "fighting_style_en": "Aggressive, High-Volume Striker",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 135,
+            "weight_kg": 61.2,
+            "division": "Flyweight",
+            "height_ft": "5'8\"",
+            "height_cm": 175,
+            "reach_cm": "176",
+            "leg_reach_cm": "99"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 10,
+                "body": 5,
+                "legs": 3,
+                "total_per_minute": 18
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 48,
+                "accuracy_by_target_percentage": {
+                    "head": 50,
+                    "body": 35,
+                    "legs": 15
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 42,
+                "defense_by_target_percentage": {
+                    "head": 40,
+                    "body": 35,
+                    "legs": 25
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 27,
+            "team_th": "แฟร์เท็กซ์ เทรนนิง เซ็นเตอร์",
+            "team_en": "Fairtex Training Center"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/nakrob-fairtex/"
+        ],
+        "short_biography": "นักรบ แฟร์เท็กซ์ (Nakrob Fairtex) เป็นนักชกชาวไทย วัย 27 ปี จากสังกัดแฟร์เท็กซ์ เทรนนิง เซ็นเตอร์ มีความถนัดในการต่อสู้สไตล์มวยบู๊, ขยันออกอาวุธ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 61.2 กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 143 สามารถพ่ายแพ้ให้กับ พันฤทธิ์ ลูกเจ้าแม่สายวารี ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พันฤทธิ์ ลูกเจ้าแม่สายวารี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 143"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:27",
+            "opponent_th": "ทาอิกิ นาอิโตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Nov 08, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 37: โรมัน vs ซาเมต"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:52",
+            "opponent_th": "จ้าวเสือใหญ่ ม.กรุงเทพธนบุรี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 07, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 32: นักรบ vs จ้าวเสือใหญ่"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:22",
+            "opponent_th": "ผึ้งหลวง บ้านแรมบ้า",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 21, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 101"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องธรณี ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 07, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 26: คริสเตียน vs อาลิเบก"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เด็ดดวงเล็ก ทอฝันฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 02, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 24: จาร์เร็ด vs กุสตาโว"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:02",
+            "opponent_th": "ทาเกียร์ คาลิลอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย/อาเซอร์ไบจาน",
+            "date": "Jun 14, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 67"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เมืองไทย พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 05, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 58: ซุปเปอร์บอน vs มารัต"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรทองหล่อ ศิษย์หลวงพี่น้ำฝน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 26, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 49"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:51",
+            "opponent_th": "เด็ดดวงเล็ก ทอฝันฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 17, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 41"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:08",
+            "opponent_th": "นาบิล อานาน",
+            "opponent_en": "",
+            "opponent_country": "แอลจีเรีย/ไทย",
+            "date": "Sep 08, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 32"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:28",
+            "opponent_th": "เพชรภูไท อบจ.นครพนม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 14, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 25"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พลอยวิทยา ช.วิมลศิลป์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 05, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 15"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:45",
+            "opponent_th": "เฉิน จายี่",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Mar 17, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 9"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แชร์ซอด คาบูทอฟ",
+            "opponent_en": "",
+            "opponent_country": "คีร์กีซสถาน",
+            "date": "Jan 27, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 2"
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "fighter_profile": {
+        "name_th": "ชิมอน",
+        "name_en": "Shimon",
+        "alias": "ยังไม่มีข้อมูล",
+        "image_url": "https://i.ibb.co/nqp6TNkT/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "Orthodox",
+        "physical_stats": {
+            "weight_lbs": "135",
+            "weight_kg": "ยังไม่มีข้อมูล",
+            "division": "Flyweight",
+            "height_ft": "5'10\"",
+            "height_cm": 178,
+            "reach_cm": 175,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 4,
+                "body": 2,
+                "legs": 1,
+                "total_per_minute": 21
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 39,
+                "accuracy_by_target_percentage": {
+                    "head": 48,
+                    "body": 28,
+                    "legs": 23
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 30,
+                "defense_by_target_percentage": {
+                    "head": 23,
+                    "body": 43,
+                    "legs": 33
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 21,
+            "team_th": "Eiwa Sports Gym",
+            "team_en": "Eiwa Sports Gym"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/shimon/"
+        ],
+        "short_biography": "ชิมอน (Shimon) เป็นนักชกชาวญี่ปุ่น วัย 21 ปี จากสังกัดEiwa Sports Gym มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ ยังไม่มีข้อมูล กิโลกรัม) ส่วนสูง 178 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง สามารถเอาชนะ เด็ดดวงเล็ก ทอฝันฟาร์ม ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เด็ดดวงเล็ก ทอฝันฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+        },
+        {
+            "result": "Draw",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 3,
+            "time": "N/A",
+            "opponent_th": "ทาเกียร์ คาลิลอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย/อาเซอร์ไบจาน",
+            "date": "Nov 21, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 134"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:06",
+            "opponent_th": "เพชรทองหล่อ ศิษย์หลวงพี่น้ำฝน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 22, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 121"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยอดเหล็กเพชร อ.อัจฉริยะ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 23, 2025",
+            "rating": 5,
+            "event_en": "ONE 172: ทาเครุ vs รถถัง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:39",
+            "opponent_th": "ฤทธิเดช ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 20, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 92"
+        }
+    ]
+}

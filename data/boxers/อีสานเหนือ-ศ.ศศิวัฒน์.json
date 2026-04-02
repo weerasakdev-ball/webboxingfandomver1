@@ -1,0 +1,120 @@
+{
+    "fighter_profile": {
+        "name_th": "อีสานเหนือ ศ.ศศิวัฒน์",
+        "name_en": "Isannuea Sor.Sasiwat",
+        "alias": "อีสานเหนือ ต.ตันเจริญ",
+        "image_url": "ไม่ระบุ",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": "ไม่ระบุ",
+            "weight_kg": "ไม่ระบุ",
+            "division": "ไม่ระบุ",
+            "height_ft": "5'7\"",
+            "height_cm": 172,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 22,
+            "team_th": "ศิษย์เอราวัณ",
+            "team_en": "Sit Erawan"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/isannuea-tor-tanjaroen/"
+        ],
+        "short_biography": "อีสานเหนือ ศ.ศศิวัฒน์ (Isannuea Sor.Sasiwat) หรืออดีตใช้ชื่อ อีสานเหนือ ต.ตันเจริญ เป็นนักชกชาวไทย วัย 22 ปี จากสังกัดทีมศิษย์เอราวัณ (Sit Erawan) มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 172 เซนติเมตร (5'7\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)"
+    },
+    "weigh_in_history": [],
+    "fight_history": [],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO",
+            "round": 2,
+            "time": "0:29",
+            "opponent_th": "สานิตย์ เอกเมืองนนท์",
+            "opponent_en": "Sanit Aekmuangnon",
+            "opponent_country": "ไทย",
+            "date": "Jan 30, 2026",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 140"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ปานเผด็จ เอ็นเอฟ.ลูกสวน",
+            "opponent_en": "Panpadet NF.Looksuan",
+            "opponent_country": "ไทย",
+            "date": "Nov 28, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 135"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO",
+            "round": 2,
+            "time": "1:02",
+            "opponent_th": "โฟกัส นายกสร้อยเวียงยองลำพูน",
+            "opponent_en": "Focus Nayoksoiwiangyonglamphun",
+            "opponent_country": "ไทย",
+            "date": "Aug 29, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 122"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เดโช ป.บริรักษ์",
+            "opponent_en": "Decho Por.Borirak",
+            "opponent_country": "ไทย",
+            "date": "Jun 20, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 113"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เดโช ป.บริรักษ์",
+            "opponent_en": "Decho Por.Borirak",
+            "opponent_country": "ไทย",
+            "date": "Apr 11, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 104"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO",
+            "round": 2,
+            "time": "2:03",
+            "opponent_th": "ช่างทอง เอ็มยุเด็น",
+            "opponent_en": "Changthong Emyuden",
+            "opponent_country": "ไทย",
+            "date": "Sep 13, 2024",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 79"
+        }
+    ],
+    "upcoming_fights": []
+}

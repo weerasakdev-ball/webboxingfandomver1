@@ -1,0 +1,64 @@
+{
+    "fighter_profile": {
+        "name_th": "เรียวเฮอิ คุโรซาวะ",
+        "name_en": "Ryohei Kurosawa",
+        "alias": "",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 124.6,
+            "weight_kg": 56.5,
+            "division": "",
+            "height_ft": "5'4\"",
+            "height_cm": 163,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 32,
+            "team_th": "The Blackbelt Japan",
+            "team_en": ""
+        },
+        "target_urls": [],
+        "short_biography": "เรียวเฮอิ คุโรซาวะ (Ryohei Kurosawa) เป็นนักชกชาวญี่ปุ่น วัย 32 ปี จากสังกัดThe Blackbelt Japan มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก  (ประมาณ 56.5 กิโลกรัม) ส่วนสูง 163 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา สามารถพ่ายแพ้ให้กับ โบคัง มาซันเยน ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "โบคัง มาซันเยน",
+            "opponent_en": "",
+            "opponent_country": "แอฟริกาใต้",
+            "date": "Jan 24, 2026",
+            "rating": "",
+            "event_en": "ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "เจย์สัน มิราลเปซ",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Sep 12, 2025",
+            "rating": "",
+            "event_en": "ONE ลุมพินี 124"
+        }
+    ]
+}

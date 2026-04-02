@@ -1,0 +1,119 @@
+{
+    "fighter_profile": {
+        "name_th": "เดชชวลิต ซิลค์มวยไทย",
+        "name_en": "Detchawalit Silkmuaythai",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324025/%E0%B9%80%E0%B8%94%E0%B8%8A%E0%B8%8A%E0%B8%A7%E0%B8%A5%E0%B8%B4%E0%B8%95_%E0%B8%8B%E0%B8%B4%E0%B8%A5%E0%B8%84%E0%B9%8C%E0%B8%A1%E0%B8%A7%E0%B8%A2%E0%B9%84%E0%B8%97%E0%B8%A2_n57k5z.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 144.4,
+            "weight_kg": 65.5,
+            "division": "Bantamweight",
+            "height_ft": "5'10\"",
+            "height_cm": 180,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 18,
+            "team_th": "Silk Muaythai",
+            "team_en": "Silk Muaythai"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/detchawalit-silkmuaythai/"
+        ],
+        "short_biography": "เดชชวลิต ซิลค์มวยไทย (Detchawalit Silkmuaythai) เป็นนักชกชาวไทย วัย 18 ปี จากสังกัดSilk Muaythai มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 65.5 กิโลกรัม) ส่วนสูง 180 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 146 สามารถเอาชนะ เดนิส ดอตเซนโก ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "upcoming_fights": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 146",
+            "weight_lbs": 144.4,
+            "division": "Bantamweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:37",
+            "opponent_th": "เดนิส ดอตเซนโก",
+            "opponent_en": "",
+            "opponent_country": "ยูเครน",
+            "date": "Mar 13, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 146"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:25",
+            "opponent_th": "ซอว์ มิน มิน",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Feb 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 141"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:32",
+            "opponent_th": "อีวาน บอเดียนท์",
+            "opponent_en": "",
+            "opponent_country": "อุรุกวัย",
+            "date": "Oct 24, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 130"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:12",
+            "opponent_th": "มาจิด เซย์ดาลี",
+            "opponent_en": "",
+            "opponent_country": "อิหร่าน",
+            "date": "Aug 08, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 119"
+        }
+    ]
+}

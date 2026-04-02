@@ -1,0 +1,79 @@
+{
+    "fighter_profile": {
+        "name_th": "อาเรียน เอสพาร์ซา",
+        "name_en": "Arian Esparza",
+        "alias": "Destroyer",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773816306/arian-esparza-at_np3pcq.png",
+        "grade": "",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": "",
+            "weight_kg": "",
+            "division": "",
+            "height_ft": "5'8\"",
+            "height_cm": 175,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "สหรัฐอเมริกา",
+            "country_en": "USA",
+            "age": 23,
+            "team_th": "Sakasit PRS Gym / พีเค.แสนชัยมวยไทยยิม",
+            "team_en": ""
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/arian-esparza/"
+        ],
+        "short_biography": "อาเรียน เอสพาร์ซา (Arian Esparza) เป็นนักชกชาวสหรัฐอเมริกา วัย 23 ปี จากสังกัดSakasit PRS Gym / พีเค.แสนชัยมวยไทยยิม มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก  (ประมาณ  กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 147 สามารถพ่ายแพ้ให้กับ ปตท. อภิชาติฟาร์ม ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:01",
+            "opponent_th": "ปตท. อภิชาติฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 147"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ริคาร์โด บราโว",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น/อาร์เจนตินา",
+            "date": "Jun 07, 2025",
+            "rating": "",
+            "event_en": "ONE Fight Night 32: นักรบ vs จ้าวเสือใหญ่"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "นนทชัย จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 08, 2025",
+            "rating": "",
+            "event_en": "ONE Fight Night 29: อัลลิเซีย vs มารี"
+        }
+    ]
+}

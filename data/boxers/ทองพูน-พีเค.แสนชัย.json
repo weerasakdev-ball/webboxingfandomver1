@@ -1,0 +1,189 @@
+{
+    "fighter_profile": {
+        "name_th": "ทองพูน พีเค.แสนชัย",
+        "name_en": "Thongpoon PK.Saenchai",
+        "alias": "มือปราบขยะ (The Garbage Collector)",
+        "image_url": "https://i.ibb.co/4wr9yQPB/2.jpg",
+        "grade": "B+",
+        "fighting_style_th": "มวยบู๊, พลังกำปั้นหนัก, ดุดัน",
+        "fighting_style_en": "Aggressive, Heavy Hitter, Puncher",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 121.9,
+            "weight_kg": 55.3,
+            "division": "Strawweight",
+            "height_ft": "5'4\"",
+            "height_cm": 163,
+            "reach_cm": "165",
+            "leg_reach_cm": "94"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 9,
+                "body": 3,
+                "legs": 2,
+                "total_per_minute": 14
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 42,
+                "accuracy_by_target_percentage": {
+                    "head": 60,
+                    "body": 25,
+                    "legs": 15
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 35,
+                "defense_by_target_percentage": {
+                    "head": 30,
+                    "body": 40,
+                    "legs": 30
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 28,
+            "team_th": "พีเค.แสนชัยมวยไทยยิม",
+            "team_en": "PK.Saenchai Muaythaigym"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/thongpoon-pk-saenchai/"
+        ],
+        "short_biography": "ทองพูน พีเค.แสนชัย (Thongpoon PK.Saenchai) เป็นนักชกชาวไทย วัย 28 ปี จากสังกัดพีเค.แสนชัยมวยไทยยิม มีความถนัดในการต่อสู้สไตล์มวยบู๊, พลังกำปั้นหนัก, ดุดัน ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 55.3 กิโลกรัม) ส่วนสูง 163 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง สามารถพ่ายแพ้ให้กับ จาง เป่ยเหมียน ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "จาง เป่ยเหมียน",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Dec 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:56",
+            "opponent_th": "เอลเมห์ดี เอล จามารี",
+            "opponent_en": "",
+            "opponent_country": "โมร็อกโก",
+            "date": "Apr 05, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 30: โรมัน vs ลินดอน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:10",
+            "opponent_th": "แดเนียล วิลเลียมส์",
+            "opponent_en": "",
+            "opponent_country": "ออสเตรเลีย/ไทย",
+            "date": "Dec 07, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 26: คริสเตียน vs อาลิเบก"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "รุย โบเทลโฮ",
+            "opponent_en": "",
+            "opponent_country": "โปรตุเกส",
+            "date": "Oct 04, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 25: อเล็กซิส vs รีเกียน II"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซากาเรีย เอล จามารี",
+            "opponent_en": "",
+            "opponent_country": "โมร็อกโก",
+            "date": "May 03, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 22: สมิลลา vs นาตาเลีย"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:37",
+            "opponent_th": "ทีมูร์ ชูอิคอฟ",
+            "opponent_en": "",
+            "opponent_country": "คีร์กีซสถาน",
+            "date": "Feb 16, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 19: โจนาธาน vs ฟิลิปเป"
+        },
+        {
+            "result": "Draw",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 3,
+            "time": "N/A",
+            "opponent_th": "เอลลิส บาดร์ บาร์โบซา",
+            "opponent_en": "",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Dec 08, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 17: โรมัน vs อเล็กซ์"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยางดำ จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 23, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 22"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:20",
+            "opponent_th": "เพชรมงคล ศูนย์กีฬาห้วยต้ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 21, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 13"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:24",
+            "opponent_th": "ทูมอโร่ เกียรติทรงฤทธิ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 24, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 10"
+        }
+    ]
+}

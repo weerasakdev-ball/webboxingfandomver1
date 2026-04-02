@@ -1,0 +1,124 @@
+{
+    "fighter_profile": {
+        "name_th": "โจอาคิม อูรากี",
+        "name_en": "Joachim Ouraghi",
+        "alias": "Pantera",
+        "image_url": "https://i.ibb.co/KcwbgXCG/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยไทย, บู๊",
+        "fighting_style_en": "Muay Thai, Aggressive",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 134.3,
+            "weight_kg": 60.9,
+            "division": "Flyweight",
+            "height_ft": "5'10\"",
+            "height_cm": 179,
+            "reach_cm": "181",
+            "leg_reach_cm": "99"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 7,
+                "body": 4,
+                "legs": 3,
+                "total_per_minute": 14
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 44,
+                "accuracy_by_target_percentage": {
+                    "head": 55,
+                    "body": 25,
+                    "legs": 20
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 40,
+                "defense_by_target_percentage": {
+                    "head": 42,
+                    "body": 35,
+                    "legs": 23
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ฝรั่งเศส / แอลจีเรีย",
+            "country_en": "France / Algeria",
+            "age": 30,
+            "team_th": "เพชรสมาน",
+            "team_en": "Petsaman Gym"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/joachim-ouraghi/"
+        ],
+        "short_biography": "โจอาคิม อูรากี (Joachim Ouraghi) เป็นนักชกชาวฝรั่งเศส / แอลจีเรีย วัย 30 ปี จากสังกัดเพชรสมาน มีความถนัดในการต่อสู้สไตล์มวยไทย, บู๊ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 60.9 กิโลกรัม) ส่วนสูง 179 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 98 สามารถพ่ายแพ้ให้กับ ซ่อนรัก แฟร์เท็กซ์ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซ่อนรัก แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Feb 28, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 98"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ดวงสมพงษ์ จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 23, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 76"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องศึก ศิษย์สารวัตรเสือ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 26, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 72"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:36",
+            "opponent_th": "ยามีน พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 19, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 59"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:49",
+            "opponent_th": "กิ่งซางเล็ก ว.คำชำนาญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 19, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 48"
+        }
+    ]
+}

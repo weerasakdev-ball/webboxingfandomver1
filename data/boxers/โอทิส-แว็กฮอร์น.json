@@ -1,0 +1,144 @@
+{
+    "fighter_profile": {
+        "name_th": "โอทิส แว็กฮอร์น",
+        "name_en": "Otis Waghorn",
+        "alias": "The Rising Star of England",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773156737/%E0%B9%82%E0%B8%AD%E0%B8%97%E0%B8%B4%E0%B8%AA_%E0%B9%81%E0%B8%A7%E0%B9%87%E0%B8%81%E0%B8%AE%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%99_chywol.png",
+        "grade": "B+",
+        "fighting_style_th": "มวยไทย/คิกบ็อกซิ่ง, หมัดและศอกอันตราย, ใจสู้",
+        "fighting_style_en": "Muay Thai / Kickboxing, Sharp Elbows & Punches, High Resilience",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 145,
+            "weight_kg": 65.77,
+            "division": "Bantamweight",
+            "height_ft": "5'11\"",
+            "height_cm": 180,
+            "reach_cm": "182",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "40.0%",
+                "body": "35.0%",
+                "legs": "25.0%",
+                "total_accuracy": "41.0%"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "41.0%",
+                "accuracy_by_target_percentage": {
+                    "head": "40.0%",
+                    "body": "35.0%",
+                    "legs": "25.0%"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "อังกฤษ",
+            "country_en": "England",
+            "age": 23,
+            "team_th": "Assassins Gym / Tiger Muay Thai",
+            "team_en": "Assassins Gym / Tiger Muay Thai"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/otis-waghorn/"
+        ],
+        "short_biography": "โอทิส แว็กฮอร์น (Otis Waghorn) เป็นนักชกชาวอังกฤษ วัย 23 ปี จากสังกัดAssassins Gym / Tiger Muay Thai มีความถนัดในการต่อสู้สไตล์มวยไทย/คิกบ็อกซิ่ง, หมัดและศอกอันตราย, ใจสู้ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 65.77 กิโลกรัม) ส่วนสูง 180 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถพ่ายแพ้ให้กับ อาร์มาน โมราดี ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 145",
+            "weight_lbs": 145,
+            "division": "Bantamweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อาร์มาน โมราดี",
+            "opponent_en": "",
+            "opponent_country": "อิหร่าน",
+            "date": "Mar 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 145"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:13",
+            "opponent_th": "ราโด โปปา",
+            "opponent_en": "",
+            "opponent_country": "บัลแกเรีย",
+            "date": "Nov 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 132"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฮาคิม บาห์",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส/โมร็อกโก",
+            "date": "Aug 01, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 118"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:03",
+            "opponent_th": "เป็นต่อ เอสพี.กันสาดแป๊ะมีนบุรี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 17, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 94"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เสือคิม ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 27, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:34",
+            "opponent_th": "ก้องไกล ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 14, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 67"
+        }
+    ]
+}

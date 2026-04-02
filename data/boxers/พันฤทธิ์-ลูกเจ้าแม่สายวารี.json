@@ -1,0 +1,241 @@
+{
+    "fighter_profile": {
+        "name_th": "พันฤทธิ์ ลูกเจ้าแม่สายวารี",
+        "name_en": "Panrit Lukjaomaesaiwaree",
+        "alias": "ขุนเข่าพลาญชัย",
+        "image_url": "https://i.ibb.co/dJbX0W58/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยบู๊, หมัดหนัก, ศอกอันตราย",
+        "fighting_style_en": "Aggressive, Power Puncher, Elbow Specialist",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 139.6,
+            "weight_kg": 63.3,
+            "division": "Bantamweight / Catchweight",
+            "height_ft": "5'6\"",
+            "height_cm": 168,
+            "reach_cm": "170",
+            "leg_reach_cm": "96"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 9,
+                "body": 4,
+                "legs": 2,
+                "total_per_minute": 15
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 45,
+                "accuracy_by_target_percentage": {
+                    "head": 58,
+                    "body": 28,
+                    "legs": 14
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 35,
+                "defense_by_target_percentage": {
+                    "head": 30,
+                    "body": 40,
+                    "legs": 30
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 29,
+            "team_th": "สิงห์มาวิน",
+            "team_en": "Singha Mawynn Muay Thai"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/panrit-lukjaomaesaiwaree/"
+        ],
+        "short_biography": "พันฤทธิ์ ลูกเจ้าแม่สายวารี (Panrit Lukjaomaesaiwaree) เป็นนักชกชาวไทย วัย 29 ปี จากสังกัดสิงห์มาวิน มีความถนัดในการต่อสู้สไตล์มวยบู๊, หมัดหนัก, ศอกอันตราย ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight / Catchweight (ประมาณ 63.3 กิโลกรัม) ส่วนสูง 168 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 143 สามารถเอาชนะ นักรบ แฟร์เท็กซ์ ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "นักรบ แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 143"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "กฤษณะ ดาวเด่นมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 31, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 131"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:07",
+            "opponent_th": "แอนตาร์ คาเซม",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส/เบลารุส",
+            "date": "Jul 18, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 116"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:55",
+            "opponent_th": "สุขสวัสดิ์ พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 02, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 106"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:46",
+            "opponent_th": "คมอาวุธ เอฟเอ.กรุ๊ป",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 96"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:57",
+            "opponent_th": "เสือคิม ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 20, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 92"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:57",
+            "opponent_th": "ซุปเปอร์บอล ทอฝันฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 18, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 83"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "วรพล ลูกเจ้าพ่อโรงต้ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 02, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 73"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อเล็กเซย์ บาลีโก",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Mar 29, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 57"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:55",
+            "opponent_th": "ก้องไกล ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 02, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 50"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "คมอาวุธ เอฟเอ.กรุ๊ป",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 18, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 29"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:26",
+            "opponent_th": "เฟอร์ซาน ชิเชก",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "Jun 02, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 19"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แปดแสนเล็ก พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 24, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 10"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:03",
+            "opponent_th": "อิลยาส มูซาเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Feb 03, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 3"
+        }
+    ]
+}

@@ -1,0 +1,163 @@
+{
+    "fighter_profile": {
+        "name_th": "อเล็กเซย์ บาลีโก",
+        "name_en": "Alexey Balyko",
+        "alias": "Russian Tank",
+        "image_url": "https://i.ibb.co/2D14SZF/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยหมัด, บู๊",
+        "fighting_style_en": "Puncher, Aggressive",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 139.1,
+            "weight_kg": 63.1,
+            "division": "Bantamweight / Catchweight",
+            "height_ft": "5'7\"",
+            "height_cm": 170,
+            "reach_cm": "173",
+            "leg_reach_cm": "98"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 8,
+                "body": 4,
+                "legs": 2,
+                "total_per_minute": 14
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 45,
+                "accuracy_by_target_percentage": {
+                    "head": 55,
+                    "body": 30,
+                    "legs": 15
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 42,
+                "defense_by_target_percentage": {
+                    "head": 40,
+                    "body": 35,
+                    "legs": 25
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "รัสเซีย",
+            "country_en": "Russia",
+            "age": 32,
+            "team_th": "ไทเกอร์ มวยไทย",
+            "team_en": "Tiger Muay Thai"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/alexey-balyko/"
+        ],
+        "short_biography": "อเล็กเซย์ บาลีโก (Alexey Balyko) เป็นนักชกชาวรัสเซีย วัย 32 ปี จากสังกัดไทเกอร์ มวยไทย มีความถนัดในการต่อสู้สไตล์มวยหมัด, บู๊ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight / Catchweight (ประมาณ 63.1 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง สามารถพ่ายแพ้ให้กับ ยอดไอคิว อ.พิมลศรี ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:06",
+            "opponent_th": "ยอดไอคิว อ.พิมลศรี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:53",
+            "opponent_th": "กิ่งซางเล็ก ว.คำชำนาญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 04, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 115"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "คมอาวุธ เอฟเอ.กรุ๊ป",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 13, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 91"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:14",
+            "opponent_th": "จอห์น ลินีเคอร์",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Oct 04, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 25: อเล็กซิส vs รีเกียน II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:42",
+            "opponent_th": "สเตฟาน โคโรดี",
+            "opponent_en": "",
+            "opponent_country": "ไอร์แลนด์",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พันฤทธิ์ ลูกเจ้าแม่สายวารี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 29, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 57"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:22",
+            "opponent_th": "เสือคิม ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 12, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 47"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยอดไอคิว อ.พิมลศรี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 15, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 33"
+        }
+    ]
+}

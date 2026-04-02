@@ -1,0 +1,188 @@
+{
+    "fighter_profile": {
+        "name_th": "พันธ์พยัคฆ์ จิตรเมืองนนท์",
+        "name_en": "Panpayak Jitmuangnon",
+        "alias": "The Angel Warrior / ยอดมวย 3 พ.ศ.",
+        "image_url": "https://i.ibb.co/tpKgf0Qy/image.jpg",
+        "grade": "B",
+        "fighting_style_th": "มวยฝีมือ",
+        "fighting_style_en": "Technical Fighter (Muay Fimeu)",
+        "stance": "Southpaw",
+        "physical_stats": {
+            "weight_lbs": 135.1,
+            "weight_kg": 61.3,
+            "division": "Flyweight",
+            "height_ft": "5'8\"",
+            "height_cm": 175,
+            "leg_reach_cm": "102"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "1",
+                "body": "2",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "11"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "42",
+                "accuracy_by_target_percentage": {
+                    "head": "30",
+                    "body": "56",
+                    "legs": "14"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 32,
+                "defense_by_target_percentage": {
+                    "head": 30,
+                    "body": 31,
+                    "legs": 38
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 30,
+            "team_th": "จิตรเมืองนนท์",
+            "team_en": "Jitmuangnon Gym"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/panpayak-jitmuangnon/"
+        ],
+        "short_biography": "พันธ์พยัคฆ์ จิตรเมืองนนท์ (Panpayak Jitmuangnon) เป็นนักชกชาวไทย วัย 30 ปี จากสังกัดจิตรเมืองนนท์ มีความถนัดในการต่อสู้สไตล์มวยฝีมือ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 61.3 กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 122 สามารถพ่ายแพ้ให้กับ อัสซาดูลาห์ อิมานกาซาลิเอฟ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:07",
+            "opponent_th": "อัสซาดูลาห์ อิมานกาซาลิเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Aug 29, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 122"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:17",
+            "opponent_th": "มาจิด เซย์ดาลี",
+            "opponent_en": "",
+            "opponent_country": "อิหร่าน",
+            "date": "Mar 14, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 100"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:08",
+            "opponent_th": "เอกอร์ บิเกรฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Dec 20, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 92"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซิลวิอู วิเตซ",
+            "opponent_en": "",
+            "opponent_country": "โรมาเนีย",
+            "date": "Oct 18, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 83"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "ซุปเปอร์เล็ก ซุปเปอร์เล็กมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 03, 2022",
+            "rating": 5,
+            "event_en": "ONE 164: โจชัว vs จาร์เร็ด"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:10",
+            "opponent_th": "ซาวาส ไมเคิล",
+            "opponent_en": "",
+            "opponent_country": "ไซปรัส",
+            "date": "Aug 27, 2022",
+            "rating": 5,
+            "event_en": "ONE Fight Night 1:  อาเดรียโน VS ดิมิเทรียส II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แดเนียล พูแอร์ตัส",
+            "opponent_en": "",
+            "opponent_country": "สเปน",
+            "date": "Nov 26, 2021",
+            "rating": 5,
+            "event_en": "ONE NextGen III"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซุปเปอร์เล็ก ซุปเปอร์เล็กมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 31, 2020",
+            "rating": 5,
+            "event_en": "ONE No Surrender"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "มาซาฮิเดะ คูโด",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Sep 06, 2019",
+            "rating": 5,
+            "event_en": "ONE IMMORTAL TRIUMPH"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "รุย โบเทลโฮ",
+            "opponent_en": "",
+            "opponent_country": "โปรตุเกส",
+            "date": "Dec 07, 2018",
+            "rating": 5,
+            "event_en": "ONE DESTINY OF CHAMPIONS"
+        }
+    ]
+}

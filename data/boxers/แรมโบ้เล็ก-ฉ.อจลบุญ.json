@@ -1,0 +1,188 @@
+{
+    "fighter_profile": {
+        "name_th": "แรมโบ้เล็ก ฉ.อจลบุญ",
+        "name_en": "Rambolek Chor.Ajalaboon",
+        "alias": "Little Rambo",
+        "image_url": "https://i.ibb.co/whHLC7tY/1.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ, บุก",
+        "fighting_style_en": "Technical Fighter (Muay Fimeu), Aggressive",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 145,
+            "weight_kg": 65.8,
+            "division": "Bantamweight",
+            "height_ft": "5'8\"",
+            "height_cm": 173,
+            "reach_cm": "178",
+            "leg_reach_cm": "101"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 6,
+                "body": 4,
+                "legs": 4,
+                "total_per_minute": 14
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 36,
+                "accuracy_by_target_percentage": {
+                    "head": 38,
+                    "body": 30,
+                    "legs": 32
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 42,
+                "defense_by_target_percentage": {
+                    "head": 45,
+                    "body": 40,
+                    "legs": 41
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 22,
+            "team_th": "ซุปเปอร์บอน เทรนนิง แคมป์",
+            "team_en": "Superbon Training Camp"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/rambolek-chor-ajalaboon/"
+        ],
+        "short_biography": "แรมโบ้เล็ก ฉ.อจลบุญ (Rambolek Chor.Ajalaboon) เป็นนักชกชาวไทย วัย 22 ปี จากสังกัดซุปเปอร์บอน เทรนนิง แคมป์ มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, บุก ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 65.8 กิโลกรัม) ส่วนสูง 173 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 147 สามารถเอาชนะ นาบิล อานาน ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "นาบิล อานาน",
+            "opponent_en": "",
+            "opponent_country": "แอลจีเรีย/ไทย",
+            "date": "Mar 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 147"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:41",
+            "opponent_th": "อับดุลลา ดายาคาเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Jan 24, 2026",
+            "rating": 5,
+            "event_en": "ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:01",
+            "opponent_th": "ดีมิทรี คอฟตุน",
+            "opponent_en": "",
+            "opponent_country": "ทาจิกิสถาน/รัสเซีย",
+            "date": "Sep 06, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 35: แจ็กกี vs สเตลลา"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:15",
+            "opponent_th": "พาร์แฮม กีราติ",
+            "opponent_en": "",
+            "opponent_country": "อิหร่าน",
+            "date": "Mar 08, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 29: อัลลิเซีย vs มารี"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เคร็ก โคกลีย์",
+            "opponent_en": "",
+            "opponent_country": "ไอร์แลนด์",
+            "date": "Aug 02, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 24: จาร์เร็ด vs กุสตาโว"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โซเนอร์ เซน",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "Feb 09, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 51"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:25",
+            "opponent_th": "เอซา เทน พาว",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "Sep 29, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 14: แสตมป์ vs ซอ ฮี"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฟาริยา อามินิปัวร์",
+            "opponent_en": "",
+            "opponent_country": "อิหร่าน",
+            "date": "Jun 23, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 22"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:33",
+            "opponent_th": "จาง เฉิงหลง",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Apr 21, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 13"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:10",
+            "opponent_th": "ธีรเดช ช.ห้าพยัคฆ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 03, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 7"
+        }
+    ]
+}

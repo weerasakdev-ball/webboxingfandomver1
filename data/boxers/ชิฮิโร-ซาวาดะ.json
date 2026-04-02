@@ -1,0 +1,131 @@
+{
+    "fighter_profile": {
+        "name_th": "ชิฮิโร ซาวาดะ",
+        "name_en": "Chihiro Sawada",
+        "alias": "",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 113.3,
+            "weight_kg": 51.4,
+            "division": "",
+            "height_ft": "4'11\"",
+            "height_cm": 150,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 28,
+            "team_th": "AACC",
+            "team_en": ""
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/chihiro-sawada/"
+        ],
+        "short_biography": "ชิฮิโร ซาวาดะ (Chihiro Sawada) เป็นนักชกชาวญี่ปุ่น วัย 28 ปี จากสังกัดAACC มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก  (ประมาณ 51.4 กิโลกรัม) ส่วนสูง 150 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา สามารถเอาชนะ นาตาลี ซาลเซโด ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "นาตาลี ซาลเซโด",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "Jan 24, 2026",
+            "rating": "",
+            "event_en": "ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "อิตซูกิ ฮิราตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Nov 16, 2025",
+            "rating": "",
+            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "3:52",
+            "opponent_th": "มาคาเรนา อารากอน",
+            "opponent_en": "",
+            "opponent_country": "อาร์เจนตินา",
+            "date": "Jul 12, 2025",
+            "rating": "",
+            "event_en": "ONE Fight Night 33: อัลลิเซีย vs โยฮันนา"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "เมง โบ",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Jan 11, 2025",
+            "rating": "",
+            "event_en": "ONE Fight Night 27: ถัง ไค vs อักบาร์"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "โนแอล กรองด์ชอง",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส/ไทย",
+            "date": "May 03, 2024",
+            "rating": "",
+            "event_en": "ONE Fight Night 22: สมิลลา vs นาตาเลีย"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "จีฮิน รัดซวน",
+            "opponent_en": "",
+            "opponent_country": "มาเลเซีย",
+            "date": "Mar 08, 2024",
+            "rating": "",
+            "event_en": "ONE Fight Night 20: เจเน็ต vs เพชรจีจ้า"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 2,
+            "time": "0:53",
+            "opponent_th": "ซานาซ ฟายาซมานีซ",
+            "opponent_en": "",
+            "opponent_country": "อิหร่าน",
+            "date": "Feb 17, 2023",
+            "rating": "",
+            "event_en": "ONE ลุมพินี 5"
+        }
+    ]
+}

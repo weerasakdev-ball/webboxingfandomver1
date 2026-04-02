@@ -1,0 +1,124 @@
+{
+    "fighter_profile": {
+        "name_th": "ลุค ลิสซีย์",
+        "name_en": "Luke Lessei",
+        "alias": "The Chef",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772549099/ลุค_regtjs.jpg",
+        "grade": "B+",
+        "fighting_style_th": "มวยไทย, บู๊ (สไตล์แปลกประหลาด)",
+        "fighting_style_en": "Muay Thai, Aggressive (Unorthodox style)",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 155,
+            "weight_kg": 70.3,
+            "division": "Featherweight",
+            "height_ft": "6'0\"",
+            "height_cm": 185,
+            "reach_cm": "180",
+            "leg_reach_cm": "104"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 6,
+                "body": 4,
+                "legs": 3,
+                "total_per_minute": 13
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 42,
+                "accuracy_by_target_percentage": {
+                    "head": 35,
+                    "body": 45,
+                    "legs": 20
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 41,
+                "defense_by_target_percentage": {
+                    "head": 45,
+                    "body": 35,
+                    "legs": 20
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "สหรัฐอเมริกา",
+            "country_en": "USA",
+            "age": 29,
+            "team_th": "ดูบิวก์ มาร์เชียล อาร์ตส กรุ๊ป",
+            "team_en": "Dubuque Martial Arts Group"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/luke-lessei/"
+        ],
+        "short_biography": "ลุค ลิสซีย์ (Luke Lessei) เป็นนักชกชาวสหรัฐอเมริกา วัย 29 ปี จากสังกัดดูบิวก์ มาร์เชียล อาร์ตส กรุ๊ป มีความถนัดในการต่อสู้สไตล์มวยไทย, บู๊ (สไตล์แปลกประหลาด) ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Featherweight (ประมาณ 70.3 กิโลกรัม) ส่วนสูง 185 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 37: โรมัน vs ซาเมต สามารถพ่ายแพ้ให้กับ นิโค คาร์ริลโล ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:35",
+            "opponent_th": "นิโค คาร์ริลโล",
+            "opponent_en": "",
+            "opponent_country": "สกอตแลนด์",
+            "date": "Nov 08, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 37: โรมัน vs ซาเมต"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:00",
+            "opponent_th": "โคดี เจโรม",
+            "opponent_en": "",
+            "opponent_country": "แคนาดา",
+            "date": "Jan 11, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 27: ถัง ไค vs อักบาร์"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:08",
+            "opponent_th": "บัมปารา คูยาเต",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส/มาลี",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เอ็ดดี อาบาโซโล",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "Feb 16, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 19: โจนาธาน vs ฟิลิปเป"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โจ ณัฐวุฒิ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 08, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 17: โรมัน vs อเล็กซ์"
+        }
+    ]
+}

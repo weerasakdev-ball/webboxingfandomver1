@@ -1,0 +1,176 @@
+{
+    "fighter_profile": {
+        "name_th": "หยู เหยา ปุย",
+        "name_en": "Yu Yau Pui",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773503431/%E0%B8%AB%E0%B8%A2%E0%B8%B9_%E0%B9%80%E0%B8%AB%E0%B8%A2%E0%B8%B2_%E0%B8%9B%E0%B8%B8%E0%B8%A2_z0ruby.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": null,
+            "weight_kg": null,
+            "division": "ไม่ระบุ",
+            "height_ft": "5'4\"",
+            "height_cm": 165,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ฮ่องกง",
+            "country_en": "Hong Kong",
+            "age": 33,
+            "team_th": "เคเอฟ วัน",
+            "team_en": "KF 1"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/yu-yau-pui/"
+        ],
+        "short_biography": "หยู เหยา ปุย (Yu Yau Pui) เป็นนักชกชาวฮ่องกง วัย 33 ปี จากสังกัดเคเอฟ วัน มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ (ประมาณ None กิโลกรัม) ส่วนสูง 165 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 41: สินสมุทร vs จอร์จ สามารถเอาชนะ ซุปเปอร์เกิร์ล ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:15",
+            "opponent_th": "ซุปเปอร์เกิร์ล",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 14, 2026",
+            "rating": 5,
+            "event_en": "ONE Fight Night 41: สินสมุทร vs จอร์จ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "มาร์ตินา โดมินชัค",
+            "opponent_en": "",
+            "opponent_country": "โปแลนด์",
+            "date": "Mar 08, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 29: อัลลิเซีย vs มารี"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:49",
+            "opponent_th": "เอมี เพอร์นี",
+            "opponent_en": "",
+            "opponent_country": "สกอตแลนด์",
+            "date": "Aug 02, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 24: จาร์เร็ด vs กุสตาโว"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ลารา เฟอร์นานเดซ",
+            "opponent_en": "",
+            "opponent_country": "สเปน",
+            "date": "Mar 08, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 20: เจเน็ต vs เพชรจีจ้า"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:28",
+            "opponent_th": "เซรา โดอาน",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "Nov 24, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 42"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เซเลสต์ ฮันเซน",
+            "opponent_en": "",
+            "opponent_country": "ออสเตรเลีย",
+            "date": "Aug 18, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 29"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "มารี รูเมต",
+            "opponent_en": "",
+            "opponent_country": "เอสโตเนีย",
+            "date": "Jun 30, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 23"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:24",
+            "opponent_th": "เดวีนา มาร์ติน",
+            "opponent_en": "",
+            "opponent_country": "ออสเตรเลีย",
+            "date": "Mar 31, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 11"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:12",
+            "opponent_th": "เดอะสตาร์ ศิษย์ ช.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 03, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 3"
+        }
+    ]
+}

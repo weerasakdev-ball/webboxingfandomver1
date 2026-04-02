@@ -1,0 +1,228 @@
+{
+    "fighter_profile": {
+        "name_th": "เสือแบล็ค ท.พราน49",
+        "name_en": "Suablack Tor.Pran49",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://i.ibb.co/4ZV7wFtC/image.jpg",
+        "grade": "B+",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 145.1,
+            "weight_kg": 65.8,
+            "division": "ไม่ระบุ",
+            "height_ft": "5'6\"",
+            "height_cm": 170,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 29,
+            "team_th": "เอ็นพี เสือแบล็ค",
+            "team_en": "NP Suablack"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/suablack-tor-pran49/"
+        ],
+        "short_biography": "เสือแบล็ค ท.พราน49 (Suablack Tor.Pran49) เป็นนักชกชาวไทย วัย 29 ปี จากสังกัดเอ็นพี เสือแบล็ค มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ (ประมาณ 65.8 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE Fight Night 41: สินสมุทร vs จอร์จ สามารถพ่ายแพ้ให้กับ ฮิว ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:35",
+            "opponent_th": "ฮิว",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Mar 14, 2026",
+            "rating": 5,
+            "event_en": "ONE Fight Night 41: สินสมุทร vs จอร์จ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ปกรณ์ พีเค.เสี่ยเล่เต็นท์มังกร",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เสกสรร อ.ขวัญเมือง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 26, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 126"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แสงอาทิตย์ ลูกทรายกองดิน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 27, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 114"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ดีมิทรี คอฟตุน",
+            "opponent_en": "",
+            "opponent_country": "ทาจิกิสถาน/รัสเซีย",
+            "date": "Jan 11, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 27: ถัง ไค vs อักบาร์"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:57",
+            "opponent_th": "ราชสีห์อีสาน เหล่าโชคเจริญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 27, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:54",
+            "opponent_th": "เคียมรัน นาบาติ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Jun 28, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 68: พระจันทร์ฉาย vs โจนาธาน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "วลาดิเมียร์ คุซมิน",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Apr 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 21: รีเกียน vs อเล็กซิส"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สเตฟาน โคโรดี",
+            "opponent_en": "",
+            "opponent_country": "ไอร์แลนด์",
+            "date": "Jan 12, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 18: ชามิล vs โฮ เทก"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:15",
+            "opponent_th": "เคร็ก โคกลีย์",
+            "opponent_en": "",
+            "opponent_country": "ไอร์แลนด์",
+            "date": "Dec 22, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 46: ตะวันฉาย vs  ซุปเปอร์บอน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:35",
+            "opponent_th": "ชินจิ ซูซูกิ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Sep 08, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 32"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:26",
+            "opponent_th": "เลนนี บลาซี",
+            "opponent_en": "",
+            "opponent_country": "อิตาลี",
+            "date": "Aug 11, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 28"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:14",
+            "opponent_th": "ธนูเงิน เอฟเอ.กรุ๊ป",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 09, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 20"
+        }
+    ]
+}

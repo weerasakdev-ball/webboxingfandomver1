@@ -1,0 +1,164 @@
+{
+    "fighter_profile": {
+        "name_th": "เพชรอภิชาติ อภิชาติมวยไทย",
+        "name_en": "Petapichat Apichat Muaythai",
+        "alias": "เพชรอภิชาติ อภิชาติมวยไทย",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773127953/%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%E0%B8%AD%E0%B8%A0%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_qrimaf.png",
+        "grade": "B",
+        "fighting_style_th": "มวยไทย, สไตรเกอร์, เน้นเตะและต่อยคล่องตัว",
+        "fighting_style_en": "Muay Thai Striker, Technical Fighter",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 123.5,
+            "weight_kg": 56,
+            "division": "Strawweight Muay Thai",
+            "height_ft": "5'4\"",
+            "height_cm": 165,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 23,
+            "team_th": "ศรจารุวัณ",
+            "team_en": "Sor Jaruwan"
+        },
+        "overall_record": "72-13 (อาชีพทั้งหมด) | ONE Record: 1-2",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/oumar-kane/"
+        ],
+        "short_biography": "เพชรอภิชาติ อภิชาติมวยไทย (Petapichat Apichat Muaythai) เป็นนักชกชาวไทย วัย 23 ปี จากสังกัดศรจารุวัณ มีความถนัดในการต่อสู้สไตล์มวยไทย, สไตรเกอร์, เน้นเตะและต่อยคล่องตัว ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight Muay Thai (ประมาณ 56 กิโลกรัม) ส่วนสูง 165 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 169: อนาโตลี vs รุง รุง สามารถเอาชนะ อนาโตลี มาลีคิน ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Split Decision",
+            "round": 5,
+            "time": "5:00",
+            "opponent_th": "อนาโตลี มาลีคิน",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Nov 08, 2024",
+            "rating": 5,
+            "event_en": "ONE 169: อนาโตลี vs รุง รุง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:08",
+            "opponent_th": "บูเชอร์ เคตชัป",
+            "opponent_en": "",
+            "opponent_country": "เซเนกัล",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "มาร์คัส อัลเมดา",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Aug 04, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "จาซูร์ เมียร์ซามูคาเมดอฟ",
+            "opponent_en": "",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Dec 03, 2022",
+            "rating": 5,
+            "event_en": "ONE Fight Night 5: ไรเนียร์ vs อนาโตลี"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:15",
+            "opponent_th": "บาทราดซ์ กาซาเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Sep 29, 2022",
+            "rating": 5,
+            "event_en": "ONE 161: เพชรมรกต vs ตะวันฉาย"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "5:00",
+            "opponent_th": "คิริลล์ กรีเชนโก",
+            "opponent_en": "",
+            "opponent_country": "เบลารุส",
+            "date": "Apr 29, 2021",
+            "rating": 5,
+            "event_en": "ONE on TNT IV"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:48",
+            "opponent_th": "แพทริก ชมิด",
+            "opponent_en": "",
+            "opponent_country": "สวิตเซอร์แลนด์",
+            "date": "Apr 08, 2021",
+            "rating": 5,
+            "event_en": "ONE on TNT I"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "4:32",
+            "opponent_th": "อเล็น เอ็นกาลานี",
+            "opponent_en": "",
+            "opponent_country": "ฮ่องกง เขตปกครองพิเศษประเทศจีน",
+            "date": "Jan 29, 2021",
+            "rating": 5,
+            "event_en": "ONE Unbreakable II"
+        }
+    ]
+}

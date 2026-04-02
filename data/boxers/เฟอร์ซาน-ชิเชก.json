@@ -1,0 +1,150 @@
+{
+    "fighter_profile": {
+        "name_th": "เฟอร์ซาน ชิเชก",
+        "name_en": "Ferzan Cicek",
+        "alias": "ยังไม่มีข้อมูล",
+        "image_url": "https://i.ibb.co/Qjf5mzyW/image.jpg",
+        "grade": "B+",
+        "fighting_style_th": "มวยหมัด / ดุดัน",
+        "fighting_style_en": "Puncher / Aggressive Striker",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 145,
+            "weight_kg": 65.8,
+            "division": "Bantamweight",
+            "height_ft": "5'8\"",
+            "height_cm": 175,
+            "reach_cm": "ยังไม่มีข้อมูล",
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ยังไม่มีข้อมูล",
+                "defense_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ตุรกี",
+            "country_en": "Turkey",
+            "age": 29,
+            "team_th": "ทีม เมห์ดี ซาทูต",
+            "team_en": "Team Mehdi Zatout"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/ferzan-cicek/"
+        ],
+        "short_biography": "เฟอร์ซาน ชิเชก (Ferzan Cicek) เป็นนักชกชาวตุรกี วัย 29 ปี จากสังกัดทีม เมห์ดี ซาทูต มีความถนัดในการต่อสู้สไตล์มวยหมัด / ดุดัน ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 65.8 กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 103 สามารถพ่ายแพ้ให้กับ ราชสีห์อีสาน เหล่าโชคเจริญ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:11",
+            "opponent_th": "ราชสีห์อีสาน เหล่าโชคเจริญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 04, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 103"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:50",
+            "opponent_th": "คิริลล์ โคมูทอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Aug 09, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 74"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "จอร์จ มูซาคิทิส",
+            "opponent_en": "",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Mar 08, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 54"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เลนนี บลาซี",
+            "opponent_en": "",
+            "opponent_country": "อิตาลี",
+            "date": "Dec 08, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 44"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อวตาร พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 14, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 25"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:26",
+            "opponent_th": "พันฤทธิ์ ลูกเจ้าแม่สายวารี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 02, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 19"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พงษ์ศิริ พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 27, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 2"
+        }
+    ]
+}

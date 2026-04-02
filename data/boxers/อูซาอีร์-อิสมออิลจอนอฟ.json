@@ -1,0 +1,111 @@
+{
+    "fighter_profile": {
+        "name_th": "อูซาอีร์ อิสมออิลจอนอฟ",
+        "name_en": "Uzair Ismoiljonov",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://i.ibb.co/HLwTRM5r/image.jpg",
+        "grade": "B+",
+        "fighting_style_th": "มวยฝีมือ / ครบเครื่อง",
+        "fighting_style_en": "Technical / All-rounder",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 146.8,
+            "weight_kg": 66.6,
+            "division": "Bantamweight",
+            "height_ft": "5'10\"",
+            "height_cm": 180,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_per_minute": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "อุซเบกิสถาน",
+            "country_en": "Uzbekistan",
+            "age": 26,
+            "team_th": "ทีม เมห์ดี ซาทูต",
+            "team_en": "Team Mehdi Zatout"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/uzair-ismoiljonov/"
+        ],
+        "short_biography": "อูซาอีร์ อิสมออิลจอนอฟ (Uzair Ismoiljonov) เป็นนักชกชาวอุซเบกิสถาน วัย 26 ปี จากสังกัดทีม เมห์ดี ซาทูต มีความถนัดในการต่อสู้สไตล์มวยฝีมือ / ครบเครื่อง ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 66.6 กิโลกรัม) ส่วนสูง 180 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 147 สามารถพ่ายแพ้ให้กับ ราชสีห์อีสาน เหล่าโชคเจริญ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:22",
+            "opponent_th": "ราชสีห์อีสาน เหล่าโชคเจริญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 147"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:24",
+            "opponent_th": "คิโยโตะ ทากาฮาชิ",
+            "opponent_en": "",
+            "opponent_country": "ไม่ระบุ",
+            "date": "Jul 25, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 117"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ริกิโตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Nov 29, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 89"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ชามา ซุปเปอร์บอนเทรนนิงแคมป์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 04, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 82"
+        }
+    ]
+}

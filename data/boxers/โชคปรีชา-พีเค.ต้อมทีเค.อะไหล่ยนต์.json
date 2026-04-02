@@ -1,0 +1,163 @@
+{
+    "fighter_profile": {
+        "name_th": "โชคปรีชา พีเค.ต้อมทีเค.อะไหล่ยนต์",
+        "name_en": "Chokpreecha PK.Saenchai",
+        "alias": "แรมโบ้พิษณุโลก",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773124434/%E0%B9%82%E0%B8%8A%E0%B8%84%E0%B8%9B%E0%B8%A3%E0%B8%B5%E0%B8%8A%E0%B8%B2_%E0%B8%9E%E0%B8%B5%E0%B9%80%E0%B8%84.%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%97%E0%B8%B5%E0%B9%80%E0%B8%84.%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B9%8C_vxtv0u.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยบู๊, เตะขาต่อยหมัด",
+        "fighting_style_en": "Aggressive Striker, Puncher",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 123.9,
+            "weight_kg": 56.2,
+            "division": "Strawweight",
+            "height_ft": "5'3\"",
+            "height_cm": 161,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 34,
+            "team_th": "พีเค.แสนชัยมวยไทยยิม",
+            "team_en": "PK.Saenchai Muaythai Gym"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/chokpreecha-pk-saenchai/"
+        ],
+        "short_biography": "โชคปรีชา พีเค.ต้อมทีเค.อะไหล่ยนต์ (Chokpreecha PK.Saenchai) เป็นนักชกชาวไทย วัย 34 ปี จากสังกัดพีเค.แสนชัยมวยไทยยิม มีความถนัดในการต่อสู้สไตล์มวยบู๊, เตะขาต่อยหมัด ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 56.2 กิโลกรัม) ส่วนสูง 161 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 136 สามารถพ่ายแพ้ให้กับ ซื่อสัตย์ มานพยิม ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซื่อสัตย์ มานพยิม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 12, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 136"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:52",
+            "opponent_th": "ตุย ลิน ทัต",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Aug 22, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 121"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:26",
+            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 16, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 108"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:23",
+            "opponent_th": "ฉลามดำ ส.บุญมีฤทธิ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 21, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 101"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 15, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 87"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อับดาลลาห์ ออนดาช",
+            "opponent_en": "",
+            "opponent_country": "เลบานอน",
+            "date": "Jul 12, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 70"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:44",
+            "opponent_th": "พงษ์ศิริ ซูจีบะหมี่เกี๊ยว",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 10, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 62"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซื่อสัตย์ มานพยิม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 02, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 50"
+        }
+    ]
+}

@@ -1,0 +1,209 @@
+{
+    "fighter_profile": {
+        "name_th": "อายากะ มิอูระ",
+        "name_en": "Ayaka Miura",
+        "alias": "",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 113.5,
+            "weight_kg": 51.5,
+            "division": "",
+            "height_ft": "5'1\"",
+            "height_cm": 157,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 35,
+            "team_th": "Tribe Tokyo MMA",
+            "team_en": ""
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/ayaka-miura/"
+        ],
+        "short_biography": "อายากะ มิอูระ (Ayaka Miura) เป็นนักชกชาวญี่ปุ่น วัย 35 ปี จากสังกัดTribe Tokyo MMA มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก  (ประมาณ 51.5 กิโลกรัม) ส่วนสูง 157 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 116 สามารถเอาชนะ ฮูลีอานา โอตาโลรา ด้วยรูปแบบ Submission ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "weigh_in_history": [],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "3:53",
+            "opponent_th": "ฮูลีอานา โอตาโลรา",
+            "opponent_en": "",
+            "opponent_country": "โคลอมเบีย",
+            "date": "Jul 18, 2025",
+            "rating": "",
+            "event_en": "ONE ลุมพินี 116"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "2:24",
+            "opponent_th": "ริตู โฟกาต",
+            "opponent_en": "",
+            "opponent_country": "อินเดีย",
+            "date": "Feb 20, 2025",
+            "rating": "",
+            "event_en": "ONE 171: Qatar"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "2:20",
+            "opponent_th": "มาคาเรนา อารากอน",
+            "opponent_en": "",
+            "opponent_country": "อาร์เจนตินา",
+            "date": "Nov 08, 2024",
+            "rating": "",
+            "event_en": "ONE 169: อนาโตลี vs รุง รุง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "อิตซูกิ ฮิราตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Jan 28, 2024",
+            "rating": "",
+            "event_en": "ONE 165: ซุปเปอร์เล็ก vs ทาเครุ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "2:09",
+            "opponent_th": "เมง โบ",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Nov 03, 2023",
+            "rating": "",
+            "event_en": "ONE Fight Night 16: โจนาธาน vs ฟาบริซิโอ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Submission Grappling",
+            "method_en": "Unanimous Decision",
+            "round": 1,
+            "time": "",
+            "opponent_th": "แดเนียล เคลลี",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "Feb 25, 2023",
+            "rating": "",
+            "event_en": "ONE Fight Night 7: จอห์น vs ฟาบริซิโอ II"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:56",
+            "opponent_th": "ดายาน คาร์โดโซ",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Apr 22, 2022",
+            "rating": "",
+            "event_en": "ONE156: รีเกียน vs อาเรียน"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "5:00",
+            "opponent_th": "ซง จิง หนาน",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Jan 14, 2022",
+            "rating": "",
+            "event_en": "HEAVY HITTERS"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "2:58",
+            "opponent_th": "ราเยน บาสโตส",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "May 15, 2021",
+            "rating": "",
+            "event_en": "Dangal"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "4:45",
+            "opponent_th": "ทิฟฟานี เตียว",
+            "opponent_en": "",
+            "opponent_country": "สิงคโปร์",
+            "date": "Feb 28, 2020",
+            "rating": "",
+            "event_en": "King of the Jungle"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 2,
+            "time": "3:01",
+            "opponent_th": "ไมรา มาซาร์",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Jan 10, 2020",
+            "rating": "",
+            "event_en": "A New Tomorrow"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 2,
+            "time": "0:39",
+            "opponent_th": "ซามารา ซานโทส",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Aug 02, 2019",
+            "rating": "",
+            "event_en": "DAWN OF HEROES"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "1:13",
+            "opponent_th": "ลอรา บาลิน",
+            "opponent_en": "",
+            "opponent_country": "อาร์เจนตินา",
+            "date": "Feb 22, 2019",
+            "rating": "",
+            "event_en": "CALL TO GREATNESS"
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "fighter_profile": {
+        "name_th": "ยูกิ โยซะ",
+        "name_en": "Yuki Yoza",
+        "alias": "The Low Kick Specialist",
+        "image_url": "https://i.ibb.co/1YfZfRfw/image.jpg",
+        "grade": "A",
+        "fighting_style_th": "คิกบ็อกซิ่ง, บู๊ (พื้นฐานคาราเต้)",
+        "fighting_style_en": "Kickboxing, Aggressive (Kyokushin Karate base)",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 145,
+            "weight_kg": 65.8,
+            "division": "Bantamweight",
+            "height_ft": "5'6\"",
+            "height_cm": 170,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "99"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 4,
+                "body": 2,
+                "legs": 9,
+                "total_per_minute": 15
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 48,
+                "accuracy_by_target_percentage": {
+                    "head": 28,
+                    "body": 12,
+                    "legs": 60
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 46,
+                "defense_by_target_percentage": {
+                    "head": 50,
+                    "body": 30,
+                    "legs": 20
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 28,
+            "team_th": "ทีม วาซิลิอุส",
+            "team_en": "Team VASILEUS"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/yuki-yoza/"
+        ],
+        "short_biography": "ยูกิ โยซะ (Yuki Yoza) เป็นนักชกชาวญี่ปุ่น วัย 28 ปี จากสังกัดทีม วาซิลิอุส มีความถนัดในการต่อสู้สไตล์คิกบ็อกซิ่ง, บู๊ (พื้นฐานคาราเต้) ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 65.8 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 173: ซุปเปอร์บอน vs มาซาอากิ สามารถเอาชนะ ซุปเปอร์เล็ก ซุปเปอร์เล็กมวยไทย ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซุปเปอร์เล็ก ซุปเปอร์เล็กมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 16, 2025",
+            "rating": 5,
+            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรทนง เพชรเฟอร์กัส",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 18, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 116"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เอลบรุส ออสมานอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "May 23, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 109"
+        }
+    ]
+}

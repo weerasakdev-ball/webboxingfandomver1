@@ -1,0 +1,73 @@
+{
+    "fighter_profile": {
+        "name_th": "ไรอัน ชีฮาน",
+        "name_en": "Ryan Sheehan",
+        "alias": "The Avenger / ไอริช วอร์ริเออร์",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773124217/%E0%B9%84%E0%B8%A3%E0%B8%AD%E0%B8%B1%E0%B8%99_%E0%B8%8A%E0%B8%B5%E0%B8%AE%E0%B8%B2%E0%B8%99_tmonxv.png",
+        "grade": "B",
+        "fighting_style_th": "มวยตรง, ออร์โธด็อกซ์, เทคนิคครบเครื่อง",
+        "fighting_style_en": "Orthodox Technical Striker, All-Rounder",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 122,
+            "weight_kg": 55.3,
+            "division": "Strawweight / Super Flyweight",
+            "height_ft": "5'6\"",
+            "height_cm": 168,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไอร์แลนด์",
+            "country_en": "Ireland",
+            "age": 33,
+            "team_th": "ไซแอม วอร์ริเออร์ส คอร์ก",
+            "team_en": "Siam Warriors Cork"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/ryan-sheehan/"
+        ],
+        "short_biography": "ไรอัน ชีฮาน (Ryan Sheehan) เป็นนักชกชาวไอร์แลนด์ วัย 33 ปี จากสังกัดไซแอม วอร์ริเออร์ส คอร์ก มีความถนัดในการต่อสู้สไตล์มวยตรง, ออร์โธด็อกซ์, เทคนิคครบเครื่อง ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight / Super Flyweight (ประมาณ 55.3 กิโลกรัม) ส่วนสูง 168 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 9 สามารถพ่ายแพ้ให้กับ สามเอ ไก่ย่างห้าดาว ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:52",
+            "opponent_th": "สามเอ ไก่ย่างห้าดาว",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 17, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 9"
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+  "fighter_profile": {
+    "name_th": "ไกรทอง พียู.ผ้าใบ",
+    "name_en": "",
+    "alias": "ไม่ระบุ",
+    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324025/%E0%B9%84%E0%B8%81%E0%B8%A3%E0%B8%97%E0%B8%AD%E0%B8%87_%E0%B8%9E%E0%B8%B5%E0%B8%A2%E0%B8%B9.%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%9A_vrtaqp.png",
+    "grade": "N/A",
+    "fighting_style_th": "ยังไม่มีข้อมูล",
+    "fighting_style_en": "ยังไม่มีข้อมูล",
+    "stance": "ยังไม่มีข้อมูล",
+    "physical_stats": {
+      "weight_lbs": 125.6,
+      "weight_kg": 56.97,
+      "division": "Flyweight",
+      "height_ft": "ยังไม่มีข้อมูล",
+      "height_cm": 0,
+      "leg_reach_cm": "ยังไม่มีข้อมูล"
+    },
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ยังไม่มีข้อมูล",
+        "body": "ยังไม่มีข้อมูล",
+        "legs": "ยังไม่มีข้อมูล",
+        "total_per_minute": "ยังไม่มีข้อมูล"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+        "accuracy_by_target_percentage": {
+          "head": "ยังไม่มีข้อมูล",
+          "body": "ยังไม่มีข้อมูล",
+          "legs": "ยังไม่มีข้อมูล"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 0,
+      "team_th": "ยังไม่มีข้อมูล",
+      "team_en": "ยังไม่มีข้อมูล"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/kraithong-pu-phabai/"
+    ]
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 146",
+      "weight_lbs": 125.6,
+      "division": "Flyweight"
+    }
+  ],
+  "upcoming_fights": [],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:03",
+      "opponent_th": "รุ่งเรืองเล็ก ทีเอ็น.มวยไทย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 13, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 146"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:09",
+      "opponent_th": "ทัพหลวง เพชรเกียรติเพชร",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Dec 12, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 136"
+    }
+  ]
+}
