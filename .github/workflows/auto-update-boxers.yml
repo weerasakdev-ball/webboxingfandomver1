@@ -1,43 +1,38 @@
-name: 🥊 BoxingFandom Auto Scraper
+name: BoxingFandom Auto Scraper
 
 on:
   schedule:
-    # รันทุกวันพฤหัสบดี เวลา 17:00 UTC = เที่ยงคืนวันศุกร์ (เวลาไทย)
     - cron: '0 17 * * 4'
-  workflow_dispatch: # ปุ่มกดรันเองจากหน้า GitHub
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  workflow_dispatch:
 
 permissions:
-  contents: write # 🔑 สำคัญ: อนุญาตให้บอทเซฟไฟล์ทับได้
+  contents: write
 
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 📥 ดึงโค้ดล่าสุดจาก GitHub
-      uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: ⚙️ ตั้งค่า Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '22'
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
 
-    - name: 📦 ติดตั้ง Library (npm install)
-      run: npm install
+      - name: Install Dependencies
+        run: |
+          npm install
+          npx puppeteer browsers install chrome
 
-    - name: 🌐 ติดตั้ง Chrome สำหรับบอท
-      run: npx puppeteer browsers install chrome
+      - name: Run Bot
+        run: node real_scraper_bot.js
 
-    - name: 🤖 สั่งบอทอัปเดตข้อมูลนักมวย
-      run: node real_scraper_bot.js
-
-    - name: 💾 บันทึกผลและอัปเดตเว็บ (Commit & Push)
-      run: |
-        git config --global user.name 'GitHub Actions Bot'
-        git config --global user.email 'actions@github.com'
-        git add .
-        git commit -m "🤖 อัปเดตสถิตินักมวยประจำสัปดาห์อัตโนมัติ" || echo "ไม่มีข้อมูลใหม่"
-        git push
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add .
+          git commit -m "🤖 Auto-update: Boxing statistics" || echo "No changes to commit"
+          git push
