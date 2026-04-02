@@ -1,8 +1,6 @@
-name: BoxingFandom Auto Scraper
+name: Boxing-Scraper
 
 on:
-  schedule:
-    - cron: '0 17 * * 4'
   workflow_dispatch:
 
 permissions:
@@ -11,28 +9,27 @@ permissions:
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '22'
 
-      - name: Install Dependencies
+      - name: Install
         run: |
           npm install
           npx puppeteer browsers install chrome
 
-      - name: Run Bot
+      - name: Run
         run: node real_scraper_bot.js
 
-      - name: Commit and Push
+      - name: Push
         run: |
-          git config --global user.name 'GitHub Actions Bot'
-          git config --global user.email 'actions@github.com'
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
           git add .
-          git commit -m "🤖 Auto-update: Boxing statistics" || echo "No changes to commit"
+          git commit -m "update" || echo "no changes"
           git push
