@@ -33,11 +33,12 @@
         "target_urls": [
             "https://www.onefc.com/th/athletes/khunpon-aekmuangnon/"
         ],
-        "short_biography": "ขุนพล เอกเมืองนนท์ (Khunpon Aekmuangnon) เป็นนักชกชาวไทย วัย 20 ปี จากสังกัดทีม Petchnumnoi มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 179 เซนติเมตร (5'10\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)"
+        "short_biography": "ขุนพล เอกเมืองนนท์ (Khunpon Aekmuangnon) เป็นนักชกชาวไทย วัย 20 ปี จากสังกัดทีม Petchnumnoi มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 179 เซนติเมตร (5'10\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)",
+        "target_url": ""
     },
     "weigh_in_history": [
         {
-            "event_name": "ONE lumpinee 149",
+            "event_name": "ONE LUMPINEE 149",
             "weight_lbs": 128.4,
             "division": "Flyweight"
         }

@@ -33,11 +33,12 @@
         "target_urls": [
             "https://www.onefc.com/th/athletes/ali-kelat/"
         ],
-        "short_biography": "อาลี เคลาต (Ali Kelat) เป็นนักชกชาวตุรกี วัย 26 ปี จากสังกัดทีม Team Mehdi Zatout มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 187 เซนติเมตร (6'1\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)"
+        "short_biography": "อาลี เคลาต (Ali Kelat) เป็นนักชกชาวตุรกี วัย 26 ปี จากสังกัดทีม Team Mehdi Zatout มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 187 เซนติเมตร (6'1\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)",
+        "target_url": ""
     },
     "weigh_in_history": [
         {
-            "event_name": "ONE lumpinee 149",
+            "event_name": "ONE LUMPINEE 149",
             "weight_lbs": 154.6,
             "division": "Featherweight"
         }

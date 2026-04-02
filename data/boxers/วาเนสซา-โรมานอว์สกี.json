@@ -33,11 +33,12 @@
         "target_urls": [
             "https://www.onefc.com/th/athletes/vanessa-romanowski/"
         ],
-        "short_biography": "วาเนสซา โรมานอว์สกี (Vanessa Romanowski) เป็นนักชกชาวสวีเดน/โปแลนด์ วัย 21 ปี จากสังกัดทีม Allstars Training Center / Rawai Muay Thai Khao Lak มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 165 เซนติเมตร (5'4\") มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)"
+        "short_biography": "วาเนสซา โรมานอว์สกี (Vanessa Romanowski) เป็นนักชกชาวสวีเดน/โปแลนด์ วัย 21 ปี จากสังกัดทีม Allstars Training Center / Rawai Muay Thai Khao Lak มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 165 เซนติเมตร (5'4\") มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
+        "target_url": ""
     },
     "weigh_in_history": [
         {
-            "event_name": "ONE lumpinee 149",
+            "event_name": "ONE LUMPINEE 149",
             "weight_lbs": 115.0,
             "division": "Atomweight"
         }

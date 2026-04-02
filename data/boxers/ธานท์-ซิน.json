@@ -138,9 +138,10 @@
     "upcoming_fights": [],
     "weigh_in_history": [
         {
-            "event_name": "ONE lumpinee 149",
+            "event_name": "ONE LUMPINEE 149",
             "weight_lbs": 134.2,
             "division": "Flyweight"
         }
-    ]
+    ],
+    "fight_history": []
 }

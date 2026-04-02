@@ -33,11 +33,12 @@
         "target_urls": [
             "https://www.onefc.com/th/athletes/payakrut-suajantokmuaythai/"
         ],
-        "short_biography": "พญาครุฑ เสือจันถกมวยไทย (Payakrut Suajantokmuaythai) เป็นนักชกชาวไทย วัย 20 ปี จากสังกัดทีม Suajan Tok Ban Muay Thai มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 170 เซนติเมตร (5'6\") มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)"
+        "short_biography": "พญาครุฑ เสือจันถกมวยไทย (Payakrut Suajantokmuaythai) เป็นนักชกชาวไทย วัย 20 ปี จากสังกัดทีม Suajan Tok Ban Muay Thai มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 170 เซนติเมตร (5'6\") มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
+        "target_url": ""
     },
     "weigh_in_history": [
         {
-            "event_name": "ONE lumpinee 149",
+            "event_name": "ONE LUMPINEE 149",
             "weight_lbs": 121.6,
             "division": "Strawweight"
         }

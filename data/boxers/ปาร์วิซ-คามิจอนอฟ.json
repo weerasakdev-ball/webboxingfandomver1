@@ -15,7 +15,8 @@
             "division": "Strawweight",
             "height_ft": "ยังไม่มีข้อมูล",
             "height_cm": 0,
-            "leg_reach_cm": "ยังไม่มีข้อมูล"
+            "leg_reach_cm": "ยังไม่มีข้อมูล",
+            "reach_cm": "ไม่ระบุ"
         },
         "performance_stats": {
             "significant_strikes_per_minute": {
@@ -31,6 +32,14 @@
                     "body": "ยังไม่มีข้อมูล",
                     "legs": "ยังไม่มีข้อมูล"
                 }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
             }
         },
         "personal_info": {
@@ -39,15 +48,19 @@
             "age": 0,
             "team_th": "ยังไม่มีข้อมูล",
             "team_en": "ยังไม่มีข้อมูล"
-        }
+        },
+        "target_url": "",
+        "target_urls": [],
+        "short_biography": ""
     },
     "fight_history_one_championship": [],
     "weigh_in_history": [
         {
-            "event_name": "ONE lumpinee 149",
+            "event_name": "ONE LUMPINEE 149",
             "weight_lbs": 124.8,
             "division": "Strawweight"
         }
     ],
-    "upcoming_fights": []
+    "upcoming_fights": [],
+    "fight_history": []
 }

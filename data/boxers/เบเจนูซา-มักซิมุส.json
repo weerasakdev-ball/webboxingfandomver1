@@ -33,11 +33,12 @@
         "target_urls": [
             "ไม่ระบุ"
         ],
-        "short_biography": "เบเจนูซา มักซิมุส (Bejenuta Maximus) เป็นนักชกชาวมอลโดวา วัย 23 ปี ส่วนสูง 180 เซนติเมตร (5'11\") มีความถนัดในการต่อสู้สไตล์มวยไทย ปัจจุบันแข่งขันอยู่ในพิกัดน้ำหนัก Flyweight"
+        "short_biography": "เบเจนูซา มักซิมุส (Bejenuta Maximus) เป็นนักชกชาวมอลโดวา วัย 23 ปี ส่วนสูง 180 เซนติเมตร (5'11\") มีความถนัดในการต่อสู้สไตล์มวยไทย ปัจจุบันแข่งขันอยู่ในพิกัดน้ำหนัก Flyweight",
+        "target_url": ""
     },
     "weigh_in_history": [
         {
-            "event_name": "ONE lumpinee 149",
+            "event_name": "ONE LUMPINEE 149",
             "weight_lbs": 134.4,
             "division": "Flyweight"
         }

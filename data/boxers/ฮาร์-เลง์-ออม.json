@@ -33,11 +33,12 @@
         "target_urls": [
             "https://www.onefc.com/th/athletes/har-ling-om/"
         ],
-        "short_biography": "ฮาร์ เลง์ ออม (Har Ling Om) เป็นนักชกชาวเมียนมา วัย 27 ปี จากสังกัดทีม Phyo Wai Group มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 163 เซนติเมตร (5'4\") น้ำหนัก 54 กิโลกรัม (119 ปอนด์) มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)"
+        "short_biography": "ฮาร์ เลง์ ออม (Har Ling Om) เป็นนักชกชาวเมียนมา วัย 27 ปี จากสังกัดทีม Phyo Wai Group มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 163 เซนติเมตร (5'4\") น้ำหนัก 54 กิโลกรัม (119 ปอนด์) มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
+        "target_url": ""
     },
     "weigh_in_history": [
         {
-            "event_name": "ONE lumpinee 149",
+            "event_name": "ONE LUMPINEE 149",
             "weight_lbs": 115.0,
             "division": "Atomweight"
         }
