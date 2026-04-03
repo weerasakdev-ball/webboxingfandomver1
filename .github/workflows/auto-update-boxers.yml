@@ -2,7 +2,6 @@ name: Auto MuayThai Scraper
 
 on:
   schedule:
-    - cron: '0 11 * * 5'  # ศุกร์ 18:00 น.
     - cron: '0 17 * * 4'  # เที่ยงคืนวันศุกร์ (พฤหัส 17:00 UTC)
   workflow_dispatch:      # ปุ่มกดรันเอง
 
