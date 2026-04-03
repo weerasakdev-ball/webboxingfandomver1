@@ -3,7 +3,7 @@
         "name_th": "เพชรน้ำโขง ส.มณีโคตร",
         "name_en": "",
         "alias": "ไม่ระบุ",
-        "image_url": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181925/%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%82%E0%B8%82%E0%B8%87_%E0%B8%AA.%E0%B8%A1%E0%B8%93%E0%B8%B5%E0%B9%82%E0%B8%84%E0%B8%95%E0%B8%A3_oiblpc.png",
         "grade": "N/A",
         "fighting_style_th": "ยังไม่มีข้อมูล",
         "fighting_style_en": "ยังไม่มีข้อมูล",
@@ -14,7 +14,7 @@
             "hydration": "N/A",
             "division": "Strawweight",
             "height_ft": "ยังไม่มีข้อมูล",
-            "height_cm": 0,
+            "height_cm": 173,
             "leg_reach_cm": "ยังไม่มีข้อมูล",
             "reach_cm": "ไม่ระบุ"
         },
@@ -43,13 +43,13 @@
             }
         },
         "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 0,
+            "country_th": "ลาว",
+            "country_en": "",
+            "age": 22,
             "team_th": "ยังไม่มีข้อมูล",
             "team_en": "ยังไม่มีข้อมูล"
         },
-        "target_url": "",
+        "target_url": "https://www.onefc.com/th/athletes/petnamkhong-mongkolpet/",
         "target_urls": [],
         "short_biography": ""
     },

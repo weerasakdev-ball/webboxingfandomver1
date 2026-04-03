@@ -3,15 +3,15 @@
     "name_th": "กรุงไทย ทอฝันฟาร์ม",
     "name_en": "Krungthai Thorfunfarm",
     "alias": "ไม่ระบุ",
-    "image_url": "ไม่ระบุ",
-    "grade": "ไม่ระบุ",
+    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775182118/%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%84%E0%B8%97%E0%B8%A2_%E0%B8%97%E0%B8%AD%E0%B8%9D%E0%B8%B1%E0%B8%99%E0%B8%9F%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%A1_x130we.png",
+    "grade": "B",
     "fighting_style_th": "มวยไทย",
     "fighting_style_en": "Muay Thai",
     "stance": "ไม่ระบุ",
     "physical_stats": {
       "weight_lbs": "ไม่ระบุ",
       "weight_kg": "ไม่ระบุ",
-      "division": "ไม่ระบุ",
+      "division": "รุ่นสตรอว์เวต",
       "height_ft": "5'5\"",
       "height_cm": 165,
       "reach_cm": "ไม่ระบุ",
@@ -30,7 +30,7 @@
       "team_en": "Thorfunfarm"
     },
     "target_urls": [
-      "ยังไม่มีข้อมูล"
+      "https://www.onefc.com/th/athletes/krungthai-torfunfarm/"
     ]
   },
   "weigh_in_history": [

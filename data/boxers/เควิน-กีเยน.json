@@ -3,7 +3,7 @@
         "name_th": "เควิน กีเยน",
         "name_en": "",
         "alias": "ไม่ระบุ",
-        "image_url": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181924/%E0%B9%80%E0%B8%84%E0%B8%A7%E0%B8%B4%E0%B8%99_%E0%B8%81%E0%B8%B5%E0%B9%80%E0%B8%A2%E0%B8%99_ktrdrz.png",
         "grade": "N/A",
         "fighting_style_th": "ยังไม่มีข้อมูล",
         "fighting_style_en": "ยังไม่มีข้อมูล",
@@ -43,13 +43,13 @@
             }
         },
         "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
+            "country_th": "สเปน/โบลิเวีย",
+            "country_en": "",
             "age": 0,
             "team_th": "ยังไม่มีข้อมูล",
             "team_en": "ยังไม่มีข้อมูล"
         },
-        "target_url": "",
+        "target_url": "https://www.onefc.com/th/athletes/kevin-guillen/",
         "target_urls": [],
         "short_biography": ""
     },

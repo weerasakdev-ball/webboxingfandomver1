@@ -3,7 +3,7 @@
         "name_th": "ไอเซอาห์ บาดาทู",
         "name_en": "",
         "alias": "ไม่ระบุ",
-        "image_url": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181928/%E0%B9%84%E0%B8%AD%E0%B9%80%E0%B8%8B%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B9%8C_%E0%B8%9A%E0%B8%B2%E0%B8%94%E0%B8%B2%E0%B8%97%E0%B8%B9_iafbts.png",
         "grade": "N/A",
         "fighting_style_th": "ยังไม่มีข้อมูล",
         "fighting_style_en": "ยังไม่มีข้อมูล",
@@ -43,13 +43,13 @@
             }
         },
         "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
+            "country_th": "ออสเตรเลีย",
+            "country_en": "",
             "age": 0,
             "team_th": "ยังไม่มีข้อมูล",
             "team_en": "ยังไม่มีข้อมูล"
         },
-        "target_url": "",
+        "target_url": "https://www.onefc.com/th/athletes/isaiah-badato/",
         "target_urls": [],
         "short_biography": ""
     },

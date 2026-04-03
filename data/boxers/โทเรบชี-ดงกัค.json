@@ -3,7 +3,7 @@
         "name_th": "โทเรบชี ดงกัค",
         "name_en": "",
         "alias": "ไม่ระบุ",
-        "image_url": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181926/%E0%B9%82%E0%B8%97%E0%B9%80%E0%B8%A3%E0%B8%9A%E0%B8%8A%E0%B8%B5_%E0%B8%94%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%84_tixukj.png",
         "grade": "N/A",
         "fighting_style_th": "ยังไม่มีข้อมูล",
         "fighting_style_en": "ยังไม่มีข้อมูล",
@@ -14,7 +14,7 @@
             "hydration": "N/A",
             "division": "Strawweight",
             "height_ft": "ยังไม่มีข้อมูล",
-            "height_cm": 0,
+            "height_cm": 168,
             "leg_reach_cm": "ยังไม่มีข้อมูล",
             "reach_cm": "ไม่ระบุ"
         },
@@ -45,11 +45,11 @@
         "personal_info": {
             "country_th": "ไทย",
             "country_en": "Thailand",
-            "age": 0,
+            "age": 26,
             "team_th": "ยังไม่มีข้อมูล",
             "team_en": "ยังไม่มีข้อมูล"
         },
-        "target_url": "",
+        "target_url": "https://www.onefc.com/th/athletes/torepchi-dongak/",
         "target_urls": [],
         "short_biography": ""
     },

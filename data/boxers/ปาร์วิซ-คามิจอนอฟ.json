@@ -3,7 +3,7 @@
         "name_th": "ปาร์วิซ คามิจอนอฟ",
         "name_en": "",
         "alias": "ไม่ระบุ",
-        "image_url": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181927/%E0%B8%9B%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%8B_%E0%B8%84%E0%B8%B2%E0%B8%A1%E0%B8%B4%E0%B8%88%E0%B8%AD%E0%B8%99%E0%B8%AD%E0%B8%9F_z8o6bx.png",
         "grade": "N/A",
         "fighting_style_th": "ยังไม่มีข้อมูล",
         "fighting_style_en": "ยังไม่มีข้อมูล",
@@ -43,13 +43,13 @@
             }
         },
         "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
+            "country_th": "ทาจิกิสถาน",
+            "country_en": "",
             "age": 0,
             "team_th": "ยังไม่มีข้อมูล",
             "team_en": "ยังไม่มีข้อมูล"
         },
-        "target_url": "",
+        "target_url": "https://www.onefc.com/th/athletes/parviz-khamidzhonov/",
         "target_urls": [],
         "short_biography": ""
     },

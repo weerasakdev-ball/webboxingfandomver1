@@ -3,7 +3,7 @@
         "name_th": "เดลฟาน ดวี ซาตริโอ",
         "name_en": "",
         "alias": "ไม่ระบุ",
-        "image_url": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181924/%E0%B9%80%E0%B8%94%E0%B8%A5%E0%B8%9F%E0%B8%B2%E0%B8%99_%E0%B8%94%E0%B8%A7%E0%B8%B5_%E0%B8%8B%E0%B8%B2%E0%B8%95%E0%B8%A3%E0%B8%B4%E0%B9%82%E0%B8%AD_vv1gef.png",
         "grade": "N/A",
         "fighting_style_th": "ยังไม่มีข้อมูล",
         "fighting_style_en": "ยังไม่มีข้อมูล",
@@ -43,13 +43,13 @@
             }
         },
         "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 0,
+            "country_th": "อินโดนีเซีย",
+            "country_en": "",
+            "age": 22,
             "team_th": "ยังไม่มีข้อมูล",
             "team_en": "ยังไม่มีข้อมูล"
         },
-        "target_url": "",
+        "target_url": "https://www.onefc.com/th/athletes/delfan-dwi-satrio/",
         "target_urls": [],
         "short_biography": ""
     },
