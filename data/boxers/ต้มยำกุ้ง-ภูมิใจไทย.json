@@ -1,40 +1,4 @@
 {
-<<<<<<< HEAD
-    "fighter_profile": {
-        "name_th": "ต้มยำกุ้ง ภูมิใจไทย",
-        "name_en": "Tomyamkoong Bhumjaithai",
-        "alias": "ไม่ระบุ",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181925/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B9%8D%E0%B8%B2%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87_%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B9%83%E0%B8%88%E0%B9%84%E0%B8%97%E0%B8%A2_hg3fya.png",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": "ไม่ระบุ",
-            "weight_kg": "ไม่ระบุ",
-            "division": "ไม่ระบุ",
-            "height_ft": "5'7\"",
-            "height_cm": 171,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 21,
-            "team_th": "พีเค.แสนชัยมวยไทยยิม",
-            "team_en": "PK.Saenchai Muaythai Gym"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/tomyamkoong-bhumjaithai/"
-        ],
-        "short_biography": "ต้มยำกุ้ง ภูมิใจไทย (Tomyamkoong Bhumjaithai) เป็นนักชกชาวไทย วัย 21 ปี จากสังกัดพีเค.แสนชัยมวยไทยยิม มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 171 เซนติเมตร (5'7\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)"
-=======
   "fighter_profile": {
     "name_th": "ต้มยำกุ้ง ภูมิใจไทย",
     "name_en": "Tomyamkoong Bhumjaithai",
@@ -52,7 +16,6 @@
       "height_cm": 171,
       "reach_cm": "ไม่ระบุ",
       "leg_reach_cm": "ไม่ระบุ"
->>>>>>> 054d15f15908369b69a5f50624a424ec95cfa068
     },
     "performance_stats": {
       "significant_strikes_per_minute": "ยังไม่มีข้อมูล",

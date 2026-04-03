@@ -1,42 +1,4 @@
 {
-<<<<<<< HEAD
-    "fighter_profile": {
-        "name_th": "ฮาร์ เลง์ ออม",
-        "name_en": "Har Ling Om",
-        "alias": "ไม่ระบุ",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181928/%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B9%8C_%E0%B9%80%E0%B8%A5%E0%B8%87%E0%B9%8C_%E0%B8%AD%E0%B8%AD%E0%B8%A1_mo29ji.png",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 115.0,
-            "weight_kg": 52.16,
-            "division": "Atomweight",
-            "height_ft": "5'4\"",
-            "height_cm": 163,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ",
-            "hydration": "N/A"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "เมียนมา",
-            "country_en": "Myanmar",
-            "age": 27,
-            "team_th": "Phyo Wai Group",
-            "team_en": "Phyo Wai Group"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/har-ling-om/"
-        ],
-        "short_biography": "ฮาร์ เลง์ ออม (Har Ling Om) เป็นนักชกชาวเมียนมา วัย 27 ปี จากสังกัดทีม Phyo Wai Group มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 163 เซนติเมตร (5'4\") น้ำหนัก 54 กิโลกรัม (119 ปอนด์) มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
-        "target_url": ""
-=======
   "fighter_profile": {
     "name_th": "ฮาร์ เลง์ ออม",
     "name_en": "Har Ling Om",
@@ -55,7 +17,6 @@
       "reach_cm": "ไม่ระบุ",
       "leg_reach_cm": "ไม่ระบุ",
       "hydration": "N/A"
->>>>>>> 054d15f15908369b69a5f50624a424ec95cfa068
     },
     "performance_stats": {
       "significant_strikes_per_minute": "ยังไม่มีข้อมูล",

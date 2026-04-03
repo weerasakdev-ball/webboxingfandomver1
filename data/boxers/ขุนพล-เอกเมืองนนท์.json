@@ -1,42 +1,4 @@
 {
-<<<<<<< HEAD
-    "fighter_profile": {
-        "name_th": "ขุนพล เอกเมืองนนท์",
-        "name_en": "Khunpon Aekmuangnon",
-        "alias": "ไม่ระบุ",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181924/%E0%B8%82%E0%B8%B8%E0%B8%99%E0%B8%9E%E0%B8%A5_%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%99%E0%B8%97%E0%B9%8C_yqkprs.png",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 128.4,
-            "weight_kg": 58.24,
-            "division": "Flyweight",
-            "height_ft": "5'10\"",
-            "height_cm": 179,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ",
-            "hydration": "N/A"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 20,
-            "team_th": "Petchnumnoi",
-            "team_en": "Petchnumnoi"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/khunpon-aekmuangnon/"
-        ],
-        "short_biography": "ขุนพล เอกเมืองนนท์ (Khunpon Aekmuangnon) เป็นนักชกชาวไทย วัย 20 ปี จากสังกัดทีม Petchnumnoi มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 179 เซนติเมตร (5'10\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)",
-        "target_url": ""
-=======
   "fighter_profile": {
     "name_th": "ขุนพล เอกเมืองนนท์",
     "name_en": "Khunpon Aekmuangnon",
@@ -55,7 +17,6 @@
       "reach_cm": "ไม่ระบุ",
       "leg_reach_cm": "ไม่ระบุ",
       "hydration": "N/A"
->>>>>>> 054d15f15908369b69a5f50624a424ec95cfa068
     },
     "performance_stats": {
       "significant_strikes_per_minute": "ยังไม่มีข้อมูล",

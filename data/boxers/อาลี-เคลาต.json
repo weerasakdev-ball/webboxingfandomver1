@@ -1,42 +1,4 @@
 {
-<<<<<<< HEAD
-    "fighter_profile": {
-        "name_th": "อาลี เคลาต",
-        "name_en": "Ali Kelat",
-        "alias": "ไม่ระบุ",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181928/%E0%B8%AD%E0%B8%B2%E0%B8%A5%E0%B8%B5_%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%95_gzpb2y.png",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 154.6,
-            "weight_kg": 70.13,
-            "division": "Featherweight",
-            "height_ft": "6'1\"",
-            "height_cm": 187,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ",
-            "hydration": "N/A"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "ตุรกี",
-            "country_en": "Turkey",
-            "age": 26,
-            "team_th": "Team Mehdi Zatout",
-            "team_en": "Team Mehdi Zatout"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/ali-kelat/"
-        ],
-        "short_biography": "อาลี เคลาต (Ali Kelat) เป็นนักชกชาวตุรกี วัย 26 ปี จากสังกัดทีม Team Mehdi Zatout มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 187 เซนติเมตร (6'1\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)",
-        "target_url": ""
-=======
   "fighter_profile": {
     "name_th": "อาลี เคลาต",
     "name_en": "Ali Kelat",
@@ -55,7 +17,6 @@
       "reach_cm": "ไม่ระบุ",
       "leg_reach_cm": "ไม่ระบุ",
       "hydration": "N/A"
->>>>>>> 054d15f15908369b69a5f50624a424ec95cfa068
     },
     "performance_stats": {
       "significant_strikes_per_minute": "ยังไม่มีข้อมูล",

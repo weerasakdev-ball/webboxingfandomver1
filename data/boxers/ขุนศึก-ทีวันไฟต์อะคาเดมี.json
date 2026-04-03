@@ -1,42 +1,4 @@
 {
-<<<<<<< HEAD
-    "fighter_profile": {
-        "name_th": "ขุนศึก ทีวันไฟต์อะคาเดมี",
-        "name_en": "Khunsuk T-One Fight Academy",
-        "alias": "ขุนศึก ส.เดชะพันธ์",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181925/%E0%B8%82%E0%B8%B8%E0%B8%99%E0%B8%A8%E0%B8%B6%E0%B8%81_%E0%B8%97%E0%B8%B5%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B9%84%E0%B8%9F%E0%B8%95%E0%B9%8C%E0%B8%AD%E0%B8%B0%E0%B8%84%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%A1%E0%B8%B5_aizznw.png",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 115.0,
-            "weight_kg": 52.16,
-            "division": "Atomweight",
-            "height_ft": "5'2\"",
-            "height_cm": 160,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ",
-            "hydration": "N/A"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 22,
-            "team_th": "ส.เดชะพันธ์",
-            "team_en": "Sor. Dechapan"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/khunsuk-sor-dechapan/"
-        ],
-        "short_biography": "ขุนศึก ทีวันไฟต์อะคาเดมี (Khunsuk T-One Fight Academy) หรือ ขุนศึก ส.เดชะพันธ์ เป็นนักชกชาวไทย วัย 22 ปี จากสังกัดทีม ส.เดชะพันธ์ มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 160 เซนติเมตร (5'2\") น้ำหนัก 51.3 กิโลกรัม (113.1 ปอนด์) มีผลงานการแข่งขันที่โดดเด่นและผ่านประสบการณ์บนเวที ONE ลุมพินี (ONE Championship) มาอย่างโชกโชน",
-        "target_url": ""
-=======
   "fighter_profile": {
     "name_th": "ขุนศึก ทีวันไฟต์อะคาเดมี",
     "name_en": "Khunsuk T-One Fight Academy",
@@ -55,7 +17,6 @@
       "reach_cm": "ไม่ระบุ",
       "leg_reach_cm": "ไม่ระบุ",
       "hydration": "N/A"
->>>>>>> 054d15f15908369b69a5f50624a424ec95cfa068
     },
     "performance_stats": {
       "significant_strikes_per_minute": "ยังไม่มีข้อมูล",

@@ -1,42 +1,4 @@
 {
-<<<<<<< HEAD
-    "fighter_profile": {
-        "name_th": "วาเนสซา โรมานอว์สกี",
-        "name_en": "Vanessa Romanowski",
-        "alias": "ไม่ระบุ",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181927/%E0%B8%A7%E0%B8%B2%E0%B9%80%E0%B8%99%E0%B8%AA%E0%B8%8B%E0%B8%B2_%E0%B9%82%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%A7%E0%B9%8C%E0%B8%AA%E0%B8%81%E0%B8%B5_xl6uxk.png",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 115.0,
-            "weight_kg": 52.16,
-            "division": "Atomweight",
-            "height_ft": "5'4\"",
-            "height_cm": 165,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ",
-            "hydration": "N/A"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "สวีเดน/โปแลนด์",
-            "country_en": "Sweden/Poland",
-            "age": 21,
-            "team_th": "Allstars Training Center / Rawai Muay Thai Khao Lak",
-            "team_en": "Allstars Training Center / Rawai Muay Thai Khao Lak"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/vanessa-romanowski/"
-        ],
-        "short_biography": "วาเนสซา โรมานอว์สกี (Vanessa Romanowski) เป็นนักชกชาวสวีเดน/โปแลนด์ วัย 21 ปี จากสังกัดทีม Allstars Training Center / Rawai Muay Thai Khao Lak มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 165 เซนติเมตร (5'4\") มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
-        "target_url": ""
-=======
   "fighter_profile": {
     "name_th": "วาเนสซา โรมานอว์สกี",
     "name_en": "Vanessa Romanowski",
@@ -55,7 +17,6 @@
       "reach_cm": "ไม่ระบุ",
       "leg_reach_cm": "ไม่ระบุ",
       "hydration": "N/A"
->>>>>>> 054d15f15908369b69a5f50624a424ec95cfa068
     },
     "performance_stats": {
       "significant_strikes_per_minute": "ยังไม่มีข้อมูล",

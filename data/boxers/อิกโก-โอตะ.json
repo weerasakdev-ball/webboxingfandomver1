@@ -1,42 +1,4 @@
 {
-<<<<<<< HEAD
-    "fighter_profile": {
-        "name_th": "อิกโก โอตะ",
-        "name_en": "Ikko Ota",
-        "alias": "ไม่ระบุ",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181928/%E0%B8%AD%E0%B8%B4%E0%B8%81%E0%B9%82%E0%B8%81_%E0%B9%82%E0%B8%AD%E0%B8%95%E0%B8%B0_rl5jmr.png",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 121.6,
-            "weight_kg": 55.16,
-            "division": "Strawweight",
-            "height_ft": "5'6\"",
-            "height_cm": 169,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ",
-            "hydration": "N/A"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "ญี่ปุ่น",
-            "country_en": "Japan",
-            "age": 24,
-            "team_th": "Shinkoh Muay Thai Gym",
-            "team_en": "Shinkoh Muay Thai Gym"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/ikko-ota/"
-        ],
-        "short_biography": "อิกโก โอตะ (Ikko Ota) เป็นนักชกชาวญี่ปุ่น วัย 24 ปี จากสังกัดทีม Shinkoh Muay Thai Gym มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 169 เซนติเมตร (5'6\") น้ำหนัก 54.9 กิโลกรัม (121 ปอนด์) มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
-        "target_url": ""
-=======
   "fighter_profile": {
     "name_th": "อิกโก โอตะ",
     "name_en": "Ikko Ota",
@@ -55,7 +17,6 @@
       "reach_cm": "ไม่ระบุ",
       "leg_reach_cm": "ไม่ระบุ",
       "hydration": "N/A"
->>>>>>> 054d15f15908369b69a5f50624a424ec95cfa068
     },
     "performance_stats": {
       "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
