@@ -331,14 +331,21 @@ async function runMultiSourceScraper() {
             let urlsToScrape = [];
             let jsonNeedsStructureUpdate = false;
 
-            if (Array.isArray(fighterData.fighter_profile.target_urls)) {
+            // ==========================================================================
+            // 🛠️ ส่วนที่แก้ไข: ตรวจสอบและดึงลิงก์ให้ฉลาดขึ้น
+            // การทำงาน: 
+            // 1. เช็กว่า target_urls เป็น Array และมีข้อมูลอยู่ข้างในหรือไม่ ถ้ามีให้ใช้ค่าจาก target_urls
+            // 2. ถ้าข้อแรกไม่จริง ให้มาเช็กที่ target_url ว่ามีลิงก์อยู่หรือไม่ ถ้ามีให้ดึงมาใช้แล้วแปลงลง target_urls
+            // ==========================================================================
+            if (Array.isArray(fighterData.fighter_profile.target_urls) && fighterData.fighter_profile.target_urls.length > 0) {
                 urlsToScrape = fighterData.fighter_profile.target_urls;
-            } else if (fighterData.fighter_profile.target_url) {
+            } else if (fighterData.fighter_profile.target_url && fighterData.fighter_profile.target_url.trim() !== "") {
                 urlsToScrape = [fighterData.fighter_profile.target_url];
                 fighterData.fighter_profile.target_urls = urlsToScrape;
                 delete fighterData.fighter_profile.target_url;
                 jsonNeedsStructureUpdate = true;
             }
+            // ==========================================================================
 
             if (urlsToScrape.length === 0) continue;
 

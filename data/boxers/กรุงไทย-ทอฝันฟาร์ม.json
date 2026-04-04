@@ -44,6 +44,19 @@
     {
       "result": "Win",
       "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "บินลาดิน ส.พูลสวัสดิ์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 27, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 148 & The Inner Circle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
       "method_en": "KO/TKO",
       "round": 2,
       "time": "ไม่ระบุ",

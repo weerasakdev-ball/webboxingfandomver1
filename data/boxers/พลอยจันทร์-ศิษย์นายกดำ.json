@@ -1,66 +1,81 @@
 {
-    "fighter_profile": {
-        "name_th": "พลอยจันทร์ ศิษย์นายกดำ",
-        "name_en": "",
-        "alias": "ไม่ระบุ",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181927/%E0%B8%9E%E0%B8%A5%E0%B8%AD%E0%B8%A2%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C_%E0%B8%A8%E0%B8%B4%E0%B8%A9%E0%B8%A2%E0%B9%8C%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%94%E0%B8%B3_fbawj0.png",
-        "grade": "N/A",
-        "fighting_style_th": "ยังไม่มีข้อมูล",
-        "fighting_style_en": "ยังไม่มีข้อมูล",
-        "stance": "ยังไม่มีข้อมูล",
-        "physical_stats": {
-            "weight_lbs": 114.8,
-            "weight_kg": 52.07,
-            "hydration": "N/A",
-            "division": "Atomweight",
-            "height_ft": "ยังไม่มีข้อมูล",
-            "height_cm": 163,
-            "leg_reach_cm": "ยังไม่มีข้อมูล",
-            "reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": "ยังไม่มีข้อมูล",
-                "body": "ยังไม่มีข้อมูล",
-                "legs": "ยังไม่มีข้อมูล",
-                "total_per_minute": "ยังไม่มีข้อมูล"
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
-                "accuracy_by_target_percentage": {
-                    "head": "ยังไม่มีข้อมูล",
-                    "body": "ยังไม่มีข้อมูล",
-                    "legs": "ยังไม่มีข้อมูล"
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": "ไม่ระบุ",
-                "defense_by_target_percentage": {
-                    "head": "ไม่ระบุ",
-                    "body": "ไม่ระบุ",
-                    "legs": "ไม่ระบุ"
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 18,
-            "team_th": "ยังไม่มีข้อมูล",
-            "team_en": "ยังไม่มีข้อมูล"
-        },
-        "target_url": "https://www.onefc.com/th/athletes/ployjan-sitnayokdam/",
-        "target_urls": [],
-        "short_biography": ""
+  "fighter_profile": {
+    "name_th": "พลอยจันทร์ ศิษย์นายกดำ",
+    "name_en": "",
+    "alias": "ไม่ระบุ",
+    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181927/%E0%B8%9E%E0%B8%A5%E0%B8%AD%E0%B8%A2%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C_%E0%B8%A8%E0%B8%B4%E0%B8%A9%E0%B8%A2%E0%B9%8C%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%94%E0%B8%B3_fbawj0.png",
+    "grade": "N/A",
+    "fighting_style_th": "ยังไม่มีข้อมูล",
+    "fighting_style_en": "ยังไม่มีข้อมูล",
+    "stance": "ยังไม่มีข้อมูล",
+    "physical_stats": {
+      "weight_lbs": 114.8,
+      "weight_kg": 52.07,
+      "hydration": "N/A",
+      "division": "Atomweight",
+      "height_ft": "ยังไม่มีข้อมูล",
+      "height_cm": 163,
+      "leg_reach_cm": "ยังไม่มีข้อมูล",
+      "reach_cm": "ไม่ระบุ"
     },
-    "fight_history_one_championship": [],
-    "weigh_in_history": [
-        {
-            "event_name": "ONE LUMPINEE 149",
-            "weight_lbs": 114.8,
-            "division": "Atomweight"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ยังไม่มีข้อมูล",
+        "body": "ยังไม่มีข้อมูล",
+        "legs": "ยังไม่มีข้อมูล",
+        "total_per_minute": "ยังไม่มีข้อมูล"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+        "accuracy_by_target_percentage": {
+          "head": "ยังไม่มีข้อมูล",
+          "body": "ยังไม่มีข้อมูล",
+          "legs": "ยังไม่มีข้อมูล"
         }
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": "ไม่ระบุ",
+        "defense_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 18,
+      "team_th": "ยังไม่มีข้อมูล",
+      "team_en": "ยังไม่มีข้อมูล"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/ployjan-sitnayokdam/"
     ],
-    "upcoming_fights": [],
-    "fight_history": []
+    "short_biography": ""
+  },
+  "fight_history_one_championship": [],
+  "weigh_in_history": [
+    {
+      "event_name": "ONE LUMPINEE 149",
+      "weight_lbs": 114.8,
+      "division": "Atomweight"
+    }
+  ],
+  "upcoming_fights": [],
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "วาเนสซา โรมานอว์สกี",
+      "opponent_en": "",
+      "opponent_country": "สวีเดน/โปแลนด์",
+      "date": "Apr 03, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+    }
+  ]
 }

@@ -45,6 +45,19 @@
   ],
   "fight_history": [
     {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:23",
+      "opponent_th": "อีสานเหนือ ศ.ศศิวัฒน์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 03, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+    },
+    {
       "result": "Win",
       "discipline_en": "Muay Thai",
       "method_en": "Split Decision",

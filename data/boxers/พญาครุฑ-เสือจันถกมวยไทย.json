@@ -47,6 +47,19 @@
     {
       "result": "Loss",
       "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "2:33",
+      "opponent_th": "อิกโก โอตะ",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Apr 03, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
       "method_en": "Unanimous Decision",
       "round": 3,
       "time": "3:00",

@@ -93,6 +93,19 @@
       "date": "Mar 18, 2016",
       "rating": 5,
       "event_en": "UNION OF WARRIORS"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "1:21",
+      "opponent_th": "เจก บัตเลอร์",
+      "opponent_en": "",
+      "opponent_country": "สหรัฐอเมริกา",
+      "date": "Jul 11, 2014",
+      "rating": 5,
+      "event_en": "ONE WAR OF DRAGONS"
     }
   ]
 }

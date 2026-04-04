@@ -29,10 +29,25 @@
       "team_th": "",
       "team_en": ""
     },
-    "target_urls": ["https://www.onefc.com/th/athletes/kyaw-swar-win/"]
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/kyaw-swar-win/"
+    ]
   },
   "weigh_in_history": [],
   "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "สมิงดำ เอ็นเอฟ.ลูกสวน",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 20, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 147"
+    },
     {
       "result": "Win",
       "discipline_en": "Muay Thai",

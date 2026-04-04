@@ -1,0 +1,92 @@
+{
+  "fighter_profile": {
+    "name_th": "รีเกียน เออร์เซล",
+    "name_en": "Regian Eersel",
+    "alias": "THE IMMORTAL",
+    "image_url": "ไม่ระบุ",
+    "grade": "ไม่ระบุ",
+    "fighting_style_th": "มวยไทย / คิกบ็อกซิ่ง",
+    "fighting_style_en": "Muay Thai / Kickboxing",
+    "stance": "ออร์โธด็อกซ์ (Orthodox)",
+    
+    "physical_stats": {
+      "weight_lbs": "170",
+      "weight_kg": "77.1",
+      "division": "รุ่นไลต์เวต",
+      "height_ft": "6'2\"",
+      "height_cm": 189,
+      "reach_cm": "197",
+      "leg_reach_cm": "ไม่ระบุ"
+    },
+    
+    "performance_stats": {
+      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+      "defensive_stats": "ยังไม่มีข้อมูล"
+    },
+    
+    "personal_info": {
+      "country_th": "ซูรินาม",
+      "country_en": "Suriname",
+      "age": 33,
+      "team_th": "Sityodtong Amsterdam",
+      "team_en": "Sityodtong Amsterdam"
+    },
+    
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/regian-eersel/"
+    ]
+  },
+
+  "weigh_in_history": [
+    {
+      "event_name": "ONE Fight Night 34",
+      "weight_lbs": "170",
+      "division": "รุ่นไลต์เวต"
+    }
+  ],
+
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO",
+      "round": 1,
+      "time": "ไม่ระบุ",
+      "opponent_th": "จอร์จ จาร์วิส",
+      "opponent_en": "George Jarvis",
+      "opponent_country": "อังกฤษ",
+      "date": "Aug 2, 2025",
+      "rating": "ไม่ระบุ",
+      "event_en": "ONE Fight Night 34"
+    },
+    
+    {
+      "result": "Win",
+      "discipline_en": "Kickboxing",
+      "method_en": "Majority Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "อเล็กซิส นิโคลัส",
+      "opponent_en": "Alexis Nicolas",
+      "opponent_country": "ฝรั่งเศส",
+      "date": "Apr 5, 2025",
+      "rating": "ไม่ระบุ",
+      "event_en": "ONE Fight Night 30"
+    },
+    
+    {
+      "result": "Win",
+      "discipline_en": "Kickboxing",
+      "method_en": "Unanimous Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "อเล็กซิส นิโคลัส",
+      "opponent_en": "Alexis Nicolas",
+      "opponent_country": "ฝรั่งเศส",
+      "date": "Oct 5, 2024",
+      "rating": "ไม่ระบุ",
+      "event_en": "ONE Fight Night 25"
+    }
+  ]
+}

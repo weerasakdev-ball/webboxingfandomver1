@@ -45,6 +45,19 @@
   ],
   "fight_history": [
     {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "2:33",
+      "opponent_th": "พญาครุฑ เสือจันถกมวยไทย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 03, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+    },
+    {
       "result": "Loss",
       "discipline_en": "Muay Thai",
       "method_en": "Unanimous Decision",

@@ -45,6 +45,19 @@
   ],
   "fight_history": [
     {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ฮาร์ เลง์ ออม",
+      "opponent_en": "",
+      "opponent_country": "เมียนมา",
+      "date": "Apr 03, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+    },
+    {
       "result": "Win",
       "discipline_en": "Muay Thai",
       "method_en": "Unanimous Decision",

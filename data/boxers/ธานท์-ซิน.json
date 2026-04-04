@@ -147,6 +147,19 @@
     {
       "result": "Loss",
       "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:38",
+      "opponent_th": "จรัสชัย แม็กจันดี",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 03, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
       "method_en": "Unanimous Decision",
       "round": 3,
       "time": "3:00",

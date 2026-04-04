@@ -1,42 +1,72 @@
 name: Auto MuayThai Scraper
 
+# ==========================================================
+# 🕒 ส่วนการตั้งเวลาทำงานอัตโนมัติ (Trigger)
+# ==========================
 on:
   schedule:
-    - cron: '0 17 * * 4'  # เที่ยงคืนวันศุกร์ (พฤหัส 17:00 UTC)
-  workflow_dispatch:      # ปุ่มกดรันเอง
+    # 🥊 ตั้งเวลา: เที่ยงคืน 03 นาที ของคืนวันศุกร์ (เช้าวันเสาร์เวลาไทย)
+    # เวลาไทย (GMT+7) คือ 00:03 วันเสาร์ 
+    # แปลงเป็นเวลาสากล (UTC) คือ 17:03 วันศุกร์ (หักออก 7 ชั่วโมง)
+    # รูปแบบ cron: 'นาที ชั่วโมง วัน เดือน วันในสัปดาห์' (5 คือวันศุกร์)
+    - cron: '3 17 * * 5'
 
+  # 🖱️ ส่วนปุ่มกดรันเองด้วยมือ (สำหรับทดสอบ)
+  workflow_dispatch:
+
+# ==========================================================
+# 🔑 ส่วนการขอสิทธิ์เข้าถึง (Permissions)
+# ==========================
 permissions:
-  contents: write         # มอบสิทธิ์ให้บอทเขียนไฟล์ลง Repo ได้
+  contents: write         # อนุญาตให้บอทสามารถเขียนไฟล์และ Push ข้อมูลลง GitHub ได้
 
+# ==========================================================
+# 🏗️ ส่วนขั้นตอนการทำงาน (Jobs)
+# ==========================
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
 
     steps:
+    # 1️⃣ ดึงโค้ดล่าสุดจาก GitHub ลงมาที่เครื่องจำลอง
     - name: 📥 Checkout Code
       uses: actions/checkout@v4
 
+
+    # 2️⃣ ติดตั้งสภาพแวดล้อม Node.js เวอร์ชัน 22
     - name: ⚙️ Setup Node.js 22
       uses: actions/setup-node@v4
       with:
         node-version: '22'
 
+
+    # 3️⃣ ติดตั้ง Library ต่างๆ ที่จำเป็น (npm install)
     - name: 📦 Install Dependencies
       run: |
         npm install
-        # 🔑 แก้ปัญหา Permission Denied: เปิดสิทธิ์ให้โฟลเดอร์ทำงานได้
+        # เปิดสิทธิ์ให้โฟลเดอร์ทำงานของบอทสามารถรันคำสั่งได้
         chmod -R +x node_modules/.bin/
 
+
+    # 4️⃣ ติดตั้งเบราว์เซอร์ Chrome สำหรับใช้ดึงข้อมูล (Puppeteer)
     - name: 🌐 Install Chrome for Puppeteer
       run: npx puppeteer browsers install chrome
 
+
+    # 5️⃣ สั่งรันบอทเพื่อไปดึงข้อมูลนักมวยจากเว็บเป้าหมาย
     - name: 🤖 Run MuayThai Bot
       run: node real_scraper_bot.js
 
+
+    # 6️⃣ ตรวจสอบและบันทึกข้อมูลใหม่ลงใน GitHub (Commit & Push)
     - name: 💾 Update Database & Website
       run: |
+        # ตั้งชื่อผู้ใช้งานให้เป็นบอทของ GitHub
         git config --global user.name 'GitHub Actions Bot'
         git config --global user.email 'actions@github.com'
+        
+        # เพิ่มไฟล์ที่อัปเดตทั้งหมดเข้าคิวรอเซฟ
         git add .
-        # ป้องกัน Error กรณีไม่มีข้อมูลใหม่
-        git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 อัปเดตสถิติอัตโนมัติ" && git push)
+        
+        # เช็คว่ามีข้อมูลใหม่จริงๆ ไหม ถ้ามีให้ทำ Commit และ Push ขึ้น GitHub ทันที
+        git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 อัปเดตสถิติอัตโนมัติ (รอบเที่ยงคืนวันศุกร์)" && git push)

@@ -5,7 +5,7 @@
 คำสั่งลิสรายชื่อข่าว node generate-news-list.js
 เสกรายชื่อบทความ node generate-articles.js
 อัปเดตแร้งราชดำเนิน node generate-rankings-raja.js
-อัปเดทข้อมูลนักมวย วัน node update-fighters.js
+อัปเดทข้อมูลนักมวย วัน node real_scraper_bot.js
 
 
 
