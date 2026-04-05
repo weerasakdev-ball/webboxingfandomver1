@@ -1,0 +1,71 @@
+{
+    "fighter_profile": {
+        "name_th": "วาลดิเมียร์ บริเตซ",
+        "name_en": "Waldimir Britez",
+        "alias": "",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "การต่อสู้แบบผสมผสาน",
+        "fighting_style_en": "Mixed Martial Arts",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 144.8,
+            "weight_kg": 65.7,
+            "division": "",
+            "height_ft": "5'8\"",
+            "height_cm": 173,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 0,
+                "body": 0,
+                "legs": 0,
+                "total_per_minute": 0
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 0,
+                "accuracy_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 0,
+                "defense_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ปารากวัย",
+            "country_en": "Paraguay",
+            "age": 24,
+            "team_th": "Tiger Muay Thai",
+            "team_en": "Tiger Muay Thai"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/waldimir-britez/"
+        ],
+        "short_biography": "วาลดิเมียร์ บริเตซ (Waldimir Britez) นักสู้จากประเทศปารากวัย วัย 24 ปี สังกัดทีม Tiger Muay Thai มีส่วนสูง 173 เซนติเมตร น้ำหนัก 144.8 ปอนด์ (ประมาณ 65.7 กิโลกรัม) เปิดตัวในรายการ ONE ลุมพินี 140 เมื่อวันที่ 30 มกราคม 2026 ด้วยการเอาชนะทีเคโอ คาซัต อาลิมเบก อูลู นักชกจากคีร์กีซสถาน ได้ในเวลาเพียง 1 นาที 8 วินาที ของยกแรก ในกติกาการต่อสู้แบบผสมผสาน (MMA)"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Mixed Martial Arts",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:08",
+            "opponent_th": "คาซัต อาลิมเบก อูลู",
+            "opponent_en": "Kasat Alimbek Uulu",
+            "opponent_country": "คีร์กีซสถาน",
+            "date": "Jan 30, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 140"
+        }
+    ]
+}

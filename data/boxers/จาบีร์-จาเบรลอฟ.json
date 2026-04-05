@@ -1,0 +1,97 @@
+{
+    "fighter_profile": {
+        "name_th": "จาบีร์ จาเบรลอฟ",
+        "name_en": "Dzhabir Dzhabrailov",
+        "alias": "",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "การต่อสู้แบบผสมผสาน",
+        "fighting_style_en": "Mixed Martial Arts",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 0,
+            "weight_kg": 0,
+            "division": "",
+            "height_ft": "6'1\"",
+            "height_cm": 187,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 0,
+                "body": 0,
+                "legs": 0,
+                "total_per_minute": 0
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 0,
+                "accuracy_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 0,
+                "defense_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ตุรกี",
+            "country_en": "Turkey",
+            "age": 21,
+            "team_th": "Team Amir",
+            "team_en": "Team Amir"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/dzhabir-dzhabrailov/"
+        ],
+        "short_biography": "จาบีร์ จาเบรลอฟ (Dzhabir Dzhabrailov) นักสู้ชาวตุรกีวัย 21 ปี จากสังกัด Team Amir มีส่วนสูงถึง 187 เซนติเมตร เป็นนักสู้ในกติกาการต่อสู้แบบผสมผสาน (MMA) ที่มีพลังทำลายล้างสูงและน่าเกรงขามอย่างมาก โดยมีสถิติการปิดเกมด้วยการชนะน็อกเอาต์และทีเคโอในยกที่ 1 ติดต่อกันถึง 3 ไฟต์รวดในรายการ ONE ลุมพินี และ ONE Fight Night"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Mixed Martial Arts",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:43",
+            "opponent_th": "นิโคลัส วินญา",
+            "opponent_en": "Nicolas Vigna",
+            "opponent_country": "อาร์เจนตินา",
+            "date": "Jun 07, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 32: นักรบ vs จ้าวเสือใหญ่"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Mixed Martial Arts",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:47",
+            "opponent_th": "คูซาน อูราคอฟ",
+            "opponent_en": "Khusan Urakov",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Jan 10, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 93"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Mixed Martial Arts",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:20",
+            "opponent_th": "เอดูอาร์โด เฟรตัส",
+            "opponent_en": "Eduardo Freitas",
+            "opponent_country": "บราซิล",
+            "date": "Sep 13, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 79"
+        }
+    ]
+}

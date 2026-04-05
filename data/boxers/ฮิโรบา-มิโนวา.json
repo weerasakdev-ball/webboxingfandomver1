@@ -1,0 +1,162 @@
+{
+    "fighter_profile": {
+        "name_th": "ฮิโรบา มิโนวา",
+        "name_en": "Hiroba Minowa",
+        "alias": "",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "การต่อสู้แบบผสมผสาน",
+        "fighting_style_en": "Mixed Martial Arts",
+        "stance": "Orthodox",
+        "physical_stats": {
+            "weight_lbs": 124.8,
+            "weight_kg": 56.6,
+            "division": "Strawweight",
+            "height_ft": "5'2\"",
+            "height_cm": 160,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 0,
+                "body": 0,
+                "legs": 0,
+                "total_per_minute": 0
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 0,
+                "accuracy_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 0,
+                "defense_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 26,
+            "team_th": "STF",
+            "team_en": "STF"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/hiroba-minowa/"
+        ],
+        "short_biography": "ฮิโรบา มิโนวา (Hiroba Minowa) นักสู้ชาวญี่ปุ่นวัย 26 ปี จากทีม STF อดีตแชมป์โลก Shooto รุ่นสตรอว์เวต มีส่วนสูง 160 เซนติเมตร และน้ำหนัก 124.8 ปอนด์ (56.6 กิโลกรัม) เป็นนักสู้สายปล้ำเทคนิคสูงที่ทำผลงานได้อย่างน่าประทับใจในช่วงเปิดตัวในรายการ ONE ด้วยการเอาชนะอดีตแชมป์โลกอย่าง อเล็กซ์ ซิลวา แม้ในช่วงหลังจะประสบปัญหาเรื่องผลการแข่งขันโดยพ่ายแพ้ให้กับ ลี ซึง ชอล ในไฟต์ล่าสุดเมื่อวันที่ 18 กรกฎาคม 2025 ปัจจุบันเขามีกำหนดการชกกับ คาเรน กาซาเรียน ในศึก ONE Fight Night 42 วันที่ 11 เมษายน 2026 ณ ประเทศญี่ปุ่น"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Mixed Martial Arts",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "ลี ซึง ชอล",
+            "opponent_en": "Lee Seung Cheol",
+            "opponent_country": "เกาหลีใต้",
+            "date": "Jul 18, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 116"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Mixed Martial Arts",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "ซานจาร์ ซาคิรอฟ",
+            "opponent_en": "Sanzhar Zakirov",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Oct 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 25: เอเล็กซิส vs เมนชิคอฟ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Mixed Martial Arts",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "เจเรมี มิเอโด",
+            "opponent_en": "Jeremy Miado",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 23: ออค vs ราซูลอฟ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Mixed Martial Arts",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "กุสตาโว บาลาร์ต",
+            "opponent_en": "Gustavo Balart",
+            "opponent_country": "คิวบา",
+            "date": "Jan 28, 2024",
+            "rating": 5,
+            "event_en": "ONE 165: ซุปเปอร์เล็ก vs ทาเครุ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Mixed Martial Arts",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "โบแคน มาซันเยน",
+            "opponent_en": "Bokang Masunyane",
+            "opponent_country": "แอฟริกาใต้",
+            "date": "Apr 21, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 9: น้องโอ๋ vs แฮ็กเกอร์ตี"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Mixed Martial Arts",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "จาร์เร็ด บรูคส์",
+            "opponent_en": "Jarred Brooks",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "Jan 28, 2022",
+            "rating": 5,
+            "event_en": "ONE: Only the Brave"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Mixed Martial Arts",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "อเล็กซ์ ซิลวา",
+            "opponent_en": "Alex Silva",
+            "opponent_country": "บราซิล",
+            "date": "Mar 19, 2021",
+            "rating": 5,
+            "event_en": "ONE: Fists of Fury 3"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Mixed Martial Arts",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "ลิโต อาดิวัน",
+            "opponent_en": "Lito Adiwang",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Nov 13, 2020",
+            "rating": 5,
+            "event_en": "ONE: Inside the Matrix 3"
+        }
+    ]
+}

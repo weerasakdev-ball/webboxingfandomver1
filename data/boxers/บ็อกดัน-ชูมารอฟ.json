@@ -1,0 +1,110 @@
+{
+    "fighter_profile": {
+        "name_th": "บ็อกดัน ชูมารอฟ",
+        "name_en": "Bogdan Shumarov",
+        "alias": "",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "คิกบ็อกซิง",
+        "fighting_style_en": "Kickboxing",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 168.2,
+            "weight_kg": 76.3,
+            "division": "",
+            "height_ft": "5'10\"",
+            "height_cm": 180,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 0,
+                "body": 0,
+                "legs": 0,
+                "total_per_minute": 0
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 0,
+                "accuracy_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 0,
+                "defense_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "บัลแกเรีย",
+            "country_en": "Bulgaria",
+            "age": 29,
+            "team_th": "SB Gym",
+            "team_en": "SB Gym"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/bogdan-shumarov/"
+        ],
+        "short_biography": "บ็อกดัน ชูมารอฟ (Bogdan Shumarov) นักชกชาวบัลแกเรีย วัย 29 ปี สังกัดทีม SB Gym มีส่วนสูง 180 เซนติเมตร และน้ำหนัก 168.2 ปอนด์ (ประมาณ 76.3 กิโลกรัม) เป็นนักสู้ในกติกาคิกบ็อกซิงที่มีพลังทำลายล้างสูง ผลงานล่าสุดสามารถเอาชนะน็อกเอาต์ มาเชจ์ คาร์ปินสกี นักชกจากโปแลนด์ได้ในยกแรกของศึก ONE ลุมพินี 127 เมื่อวันที่ 3 ตุลาคม 2025"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:40",
+            "opponent_th": "มาเชจ์ คาร์ปินสกี",
+            "opponent_en": "Maciej Karpinski",
+            "opponent_country": "โปแลนด์",
+            "date": "Oct 03, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 127"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "รุ่งราวี ศิษย์สองพี่น้อง",
+            "opponent_en": "Rungrawee Sitsongpeenong",
+            "opponent_country": "ไทย",
+            "date": "May 03, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 22: สมิลลา vs นาตาเลีย"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:33",
+            "opponent_th": "คอนสแตนติน รูซู",
+            "opponent_en": "Constantin Rusu",
+            "opponent_country": "มอลโดวา/รัสเซีย",
+            "date": "Jul 14, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 12: ซุปเปอร์เล็ก vs ทาเกียร์"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:15",
+            "opponent_th": "มาร์เวน ฮัวลิ",
+            "opponent_en": "Marwen Houli",
+            "opponent_country": "ตูนิเซีย",
+            "date": "Feb 24, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 6"
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "fighter_profile": {
+        "name_th": "จอร์แดน เอสตูปินาน",
+        "name_en": "Jordan Estupinan",
+        "alias": "",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "มวยไทย, คิกบ็อกซิง",
+        "fighting_style_en": "Muay Thai, Kickboxing",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 0,
+            "weight_kg": 0,
+            "division": "",
+            "height_ft": "",
+            "height_cm": 0,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 0,
+                "body": 0,
+                "legs": 0,
+                "total_per_minute": 0
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 0,
+                "accuracy_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 0,
+                "defense_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "โคลอมเบีย",
+            "country_en": "Colombia",
+            "age": 0,
+            "team_th": "",
+            "team_en": ""
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/jordan-estupinan/"
+        ],
+        "short_biography": "จอร์แดน เอสตูปินาน (Jordan Estupinan) นักสู้จากประเทศโคลอมเบีย เป็นนักชกที่มีความสามารถทั้งในกติกามวยไทยและคิกบ็อกซิง ผลงานล่าสุดในรายการ ONE Fight Night 35 เมื่อวันที่ 6 กันยายน 2025 พ่ายทีเคโอให้กับ ฮิว นักชกชาวญี่ปุ่นในยกที่ 3 อย่างไรก็ตาม เขาเคยทำผลงานได้ยอดเยี่ยมด้วยการเอาชนะคะแนนเอกฉันท์ต่อ อาลี ซาลโดเอฟ และ เฟรดดี แฮ็กเกอร์ตี ในรายการ ONE มาก่อนหน้านี้"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:45",
+            "opponent_th": "ฮิว",
+            "opponent_en": "Hyu",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Sep 06, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 35: แจ็กกี vs สเตลลา"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อาลี ซาลโดเอฟ",
+            "opponent_en": "Ali Saldoev",
+            "opponent_country": "รัสเซีย",
+            "date": "May 03, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 31: ก้องธรณี vs น้องโอ๋ II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เฟรดดี แฮ็กเกอร์ตี",
+            "opponent_en": "Freddie Haggerty",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Jan 24, 2025",
+            "rating": 5,
+            "event_en": "ONE 170"
+        }
+    ]
+}

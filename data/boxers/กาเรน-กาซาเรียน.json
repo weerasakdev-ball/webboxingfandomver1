@@ -1,0 +1,57 @@
+{
+    "fighter_profile": {
+        "name_th": "กาเรน กาซาเรียน",
+        "name_en": "Karen Ghazaryan",
+        "alias": "",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 125,
+            "weight_kg": 56.7,
+            "division": "",
+            "height_ft": "5'2\"",
+            "height_cm": 160,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 0,
+                "body": 0,
+                "legs": 0,
+                "total_per_minute": 0
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 0,
+                "accuracy_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 0,
+                "defense_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "อาร์เมเนีย",
+            "country_en": "Armenia",
+            "age": 24,
+            "team_th": "Shahmuradyan Fight Club",
+            "team_en": "Shahmuradyan Fight Club"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/karen-ghazaryan/"
+        ],
+        "short_biography": "กาเรน กาซาเรียน (Karen Ghazaryan) นักสู้จากประเทศอาร์เมเนีย วัย 24 ปี สังกัดทีม Shahmuradyan Fight Club มีส่วนสูง 160 เซนติเมตร และพิกัดน้ำหนัก 125 ปอนด์ (ประมาณ 56.7 กิโลกรัม)"
+    },
+    "fight_history": []
+}

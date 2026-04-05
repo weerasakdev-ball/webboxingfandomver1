@@ -1,0 +1,97 @@
+{
+    "fighter_profile": {
+        "name_th": "จิลเบิร์ต นาคาทานี",
+        "name_en": "Gilbert Nakatani",
+        "alias": "",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "การต่อสู้แบบผสมผสาน",
+        "fighting_style_en": "Mixed Martial Arts",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 134.5,
+            "weight_kg": 61.0,
+            "division": "",
+            "height_ft": "5'4\"",
+            "height_cm": 165,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 0,
+                "body": 0,
+                "legs": 0,
+                "total_per_minute": 0
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 0,
+                "accuracy_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 0,
+                "defense_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "สหรัฐอเมริกา",
+            "country_en": "United States",
+            "age": 32,
+            "team_th": "Aragon Training Academy",
+            "team_en": "Aragon Training Academy"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/gilbert-nakatani/"
+        ],
+        "short_biography": "จิลเบิร์ต นาคาทานี (Gilbert Nakatani) นักสู้ชาวสหรัฐอเมริกา วัย 32 ปี จากทีม Aragon Training Academy มีส่วนสูง 165 เซนติเมตร และน้ำหนัก 134.5 ปอนด์ (ประมาณ 61 กิโลกรัม) เป็นนักสู้ในกติกาการต่อสู้แบบผสมผสาน (MMA) ที่มีทักษะการปิดเกมที่รวดเร็ว ผลงานล่าสุดสามารถเอาชนะทีเคโอ เอโก โรนี ซาปูตรา ได้ในเวลาเพียง 2 นาที 1 วินาที ของยกแรก ในศึก ONE Fight Night 37 เมื่อวันที่ 8 พฤศจิกายน 2025"
+    },
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Mixed Martial Arts",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:01",
+            "opponent_th": "เอโก โรนี ซาปูตรา",
+            "opponent_en": "Eko Roni Saputra",
+            "opponent_country": "อินโดนีเซีย",
+            "date": "Nov 08, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 37: โรมัน vs ซาเมต"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Mixed Martial Arts",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "เจเรมี มิเอโด",
+            "opponent_en": "Jeremy Miado",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Feb 08, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 28: พระจันทร์ฉาย vs เอลลิส"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Mixed Martial Arts",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "ยูยะ วากามัตสึ",
+            "opponent_en": "Yuya Wakamatsu",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Dec 07, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 26: คริสเตียน vs อาลิเบก"
+        }
+    ]
+}

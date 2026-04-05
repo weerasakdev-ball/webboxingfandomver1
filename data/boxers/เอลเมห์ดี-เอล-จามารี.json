@@ -1,0 +1,84 @@
+{
+    "fighter_profile": {
+        "name_th": "เอลเมห์ดี เอล จามารี",
+        "name_en": "Elmehdi El Jamari",
+        "alias": "The Sniper",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 0,
+            "weight_kg": 0,
+            "division": "",
+            "height_ft": "5'6\"",
+            "height_cm": 170,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 0,
+                "body": 0,
+                "legs": 0,
+                "total_per_minute": 0
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 0,
+                "accuracy_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 0,
+                "defense_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "โมร็อกโก",
+            "country_en": "Morocco",
+            "age": 28,
+            "team_th": "Ostora Fighters World",
+            "team_en": "Ostora Fighters World"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/elmehdi-el-jamari/"
+        ],
+        "short_biography": "เอลเมห์ดี เอล จามารี (Elmehdi El Jamari) ฉายา 'The Sniper' นักชกชาวโมร็อกโกวัย 28 ปี จากทีม Ostora Fighters World มีส่วนสูง 170 เซนติเมตร เป็นนักมวยไทยที่มีความอันตรายและพลังทำลายล้างสูง ผลงานที่โดดเด่นคือการเอาชนะน็อกเอาต์ ทองพูน พีเค.แสนชัย ได้ในยกแรกของศึก ONE Fight Night 30 เมื่อวันที่ 5 เมษายน 2025"
+    },
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อาลีฟ ส.เดชะพันธ์",
+            "opponent_en": "Aliff Sor Dechapan",
+            "opponent_country": "มาเลเซีย/ไทย",
+            "date": "Jun 07, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 32: นักรบ vs จ้าวเสือใหญ่"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:56",
+            "opponent_th": "ทองพูน พีเค.แสนชัย",
+            "opponent_en": "Thongpoon PK.Saenchai",
+            "opponent_country": "ไทย",
+            "date": "Apr 05, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 30: โรมัน vs ลินดอน"
+        }
+    ]
+}
