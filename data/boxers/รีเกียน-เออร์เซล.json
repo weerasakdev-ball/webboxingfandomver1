@@ -8,7 +8,6 @@
     "fighting_style_th": "มวยไทย / คิกบ็อกซิ่ง",
     "fighting_style_en": "Muay Thai / Kickboxing",
     "stance": "ออร์โธด็อกซ์ (Orthodox)",
-    
     "physical_stats": {
       "weight_lbs": "170",
       "weight_kg": "77.1",
@@ -18,13 +17,11 @@
       "reach_cm": "197",
       "leg_reach_cm": "ไม่ระบุ"
     },
-    
     "performance_stats": {
       "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
       "significant_strike_accuracy": "ยังไม่มีข้อมูล",
       "defensive_stats": "ยังไม่มีข้อมูล"
     },
-    
     "personal_info": {
       "country_th": "ซูรินาม",
       "country_en": "Suriname",
@@ -32,12 +29,10 @@
       "team_th": "Sityodtong Amsterdam",
       "team_en": "Sityodtong Amsterdam"
     },
-    
     "target_urls": [
       "https://www.onefc.com/th/athletes/regian-eersel/"
     ]
   },
-
   "weigh_in_history": [
     {
       "event_name": "ONE Fight Night 34",
@@ -45,7 +40,6 @@
       "division": "รุ่นไลต์เวต"
     }
   ],
-
   "fight_history": [
     {
       "result": "Win",
@@ -60,7 +54,6 @@
       "rating": "ไม่ระบุ",
       "event_en": "ONE Fight Night 34"
     },
-    
     {
       "result": "Win",
       "discipline_en": "Kickboxing",
@@ -74,7 +67,6 @@
       "rating": "ไม่ระบุ",
       "event_en": "ONE Fight Night 30"
     },
-    
     {
       "result": "Win",
       "discipline_en": "Kickboxing",
@@ -87,6 +79,149 @@
       "date": "Oct 5, 2024",
       "rating": "ไม่ระบุ",
       "event_en": "ONE Fight Night 25"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "Unanimous Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "อเล็กซิส นิโคลัส",
+      "opponent_en": "",
+      "opponent_country": "ฝรั่งเศส",
+      "date": "Apr 05, 2024",
+      "rating": 5,
+      "event_en": "ONE Fight Night 21: รีเกียน vs อเล็กซิส"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "0:46",
+      "opponent_th": "ดีมิทรี เมนชิคอฟ",
+      "opponent_en": "",
+      "opponent_country": "รัสเซีย",
+      "date": "Jun 09, 2023",
+      "rating": 5,
+      "event_en": "ONE Fight Night 11: รีเกียน vs ดีมิทรี"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 4,
+      "time": "1:17",
+      "opponent_th": "สินสมุทร กลิ่นมี",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 17, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 9"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "สินสมุทร กลิ่นมี",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Oct 22, 2022",
+      "rating": 5,
+      "event_en": "ONE Fight Night 3: จอห์น vs ฟาบริซิโอ"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "Unanimous Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "อาเรียน ซาดิโควิจ",
+      "opponent_en": "",
+      "opponent_country": "บอสเนียและเฮอร์เซโกวีนา/เยอรมนี",
+      "date": "Apr 22, 2022",
+      "rating": 5,
+      "event_en": "ONE156: รีเกียน vs อาเรียน"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "Split Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "อิสลาม มูร์ตาซาเอฟ",
+      "opponent_en": "",
+      "opponent_country": "รัสเซีย",
+      "date": "Dec 03, 2021",
+      "rating": 5,
+      "event_en": "ONE Winter Warriors"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "Unanimous Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "มุสตาฟา ไฮดา",
+      "opponent_en": "",
+      "opponent_country": "อิตาลี",
+      "date": "Mar 19, 2021",
+      "rating": 5,
+      "event_en": "ONE Fists of Fury III"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "Unanimous Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "นิกี โฮลสเกน",
+      "opponent_en": "",
+      "opponent_country": "เนเธอร์แลนด์",
+      "date": "Oct 25, 2019",
+      "rating": 5,
+      "event_en": "ONE DAWN OF VALOR"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "Unanimous Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "นิกี โฮลสเกน",
+      "opponent_en": "",
+      "opponent_country": "เนเธอร์แลนด์",
+      "date": "May 17, 2019",
+      "rating": 5,
+      "event_en": "ONE ENTER THE DRAGON"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:03",
+      "opponent_th": "แอนโทนี เอ็นโจกัวนี",
+      "opponent_en": "",
+      "opponent_country": "ไนจีเรีย",
+      "date": "Feb 22, 2019",
+      "rating": 5,
+      "event_en": "ONE CALL TO GREATNESS"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "N/A",
+      "opponent_th": "แบรด ริดเดล",
+      "opponent_en": "",
+      "opponent_country": "นิวซีแลนด์",
+      "date": "Apr 20, 2018",
+      "rating": 5,
+      "event_en": "ONE HEROES OF HONOR"
     }
   ]
 }
