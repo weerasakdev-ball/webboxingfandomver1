@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin-event.html
+
+Sitemap: https://boxingfandom.com/sitemap.xml
