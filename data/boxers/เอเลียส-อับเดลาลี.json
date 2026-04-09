@@ -9,13 +9,14 @@
         "fighting_style_en": "Muay Thai, Aggressive",
         "stance": "Orthodox (Right-handed)",
         "physical_stats": {
-            "weight_lbs": 154.2,
-            "weight_kg": 70,
+            "weight_lbs": 153.8,
+            "weight_kg": 69.76,
             "division": "Featherweight",
             "height_ft": "6'0\"",
             "height_cm": 185,
             "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "104"
+            "leg_reach_cm": "104",
+            "hydration": "N/A"
         },
         "performance_stats": {
             "significant_strikes_per_minute": {
@@ -81,5 +82,41 @@
             "rating": 5,
             "event_en": "ONE ลุมพินี 114"
         }
-    ]
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:27",
+            "opponent_th": "อลาเวอร์ดี รามาซานอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Nov 21, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 134"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ปตท. อภิชาติฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 27, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 114"
+        }
+    ],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE Lumpinee150",
+            "weight_lbs": 153.8,
+            "division": "Featherweight"
+        }
+    ],
+    "upcoming_fights": []
 }

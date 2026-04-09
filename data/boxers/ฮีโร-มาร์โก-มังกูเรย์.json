@@ -9,13 +9,14 @@
         "fighting_style_en": "Kickboxing",
         "stance": "",
         "physical_stats": {
-            "weight_lbs": 128.7,
-            "weight_kg": 58.4,
-            "division": "",
+            "weight_lbs": 170.0,
+            "weight_kg": 77.11,
+            "division": "Lightweight",
             "height_ft": "5'8\"",
             "height_cm": 174,
             "reach_cm": "",
-            "leg_reach_cm": ""
+            "leg_reach_cm": "",
+            "hydration": "N/A"
         },
         "performance_stats": {
             "significant_strikes_per_minute": {
@@ -51,7 +52,8 @@
         "target_urls": [
             "https://www.onefc.com/th/athletes/yoshida-kosei/"
         ],
-        "short_biography": "โยชิดะ โคเซอิ (Yoshida Kosei) นักชกดาวรุ่งชาวญี่ปุ่นวัย 20 ปี จากค่าย Team Teppen มีส่วนสูง 174 เซนติเมตร และน้ำหนัก 128.7 ปอนด์ (ประมาณ 58.4 กิโลกรัม) ทำผลงานได้อย่างโดดเด่นในกติกาคิกบ็อกซิง โดยล่าสุดสามารถเอาชนะคะแนนเอกฉันท์ต่อ ฟาคริดดิน คาซานอฟ ในศึก ONE ลุมพินี 143 เมื่อวันที่ 20 กุมภาพันธ์ 2026 ที่ผ่านมา"
+        "short_biography": "โยชิดะ โคเซอิ (Yoshida Kosei) นักชกดาวรุ่งชาวญี่ปุ่นวัย 20 ปี จากค่าย Team Teppen มีส่วนสูง 174 เซนติเมตร และน้ำหนัก 128.7 ปอนด์ (ประมาณ 58.4 กิโลกรัม) ทำผลงานได้อย่างโดดเด่นในกติกาคิกบ็อกซิง โดยล่าสุดสามารถเอาชนะคะแนนเอกฉันท์ต่อ ฟาคริดดิน คาซานอฟ ในศึก ONE ลุมพินี 143 เมื่อวันที่ 20 กุมภาพันธ์ 2026 ที่ผ่านมา",
+        "target_url": ""
     },
     "fight_history": [
         {
@@ -80,5 +82,41 @@
             "rating": 5,
             "event_en": "ONE ลุมพินี 123"
         }
-    ]
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฟาคริดดิน คาซานอฟ",
+            "opponent_en": "Fakhriddin Hasanov",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Feb 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 143"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โตฟาน โนเปียน",
+            "opponent_en": "Tofan Nopian",
+            "opponent_country": "อินโดนีเซีย",
+            "date": "Sep 05, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 123"
+        }
+    ],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE Lumpinee150",
+            "weight_lbs": 170.0,
+            "division": "Lightweight"
+        }
+    ],
+    "upcoming_fights": []
 }

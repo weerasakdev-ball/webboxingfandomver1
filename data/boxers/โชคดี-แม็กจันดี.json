@@ -9,13 +9,14 @@
         "fighting_style_en": "Muay Thai",
         "stance": "",
         "physical_stats": {
-            "weight_lbs": 0,
-            "weight_kg": 0,
-            "division": "",
+            "weight_lbs": 115.0,
+            "weight_kg": 52.16,
+            "division": "Atomweight",
             "height_ft": "5'2\"",
             "height_cm": 160,
             "reach_cm": "",
-            "leg_reach_cm": ""
+            "leg_reach_cm": "",
+            "hydration": "N/A"
         },
         "performance_stats": {
             "significant_strikes_per_minute": {
@@ -51,7 +52,8 @@
         "target_urls": [
             "https://www.onefc.com/th/athletes/chokdee-maxjandee/"
         ],
-        "short_biography": "โชคดี แม็กจันดี (Chokdee Maxjandee) นักชกชาวไทยวัย 28 ปี จากค่ายส.สมหมาย มีส่วนสูง 160 เซนติเมตร เป็นนักมวยที่มีสไตล์การชกที่ดุดัน ผลงานล่าสุดในรายการ ONE ลุมพินี 141 สามารถเอาชนะทีเคโอ มเหศวร เอกเมืองนนท์ ได้ในยกที่ 1 เมื่อวันที่ 6 กุมภาพันธ์ 2026"
+        "short_biography": "โชคดี แม็กจันดี (Chokdee Maxjandee) นักชกชาวไทยวัย 28 ปี จากค่ายส.สมหมาย มีส่วนสูง 160 เซนติเมตร เป็นนักมวยที่มีสไตล์การชกที่ดุดัน ผลงานล่าสุดในรายการ ONE ลุมพินี 141 สามารถเอาชนะทีเคโอ มเหศวร เอกเมืองนนท์ ได้ในยกที่ 1 เมื่อวันที่ 6 กุมภาพันธ์ 2026",
+        "target_url": ""
     },
     "fight_history": [
         {
@@ -158,5 +160,119 @@
             "rating": 5,
             "event_en": "ONE ลุมพินี 6"
         }
-    ]
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:44",
+            "opponent_th": "มเหศวร เอกเมืองนนท์",
+            "opponent_en": "Mahesuan Ekmuangnon",
+            "opponent_country": "ไทย",
+            "date": "Feb 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 141"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:10",
+            "opponent_th": "ยอดดอย แก้วสัมฤทธิ์",
+            "opponent_en": "Yoddoi Kaewsamrit",
+            "opponent_country": "ไทย",
+            "date": "Jul 19, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 71"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:39",
+            "opponent_th": "ยอดนำชัย แฟร์เท็กซ์",
+            "opponent_en": "Yodnamchai Fairtex",
+            "opponent_country": "ไทย",
+            "date": "Jan 26, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 49"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:48",
+            "opponent_th": "ยูซิฟ กาดีร์",
+            "opponent_en": "Yousif Qadir",
+            "opponent_country": "อิรัก",
+            "date": "Dec 01, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 43"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:45",
+            "opponent_th": "ทรงชัยน้อย เกียรติทรงฤทธิ์",
+            "opponent_en": "Songchainoi Kiatsongrit",
+            "opponent_country": "ไทย",
+            "date": "Aug 25, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 30"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "หนุ่มสุรินทร์ ช.เกตุวีณา",
+            "opponent_en": "Numsurin Chor Ketweena",
+            "opponent_country": "ไทย",
+            "date": "Jun 30, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 23"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:48",
+            "opponent_th": "ดินเนื้อทอง หมวดพงษ์ 191",
+            "opponent_en": "Dinnuathong Muadpong191",
+            "opponent_country": "ไทย",
+            "date": "May 05, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 15"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยอดดอย แก้วสัมฤทธิ์",
+            "opponent_en": "Yoddoi Kaewsamrit",
+            "opponent_country": "ไทย",
+            "date": "Feb 24, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 6"
+        }
+    ],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE Lumpinee150",
+            "weight_lbs": 115.0,
+            "division": "Atomweight"
+        }
+    ],
+    "upcoming_fights": []
 }

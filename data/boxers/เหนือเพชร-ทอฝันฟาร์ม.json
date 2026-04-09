@@ -1,215 +1,383 @@
 {
-  "fighter_profile": {
-    "name_th": "เหนือเพชร ทอฝันฟาร์ม",
-    "name_en": "Nueapet Tor.Funmarm",
-    "alias": "ไม่ระบุ",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773128604/%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B8%AD%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3_yxh4sq.png",
-    "grade": "ไม่ระบุ",
-    "fighting_style_th": "ไม่ระบุ",
-    "fighting_style_en": "ไม่ระบุ",
-    "stance": "ไม่ระบุ",
-    "physical_stats": {
-      "weight_lbs": "ไม่ระบุ",
-      "weight_kg": "ไม่ระบุ",
-      "division": "ไม่ระบุ",
-      "height_ft": "5'8\"",
-      "height_cm": 173,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "เหนือเพชร ทอฝันฟาร์ม",
+        "name_en": "Nueapet Tor.Funmarm",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773128604/%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B8%AD%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3_yxh4sq.png",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 127.4,
+            "weight_kg": 57.79,
+            "division": "Flyweight",
+            "height_ft": "5'8\"",
+            "height_cm": 173,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 27,
+            "team_th": "ทีเด็ด99 (Teeded99)",
+            "team_en": "Teeded99"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/nuapet-tded99/"
+        ],
+        "short_biography": "เหนือเพชร ทอฝันฟาร์ม (Nueapet Tor.Funmarm) เป็นนักชกชาวไทย วัย 27 ปี จากสังกัดทีเด็ด99 (Teeded99) มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ส่วนสูง 173 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 169: อนาโตลี vs รุง รุง สามารถเอาชนะ อนาโตลี มาลีคิน ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง",
+        "target_url": ""
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": "ไม่ระบุ",
-        "body": "ไม่ระบุ",
-        "legs": "ไม่ระบุ",
-        "total_accuracy": "ไม่ระบุ"
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": "ไม่ระบุ",
-        "accuracy_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "คูเซน ซาโลมอฟ",
+            "opponent_en": "",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Feb 13, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 142"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:36",
+            "opponent_th": "อายัด อัลบัด",
+            "opponent_en": "",
+            "opponent_country": "อิรัก",
+            "date": "Sep 05, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 123"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สิงห์โดมทอง นกยีนส์ลาดกระบัง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 96"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Split Decision",
+            "round": 5,
+            "time": "5:00",
+            "opponent_th": "อนาโตลี มาลีคิน",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Nov 08, 2024",
+            "rating": 5,
+            "event_en": "ONE 169: อนาโตลี vs รุง รุง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:31",
+            "opponent_th": "เพชรภูผา เอกปู่ยีนส์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 16, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 75"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:08",
+            "opponent_th": "บูเชอร์ เคตชัป",
+            "opponent_en": "",
+            "opponent_country": "เซเนกัล",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "มาร์คัส อัลเมดา",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Aug 04, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "จาซูร์ เมียร์ซามูคาเมดอฟ",
+            "opponent_en": "",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Dec 03, 2022",
+            "rating": 5,
+            "event_en": "ONE Fight Night 5: ไรเนียร์ vs อนาโตลี"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:15",
+            "opponent_th": "บาทราดซ์ กาซาเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Sep 29, 2022",
+            "rating": 5,
+            "event_en": "ONE 161: เพชรมรกต vs ตะวันฉาย"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "5:00",
+            "opponent_th": "คิริลล์ กรีเชนโก",
+            "opponent_en": "",
+            "opponent_country": "เบลารุส",
+            "date": "Apr 29, 2021",
+            "rating": 5,
+            "event_en": "ONE on TNT IV"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:48",
+            "opponent_th": "แพทริก ชมิด",
+            "opponent_en": "",
+            "opponent_country": "สวิตเซอร์แลนด์",
+            "date": "Apr 08, 2021",
+            "rating": 5,
+            "event_en": "ONE on TNT I"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "4:32",
+            "opponent_th": "อเล็น เอ็นกาลานี",
+            "opponent_en": "",
+            "opponent_country": "ฮ่องกง เขตปกครองพิเศษประเทศจีน",
+            "date": "Jan 29, 2021",
+            "rating": 5,
+            "event_en": "ONE Unbreakable II"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": "ไม่ระบุ",
-        "distance_control_percentage": "ไม่ระบุ",
-        "defense_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "ไทย",
-      "country_en": "Thailand",
-      "age": 27,
-      "team_th": "ทีเด็ด99 (Teeded99)",
-      "team_en": "Teeded99"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/nuapet-tded99/"
     ],
-    "short_biography": "เหนือเพชร ทอฝันฟาร์ม (Nueapet Tor.Funmarm) เป็นนักชกชาวไทย วัย 27 ปี จากสังกัดทีเด็ด99 (Teeded99) มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ส่วนสูง 173 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 169: อนาโตลี vs รุง รุง สามารถเอาชนะ อนาโตลี มาลีคิน ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
-  },
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "คูเซน ซาโลมอฟ",
-      "opponent_en": "",
-      "opponent_country": "อุซเบกิสถาน",
-      "date": "Feb 13, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 142"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "2:36",
-      "opponent_th": "อายัด อัลบัด",
-      "opponent_en": "",
-      "opponent_country": "อิรัก",
-      "date": "Sep 05, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 123"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "สิงห์โดมทอง นกยีนส์ลาดกระบัง",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Feb 07, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 96"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "Split Decision",
-      "round": 5,
-      "time": "5:00",
-      "opponent_th": "อนาโตลี มาลีคิน",
-      "opponent_en": "",
-      "opponent_country": "รัสเซีย",
-      "date": "Nov 08, 2024",
-      "rating": 5,
-      "event_en": "ONE 169: อนาโตลี vs รุง รุง"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "2:31",
-      "opponent_th": "เพชรภูผา เอกปู่ยีนส์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Aug 16, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 75"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Kickboxing",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "2:08",
-      "opponent_th": "บูเชอร์ เคตชัป",
-      "opponent_en": "",
-      "opponent_country": "เซเนกัล",
-      "date": "Jul 05, 2024",
-      "rating": 5,
-      "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "5:00",
-      "opponent_th": "มาร์คัส อัลเมดา",
-      "opponent_en": "",
-      "opponent_country": "บราซิล",
-      "date": "Aug 04, 2023",
-      "rating": 5,
-      "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "5:00",
-      "opponent_th": "จาซูร์ เมียร์ซามูคาเมดอฟ",
-      "opponent_en": "",
-      "opponent_country": "อุซเบกิสถาน",
-      "date": "Dec 03, 2022",
-      "rating": 5,
-      "event_en": "ONE Fight Night 5: ไรเนียร์ vs อนาโตลี"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "2:15",
-      "opponent_th": "บาทราดซ์ กาซาเอฟ",
-      "opponent_en": "",
-      "opponent_country": "รัสเซีย",
-      "date": "Sep 29, 2022",
-      "rating": 5,
-      "event_en": "ONE 161: เพชรมรกต vs ตะวันฉาย"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "5:00",
-      "opponent_th": "คิริลล์ กรีเชนโก",
-      "opponent_en": "",
-      "opponent_country": "เบลารุส",
-      "date": "Apr 29, 2021",
-      "rating": 5,
-      "event_en": "ONE on TNT IV"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "1:48",
-      "opponent_th": "แพทริก ชมิด",
-      "opponent_en": "",
-      "opponent_country": "สวิตเซอร์แลนด์",
-      "date": "Apr 08, 2021",
-      "rating": 5,
-      "event_en": "ONE on TNT I"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "4:32",
-      "opponent_th": "อเล็น เอ็นกาลานี",
-      "opponent_en": "",
-      "opponent_country": "ฮ่องกง เขตปกครองพิเศษประเทศจีน",
-      "date": "Jan 29, 2021",
-      "rating": 5,
-      "event_en": "ONE Unbreakable II"
-    }
-  ]
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "คูเซน ซาโลมอฟ",
+            "opponent_en": "",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Feb 13, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 142"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:36",
+            "opponent_th": "อายัด อัลบัด",
+            "opponent_en": "",
+            "opponent_country": "อิรัก",
+            "date": "Sep 05, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 123"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สิงห์โดมทอง นกยีนส์ลาดกระบัง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 96"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Split Decision",
+            "round": 5,
+            "time": "5:00",
+            "opponent_th": "อนาโตลี มาลีคิน",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Nov 08, 2024",
+            "rating": 5,
+            "event_en": "ONE 169: อนาโตลี vs รุง รุง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:31",
+            "opponent_th": "เพชรภูผา เอกปู่ยีนส์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 16, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 75"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:08",
+            "opponent_th": "บูเชอร์ เคตชัป",
+            "opponent_en": "",
+            "opponent_country": "เซเนกัล",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "มาร์คัส อัลเมดา",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Aug 04, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "จาซูร์ เมียร์ซามูคาเมดอฟ",
+            "opponent_en": "",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Dec 03, 2022",
+            "rating": 5,
+            "event_en": "ONE Fight Night 5: ไรเนียร์ vs อนาโตลี"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:15",
+            "opponent_th": "บาทราดซ์ กาซาเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Sep 29, 2022",
+            "rating": 5,
+            "event_en": "ONE 161: เพชรมรกต vs ตะวันฉาย"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "5:00",
+            "opponent_th": "คิริลล์ กรีเชนโก",
+            "opponent_en": "",
+            "opponent_country": "เบลารุส",
+            "date": "Apr 29, 2021",
+            "rating": 5,
+            "event_en": "ONE on TNT IV"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:48",
+            "opponent_th": "แพทริก ชมิด",
+            "opponent_en": "",
+            "opponent_country": "สวิตเซอร์แลนด์",
+            "date": "Apr 08, 2021",
+            "rating": 5,
+            "event_en": "ONE on TNT I"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "4:32",
+            "opponent_th": "อเล็น เอ็นกาลานี",
+            "opponent_en": "",
+            "opponent_country": "ฮ่องกง เขตปกครองพิเศษประเทศจีน",
+            "date": "Jan 29, 2021",
+            "rating": 5,
+            "event_en": "ONE Unbreakable II"
+        }
+    ],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE Lumpinee150",
+            "weight_lbs": 127.4,
+            "division": "Flyweight"
+        }
+    ],
+    "upcoming_fights": []
 }

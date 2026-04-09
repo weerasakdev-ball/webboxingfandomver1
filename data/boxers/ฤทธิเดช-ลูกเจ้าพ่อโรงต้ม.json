@@ -9,13 +9,14 @@
         "fighting_style_en": "Muay Thai",
         "stance": "",
         "physical_stats": {
-            "weight_lbs": 0,
-            "weight_kg": 0,
-            "division": "",
+            "weight_lbs": 121.0,
+            "weight_kg": 54.88,
+            "division": "Strawweight",
             "height_ft": "5'5\"",
             "height_cm": 167,
             "reach_cm": "",
-            "leg_reach_cm": ""
+            "leg_reach_cm": "",
+            "hydration": "N/A"
         },
         "performance_stats": {
             "significant_strikes_per_minute": {
@@ -51,7 +52,8 @@
         "target_urls": [
             "https://www.onefc.com/th/athletes/rittidet/"
         ],
-        "short_biography": "ฤทธิเดช ลูกเจ้าพ่อโรงต้ม (Rittidet Lookjaoporongtom) นักชกชาวไทยวัย 21 ปี สังกัดค่ายลูกเจ้าพ่อโรงต้ม มีส่วนสูง 167 เซนติเมตร เป็นนักสู้ที่มีประสบการณ์ในรายการ ONE ลุมพินี โดยผลงานล่าสุดสามารถเอาชนะคะแนนเอกฉันท์ต่อ มาจิด คาริมี นักชกจากอิหร่าน ในศึก ONE ลุมพินี 133 เมื่อวันที่ 14 พฤศจิกายน 2025"
+        "short_biography": "ฤทธิเดช ลูกเจ้าพ่อโรงต้ม (Rittidet Lookjaoporongtom) นักชกชาวไทยวัย 21 ปี สังกัดค่ายลูกเจ้าพ่อโรงต้ม มีส่วนสูง 167 เซนติเมตร เป็นนักสู้ที่มีประสบการณ์ในรายการ ONE ลุมพินี โดยผลงานล่าสุดสามารถเอาชนะคะแนนเอกฉันท์ต่อ มาจิด คาริมี นักชกจากอิหร่าน ในศึก ONE ลุมพินี 133 เมื่อวันที่ 14 พฤศจิกายน 2025",
+        "target_url": ""
     },
     "fight_history": [
         {
@@ -93,5 +95,54 @@
             "rating": 5,
             "event_en": "ONE ลุมพินี 7"
         }
-    ]
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "มาจิด คาริมี",
+            "opponent_en": "Majid Karimi",
+            "opponent_country": "อิหร่าน",
+            "date": "Nov 14, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 133"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:46",
+            "opponent_th": "อาลีฟ ส.เดชะพันธ์",
+            "opponent_en": "Aliff Sor Dechapan",
+            "opponent_country": "มาเลเซีย/ไทย",
+            "date": "Apr 21, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 13"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฤทธิ์นาคา อบจ.นครพนม",
+            "opponent_en": "Ritnaka Or Bor Jor Nakhon Phanom",
+            "opponent_country": "ไทย",
+            "date": "Mar 03, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 7"
+        }
+    ],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE Lumpinee150",
+            "weight_lbs": 121.0,
+            "division": "Strawweight"
+        }
+    ],
+    "upcoming_fights": []
 }

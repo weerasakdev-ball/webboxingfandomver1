@@ -9,13 +9,14 @@
         "fighting_style_en": "ไม่ระบุ",
         "stance": "ไม่ระบุ",
         "physical_stats": {
-            "weight_lbs": "ไม่ระบุ",
-            "weight_kg": "ไม่ระบุ",
-            "division": "ไม่ระบุ",
+            "weight_lbs": 114.0,
+            "weight_kg": 51.71,
+            "division": "Atomweight",
             "height_ft": "ไม่ระบุ",
             "height_cm": "ไม่ระบุ",
             "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
         },
         "performance_stats": {
             "significant_strikes_per_minute": {
@@ -52,7 +53,8 @@
         "target_urls": [
             "https://www.onefc.com/th/athletes/salai/"
         ],
-        "short_biography": "สไล ทาน คี เชน (Salai Than Kee Chen) เป็นนักชกชาวเมียนมา วัย 21 ปี มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 139 สามารถเอาชนะ ยอดอุดร เค.โต้งตลิ่งชัน ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+        "short_biography": "สไล ทาน คี เชน (Salai Than Kee Chen) เป็นนักชกชาวเมียนมา วัย 21 ปี มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 139 สามารถเอาชนะ ยอดอุดร เค.โต้งตลิ่งชัน ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง",
+        "target_url": ""
     },
     "fight_history": [
         {
@@ -81,5 +83,41 @@
             "rating": 5,
             "event_en": "ONE ลุมพินี 130"
         }
-    ]
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:21",
+            "opponent_th": "ยอดอุดร เค.โต้งตลิ่งชัน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 23, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 139"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ทรงชัยน้อย เกียรติทรงฤทธิ์",
+            "opponent_en": "",
+            "opponent_country": "ไม่ระบุ",
+            "date": "Oct 24, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 130"
+        }
+    ],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE Lumpinee150",
+            "weight_lbs": 114.0,
+            "division": "Atomweight"
+        }
+    ],
+    "upcoming_fights": []
 }
