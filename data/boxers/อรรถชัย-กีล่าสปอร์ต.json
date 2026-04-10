@@ -1,108 +1,121 @@
 {
-    "fighter_profile": {
-        "name_th": "อรรถชัย กีล่าสปอร์ต",
-        "name_en": "Attachai Kelasport",
-        "alias": "ไม่ระบุ",
-        "image_url": "ไม่ระบุ",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 122.0,
-            "weight_kg": 55.34,
-            "division": "Strawweight",
-            "height_ft": "5'6\"",
-            "height_cm": 168,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ",
-            "hydration": "N/A"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 23,
-            "team_th": "Boxing Army 3",
-            "team_en": "Boxing Army 3"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/attachai-kelasport/"
-        ],
-        "target_url": "",
-        "short_biography": ""
+  "fighter_profile": {
+    "name_th": "อรรถชัย กีล่าสปอร์ต",
+    "name_en": "Attachai Kelasport",
+    "alias": "ไม่ระบุ",
+    "image_url": "ไม่ระบุ",
+    "grade": "ไม่ระบุ",
+    "fighting_style_th": "มวยไทย",
+    "fighting_style_en": "Muay Thai",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": 122,
+      "weight_kg": 55.34,
+      "division": "Strawweight",
+      "height_ft": "5'6\"",
+      "height_cm": 168,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ",
+      "hydration": "N/A"
     },
-    "weigh_in_history": [
-        {
-            "event_name": "ONE Lumpinee150",
-            "weight_lbs": 122.0,
-            "division": "Strawweight"
-        },
-        {
-            "event_name": "ONE ลุมพินี 66",
-            "weight_lbs": "120.8",
-            "division": "แคตช์เวต (121 ป.)"
-        }
+    "performance_stats": {
+      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+      "defensive_stats": "ยังไม่มีข้อมูล"
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 23,
+      "team_th": "Boxing Army 3",
+      "team_en": "Boxing Army 3"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/attachai-kelasport/"
     ],
-    "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Decision",
-            "round": 5,
-            "time": "ไม่ระบุ",
-            "opponent_th": "วุฒิกร สวนน้ำธารคีรี",
-            "opponent_en": "Wuttikorn Suannamthankeeree",
-            "opponent_country": "ไทย",
-            "date": "Mar 15, 2026",
-            "rating": "ไม่ระบุ",
-            "event_en": "ศึกมวยไทย 7 HD"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "โปเย แอ๊ดสันป่าตอง",
-            "opponent_en": "Poye Adsanpatong",
-            "opponent_country": "ไทย",
-            "date": "Jun 7, 2024",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Friday Fights 66"
-        }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Decision",
-            "round": 5,
-            "time": "ไม่ระบุ",
-            "opponent_th": "วุฒิกร สวนน้ำธารคีรี",
-            "opponent_en": "Wuttikorn Suannamthankeeree",
-            "opponent_country": "ไทย",
-            "date": "Mar 15, 2026",
-            "rating": "ไม่ระบุ",
-            "event_en": "ศึกมวยไทย 7 HD"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "โปเย แอ๊ดสันป่าตอง",
-            "opponent_en": "Poye Adsanpatong",
-            "opponent_country": "ไทย",
-            "date": "Jun 7, 2024",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Friday Fights 66"
-        }
-    ],
-    "upcoming_fights": []
+    "target_url": "",
+    "short_biography": ""
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE Lumpinee150",
+      "weight_lbs": 122,
+      "division": "Strawweight"
+    },
+    {
+      "event_name": "ONE ลุมพินี 66",
+      "weight_lbs": "120.8",
+      "division": "แคตช์เวต (121 ป.)"
+    }
+  ],
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "คมเพชร ศิษย์สารวัตรเสือ",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 10, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Decision",
+      "round": 5,
+      "time": "ไม่ระบุ",
+      "opponent_th": "วุฒิกร สวนน้ำธารคีรี",
+      "opponent_en": "Wuttikorn Suannamthankeeree",
+      "opponent_country": "ไทย",
+      "date": "Mar 15, 2026",
+      "rating": "ไม่ระบุ",
+      "event_en": "ศึกมวยไทย 7 HD"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "โปเย แอ๊ดสันป่าตอง",
+      "opponent_en": "Poye Adsanpatong",
+      "opponent_country": "ไทย",
+      "date": "Jun 7, 2024",
+      "rating": "ไม่ระบุ",
+      "event_en": "ONE Friday Fights 66"
+    }
+  ],
+  "fight_history_one_championship": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Decision",
+      "round": 5,
+      "time": "ไม่ระบุ",
+      "opponent_th": "วุฒิกร สวนน้ำธารคีรี",
+      "opponent_en": "Wuttikorn Suannamthankeeree",
+      "opponent_country": "ไทย",
+      "date": "Mar 15, 2026",
+      "rating": "ไม่ระบุ",
+      "event_en": "ศึกมวยไทย 7 HD"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "โปเย แอ๊ดสันป่าตอง",
+      "opponent_en": "Poye Adsanpatong",
+      "opponent_country": "ไทย",
+      "date": "Jun 7, 2024",
+      "rating": "ไม่ระบุ",
+      "event_en": "ONE Friday Fights 66"
+    }
+  ],
+  "upcoming_fights": []
 }
