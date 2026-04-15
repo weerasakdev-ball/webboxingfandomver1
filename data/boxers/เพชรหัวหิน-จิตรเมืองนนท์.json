@@ -1,213 +1,213 @@
 {
-  "fighter_profile": {
-    "name_th": "เพชรหัวหิน จิตรเมืองนนท์",
-    "name_en": "Petchhuahin Jitmuangnon",
-    "alias": "",
-    "image_url": "",
-    "grade": "",
-    "fighting_style_th": "มวยไทย",
-    "fighting_style_en": "Muay Thai",
-    "stance": "",
-    "physical_stats": {
-      "weight_lbs": 131.8,
-      "weight_kg": 59.78,
-      "division": "Flyweight",
-      "height_ft": "5'6\"",
-      "height_cm": 169,
-      "reach_cm": "",
-      "leg_reach_cm": "",
-      "hydration": "N/A"
+    "fighter_profile": {
+        "name_th": "เพชรหัวหิน จิตรเมืองนนท์",
+        "name_en": "Petchhuahin Jitmuangnon",
+        "alias": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 131.8,
+            "weight_kg": 59.78,
+            "division": "Flyweight",
+            "height_ft": "5'6\"",
+            "height_cm": 169,
+            "reach_cm": "",
+            "leg_reach_cm": "",
+            "hydration": "N/A"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 0,
+                "body": 0,
+                "legs": 0,
+                "total_per_minute": 0
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 0,
+                "accuracy_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 0,
+                "defense_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 26,
+            "team_th": "จิตรเมืองนนท์",
+            "team_en": "Jitmuangnon"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/pethuahin-jitmuangnon/"
+        ],
+        "short_biography": "เพชรหัวหิน จิตรเมืองนนท์ (Petchhuahin Jitmuangnon) นักมวยชาวไทยวัย 26 ปี จากค่ายจิตรเมืองนนท์ มีส่วนสูง 169 เซนติเมตร น้ำหนัก 127.6 ปอนด์ (ประมาณ 57.9 กิโลกรัม) มีสถิติการชกที่น่าสนใจทั้งในรายการ ONE ลุมพินี และรายการมวยไทยมาตรฐาน โดยผลงานล่าสุดสามารถเอาชนะคะแนน ซุปเปอร์บอล ศิษย์ ช. ในศึกรวมพลคนรักคลองเคียน เมื่อวันที่ 3 มกราคม 2569 ที่ผ่านมา",
+        "target_url": ""
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "total_per_minute": 0
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": 0,
-        "accuracy_by_target_percentage": {
-          "head": 0,
-          "body": 0,
-          "legs": 0
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แรมบ๊อง ส.เถระพัฒน์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 10, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "ซุปเปอร์บอล ศิษย์ ช.",
+            "opponent_en": "Superball Sit Cho",
+            "opponent_country": "ไทย",
+            "date": "Jan 03, 2026",
+            "rating": 5,
+            "event_en": "ศึกรวมพลคนรักคลองเคียน+เกียรติเพชร"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "อภิวัฒน์ ส.สมนึก",
+            "opponent_en": "Apiwat Sor.Somnuk",
+            "opponent_country": "ไทย",
+            "date": "Sep 27, 2025",
+            "rating": 5,
+            "event_en": "ศึกจิตรเมืองนนท์"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรสีหมอก พีเค.แสนชัย",
+            "opponent_en": "Petchseemok PK.Saenchai",
+            "opponent_country": "ไทย",
+            "date": "Nov 01, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 85"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:50",
+            "opponent_th": "อัสลามจอน ออร์ติคอฟ",
+            "opponent_en": "Aslamjon Ortikov",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Oct 20, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 37"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พงษ์ศิริ ซูจีบะหมี่เกี๊ยว",
+            "opponent_en": "Pongsiri Sujeebameekiew",
+            "opponent_country": "ไทย",
+            "date": "Aug 18, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 29"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": 0,
-        "defense_by_target_percentage": {
-          "head": 0,
-          "body": 0,
-          "legs": 0
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "ไทย",
-      "country_en": "Thailand",
-      "age": 26,
-      "team_th": "จิตรเมืองนนท์",
-      "team_en": "Jitmuangnon"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/pethuahin-jitmuangnon/"
     ],
-    "short_biography": "เพชรหัวหิน จิตรเมืองนนท์ (Petchhuahin Jitmuangnon) นักมวยชาวไทยวัย 26 ปี จากค่ายจิตรเมืองนนท์ มีส่วนสูง 169 เซนติเมตร น้ำหนัก 127.6 ปอนด์ (ประมาณ 57.9 กิโลกรัม) มีสถิติการชกที่น่าสนใจทั้งในรายการ ONE ลุมพินี และรายการมวยไทยมาตรฐาน โดยผลงานล่าสุดสามารถเอาชนะคะแนน ซุปเปอร์บอล ศิษย์ ช. ในศึกรวมพลคนรักคลองเคียน เมื่อวันที่ 3 มกราคม 2569 ที่ผ่านมา",
-    "target_url": ""
-  },
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Majority Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "แรมบ๊อง ส.เถระพัฒน์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Apr 10, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 150 & The Inner Circle"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Decision",
-      "round": 5,
-      "time": "3:00",
-      "opponent_th": "ซุปเปอร์บอล ศิษย์ ช.",
-      "opponent_en": "Superball Sit Cho",
-      "opponent_country": "ไทย",
-      "date": "Jan 03, 2026",
-      "rating": 5,
-      "event_en": "ศึกรวมพลคนรักคลองเคียน+เกียรติเพชร"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Decision",
-      "round": 5,
-      "time": "3:00",
-      "opponent_th": "อภิวัฒน์ ส.สมนึก",
-      "opponent_en": "Apiwat Sor.Somnuk",
-      "opponent_country": "ไทย",
-      "date": "Sep 27, 2025",
-      "rating": 5,
-      "event_en": "ศึกจิตรเมืองนนท์"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เพชรสีหมอก พีเค.แสนชัย",
-      "opponent_en": "Petchseemok PK.Saenchai",
-      "opponent_country": "ไทย",
-      "date": "Nov 01, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 85"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "0:50",
-      "opponent_th": "อัสลามจอน ออร์ติคอฟ",
-      "opponent_en": "Aslamjon Ortikov",
-      "opponent_country": "อุซเบกิสถาน",
-      "date": "Oct 20, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 37"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "พงษ์ศิริ ซูจีบะหมี่เกี๊ยว",
-      "opponent_en": "Pongsiri Sujeebameekiew",
-      "opponent_country": "ไทย",
-      "date": "Aug 18, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 29"
-    }
-  ],
-  "fight_history_one_championship": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Decision",
-      "round": 5,
-      "time": "3:00",
-      "opponent_th": "ซุปเปอร์บอล ศิษย์ ช.",
-      "opponent_en": "Superball Sit Cho",
-      "opponent_country": "ไทย",
-      "date": "Jan 03, 2026",
-      "rating": 5,
-      "event_en": "ศึกรวมพลคนรักคลองเคียน+เกียรติเพชร"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Decision",
-      "round": 5,
-      "time": "3:00",
-      "opponent_th": "อภิวัฒน์ ส.สมนึก",
-      "opponent_en": "Apiwat Sor.Somnuk",
-      "opponent_country": "ไทย",
-      "date": "Sep 27, 2025",
-      "rating": 5,
-      "event_en": "ศึกจิตรเมืองนนท์"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เพชรสีหมอก พีเค.แสนชัย",
-      "opponent_en": "Petchseemok PK.Saenchai",
-      "opponent_country": "ไทย",
-      "date": "Nov 01, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 85"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "0:50",
-      "opponent_th": "อัสลามจอน ออร์ติคอฟ",
-      "opponent_en": "Aslamjon Ortikov",
-      "opponent_country": "อุซเบกิสถาน",
-      "date": "Oct 20, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 37"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "พงษ์ศิริ ซูจีบะหมี่เกี๊ยว",
-      "opponent_en": "Pongsiri Sujeebameekiew",
-      "opponent_country": "ไทย",
-      "date": "Aug 18, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 29"
-    }
-  ],
-  "weigh_in_history": [
-    {
-      "event_name": "ONE Lumpinee150",
-      "weight_lbs": 131.8,
-      "division": "Flyweight"
-    }
-  ],
-  "upcoming_fights": []
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "ซุปเปอร์บอล ศิษย์ ช.",
+            "opponent_en": "Superball Sit Cho",
+            "opponent_country": "ไทย",
+            "date": "Jan 03, 2026",
+            "rating": 5,
+            "event_en": "ศึกรวมพลคนรักคลองเคียน+เกียรติเพชร"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "อภิวัฒน์ ส.สมนึก",
+            "opponent_en": "Apiwat Sor.Somnuk",
+            "opponent_country": "ไทย",
+            "date": "Sep 27, 2025",
+            "rating": 5,
+            "event_en": "ศึกจิตรเมืองนนท์"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรสีหมอก พีเค.แสนชัย",
+            "opponent_en": "Petchseemok PK.Saenchai",
+            "opponent_country": "ไทย",
+            "date": "Nov 01, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 85"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:50",
+            "opponent_th": "อัสลามจอน ออร์ติคอฟ",
+            "opponent_en": "Aslamjon Ortikov",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Oct 20, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 37"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พงษ์ศิริ ซูจีบะหมี่เกี๊ยว",
+            "opponent_en": "Pongsiri Sujeebameekiew",
+            "opponent_country": "ไทย",
+            "date": "Aug 18, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 29"
+        }
+    ],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE Lumpinee150",
+            "weight_lbs": 131.8,
+            "division": "Flyweight"
+        }
+    ],
+    "upcoming_fights": []
 }

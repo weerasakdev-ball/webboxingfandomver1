@@ -1,120 +1,120 @@
 {
-  "fighter_profile": {
-    "name_th": "โลแกน ชาน",
-    "name_en": "",
-    "alias": "ไม่ระบุ",
-    "image_url": "",
-    "grade": "N/A",
-    "fighting_style_th": "ยังไม่มีข้อมูล",
-    "fighting_style_en": "ยังไม่มีข้อมูล",
-    "stance": "ยังไม่มีข้อมูล",
-    "physical_stats": {
-      "weight_lbs": 141.2,
-      "weight_kg": 64.05,
-      "hydration": "N/A",
-      "division": "Bantamweight",
-      "height_ft": "ยังไม่มีข้อมูล",
-      "height_cm": 175,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "โลแกน ชาน",
+        "name_en": "",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "N/A",
+        "fighting_style_th": "ยังไม่มีข้อมูล",
+        "fighting_style_en": "ยังไม่มีข้อมูล",
+        "stance": "ยังไม่มีข้อมูล",
+        "physical_stats": {
+            "weight_lbs": 141.2,
+            "weight_kg": 64.05,
+            "hydration": "N/A",
+            "division": "Bantamweight",
+            "height_ft": "ยังไม่มีข้อมูล",
+            "height_cm": 175,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_per_minute": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "สกอตแลนด์/ฮ่องกง",
+            "country_en": "",
+            "age": 22,
+            "team_th": "ยังไม่มีข้อมูล",
+            "team_en": "ยังไม่มีข้อมูล"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/logan-chan/"
+        ],
+        "short_biography": ""
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": "ไม่ระบุ",
-        "body": "ไม่ระบุ",
-        "legs": "ไม่ระบุ",
-        "total_per_minute": "ไม่ระบุ"
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": "ไม่ระบุ",
-        "accuracy_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:34",
+            "opponent_th": "เก้ากะรัต ส.เทียนโพธิ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 10, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรกาฟิวส์ จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 16, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 138"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:19",
+            "opponent_th": "ศักดิ์ศรี ซุปเปอร์เล็กมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 125"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:51",
+            "opponent_th": "ชามา ซุปเปอร์บอนเทรนนิงแคมป์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 01, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 118"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": "ไม่ระบุ",
-        "defense_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "สกอตแลนด์/ฮ่องกง",
-      "country_en": "",
-      "age": 22,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/logan-chan/"
     ],
-    "short_biography": ""
-  },
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "0:34",
-      "opponent_th": "เก้ากะรัต ส.เทียนโพธิ์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Apr 10, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 150 & The Inner Circle"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เพชรกาฟิวส์ จิตรเมืองนนท์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jan 16, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 138"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "2:19",
-      "opponent_th": "ศักดิ์ศรี ซุปเปอร์เล็กมวยไทย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Sep 19, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 125"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "2:51",
-      "opponent_th": "ชามา ซุปเปอร์บอนเทรนนิงแคมป์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Aug 01, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 118"
-    }
-  ],
-  "fight_history_one_championship": [],
-  "weigh_in_history": [
-    {
-      "event_name": "ONE Lumpinee150",
-      "weight_lbs": 141.2,
-      "division": "Bantamweight"
-    }
-  ],
-  "upcoming_fights": []
+    "fight_history_one_championship": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE Lumpinee150",
+            "weight_lbs": 141.2,
+            "division": "Bantamweight"
+        }
+    ],
+    "upcoming_fights": []
 }

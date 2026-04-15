@@ -1,110 +1,110 @@
 {
-  "fighter_profile": {
-    "name_th": "โลแกน ชาน",
-    "name_en": "Logan Chan",
-    "alias": "Dragon",
-    "image_url": "",
-    "grade": "",
-    "fighting_style_th": "มวยไทย",
-    "fighting_style_en": "Muay Thai",
-    "stance": "",
-    "physical_stats": {
-      "weight_lbs": 0,
-      "weight_kg": 0,
-      "division": "",
-      "height_ft": "5'8\"",
-      "height_cm": 175,
-      "reach_cm": "",
-      "leg_reach_cm": ""
+    "fighter_profile": {
+        "name_th": "โลแกน ชาน",
+        "name_en": "Logan Chan",
+        "alias": "Dragon",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 0,
+            "weight_kg": 0,
+            "division": "",
+            "height_ft": "5'8\"",
+            "height_cm": 175,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 0,
+                "body": 0,
+                "legs": 0,
+                "total_per_minute": 0
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 0,
+                "accuracy_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 0,
+                "defense_by_target_percentage": {
+                    "head": 0,
+                    "body": 0,
+                    "legs": 0
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "สกอตแลนด์/ฮ่องกง เขตปกครองพิเศษประเทศจีน",
+            "country_en": "Scotland/Hong Kong SAR",
+            "age": 22,
+            "team_th": "Hanuman Thai Boxing Edinburgh",
+            "team_en": "Hanuman Thai Boxing Edinburgh"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/logan-chan/"
+        ],
+        "short_biography": "โลแกน 'Dragon' ชาน (Logan Chan) นักชกสัญชาติสกอตแลนด์/ฮ่องกง วัย 22 ปี จากทีม Hanuman Thai Boxing Edinburgh ส่วนสูง 175 เซนติเมตร เป็นนักมวยที่มีพลังหมัดดุดัน เคยสร้างผลงานชนะน็อกเอาต์คู่ชกชาวไทยติดต่อกันถึง 2 ไฟต์รวดในรายการ ONE ลุมพินี ก่อนที่จะพ่ายคะแนนไม่เป็นเอกฉันท์ให้กับ เพชรกาฟิวส์ จิตรเมืองนนท์ ในไฟต์ล่าสุดเมื่อวันที่ 16 มกราคม 2026"
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": 0,
-        "body": 0,
-        "legs": 0,
-        "total_per_minute": 0
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": 0,
-        "accuracy_by_target_percentage": {
-          "head": 0,
-          "body": 0,
-          "legs": 0
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:34",
+            "opponent_th": "เก้ากะรัต ส.เทียนโพธิ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 10, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรกาฟิวส์ จิตรเมืองนนท์",
+            "opponent_en": "Petchgarfield Jitmuangnon",
+            "opponent_country": "ไทย",
+            "date": "Jan 16, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 138"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:19",
+            "opponent_th": "ศักดิ์ศรี ซุปเปอร์เล็กมวยไทย",
+            "opponent_en": "Saksri Superlek Muay Thai",
+            "opponent_country": "ไทย",
+            "date": "Sep 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 125"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:51",
+            "opponent_th": "ชามา ซุปเปอร์บอนเทรนนิงแคมป์",
+            "opponent_en": "Chama Superbon Training Camp",
+            "opponent_country": "ไทย",
+            "date": "Aug 01, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 118"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": 0,
-        "defense_by_target_percentage": {
-          "head": 0,
-          "body": 0,
-          "legs": 0
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "สกอตแลนด์/ฮ่องกง เขตปกครองพิเศษประเทศจีน",
-      "country_en": "Scotland/Hong Kong SAR",
-      "age": 22,
-      "team_th": "Hanuman Thai Boxing Edinburgh",
-      "team_en": "Hanuman Thai Boxing Edinburgh"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/logan-chan/"
-    ],
-    "short_biography": "โลแกน 'Dragon' ชาน (Logan Chan) นักชกสัญชาติสกอตแลนด์/ฮ่องกง วัย 22 ปี จากทีม Hanuman Thai Boxing Edinburgh ส่วนสูง 175 เซนติเมตร เป็นนักมวยที่มีพลังหมัดดุดัน เคยสร้างผลงานชนะน็อกเอาต์คู่ชกชาวไทยติดต่อกันถึง 2 ไฟต์รวดในรายการ ONE ลุมพินี ก่อนที่จะพ่ายคะแนนไม่เป็นเอกฉันท์ให้กับ เพชรกาฟิวส์ จิตรเมืองนนท์ ในไฟต์ล่าสุดเมื่อวันที่ 16 มกราคม 2026"
-  },
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "0:34",
-      "opponent_th": "เก้ากะรัต ส.เทียนโพธิ์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Apr 10, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 150 & The Inner Circle"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เพชรกาฟิวส์ จิตรเมืองนนท์",
-      "opponent_en": "Petchgarfield Jitmuangnon",
-      "opponent_country": "ไทย",
-      "date": "Jan 16, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 138"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "2:19",
-      "opponent_th": "ศักดิ์ศรี ซุปเปอร์เล็กมวยไทย",
-      "opponent_en": "Saksri Superlek Muay Thai",
-      "opponent_country": "ไทย",
-      "date": "Sep 19, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 125"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "2:51",
-      "opponent_th": "ชามา ซุปเปอร์บอนเทรนนิงแคมป์",
-      "opponent_en": "Chama Superbon Training Camp",
-      "opponent_country": "ไทย",
-      "date": "Aug 01, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 118"
-    }
-  ]
+    ]
 }

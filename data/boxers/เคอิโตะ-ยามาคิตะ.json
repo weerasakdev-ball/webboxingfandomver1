@@ -1,104 +1,104 @@
 {
-  "fighter_profile": {
-    "name_th": "เคอิโตะ ยามาคิตะ",
-    "name_en": "Keito Yamakita",
-    "alias": "",
-    "image_url": "",
-    "grade": "",
-    "fighting_style_th": "",
-    "fighting_style_en": "",
-    "stance": "",
-    "physical_stats": {
-      "weight_lbs": 123.9,
-      "weight_kg": 56.2,
-      "division": "",
-      "height_ft": "5'1\"",
-      "height_cm": 155,
-      "reach_cm": "",
-      "leg_reach_cm": ""
+    "fighter_profile": {
+        "name_th": "เคอิโตะ ยามาคิตะ",
+        "name_en": "Keito Yamakita",
+        "alias": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 123.9,
+            "weight_kg": 56.2,
+            "division": "",
+            "height_ft": "5'1\"",
+            "height_cm": 155,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 29,
+            "team_th": "We",
+            "team_en": ""
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/keito-yamakita/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {},
-      "significant_strike_accuracy": {},
-      "defensive_stats": {}
-    },
-    "personal_info": {
-      "country_th": "ญี่ปุ่น",
-      "country_en": "Japan",
-      "age": 29,
-      "team_th": "We",
-      "team_en": ""
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/keito-yamakita/"
+    "weigh_in_history": [],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "ลิโต อาดิวัง",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Feb 08, 2025",
+            "rating": "",
+            "event_en": "ONE Fight Night 28: พระจันทร์ฉาย vs เอลลิส"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "โยซูเกะ ซารูตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Aug 02, 2024",
+            "rating": "",
+            "event_en": "ONE Fight Night 24: จาร์เร็ด vs กุสตาโว"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "4:04",
+            "opponent_th": "เจเรมี มิเอโด",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Mar 01, 2024",
+            "rating": "",
+            "event_en": "ONE 166: Qatar"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "โบคัง มาซันเยน",
+            "opponent_en": "",
+            "opponent_country": "แอฟริกาใต้",
+            "date": "Jan 28, 2024",
+            "rating": "",
+            "event_en": "ONE 165: ซุปเปอร์เล็ก vs ทาเครุ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "อเล็กซ์ ซิลวา",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Mar 25, 2023",
+            "rating": "",
+            "event_en": "ONE Fight Night 8: ซุปเปอร์เล็ก vs แดเนียล"
+        }
     ]
-  },
-  "weigh_in_history": [],
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "5:00",
-      "opponent_th": "ลิโต อาดิวัง",
-      "opponent_en": "",
-      "opponent_country": "ฟิลิปปินส์",
-      "date": "Feb 08, 2025",
-      "rating": "",
-      "event_en": "ONE Fight Night 28: พระจันทร์ฉาย vs เอลลิส"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "5:00",
-      "opponent_th": "โยซูเกะ ซารูตะ",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Aug 02, 2024",
-      "rating": "",
-      "event_en": "ONE Fight Night 24: จาร์เร็ด vs กุสตาโว"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "Submission",
-      "round": 1,
-      "time": "4:04",
-      "opponent_th": "เจเรมี มิเอโด",
-      "opponent_en": "",
-      "opponent_country": "ฟิลิปปินส์",
-      "date": "Mar 01, 2024",
-      "rating": "",
-      "event_en": "ONE 166: Qatar"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "MMA",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "5:00",
-      "opponent_th": "โบคัง มาซันเยน",
-      "opponent_en": "",
-      "opponent_country": "แอฟริกาใต้",
-      "date": "Jan 28, 2024",
-      "rating": "",
-      "event_en": "ONE 165: ซุปเปอร์เล็ก vs ทาเครุ"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "5:00",
-      "opponent_th": "อเล็กซ์ ซิลวา",
-      "opponent_en": "",
-      "opponent_country": "บราซิล",
-      "date": "Mar 25, 2023",
-      "rating": "",
-      "event_en": "ONE Fight Night 8: ซุปเปอร์เล็ก vs แดเนียล"
-    }
-  ]
 }
