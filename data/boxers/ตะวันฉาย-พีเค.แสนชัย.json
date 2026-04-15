@@ -1,226 +1,226 @@
 {
-  "fighter_profile": {
-    "name_th": "ตะวันฉาย พีเค.แสนชัย",
-    "name_en": "Tawanchai PK.Saenchai",
-    "alias": "ซ้ายดารา (The Million Dollar Baby)",
-    "image_url": "https://i.ibb.co/qY3pjjX7/2.jpg",
-    "grade": "A",
-    "fighting_style_th": "มวยฝีมือ, เตะหนัก",
-    "fighting_style_en": "Technical Fighter (Muay Fimeu), Elite Kicker",
-    "stance": "Southpaw (Left-handed)",
-    "physical_stats": {
-      "weight_lbs": 154.1,
-      "weight_kg": 69.9,
-      "division": "Featherweight",
-      "height_ft": "5'10\"",
-      "height_cm": 180,
-      "reach_cm": "180",
-      "leg_reach_cm": "104"
+    "fighter_profile": {
+        "name_th": "ตะวันฉาย พีเค.แสนชัย",
+        "name_en": "Tawanchai PK.Saenchai",
+        "alias": "ซ้ายดารา (The Million Dollar Baby)",
+        "image_url": "",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ, เตะหนัก",
+        "fighting_style_en": "Technical Fighter (Muay Fimeu), Elite Kicker",
+        "stance": "Southpaw (Left-handed)",
+        "physical_stats": {
+            "weight_lbs": 154.1,
+            "weight_kg": 69.9,
+            "division": "Featherweight",
+            "height_ft": "5'10\"",
+            "height_cm": 180,
+            "reach_cm": "180",
+            "leg_reach_cm": "104"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 4,
+                "body": 7,
+                "legs": 2,
+                "total_per_minute": 13
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 49,
+                "accuracy_by_target_percentage": {
+                    "head": 30,
+                    "body": 60,
+                    "legs": 10
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 55,
+                "defense_by_target_percentage": {
+                    "head": 60,
+                    "body": 30,
+                    "legs": 10
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 26,
+            "team_th": "พีเค.แสนชัยมวยไทยยิม",
+            "team_en": "PK.Saenchai Muaythaigym"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/tawanchai/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": 4,
-        "body": 7,
-        "legs": 2,
-        "total_per_minute": 13
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": 49,
-        "accuracy_by_target_percentage": {
-          "head": 30,
-          "body": 60,
-          "legs": 10
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:52",
+            "opponent_th": "หลิว เมิงหยาง",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Dec 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:55",
+            "opponent_th": "มาซาอากิ โนอิริ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Mar 23, 2025",
+            "rating": 5,
+            "event_en": "ONE 172: ทาเครุ vs รถถัง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:10",
+            "opponent_th": "ซุปเปอร์บอน ซุปเปอร์บอนเทรนนิงแคมป์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 24, 2025",
+            "rating": 5,
+            "event_en": "ONE 170"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "โจ ณัฐวุฒิ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 07, 2024",
+            "rating": 5,
+            "event_en": "ONE 167: ตะวันฉาย vs โจ II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "ซุปเปอร์บอน ซุปเปอร์บอนเทรนนิงแคมป์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 22, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 46: ตะวันฉาย vs  ซุปเปอร์บอน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โจ ณัฐวุฒิ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 06, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 15: ธานฮ์ vs อิลยา"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:29",
+            "opponent_th": "ดาวิต คิเรีย",
+            "opponent_en": "",
+            "opponent_country": "จอร์เจีย",
+            "date": "Aug 04, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:49",
+            "opponent_th": "ยูซูพอฟ จามาล",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "Feb 25, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 7: จอห์น vs ฟาบริซิโอ II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "เพชรมรกต เพชรยินดีอะคาเดมี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 29, 2022",
+            "rating": 5,
+            "event_en": "ONE 161: เพชรมรกต vs ตะวันฉาย"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:42",
+            "opponent_th": "นิคลาส ลาร์เซน",
+            "opponent_en": "",
+            "opponent_country": "เดนมาร์ก",
+            "date": "Jun 03, 2022",
+            "rating": 5,
+            "event_en": "ONE 158: ตะวันฉาย vs นิคลาส"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:55",
+            "opponent_th": "เสมาเพชร แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 14, 2022",
+            "rating": 5,
+            "event_en": "ONE HEAVY HITTERS"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สิทธิชัย ศิษย์สองพี่น้อง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 27, 2021",
+            "rating": 5,
+            "event_en": "ONE Battleground III"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:35",
+            "opponent_th": "ฌอน แคลนซี",
+            "opponent_en": "",
+            "opponent_country": "ไอร์แลนด์",
+            "date": "May 15, 2021",
+            "rating": 5,
+            "event_en": "ONE Dangal"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": 55,
-        "defense_by_target_percentage": {
-          "head": 60,
-          "body": 30,
-          "legs": 10
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "ไทย",
-      "country_en": "Thailand",
-      "age": 26,
-      "team_th": "พีเค.แสนชัยมวยไทยยิม",
-      "team_en": "PK.Saenchai Muaythaigym"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/tawanchai/"
     ]
-  },
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "Kickboxing",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "0:52",
-      "opponent_th": "หลิว เมิงหยาง",
-      "opponent_en": "",
-      "opponent_country": "จีน",
-      "date": "Dec 19, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Kickboxing",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "1:55",
-      "opponent_th": "มาซาอากิ โนอิริ",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Mar 23, 2025",
-      "rating": 5,
-      "event_en": "ONE 172: ทาเครุ vs รถถัง"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "1:10",
-      "opponent_th": "ซุปเปอร์บอน ซุปเปอร์บอนเทรนนิงแคมป์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jan 24, 2025",
-      "rating": 5,
-      "event_en": "ONE 170"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Majority Decision",
-      "round": 5,
-      "time": "3:00",
-      "opponent_th": "โจ ณัฐวุฒิ",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jun 07, 2024",
-      "rating": 5,
-      "event_en": "ONE 167: ตะวันฉาย vs โจ II"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Majority Decision",
-      "round": 5,
-      "time": "3:00",
-      "opponent_th": "ซุปเปอร์บอน ซุปเปอร์บอนเทรนนิงแคมป์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Dec 22, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 46: ตะวันฉาย vs  ซุปเปอร์บอน"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Kickboxing",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "โจ ณัฐวุฒิ",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Oct 06, 2023",
-      "rating": 5,
-      "event_en": "ONE Fight Night 15: ธานฮ์ vs อิลยา"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Kickboxing",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "0:29",
-      "opponent_th": "ดาวิต คิเรีย",
-      "opponent_en": "",
-      "opponent_country": "จอร์เจีย",
-      "date": "Aug 04, 2023",
-      "rating": 5,
-      "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "0:49",
-      "opponent_th": "ยูซูพอฟ จามาล",
-      "opponent_en": "",
-      "opponent_country": "ตุรกี",
-      "date": "Feb 25, 2023",
-      "rating": 5,
-      "event_en": "ONE Fight Night 7: จอห์น vs ฟาบริซิโอ II"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 5,
-      "time": "3:00",
-      "opponent_th": "เพชรมรกต เพชรยินดีอะคาเดมี",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Sep 29, 2022",
-      "rating": 5,
-      "event_en": "ONE 161: เพชรมรกต vs ตะวันฉาย"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "1:42",
-      "opponent_th": "นิคลาส ลาร์เซน",
-      "opponent_en": "",
-      "opponent_country": "เดนมาร์ก",
-      "date": "Jun 03, 2022",
-      "rating": 5,
-      "event_en": "ONE 158: ตะวันฉาย vs นิคลาส"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "2:55",
-      "opponent_th": "เสมาเพชร แฟร์เท็กซ์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jan 14, 2022",
-      "rating": 5,
-      "event_en": "ONE HEAVY HITTERS"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "สิทธิชัย ศิษย์สองพี่น้อง",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Aug 27, 2021",
-      "rating": 5,
-      "event_en": "ONE Battleground III"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "0:35",
-      "opponent_th": "ฌอน แคลนซี",
-      "opponent_en": "",
-      "opponent_country": "ไอร์แลนด์",
-      "date": "May 15, 2021",
-      "rating": 5,
-      "event_en": "ONE Dangal"
-    }
-  ]
 }

@@ -1,110 +1,110 @@
 {
-  "fighter_profile": {
-    "name_th": "จี เชง ฟีบิ โล",
-    "name_en": "",
-    "alias": "",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773156736/%E0%B8%88%E0%B8%B5_%E0%B9%80%E0%B8%8A%E0%B8%87_%E0%B8%9F%E0%B8%B5%E0%B8%9A%E0%B8%B4_%E0%B9%82%E0%B8%A5_oub3lg.png",
-    "grade": "N/A",
-    "fighting_style_th": "",
-    "fighting_style_en": "",
-    "stance": "",
-    "physical_stats": {
-      "weight_lbs": 114.8,
-      "weight_kg": 52.07,
-      "division": "Atomweight",
-      "height_ft": "",
-      "height_cm": 159,
-      "reach_cm": "",
-      "leg_reach_cm": ""
+    "fighter_profile": {
+        "name_th": "จี เชง ฟีบิ โล",
+        "name_en": "",
+        "alias": "",
+        "image_url": "",
+        "grade": "N/A",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 114.8,
+            "weight_kg": 52.07,
+            "division": "Atomweight",
+            "height_ft": "",
+            "height_cm": 159,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "ฮ่องกง",
+            "country_en": "",
+            "age": 23,
+            "team_th": "",
+            "team_en": "Superbon Training Camp"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/tsz-ching-phoebe-lo/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {},
-      "significant_strike_accuracy": {},
-      "defensive_stats": {}
-    },
-    "personal_info": {
-      "country_th": "ฮ่องกง",
-      "country_en": "",
-      "age": 23,
-      "team_th": "",
-      "team_en": "Superbon Training Camp"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/tsz-ching-phoebe-lo/"
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 145",
+            "weight_lbs": 114.8,
+            "division": "Atomweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เซย์เนป เชทินทัช",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี",
+            "date": "Mar 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 145"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แมดิสัน คลัตต์",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส",
+            "date": "Oct 31, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 131"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฟูยูกะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Apr 04, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 103"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โมอา คาร์ลสัน",
+            "opponent_en": "",
+            "opponent_country": "สวีเดน",
+            "date": "Sep 06, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 78"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "น้องแอ้ม แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 10, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 62"
+        }
     ]
-  },
-  "weigh_in_history": [
-    {
-      "event_name": "ONE ลุมพินี 145",
-      "weight_lbs": 114.8,
-      "division": "Atomweight"
-    }
-  ],
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เซย์เนป เชทินทัช",
-      "opponent_en": "",
-      "opponent_country": "ตุรกี",
-      "date": "Mar 06, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 145"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "แมดิสัน คลัตต์",
-      "opponent_en": "",
-      "opponent_country": "ฝรั่งเศส",
-      "date": "Oct 31, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 131"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Kickboxing",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ฟูยูกะ",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Apr 04, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 103"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "โมอา คาร์ลสัน",
-      "opponent_en": "",
-      "opponent_country": "สวีเดน",
-      "date": "Sep 06, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 78"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "น้องแอ้ม แฟร์เท็กซ์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "May 10, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 62"
-    }
-  ]
 }

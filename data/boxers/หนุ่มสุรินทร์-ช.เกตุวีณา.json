@@ -1,161 +1,161 @@
 {
-  "fighter_profile": {
-    "name_th": "หนุ่มสุรินทร์ ช.เกตุวีณา",
-    "name_en": "Numsurin Chor Ketweena",
-    "alias": "ยังไม่มีข้อมูล",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772550078/%E0%B8%AB%E0%B8%99%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%8A.%E0%B9%80%E0%B8%81%E0%B8%95%E0%B8%B8%E0%B8%A7%E0%B8%B5%E0%B8%93%E0%B8%B2_z2oycc.jpg",
-    "grade": "A",
-    "fighting_style_th": "มวยฝีมือ / ครบเครื่อง",
-    "fighting_style_en": "Technical / All-rounder",
-    "stance": "Orthodox (Right-handed)",
-    "physical_stats": {
-      "weight_lbs": 115,
-      "weight_kg": 52.2,
-      "division": "Strawweight",
-      "height_ft": "5'3\"",
-      "height_cm": 162,
-      "reach_cm": "ยังไม่มีข้อมูล",
-      "leg_reach_cm": "ยังไม่มีข้อมูล"
+    "fighter_profile": {
+        "name_th": "หนุ่มสุรินทร์ ช.เกตุวีณา",
+        "name_en": "Numsurin Chor Ketweena",
+        "alias": "ยังไม่มีข้อมูล",
+        "image_url": "",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ / ครบเครื่อง",
+        "fighting_style_en": "Technical / All-rounder",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 115,
+            "weight_kg": 52.2,
+            "division": "Strawweight",
+            "height_ft": "5'3\"",
+            "height_cm": 162,
+            "reach_cm": "ยังไม่มีข้อมูล",
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ยังไม่มีข้อมูล",
+                "defense_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 30,
+            "team_th": "ทีเด็ด 99",
+            "team_en": "Tdet99"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/numsurin/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": "ยังไม่มีข้อมูล",
-        "body": "ยังไม่มีข้อมูล",
-        "legs": "ยังไม่มีข้อมูล",
-        "total_per_minute": "ยังไม่มีข้อมูล"
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
-        "accuracy_by_target_percentage": {
-          "head": "ยังไม่มีข้อมูล",
-          "body": "ยังไม่มีข้อมูล",
-          "legs": "ยังไม่มีข้อมูล"
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชร สวนหลวงรถยก",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 147"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "นาดากะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Nov 16, 2025",
+            "rating": 5,
+            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ทรงชัยน้อย เกียรติทรงฤทธิ์",
+            "opponent_en": "",
+            "opponent_country": "ไม่ระบุ",
+            "date": "Aug 29, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 122"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:10",
+            "opponent_th": "แป๊ะยิ้ม ส.บุญมีฤทธิ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 20, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 113"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซันเดย์ บูมเด็กเซียน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 21, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 101"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โชคดี แม็กจันดี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 30, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 23"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยอดศิลา ช.ห้าพยัคฆ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 28, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 14"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:38",
+            "opponent_th": "ขุนศึกน้อย บูมเด็กเซียน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 10, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 8"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": "ยังไม่มีข้อมูล",
-        "defense_by_target_percentage": {
-          "head": "ยังไม่มีข้อมูล",
-          "body": "ยังไม่มีข้อมูล",
-          "legs": "ยังไม่มีข้อมูล"
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "ไทย",
-      "country_en": "Thailand",
-      "age": 30,
-      "team_th": "ทีเด็ด 99",
-      "team_en": "Tdet99"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/numsurin/"
     ]
-  },
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เพชร สวนหลวงรถยก",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Mar 20, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 147"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 5,
-      "time": "3:00",
-      "opponent_th": "นาดากะ",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Nov 16, 2025",
-      "rating": 5,
-      "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Majority Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ทรงชัยน้อย เกียรติทรงฤทธิ์",
-      "opponent_en": "",
-      "opponent_country": "ไม่ระบุ",
-      "date": "Aug 29, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 122"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "2:10",
-      "opponent_th": "แป๊ะยิ้ม ส.บุญมีฤทธิ์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jun 20, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 113"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ซันเดย์ บูมเด็กเซียน",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Mar 21, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 101"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "โชคดี แม็กจันดี",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jun 30, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 23"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ยอดศิลา ช.ห้าพยัคฆ์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Apr 28, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 14"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "2:38",
-      "opponent_th": "ขุนศึกน้อย บูมเด็กเซียน",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Mar 10, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 8"
-    }
-  ]
 }

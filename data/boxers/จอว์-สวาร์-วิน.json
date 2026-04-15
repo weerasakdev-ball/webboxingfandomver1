@@ -1,65 +1,65 @@
 {
-  "fighter_profile": {
-    "name_th": "จอว์ สวาร์ วิน",
-    "name_en": "",
-    "alias": "",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775182748/%E0%B8%88%E0%B8%AD%E0%B8%A7%E0%B9%8C_pn3gcd.png",
-    "grade": "",
-    "fighting_style_th": "",
-    "fighting_style_en": "",
-    "stance": "",
-    "physical_stats": {
-      "weight_lbs": "134.7",
-      "weight_kg": "",
-      "division": "Flyweight",
-      "height_ft": "",
-      "height_cm": 175,
-      "reach_cm": "",
-      "leg_reach_cm": ""
+    "fighter_profile": {
+        "name_th": "จอว์ สวาร์ วิน",
+        "name_en": "",
+        "alias": "",
+        "image_url": "",
+        "grade": "",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": "134.7",
+            "weight_kg": "",
+            "division": "Flyweight",
+            "height_ft": "",
+            "height_cm": 175,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "เมียนมา",
+            "country_en": "Myanmar",
+            "age": 24,
+            "team_th": "",
+            "team_en": ""
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/kyaw-swar-win/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {},
-      "significant_strike_accuracy": {},
-      "defensive_stats": {}
-    },
-    "personal_info": {
-      "country_th": "เมียนมา",
-      "country_en": "Myanmar",
-      "age": 24,
-      "team_th": "",
-      "team_en": ""
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/kyaw-swar-win/"
+    "weigh_in_history": [],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สมิงดำ เอ็นเอฟ.ลูกสวน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 147"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:25",
+            "opponent_th": "มูกะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Jan 23, 2026",
+            "rating": "",
+            "event_en": "ONE ลุมพินี 139"
+        }
     ]
-  },
-  "weigh_in_history": [],
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "สมิงดำ เอ็นเอฟ.ลูกสวน",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Mar 20, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 147"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "1:25",
-      "opponent_th": "มูกะ",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Jan 23, 2026",
-      "rating": "",
-      "event_en": "ONE ลุมพินี 139"
-    }
-  ]
 }

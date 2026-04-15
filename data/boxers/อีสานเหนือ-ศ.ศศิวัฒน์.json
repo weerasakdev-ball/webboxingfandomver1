@@ -1,207 +1,207 @@
 {
-  "fighter_profile": {
-    "name_th": "อีสานเหนือ ศ.ศศิวัฒน์",
-    "name_en": "Isannuea Sor.Sasiwat",
-    "alias": "อีสานเหนือ ต.ตันเจริญ",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181928/%E0%B8%AD%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B8%AD_%E0%B8%A8.%E0%B8%A8%E0%B8%A8%E0%B8%B4%E0%B8%A7%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B9%8C_lyrjye.png",
-    "grade": "ไม่ระบุ",
-    "fighting_style_th": "มวยไทย",
-    "fighting_style_en": "Muay Thai",
-    "stance": "ไม่ระบุ",
-    "physical_stats": {
-      "weight_lbs": 129.8,
-      "weight_kg": 58.88,
-      "division": "Flyweight",
-      "height_ft": "5'7\"",
-      "height_cm": 172,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ",
-      "hydration": "N/A"
+    "fighter_profile": {
+        "name_th": "อีสานเหนือ ศ.ศศิวัฒน์",
+        "name_en": "Isannuea Sor.Sasiwat",
+        "alias": "อีสานเหนือ ต.ตันเจริญ",
+        "image_url": "",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 129.8,
+            "weight_kg": 58.88,
+            "division": "Flyweight",
+            "height_ft": "5'7\"",
+            "height_cm": 172,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 22,
+            "team_th": "ศิษย์เอราวัณ",
+            "team_en": "Sit Erawan"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/isannuea-tor-tanjaroen/"
+        ],
+        "short_biography": "อีสานเหนือ ศ.ศศิวัฒน์ (Isannuea Sor.Sasiwat) หรืออดีตใช้ชื่อ อีสานเหนือ ต.ตันเจริญ เป็นนักชกชาวไทย วัย 22 ปี จากสังกัดทีมศิษย์เอราวัณ (Sit Erawan) มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 172 เซนติเมตร (5'7\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)",
+        "target_url": ""
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-      "defensive_stats": "ยังไม่มีข้อมูล"
-    },
-    "personal_info": {
-      "country_th": "ไทย",
-      "country_en": "Thailand",
-      "age": 22,
-      "team_th": "ศิษย์เอราวัณ",
-      "team_en": "Sit Erawan"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/isannuea-tor-tanjaroen/"
+    "weigh_in_history": [
+        {
+            "event_name": "ONE LUMPINEE 149",
+            "weight_lbs": 129.8,
+            "division": "Flyweight"
+        }
     ],
-    "short_biography": "อีสานเหนือ ศ.ศศิวัฒน์ (Isannuea Sor.Sasiwat) หรืออดีตใช้ชื่อ อีสานเหนือ ต.ตันเจริญ เป็นนักชกชาวไทย วัย 22 ปี จากสังกัดทีมศิษย์เอราวัณ (Sit Erawan) มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 172 เซนติเมตร (5'7\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)",
-    "target_url": ""
-  },
-  "weigh_in_history": [
-    {
-      "event_name": "ONE LUMPINEE 149",
-      "weight_lbs": 129.8,
-      "division": "Flyweight"
-    }
-  ],
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "2:23",
-      "opponent_th": "ขุนพล เอกเมืองนนท์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Apr 03, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "0:29",
-      "opponent_th": "สานิตย์ เอกเมืองนนท์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jan 30, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 140"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ปานเผด็จ เอ็นเอฟ.ลูกสวน",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Nov 28, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 135"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "1:02",
-      "opponent_th": "โฟกัส นายกสร้อยเวียงยองลำพูน",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Aug 29, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 122"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เดโช ป.บริรักษ์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jun 20, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 113"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เดโช ป.บริรักษ์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Apr 11, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 104"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "2:03",
-      "opponent_th": "ช่างทอง เอ็มยุเด็น",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Sep 13, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 79"
-    }
-  ],
-  "fight_history_one_championship": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO",
-      "round": 2,
-      "time": "0:29",
-      "opponent_th": "สานิตย์ เอกเมืองนนท์",
-      "opponent_en": "Sanit Aekmuangnon",
-      "opponent_country": "ไทย",
-      "date": "Jan 30, 2026",
-      "rating": "ไม่ระบุ",
-      "event_en": "ONE Lumpinee 140"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ปานเผด็จ เอ็นเอฟ.ลูกสวน",
-      "opponent_en": "Panpadet NF.Looksuan",
-      "opponent_country": "ไทย",
-      "date": "Nov 28, 2025",
-      "rating": "ไม่ระบุ",
-      "event_en": "ONE Lumpinee 135"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO",
-      "round": 2,
-      "time": "1:02",
-      "opponent_th": "โฟกัส นายกสร้อยเวียงยองลำพูน",
-      "opponent_en": "Focus Nayoksoiwiangyonglamphun",
-      "opponent_country": "ไทย",
-      "date": "Aug 29, 2025",
-      "rating": "ไม่ระบุ",
-      "event_en": "ONE Lumpinee 122"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เดโช ป.บริรักษ์",
-      "opponent_en": "Decho Por.Borirak",
-      "opponent_country": "ไทย",
-      "date": "Jun 20, 2025",
-      "rating": "ไม่ระบุ",
-      "event_en": "ONE Lumpinee 113"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO",
-      "round": 2,
-      "time": "2:03",
-      "opponent_th": "ช่างทอง เอ็มยุเด็น",
-      "opponent_en": "Changthong Emyuden",
-      "opponent_country": "ไทย",
-      "date": "Sep 13, 2024",
-      "rating": "ไม่ระบุ",
-      "event_en": "ONE Lumpinee 79"
-    }
-  ],
-  "upcoming_fights": []
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:23",
+            "opponent_th": "ขุนพล เอกเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 03, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:29",
+            "opponent_th": "สานิตย์ เอกเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 30, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 140"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ปานเผด็จ เอ็นเอฟ.ลูกสวน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 28, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 135"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:02",
+            "opponent_th": "โฟกัส นายกสร้อยเวียงยองลำพูน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 29, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 122"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เดโช ป.บริรักษ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 20, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 113"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เดโช ป.บริรักษ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 11, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 104"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:03",
+            "opponent_th": "ช่างทอง เอ็มยุเด็น",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 13, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 79"
+        }
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO",
+            "round": 2,
+            "time": "0:29",
+            "opponent_th": "สานิตย์ เอกเมืองนนท์",
+            "opponent_en": "Sanit Aekmuangnon",
+            "opponent_country": "ไทย",
+            "date": "Jan 30, 2026",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 140"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ปานเผด็จ เอ็นเอฟ.ลูกสวน",
+            "opponent_en": "Panpadet NF.Looksuan",
+            "opponent_country": "ไทย",
+            "date": "Nov 28, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 135"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO",
+            "round": 2,
+            "time": "1:02",
+            "opponent_th": "โฟกัส นายกสร้อยเวียงยองลำพูน",
+            "opponent_en": "Focus Nayoksoiwiangyonglamphun",
+            "opponent_country": "ไทย",
+            "date": "Aug 29, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 122"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เดโช ป.บริรักษ์",
+            "opponent_en": "Decho Por.Borirak",
+            "opponent_country": "ไทย",
+            "date": "Jun 20, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 113"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO",
+            "round": 2,
+            "time": "2:03",
+            "opponent_th": "ช่างทอง เอ็มยุเด็น",
+            "opponent_en": "Changthong Emyuden",
+            "opponent_country": "ไทย",
+            "date": "Sep 13, 2024",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 79"
+        }
+    ],
+    "upcoming_fights": []
 }

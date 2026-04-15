@@ -1,58 +1,58 @@
 {
-  "fighter_profile": {
-    "name_th": "โคกิ อาดาชิ",
-    "name_en": "",
-    "alias": "",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773156736/%E0%B9%82%E0%B8%84%E0%B8%81%E0%B8%B4_%E0%B8%AD%E0%B8%B2%E0%B8%94%E0%B8%B2%E0%B8%8A%E0%B8%B4_frlswv.png",
-    "grade": "N/A",
-    "fighting_style_th": "",
-    "fighting_style_en": "",
-    "stance": "",
-    "physical_stats": {
-      "weight_lbs": 134.8,
-      "weight_kg": 61.14,
-      "division": "Flyweight",
-      "height_ft": "",
-      "height_cm": 0,
-      "reach_cm": "",
-      "leg_reach_cm": ""
+    "fighter_profile": {
+        "name_th": "โคกิ อาดาชิ",
+        "name_en": "",
+        "alias": "",
+        "image_url": "",
+        "grade": "N/A",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": 134.8,
+            "weight_kg": 61.14,
+            "division": "Flyweight",
+            "height_ft": "",
+            "height_cm": 0,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "",
+            "country_en": "",
+            "age": 0,
+            "team_th": "",
+            "team_en": ""
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/koki-adachi/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {},
-      "significant_strike_accuracy": {},
-      "defensive_stats": {}
-    },
-    "personal_info": {
-      "country_th": "",
-      "country_en": "",
-      "age": 0,
-      "team_th": "",
-      "team_en": ""
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/koki-adachi/"
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 145",
+            "weight_lbs": 134.8,
+            "division": "Flyweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "เจสัน เซดโดห์",
+            "opponent_en": "",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Mar 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 145"
+        }
     ]
-  },
-  "weigh_in_history": [
-    {
-      "event_name": "ONE ลุมพินี 145",
-      "weight_lbs": 134.8,
-      "division": "Flyweight"
-    }
-  ],
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "5:00",
-      "opponent_th": "เจสัน เซดโดห์",
-      "opponent_en": "",
-      "opponent_country": "สหราชอาณาจักร",
-      "date": "Mar 06, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 145"
-    }
-  ]
 }

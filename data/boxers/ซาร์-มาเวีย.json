@@ -1,81 +1,81 @@
 {
-  "fighter_profile": {
-    "name_th": "ซาร์ มาเวีย",
-    "name_en": "",
-    "alias": "ไม่ระบุ",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181924/%E0%B8%8B%E0%B8%B2%E0%B8%A3%E0%B9%8C_%E0%B8%A1%E0%B8%B2%E0%B9%80%E0%B8%A7%E0%B8%B5%E0%B8%A2_aiphvj.png",
-    "grade": "N/A",
-    "fighting_style_th": "ยังไม่มีข้อมูล",
-    "fighting_style_en": "ยังไม่มีข้อมูล",
-    "stance": "ยังไม่มีข้อมูล",
-    "physical_stats": {
-      "weight_lbs": 144.8,
-      "weight_kg": 65.68,
-      "hydration": "N/A",
-      "division": "Bantamweight",
-      "height_ft": "ยังไม่มีข้อมูล",
-      "height_cm": 0,
-      "leg_reach_cm": "ยังไม่มีข้อมูล",
-      "reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "ซาร์ มาเวีย",
+        "name_en": "",
+        "alias": "ไม่ระบุ",
+        "image_url": "",
+        "grade": "N/A",
+        "fighting_style_th": "ยังไม่มีข้อมูล",
+        "fighting_style_en": "ยังไม่มีข้อมูล",
+        "stance": "ยังไม่มีข้อมูล",
+        "physical_stats": {
+            "weight_lbs": 144.8,
+            "weight_kg": 65.68,
+            "hydration": "N/A",
+            "division": "Bantamweight",
+            "height_ft": "ยังไม่มีข้อมูล",
+            "height_cm": 0,
+            "leg_reach_cm": "ยังไม่มีข้อมูล",
+            "reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "อินเดีย",
+            "country_en": "",
+            "age": 0,
+            "team_th": "ยังไม่มีข้อมูล",
+            "team_en": "ยังไม่มีข้อมูล"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/zar-mawia/"
+        ],
+        "short_biography": ""
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": "ยังไม่มีข้อมูล",
-        "body": "ยังไม่มีข้อมูล",
-        "legs": "ยังไม่มีข้อมูล",
-        "total_per_minute": "ยังไม่มีข้อมูล"
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
-        "accuracy_by_target_percentage": {
-          "head": "ยังไม่มีข้อมูล",
-          "body": "ยังไม่มีข้อมูล",
-          "legs": "ยังไม่มีข้อมูล"
+    "fight_history_one_championship": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE LUMPINEE 149",
+            "weight_lbs": 144.8,
+            "division": "Bantamweight"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": "ไม่ระบุ",
-        "defense_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "อินเดีย",
-      "country_en": "",
-      "age": 0,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/zar-mawia/"
     ],
-    "short_biography": ""
-  },
-  "fight_history_one_championship": [],
-  "weigh_in_history": [
-    {
-      "event_name": "ONE LUMPINEE 149",
-      "weight_lbs": 144.8,
-      "division": "Bantamweight"
-    }
-  ],
-  "upcoming_fights": [],
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "3:37",
-      "opponent_th": "ทาอิกะ โอริอิ",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Apr 03, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
-    }
-  ]
+    "upcoming_fights": [],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "3:37",
+            "opponent_th": "ทาอิกะ โอริอิ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Apr 03, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+        }
+    ]
 }
