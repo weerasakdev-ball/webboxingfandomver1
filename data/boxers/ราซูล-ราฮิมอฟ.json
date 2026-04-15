@@ -1,66 +1,81 @@
 {
-    "fighter_profile": {
-        "name_th": "ราซูล ราฮิมอฟ",
-        "name_en": "",
-        "alias": "ไม่ระบุ",
-        "image_url": "",
-        "grade": "N/A",
-        "fighting_style_th": "ยังไม่มีข้อมูล",
-        "fighting_style_en": "ยังไม่มีข้อมูล",
-        "stance": "ยังไม่มีข้อมูล",
-        "physical_stats": {
-            "weight_lbs": 144.8,
-            "weight_kg": 65.68,
-            "hydration": "N/A",
-            "division": "Bantamweight",
-            "height_ft": "ยังไม่มีข้อมูล",
-            "height_cm": 182,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": "ไม่ระบุ",
-                "body": "ไม่ระบุ",
-                "legs": "ไม่ระบุ",
-                "total_per_minute": "ไม่ระบุ"
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": "ไม่ระบุ",
-                "accuracy_by_target_percentage": {
-                    "head": "ไม่ระบุ",
-                    "body": "ไม่ระบุ",
-                    "legs": "ไม่ระบุ"
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": "ไม่ระบุ",
-                "defense_by_target_percentage": {
-                    "head": "ไม่ระบุ",
-                    "body": "ไม่ระบุ",
-                    "legs": "ไม่ระบุ"
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "",
-            "country_en": "",
-            "age": 24,
-            "team_th": "ยังไม่มีข้อมูล",
-            "team_en": "ยังไม่มีข้อมูล"
-        },
-        "target_url": "https://www.onefc.com/th/athletes/rasul-rahimov/",
-        "target_urls": [],
-        "short_biography": ""
+  "fighter_profile": {
+    "name_th": "ราซูล ราฮิมอฟ",
+    "name_en": "",
+    "alias": "ไม่ระบุ",
+    "image_url": "",
+    "grade": "N/A",
+    "fighting_style_th": "ยังไม่มีข้อมูล",
+    "fighting_style_en": "ยังไม่มีข้อมูล",
+    "stance": "ยังไม่มีข้อมูล",
+    "physical_stats": {
+      "weight_lbs": 144.8,
+      "weight_kg": 65.68,
+      "hydration": "N/A",
+      "division": "Bantamweight",
+      "height_ft": "ยังไม่มีข้อมูล",
+      "height_cm": 182,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
     },
-    "fight_history": [],
-    "fight_history_one_championship": [],
-    "weigh_in_history": [
-        {
-            "event_name": "ONE Lumpinee150",
-            "weight_lbs": 144.8,
-            "division": "Bantamweight"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ไม่ระบุ",
+        "body": "ไม่ระบุ",
+        "legs": "ไม่ระบุ",
+        "total_per_minute": "ไม่ระบุ"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ไม่ระบุ",
+        "accuracy_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
         }
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": "ไม่ระบุ",
+        "defense_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "",
+      "country_en": "",
+      "age": 24,
+      "team_th": "ยังไม่มีข้อมูล",
+      "team_en": "ยังไม่มีข้อมูล"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/rasul-rahimov/"
     ],
-    "upcoming_fights": []
+    "short_biography": ""
+  },
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "5:00",
+      "opponent_th": "วาลดิเมียร์ บริเตซ",
+      "opponent_en": "",
+      "opponent_country": "ปารากวัย",
+      "date": "Apr 10, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+    }
+  ],
+  "fight_history_one_championship": [],
+  "weigh_in_history": [
+    {
+      "event_name": "ONE Lumpinee150",
+      "weight_lbs": 144.8,
+      "division": "Bantamweight"
+    }
+  ],
+  "upcoming_fights": []
 }

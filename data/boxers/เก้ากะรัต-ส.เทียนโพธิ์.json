@@ -1,122 +1,135 @@
 {
-    "fighter_profile": {
-        "name_th": "เก้ากะรัต ส.เทียนโพธิ์",
-        "name_en": "Kaokarat Sor Tienpo",
-        "alias": "",
-        "image_url": "",
-        "grade": "",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "",
-        "physical_stats": {
-            "weight_lbs": 141.4,
-            "weight_kg": 64.14,
-            "division": "Bantamweight",
-            "height_ft": "5'8\"",
-            "height_cm": 173,
-            "reach_cm": "",
-            "leg_reach_cm": "",
-            "hydration": "N/A"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": 0,
-                "body": 0,
-                "legs": 0,
-                "total_per_minute": 0
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": 0,
-                "accuracy_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": 0,
-                "defense_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 19,
-            "team_th": "Sor Tienpo",
-            "team_en": "Sor Tienpo"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/kaokarat-sor-tienpo/"
-        ],
-        "short_biography": "เก้ากะรัต ส.เทียนโพธิ์ (Kaokarat Sor Tienpo) นักชกชาวไทยวัย 19 ปี จากทีม Sor Tienpo ส่วนสูง 173 เซนติเมตร เป็นนักมวยดาวรุ่งที่ทำผลงานในรายการ ONE ลุมพินี โดยเคยเอาชนะคะแนนเอกฉันท์ต่อ ฉัตรเพชร สจ.โต้งปราจีน เมื่อเดือนสิงหาคม 2025 ก่อนที่จะพ่ายคะแนนให้กับ อายูบ ยาซีน นักชกจากโมร็อกโกในไฟต์ล่าสุดเมื่อวันที่ 10 ตุลาคม 2025",
-        "target_url": ""
+  "fighter_profile": {
+    "name_th": "เก้ากะรัต ส.เทียนโพธิ์",
+    "name_en": "Kaokarat Sor Tienpo",
+    "alias": "",
+    "image_url": "",
+    "grade": "",
+    "fighting_style_th": "มวยไทย",
+    "fighting_style_en": "Muay Thai",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": 141.4,
+      "weight_kg": 64.14,
+      "division": "Bantamweight",
+      "height_ft": "5'8\"",
+      "height_cm": 173,
+      "reach_cm": "",
+      "leg_reach_cm": "",
+      "hydration": "N/A"
     },
-    "fight_history": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "อายูบ ยาซีน",
-            "opponent_en": "Ayoub Yassine",
-            "opponent_country": "โมร็อกโก",
-            "date": "Oct 10, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 128"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ฉัตรเพชร สจ.โต้งปราจีน",
-            "opponent_en": "Chatpetch Sor.Jor.TongPrachin",
-            "opponent_country": "ไทย",
-            "date": "Aug 01, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 118"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": 0,
+        "body": 0,
+        "legs": 0,
+        "total_per_minute": 0
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": 0,
+        "accuracy_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
         }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "อายูบ ยาซีน",
-            "opponent_en": "Ayoub Yassine",
-            "opponent_country": "โมร็อกโก",
-            "date": "Oct 10, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 128"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ฉัตรเพชร สจ.โต้งปราจีน",
-            "opponent_en": "Chatpetch Sor.Jor.TongPrachin",
-            "opponent_country": "ไทย",
-            "date": "Aug 01, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 118"
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": 0,
+        "defense_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
         }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 19,
+      "team_th": "Sor Tienpo",
+      "team_en": "Sor Tienpo"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/kaokarat-sor-tienpo/"
     ],
-    "weigh_in_history": [
-        {
-            "event_name": "ONE Lumpinee150",
-            "weight_lbs": 141.4,
-            "division": "Bantamweight"
-        }
-    ],
-    "upcoming_fights": []
+    "short_biography": "เก้ากะรัต ส.เทียนโพธิ์ (Kaokarat Sor Tienpo) นักชกชาวไทยวัย 19 ปี จากทีม Sor Tienpo ส่วนสูง 173 เซนติเมตร เป็นนักมวยดาวรุ่งที่ทำผลงานในรายการ ONE ลุมพินี โดยเคยเอาชนะคะแนนเอกฉันท์ต่อ ฉัตรเพชร สจ.โต้งปราจีน เมื่อเดือนสิงหาคม 2025 ก่อนที่จะพ่ายคะแนนให้กับ อายูบ ยาซีน นักชกจากโมร็อกโกในไฟต์ล่าสุดเมื่อวันที่ 10 ตุลาคม 2025",
+    "target_url": ""
+  },
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "0:34",
+      "opponent_th": "โลแกน ชาน",
+      "opponent_en": "",
+      "opponent_country": "สกอตแลนด์/ฮ่องกง เขตปกครองพิเศษประเทศจีน",
+      "date": "Apr 10, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "อายูบ ยาซีน",
+      "opponent_en": "Ayoub Yassine",
+      "opponent_country": "โมร็อกโก",
+      "date": "Oct 10, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 128"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ฉัตรเพชร สจ.โต้งปราจีน",
+      "opponent_en": "Chatpetch Sor.Jor.TongPrachin",
+      "opponent_country": "ไทย",
+      "date": "Aug 01, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 118"
+    }
+  ],
+  "fight_history_one_championship": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "อายูบ ยาซีน",
+      "opponent_en": "Ayoub Yassine",
+      "opponent_country": "โมร็อกโก",
+      "date": "Oct 10, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 128"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ฉัตรเพชร สจ.โต้งปราจีน",
+      "opponent_en": "Chatpetch Sor.Jor.TongPrachin",
+      "opponent_country": "ไทย",
+      "date": "Aug 01, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 118"
+    }
+  ],
+  "weigh_in_history": [
+    {
+      "event_name": "ONE Lumpinee150",
+      "weight_lbs": 141.4,
+      "division": "Bantamweight"
+    }
+  ],
+  "upcoming_fights": []
 }

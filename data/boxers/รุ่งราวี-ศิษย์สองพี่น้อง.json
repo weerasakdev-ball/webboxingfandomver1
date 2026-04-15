@@ -1,278 +1,291 @@
 {
-    "fighter_profile": {
-        "name_th": "รุ่งราวี ศิษย์สองพี่น้อง",
-        "name_en": "Rungrawee Sitsongpeenong",
-        "alias": "",
-        "image_url": "",
-        "grade": "",
-        "fighting_style_th": "มวยไทย, คิกบ็อกซิง",
-        "fighting_style_en": "Muay Thai, Kickboxing",
-        "stance": "",
-        "physical_stats": {
-            "weight_lbs": 169.2,
-            "weight_kg": 76.75,
-            "division": "Lightweight",
-            "height_ft": "5'10\"",
-            "height_cm": 180,
-            "reach_cm": "",
-            "leg_reach_cm": "",
-            "hydration": "N/A"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": 0,
-                "body": 0,
-                "legs": 0,
-                "total_per_minute": 0
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": 0,
-                "accuracy_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": 0,
-                "defense_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 30,
-            "team_th": "ศิษย์สองพี่น้อง",
-            "team_en": "Sitsongpeenong"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/rungrawee-sitsongpeenong/"
-        ],
-        "short_biography": "รุ่งราวี ศิษย์สองพี่น้อง (Rungrawee Sitsongpeenong) นักชกชาวไทยวัย 30 ปี จากค่ายศิษย์สองพี่น้อง มีส่วนสูง 180 เซนติเมตร น้ำหนัก 167.6 ปอนด์ (76 กิโลกรัม) เป็นนักสู้ที่มีทักษะยอดเยี่ยมทั้งในกติกามวยไทยและคิกบ็อกซิง ผลงานล่าสุดสามารถเอาชนะคะแนนเอกฉันท์ต่อ ยูเซฟ อัสซูอิก ในศึก ONE Fight Night 34 เมื่อวันที่ 2 สิงหาคม 2025",
-        "target_url": ""
+  "fighter_profile": {
+    "name_th": "รุ่งราวี ศิษย์สองพี่น้อง",
+    "name_en": "Rungrawee Sitsongpeenong",
+    "alias": "",
+    "image_url": "",
+    "grade": "",
+    "fighting_style_th": "มวยไทย, คิกบ็อกซิง",
+    "fighting_style_en": "Muay Thai, Kickboxing",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": 169.2,
+      "weight_kg": 76.75,
+      "division": "Lightweight",
+      "height_ft": "5'10\"",
+      "height_cm": 180,
+      "reach_cm": "",
+      "leg_reach_cm": "",
+      "hydration": "N/A"
     },
-    "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ยูเซฟ อัสซูอิก",
-            "opponent_en": "Yousef Assouik",
-            "opponent_country": "เดนมาร์ก/โมร็อกโก",
-            "date": "Aug 02, 2025",
-            "rating": 5,
-            "event_en": "ONE Fight Night 34: รีเกียน vs จอร์จ"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 3,
-            "time": "1:15",
-            "opponent_th": "จอร์จ จาร์วิส",
-            "opponent_en": "George Jarvis",
-            "opponent_country": "สหราชอาณาจักร",
-            "date": "Nov 01, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 85"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Kickboxing",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "บ็อกดัน ชูมารอฟ",
-            "opponent_en": "Bogdan Shumarov",
-            "opponent_country": "บัลแกเรีย",
-            "date": "May 03, 2024",
-            "rating": 5,
-            "event_en": "ONE Fight Night 22: สมิลลา vs นาตาเลีย"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:44",
-            "opponent_th": "ชากีร์ แอล เตครีติ",
-            "opponent_en": "Shakir Al-Tekreeti",
-            "opponent_country": "อิรัก",
-            "date": "Jan 12, 2024",
-            "rating": 5,
-            "event_en": "ONE Fight Night 18: ชามิล vs โฮ เทก"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:41",
-            "opponent_th": "ดีมิทรี เมนชิคอฟ",
-            "opponent_en": "Dmitry Menshikov",
-            "opponent_country": "รัสเซีย",
-            "date": "Sep 29, 2023",
-            "rating": 5,
-            "event_en": "ONE Fight Night 14: แสตมป์ vs ซอ ฮี"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "นาวเซต ทรูจิลโล",
-            "opponent_en": "Nauzet Trujillo",
-            "opponent_country": "สเปน",
-            "date": "Aug 04, 2023",
-            "rating": 5,
-            "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "วลาดิเมียร์ กาบอฟ",
-            "opponent_en": "Vladimir Gabov",
-            "opponent_country": "รัสเซีย",
-            "date": "May 05, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 15"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "มุสตาฟา แอล เตครีตี",
-            "opponent_en": "Mustafa Al-Tekreeti",
-            "opponent_country": "อิรัก",
-            "date": "Feb 03, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 3"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": 0,
+        "body": 0,
+        "legs": 0,
+        "total_per_minute": 0
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": 0,
+        "accuracy_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
         }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ยูเซฟ อัสซูอิก",
-            "opponent_en": "Yousef Assouik",
-            "opponent_country": "เดนมาร์ก/โมร็อกโก",
-            "date": "Aug 02, 2025",
-            "rating": 5,
-            "event_en": "ONE Fight Night 34: รีเกียน vs จอร์จ"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 3,
-            "time": "1:15",
-            "opponent_th": "จอร์จ จาร์วิส",
-            "opponent_en": "George Jarvis",
-            "opponent_country": "สหราชอาณาจักร",
-            "date": "Nov 01, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 85"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Kickboxing",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "บ็อกดัน ชูมารอฟ",
-            "opponent_en": "Bogdan Shumarov",
-            "opponent_country": "บัลแกเรีย",
-            "date": "May 03, 2024",
-            "rating": 5,
-            "event_en": "ONE Fight Night 22: สมิลลา vs นาตาเลีย"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:44",
-            "opponent_th": "ชากีร์ แอล เตครีติ",
-            "opponent_en": "Shakir Al-Tekreeti",
-            "opponent_country": "อิรัก",
-            "date": "Jan 12, 2024",
-            "rating": 5,
-            "event_en": "ONE Fight Night 18: ชามิล vs โฮ เทก"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:41",
-            "opponent_th": "ดีมิทรี เมนชิคอฟ",
-            "opponent_en": "Dmitry Menshikov",
-            "opponent_country": "รัสเซีย",
-            "date": "Sep 29, 2023",
-            "rating": 5,
-            "event_en": "ONE Fight Night 14: แสตมป์ vs ซอ ฮี"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "นาวเซต ทรูจิลโล",
-            "opponent_en": "Nauzet Trujillo",
-            "opponent_country": "สเปน",
-            "date": "Aug 04, 2023",
-            "rating": 5,
-            "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "วลาดิเมียร์ กาบอฟ",
-            "opponent_en": "Vladimir Gabov",
-            "opponent_country": "รัสเซีย",
-            "date": "May 05, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 15"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "มุสตาฟา แอล เตครีตี",
-            "opponent_en": "Mustafa Al-Tekreeti",
-            "opponent_country": "อิรัก",
-            "date": "Feb 03, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 3"
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": 0,
+        "defense_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
         }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 30,
+      "team_th": "ศิษย์สองพี่น้อง",
+      "team_en": "Sitsongpeenong"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/rungrawee-sitsongpeenong/"
     ],
-    "weigh_in_history": [
-        {
-            "event_name": "ONE Lumpinee150",
-            "weight_lbs": 169.2,
-            "division": "Lightweight"
-        }
-    ],
-    "upcoming_fights": []
+    "short_biography": "รุ่งราวี ศิษย์สองพี่น้อง (Rungrawee Sitsongpeenong) นักชกชาวไทยวัย 30 ปี จากค่ายศิษย์สองพี่น้อง มีส่วนสูง 180 เซนติเมตร น้ำหนัก 167.6 ปอนด์ (76 กิโลกรัม) เป็นนักสู้ที่มีทักษะยอดเยี่ยมทั้งในกติกามวยไทยและคิกบ็อกซิง ผลงานล่าสุดสามารถเอาชนะคะแนนเอกฉันท์ต่อ ยูเซฟ อัสซูอิก ในศึก ONE Fight Night 34 เมื่อวันที่ 2 สิงหาคม 2025",
+    "target_url": ""
+  },
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "Unanimous Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "รีเกียน เออร์เซล",
+      "opponent_en": "",
+      "opponent_country": "ซูรินาม",
+      "date": "Apr 10, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ยูเซฟ อัสซูอิก",
+      "opponent_en": "Yousef Assouik",
+      "opponent_country": "เดนมาร์ก/โมร็อกโก",
+      "date": "Aug 02, 2025",
+      "rating": 5,
+      "event_en": "ONE Fight Night 34: รีเกียน vs จอร์จ"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "1:15",
+      "opponent_th": "จอร์จ จาร์วิส",
+      "opponent_en": "George Jarvis",
+      "opponent_country": "สหราชอาณาจักร",
+      "date": "Nov 01, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 85"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Kickboxing",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "บ็อกดัน ชูมารอฟ",
+      "opponent_en": "Bogdan Shumarov",
+      "opponent_country": "บัลแกเรีย",
+      "date": "May 03, 2024",
+      "rating": 5,
+      "event_en": "ONE Fight Night 22: สมิลลา vs นาตาเลีย"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:44",
+      "opponent_th": "ชากีร์ แอล เตครีติ",
+      "opponent_en": "Shakir Al-Tekreeti",
+      "opponent_country": "อิรัก",
+      "date": "Jan 12, 2024",
+      "rating": 5,
+      "event_en": "ONE Fight Night 18: ชามิล vs โฮ เทก"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:41",
+      "opponent_th": "ดีมิทรี เมนชิคอฟ",
+      "opponent_en": "Dmitry Menshikov",
+      "opponent_country": "รัสเซีย",
+      "date": "Sep 29, 2023",
+      "rating": 5,
+      "event_en": "ONE Fight Night 14: แสตมป์ vs ซอ ฮี"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "นาวเซต ทรูจิลโล",
+      "opponent_en": "Nauzet Trujillo",
+      "opponent_country": "สเปน",
+      "date": "Aug 04, 2023",
+      "rating": 5,
+      "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "วลาดิเมียร์ กาบอฟ",
+      "opponent_en": "Vladimir Gabov",
+      "opponent_country": "รัสเซีย",
+      "date": "May 05, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 15"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "มุสตาฟา แอล เตครีตี",
+      "opponent_en": "Mustafa Al-Tekreeti",
+      "opponent_country": "อิรัก",
+      "date": "Feb 03, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 3"
+    }
+  ],
+  "fight_history_one_championship": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ยูเซฟ อัสซูอิก",
+      "opponent_en": "Yousef Assouik",
+      "opponent_country": "เดนมาร์ก/โมร็อกโก",
+      "date": "Aug 02, 2025",
+      "rating": 5,
+      "event_en": "ONE Fight Night 34: รีเกียน vs จอร์จ"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "1:15",
+      "opponent_th": "จอร์จ จาร์วิส",
+      "opponent_en": "George Jarvis",
+      "opponent_country": "สหราชอาณาจักร",
+      "date": "Nov 01, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 85"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Kickboxing",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "บ็อกดัน ชูมารอฟ",
+      "opponent_en": "Bogdan Shumarov",
+      "opponent_country": "บัลแกเรีย",
+      "date": "May 03, 2024",
+      "rating": 5,
+      "event_en": "ONE Fight Night 22: สมิลลา vs นาตาเลีย"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:44",
+      "opponent_th": "ชากีร์ แอล เตครีติ",
+      "opponent_en": "Shakir Al-Tekreeti",
+      "opponent_country": "อิรัก",
+      "date": "Jan 12, 2024",
+      "rating": 5,
+      "event_en": "ONE Fight Night 18: ชามิล vs โฮ เทก"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:41",
+      "opponent_th": "ดีมิทรี เมนชิคอฟ",
+      "opponent_en": "Dmitry Menshikov",
+      "opponent_country": "รัสเซีย",
+      "date": "Sep 29, 2023",
+      "rating": 5,
+      "event_en": "ONE Fight Night 14: แสตมป์ vs ซอ ฮี"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "นาวเซต ทรูจิลโล",
+      "opponent_en": "Nauzet Trujillo",
+      "opponent_country": "สเปน",
+      "date": "Aug 04, 2023",
+      "rating": 5,
+      "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "วลาดิเมียร์ กาบอฟ",
+      "opponent_en": "Vladimir Gabov",
+      "opponent_country": "รัสเซีย",
+      "date": "May 05, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 15"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "มุสตาฟา แอล เตครีตี",
+      "opponent_en": "Mustafa Al-Tekreeti",
+      "opponent_country": "อิรัก",
+      "date": "Feb 03, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 3"
+    }
+  ],
+  "weigh_in_history": [
+    {
+      "event_name": "ONE Lumpinee150",
+      "weight_lbs": 169.2,
+      "division": "Lightweight"
+    }
+  ],
+  "upcoming_fights": []
 }
