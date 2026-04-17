@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Welterweight",
     "fighters": [
         {
             "name_th": "หยู จื้อ เฉิง",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324023/%E0%B8%AB%E0%B8%A2%E0%B8%B9_%E0%B8%88%E0%B8%B7%E0%B9%89%E0%B8%AD_%E0%B9%80%E0%B8%89%E0%B8%B4%E0%B8%87_lpt3og.png",
+            "image_url": "หยู-จื้อ-เฉิง",
             "team_th": "ยังไม่มีข้อมูล",
             "country_th": "ไต้หวัน",
             "stats": {
@@ -127,12 +127,12 @@
                 }
             },
             "profile_file": "หยู-จื้อ-เฉิง.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         },
         {
             "name_th": "เพชรเขากระโดง ลูกเจ้าแม่ไทรทอง",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324027/%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%82%E0%B8%94%E0%B8%87_%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B9%84%E0%B8%97%E0%B8%A3%E0%B8%97%E0%B8%AD%E0%B8%87_nluuyx.png",
+            "image_url": "เพชรเขากระโดง-ลูกเจ้าแม่ไทรทอง",
             "team_th": "ลูกเจ้าแม่ไทรทอง",
             "country_th": "ไทย",
             "stats": {
@@ -255,12 +255,12 @@
                 }
             },
             "profile_file": "เพชรเขากระโดง-ลูกเจ้าแม่ไทรทอง.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 2
         },
         {
             "name_th": "ทุน มิน ออง",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324027/%E0%B8%97%E0%B8%B8%E0%B8%99_%E0%B8%A1%E0%B8%B4%E0%B8%99_%E0%B8%AD%E0%B8%AD%E0%B8%87_ktepyy.png",
+            "image_url": "ทุน-มิน-ออง",
             "team_th": "จีซีซี เลทเวย์ คลับ",
             "country_th": "เมียนมา",
             "stats": {
@@ -360,12 +360,12 @@
                 }
             },
             "profile_file": "ทุน-มิน-ออง.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 3
         },
         {
             "name_th": "ซาร์มัด จาฮานอารา",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324024/%E0%B8%8B%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%A1%E0%B8%B1%E0%B8%94_%E0%B8%88%E0%B8%B2%E0%B8%AE%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B8%B2_ayaorz.png",
+            "image_url": "ซาร์มัด-จาฮานอารา",
             "team_th": "ยังไม่มีข้อมูล",
             "country_th": "ออสเตรเลีย",
             "stats": {
@@ -419,8 +419,8 @@
                 }
             },
             "profile_file": "ซาร์มัด-จาฮานอารา.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 4
         }
     ]
 }

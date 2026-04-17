@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Bantamweight Muay Thai / Featherweight Muay Thai",
     "fighters": [
         {
             "name_th": "วลาดิเมียร์ คุซมิน",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773127098/%E0%B8%A7%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%B4%E0%B9%80%E0%B8%A1%E0%B8%B5%E0%B8%A2_bzmlku.png",
+            "image_url": "วลาดิเมียร์-คุซมิน",
             "team_th": "ไฟต์ คลับ อาร์คแองเจิล ไมเคิล (Fight Club Archangel Michael)",
             "country_th": "รัสเซีย",
             "stats": {
@@ -150,8 +150,8 @@
                 }
             },
             "profile_file": "วลาดิเมียร์-คุซมิน.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         }
     ]
 }

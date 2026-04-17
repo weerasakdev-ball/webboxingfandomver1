@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "flyweight",
     "fighters": [
         {
             "name_th": "เดโช ป.บริรักษ์",
-            "image_url": "https://i.ibb.co/svt6GV92/image.jpg",
+            "image_url": "เดโช-ปบริรักษ์",
             "team_th": "สิงห์มาวิน",
             "country_th": "ไทย",
             "stats": {
@@ -81,8 +81,8 @@
                 }
             },
             "profile_file": "เดโช-ป.บริรักษ์.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         }
     ]
 }

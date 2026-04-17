@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Bantamweight",
     "fighters": [
         {
             "name_th": "ราชสีห์อีสาน เหล่าโชคเจริญ",
-            "image_url": "https://i.ibb.co/PZMbKzJk/image.jpg",
+            "image_url": "ราชสีห์อีสาน-เหล่าโชคเจริญ",
             "team_th": "พีเค.แสนชัยมวยไทยยิม",
             "country_th": "ไทย",
             "stats": {
@@ -196,11 +196,12 @@
                 }
             },
             "profile_file": "ราชสีห์อีสาน-เหล่าโชคเจริญ.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 1
         },
         {
             "name_th": "อับดุลลา ดายาคาเอฟ",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531967/%E0%B8%AD%E0%B8%B1%E0%B8%9A%E0%B8%94%E0%B8%B8%E0%B8%A5%E0%B8%A5%E0%B8%B2-%E0%B8%94%E0%B8%B2%E0%B8%A2%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B9%80%E0%B8%AD%E0%B8%9F_kwieqi.jpg",
+            "image_url": "อับดุลลา-ดายาคาเอฟ",
             "team_th": "ทีมเมห์ดี ซาทูต (Team Mehdi Zatout)",
             "country_th": "รัสเซีย",
             "stats": {
@@ -323,11 +324,12 @@
                 }
             },
             "profile_file": "อับดุลลา-ดายาคาเอฟ.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 2
         },
         {
             "name_th": "แรมโบ้เล็ก ฉ.อจลบุญ",
-            "image_url": "https://i.ibb.co/whHLC7tY/1.jpg",
+            "image_url": "แรมโบ้เล็ก-ฉอจลบุญ",
             "team_th": "ซุปเปอร์บอน เทรนนิง แคมป์",
             "country_th": "ไทย",
             "stats": {
@@ -450,11 +452,12 @@
                 }
             },
             "profile_file": "แรมโบ้เล็ก-ฉ.อจลบุญ.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 3
         },
         {
             "name_th": "ซ่อนรัก แฟร์เท็กซ์",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773123007/%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81_sm5t9d.png",
+            "image_url": "ซ่อนรัก-แฟร์เท็กซ์",
             "team_th": "แฟร์เท็กซ์ เทรนนิง เซ็นเตอร์",
             "country_th": "เมียนมา",
             "stats": {
@@ -577,11 +580,12 @@
                 }
             },
             "profile_file": "ซ่อนรัก-แฟร์เท็กซ์.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 4
         },
         {
             "name_th": "นิโค คาร์ริลโล",
-            "image_url": "https://i.ibb.co/bMPBs7MR/image.jpg",
+            "image_url": "นิโค-คาร์ริลโล",
             "team_th": "เดชกัลย์ มวยไทย อะคาเดมี",
             "country_th": "สกอตแลนด์",
             "stats": {
@@ -704,11 +708,12 @@
                 }
             },
             "profile_file": "นิโค-คาร์ริลโล.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 5
         },
         {
             "name_th": "โจนาธาน แฮ็กเกอร์ตี",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531976/%E0%B9%81%E0%B8%AE%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%B5%E0%B9%89-%E0%B8%A1%E0%B8%B5%E0%B9%81%E0%B8%8A%E0%B8%A1%E0%B8%9B%E0%B9%8C_owjfwp.jpg",
+            "image_url": "โจนาธาน-แฮ็กเกอร์ตี",
             "team_th": "Knowlesy Academy / Team Underground",
             "country_th": "สหราชอาณาจักร",
             "stats": {
@@ -877,11 +882,12 @@
                 }
             },
             "profile_file": "โจนาธาน-แฮ็กเกอร์ตี.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 6
         },
         {
             "name_th": "วรพล ลูกเจ้าพ่อโรงต้ม",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773123007/%E0%B8%A7%E0%B8%A3%E0%B8%9E%E0%B8%A5_%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%9E%E0%B9%88%E0%B8%AD%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%A1_cdcwew.png",
+            "image_url": "วรพล-ลูกเจ้าพ่อโรงต้ม",
             "team_th": "ส.เดชะพันธ์ (Sor Dechapan)",
             "country_th": "ไทย (บุรีรัมย์)",
             "stats": {
@@ -1004,11 +1010,12 @@
                 }
             },
             "profile_file": "วรพล-ลูกเจ้าพ่อโรงต้ม.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 7
         },
         {
             "name_th": "ริวกิ โยชิโอกะ",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773246466/%E0%B8%A3%E0%B8%B4%E0%B8%A7%E0%B8%81%E0%B8%B4_%E0%B9%82%E0%B8%A2%E0%B8%8A%E0%B8%B4%E0%B9%82%E0%B8%AD%E0%B8%81%E0%B8%B0_kw63zq.png",
+            "image_url": "ริวกิ-โยชิโอกะ",
             "team_th": "ไม่ระบุ",
             "country_th": "ไม่ระบุ",
             "stats": {
@@ -1131,11 +1138,12 @@
                 }
             },
             "profile_file": "ริวกิ-โยชิโอกะ.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 8
         },
         {
             "name_th": "อาร์มาน โมราดี",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773156736/%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%A1%E0%B8%B2%E0%B8%99_%E0%B9%82%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%94%E0%B8%B5_vludfh.png",
+            "image_url": "อาร์มาน-โมราดี",
             "team_th": "ไม่ระบุ",
             "country_th": "อิหร่าน",
             "stats": {
@@ -1258,11 +1266,12 @@
                 }
             },
             "profile_file": "อาร์มาน-โมราดี.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 9
         },
         {
             "name_th": "อาร์เธอร์ คลอปป์",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773246465/%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%98%E0%B8%AD%E0%B8%A3%E0%B9%8C_%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%9B%E0%B8%9B%E0%B9%8C_skwh01.png",
+            "image_url": "อาร์เธอร์-คลอปป์",
             "team_th": "ไม่ระบุ",
             "country_th": "ไม่ระบุ",
             "stats": {
@@ -1385,11 +1394,12 @@
                 }
             },
             "profile_file": "อาร์เธอร์-คลอปป์.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 10
         },
         {
             "name_th": "เอลบรุส ออสมานอฟ",
-            "image_url": "https://i.ibb.co/Q7hWpS6J/image.jpg",
+            "image_url": "เอลบรุส-ออสมานอฟ",
             "team_th": "อาคมาต คิกบ็อกซิ่ง / ทีม เมห์ดี ซาทูต",
             "country_th": "รัสเซีย",
             "stats": {
@@ -1489,11 +1499,12 @@
                 }
             },
             "profile_file": "เอลบรุส-ออสมานอฟ.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 11
         },
         {
             "name_th": "เด็ดดวงเล็ก ทอฝันฟาร์ม",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531970/%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%94%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81-%E0%B8%97%E0%B8%B5%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%9499_gyyp3p.jpg",
+            "image_url": "เด็ดดวงเล็ก-ทอฝันฟาร์ม",
             "team_th": "ทีเด็ด99",
             "country_th": "ไทย",
             "stats": {
@@ -1616,11 +1627,12 @@
                 }
             },
             "profile_file": "เด็ดดวงเล็ก-ทอฝันฟาร์ม.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 12
         },
         {
             "name_th": "ก้องศึก ศิษย์สารวัตรเสือ",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324021/%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%A8%E0%B8%B6%E0%B8%81_%E0%B8%A8%E0%B8%B4%E0%B8%A9%E0%B8%A2%E0%B9%8C%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD_imoj1z.png",
+            "image_url": "ก้องศึก-ศิษย์สารวัตรเสือ",
             "team_th": "ศิษย์สารวัตรเสือ",
             "country_th": "ไทย",
             "stats": {
@@ -1743,12 +1755,12 @@
                 }
             },
             "profile_file": "ก้องศึก-ศิษย์สารวัตรเสือ.html",
-            "trend": "down",
-            "last_rank": 1
+            "trend": "steady",
+            "last_rank": 13
         },
         {
             "name_th": "เดชชวลิต ซิลค์มวยไทย",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324025/%E0%B9%80%E0%B8%94%E0%B8%8A%E0%B8%8A%E0%B8%A7%E0%B8%A5%E0%B8%B4%E0%B8%95_%E0%B8%8B%E0%B8%B4%E0%B8%A5%E0%B8%84%E0%B9%8C%E0%B8%A1%E0%B8%A7%E0%B8%A2%E0%B9%84%E0%B8%97%E0%B8%A2_n57k5z.png",
+            "image_url": "เดชชวลิต-ซิลค์มวยไทย",
             "team_th": "Silk Muaythai",
             "country_th": "ไทย",
             "stats": {
@@ -1825,11 +1837,12 @@
                 }
             },
             "profile_file": "เดชชวลิต-ซิลค์มวยไทย.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 14
         },
         {
             "name_th": "ฟิลิปเป โลโบ",
-            "image_url": "https://i.ibb.co/twhNBfqw/image.jpg",
+            "image_url": "ฟิลิปเป-โลโบ",
             "team_th": "เรโวลูชัน มวยไทย ภูเก็ต",
             "country_th": "บราซิล",
             "stats": {
@@ -1998,11 +2011,12 @@
                 }
             },
             "profile_file": "ฟิลิปเป-โลโบ.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 15
         },
         {
             "name_th": "อาเลสสิโอ มาลาเทสตา",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772549099/%E0%B8%A1%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%AA%E0%B8%95%E0%B9%89%E0%B8%B2_xvxo0c.jpg",
+            "image_url": "อาเลสสิโอ-มาลาเทสตา",
             "team_th": "ทีม มาลาเทสตา",
             "country_th": "อิตาลี",
             "stats": {
@@ -2079,11 +2093,93 @@
                 }
             },
             "profile_file": "อาเลสสิโอ-มาลาเทสตา.html",
+            "trend": "steady",
+            "last_rank": 16
+        },
+        {
+            "name_th": "โลแกน ชาน",
+            "image_url": "โลแกน-ชาน",
+            "team_th": "ยังไม่มีข้อมูล",
+            "country_th": "สกอตแลนด์/ฮ่องกง",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 3,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 3,
+                        "points": 15
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 3,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 3,
+                        "points": 15
+                    }
+                },
+                "yearly": {
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "โลแกน-ชาน.html",
             "trend": "new"
         },
         {
             "name_th": "เย ยิ่น เนา",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324028/%E0%B9%80%E0%B8%A2_%E0%B8%A2%E0%B8%B4%E0%B9%88%E0%B8%99_%E0%B9%80%E0%B8%99%E0%B8%B2_mwwlhe.png",
+            "image_url": "เย-ยิ่น-เนา",
             "team_th": "Team Mehdi Zatout : เพชรเขากระโดง ลูกเจ้าแม่ไทรทอง",
             "country_th": "เมียนมา",
             "stats": {
@@ -2160,11 +2256,12 @@
                 }
             },
             "profile_file": "เย-ยิ่น-เนา.html",
-            "trend": "new"
+            "trend": "down",
+            "last_rank": 17
         },
         {
             "name_th": "ปกรณ์ พีเค.แสนชัย",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531959/%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C-%E0%B8%9E%E0%B8%B5%E0%B9%80%E0%B8%84.%E0%B9%81%E0%B8%AA%E0%B8%99%E0%B8%8A%E0%B8%B1%E0%B8%A2_czsszz.jpg",
+            "image_url": "ปกรณ์-พีเคแสนชัย",
             "team_th": "พีเค.แสนชัยมวยไทยยิม",
             "country_th": "ไทย",
             "stats": {
@@ -2264,11 +2361,12 @@
                 }
             },
             "profile_file": "ปกรณ์-พี.เค.แสนชัยมวยไทยยิม.html",
-            "trend": "new"
+            "trend": "down",
+            "last_rank": 18
         },
         {
             "name_th": "โอทิส แว็กฮอร์น",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773156737/%E0%B9%82%E0%B8%AD%E0%B8%97%E0%B8%B4%E0%B8%AA_%E0%B9%81%E0%B8%A7%E0%B9%87%E0%B8%81%E0%B8%AE%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%99_chywol.png",
+            "image_url": "โอทิส-แว็กฮอร์น",
             "team_th": "Assassins Gym / Tiger Muay Thai",
             "country_th": "อังกฤษ",
             "stats": {
@@ -2368,11 +2466,12 @@
                 }
             },
             "profile_file": "โอทิส-แว็กฮอร์น.html",
-            "trend": "new"
+            "trend": "down",
+            "last_rank": 19
         },
         {
             "name_th": "ปตท. อภิชาติฟาร์ม",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531959/ปตท_อภิชาติฟาร์ม_rkab49.jpg",
+            "image_url": "ปตท-อภิชาติฟาร์ม",
             "team_th": "ทีม เมห์ดี ซาทูต",
             "country_th": "ไทย",
             "stats": {
@@ -2449,11 +2548,12 @@
                 }
             },
             "profile_file": "ปตท.-อภิชาติฟาร์ม.html",
-            "trend": "new"
+            "trend": "down",
+            "last_rank": 20
         },
         {
             "name_th": "เฟอร์ซาน ชิเชก",
-            "image_url": "https://i.ibb.co/Qjf5mzyW/image.jpg",
+            "image_url": "เฟอร์ซาน-ชิเชก",
             "team_th": "ทีม เมห์ดี ซาทูต",
             "country_th": "ตุรกี",
             "stats": {
@@ -2553,11 +2653,12 @@
                 }
             },
             "profile_file": "เฟอร์ซาน-ชิเชก.html",
-            "trend": "new"
+            "trend": "down",
+            "last_rank": 21
         },
         {
             "name_th": "ยูกิ โยซะ",
-            "image_url": "https://i.ibb.co/1YfZfRfw/image.jpg",
+            "image_url": "ยูกิ-โยซะ",
             "team_th": "ทีม วาซิลิอุส",
             "country_th": "ญี่ปุ่น",
             "stats": {
@@ -2611,11 +2712,12 @@
                 }
             },
             "profile_file": "ยูกิ-โยซะ.html",
-            "trend": "new"
+            "trend": "down",
+            "last_rank": 22
         },
         {
             "name_th": "ชามา ซุปเปอร์บอนเทรนนิงแคมป์",
-            "image_url": "https://i.ibb.co/WWYwZzP3/image.jpg",
+            "image_url": "ชามา-ซุปเปอร์บอนเทรนนิงแคมป์",
             "team_th": "ซุปเปอร์บอน เทรนนิง แคมป์",
             "country_th": "ไทย",
             "stats": {
@@ -2692,11 +2794,12 @@
                 }
             },
             "profile_file": "ชามา-ซุปเปอร์บอนเทรนนิงแคมป์.html",
-            "trend": "new"
+            "trend": "down",
+            "last_rank": 23
         },
         {
             "name_th": "รันมะ",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1740716400/ranma-1600x1200-1_c666f2.png",
+            "image_url": "รันมะ",
             "team_th": "ทีม เทพเพ็น",
             "country_th": "ญี่ปุ่น",
             "stats": {
@@ -2750,11 +2853,12 @@
                 }
             },
             "profile_file": "รันมะ.html",
-            "trend": "new"
+            "trend": "down",
+            "last_rank": 24
         },
         {
             "name_th": "อูซาอีร์ อิสมออิลจอนอฟ",
-            "image_url": "https://i.ibb.co/HLwTRM5r/image.jpg",
+            "image_url": "อูซาอีร์-อิสมออิลจอนอฟ",
             "team_th": "ทีม เมห์ดี ซาทูต",
             "country_th": "อุซเบกิสถาน",
             "stats": {
@@ -2854,11 +2958,162 @@
                 }
             },
             "profile_file": "อูซาอีร์-อิสมออิลจอนอฟ.html",
+            "trend": "down",
+            "last_rank": 25
+        },
+        {
+            "name_th": "เพชรทนง เพชรเฟอร์กัส",
+            "image_url": "เพชรทนง-เพชรเฟอร์กัส",
+            "team_th": "ซุปเปอร์บอน เทรนนิง แคมป์",
+            "country_th": "ไทย",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 2,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 1,
+                        "points": 8
+                    },
+                    "others": {
+                        "wins": 1,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 3
+                    },
+                    "total": {
+                        "wins": 3,
+                        "losses": 2,
+                        "draws": 0,
+                        "ko_wins": 1,
+                        "points": 11
+                    }
+                },
+                "yearly": {
+                    "2020": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2021": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2022": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2024": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "เพชรทนง-เพชรเฟอร์กัส.html",
             "trend": "new"
         },
         {
             "name_th": "ซุปเปอร์เจ๋ง ทอฝันฟาร์ม",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1740716400/superjeng-tded99-1600x1200-1_c666f2.png",
+            "image_url": "ซุปเปอร์เจ๋ง-ทอฝันฟาร์ม",
             "team_th": "ทีเด็ด99",
             "country_th": "ไทย",
             "stats": {
@@ -2935,11 +3190,70 @@
                 }
             },
             "profile_file": "ซุปเปอร์เจ๋ง-ทอฝันฟาร์ม.html",
+            "trend": "down",
+            "last_rank": 26
+        },
+        {
+            "name_th": "วาลดิเมียร์ บริเตซ",
+            "image_url": "วาลดิเมียร์-บริเตซ",
+            "team_th": "Tiger Muay Thai",
+            "country_th": "ปารากวัย",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 1,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 1,
+                        "points": 5
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 1,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 1,
+                        "points": 5
+                    }
+                },
+                "yearly": {
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "วาลดิเมียร์-บริเตซ.html",
             "trend": "new"
         },
         {
             "name_th": "สิงหราช ศิษย์ขุนทัพ",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324024/%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B8%A3%E0%B8%B2%E0%B8%8A_%E0%B8%A8%E0%B8%B4%E0%B8%A9%E0%B8%A2%E0%B9%8C%E0%B8%82%E0%B8%B8%E0%B8%99%E0%B8%97%E0%B8%B1%E0%B8%9E_t3ncii.png",
+            "image_url": "สิงหราช-ศิษย์ขุนทัพ",
             "team_th": "ศิษย์ขุนทัพ",
             "country_th": "ไทย",
             "stats": {
@@ -2993,11 +3307,12 @@
                 }
             },
             "profile_file": "สิงหราช-ศิษย์ขุนทัพ.html",
-            "trend": "new"
+            "trend": "down",
+            "last_rank": 27
         },
         {
             "name_th": "ขจรไกล สส.ต้อยแปดริ้ว",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324021/%E0%B8%82%E0%B8%88%E0%B8%A3%E0%B9%84%E0%B8%81%E0%B8%A5_%E0%B8%AA%E0%B8%AA.%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7_czhsls.png",
+            "image_url": "ขจรไกล-สสต้อยแปดริ้ว",
             "team_th": "สส.ต้อยแปดริ้ว",
             "country_th": "ไทย",
             "stats": {
@@ -3052,11 +3367,69 @@
             },
             "profile_file": "ขจรไกล-สส.ต้อยแปดริ้ว.html",
             "trend": "down",
-            "last_rank": 2
+            "last_rank": 28
+        },
+        {
+            "name_th": "ราซูล ราฮิมอฟ",
+            "image_url": "ราซูล-ราฮิมอฟ",
+            "team_th": "ยังไม่มีข้อมูล",
+            "country_th": "ไม่ระบุ",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 1,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 3
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 1,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 3
+                    }
+                },
+                "yearly": {
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "ราซูล-ราฮิมอฟ.html",
+            "trend": "new"
         },
         {
             "name_th": "ริกิโตะ",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772549100/ริกิโตะ_gthqxj.jpg",
+            "image_url": "ริกิโตะ",
             "team_th": "พรีแพร์ด ยิม",
             "country_th": "ญี่ปุ่น",
             "stats": {
@@ -3133,11 +3506,93 @@
                 }
             },
             "profile_file": "ริกิโตะ.html",
+            "trend": "down",
+            "last_rank": 29
+        },
+        {
+            "name_th": "เก้ากะรัต ส.เทียนโพธิ์",
+            "image_url": "เก้ากะรัต-สเทียนโพธิ์",
+            "team_th": "Sor Tienpo",
+            "country_th": "ไทย",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 1,
+                        "losses": 2,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 3
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 1,
+                        "losses": 2,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 3
+                    }
+                },
+                "yearly": {
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "เก้ากะรัต-ส.เทียนโพธิ์.html",
             "trend": "new"
         },
         {
             "name_th": "ปราบศึก ศิษย์แก้วประพล",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324022/%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%9A%E0%B8%A8%E0%B8%B6%E0%B8%81_%E0%B8%A8%E0%B8%B4%E0%B8%A9%E0%B8%A2%E0%B9%8C%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A7%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%A5_cyqldf.png",
+            "image_url": "ปราบศึก-ศิษย์แก้วประพล",
             "team_th": "ยังไม่มีข้อมูล",
             "country_th": "ไทย",
             "stats": {
@@ -3191,11 +3646,70 @@
                 }
             },
             "profile_file": "ปราบศึก-ศิษย์แก้วประพล.html",
+            "trend": "down",
+            "last_rank": 30
+        },
+        {
+            "name_th": "ซาร์ มาเวีย",
+            "image_url": "ซาร์-มาเวีย",
+            "team_th": "ยังไม่มีข้อมูล",
+            "country_th": "อินเดีย",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 0,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 0,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    }
+                },
+                "yearly": {
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "ซาร์-มาเวีย.html",
             "trend": "new"
         },
         {
             "name_th": "อาร์ตูร์ บรอสซิเยร์",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773127424/%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%B9%E0%B8%A3%E0%B9%8C_%E0%B8%9A%E0%B8%A3%E0%B8%AD%E0%B8%AA%E0%B8%8B%E0%B8%B4%E0%B9%80%E0%B8%A2%E0%B8%A3%E0%B9%8C_ptqwoe.png",
+            "image_url": "อาร์ตูร์-บรอสซิเยร์",
             "team_th": "โชกกาจ (Choquage)",
             "country_th": "ฝรั่งเศส",
             "stats": {
@@ -3249,11 +3763,12 @@
                 }
             },
             "profile_file": "อาร์ตูร์-บรอสซิเยร์.html",
-            "trend": "new"
+            "trend": "down",
+            "last_rank": 31
         },
         {
             "name_th": "เดนิส ดอตเซนโก",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324022/%E0%B9%80%E0%B8%94%E0%B8%99%E0%B8%B4%E0%B8%AA_%E0%B8%94%E0%B8%AD%E0%B8%95%E0%B9%80%E0%B8%8B%E0%B8%99%E0%B9%82%E0%B8%81_ndfpj0.png",
+            "image_url": "เดนิส-ดอตเซนโก",
             "team_th": "Tiger Muay Thai : บาบัก โซลูคี",
             "country_th": "ยูเครน",
             "stats": {
@@ -3307,7 +3822,8 @@
                 }
             },
             "profile_file": "เดนิส-ดอตเซนโก.html",
-            "trend": "new"
+            "trend": "down",
+            "last_rank": 32
         }
     ]
 }

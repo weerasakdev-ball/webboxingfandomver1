@@ -3,7 +3,7 @@
         "name_th": "ไอแซค โมฮัมเหม็ด",
         "name_en": "Isaac Mohammed",
         "alias": "เพชรหนึ่ง เพชรมวยไทย",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "image_url": "",
         "grade": "",
         "fighting_style_th": "มวยไทย",
         "fighting_style_en": "Muay Thai",
@@ -54,19 +54,6 @@
         "short_biography": "ไอแซค โมฮัมเหม็ด (Isaac Mohammed) หรือที่รู้จักในชื่อ 'เพชรหนึ่ง เพชรมวยไทย' เป็นนักชกสัญชาติฝรั่งเศส/แอลจีเรีย วัย 20 ปี จากสังกัดเพชรมวยไทยยิม มีส่วนสูง 169 เซนติเมตร และน้ำหนัก 116.6 ปอนด์ (ประมาณ 52.9 กิโลกรัม) เป็นนักชกดาวรุ่งที่ทำผลงานได้อย่างโดดเด่นในรายการ ONE ลุมพินี โดยคว้าชัยชนะรวด 3 ไฟต์ล่าสุด รวมถึงการเอาชนะคะแนนไม่เป็นเอกฉันท์ต่อ จูราอิ อิชิอิ เมื่อวันที่ 13 กุมภาพันธ์ 2026"
     },
     "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 3,
-            "time": "0:45",
-            "opponent_th": "ฤทธิเดช ลูกเจ้าพ่อโรงต้ม",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Apr 10, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 150 & The Inner Circle"
-        },
         {
             "result": "Win",
             "discipline_en": "Muay Thai",

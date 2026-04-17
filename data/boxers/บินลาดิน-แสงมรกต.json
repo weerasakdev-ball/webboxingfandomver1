@@ -1,111 +1,111 @@
 {
-    "fighter_profile": {
-        "name_th": "บินลาดิน แสงมรกต",
-        "name_en": "Binladin Sangmorakot",
-        "alias": "ไม่ระบุ",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": "ไม่ระบุ",
-            "weight_kg": "ไม่ระบุ",
-            "division": "Strawweight",
-            "height_ft": "5'4\"",
-            "height_cm": 164,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 25,
-            "team_th": "แสงมรกต",
-            "team_en": "Sangmorakot"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/binladin-sangmorakot/"
-        ],
-        "short_biography": "บินลาดิน แสงมรกต (Binladin Sangmorakot) เป็นนักชกชาวไทย วัย 25 ปี จากสังกัดแสงมรกต มีความถนัดในการต่อสู้สไตล์มวยไทย ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight ส่วนสูง 164 เซนติเมตร ผลงานการชกล่าสุดในรายการ ศึกมวยไทยพันธมิตร สามารถเอาชนะ เด็กดอย ที.เอ็น.มวยไทย ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  "fighter_profile": {
+    "name_th": "บินลาดิน แสงมรกต",
+    "name_en": "Binladin Sangmorakot",
+    "alias": "ไม่ระบุ",
+    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1740716400/binladin-sangmorakot-1600x1200-1_c666f2.png",
+    "grade": "ไม่ระบุ",
+    "fighting_style_th": "มวยไทย",
+    "fighting_style_en": "Muay Thai",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": "ไม่ระบุ",
+      "weight_kg": "ไม่ระบุ",
+      "division": "Strawweight",
+      "height_ft": "5'4\"",
+      "height_cm": 164,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
     },
-    "weigh_in_history": [
-        {
-            "event_name": "ONE ลุมพินี 112",
-            "weight_lbs": "ไม่ระบุ",
-            "division": "Strawweight"
-        }
+    "performance_stats": {
+      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+      "defensive_stats": "ยังไม่มีข้อมูล"
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 25,
+      "team_th": "แสงมรกต",
+      "team_en": "Sangmorakot"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/binladin-sangmorakot/"
     ],
-    "fight_history": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "กรุงไทย ทอฝันฟาร์ม",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Mar 27, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 148 & The Inner Circle"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 5,
-            "time": "3:00",
-            "opponent_th": "เด็กดอย ที.เอ็น.มวยไทย",
-            "opponent_en": "Dekdoi T.N. Muay Thai",
-            "opponent_country": "ไทย",
-            "date": "Jan 26, 2026",
-            "rating": "ไม่ระบุ",
-            "event_en": "ศึกมวยไทยพันธมิตร"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 5,
-            "time": "3:00",
-            "opponent_th": "ทัช ว.วัฒนสุพงษ์",
-            "opponent_en": "Touch W.Wattanasupong",
-            "opponent_country": "ไทย",
-            "date": "Dec 18, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ศึกเพชรยินดี"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 3,
-            "time": "1:55",
-            "opponent_th": "ทหารเอก นายกเอท่าศาลา",
-            "opponent_en": "Tahaneak Nayok Athasala",
-            "opponent_country": "ไทย",
-            "date": "Jun 13, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 112"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:24",
-            "opponent_th": "กานต์ชัย จิตรเมืองนนท์",
-            "opponent_en": "Kanchai Jitmuangnon",
-            "opponent_country": "ไทย",
-            "date": "Dec 08, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 44"
-        }
-    ]
+    "short_biography": "บินลาดิน แสงมรกต (Binladin Sangmorakot) เป็นนักชกชาวไทย วัย 25 ปี จากสังกัดแสงมรกต มีความถนัดในการต่อสู้สไตล์มวยไทย ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight ส่วนสูง 164 เซนติเมตร ผลงานการชกล่าสุดในรายการ ศึกมวยไทยพันธมิตร สามารถเอาชนะ เด็กดอย ที.เอ็น.มวยไทย ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 112",
+      "weight_lbs": "ไม่ระบุ",
+      "division": "Strawweight"
+    }
+  ],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "กรุงไทย ทอฝันฟาร์ม",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 27, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 148 & The Inner Circle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "เด็กดอย ที.เอ็น.มวยไทย",
+      "opponent_en": "Dekdoi T.N. Muay Thai",
+      "opponent_country": "ไทย",
+      "date": "Jan 26, 2026",
+      "rating": "ไม่ระบุ",
+      "event_en": "ศึกมวยไทยพันธมิตร"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "ทัช ว.วัฒนสุพงษ์",
+      "opponent_en": "Touch W.Wattanasupong",
+      "opponent_country": "ไทย",
+      "date": "Dec 18, 2025",
+      "rating": "ไม่ระบุ",
+      "event_en": "ศึกเพชรยินดี"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "1:55",
+      "opponent_th": "ทหารเอก นายกเอท่าศาลา",
+      "opponent_en": "Tahaneak Nayok Athasala",
+      "opponent_country": "ไทย",
+      "date": "Jun 13, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 112"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:24",
+      "opponent_th": "กานต์ชัย จิตรเมืองนนท์",
+      "opponent_en": "Kanchai Jitmuangnon",
+      "opponent_country": "ไทย",
+      "date": "Dec 08, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 44"
+    }
+  ]
 }

@@ -3,13 +3,13 @@
         "name_th": "ศรศึกน้อย เอฟเอ.กรุ๊ป",
         "name_en": "Sornsueknoi FA Group",
         "alias": "",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "image_url": "",
         "grade": "",
         "fighting_style_th": "",
         "fighting_style_en": "",
         "stance": "",
         "physical_stats": {
-            "weight_lbs": 128,
+            "weight_lbs": 128.0,
             "weight_kg": 58.06,
             "division": "Flyweight",
             "height_ft": "5'4\"",
@@ -56,19 +56,6 @@
         "target_url": ""
     },
     "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:07",
-            "opponent_th": "เหนือเพชร ทอฝันฟาร์ม",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Apr 10, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 150 & The Inner Circle"
-        },
         {
             "result": "Loss",
             "discipline_en": "Muay Thai",
@@ -283,7 +270,7 @@
     "weigh_in_history": [
         {
             "event_name": "ONE Lumpinee150",
-            "weight_lbs": 128,
+            "weight_lbs": 128.0,
             "division": "Flyweight"
         }
     ],

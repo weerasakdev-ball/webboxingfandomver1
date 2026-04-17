@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Flyweight / Catchweight",
     "fighters": [
         {
             "name_th": "ดอนคิงส์ โยธารักษ์มวยไทย",
-            "image_url": "https://i.ibb.co/rK7dBSQV/image.jpg",
+            "image_url": "ดอนคิงส์-โยธารักษ์มวยไทย",
             "team_th": "โยธารักษ์มวยไทย",
             "country_th": "ไทย",
             "stats": {
@@ -104,94 +104,12 @@
                 }
             },
             "profile_file": "ดอนคิงส์-โยธารักษ์มวยไทย.html",
-            "trend": "new",
-            "last_rank": null
-        },
-        {
-            "name_th": "ธานท์ ซิน",
-            "image_url": "https://i.ibb.co/BKgSRXLY/image.jpg",
-            "team_th": "ตอ วิน เอเยยาร์ คลับ",
-            "country_th": "เมียนมา",
-            "stats": {
-                "lifetime": {
-                    "one": {
-                        "wins": 2,
-                        "losses": 4,
-                        "draws": 0,
-                        "ko_wins": 2,
-                        "points": 10
-                    },
-                    "others": {
-                        "wins": 0,
-                        "losses": 0,
-                        "draws": 0,
-                        "ko_wins": 0,
-                        "points": 0
-                    },
-                    "total": {
-                        "wins": 2,
-                        "losses": 4,
-                        "draws": 0,
-                        "ko_wins": 2,
-                        "points": 10
-                    }
-                },
-                "yearly": {
-                    "2024": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    },
-                    "2025": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    }
-                }
-            },
-            "profile_file": "ธานท์-ซิน.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         },
         {
             "name_th": "เอกอร์ บิเกรฟ",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772549099/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AD%E0%B8%A3%E0%B9%8C-%E0%B8%9A%E0%B8%B4%E0%B9%80%E0%B8%81%E0%B8%A3%E0%B8%9F_yhh4nv.jpg",
+            "image_url": "เอกอร์-บิเกรฟ",
             "team_th": "ซิตี้ ออฟ ไฟต์เตอร์ส / คุซบาส มวยไทย",
             "country_th": "รัสเซีย",
             "stats": {
@@ -245,8 +163,8 @@
                 }
             },
             "profile_file": "เอกอร์-บิเกรฟ.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "up",
+            "last_rank": 3
         }
     ]
 }

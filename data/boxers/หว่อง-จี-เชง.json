@@ -1,78 +1,78 @@
 {
-    "fighter_profile": {
-        "name_th": "หว่อง จี เชง",
-        "name_en": "Wang Tsz Ching",
-        "alias": "ไม่ระบุ",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "คิกบ็อกซิ่ง",
-        "fighting_style_en": "Kickboxing",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 114.8,
-            "weight_kg": 52.07,
-            "division": "Atomweight",
-            "height_ft": "5'2\"",
-            "height_cm": 160,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "ฮ่องกง",
-            "country_en": "Hong Kong",
-            "age": 25,
-            "team_th": "Ole Muay Thai and Fitness",
-            "team_en": "Ole Muay Thai and Fitness"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/wang-tsz-ching/"
-        ]
+  "fighter_profile": {
+    "name_th": "หว่อง จี เชง",
+    "name_en": "Wang Tsz Ching",
+    "alias": "ไม่ระบุ",
+    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1740716400/wang-tsz-ching-1600x1200-1_c666f2.png",
+    "grade": "ไม่ระบุ",
+    "fighting_style_th": "คิกบ็อกซิ่ง",
+    "fighting_style_en": "Kickboxing",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": 114.8,
+      "weight_kg": 52.07,
+      "division": "Atomweight",
+      "height_ft": "5'2\"",
+      "height_cm": 160,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
     },
-    "weigh_in_history": [
-        {
-            "event_name": "ONE ลุมพินี 148",
-            "weight_lbs": 114.8,
-            "division": "Atomweight"
-        },
-        {
-            "event_name": "ONE ลุมพินี 135",
-            "weight_lbs": "ไม่ระบุ",
-            "division": "Atomweight"
-        }
-    ],
-    "fight_history": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "น้องฟ้าใส ท็อป พีเค.แสนชัย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Mar 27, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 148 & The Inner Circle"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Kickboxing",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "โอลีเวีย ดาบรอว์สกี",
-            "opponent_en": "Oliwia Dabrowska",
-            "opponent_country": "โปแลนด์",
-            "date": "Nov 28, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 135"
-        }
-    ],
-    "fight_history_one_championship": [],
-    "upcoming_fights": []
+    "performance_stats": {
+      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+      "defensive_stats": "ยังไม่มีข้อมูล"
+    },
+    "personal_info": {
+      "country_th": "ฮ่องกง",
+      "country_en": "Hong Kong",
+      "age": 25,
+      "team_th": "Ole Muay Thai and Fitness",
+      "team_en": "Ole Muay Thai and Fitness"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/wang-tsz-ching/"
+    ]
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 148",
+      "weight_lbs": 114.8,
+      "division": "Atomweight"
+    },
+    {
+      "event_name": "ONE ลุมพินี 135",
+      "weight_lbs": "ไม่ระบุ",
+      "division": "Atomweight"
+    }
+  ],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "น้องฟ้าใส ท็อป พีเค.แสนชัย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 27, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 148 & The Inner Circle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Kickboxing",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "โอลีเวีย ดาบรอว์สกี",
+      "opponent_en": "Oliwia Dabrowska",
+      "opponent_country": "โปแลนด์",
+      "date": "Nov 28, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 135"
+    }
+  ],
+  "fight_history_one_championship": [],
+  "upcoming_fights": []
 }

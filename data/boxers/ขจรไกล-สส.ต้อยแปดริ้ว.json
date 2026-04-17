@@ -1,71 +1,71 @@
 {
-    "fighter_profile": {
-        "name_th": "ขจรไกล สส.ต้อยแปดริ้ว",
-        "name_en": "Kajornklai Sor Sor Toipadriew",
-        "alias": "ไม่ระบุ",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
-        "grade": "B",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 139.0,
-            "weight_kg": 63.05,
-            "division": "Bantamweight",
-            "height_ft": "5'7\"",
-            "height_cm": 170,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 24,
-            "team_th": "สส.ต้อยแปดริ้ว",
-            "team_en": "Sor Sor Toipadriew"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/kajornklai-sor-sor-toipadriew/"
-        ]
+  "fighter_profile": {
+    "name_th": "ขจรไกล สส.ต้อยแปดริ้ว",
+    "name_en": "Kajornklai Sor Sor Toipadriew",
+    "alias": "ไม่ระบุ",
+    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324021/%E0%B8%82%E0%B8%88%E0%B8%A3%E0%B9%84%E0%B8%81%E0%B8%A5_%E0%B8%AA%E0%B8%AA.%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B9%81%E0%B8%9B%E0%B8%94%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7_czhsls.png",
+    "grade": "B",
+    "fighting_style_th": "มวยไทย",
+    "fighting_style_en": "Muay Thai",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": 139.0,
+      "weight_kg": 63.05,
+      "division": "Bantamweight",
+      "height_ft": "5'7\"",
+      "height_cm": 170,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
     },
-    "weigh_in_history": [
-        {
-            "event_name": "ONE ลุมพินี 146",
-            "weight_lbs": 139.0,
-            "division": "Bantamweight"
-        }
-    ],
-    "fight_history": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "สิงหราช ศิษย์ขุนทัพ",
-            "opponent_en": "Singharat SitKhuntab",
-            "opponent_country": "ไทย",
-            "date": "Mar 13, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 146"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ดัง ส.นิยมนาม",
-            "opponent_en": "Dunk Sor Niyomsap",
-            "opponent_country": "ไทย",
-            "date": "Jan 23, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 139"
-        }
+    "performance_stats": {
+      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+      "defensive_stats": "ยังไม่มีข้อมูล"
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 24,
+      "team_th": "สส.ต้อยแปดริ้ว",
+      "team_en": "Sor Sor Toipadriew"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/kajornklai-sor-sor-toipadriew/"
     ]
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 146",
+      "weight_lbs": 139.0,
+      "division": "Bantamweight"
+    }
+  ],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "สิงหราช ศิษย์ขุนทัพ",
+      "opponent_en": "Singharat SitKhuntab",
+      "opponent_country": "ไทย",
+      "date": "Mar 13, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 146"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ดัง ส.นิยมนาม",
+      "opponent_en": "Dunk Sor Niyomsap",
+      "opponent_country": "ไทย",
+      "date": "Jan 23, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 139"
+    }
+  ]
 }

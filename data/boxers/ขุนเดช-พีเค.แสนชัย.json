@@ -1,135 +1,135 @@
 {
-    "fighter_profile": {
-        "name_th": "ขุนเดช พีเค.แสนชัย",
-        "name_en": "Khundet PK.Saenchai",
-        "alias": "ไม่ระบุ",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 134.8,
-            "weight_kg": 61.14,
-            "division": "Flyweight",
-            "height_ft": "5'6\"",
-            "height_cm": 170,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 20,
-            "team_th": "พีเค.แสนชัยมวยไทยยิม",
-            "team_en": "PK.Saenchai Muaythai Gym"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/khundet-pk-saenchai/"
-        ]
+  "fighter_profile": {
+    "name_th": "ขุนเดช พีเค.แสนชัย",
+    "name_en": "Khundet PK.Saenchai",
+    "alias": "ไม่ระบุ",
+    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775184702/%E0%B8%82%E0%B8%B8%E0%B8%99%E0%B9%80%E0%B8%94%E0%B8%8A_pwyrty.png",
+    "grade": "ไม่ระบุ",
+    "fighting_style_th": "มวยไทย",
+    "fighting_style_en": "Muay Thai",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": 134.8,
+      "weight_kg": 61.14,
+      "division": "Flyweight",
+      "height_ft": "5'6\"",
+      "height_cm": 170,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
     },
-    "weigh_in_history": [
-        {
-            "event_name": "ONE ลุมพินี 148",
-            "weight_lbs": 134.8,
-            "division": "Flyweight"
-        },
-        {
-            "event_name": "ONE ลุมพินี 98",
-            "weight_lbs": 131.6,
-            "division": "Catchweight"
-        },
-        {
-            "event_name": "ONE ลุมพินี 77",
-            "weight_lbs": "ไม่ระบุ",
-            "division": "ไม่ระบุ"
-        }
-    ],
-    "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "อานัวร์ ซิสเนรอส",
-            "opponent_en": "",
-            "opponent_country": "เม็กซิโก",
-            "date": "Mar 27, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 148 & The Inner Circle"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "ไม่ระบุ",
-            "opponent_th": "พร้อมเผด็จ ลูกสวนออโต้มวยไทย",
-            "opponent_en": "Phromphadet Luksuan Automuaythai",
-            "opponent_country": "ไทย",
-            "date": "Nov 05, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ศึกมวยไทยพลังใหม่"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Decision",
-            "round": 5,
-            "time": "3:00",
-            "opponent_th": "ขุนทัพ ลูกเจ้าพ่อปืนใหญ่",
-            "opponent_en": "Khunthap Lukchaophopuenyai",
-            "opponent_country": "ไทย",
-            "date": "Sep 24, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ศึกมวยไทยพลังใหม่"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 4,
-            "time": "ไม่ระบุ",
-            "opponent_th": "บัวแก้ว สส.ปกรณ์",
-            "opponent_en": "Buakaew Sor.Sommai",
-            "opponent_country": "ไทย",
-            "date": "Jun 28, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ศึกมวยไทยเกียรติเพชร"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "0:24",
-            "opponent_th": "น้องโอ๋ ลาวล้านช้าง",
-            "opponent_en": "Nongoh Laolanchang",
-            "opponent_country": "ลาว",
-            "date": "Feb 28, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 98"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "0:46",
-            "opponent_th": "แมนยู ศิษย์เจ๊นิ่ม",
-            "opponent_en": "Manyu Sitjenim",
-            "opponent_country": "ไทย",
-            "date": "Aug 30, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 77"
-        }
-    ],
-    "fight_history_one_championship": [],
-    "upcoming_fights": []
+    "performance_stats": {
+      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+      "defensive_stats": "ยังไม่มีข้อมูล"
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 20,
+      "team_th": "พีเค.แสนชัยมวยไทยยิม",
+      "team_en": "PK.Saenchai Muaythai Gym"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/khundet-pk-saenchai/"
+    ]
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 148",
+      "weight_lbs": 134.8,
+      "division": "Flyweight"
+    },
+    {
+      "event_name": "ONE ลุมพินี 98",
+      "weight_lbs": 131.6,
+      "division": "Catchweight"
+    },
+    {
+      "event_name": "ONE ลุมพินี 77",
+      "weight_lbs": "ไม่ระบุ",
+      "division": "ไม่ระบุ"
+    }
+  ],
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "อานัวร์ ซิสเนรอส",
+      "opponent_en": "",
+      "opponent_country": "เม็กซิโก",
+      "date": "Mar 27, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 148 & The Inner Circle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "ไม่ระบุ",
+      "opponent_th": "พร้อมเผด็จ ลูกสวนออโต้มวยไทย",
+      "opponent_en": "Phromphadet Luksuan Automuaythai",
+      "opponent_country": "ไทย",
+      "date": "Nov 05, 2025",
+      "rating": "ไม่ระบุ",
+      "event_en": "ศึกมวยไทยพลังใหม่"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "ขุนทัพ ลูกเจ้าพ่อปืนใหญ่",
+      "opponent_en": "Khunthap Lukchaophopuenyai",
+      "opponent_country": "ไทย",
+      "date": "Sep 24, 2025",
+      "rating": "ไม่ระบุ",
+      "event_en": "ศึกมวยไทยพลังใหม่"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 4,
+      "time": "ไม่ระบุ",
+      "opponent_th": "บัวแก้ว สส.ปกรณ์",
+      "opponent_en": "Buakaew Sor.Sommai",
+      "opponent_country": "ไทย",
+      "date": "Jun 28, 2025",
+      "rating": "ไม่ระบุ",
+      "event_en": "ศึกมวยไทยเกียรติเพชร"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "0:24",
+      "opponent_th": "น้องโอ๋ ลาวล้านช้าง",
+      "opponent_en": "Nongoh Laolanchang",
+      "opponent_country": "ลาว",
+      "date": "Feb 28, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 98"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "0:46",
+      "opponent_th": "แมนยู ศิษย์เจ๊นิ่ม",
+      "opponent_en": "Manyu Sitjenim",
+      "opponent_country": "ไทย",
+      "date": "Aug 30, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 77"
+    }
+  ],
+  "fight_history_one_championship": [],
+  "upcoming_fights": []
 }

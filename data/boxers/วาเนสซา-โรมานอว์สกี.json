@@ -1,90 +1,90 @@
 {
-    "fighter_profile": {
-        "name_th": "วาเนสซา โรมานอว์สกี",
-        "name_en": "Vanessa Romanowski",
-        "alias": "ไม่ระบุ",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 115,
-            "weight_kg": 52.16,
-            "division": "Atomweight",
-            "height_ft": "5'4\"",
-            "height_cm": 165,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ",
-            "hydration": "N/A"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "สวีเดน/โปแลนด์",
-            "country_en": "Sweden/Poland",
-            "age": 21,
-            "team_th": "Allstars Training Center / Rawai Muay Thai Khao Lak",
-            "team_en": "Allstars Training Center / Rawai Muay Thai Khao Lak"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/vanessa-romanowski/"
-        ],
-        "short_biography": "วาเนสซา โรมานอว์สกี (Vanessa Romanowski) เป็นนักชกชาวสวีเดน/โปแลนด์ วัย 21 ปี จากสังกัดทีม Allstars Training Center / Rawai Muay Thai Khao Lak มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 165 เซนติเมตร (5'4\") มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
-        "target_url": ""
+  "fighter_profile": {
+    "name_th": "วาเนสซา โรมานอว์สกี",
+    "name_en": "Vanessa Romanowski",
+    "alias": "ไม่ระบุ",
+    "image_url": "ไม่ระบุ",
+    "grade": "ไม่ระบุ",
+    "fighting_style_th": "มวยไทย",
+    "fighting_style_en": "Muay Thai",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": 115,
+      "weight_kg": 52.16,
+      "division": "Atomweight",
+      "height_ft": "5'4\"",
+      "height_cm": 165,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ",
+      "hydration": "N/A"
     },
-    "weigh_in_history": [
-        {
-            "event_name": "ONE LUMPINEE 149",
-            "weight_lbs": 115,
-            "division": "Atomweight"
-        }
+    "performance_stats": {
+      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+      "defensive_stats": "ยังไม่มีข้อมูล"
+    },
+    "personal_info": {
+      "country_th": "สวีเดน/โปแลนด์",
+      "country_en": "Sweden/Poland",
+      "age": 21,
+      "team_th": "Allstars Training Center / Rawai Muay Thai Khao Lak",
+      "team_en": "Allstars Training Center / Rawai Muay Thai Khao Lak"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/vanessa-romanowski/"
     ],
-    "fight_history": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "พลอยจันทร์ ศิษย์นายกดำ",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Apr 03, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 149 & The Inner Circle"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "1:44",
-            "opponent_th": "สเตลลา เฮเมตซ์เบอร์เกอร์",
-            "opponent_en": "",
-            "opponent_country": "ออสเตรีย",
-            "date": "Apr 11, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 104"
-        }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO",
-            "round": 1,
-            "time": "1:44",
-            "opponent_th": "สเตลลา เฮเมตซ์เบอร์เกอร์",
-            "opponent_en": "Stella Hemetsberger",
-            "opponent_country": "ออสเตรีย",
-            "date": "Apr 11, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 104"
-        }
-    ],
-    "upcoming_fights": []
+    "short_biography": "วาเนสซา โรมานอว์สกี (Vanessa Romanowski) เป็นนักชกชาวสวีเดน/โปแลนด์ วัย 21 ปี จากสังกัดทีม Allstars Training Center / Rawai Muay Thai Khao Lak มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 165 เซนติเมตร (5'4\") มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
+    "target_url": ""
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE LUMPINEE 149",
+      "weight_lbs": 115,
+      "division": "Atomweight"
+    }
+  ],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "พลอยจันทร์ ศิษย์นายกดำ",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 03, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:44",
+      "opponent_th": "สเตลลา เฮเมตซ์เบอร์เกอร์",
+      "opponent_en": "",
+      "opponent_country": "ออสเตรีย",
+      "date": "Apr 11, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 104"
+    }
+  ],
+  "fight_history_one_championship": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO",
+      "round": 1,
+      "time": "1:44",
+      "opponent_th": "สเตลลา เฮเมตซ์เบอร์เกอร์",
+      "opponent_en": "Stella Hemetsberger",
+      "opponent_country": "ออสเตรีย",
+      "date": "Apr 11, 2025",
+      "rating": "ไม่ระบุ",
+      "event_en": "ONE Lumpinee 104"
+    }
+  ],
+  "upcoming_fights": []
 }

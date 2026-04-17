@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Featherweight (145 - 155 lbs)",
     "fighters": [
         {
             "name_th": "โจ ณัฐวุฒิ",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531976/%E0%B9%82%E0%B8%88-%E0%B8%93%E0%B8%B1%E0%B8%90%E0%B8%A7%E0%B8%B8%E0%B8%92%E0%B8%B4_nvti1i.jpg",
+            "image_url": "โจ-ณัฐวุฒิ",
             "team_th": "ไทยท็อปทีม (Thai Top Team)",
             "country_th": "ไทย",
             "stats": {
@@ -196,8 +196,8 @@
                 }
             },
             "profile_file": "โจ-ณัฐวุฒิ.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         }
     ]
 }

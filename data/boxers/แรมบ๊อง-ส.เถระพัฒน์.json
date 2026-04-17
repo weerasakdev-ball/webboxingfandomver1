@@ -3,7 +3,7 @@
         "name_th": "แรมบ๊อง ส.เถระพัฒน์",
         "name_en": "Rambong Sor Therapat",
         "alias": "",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "image_url": "",
         "grade": "",
         "fighting_style_th": "มวยไทย",
         "fighting_style_en": "Muay Thai",
@@ -56,19 +56,6 @@
         "target_url": ""
     },
     "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Majority Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เพชรหัวหิน จิตรเมืองนนท์",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Apr 10, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 150 & The Inner Circle"
-        },
         {
             "result": "Win",
             "discipline_en": "Muay Thai",

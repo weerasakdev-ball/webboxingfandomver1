@@ -1,187 +1,187 @@
 {
-    "fighter_profile": {
-        "name_th": "ชาโด้ สิงห์มาวิน",
-        "name_en": "Shadow Singmawynn",
-        "alias": "(The Shadow)",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
-        "grade": "A",
-        "fighting_style_th": "มวยฝีมือ, บู๊",
-        "fighting_style_en": "Technical Fighter (Muay Fimeu), Aggressive",
-        "stance": "Orthodox (Right-handed)",
-        "physical_stats": {
-            "weight_lbs": 154.8,
-            "weight_kg": 70.2,
-            "division": "Featherweight",
-            "height_ft": "5'10\"",
-            "height_cm": 179,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "100"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": 7,
-                "body": 4,
-                "legs": 3,
-                "total_per_minute": 14
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": 42,
-                "accuracy_by_target_percentage": {
-                    "head": 50,
-                    "body": 35,
-                    "legs": 15
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": 40,
-                "defense_by_target_percentage": {
-                    "head": 45,
-                    "body": 35,
-                    "legs": 20
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 26,
-            "team_th": "สิงห์มาวิน",
-            "team_en": "Singha Mawynn"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/shadow/"
-        ]
+  "fighter_profile": {
+    "name_th": "ชาโด้ สิงห์มาวิน",
+    "name_en": "Shadow Singmawynn",
+    "alias": "(The Shadow)",
+    "image_url": "https://i.ibb.co/SDFCw2Br/image.jpg",
+    "grade": "A",
+    "fighting_style_th": "มวยฝีมือ, บู๊",
+    "fighting_style_en": "Technical Fighter (Muay Fimeu), Aggressive",
+    "stance": "Orthodox (Right-handed)",
+    "physical_stats": {
+      "weight_lbs": 154.8,
+      "weight_kg": 70.2,
+      "division": "Featherweight",
+      "height_ft": "5'10\"",
+      "height_cm": 179,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "100"
     },
-    "fight_history": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 5,
-            "time": "3:00",
-            "opponent_th": "นิโค คาร์ริลโล",
-            "opponent_en": "",
-            "opponent_country": "สกอตแลนด์",
-            "date": "Feb 14, 2026",
-            "rating": 5,
-            "event_en": "ONE Fight Night 40: แจ็กกี vs สเตลลา ll"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Kickboxing",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "หลิว เมิงหยาง",
-            "opponent_en": "",
-            "opponent_country": "จีน",
-            "date": "Sep 26, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 126"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:20",
-            "opponent_th": "บัมปารา คูยาเต",
-            "opponent_en": "",
-            "opponent_country": "ฝรั่งเศส/มาลี",
-            "date": "Sep 06, 2025",
-            "rating": 5,
-            "event_en": "ONE Fight Night 35: แจ็กกี vs สเตลลา"
-        },
-        {
-            "result": "Draw",
-            "discipline_en": "Muay Thai",
-            "method_en": "Decision",
-            "round": 3,
-            "time": "N/A",
-            "opponent_th": "โมฮาเหม็ด ยูเนส ราบาห์",
-            "opponent_en": "",
-            "opponent_country": "แอลจีเรีย",
-            "date": "Jul 12, 2025",
-            "rating": 5,
-            "event_en": "ONE Fight Night 33: อัลลิเซีย vs โยฮันนา"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "2:51",
-            "opponent_th": "ฮัสซัน วาห์ดานิราด",
-            "opponent_en": "",
-            "opponent_country": "อิหร่าน",
-            "date": "Mar 14, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 100"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "สิทธิชัย ศิษย์สองพี่น้อง",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Dec 20, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 92"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "โมฮัมหมัด เซียซารานี",
-            "opponent_en": "",
-            "opponent_country": "อิหร่าน",
-            "date": "Sep 27, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "จิมมี วีโนต์",
-            "opponent_en": "",
-            "opponent_country": "ฝรั่งเศส",
-            "date": "Jun 28, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 68: พระจันทร์ฉาย vs โจนาธาน"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 3,
-            "time": "0:53",
-            "opponent_th": "เอริค เฮเออร์",
-            "opponent_en": "",
-            "opponent_country": "สวีเดน",
-            "date": "Apr 05, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 58: ซุปเปอร์บอน vs มารัต"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "มามูกา อูซูบายัน",
-            "opponent_en": "",
-            "opponent_country": "รัสเซีย",
-            "date": "Feb 16, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 52"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": 7,
+        "body": 4,
+        "legs": 3,
+        "total_per_minute": 14
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": 42,
+        "accuracy_by_target_percentage": {
+          "head": 50,
+          "body": 35,
+          "legs": 15
         }
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": 40,
+        "defense_by_target_percentage": {
+          "head": 45,
+          "body": 35,
+          "legs": 20
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 26,
+      "team_th": "สิงห์มาวิน",
+      "team_en": "Singha Mawynn"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/shadow/"
     ]
+  },
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "นิโค คาร์ริลโล",
+      "opponent_en": "",
+      "opponent_country": "สกอตแลนด์",
+      "date": "Feb 14, 2026",
+      "rating": 5,
+      "event_en": "ONE Fight Night 40: แจ็กกี vs สเตลลา ll"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Kickboxing",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "หลิว เมิงหยาง",
+      "opponent_en": "",
+      "opponent_country": "จีน",
+      "date": "Sep 26, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 126"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:20",
+      "opponent_th": "บัมปารา คูยาเต",
+      "opponent_en": "",
+      "opponent_country": "ฝรั่งเศส/มาลี",
+      "date": "Sep 06, 2025",
+      "rating": 5,
+      "event_en": "ONE Fight Night 35: แจ็กกี vs สเตลลา"
+    },
+    {
+      "result": "Draw",
+      "discipline_en": "Muay Thai",
+      "method_en": "Decision",
+      "round": 3,
+      "time": "N/A",
+      "opponent_th": "โมฮาเหม็ด ยูเนส ราบาห์",
+      "opponent_en": "",
+      "opponent_country": "แอลจีเรีย",
+      "date": "Jul 12, 2025",
+      "rating": 5,
+      "event_en": "ONE Fight Night 33: อัลลิเซีย vs โยฮันนา"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:51",
+      "opponent_th": "ฮัสซัน วาห์ดานิราด",
+      "opponent_en": "",
+      "opponent_country": "อิหร่าน",
+      "date": "Mar 14, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 100"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "สิทธิชัย ศิษย์สองพี่น้อง",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Dec 20, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 92"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "โมฮัมหมัด เซียซารานี",
+      "opponent_en": "",
+      "opponent_country": "อิหร่าน",
+      "date": "Sep 27, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "จิมมี วีโนต์",
+      "opponent_en": "",
+      "opponent_country": "ฝรั่งเศส",
+      "date": "Jun 28, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 68: พระจันทร์ฉาย vs โจนาธาน"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "0:53",
+      "opponent_th": "เอริค เฮเออร์",
+      "opponent_en": "",
+      "opponent_country": "สวีเดน",
+      "date": "Apr 05, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 58: ซุปเปอร์บอน vs มารัต"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "มามูกา อูซูบายัน",
+      "opponent_en": "",
+      "opponent_country": "รัสเซีย",
+      "date": "Feb 16, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 52"
+    }
+  ]
 }

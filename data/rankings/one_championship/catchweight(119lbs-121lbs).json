@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Catchweight (119 lbs / 121 lbs)",
     "fighters": [
         {
             "name_th": "มังกร บูมเด็กเซียน",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773123898/%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3_wkqde6.png",
+            "image_url": "มังกร-บูมเด็กเซียน",
             "team_th": "บูมเด็กเซียน (Boomdeksean)",
             "country_th": "ไทย (สุรินทร์)",
             "stats": {
@@ -104,8 +104,8 @@
                 }
             },
             "profile_file": "มังกร-บูมเด็กเซียน.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         }
     ]
 }

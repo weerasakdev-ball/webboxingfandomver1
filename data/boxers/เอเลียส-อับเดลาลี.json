@@ -1,135 +1,122 @@
 {
-  "fighter_profile": {
-    "name_th": "เอเลียส อับเดลาลี",
-    "name_en": "Elies Abdelali",
-    "alias": "ไม่ระบุ",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772549100/เอเลียส-อับเดลาลี_tkwcns.jpg",
-    "grade": "B",
-    "fighting_style_th": "มวยไทย, บู๊",
-    "fighting_style_en": "Muay Thai, Aggressive",
-    "stance": "Orthodox (Right-handed)",
-    "physical_stats": {
-      "weight_lbs": 153.8,
-      "weight_kg": 69.76,
-      "division": "Featherweight",
-      "height_ft": "6'0\"",
-      "height_cm": 185,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "104",
-      "hydration": "N/A"
+    "fighter_profile": {
+        "name_th": "เอเลียส อับเดลาลี",
+        "name_en": "Elies Abdelali",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772549100/เอเลียส-อับเดลาลี_tkwcns.jpg",
+        "grade": "B",
+        "fighting_style_th": "มวยไทย, บู๊",
+        "fighting_style_en": "Muay Thai, Aggressive",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 153.8,
+            "weight_kg": 69.76,
+            "division": "Featherweight",
+            "height_ft": "6'0\"",
+            "height_cm": 185,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "104",
+            "hydration": "N/A"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 9,
+                "body": 4,
+                "legs": 3,
+                "total_per_minute": 16
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 52,
+                "accuracy_by_target_percentage": {
+                    "head": 60,
+                    "body": 25,
+                    "legs": 15
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 48,
+                "defense_by_target_percentage": {
+                    "head": 55,
+                    "body": 30,
+                    "legs": 15
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ฝรั่งเศส",
+            "country_en": "France",
+            "age": 23,
+            "team_th": "ทีม ปายาน",
+            "team_en": "Team Payan"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/elies-abdelali/"
+        ],
+        "short_biography": "เอเลียส อับเดลาลี (Elies Abdelali) เป็นนักชกชาวฝรั่งเศส วัย 23 ปี จากสังกัดทีม ปายาน มีความถนัดในการต่อสู้สไตล์มวยไทย, บู๊ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Featherweight (ประมาณ 70 กิโลกรัม) ส่วนสูง 185 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 134 สามารถเอาชนะ อลาเวอร์ดี รามาซานอฟ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": 9,
-        "body": 4,
-        "legs": 3,
-        "total_per_minute": 16
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": 52,
-        "accuracy_by_target_percentage": {
-          "head": 60,
-          "body": 25,
-          "legs": 15
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:27",
+            "opponent_th": "อลาเวอร์ดี รามาซานอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Nov 21, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 134"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ปตท. อภิชาติฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 27, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 114"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": 48,
-        "defense_by_target_percentage": {
-          "head": 55,
-          "body": 30,
-          "legs": 15
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "ฝรั่งเศส",
-      "country_en": "France",
-      "age": 23,
-      "team_th": "ทีม ปายาน",
-      "team_en": "Team Payan"
-    },
-    "target_url": "",
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/elies-abdelali/"
     ],
-    "short_biography": "เอเลียส อับเดลาลี (Elies Abdelali) เป็นนักชกชาวฝรั่งเศส วัย 23 ปี จากสังกัดทีม ปายาน มีความถนัดในการต่อสู้สไตล์มวยไทย, บู๊ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Featherweight (ประมาณ 70 กิโลกรัม) ส่วนสูง 185 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 134 สามารถเอาชนะ อลาเวอร์ดี รามาซานอฟ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
-  },
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "1:14",
-      "opponent_th": "ฮิชาม เซรูอาลี",
-      "opponent_en": "",
-      "opponent_country": "โมร็อกโก",
-      "date": "Apr 10, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 150 & The Inner Circle"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "0:27",
-      "opponent_th": "อลาเวอร์ดี รามาซานอฟ",
-      "opponent_en": "",
-      "opponent_country": "รัสเซีย",
-      "date": "Nov 21, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 134"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ปตท. อภิชาติฟาร์ม",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jun 27, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 114"
-    }
-  ],
-  "fight_history_one_championship": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "0:27",
-      "opponent_th": "อลาเวอร์ดี รามาซานอฟ",
-      "opponent_en": "",
-      "opponent_country": "รัสเซีย",
-      "date": "Nov 21, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 134"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ปตท. อภิชาติฟาร์ม",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jun 27, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 114"
-    }
-  ],
-  "weigh_in_history": [
-    {
-      "event_name": "ONE Lumpinee150",
-      "weight_lbs": 153.8,
-      "division": "Featherweight"
-    }
-  ],
-  "upcoming_fights": []
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:27",
+            "opponent_th": "อลาเวอร์ดี รามาซานอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Nov 21, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 134"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ปตท. อภิชาติฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 27, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 114"
+        }
+    ],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE Lumpinee150",
+            "weight_lbs": 153.8,
+            "division": "Featherweight"
+        }
+    ],
+    "upcoming_fights": []
 }

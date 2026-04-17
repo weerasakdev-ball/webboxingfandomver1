@@ -1,161 +1,161 @@
 {
-    "fighter_profile": {
-        "name_th": "อัสซาดูลาห์ อิมานกาซาลิเอฟ",
-        "name_en": "Assadula Imangazaliev",
-        "alias": "Ninja",
-        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
-        "grade": "A",
-        "fighting_style_th": "บุก",
-        "fighting_style_en": "Aggressive / Pressure Fighter",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 133.8,
-            "weight_kg": 60.2,
-            "division": "Flyweight",
-            "height_ft": "5'10\"",
-            "height_cm": 180,
-            "reach_cm": 184,
-            "leg_reach_cm": "ยังไม่มีข้อมูล"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": 4,
-                "body": 1,
-                "legs": 1,
-                "total_per_minute": 17
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": 45,
-                "accuracy_by_target_percentage": {
-                    "head": 59,
-                    "body": 18,
-                    "legs": 23
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": 24,
-                "defense_by_target_percentage": {
-                    "head": 28,
-                    "body": 28,
-                    "legs": 43
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "รัสเซีย",
-            "country_en": "Russia",
-            "age": 22,
-            "team_th": "Team Mehdi Zatout",
-            "team_en": "Team Mehdi Zatout"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/asadula-imangazaliev/"
-        ]
+  "fighter_profile": {
+    "name_th": "อัสซาดูลาห์ อิมานกาซาลิเอฟ",
+    "name_en": "Assadula Imangazaliev",
+    "alias": "Ninja",
+    "image_url": "https://i.ibb.co/TBs9j0Nx/image.jpg",
+    "grade": "A",
+    "fighting_style_th": "บุก",
+    "fighting_style_en": "Aggressive / Pressure Fighter",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": 133.8,
+      "weight_kg": 60.2,
+      "division": "Flyweight",
+      "height_ft": "5'10\"",
+      "height_cm": 180,
+      "reach_cm": 184,
+      "leg_reach_cm": "ยังไม่มีข้อมูล"
     },
-    "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "0:44",
-            "opponent_th": "น้องโอ๋ ฮาม่ามวยไทย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Mar 20, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 147"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:06",
-            "opponent_th": "ก้องธรณี ส.สมหมาย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jan 24, 2026",
-            "rating": 5,
-            "event_en": "ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:07",
-            "opponent_th": "พันธ์พยัคฆ์ จิตรเมืองนนท์",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Aug 29, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 122"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "0:52",
-            "opponent_th": "เด่นภูไท ซุปเปอร์เล็ก มวยไทย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jun 20, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 113"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ตาวฟิก มาวินมวยไทย",
-            "opponent_en": "",
-            "opponent_country": "โมร็อกโก",
-            "date": "Feb 28, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 98"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "1:00",
-            "opponent_th": "เด็ดดวงเล็ก ทอฝันฟาร์ม",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Dec 06, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 90"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "0:34",
-            "opponent_th": "บาเบอร์ชอน อิสรออิลอฟ",
-            "opponent_en": "",
-            "opponent_country": "อุซเบกิสถาน",
-            "date": "Sep 13, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 79"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "1:45",
-            "opponent_th": "เพชรเมืองศรี ทอฝันฟาร์ม",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jul 19, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 71"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": 4,
+        "body": 1,
+        "legs": 1,
+        "total_per_minute": 17
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": 45,
+        "accuracy_by_target_percentage": {
+          "head": 59,
+          "body": 18,
+          "legs": 23
         }
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": 24,
+        "defense_by_target_percentage": {
+          "head": 28,
+          "body": 28,
+          "legs": 43
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "รัสเซีย",
+      "country_en": "Russia",
+      "age": 22,
+      "team_th": "Team Mehdi Zatout",
+      "team_en": "Team Mehdi Zatout"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/asadula-imangazaliev/"
     ]
+  },
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "0:44",
+      "opponent_th": "น้องโอ๋ ฮาม่ามวยไทย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 20, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 147"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:06",
+      "opponent_th": "ก้องธรณี ส.สมหมาย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jan 24, 2026",
+      "rating": 5,
+      "event_en": "ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:07",
+      "opponent_th": "พันธ์พยัคฆ์ จิตรเมืองนนท์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Aug 29, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 122"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "0:52",
+      "opponent_th": "เด่นภูไท ซุปเปอร์เล็ก มวยไทย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jun 20, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 113"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ตาวฟิก มาวินมวยไทย",
+      "opponent_en": "",
+      "opponent_country": "โมร็อกโก",
+      "date": "Feb 28, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 98"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:00",
+      "opponent_th": "เด็ดดวงเล็ก ทอฝันฟาร์ม",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Dec 06, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 90"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "0:34",
+      "opponent_th": "บาเบอร์ชอน อิสรออิลอฟ",
+      "opponent_en": "",
+      "opponent_country": "อุซเบกิสถาน",
+      "date": "Sep 13, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 79"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:45",
+      "opponent_th": "เพชรเมืองศรี ทอฝันฟาร์ม",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jul 19, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 71"
+    }
+  ]
 }
