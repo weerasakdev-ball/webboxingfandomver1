@@ -1,187 +1,187 @@
 {
-  "fighter_profile": {
-    "name_th": "จาง เป่ยเหมียน",
-    "name_en": "Zhang Peimian",
-    "alias": "Fighting Rooster",
-    "image_url": "https://i.ibb.co/wh60Hwck/image.jpg",
-    "grade": "A",
-    "fighting_style_th": "คิกบ็อกซิ่ง, หมัดชุดรวดเร็ว, บู๊ดุดัน",
-    "fighting_style_en": "Kickboxing, Rapid Combinations, Aggressive",
-    "stance": "Orthodox (Right-handed)",
-    "physical_stats": {
-      "weight_lbs": 124.8,
-      "weight_kg": 56.6,
-      "division": "Strawweight",
-      "height_ft": "5'4\"",
-      "height_cm": 163,
-      "reach_cm": "165",
-      "leg_reach_cm": "96"
+    "fighter_profile": {
+        "name_th": "จาง เป่ยเหมียน",
+        "name_en": "Zhang Peimian",
+        "alias": "Fighting Rooster",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "A",
+        "fighting_style_th": "คิกบ็อกซิ่ง, หมัดชุดรวดเร็ว, บู๊ดุดัน",
+        "fighting_style_en": "Kickboxing, Rapid Combinations, Aggressive",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 124.8,
+            "weight_kg": 56.6,
+            "division": "Strawweight",
+            "height_ft": "5'4\"",
+            "height_cm": 163,
+            "reach_cm": "165",
+            "leg_reach_cm": "96"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 8,
+                "body": 4,
+                "legs": 3,
+                "total_per_minute": 15
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 49,
+                "accuracy_by_target_percentage": {
+                    "head": 55,
+                    "body": 25,
+                    "legs": 20
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 45,
+                "defense_by_target_percentage": {
+                    "head": 42,
+                    "body": 38,
+                    "legs": 20
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "จีน",
+            "country_en": "China",
+            "age": 22,
+            "team_th": "เซิงลี่ ไฟต์ คลับ",
+            "team_en": "Shengli Fight Club"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/zhang-peimian/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": 8,
-        "body": 4,
-        "legs": 3,
-        "total_per_minute": 15
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": 49,
-        "accuracy_by_target_percentage": {
-          "head": 55,
-          "body": 25,
-          "legs": 20
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เอลลิส บาดร์ บาร์โบซา",
+            "opponent_en": "",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Feb 13, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 142"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ทองพูน พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "รุย โบเทลโฮ",
+            "opponent_en": "",
+            "opponent_country": "โปรตุเกส",
+            "date": "Sep 26, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 126"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สามเอ ไก่ย่างห้าดาว",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 08, 2024",
+            "rating": 5,
+            "event_en": "ONE 169: อนาโตลี vs รุง รุง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อาลีฟ ส.เดชะพันธ์",
+            "opponent_en": "",
+            "opponent_country": "มาเลเซีย/ไทย",
+            "date": "Apr 05, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 58: ซุปเปอร์บอน vs มารัต"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "รุย โบเทลโฮ",
+            "opponent_en": "",
+            "opponent_country": "โปรตุเกส",
+            "date": "Nov 03, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 16: โจนาธาน vs ฟาบริซิโอ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โทเรบชี ดงกัค",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Mar 25, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 8: ซุปเปอร์เล็ก vs แดเนียล"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "โจนาธาน ดิ เบลลา",
+            "opponent_en": "",
+            "opponent_country": "อิตาลี/แคนาดา",
+            "date": "Oct 21, 2022",
+            "rating": 5,
+            "event_en": "ONE 162: จาง vs โจนาธาน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อัสลานเบก ซิครีเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Jul 22, 2022",
+            "rating": 5,
+            "event_en": "ONE 159: ไรเนียร์ vs วิตาลี"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:11",
+            "opponent_th": "จอช ทอนนา",
+            "opponent_en": "",
+            "opponent_country": "ออสเตรเลีย",
+            "date": "Mar 11, 2022",
+            "rating": 5,
+            "event_en": "ONE LIGHTS OUT"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": 45,
-        "defense_by_target_percentage": {
-          "head": 42,
-          "body": 38,
-          "legs": 20
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "จีน",
-      "country_en": "China",
-      "age": 22,
-      "team_th": "เซิงลี่ ไฟต์ คลับ",
-      "team_en": "Shengli Fight Club"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/zhang-peimian/"
     ]
-  },
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Kickboxing",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เอลลิส บาดร์ บาร์โบซา",
-      "opponent_en": "",
-      "opponent_country": "สหราชอาณาจักร",
-      "date": "Feb 13, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 142"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Kickboxing",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ทองพูน พีเค.แสนชัย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Dec 19, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Kickboxing",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "รุย โบเทลโฮ",
-      "opponent_en": "",
-      "opponent_country": "โปรตุเกส",
-      "date": "Sep 26, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 126"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Kickboxing",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "สามเอ ไก่ย่างห้าดาว",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Nov 08, 2024",
-      "rating": 5,
-      "event_en": "ONE 169: อนาโตลี vs รุง รุง"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Kickboxing",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "อาลีฟ ส.เดชะพันธ์",
-      "opponent_en": "",
-      "opponent_country": "มาเลเซีย/ไทย",
-      "date": "Apr 05, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 58: ซุปเปอร์บอน vs มารัต"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Kickboxing",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "รุย โบเทลโฮ",
-      "opponent_en": "",
-      "opponent_country": "โปรตุเกส",
-      "date": "Nov 03, 2023",
-      "rating": 5,
-      "event_en": "ONE Fight Night 16: โจนาธาน vs ฟาบริซิโอ"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Kickboxing",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "โทเรบชี ดงกัค",
-      "opponent_en": "",
-      "opponent_country": "รัสเซีย",
-      "date": "Mar 25, 2023",
-      "rating": 5,
-      "event_en": "ONE Fight Night 8: ซุปเปอร์เล็ก vs แดเนียล"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Kickboxing",
-      "method_en": "Unanimous Decision",
-      "round": 5,
-      "time": "3:00",
-      "opponent_th": "โจนาธาน ดิ เบลลา",
-      "opponent_en": "",
-      "opponent_country": "อิตาลี/แคนาดา",
-      "date": "Oct 21, 2022",
-      "rating": 5,
-      "event_en": "ONE 162: จาง vs โจนาธาน"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Kickboxing",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "อัสลานเบก ซิครีเอฟ",
-      "opponent_en": "",
-      "opponent_country": "รัสเซีย",
-      "date": "Jul 22, 2022",
-      "rating": 5,
-      "event_en": "ONE 159: ไรเนียร์ vs วิตาลี"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Kickboxing",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "2:11",
-      "opponent_th": "จอช ทอนนา",
-      "opponent_en": "",
-      "opponent_country": "ออสเตรเลีย",
-      "date": "Mar 11, 2022",
-      "rating": 5,
-      "event_en": "ONE LIGHTS OUT"
-    }
-  ]
 }

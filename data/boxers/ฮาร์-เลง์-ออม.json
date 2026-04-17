@@ -1,142 +1,142 @@
 {
-  "fighter_profile": {
-    "name_th": "ฮาร์ เลง์ ออม",
-    "name_en": "Har Ling Om",
-    "alias": "ไม่ระบุ",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775181928/%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B9%8C_%E0%B9%80%E0%B8%A5%E0%B8%87%E0%B9%8C_%E0%B8%AD%E0%B8%AD%E0%B8%A1_mo29ji.png",
-    "grade": "ไม่ระบุ",
-    "fighting_style_th": "มวยไทย",
-    "fighting_style_en": "Muay Thai",
-    "stance": "ไม่ระบุ",
-    "physical_stats": {
-      "weight_lbs": 115,
-      "weight_kg": 52.16,
-      "division": "Atomweight",
-      "height_ft": "5'4\"",
-      "height_cm": 163,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ",
-      "hydration": "N/A"
+    "fighter_profile": {
+        "name_th": "ฮาร์ เลง์ ออม",
+        "name_en": "Har Ling Om",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 115,
+            "weight_kg": 52.16,
+            "division": "Atomweight",
+            "height_ft": "5'4\"",
+            "height_cm": 163,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "เมียนมา",
+            "country_en": "Myanmar",
+            "age": 27,
+            "team_th": "Phyo Wai Group",
+            "team_en": "Phyo Wai Group"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/har-ling-om/"
+        ],
+        "short_biography": "ฮาร์ เลง์ ออม (Har Ling Om) เป็นนักชกชาวเมียนมา วัย 27 ปี จากสังกัดทีม Phyo Wai Group มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 163 เซนติเมตร (5'4\") น้ำหนัก 54 กิโลกรัม (119 ปอนด์) มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
+        "target_url": ""
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-      "defensive_stats": "ยังไม่มีข้อมูล"
-    },
-    "personal_info": {
-      "country_th": "เมียนมา",
-      "country_en": "Myanmar",
-      "age": 27,
-      "team_th": "Phyo Wai Group",
-      "team_en": "Phyo Wai Group"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/har-ling-om/"
+    "weigh_in_history": [
+        {
+            "event_name": "ONE LUMPINEE 149",
+            "weight_lbs": 115,
+            "division": "Atomweight"
+        }
     ],
-    "short_biography": "ฮาร์ เลง์ ออม (Har Ling Om) เป็นนักชกชาวเมียนมา วัย 27 ปี จากสังกัดทีม Phyo Wai Group มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 163 เซนติเมตร (5'4\") น้ำหนัก 54 กิโลกรัม (119 ปอนด์) มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
-    "target_url": ""
-  },
-  "weigh_in_history": [
-    {
-      "event_name": "ONE LUMPINEE 149",
-      "weight_lbs": 115,
-      "division": "Atomweight"
-    }
-  ],
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ขุนศึก ทีวันไฟต์อะคาเดมี",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Apr 03, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ชาติพิชิต สส.ต้อยแปดริ้ว",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Dec 12, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 136"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ฮารุยูกิ ทานิตสึ",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Oct 17, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 129"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "2:16",
-      "opponent_th": "จูราอิ อิชิอิ",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Aug 15, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 120"
-    }
-  ],
-  "fight_history_one_championship": [
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ชาติพิชิต สส.ต้อยแปดริ้ว",
-      "opponent_en": "Chatpichit Sor.Sor.Toipadriew",
-      "opponent_country": "ไทย",
-      "date": "Dec 12, 2025",
-      "rating": "ไม่ระบุ",
-      "event_en": "ONE Lumpinee 136"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ฮารุยูกิ ทานิตสึ",
-      "opponent_en": "Haruyuki Tanitsu",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Oct 17, 2025",
-      "rating": "ไม่ระบุ",
-      "event_en": "ONE Lumpinee 129"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO",
-      "round": 3,
-      "time": "2:16",
-      "opponent_th": "จูราอิ อิชิอิ",
-      "opponent_en": "Jurai Ishii",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Aug 15, 2025",
-      "rating": "ไม่ระบุ",
-      "event_en": "ONE Lumpinee 120"
-    }
-  ],
-  "upcoming_fights": []
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ขุนศึก ทีวันไฟต์อะคาเดมี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 03, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ชาติพิชิต สส.ต้อยแปดริ้ว",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 12, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 136"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฮารุยูกิ ทานิตสึ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Oct 17, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 129"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:16",
+            "opponent_th": "จูราอิ อิชิอิ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Aug 15, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 120"
+        }
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ชาติพิชิต สส.ต้อยแปดริ้ว",
+            "opponent_en": "Chatpichit Sor.Sor.Toipadriew",
+            "opponent_country": "ไทย",
+            "date": "Dec 12, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 136"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฮารุยูกิ ทานิตสึ",
+            "opponent_en": "Haruyuki Tanitsu",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Oct 17, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 129"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO",
+            "round": 3,
+            "time": "2:16",
+            "opponent_th": "จูราอิ อิชิอิ",
+            "opponent_en": "Jurai Ishii",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Aug 15, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 120"
+        }
+    ],
+    "upcoming_fights": []
 }

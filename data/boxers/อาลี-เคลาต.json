@@ -1,116 +1,116 @@
 {
-  "fighter_profile": {
-    "name_th": "อาลี เคลาต",
-    "name_en": "Ali Kelat",
-    "alias": "ไม่ระบุ",
-    "image_url": "ไม่ระบุ",
-    "grade": "ไม่ระบุ",
-    "fighting_style_th": "มวยไทย",
-    "fighting_style_en": "Muay Thai",
-    "stance": "ไม่ระบุ",
-    "physical_stats": {
-      "weight_lbs": 154.6,
-      "weight_kg": 70.13,
-      "division": "Featherweight",
-      "height_ft": "6'1\"",
-      "height_cm": 187,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ",
-      "hydration": "N/A"
+    "fighter_profile": {
+        "name_th": "อาลี เคลาต",
+        "name_en": "Ali Kelat",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 154.6,
+            "weight_kg": 70.13,
+            "division": "Featherweight",
+            "height_ft": "6'1\"",
+            "height_cm": 187,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ตุรกี",
+            "country_en": "Turkey",
+            "age": 26,
+            "team_th": "Team Mehdi Zatout",
+            "team_en": "Team Mehdi Zatout"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/ali-kelat/"
+        ],
+        "short_biography": "อาลี เคลาต (Ali Kelat) เป็นนักชกชาวตุรกี วัย 26 ปี จากสังกัดทีม Team Mehdi Zatout มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 187 เซนติเมตร (6'1\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)",
+        "target_url": ""
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-      "defensive_stats": "ยังไม่มีข้อมูล"
-    },
-    "personal_info": {
-      "country_th": "ตุรกี",
-      "country_en": "Turkey",
-      "age": 26,
-      "team_th": "Team Mehdi Zatout",
-      "team_en": "Team Mehdi Zatout"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/ali-kelat/"
+    "weigh_in_history": [
+        {
+            "event_name": "ONE LUMPINEE 149",
+            "weight_lbs": 154.6,
+            "division": "Featherweight"
+        }
     ],
-    "short_biography": "อาลี เคลาต (Ali Kelat) เป็นนักชกชาวตุรกี วัย 26 ปี จากสังกัดทีม Team Mehdi Zatout มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 187 เซนติเมตร (6'1\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)",
-    "target_url": ""
-  },
-  "weigh_in_history": [
-    {
-      "event_name": "ONE LUMPINEE 149",
-      "weight_lbs": 154.6,
-      "division": "Featherweight"
-    }
-  ],
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "1:31",
-      "opponent_th": "เควิน กีเยน",
-      "opponent_en": "",
-      "opponent_country": "สเปน/โบลิเวีย",
-      "date": "Apr 03, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "1:40",
-      "opponent_th": "เพชรเขากระโดง ลูกเจ้าแม่ไทรทอง",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Dec 12, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 136"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "1:35",
-      "opponent_th": "ไมเคิล บารานอฟ",
-      "opponent_en": "",
-      "opponent_country": "รัสเซีย",
-      "date": "Aug 22, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 121"
-    }
-  ],
-  "fight_history_one_championship": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO",
-      "round": 1,
-      "time": "1:40",
-      "opponent_th": "เพชรเขากระโดง ลูกเจ้าแม่ไทรทอง",
-      "opponent_en": "Phetkhaokradong Lukjaomaesaithong",
-      "opponent_country": "ไทย",
-      "date": "Dec 12, 2025",
-      "rating": "ไม่ระบุ",
-      "event_en": "ONE Lumpinee 136"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO",
-      "round": 2,
-      "time": "1:35",
-      "opponent_th": "ไมเคิล บารานอฟ",
-      "opponent_en": "Michael Baranov",
-      "opponent_country": "รัสเซีย",
-      "date": "Aug 22, 2025",
-      "rating": "ไม่ระบุ",
-      "event_en": "ONE Lumpinee 121"
-    }
-  ],
-  "upcoming_fights": []
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:31",
+            "opponent_th": "เควิน กีเยน",
+            "opponent_en": "",
+            "opponent_country": "สเปน/โบลิเวีย",
+            "date": "Apr 03, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:40",
+            "opponent_th": "เพชรเขากระโดง ลูกเจ้าแม่ไทรทอง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 12, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 136"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:35",
+            "opponent_th": "ไมเคิล บารานอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Aug 22, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 121"
+        }
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO",
+            "round": 1,
+            "time": "1:40",
+            "opponent_th": "เพชรเขากระโดง ลูกเจ้าแม่ไทรทอง",
+            "opponent_en": "Phetkhaokradong Lukjaomaesaithong",
+            "opponent_country": "ไทย",
+            "date": "Dec 12, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 136"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO",
+            "round": 2,
+            "time": "1:35",
+            "opponent_th": "ไมเคิล บารานอฟ",
+            "opponent_en": "Michael Baranov",
+            "opponent_country": "รัสเซีย",
+            "date": "Aug 22, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 121"
+        }
+    ],
+    "upcoming_fights": []
 }

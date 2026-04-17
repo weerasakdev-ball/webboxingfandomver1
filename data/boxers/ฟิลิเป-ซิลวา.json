@@ -1,78 +1,78 @@
 {
-  "fighter_profile": {
-    "name_th": "ฟิลิเป ซิลวา",
-    "name_en": "Felipe Silva",
-    "alias": "ไม่ระบุ",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1740716400/felipe-silva-1600x1200-1_c666f2.png",
-    "grade": "ไม่ระบุ",
-    "fighting_style_th": "การต่อสู้แบบผสมผสาน / มวยไทย",
-    "fighting_style_en": "Mixed Martial Arts / Muay Thai",
-    "stance": "Orthodox",
-    "physical_stats": {
-      "weight_lbs": 135,
-      "weight_kg": 61.23,
-      "division": "Flyweight",
-      "height_ft": "5'6\"",
-      "height_cm": 169,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "ฟิลิเป ซิลวา",
+        "name_en": "Felipe Silva",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "การต่อสู้แบบผสมผสาน / มวยไทย",
+        "fighting_style_en": "Mixed Martial Arts / Muay Thai",
+        "stance": "Orthodox",
+        "physical_stats": {
+            "weight_lbs": 135,
+            "weight_kg": 61.23,
+            "division": "Flyweight",
+            "height_ft": "5'6\"",
+            "height_cm": 169,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "บราซิล",
+            "country_en": "Brazil",
+            "age": 33,
+            "team_th": "ทีม เมห์ดี ซาทูต",
+            "team_en": "Team Mehdi Zatout"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/felipe-silva/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-      "defensive_stats": "ยังไม่มีข้อมูล"
-    },
-    "personal_info": {
-      "country_th": "บราซิล",
-      "country_en": "Brazil",
-      "age": 33,
-      "team_th": "ทีม เมห์ดี ซาทูต",
-      "team_en": "Team Mehdi Zatout"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/felipe-silva/"
-    ]
-  },
-  "weigh_in_history": [
-    {
-      "event_name": "ONE ลุมพินี 148",
-      "weight_lbs": 135,
-      "division": "Flyweight"
-    },
-    {
-      "event_name": "ONE ลุมพินี 16",
-      "weight_lbs": 125,
-      "division": "Flyweight"
-    }
-  ],
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "MMA",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "5:00",
-      "opponent_th": "ซัตตอร์ ริโซเอฟ",
-      "opponent_en": "",
-      "opponent_country": "ทาจิกิสถาน/รัสเซีย",
-      "date": "Mar 27, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 148 & The Inner Circle"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Mixed Martial Arts",
-      "method_en": "Submission (Rear-Naked Choke)",
-      "round": 1,
-      "time": "4:25",
-      "opponent_th": "มอริส โบลิยาน",
-      "opponent_en": "Moris Boleyan",
-      "opponent_country": "อาร์เมเนีย",
-      "date": "May 12, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 16"
-    }
-  ],
-  "fight_history_one_championship": [],
-  "upcoming_fights": []
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 148",
+            "weight_lbs": 135,
+            "division": "Flyweight"
+        },
+        {
+            "event_name": "ONE ลุมพินี 16",
+            "weight_lbs": 125,
+            "division": "Flyweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "ซัตตอร์ ริโซเอฟ",
+            "opponent_en": "",
+            "opponent_country": "ทาจิกิสถาน/รัสเซีย",
+            "date": "Mar 27, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 148 & The Inner Circle"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Mixed Martial Arts",
+            "method_en": "Submission (Rear-Naked Choke)",
+            "round": 1,
+            "time": "4:25",
+            "opponent_th": "มอริส โบลิยาน",
+            "opponent_en": "Moris Boleyan",
+            "opponent_country": "อาร์เมเนีย",
+            "date": "May 12, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 16"
+        }
+    ],
+    "fight_history_one_championship": [],
+    "upcoming_fights": []
 }

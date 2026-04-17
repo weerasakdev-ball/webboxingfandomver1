@@ -3,7 +3,7 @@
         "name_th": "โลแกน ชาน",
         "name_en": "Logan Chan",
         "alias": "Dragon",
-        "image_url": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
         "grade": "",
         "fighting_style_th": "มวยไทย",
         "fighting_style_en": "Muay Thai",
@@ -54,6 +54,19 @@
         "short_biography": "โลแกน 'Dragon' ชาน (Logan Chan) นักชกสัญชาติสกอตแลนด์/ฮ่องกง วัย 22 ปี จากทีม Hanuman Thai Boxing Edinburgh ส่วนสูง 175 เซนติเมตร เป็นนักมวยที่มีพลังหมัดดุดัน เคยสร้างผลงานชนะน็อกเอาต์คู่ชกชาวไทยติดต่อกันถึง 2 ไฟต์รวดในรายการ ONE ลุมพินี ก่อนที่จะพ่ายคะแนนไม่เป็นเอกฉันท์ให้กับ เพชรกาฟิวส์ จิตรเมืองนนท์ ในไฟต์ล่าสุดเมื่อวันที่ 16 มกราคม 2026"
     },
     "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:34",
+            "opponent_th": "เก้ากะรัต ส.เทียนโพธิ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 10, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+        },
         {
             "result": "Loss",
             "discipline_en": "Muay Thai",

@@ -1,237 +1,237 @@
 {
-  "fighter_profile": {
-    "name_th": "เด็ดดวงเล็ก ทอฝันฟาร์ม",
-    "name_en": "Dedduanglek Tor.Funfarm",
-    "alias": "ไม่ระบุ",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531970/%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%94%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81-%E0%B8%97%E0%B8%B5%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%9499_gyyp3p.jpg",
-    "grade": "ไม่ระบุ",
-    "fighting_style_th": "ไม่ระบุ",
-    "fighting_style_en": "ไม่ระบุ",
-    "stance": "ไม่ระบุ",
-    "physical_stats": {
-      "weight_lbs": 137.4,
-      "weight_kg": 62.32,
-      "division": "Bantamweight",
-      "height_ft": "5'8\"",
-      "height_cm": 175,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "เด็ดดวงเล็ก ทอฝันฟาร์ม",
+        "name_en": "Dedduanglek Tor.Funfarm",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 137.4,
+            "weight_kg": 62.32,
+            "division": "Bantamweight",
+            "height_ft": "5'8\"",
+            "height_cm": 175,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 23,
+            "team_th": "ทีเด็ด99",
+            "team_en": "Teded99"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/dedduanglek-torfunfarm/"
+        ],
+        "short_biography": "เด็ดดวงเล็ก ทอฝันฟาร์ม (Dedduanglek Tor.Funfarm) เป็นนักชกชาวไทย วัย 23 ปี จากสังกัดทีเด็ด99 มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 62.32 กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง สามารถพ่ายแพ้ให้กับ ชิมอน ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": "ไม่ระบุ",
-        "body": "ไม่ระบุ",
-        "legs": "ไม่ระบุ",
-        "total_accuracy": "ไม่ระบุ"
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": "ไม่ระบุ",
-        "accuracy_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซ่อนรัก แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "เมียนมา",
+            "date": "Mar 27, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 148 & The Inner Circle"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ชิมอน",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Dec 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 1,
+            "time": "3:00",
+            "opponent_th": "วุฒิไกร ว.จักรวุฒิ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 21, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 134"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "บัวเขียว ป.เปาอินทร์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 05, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 123"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อัสลามจอน ออร์ติคอฟ",
+            "opponent_en": "",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "May 09, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 107"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:00",
+            "opponent_th": "อัสซาดูลาห์ อิมานกาซาลิเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Dec 06, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 90"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "นักรบ แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 02, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 24: จาร์เร็ด vs กุสตาโว"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ทาอิกิ นาอิโตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Apr 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 21: รีเกียน vs อเล็กซิส"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:51",
+            "opponent_th": "นักรบ แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 17, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 41"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องศึก ศิษย์สารวัตรเสือ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 29, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 35"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ทาอิกิ นาอิโตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Jul 21, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 26"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ชาคริยอร์ ยูราเยฟ",
+            "opponent_en": "",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Apr 21, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 13"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เทเมียร์ลัน เบ็กมูร์ซาเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Feb 17, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 5"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": "ไม่ระบุ",
-        "distance_control_percentage": "ไม่ระบุ",
-        "defense_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "ไทย",
-      "country_en": "Thailand",
-      "age": 23,
-      "team_th": "ทีเด็ด99",
-      "team_en": "Teded99"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/dedduanglek-torfunfarm/"
     ],
-    "short_biography": "เด็ดดวงเล็ก ทอฝันฟาร์ม (Dedduanglek Tor.Funfarm) เป็นนักชกชาวไทย วัย 23 ปี จากสังกัดทีเด็ด99 มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Bantamweight (ประมาณ 62.32 กิโลกรัม) ส่วนสูง 175 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง สามารถพ่ายแพ้ให้กับ ชิมอน ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
-  },
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ซ่อนรัก แฟร์เท็กซ์",
-      "opponent_en": "",
-      "opponent_country": "เมียนมา",
-      "date": "Mar 27, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 148 & The Inner Circle"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ชิมอน",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Dec 19, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 1,
-      "time": "3:00",
-      "opponent_th": "วุฒิไกร ว.จักรวุฒิ",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Nov 21, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 134"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "บัวเขียว ป.เปาอินทร์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Sep 05, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 123"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "อัสลามจอน ออร์ติคอฟ",
-      "opponent_en": "",
-      "opponent_country": "อุซเบกิสถาน",
-      "date": "May 09, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 107"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "1:00",
-      "opponent_th": "อัสซาดูลาห์ อิมานกาซาลิเอฟ",
-      "opponent_en": "",
-      "opponent_country": "รัสเซีย",
-      "date": "Dec 06, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 90"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "นักรบ แฟร์เท็กซ์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Aug 02, 2024",
-      "rating": 5,
-      "event_en": "ONE Fight Night 24: จาร์เร็ด vs กุสตาโว"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Kickboxing",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ทาอิกิ นาอิโตะ",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Apr 05, 2024",
-      "rating": 5,
-      "event_en": "ONE Fight Night 21: รีเกียน vs อเล็กซิส"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "0:51",
-      "opponent_th": "นักรบ แฟร์เท็กซ์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Nov 17, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 41"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ก้องศึก ศิษย์สารวัตรเสือ",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Sep 29, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 35"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ทาอิกิ นาอิโตะ",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Jul 21, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 26"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ชาคริยอร์ ยูราเยฟ",
-      "opponent_en": "",
-      "opponent_country": "อุซเบกิสถาน",
-      "date": "Apr 21, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 13"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เทเมียร์ลัน เบ็กมูร์ซาเอฟ",
-      "opponent_en": "",
-      "opponent_country": "รัสเซีย",
-      "date": "Feb 17, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 5"
-    }
-  ],
-  "fight_history_one_championship": [],
-  "upcoming_fights": [],
-  "weigh_in_history": [
-    {
-      "event_name": "ONE ลุมพินี 148",
-      "weight_lbs": 137.4,
-      "division": "Bantamweight"
-    }
-  ]
+    "fight_history_one_championship": [],
+    "upcoming_fights": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 148",
+            "weight_lbs": 137.4,
+            "division": "Bantamweight"
+        }
+    ]
 }

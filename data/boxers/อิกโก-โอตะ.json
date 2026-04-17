@@ -1,142 +1,142 @@
 {
-  "fighter_profile": {
-    "name_th": "อิกโก โอตะ",
-    "name_en": "Ikko Ota",
-    "alias": "ไม่ระบุ",
-    "image_url": "ไม่ระบุ",
-    "grade": "ไม่ระบุ",
-    "fighting_style_th": "มวยไทย",
-    "fighting_style_en": "Muay Thai",
-    "stance": "ไม่ระบุ",
-    "physical_stats": {
-      "weight_lbs": 121.6,
-      "weight_kg": 55.16,
-      "division": "Strawweight",
-      "height_ft": "5'6\"",
-      "height_cm": 169,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ",
-      "hydration": "N/A"
+    "fighter_profile": {
+        "name_th": "อิกโก โอตะ",
+        "name_en": "Ikko Ota",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 121.6,
+            "weight_kg": 55.16,
+            "division": "Strawweight",
+            "height_ft": "5'6\"",
+            "height_cm": 169,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 24,
+            "team_th": "Shinkoh Muay Thai Gym",
+            "team_en": "Shinkoh Muay Thai Gym"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/ikko-ota/"
+        ],
+        "short_biography": "อิกโก โอตะ (Ikko Ota) เป็นนักชกชาวญี่ปุ่น วัย 24 ปี จากสังกัดทีม Shinkoh Muay Thai Gym มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 169 เซนติเมตร (5'6\") น้ำหนัก 54.9 กิโลกรัม (121 ปอนด์) มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
+        "target_url": ""
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-      "defensive_stats": "ยังไม่มีข้อมูล"
-    },
-    "personal_info": {
-      "country_th": "ญี่ปุ่น",
-      "country_en": "Japan",
-      "age": 24,
-      "team_th": "Shinkoh Muay Thai Gym",
-      "team_en": "Shinkoh Muay Thai Gym"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/ikko-ota/"
+    "weigh_in_history": [
+        {
+            "event_name": "ONE LUMPINEE 149",
+            "weight_lbs": 121.6,
+            "division": "Strawweight"
+        }
     ],
-    "short_biography": "อิกโก โอตะ (Ikko Ota) เป็นนักชกชาวญี่ปุ่น วัย 24 ปี จากสังกัดทีม Shinkoh Muay Thai Gym มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 169 เซนติเมตร (5'6\") น้ำหนัก 54.9 กิโลกรัม (121 ปอนด์) มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
-    "target_url": ""
-  },
-  "weigh_in_history": [
-    {
-      "event_name": "ONE LUMPINEE 149",
-      "weight_lbs": 121.6,
-      "division": "Strawweight"
-    }
-  ],
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "2:33",
-      "opponent_th": "พญาครุฑ เสือจันถกมวยไทย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Apr 03, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เพชรพัทยา ซิลค์มวยไทย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Mar 07, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 99"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "1:48",
-      "opponent_th": "บีเอ็ม แฟร์เท็กซ์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jul 05, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 69"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เพชรน้ำโขง ส.มณีโคตร",
-      "opponent_en": "",
-      "opponent_country": "ลาว",
-      "date": "Apr 19, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 59"
-    }
-  ],
-  "fight_history_one_championship": [
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เพชรพัทยา ซิลค์มวยไทย",
-      "opponent_en": "Phetpattaya Silkmuaythai",
-      "opponent_country": "ไทย",
-      "date": "Mar 7, 2025",
-      "rating": "ไม่ระบุ",
-      "event_en": "ONE Lumpinee 99"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO",
-      "round": 2,
-      "time": "1:48",
-      "opponent_th": "บีเอ็ม แฟร์เท็กซ์",
-      "opponent_en": "BM Fairtex",
-      "opponent_country": "ไทย",
-      "date": "Jul 5, 2024",
-      "rating": "ไม่ระบุ",
-      "event_en": "ONE Lumpinee 69"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เพชรน้ำโขง ส.มณีโคตร",
-      "opponent_en": "Phetnamkhong Sor.Maneekhot",
-      "opponent_country": "ลาว/ไทย",
-      "date": "Apr 19, 2024",
-      "rating": "ไม่ระบุ",
-      "event_en": "ONE Lumpinee 59"
-    }
-  ],
-  "upcoming_fights": []
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:33",
+            "opponent_th": "พญาครุฑ เสือจันถกมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 03, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรพัทยา ซิลค์มวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 99"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:48",
+            "opponent_th": "บีเอ็ม แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 69"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรน้ำโขง ส.มณีโคตร",
+            "opponent_en": "",
+            "opponent_country": "ลาว",
+            "date": "Apr 19, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 59"
+        }
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรพัทยา ซิลค์มวยไทย",
+            "opponent_en": "Phetpattaya Silkmuaythai",
+            "opponent_country": "ไทย",
+            "date": "Mar 7, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 99"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO",
+            "round": 2,
+            "time": "1:48",
+            "opponent_th": "บีเอ็ม แฟร์เท็กซ์",
+            "opponent_en": "BM Fairtex",
+            "opponent_country": "ไทย",
+            "date": "Jul 5, 2024",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 69"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรน้ำโขง ส.มณีโคตร",
+            "opponent_en": "Phetnamkhong Sor.Maneekhot",
+            "opponent_country": "ลาว/ไทย",
+            "date": "Apr 19, 2024",
+            "rating": "ไม่ระบุ",
+            "event_en": "ONE Lumpinee 59"
+        }
+    ],
+    "upcoming_fights": []
 }

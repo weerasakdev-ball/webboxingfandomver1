@@ -3,13 +3,13 @@
         "name_th": "ฤทธิเดช ลูกเจ้าพ่อโรงต้ม",
         "name_en": "Rittidet Lookjaoporongtom",
         "alias": "",
-        "image_url": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
         "grade": "",
         "fighting_style_th": "มวยไทย",
         "fighting_style_en": "Muay Thai",
         "stance": "",
         "physical_stats": {
-            "weight_lbs": 121.0,
+            "weight_lbs": 121,
             "weight_kg": 54.88,
             "division": "Strawweight",
             "height_ft": "5'5\"",
@@ -56,6 +56,19 @@
         "target_url": ""
     },
     "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:45",
+            "opponent_th": "\"เพชรหนึ่ง\" ไอแซค โมฮัมเหม็ด",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส/แอลจีเรีย",
+            "date": "Apr 10, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+        },
         {
             "result": "Win",
             "discipline_en": "Muay Thai",
@@ -140,7 +153,7 @@
     "weigh_in_history": [
         {
             "event_name": "ONE Lumpinee150",
-            "weight_lbs": 121.0,
+            "weight_lbs": 121,
             "division": "Strawweight"
         }
     ],

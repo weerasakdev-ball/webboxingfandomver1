@@ -3,7 +3,7 @@
         "name_th": "ดาเลียน ดาวอดี",
         "name_en": "",
         "alias": "ไม่ระบุ",
-        "image_url": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
         "grade": "N/A",
         "fighting_style_th": "ยังไม่มีข้อมูล",
         "fighting_style_en": "ยังไม่มีข้อมูล",
@@ -49,11 +49,26 @@
             "team_th": "ยังไม่มีข้อมูล",
             "team_en": "ยังไม่มีข้อมูล"
         },
-        "target_url": "https://www.onefc.com/th/athletes/dalian-dawody/",
-        "target_urls": [],
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/dalian-dawody/"
+        ],
         "short_biography": ""
     },
-    "fight_history": [],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:01",
+            "opponent_th": "แดนเต โรดริเกส",
+            "opponent_en": "",
+            "opponent_country": "ออสเตรเลีย/โปรตุเกส",
+            "date": "Apr 10, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+        }
+    ],
     "fight_history_one_championship": [],
     "weigh_in_history": [
         {

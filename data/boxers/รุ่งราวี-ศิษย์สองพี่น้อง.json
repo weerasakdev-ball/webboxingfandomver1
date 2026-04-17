@@ -3,7 +3,7 @@
         "name_th": "รุ่งราวี ศิษย์สองพี่น้อง",
         "name_en": "Rungrawee Sitsongpeenong",
         "alias": "",
-        "image_url": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
         "grade": "",
         "fighting_style_th": "มวยไทย, คิกบ็อกซิง",
         "fighting_style_en": "Muay Thai, Kickboxing",
@@ -56,6 +56,19 @@
         "target_url": ""
     },
     "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "คิกบ็อกซิง",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "รีเกียน เออร์เซล",
+            "opponent_en": "",
+            "opponent_country": "ซูรินาม",
+            "date": "Apr 10, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+        },
         {
             "result": "Win",
             "discipline_en": "Muay Thai",

@@ -1,174 +1,174 @@
 {
-  "fighter_profile": {
-    "name_th": "อัสลามจอน ออร์ติคอฟ",
-    "name_en": "Aslamjon Ortikov",
-    "alias": "ยังไม่มีข้อมูล",
-    "image_url": "https://i.ibb.co/hxbkYdzZ/image.jpg",
-    "grade": "A",
-    "fighting_style_th": "บุก",
-    "fighting_style_en": "Aggressive / Pressure Fighter",
-    "stance": "Southpaw",
-    "physical_stats": {
-      "weight_lbs": "134",
-      "weight_kg": "ยังไม่มีข้อมูล",
-      "division": "Flyweight",
-      "height_ft": "5'8\"",
-      "height_cm": 174,
-      "reach_cm": "",
-      "leg_reach_cm": "ยังไม่มีข้อมูล"
+    "fighter_profile": {
+        "name_th": "อัสลามจอน ออร์ติคอฟ",
+        "name_en": "Aslamjon Ortikov",
+        "alias": "ยังไม่มีข้อมูล",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "A",
+        "fighting_style_th": "บุก",
+        "fighting_style_en": "Aggressive / Pressure Fighter",
+        "stance": "Southpaw",
+        "physical_stats": {
+            "weight_lbs": "134",
+            "weight_kg": "ยังไม่มีข้อมูล",
+            "division": "Flyweight",
+            "height_ft": "5'8\"",
+            "height_cm": 174,
+            "reach_cm": "",
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 6,
+                "body": 1,
+                "legs": 1,
+                "total_per_minute": 18
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 50,
+                "accuracy_by_target_percentage": {
+                    "head": 68,
+                    "body": 18,
+                    "legs": 14
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 34,
+                "defense_by_target_percentage": {
+                    "head": 34,
+                    "body": 52,
+                    "legs": 14
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "อุซเบกิสถาน",
+            "country_en": "Uzbekistan",
+            "age": 22,
+            "team_th": "Sport club Shakhriyor / TC Muaythai",
+            "team_en": "Sport club Shakhriyor / TC Muaythai"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/aslamjon-ortikov/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": 6,
-        "body": 1,
-        "legs": 1,
-        "total_per_minute": 18
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": 50,
-        "accuracy_by_target_percentage": {
-          "head": 68,
-          "body": 18,
-          "legs": 14
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องธรณี ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 04, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 36: พระจันทร์ฉาย vs โจนาธาน II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:33",
+            "opponent_th": "เพชรสุขุมวิท ต้อมทุ่งใหญ่",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 27, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 114"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เด็ดดวงเล็ก ทอฝันฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 09, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 107"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ป้อมเพชร ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 22, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 88"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:15",
+            "opponent_th": "ยอดทองไท ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 06, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 78"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "วัชรพล มาวินมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 08, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 54"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:33",
+            "opponent_th": "ชาติอนันต์ สจ.จอยปราจีน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 01, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 43"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:50",
+            "opponent_th": "เพชรหัวหิน จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 20, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 37"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เก้าแต้ม แฟร์เท็กซ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 14, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 25"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": 34,
-        "defense_by_target_percentage": {
-          "head": 34,
-          "body": 52,
-          "legs": 14
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "อุซเบกิสถาน",
-      "country_en": "Uzbekistan",
-      "age": 22,
-      "team_th": "Sport club Shakhriyor / TC Muaythai",
-      "team_en": "Sport club Shakhriyor / TC Muaythai"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/aslamjon-ortikov/"
     ]
-  },
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ก้องธรณี ส.สมหมาย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Oct 04, 2025",
-      "rating": 5,
-      "event_en": "ONE Fight Night 36: พระจันทร์ฉาย vs โจนาธาน II"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "2:33",
-      "opponent_th": "เพชรสุขุมวิท ต้อมทุ่งใหญ่",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jun 27, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 114"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เด็ดดวงเล็ก ทอฝันฟาร์ม",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "May 09, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 107"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ป้อมเพชร ป๋องสุพรรณ พีเค.",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Nov 22, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 88"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "2:15",
-      "opponent_th": "ยอดทองไท ส.สมหมาย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Sep 06, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 78"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "วัชรพล มาวินมวยไทย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Mar 08, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 54"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "2:33",
-      "opponent_th": "ชาติอนันต์ สจ.จอยปราจีน",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Dec 01, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 43"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "0:50",
-      "opponent_th": "เพชรหัวหิน จิตรเมืองนนท์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Oct 20, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 37"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เก้าแต้ม แฟร์เท็กซ์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jul 14, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 25"
-    }
-  ]
 }

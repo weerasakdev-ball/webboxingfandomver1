@@ -3,13 +3,13 @@
         "name_th": "วาลดิเมียร์ บริเตซ",
         "name_en": "Waldimir Britez",
         "alias": "",
-        "image_url": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
         "grade": "",
         "fighting_style_th": "การต่อสู้แบบผสมผสาน",
         "fighting_style_en": "Mixed Martial Arts",
         "stance": "",
         "physical_stats": {
-            "weight_lbs": 145.0,
+            "weight_lbs": 145,
             "weight_kg": 65.77,
             "division": "Bantamweight",
             "height_ft": "5'8\"",
@@ -57,6 +57,19 @@
     },
     "fight_history": [
         {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "ราซูล ราฮิมอฟ",
+            "opponent_en": "",
+            "opponent_country": "ตุรกี/อาเซอร์ไบจาน",
+            "date": "Apr 10, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+        },
+        {
             "result": "Win",
             "discipline_en": "Mixed Martial Arts",
             "method_en": "KO/TKO",
@@ -88,7 +101,7 @@
     "weigh_in_history": [
         {
             "event_name": "ONE Lumpinee150",
-            "weight_lbs": 145.0,
+            "weight_lbs": 145,
             "division": "Bantamweight"
         }
     ],

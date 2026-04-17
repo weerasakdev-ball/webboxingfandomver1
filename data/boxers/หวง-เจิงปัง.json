@@ -3,7 +3,7 @@
         "name_th": "หวง เจิงปัง",
         "name_en": "",
         "alias": "ไม่ระบุ",
-        "image_url": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
         "grade": "N/A",
         "fighting_style_th": "ยังไม่มีข้อมูล",
         "fighting_style_en": "ยังไม่มีข้อมูล",
@@ -49,11 +49,26 @@
             "team_th": "ยังไม่มีข้อมูล",
             "team_en": "ยังไม่มีข้อมูล"
         },
-        "target_url": "https://www.onefc.com/th/athletes/huang-zhengbang/",
-        "target_urls": [],
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/huang-zhengbang/"
+        ],
         "short_biography": ""
     },
-    "fight_history": [],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "คิกบ็อกซิง",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โยชิดะ โคเซอิ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Apr 10, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+        }
+    ],
     "fight_history_one_championship": [],
     "weigh_in_history": [
         {

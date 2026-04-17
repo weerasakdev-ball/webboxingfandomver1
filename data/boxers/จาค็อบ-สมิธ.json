@@ -1,100 +1,100 @@
 {
-  "fighter_profile": {
-    "name_th": "จาค็อบ สมิธ",
-    "name_en": "Jacob Smith",
-    "alias": "ยังไม่มีข้อมูล",
-    "image_url": "https://i.ibb.co/276QCCsR/65698b8c6542b0-63220711.jpg",
-    "grade": "ยังไม่มีข้อมูล",
-    "fighting_style_th": "ยังไม่มีข้อมูล",
-    "fighting_style_en": "ยังไม่มีข้อมูล",
-    "stance": "Orthodox",
-    "physical_stats": {
-      "weight_lbs": 133.6,
-      "weight_kg": 60.6,
-      "division": "Flyweight",
-      "height_ft": "5'6\"",
-      "height_cm": 169,
-      "leg_reach_cm": "ยังไม่มีข้อมูล"
+    "fighter_profile": {
+        "name_th": "จาค็อบ สมิธ",
+        "name_en": "Jacob Smith",
+        "alias": "ยังไม่มีข้อมูล",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "ยังไม่มีข้อมูล",
+        "fighting_style_th": "ยังไม่มีข้อมูล",
+        "fighting_style_en": "ยังไม่มีข้อมูล",
+        "stance": "Orthodox",
+        "physical_stats": {
+            "weight_lbs": 133.6,
+            "weight_kg": 60.6,
+            "division": "Flyweight",
+            "height_ft": "5'6\"",
+            "height_cm": 169,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "สหราชอาณาจักร",
+            "country_en": "United Kingdom",
+            "age": 33,
+            "team_th": "Bad Company / Thaifist",
+            "team_en": "Bad Company / Thaifist"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/jacob-smith/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": "ยังไม่มีข้อมูล",
-        "body": "ยังไม่มีข้อมูล",
-        "legs": "ยังไม่มีข้อมูล",
-        "total_per_minute": "ยังไม่มีข้อมูล"
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
-        "accuracy_by_target_percentage": {
-          "head": "ยังไม่มีข้อมูล",
-          "body": "ยังไม่มีข้อมูล",
-          "legs": "ยังไม่มีข้อมูล"
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "รถถัง จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 08, 2024",
+            "rating": 5,
+            "event_en": "ONE 169: อนาโตลี vs รุง รุง"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เดนิส พูริช",
+            "opponent_en": "",
+            "opponent_country": "บอสเนียและเฮอร์เซโกวีนา/แคนาดา",
+            "date": "Apr 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 21: รีเกียน vs อเล็กซิส"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:54",
+            "opponent_th": "วอลเตอร์ กอนซาลเวส",
+            "opponent_en": "",
+            "opponent_country": "บราซิล",
+            "date": "Dec 08, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 17: โรมัน vs อเล็กซ์"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "รถถัง จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 20, 2022",
+            "rating": 5,
+            "event_en": "ONE157: เพชรมรกต VS จิมมี"
         }
-      }
-    },
-    "personal_info": {
-      "country_th": "สหราชอาณาจักร",
-      "country_en": "United Kingdom",
-      "age": 33,
-      "team_th": "Bad Company / Thaifist",
-      "team_en": "Bad Company / Thaifist"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/jacob-smith/"
     ]
-  },
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 5,
-      "time": "3:00",
-      "opponent_th": "รถถัง จิตรเมืองนนท์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Nov 08, 2024",
-      "rating": 5,
-      "event_en": "ONE 169: อนาโตลี vs รุง รุง"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เดนิส พูริช",
-      "opponent_en": "",
-      "opponent_country": "บอสเนียและเฮอร์เซโกวีนา/แคนาดา",
-      "date": "Apr 05, 2024",
-      "rating": 5,
-      "event_en": "ONE Fight Night 21: รีเกียน vs อเล็กซิส"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "2:54",
-      "opponent_th": "วอลเตอร์ กอนซาลเวส",
-      "opponent_en": "",
-      "opponent_country": "บราซิล",
-      "date": "Dec 08, 2023",
-      "rating": 5,
-      "event_en": "ONE Fight Night 17: โรมัน vs อเล็กซ์"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "รถถัง จิตรเมืองนนท์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "May 20, 2022",
-      "rating": 5,
-      "event_en": "ONE157: เพชรมรกต VS จิมมี"
-    }
-  ]
 }

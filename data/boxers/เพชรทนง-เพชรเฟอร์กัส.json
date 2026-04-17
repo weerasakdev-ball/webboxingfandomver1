@@ -1,123 +1,123 @@
 {
-  "fighter_profile": {
-    "name_th": "เพชรทนง เพชรเฟอร์กัส",
-    "name_en": "Petchtanong Petchfergus",
-    "alias": "The Professor",
-    "image_url": "https://i.ibb.co/nMnrvNDC/image.jpg",
-    "grade": "A",
-    "fighting_style_th": "มวยฝีมือ, คิกบ็อกซิ่งเทคนิค",
-    "fighting_style_en": "Technical Fighter, Kickboxing Specialist",
-    "stance": "Southpaw (Left-handed)",
-    "physical_stats": {
-      "weight_lbs": 145.1,
-      "weight_kg": 65.8,
-      "division": "Bantamweight",
-      "height_ft": "5'8\"",
-      "height_cm": 174,
-      "reach_cm": "173",
-      "leg_reach_cm": "100"
+    "fighter_profile": {
+        "name_th": "เพชรทนง เพชรเฟอร์กัส",
+        "name_en": "Petchtanong Petchfergus",
+        "alias": "The Professor",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ, คิกบ็อกซิ่งเทคนิค",
+        "fighting_style_en": "Technical Fighter, Kickboxing Specialist",
+        "stance": "Southpaw (Left-handed)",
+        "physical_stats": {
+            "weight_lbs": 145.1,
+            "weight_kg": 65.8,
+            "division": "Bantamweight",
+            "height_ft": "5'8\"",
+            "height_cm": 174,
+            "reach_cm": "173",
+            "leg_reach_cm": "100"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 3,
+                "body": 5,
+                "legs": 4,
+                "total_per_minute": 12
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 51,
+                "accuracy_by_target_percentage": {
+                    "head": 25,
+                    "body": 55,
+                    "legs": 20
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 58,
+                "defense_by_target_percentage": {
+                    "head": 60,
+                    "body": 30,
+                    "legs": 10
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 40,
+            "team_th": "ซุปเปอร์บอน เทรนนิง แคมป์",
+            "team_en": "Superbon Training Camp"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/petchtanong-petchfergus/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": 3,
-        "body": 5,
-        "legs": 4,
-        "total_per_minute": 12
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": 51,
-        "accuracy_by_target_percentage": {
-          "head": 25,
-          "body": 55,
-          "legs": 20
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยูกิ โยซะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Jul 18, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 116"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:59",
+            "opponent_th": "อลาเวอร์ดี รามาซานอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Jun 28, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 68: พระจันทร์ฉาย vs โจนาธาน"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Split Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "ฮิโรกิ อากิโมโตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Nov 19, 2022",
+            "rating": 5,
+            "event_en": "ONE 163: ฮิโรกิ vs เพชรทนง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "จาง เฉิงหลง",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Sep 24, 2021",
+            "rating": 5,
+            "event_en": "Revolution"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:06",
+            "opponent_th": "กัปปิตัน เพชรยินดีอะคาเดมี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 18, 2020",
+            "rating": 5,
+            "event_en": "A New Breed III"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": 58,
-        "defense_by_target_percentage": {
-          "head": 60,
-          "body": 30,
-          "legs": 10
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "ไทย",
-      "country_en": "Thailand",
-      "age": 40,
-      "team_th": "ซุปเปอร์บอน เทรนนิง แคมป์",
-      "team_en": "Superbon Training Camp"
-    },
-    "target_url": "",
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/petchtanong-petchfergus/"
     ]
-  },
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "Kickboxing",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ยูกิ โยซะ",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Jul 18, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 116"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Kickboxing",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "1:59",
-      "opponent_th": "อลาเวอร์ดี รามาซานอฟ",
-      "opponent_en": "",
-      "opponent_country": "รัสเซีย",
-      "date": "Jun 28, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 68: พระจันทร์ฉาย vs โจนาธาน"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Kickboxing",
-      "method_en": "Split Decision",
-      "round": 5,
-      "time": "3:00",
-      "opponent_th": "ฮิโรกิ อากิโมโตะ",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Nov 19, 2022",
-      "rating": 5,
-      "event_en": "ONE 163: ฮิโรกิ vs เพชรทนง"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Kickboxing",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "จาง เฉิงหลง",
-      "opponent_en": "",
-      "opponent_country": "จีน",
-      "date": "Sep 24, 2021",
-      "rating": 5,
-      "event_en": "Revolution"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Kickboxing",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "0:06",
-      "opponent_th": "กัปปิตัน เพชรยินดีอะคาเดมี",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Sep 18, 2020",
-      "rating": 5,
-      "event_en": "A New Breed III"
-    }
-  ]
 }

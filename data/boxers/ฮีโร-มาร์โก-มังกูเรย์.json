@@ -3,13 +3,13 @@
         "name_th": "โยชิดะ โคเซอิ",
         "name_en": "Yoshida Kosei",
         "alias": "",
-        "image_url": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
         "grade": "",
         "fighting_style_th": "คิกบ็อกซิง",
         "fighting_style_en": "Kickboxing",
         "stance": "",
         "physical_stats": {
-            "weight_lbs": 170.0,
+            "weight_lbs": 170,
             "weight_kg": 77.11,
             "division": "Lightweight",
             "height_ft": "5'8\"",
@@ -56,6 +56,19 @@
         "target_url": ""
     },
     "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "คิกบ็อกซิง",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "หวง เจิงปัง",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Apr 10, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+        },
         {
             "result": "Win",
             "discipline_en": "Kickboxing",
@@ -114,7 +127,7 @@
     "weigh_in_history": [
         {
             "event_name": "ONE Lumpinee150",
-            "weight_lbs": 170.0,
+            "weight_lbs": 170,
             "division": "Lightweight"
         }
     ],

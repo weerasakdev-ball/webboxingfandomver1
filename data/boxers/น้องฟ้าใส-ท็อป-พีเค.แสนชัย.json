@@ -1,130 +1,130 @@
 {
-  "fighter_profile": {
-    "name_th": "น้องฟ้าใส ท็อป พีเค.แสนชัย",
-    "name_en": "Nongfahsai Top PK.Saenchai",
-    "alias": "ไม่ระบุ",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1740716400/nongfahsai-top-pk-saenchai-1600x1200-1_c666f2.png",
-    "grade": "ไม่ระบุ",
-    "fighting_style_th": "มวยไทย",
-    "fighting_style_en": "Muay Thai",
-    "stance": "ไม่ระบุ",
-    "physical_stats": {
-      "weight_lbs": 115,
-      "weight_kg": 52.16,
-      "division": "Atomweight",
-      "height_ft": "5'1\"",
-      "height_cm": 156,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "น้องฟ้าใส ท็อป พีเค.แสนชัย",
+        "name_en": "Nongfahsai Top PK.Saenchai",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 115,
+            "weight_kg": 52.16,
+            "division": "Atomweight",
+            "height_ft": "5'1\"",
+            "height_cm": 156,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 29,
+            "team_th": "พีเค.แสนชัยมวยไทยยิม",
+            "team_en": "PK.Saenchai Muaythai Gym"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/nongfahsai-top-pk-saenchai/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-      "defensive_stats": "ยังไม่มีข้อมูล"
-    },
-    "personal_info": {
-      "country_th": "ไทย",
-      "country_en": "Thailand",
-      "age": 29,
-      "team_th": "พีเค.แสนชัยมวยไทยยิม",
-      "team_en": "PK.Saenchai Muaythai Gym"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/nongfahsai-top-pk-saenchai/"
-    ]
-  },
-  "weigh_in_history": [
-    {
-      "event_name": "ONE ลุมพินี 148",
-      "weight_lbs": 115,
-      "division": "Atomweight"
-    },
-    {
-      "event_name": "ONE ลุมพินี 131",
-      "weight_lbs": "ไม่ระบุ",
-      "division": "Atomweight"
-    }
-  ],
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "หว่อง จี เชง",
-      "opponent_en": "",
-      "opponent_country": "ฮ่องกง เขตปกครองพิเศษประเทศจีน",
-      "date": "Mar 27, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 148 & The Inner Circle"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "กาเบรียลเล โมราม",
-      "opponent_en": "Gabrielle Moram",
-      "opponent_country": "บราซิล",
-      "date": "Oct 31, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 131"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ฟรานซิสกา เวรา",
-      "opponent_en": "Francisca Vera",
-      "opponent_country": "ชิลี",
-      "date": "Jun 20, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 113"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ตังตัง ส.เดชะพันธ์",
-      "opponent_en": "Tangtang Sor.Dechaphan",
-      "opponent_country": "ไทย",
-      "date": "Mar 07, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 99"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "โมอา คาร์ลสัน",
-      "opponent_en": "Moa Carlsson",
-      "opponent_country": "สวีเดน",
-      "date": "Dec 13, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 91"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "1:27",
-      "opponent_th": "กาญจนศิริ ศิษย์นายกไวย์ลำปำ",
-      "opponent_en": "Kanjanasiri Sitnayokwyelampang",
-      "opponent_country": "ไทย",
-      "date": "Sep 13, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 79"
-    }
-  ],
-  "fight_history_one_championship": [],
-  "upcoming_fights": []
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 148",
+            "weight_lbs": 115,
+            "division": "Atomweight"
+        },
+        {
+            "event_name": "ONE ลุมพินี 131",
+            "weight_lbs": "ไม่ระบุ",
+            "division": "Atomweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "หว่อง จี เชง",
+            "opponent_en": "",
+            "opponent_country": "ฮ่องกง เขตปกครองพิเศษประเทศจีน",
+            "date": "Mar 27, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 148 & The Inner Circle"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "กาเบรียลเล โมราม",
+            "opponent_en": "Gabrielle Moram",
+            "opponent_country": "บราซิล",
+            "date": "Oct 31, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 131"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฟรานซิสกา เวรา",
+            "opponent_en": "Francisca Vera",
+            "opponent_country": "ชิลี",
+            "date": "Jun 20, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 113"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ตังตัง ส.เดชะพันธ์",
+            "opponent_en": "Tangtang Sor.Dechaphan",
+            "opponent_country": "ไทย",
+            "date": "Mar 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 99"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โมอา คาร์ลสัน",
+            "opponent_en": "Moa Carlsson",
+            "opponent_country": "สวีเดน",
+            "date": "Dec 13, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 91"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:27",
+            "opponent_th": "กาญจนศิริ ศิษย์นายกไวย์ลำปำ",
+            "opponent_en": "Kanjanasiri Sitnayokwyelampang",
+            "opponent_country": "ไทย",
+            "date": "Sep 13, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 79"
+        }
+    ],
+    "fight_history_one_championship": [],
+    "upcoming_fights": []
 }

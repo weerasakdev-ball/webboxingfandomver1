@@ -1,251 +1,251 @@
 {
-  "fighter_profile": {
-    "name_th": "เด่นเกรียงไกร มาวินมวยไทย",
-    "name_en": "Denkriangkrai Singha Mawynn",
-    "alias": "เด่นเกรียงไกร มาวินมวยไทย",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773127952/%E0%B9%80%E0%B8%94%E0%B9%88%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%84%E0%B8%81%E0%B8%A3_m1rlvi.png",
-    "grade": "B+",
-    "fighting_style_th": "มวยไทย, สไตรเกอร์ระยะกลาง, เน้นเตะและต่อยคล่องตัว",
-    "fighting_style_en": "Muay Thai Striker, Technical Distance Fighter, Leg Kicker & Counter Puncher",
-    "stance": "Orthodox (Right-handed)",
-    "physical_stats": {
-      "weight_lbs": 125.4,
-      "weight_kg": 56.88,
-      "division": "Flyweight",
-      "height_ft": "5'6\"",
-      "height_cm": 168,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "เด่นเกรียงไกร มาวินมวยไทย",
+        "name_en": "Denkriangkrai Singha Mawynn",
+        "alias": "เด่นเกรียงไกร มาวินมวยไทย",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "B+",
+        "fighting_style_th": "มวยไทย, สไตรเกอร์ระยะกลาง, เน้นเตะและต่อยคล่องตัว",
+        "fighting_style_en": "Muay Thai Striker, Technical Distance Fighter, Leg Kicker & Counter Puncher",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 125.4,
+            "weight_kg": 56.88,
+            "division": "Flyweight",
+            "height_ft": "5'6\"",
+            "height_cm": 168,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 27,
+            "team_th": "สิงห์ มาวิน",
+            "team_en": "Singha Mawynn"
+        },
+        "overall_record": "8-5 (1 KO) ใน ONE | Finish Rate 13%",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/denkriangkrai-singha-mawynn/"
+        ],
+        "short_biography": "เด่นเกรียงไกร มาวินมวยไทย (Denkriangkrai Singha Mawynn) เป็นนักชกชาวไทย วัย 27 ปี จากสังกัดสิงห์ มาวิน มีความถนัดในการต่อสู้สไตล์มวยไทย, สไตรเกอร์ระยะกลาง, เน้นเตะและต่อยคล่องตัว ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 56.88 กิโลกรัม) ส่วนสูง 168 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 143 สามารถเอาชนะ เพชรอภิชาติ อภิชาติมวยไทย ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": "ไม่ระบุ",
-        "body": "ไม่ระบุ",
-        "legs": "ไม่ระบุ",
-        "total_accuracy": "ไม่ระบุ"
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": "ไม่ระบุ",
-        "accuracy_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "วาเลรี สตรุนการี",
+            "opponent_en": "",
+            "opponent_country": "มอลโดวา",
+            "date": "Mar 27, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 148 & The Inner Circle"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรอภิชาติ อภิชาติมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 143"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อาซาฮี ชินากาวา",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Dec 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แหลมสิงห์ ทีวันไฟต์อะคาเดมี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 22, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 121"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยอดทองไท ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 23, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 109"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ต้มยำกุ้ง ภูมิใจไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 14, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 97"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สตีเฟน เออร์วิน",
+            "opponent_en": "",
+            "opponent_country": "สกอตแลนด์",
+            "date": "Nov 15, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 87"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:51",
+            "opponent_th": "สรรเพชร ส.สละชีพ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 04, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 82"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ปฏักเอก ซินบีมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 09, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 74"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "มงคลแก้ว ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 23, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 53"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สมิงดำ ฉ.อจลบุญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 03, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 39"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อภิวัฒน์ ส.สมนึก",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jul 21, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 26"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อภิวัฒน์ ส.สมนึก",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 19, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 17"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ทรงชนะ ต.บรูซลี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 17, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 5"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": "ไม่ระบุ",
-        "distance_control_percentage": "ไม่ระบุ",
-        "defense_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "ไทย",
-      "country_en": "Thailand",
-      "age": 27,
-      "team_th": "สิงห์ มาวิน",
-      "team_en": "Singha Mawynn"
-    },
-    "overall_record": "8-5 (1 KO) ใน ONE | Finish Rate 13%",
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/denkriangkrai-singha-mawynn/"
     ],
-    "short_biography": "เด่นเกรียงไกร มาวินมวยไทย (Denkriangkrai Singha Mawynn) เป็นนักชกชาวไทย วัย 27 ปี จากสังกัดสิงห์ มาวิน มีความถนัดในการต่อสู้สไตล์มวยไทย, สไตรเกอร์ระยะกลาง, เน้นเตะและต่อยคล่องตัว ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 56.88 กิโลกรัม) ส่วนสูง 168 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 143 สามารถเอาชนะ เพชรอภิชาติ อภิชาติมวยไทย ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
-  },
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "วาเลรี สตรุนการี",
-      "opponent_en": "",
-      "opponent_country": "มอลโดวา",
-      "date": "Mar 27, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 148 & The Inner Circle"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เพชรอภิชาติ อภิชาติมวยไทย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Feb 20, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 143"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "อาซาฮี ชินากาวา",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Dec 19, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "แหลมสิงห์ ทีวันไฟต์อะคาเดมี",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Aug 22, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 121"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ยอดทองไท ส.สมหมาย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "May 23, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 109"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ต้มยำกุ้ง ภูมิใจไทย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Feb 14, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 97"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "สตีเฟน เออร์วิน",
-      "opponent_en": "",
-      "opponent_country": "สกอตแลนด์",
-      "date": "Nov 15, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 87"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "0:51",
-      "opponent_th": "สรรเพชร ส.สละชีพ",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Oct 04, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 82"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ปฏักเอก ซินบีมวยไทย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Aug 09, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 74"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "มงคลแก้ว ส.สมหมาย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Feb 23, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 53"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "สมิงดำ ฉ.อจลบุญ",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Nov 03, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 39"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "อภิวัฒน์ ส.สมนึก",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jul 21, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 26"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "อภิวัฒน์ ส.สมนึก",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "May 19, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 17"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ทรงชนะ ต.บรูซลี",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Feb 17, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 5"
-    }
-  ],
-  "fight_history_one_championship": [],
-  "upcoming_fights": [],
-  "weigh_in_history": [
-    {
-      "event_name": "ONE ลุมพินี 148",
-      "weight_lbs": 125.4,
-      "division": "Flyweight"
-    }
-  ]
+    "fight_history_one_championship": [],
+    "upcoming_fights": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 148",
+            "weight_lbs": 125.4,
+            "division": "Flyweight"
+        }
+    ]
 }

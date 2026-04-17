@@ -1,239 +1,239 @@
 {
-  "fighter_profile": {
-    "name_th": "ธานท์ ซิน",
-    "name_en": "Thant Zin",
-    "alias": "จอมทำลายล้างจากเมียนมา (The Myanmar Destroyer)",
-    "image_url": "https://i.ibb.co/BKgSRXLY/image.jpg",
-    "grade": "A",
-    "fighting_style_th": "มวยหมัด, บู๊ดุดัน",
-    "fighting_style_en": "Power Puncher, High-Intensity Aggressive",
-    "stance": "Orthodox (Right-handed)",
-    "physical_stats": {
-      "weight_lbs": 134.2,
-      "weight_kg": 60.87,
-      "division": "Flyweight",
-      "height_ft": "5'7\"",
-      "height_cm": 170,
-      "reach_cm": "172",
-      "leg_reach_cm": "96",
-      "hydration": "N/A"
+    "fighter_profile": {
+        "name_th": "ธานท์ ซิน",
+        "name_en": "Thant Zin",
+        "alias": "จอมทำลายล้างจากเมียนมา (The Myanmar Destroyer)",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "A",
+        "fighting_style_th": "มวยหมัด, บู๊ดุดัน",
+        "fighting_style_en": "Power Puncher, High-Intensity Aggressive",
+        "stance": "Orthodox (Right-handed)",
+        "physical_stats": {
+            "weight_lbs": 134.2,
+            "weight_kg": 60.87,
+            "division": "Flyweight",
+            "height_ft": "5'7\"",
+            "height_cm": 170,
+            "reach_cm": "172",
+            "leg_reach_cm": "96",
+            "hydration": "N/A"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": 10,
+                "body": 3,
+                "legs": 2,
+                "total_per_minute": 15
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": 46,
+                "accuracy_by_target_percentage": {
+                    "head": 65,
+                    "body": 20,
+                    "legs": 15
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": 36,
+                "defense_by_target_percentage": {
+                    "head": 32,
+                    "body": 38,
+                    "legs": 30
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "เมียนมา",
+            "country_en": "Myanmar",
+            "age": 21,
+            "team_th": "ตอ วิน เอเยยาร์ คลับ",
+            "team_en": "Taw Win Ayeyar Club"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/thant-zin/"
+        ],
+        "short_biography": "ธานท์ ซิน (Thant Zin) เป็นนักชกชาวเมียนมา วัย 21 ปี จากสังกัดตอ วิน เอเยยาร์ คลับ มีความถนัดในการต่อสู้สไตล์มวยหมัด, บู๊ดุดัน ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight / Catchweight (ประมาณ 62.1 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 132 สามารถพ่ายแพ้ให้กับ ขุนพลน้อย ส.สมหมาย ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": 10,
-        "body": 3,
-        "legs": 2,
-        "total_per_minute": 15
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": 46,
-        "accuracy_by_target_percentage": {
-          "head": 65,
-          "body": 20,
-          "legs": 15
+    "fight_history_one_championship": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ขุนพลน้อย ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 132"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:11",
+            "opponent_th": "กิ่งซางเล็ก ว.คำชำนาญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 15, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 120"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:09",
+            "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 24, 2025",
+            "rating": 5,
+            "event_en": "ONE 170"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:47",
+            "opponent_th": "ทาเครุ เซกาวา",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Sep 27, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:14",
+            "opponent_th": "ไท สจ.เปี๊ยกอุทัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 23, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 76"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:40",
+            "opponent_th": "ใจสิงห์ ศิษย์นายกพันศักดิ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 16, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 52"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": 36,
-        "defense_by_target_percentage": {
-          "head": 32,
-          "body": 38,
-          "legs": 30
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "เมียนมา",
-      "country_en": "Myanmar",
-      "age": 21,
-      "team_th": "ตอ วิน เอเยยาร์ คลับ",
-      "team_en": "Taw Win Ayeyar Club"
-    },
-    "target_url": "",
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/thant-zin/"
     ],
-    "short_biography": "ธานท์ ซิน (Thant Zin) เป็นนักชกชาวเมียนมา วัย 21 ปี จากสังกัดตอ วิน เอเยยาร์ คลับ มีความถนัดในการต่อสู้สไตล์มวยหมัด, บู๊ดุดัน ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight / Catchweight (ประมาณ 62.1 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 132 สามารถพ่ายแพ้ให้กับ ขุนพลน้อย ส.สมหมาย ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
-  },
-  "fight_history_one_championship": [
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ขุนพลน้อย ส.สมหมาย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Nov 07, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 132"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "1:11",
-      "opponent_th": "กิ่งซางเล็ก ว.คำชำนาญ",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Aug 15, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 120"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "2:09",
-      "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jan 24, 2025",
-      "rating": 5,
-      "event_en": "ONE 170"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Kickboxing",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "2:47",
-      "opponent_th": "ทาเครุ เซกาวา",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Sep 27, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "1:14",
-      "opponent_th": "ไท สจ.เปี๊ยกอุทัย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Aug 23, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 76"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "0:40",
-      "opponent_th": "ใจสิงห์ ศิษย์นายกพันศักดิ์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Feb 16, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 52"
-    }
-  ],
-  "upcoming_fights": [],
-  "weigh_in_history": [
-    {
-      "event_name": "ONE LUMPINEE 149",
-      "weight_lbs": 134.2,
-      "division": "Flyweight"
-    }
-  ],
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "1:38",
-      "opponent_th": "จรัสชัย แม็กจันดี",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Apr 03, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ขุนพลน้อย ส.สมหมาย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Nov 07, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 132"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "1:11",
-      "opponent_th": "กิ่งซางเล็ก ว.คำชำนาญ",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Aug 15, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 120"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "2:09",
-      "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jan 24, 2025",
-      "rating": 5,
-      "event_en": "ONE 170"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Kickboxing",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "2:47",
-      "opponent_th": "ทาเครุ เซกาวา",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Sep 27, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "1:14",
-      "opponent_th": "ไท สจ.เปี๊ยกอุทัย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Aug 23, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 76"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "0:40",
-      "opponent_th": "ใจสิงห์ ศิษย์นายกพันศักดิ์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Feb 16, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 52"
-    }
-  ]
+    "upcoming_fights": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE LUMPINEE 149",
+            "weight_lbs": 134.2,
+            "division": "Flyweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:38",
+            "opponent_th": "จรัสชัย แม็กจันดี",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 03, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ขุนพลน้อย ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 132"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:11",
+            "opponent_th": "กิ่งซางเล็ก ว.คำชำนาญ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 15, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 120"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:09",
+            "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 24, 2025",
+            "rating": 5,
+            "event_en": "ONE 170"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:47",
+            "opponent_th": "ทาเครุ เซกาวา",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Sep 27, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:14",
+            "opponent_th": "ไท สจ.เปี๊ยกอุทัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 23, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 76"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:40",
+            "opponent_th": "ใจสิงห์ ศิษย์นายกพันศักดิ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 16, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 52"
+        }
+    ]
 }

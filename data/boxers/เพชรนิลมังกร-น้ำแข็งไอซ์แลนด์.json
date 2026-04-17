@@ -1,137 +1,137 @@
 {
-  "fighter_profile": {
-    "name_th": "เพชรนิลมังกร น้ำแข็งไอซ์แลนด์",
-    "name_en": "Petninmungkorn Namkangiceland",
-    "alias": "ไม่ระบุ",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773124002/%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%E0%B8%99%E0%B8%B4%E0%B8%A5%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3_sa4ja9.png",
-    "grade": "ไม่ระบุ",
-    "fighting_style_th": "ไม่ระบุ",
-    "fighting_style_en": "ไม่ระบุ",
-    "stance": "ไม่ระบุ",
-    "physical_stats": {
-      "weight_lbs": 114.9,
-      "weight_kg": 52.1,
-      "division": "Atomweight",
-      "height_ft": "5'4\"",
-      "height_cm": 163,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "เพชรนิลมังกร น้ำแข็งไอซ์แลนด์",
+        "name_en": "Petninmungkorn Namkangiceland",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 114.9,
+            "weight_kg": 52.1,
+            "division": "Atomweight",
+            "height_ft": "5'4\"",
+            "height_cm": 163,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 27,
+            "team_th": "กัปตันเคนบ็อกซิ่งยิม / สิงห์วังชา",
+            "team_en": "Captain Kane Boxing Gym / Singha Wangcha"
+        },
+        "target_url": "",
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/petninmungkorn-namkangiceland/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": "ไม่ระบุ",
-        "body": "ไม่ระบุ",
-        "legs": "ไม่ระบุ",
-        "total_accuracy": "ไม่ระบุ"
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": "ไม่ระบุ",
-        "accuracy_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:03",
+            "opponent_th": "โตโยต้า อีเกิลมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 16, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 138"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรนาย่า โหน่งบางทราย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 125"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:34",
+            "opponent_th": "คชสิทธิ์ ท่าแซะยาสัตว์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 11, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 104"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "รีฟดีน มาสดอร์",
+            "opponent_en": "",
+            "opponent_country": "มาเลเซีย",
+            "date": "Jan 10, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 93"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:37",
+            "opponent_th": "คมกริช เจเพาเวอร์รูฟภูเก็ต",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 20, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 80"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:37",
+            "opponent_th": "อัครเดช ก๋วยบางคอแหลม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 24, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 64"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": "ไม่ระบุ",
-        "distance_control_percentage": "ไม่ระบุ",
-        "defense_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "ไทย",
-      "country_en": "Thailand",
-      "age": 27,
-      "team_th": "กัปตันเคนบ็อกซิ่งยิม / สิงห์วังชา",
-      "team_en": "Captain Kane Boxing Gym / Singha Wangcha"
-    },
-    "target_url": "",
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/petninmungkorn-namkangiceland/"
     ]
-  },
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "2:03",
-      "opponent_th": "โตโยต้า อีเกิลมวยไทย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jan 16, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 138"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เพชรนาย่า โหน่งบางทราย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Sep 19, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 125"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "0:34",
-      "opponent_th": "คชสิทธิ์ ท่าแซะยาสัตว์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Apr 11, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 104"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Majority Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "รีฟดีน มาสดอร์",
-      "opponent_en": "",
-      "opponent_country": "มาเลเซีย",
-      "date": "Jan 10, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 93"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "0:37",
-      "opponent_th": "คมกริช เจเพาเวอร์รูฟภูเก็ต",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Sep 20, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 80"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "1:37",
-      "opponent_th": "อัครเดช ก๋วยบางคอแหลม",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "May 24, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 64"
-    }
-  ]
 }

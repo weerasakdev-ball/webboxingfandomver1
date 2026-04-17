@@ -1,52 +1,52 @@
 {
-  "fighter_profile": {
-    "name_th": "คาอิโตะ โอโนะ",
-    "name_en": "Kaito Ono",
-    "alias": "",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775182499/%E0%B9%82%E0%B8%AD%E0%B9%82%E0%B8%99%E0%B9%8A%E0%B8%B0_cdhjqq.png",
-    "grade": "",
-    "fighting_style_th": "",
-    "fighting_style_en": "",
-    "stance": "",
-    "physical_stats": {
-      "weight_lbs": "",
-      "weight_kg": "",
-      "division": "",
-      "height_ft": "5'10\"",
-      "height_cm": 180,
-      "reach_cm": "",
-      "leg_reach_cm": ""
+    "fighter_profile": {
+        "name_th": "คาอิโตะ โอโนะ",
+        "name_en": "Kaito Ono",
+        "alias": "",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "",
+        "fighting_style_th": "",
+        "fighting_style_en": "",
+        "stance": "",
+        "physical_stats": {
+            "weight_lbs": "",
+            "weight_kg": "",
+            "division": "",
+            "height_ft": "5'10\"",
+            "height_cm": 180,
+            "reach_cm": "",
+            "leg_reach_cm": ""
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {},
+            "significant_strike_accuracy": {},
+            "defensive_stats": {}
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 28,
+            "team_th": "Team F.O.D.",
+            "team_en": ""
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/kaito-ono/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {},
-      "significant_strike_accuracy": {},
-      "defensive_stats": {}
-    },
-    "personal_info": {
-      "country_th": "ญี่ปุ่น",
-      "country_en": "Japan",
-      "age": 28,
-      "team_th": "Team F.O.D.",
-      "team_en": ""
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/kaito-ono/"
+    "weigh_in_history": [],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โมฮัมหมัด เซียซารานี",
+            "opponent_en": "",
+            "opponent_country": "อิหร่าน",
+            "date": "May 23, 2025",
+            "rating": "",
+            "event_en": "ONE ลุมพินี 109"
+        }
     ]
-  },
-  "weigh_in_history": [],
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "Kickboxing",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "โมฮัมหมัด เซียซารานี",
-      "opponent_en": "",
-      "opponent_country": "อิหร่าน",
-      "date": "May 23, 2025",
-      "rating": "",
-      "event_en": "ONE ลุมพินี 109"
-    }
-  ]
 }

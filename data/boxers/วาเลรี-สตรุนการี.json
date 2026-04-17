@@ -1,78 +1,78 @@
 {
-  "fighter_profile": {
-    "name_th": "วาเลรี สตรุนการี",
-    "name_en": "Valerii Strungari",
-    "alias": "ไม่ระบุ",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1740716400/valerii-strungari-1600x1200-1_c666f2.png",
-    "grade": "ไม่ระบุ",
-    "fighting_style_th": "มวยไทย",
-    "fighting_style_en": "Muay Thai",
-    "stance": "ไม่ระบุ",
-    "physical_stats": {
-      "weight_lbs": 125.6,
-      "weight_kg": 56.97,
-      "division": "Flyweight",
-      "height_ft": "5'5\"",
-      "height_cm": 165,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "วาเลรี สตรุนการี",
+        "name_en": "Valerii Strungari",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 125.6,
+            "weight_kg": 56.97,
+            "division": "Flyweight",
+            "height_ft": "5'5\"",
+            "height_cm": 165,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "มอลโดวา",
+            "country_en": "Moldova",
+            "age": 24,
+            "team_th": "ทีม เมห์ดี ซาทูต",
+            "team_en": "Team Mehdi Zatout"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/valerii-strungari/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-      "defensive_stats": "ยังไม่มีข้อมูล"
-    },
-    "personal_info": {
-      "country_th": "มอลโดวา",
-      "country_en": "Moldova",
-      "age": 24,
-      "team_th": "ทีม เมห์ดี ซาทูต",
-      "team_en": "Team Mehdi Zatout"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/valerii-strungari/"
-    ]
-  },
-  "weigh_in_history": [
-    {
-      "event_name": "ONE ลุมพินี 148",
-      "weight_lbs": 125.6,
-      "division": "Flyweight"
-    },
-    {
-      "event_name": "ONE ลุมพินี 133",
-      "weight_lbs": "ไม่ระบุ",
-      "division": "Strawweight"
-    }
-  ],
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เด่นเกรียงไกร มาวินมวยไทย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Mar 27, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 148 & The Inner Circle"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "1:38",
-      "opponent_th": "สานิตย์ เอกเมืองนนท์",
-      "opponent_en": "Sanit Ekmuangnon",
-      "opponent_country": "ไทย",
-      "date": "Nov 14, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 133"
-    }
-  ],
-  "fight_history_one_championship": [],
-  "upcoming_fights": []
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 148",
+            "weight_lbs": 125.6,
+            "division": "Flyweight"
+        },
+        {
+            "event_name": "ONE ลุมพินี 133",
+            "weight_lbs": "ไม่ระบุ",
+            "division": "Strawweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เด่นเกรียงไกร มาวินมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 27, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 148 & The Inner Circle"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:38",
+            "opponent_th": "สานิตย์ เอกเมืองนนท์",
+            "opponent_en": "Sanit Ekmuangnon",
+            "opponent_country": "ไทย",
+            "date": "Nov 14, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 133"
+        }
+    ],
+    "fight_history_one_championship": [],
+    "upcoming_fights": []
 }

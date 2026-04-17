@@ -1,110 +1,110 @@
 {
-  "fighter_profile": {
-    "name_th": "เกรเกอร์ ทอม",
-    "name_en": "Gregor Thom",
-    "alias": "ไม่ระบุ",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772975723/Opera_%E0%B8%AA%E0%B9%81%E0%B8%99%E0%B8%9B%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%95_2026-03-08_201346_www.onefc.com_thqpyc.png",
-    "grade": "ไม่ระบุ",
-    "fighting_style_th": "ไม่ระบุ",
-    "fighting_style_en": "ไม่ระบุ",
-    "stance": "ไม่ระบุ",
-    "physical_stats": {
-      "weight_lbs": 135.4,
-      "weight_kg": 61.4,
-      "division": "Bantamweight (135 - 145 lbs)",
-      "height_ft": "5'9\"",
-      "height_cm": 176,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "เกรเกอร์ ทอม",
+        "name_en": "Gregor Thom",
+        "alias": "ไม่ระบุ",
+        "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1776265087/noname_vpyh27.jpg",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 135.4,
+            "weight_kg": 61.4,
+            "division": "Bantamweight (135 - 145 lbs)",
+            "height_ft": "5'9\"",
+            "height_cm": 176,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "สกอตแลนด์",
+            "country_en": "Scotland",
+            "age": 26,
+            "team_th": "อเบอร์ดีน คอมแบท เซ็นเตอร์ / เกียรติทรงฤทธิ์",
+            "team_en": "Aberdeen Combat Centre / Kiatsongrit"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/gregor-thom/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": "ไม่ระบุ",
-        "body": "ไม่ระบุ",
-        "legs": "ไม่ระบุ",
-        "total_accuracy": "ไม่ระบุ"
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": "ไม่ระบุ",
-        "accuracy_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 147"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:59",
+            "opponent_th": "ดอนคิงส์ โยธารักษ์มวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 13, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 142"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:23",
+            "opponent_th": "ป้อมเพชร ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 14, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 133"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:08",
+            "opponent_th": "ทากุ คอนโดะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "May 17, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 63"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": "ไม่ระบุ",
-        "distance_control_percentage": "ไม่ระบุ",
-        "defense_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "สกอตแลนด์",
-      "country_en": "Scotland",
-      "age": 26,
-      "team_th": "อเบอร์ดีน คอมแบท เซ็นเตอร์ / เกียรติทรงฤทธิ์",
-      "team_en": "Aberdeen Combat Centre / Kiatsongrit"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/gregor-thom/"
     ]
-  },
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Mar 20, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 147"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "2:59",
-      "opponent_th": "ดอนคิงส์ โยธารักษ์มวยไทย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Feb 13, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 142"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "2:23",
-      "opponent_th": "ป้อมเพชร ป๋องสุพรรณ พีเค.",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Nov 14, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 133"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "2:08",
-      "opponent_th": "ทากุ คอนโดะ",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "May 17, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 63"
-    }
-  ]
 }
