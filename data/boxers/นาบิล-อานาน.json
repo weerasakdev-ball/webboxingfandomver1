@@ -3,7 +3,7 @@
         "name_th": "นาบิล อานาน",
         "name_en": "Nabil Anane",
         "alias": "The Starboy",
-        "image_url": "",
+        "image_url": "นาบิล-อานาน",
         "grade": "A",
         "fighting_style_th": "มวยฝีมือ, บุก",
         "fighting_style_en": "Technical Fighter (Muay Fimeu), Aggressive",
@@ -11,7 +11,7 @@
         "physical_stats": {
             "weight_lbs": 145,
             "weight_kg": 65.3,
-            "division": "Lightweight",
+            "division": "Bantamweight",
             "height_ft": "6'4\"",
             "height_cm": 195,
             "reach_cm": "200",

@@ -285,6 +285,31 @@
     </footer>
 
     <script>
+        // ===============================================
+        // 🌟 HELPER FUNCTION: ระบบดึงรูปภาพจาก Cloudinary (เพิ่มเข้ามาใหม่)
+        // ===============================================
+        function getCloudinaryUrl(imgId, width, height) {
+            // 1. ตรวจสอบกรณีไม่มีรูป หรือเป็น noname ให้ใช้รูปเงาดำ local ทันที (แก้ 404)
+            if (!imgId || imgId === "ไม่ระบุ" || imgId === "ยังไม่มีข้อมูล" || imgId.trim() === "" || imgId === "noname") {
+                return "../../assets/images/noname.jpg"; 
+            }
+
+            // 2. ถ้าเป็นลิงก์เว็บอื่น หรือ path รูป local อยู่แล้ว ให้ปล่อยผ่าน
+            if (imgId.startsWith('http') || imgId.includes('../../')) {
+                return imgId.startsWith('http') ? imgId : '../../' + imgId;
+            }
+
+            // 3. 🚨 ตัดนามสกุลไฟล์ (.jpg, .png, .webp) ออกให้เหลือแค่ชื่อเพียวๆ (แก้ 404)
+            let cleanImgId = imgId.replace(/\.(jpg|jpeg|png|webp)$/i, '');
+
+            // 4. ประกอบ URL ของ Cloudinary
+            const cloudName = "dpvyl7nan";
+            const transform = `c_fill,g_face,h_${height},w_${width},f_auto,q_auto`;
+            const safeImgId = encodeURIComponent(cleanImgId);
+
+            return `https://res.cloudinary.com/${cloudName}/image/upload/${transform}/v1/${safeImgId}`;
+        }
+
         // ==========================================
         // ส่วนที่ 1: ระบบ Fighter Directory (ดึงนักมวยมาแสดงในหน้า)
         // ==========================================
@@ -369,13 +394,16 @@
                 const p = f.fighter_profile || {};
                 const gymName = p.personal_info?.team_th || p.personal_info?.team_en || 'ไม่ระบุค่าย';
                 const divisionName = p.physical_stats?.division || '-';
-                const imageUrl = p.image_url ? (p.image_url.startsWith('http') ? p.image_url : '../../' + p.image_url) : 'https://via.placeholder.com/150?text=?';
+                
+                // 🚀 แก้ไข: เรียกใช้ Cloudinary ดึงภาพขนาด 200x200 สำหรับหน้าการ์ดนักมวย
+                const imageUrl = getCloudinaryUrl(p.image_url, 200, 200);
+                
                 const fighterHtmlFile = encodeURIComponent(f.fileName.replace('.json', '.html'));
                 
                 return `
                     <a href="${fighterHtmlFile}" class="fighter-card">
                         <div class="card-img-container">
-                            <img src="${imageUrl}" class="card-img" alt="${p.name_th}" loading="lazy" onerror="this.src='https://via.placeholder.com/150?text=?'">
+                            <img src="${imageUrl}" class="card-img" alt="${p.name_th}" loading="lazy" onerror="this.src='../../assets/images/noname.jpg'">
                         </div>
                         <div class="card-name">${p.name_th || 'ไม่ระบุชื่อ'}</div>
                         <div class="card-alias">"${p.alias || 'นักสู้'}"</div>
@@ -444,12 +472,15 @@
                 resultsHtml += `<div class="search-category-title">นักมวย (Fighters)</div>`;
                 matchedFighters.forEach(f => {
                     const p = f.fighter_profile || {};
-                    const imageUrl = p.image_url ? (p.image_url.startsWith('http') ? p.image_url : '../../' + p.image_url) : 'https://via.placeholder.com/40?text=?';
+                    
+                    // 🚀 แก้ไข: เรียกใช้ Cloudinary ดึงภาพขนาด 80x80 สำหรับรูปเล็กในช่องค้นหา
+                    const imageUrl = getCloudinaryUrl(p.image_url, 80, 80);
+                    
                     const fighterHtmlFile = encodeURIComponent(f.fileName.replace('.json', '.html'));
                     
                     resultsHtml += `
                         <a href="${fighterHtmlFile}" class="search-dropdown-item">
-                            <img src="${imageUrl}" class="search-dropdown-icon" alt="${p.name_th}" onerror="this.src='https://via.placeholder.com/40?text=?'" style="border-radius: 50%; padding:0;">
+                            <img src="${imageUrl}" class="search-dropdown-icon" alt="${p.name_th}" onerror="this.src='../../assets/images/noname.jpg'" style="border-radius: 50%; padding:0;">
                             <div class="search-dropdown-info">
                                 <span class="search-dropdown-name">${p.name_th} ${p.alias ? `"${p.alias}"` : ''}</span>
                                 <span class="search-dropdown-meta">รุ่น: ${p.physical_stats?.division || '-'}</span>

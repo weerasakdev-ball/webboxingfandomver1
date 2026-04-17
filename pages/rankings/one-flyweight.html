@@ -393,6 +393,31 @@
     </footer>
 
     <script>
+        // ===============================================
+        // 🌟 HELPER FUNCTION: ระบบดึงรูปภาพจาก Cloudinary (อัปเกรดล่าสุด)
+        // ===============================================
+        function getCloudinaryUrl(imgId, width, height) {
+            // 1. ตรวจสอบกรณีไม่มีรูป หรือเป็น noname ให้ใช้รูปเงาดำ local ทันที (แก้ 404)
+            if (!imgId || imgId === "ไม่ระบุ" || imgId === "ยังไม่มีข้อมูล" || imgId.trim() === "" || imgId === "noname") {
+                return "../../assets/images/noname.jpg"; 
+            }
+
+            // 2. ถ้าเป็นลิงก์เว็บอื่น หรือ path รูป local อยู่แล้ว ให้ปล่อยผ่าน
+            if (imgId.startsWith('http') || imgId.includes('../../')) {
+                return imgId.startsWith('http') ? imgId : '../../' + imgId;
+            }
+
+            // 3. ตัดนามสกุลไฟล์ (.jpg, .png, .webp) ออกให้เหลือแค่ชื่อเพียวๆ
+            let cleanImgId = imgId.replace(/\.(jpg|jpeg|png|webp)$/i, '');
+
+            // 4. ประกอบ URL ของ Cloudinary
+            const cloudName = "dpvyl7nan";
+            const transform = `c_fill,g_face,h_${height},w_${width},f_auto,q_auto`;
+            const safeImgId = encodeURIComponent(cleanImgId);
+
+            return `https://res.cloudinary.com/${cloudName}/image/upload/${transform}/v1/${safeImgId}`;
+        }
+
         // ==========================================
         // 1. ระบบค้นหาบน Navbar
         // ==========================================
@@ -444,13 +469,14 @@
             } else {
                 mainSearchDropdown.innerHTML = filtered.map(item => {
                     const p = item.fighter_profile || {};
-                    const imgUrl = p.image_url ? p.image_url : 'https://via.placeholder.com/40?text=?';
+                    // 🚀 เรียกใช้ Cloudinary สำหรับรูปภาพในช่องค้นหา ขนาด 40x40px
+                    const imgUrl = getCloudinaryUrl(p.image_url, 40, 40);
                     
                     const profileLink = `../fighter/${encodeURIComponent(item.fileName.replace('.json', '.html'))}`;
                     
                     return `
                         <a href="${profileLink}" class="search-dropdown-item">
-                            <img src="${imgUrl}" class="search-dropdown-img" alt="${p.name_th}">
+                            <img src="${imgUrl}" class="search-dropdown-img" alt="${p.name_th}" onerror="this.src='../../assets/images/noname.jpg'">
                             <div class="search-dropdown-info">
                                 <span class="search-dropdown-name">${p.name_th}</span>
                                 <span class="search-dropdown-meta">รุ่น: ${p.physical_stats?.division || '-'}</span>
@@ -601,14 +627,16 @@
                 
                 const p = f.fighter_profile;
                 const detailPath = `../fighter/${encodeURIComponent(f.fileName.replace('.json', '.html'))}`;
-                const imgUrl = p.image_url && p.image_url !== 'ไม่ระบุ' ? p.image_url : 'https://via.placeholder.com/60x60/eeeeee/cccccc?text=NO+IMG';
+                
+                // 🚀 เรียกใช้ Cloudinary สำหรับรูปภาพในตาราง ขนาด 55x55px
+                const imgUrl = getCloudinaryUrl(p.image_url, 55, 55);
                 
                 return `
                     <tr onclick="location.href='${detailPath}'">
                         <td>${rankDisplay}</td>
                         <td>
                             <div class="fighter-cell">
-                                <img src="${imgUrl}" class="fighter-img" alt="อันดับ ${i+1} ${p.name_th}" onerror="this.src='https://via.placeholder.com/60x60/eee'">
+                                <img src="${imgUrl}" class="fighter-img" alt="อันดับ ${i+1} ${p.name_th}" onerror="this.src='../../assets/images/noname.jpg'">
                                 <div>
                                     <span class="fighter-name">${p.name_th || '-'}</span>
                                     <span class="fighter-alias">ทีม: ${p.personal_info?.team_th || '-'}</span>

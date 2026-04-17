@@ -16,12 +16,12 @@
         /* ========================================================================= */
         
         :root {
-            --bg-body: #f8fafc; /* สีพื้นหลังสว่าง สบายตา */
+            --bg-body: #f8fafc; 
             --bg-card: #ffffff;
-            --text-main: #1e293b; /* สีเทาเข้มแทนสีดำสนิท ให้อ่านสบายตา */
+            --text-main: #1e293b; 
             --text-muted: #64748b;
-            --accent-red: #dc2626; /* สีแดงที่ดูพรีเมียมขึ้น */
-            --header-bg: #0f172a; /* สี Deep Slate สำหรับ Header */
+            --accent-red: #dc2626; 
+            --header-bg: #0f172a; 
             --border-light: #e2e8f0;
             --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
             --shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
@@ -43,7 +43,7 @@
             flex-direction: column; 
             min-height: 100vh; 
             line-height: 1.6; 
-            -webkit-font-smoothing: antialiased; /* ทำให้ตัวอักษรคมชัดขึ้น */
+            -webkit-font-smoothing: antialiased; 
         }
 
         /* ========================================================================= */
@@ -133,7 +133,7 @@
             display: flex; 
             border-radius: 30px; 
             overflow: hidden;
-            background: #1e293b; /* กลืนไปกับ Header */
+            background: #1e293b; 
             border: 1px solid #334155;
             transition: border-color 0.3s;
         }
@@ -257,7 +257,6 @@
             border: 1px solid var(--border-light);
         }
 
-        /* เปลี่ยน Header ของตารางให้ดูสว่างและคลีน */
         .ranking-header {
             background-color: var(--bg-card);
             padding: 25px 30px;
@@ -311,7 +310,6 @@
         .ranking-table-wrapper { overflow-x: auto; }
         .ranking-table { width: 100%; border-collapse: collapse; min-width: 800px; }
 
-        /* หัวตารางแบบ Modern */
         .ranking-table th { 
             background-color: #f1f5f9; 
             color: var(--text-muted); 
@@ -342,7 +340,6 @@
         .fighter-name { font-weight: 600; font-size: 16px; color: var(--text-main); display: block; }
         .fighter-alias { font-size: 13px; color: var(--text-muted); display: block; margin-top: 2px; }
 
-        /* ตัวเลข Rank มีมิติพรีเมียม */
         .rank-number { 
             font-size: 16px; font-weight: 700; color: var(--text-muted); 
             width: 36px; height: 36px; line-height: 36px; 
@@ -356,14 +353,12 @@
 
         .score-text { font-size: 20px; font-weight: 700; color: var(--text-main); }
 
-        /* Form Badges ทันสมัย */
         .form-badge { 
             display: inline-flex; align-items: center; justify-content: center;
             width: 24px; height: 24px; border-radius: 6px; 
             font-size: 11px; font-weight: 700; margin: 0 3px; 
         }
         
-        /* ใช้สีพาสเทลเข้มเพื่อความสวยงาม */
         .badge-w { background-color: #dcfce7; color: #166534; }
         .badge-l { background-color: #fee2e2; color: #991b1b; }
         .badge-d { background-color: #fef3c7; color: #92400e; }
@@ -452,7 +447,6 @@
 
         .rank-number-mini { font-size: 20px; font-weight: 700; color: var(--text-muted); width: 30px; text-align: center; }
 
-        /* จัดแต่งการ์ด Tier List Widget พิเศษ */
         .tier-widget {
             background: linear-gradient(180deg, #ffffff 0%, #fff1f2 100%);
             border-color: #fecdd3;
@@ -791,14 +785,29 @@
         let currentDisplayLimit = 15; 
         let currentFilteredFighters = []; 
 
-        // =========================================================
-        // 2. ฟังก์ชันจัดการรูปภาพ
-        // =========================================================
-        function fixImagePath(url) {
-            if (!url || url === "ไม่ระบุ" || url === "" || url.includes("via.placeholder")) {
-                return "https://placehold.co/60x60/e2e8f0/64748b?text=N/A";
+        // ===============================================
+        // 🌟 2. HELPER FUNCTION: ระบบดึงรูปภาพจาก Cloudinary (อัปเกรดล่าสุด)
+        // ===============================================
+        function getCloudinaryUrl(imgId, width, height) {
+            // 1. ตรวจสอบกรณีไม่มีรูป หรือเป็น noname ให้ใช้รูปเงาดำ Local (แก้ปัญหา 404)
+            if (!imgId || imgId === "ไม่ระบุ" || imgId === "ยังไม่มีข้อมูล" || imgId.trim() === "" || imgId === "noname") {
+                return "assets/images/noname.jpg"; 
             }
-            return url; 
+
+            // 2. ถ้าเป็นลิงก์เว็บอื่น หรือ path รูป local อยู่แล้ว ให้ปล่อยผ่าน
+            if (imgId.startsWith('http') || imgId.includes('assets/')) {
+                return imgId.startsWith('http') ? imgId : imgId;
+            }
+
+            // 3. ตัดนามสกุลไฟล์ (.jpg, .png, .webp) ออกให้เหลือแค่ชื่อเพียวๆ (แก้ 404 ใน JSON)
+            let cleanImgId = imgId.replace(/\.(jpg|jpeg|png|webp)$/i, '');
+
+            // 4. ประกอบ URL ของ Cloudinary
+            const cloudName = "dpvyl7nan";
+            const transform = `c_fill,g_face,h_${height},w_${width},f_auto,q_auto`;
+            const safeImgId = encodeURIComponent(cleanImgId);
+
+            return `https://res.cloudinary.com/${cloudName}/image/upload/${transform}/v1/${safeImgId}`;
         }
 
         // =========================================================
@@ -986,7 +995,10 @@
                 
                 const p = f.fighter_profile;
                 const detailPath = `pages/fighter/${encodeURIComponent(f.fileName.replace('.json', '.html'))}`;
-                const imgUrl = fixImagePath(p.image_url);
+                
+                // 🚀 ใช้ Cloudinary ดึงรูป 50x50 สำหรับตารางหลัก (Ranking Table)
+                const imgUrl = getCloudinaryUrl(p.image_url, 50, 50);
+                
                 const divisionText = p.physical_stats?.division || 'N/A';
                 const teamText = p.personal_info?.team_th || 'N/A';
                 const countryText = p.personal_info?.country_th || 'N/A';
@@ -996,7 +1008,7 @@
                         <td>${rankDisplay}</td>
                         <td>
                             <div class="fighter-cell">
-                                <img src="${imgUrl}" class="fighter-img" alt="${p.name_th}">
+                                <img src="${imgUrl}" class="fighter-img" alt="${p.name_th}" onerror="this.src='assets/images/noname.jpg'">
                                 <div>
                                     <span class="fighter-name">${p.name_th || '-'}</span>
                                     <span class="fighter-alias" style="color: #64748b;">${divisionText}</span>
@@ -1057,11 +1069,14 @@
             } else {
                 searchDropdown.innerHTML = filtered.map(item => {
                     const p = item.fighter_profile || {};
-                    const imgUrl = fixImagePath(p.image_url);
+                    
+                    // 🚀 ใช้ Cloudinary ดึงรูปขนาด 45x45 สำหรับเมนูค้นหา
+                    const imgUrl = getCloudinaryUrl(p.image_url, 45, 45);
+                    
                     const profileLink = `pages/fighter/${encodeURIComponent(item.fileName.replace('.json', '.html'))}`;
                     return `
                         <a href="${profileLink}" class="search-dropdown-item">
-                            <img src="${imgUrl}" class="search-dropdown-img" alt="${p.name_th}">
+                            <img src="${imgUrl}" class="search-dropdown-img" alt="${p.name_th}" onerror="this.src='assets/images/noname.jpg'">
                             <div class="search-dropdown-info">
                                 <span class="search-dropdown-name">${p.name_th}</span>
                                 <span class="search-dropdown-meta">Div: ${p.physical_stats?.division || '-'}</span>
@@ -1137,14 +1152,16 @@
                     
                     const p = f.fighter_profile;
                     const profileLink = `pages/fighter/${encodeURIComponent(f.fileName.replace('.json', '.html'))}`;
-                    const imgUrl = fixImagePath(p.image_url);
+                    
+                    // 🚀 ใช้ Cloudinary ดึงรูปขนาด 45x45 สำหรับวิดเจ็ต Top Points
+                    const imgUrl = getCloudinaryUrl(p.image_url, 45, 45);
 
                     return `
                         <tr style="border-bottom: 1px solid #f1f5f9; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.backgroundColor='#f8fafc'" onmouseout="this.style.backgroundColor='transparent'" onclick="location.href='${profileLink}'">
                             <td style="padding: 15px; width: 40px;">${rankDisplay}</td>
                             <td style="padding: 15px 0;">
                                 <div style="display: flex; align-items: center; gap: 12px;">
-                                    <img src="${imgUrl}" alt="${p.name_th}" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 1px solid #e2e8f0; background: #f8fafc;">
+                                    <img src="${imgUrl}" alt="${p.name_th}" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 1px solid #e2e8f0; background: #f8fafc;" onerror="this.src='assets/images/noname.jpg'">
                                     <div>
                                         <span style="display: block; font-weight: 600; font-size: 15px; color: #1e293b;">${p.name_th || '-'}</span>
                                         <div style="display: flex; align-items: center; margin-top: 4px;">
@@ -1186,12 +1203,13 @@
                         return p.name_th.includes(cleanName) || cleanName.includes(p.name_th);
                     });
                     
-                    const imgUrl = matched ? fixImagePath(matched.fighter_profile.image_url) : "https://placehold.co/60x60/dc2626/ffffff?text=ONE";
+                    // 🚀 ใช้ Cloudinary ดึงรูปแชมป์ขนาด 60x60
+                    const imgUrl = matched ? getCloudinaryUrl(matched.fighter_profile.image_url, 60, 60) : "https://placehold.co/60x60/dc2626/ffffff?text=ONE";
                     const profileLink = matched ? `pages/fighter/${encodeURIComponent(matched.fileName.replace('.json', '.html'))}` : '#';
                     
                     html += `
                         <li class="champ-item" style="cursor: pointer; transition: background 0.2s;" onmouseover="this.style.backgroundColor='#f8fafc'" onmouseout="this.style.backgroundColor='transparent'" onclick="location.href='${profileLink}'">
-                            <img src="${imgUrl}" alt="${champ.champion_name_th}" class="champ-img" onerror="this.src='https://placehold.co/60x60/e2e8f0/64748b?text=N/A'">
+                            <img src="${imgUrl}" alt="${champ.champion_name_th}" class="champ-img" onerror="this.src='assets/images/noname.jpg'">
                             <div class="champ-info">
                                 <span class="champ-division" style="color:#dc2626; font-weight:600;">${champ.weight_class_th}</span>
                                 <span class="champ-name">${champ.champion_name_th || 'แชมป์ว่าง'}</span>
@@ -1212,12 +1230,14 @@
             
             top3.forEach(fighter => {
                 const p = fighter.fighter_profile || {};
-                const imgUrl = fixImagePath(p.image_url);
+                
+                // 🚀 ใช้ Cloudinary ดึงรูปขนาด 60x60 สำหรับวิดเจ็ต P4P Watchlist
+                const imgUrl = getCloudinaryUrl(p.image_url, 60, 60);
                 const profileLink = `pages/fighter/${encodeURIComponent(fighter.fileName.replace('.json', '.html'))}`;
                 
                 html += `
                     <li class="champ-item">
-                        <img src="${imgUrl}" alt="${p.name_th}" class="champ-img" onerror="this.src='https://placehold.co/60x60/e2e8f0/64748b?text=N/A'">
+                        <img src="${imgUrl}" alt="${p.name_th}" class="champ-img" onerror="this.src='assets/images/noname.jpg'">
                         <div class="champ-info">
                             <a href="${profileLink}" class="champ-name" style="text-decoration: none;">${p.name_th || 'ไม่ระบุ'}</a>
                             <span class="champ-division" style="color:#64748b; font-weight: normal;">สไตล์: <span style="color:#334155">${p.fighting_style_th || '-'}</span></span>
@@ -1237,14 +1257,16 @@
                 let html = '';
                 
                 top3.forEach((f) => {
-                    const imgUrl = f.image_url && f.image_url !== 'ไม่ระบุ' ? f.image_url : 'https://placehold.co/60x60/e2e8f0/64748b?text=Raja';
+                    // 🚀 ใช้ Cloudinary ดึงรูปขนาด 60x60 ของนักมวยราชดำเนิน
+                    const imgUrl = (f.image_url && f.image_url !== 'ไม่ระบุ') ? getCloudinaryUrl(f.image_url, 60, 60) : 'https://placehold.co/60x60/e2e8f0/64748b?text=Raja';
+                    
                     const isChamp = f.rank === 'C';
                     const rankText = isChamp ? '👑' : f.rank;
                     
                     html += `
                         <li class="champ-item">
                             <div class="rank-number-mini" style="${isChamp ? 'color:#16a34a;' : 'color:#94a3b8;'}">${rankText}</div>
-                            <img src="${imgUrl}" alt="${f.name}" class="champ-img" style="border-color: ${isChamp ? '#16a34a' : '#e2e8f0'};">
+                            <img src="${imgUrl}" alt="${f.name}" class="champ-img" style="border-color: ${isChamp ? '#16a34a' : '#e2e8f0'};" onerror="this.src='assets/images/noname.jpg'">
                             <div class="champ-info">
                                 <span class="champ-name" style="${isChamp ? 'color:#16a34a;' : 'color:#1e293b;'}">${f.name}</span>
                                 <span class="champ-division" style="color:#64748b; font-weight: normal;">สัญชาติ: ${f.country || '-'}</span>

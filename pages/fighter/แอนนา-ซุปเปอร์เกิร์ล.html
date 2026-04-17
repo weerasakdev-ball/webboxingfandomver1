@@ -368,6 +368,37 @@
             object-position: top center;
         }
 
+        /* ---------------------------------- */
+        /* CSS เพิ่มเติม: ส่วนของเครดิตรูปภาพ */
+        /* ---------------------------------- */
+        .img-credit-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.6) 60%, transparent 100%);
+            padding: 25px 12px 12px;
+            text-align: center;
+            pointer-events: none; /* ทำให้คลิกผ่านไปยังรูปได้ */
+        }
+
+        .img-credit-title {
+            color: #ffffff;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            margin-bottom: 3px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+            display: block;
+        }
+
+        .img-credit-note {
+            color: #cbd5e1;
+            font-size: 10px;
+            line-height: 1.3;
+            display: block;
+        }
+
         .info-box {
             flex: 1;
             min-width: 280px;
@@ -917,22 +948,30 @@
 
     <script>
         // ===============================================
-        // 🌟 HELPER FUNCTION: ระบบดึงรูปภาพแบบ Local สำหรับขึ้น Production
+        // 🌟 HELPER FUNCTION: ระบบดึงรูปภาพจาก Cloudinary (อัปเกรดล่าสุด)
         // ===============================================
-        function getLocalImageUrl(imgId) {
-            // ใช้ Relative Path วิ่งออกจากโฟลเดอร์ปัจจุบันไปหา assets
-            const defaultImage = "../../assets/images/noname.jpg";
-
+        function getCloudinaryUrl(imgId, width, height) {
+            // 1. ตรวจสอบกรณีไม่มีชื่อภาพ
             if (!imgId || imgId === "ไม่ระบุ" || imgId === "ยังไม่มีข้อมูล" || imgId.trim() === "") {
-                return defaultImage;
+                imgId = "noname";
             }
 
+            // 2. ถ้าเป็น URL ภายนอกอยู่แล้ว (เช่น http...) ให้ดึงมาใช้เลย
             if (imgId.startsWith('http') || imgId.includes('../../')) {
                 return imgId.startsWith('http') ? imgId : '../../' + imgId;
             }
 
-            // ถ้ามีแค่ชื่อไฟล์ ให้เอาไปต่อกับ path ของโฟลเดอร์รูปภาพ
-            return `../../assets/images/boxers/${imgId}`;
+            // 3. ประกอบ URL ของ Cloudinary
+            const cloudName = "dpvyl7nan";
+            // g_face = เล็งไปที่ใบหน้าคน
+            // f_auto = แปลงนามสกุลไฟล์ให้อัตโนมัติ (.webp, .jpg)
+            // q_auto = บีบอัดคุณภาพรูปให้โหลดเร็ว
+            const transform = `c_fill,g_face,h_${height},w_${width},f_auto,q_auto`;
+            
+            // Encode ภาษาไทยใน Image ID ให้เบราว์เซอร์อ่านออก
+            const safeImgId = encodeURIComponent(imgId);
+
+            return `https://res.cloudinary.com/${cloudName}/image/upload/${transform}/v1/${safeImgId}`;
         }
 
         // ===============================================
@@ -1020,8 +1059,8 @@
                 const wins = pastFights.filter(f => f.result.toLowerCase() === 'win');
                 const winCount = wins.length;
 
-                // โหลดรูปหลัก
-                const mainImgUrl = getLocalImageUrl(p.image_url);
+                // 🚀 เปลี่ยนมาใช้ระบบ Cloudinary สำหรับรูปหลัก (ขนาด 260x340)
+                const mainImgUrl = getCloudinaryUrl(p.image_url, 260, 340);
 
                 // SEO
                 const aliasText = p.alias && p.alias !== "ไม่ระบุ" ? `ฉายา ${p.alias}` : "";
@@ -1075,7 +1114,8 @@
 
                 const enhancedHistory = await Promise.all(pastFights.map(async (f) => {
                     const oppName = f.opponent_th || f.opponent_en;
-                    let opponentImage = getLocalImageUrl("");
+                    // 🚀 โหลดรูปคู่ชก (ถ้าไม่มีก็เป็น noname ขนาด 70x70)
+                    let opponentImage = getCloudinaryUrl("noname", 70, 70);
                     let opponentFileName = null;
 
                     if (oppName && oppName !== "ไม่ระบุ") {
@@ -1094,7 +1134,8 @@
                                     if (oppRes.ok) {
                                         const oppData = await oppRes.json();
                                         if (oppData.fighter_profile?.image_url) {
-                                            opponentImage = getLocalImageUrl(oppData.fighter_profile.image_url);
+                                            // 🚀 ใช้ Cloudinary ดึงรูปคู่ชกมาโชว์ในตาราง
+                                            opponentImage = getCloudinaryUrl(oppData.fighter_profile.image_url, 70, 70);
                                         }
                                         break;
                                     }
@@ -1140,6 +1181,10 @@
                         <div class="profile-header">
                             <div class="img-wrap">
                                 <img src="${mainImgUrl}" class="profile-img" alt="ประวัติ ${p.name_th} รูปภาพ" title="${p.name_th}" onerror="this.src='../../assets/images/noname.jpg'">
+                                <div class="img-credit-overlay">
+                                    <span class="img-credit-title">📸 Credit Photo: ONE Championship / BoxingFandom</span>
+                                    <span class="img-credit-note">*ใช้ภาพเพื่อประกอบการนำเสนอสถิติและยืนยันตัวบุคคลเท่านั้น</span>
+                                </div>
                             </div>
                             <div class="info-box">
                                 <h1>${p.name_th}</h1>
@@ -1286,7 +1331,7 @@
                             return { ...data, fileName: f };
                         }
                     } catch (e) { }
-                    return null;
+                        return null;
                 });
 
                 const results = await Promise.all(fetchPromises);
@@ -1317,7 +1362,8 @@
             if (matched.length > 0) {
                 topSearchDropdown.innerHTML = matched.map(item => {
                     const p = item.fighter_profile || {};
-                    const imgUrl = getLocalImageUrl(p.image_url);
+                    // 🚀 ใช้ Cloudinary ดึงรูปขนาด 50x50 ในระบบค้นหา
+                    const imgUrl = getCloudinaryUrl(p.image_url, 50, 50);
                     const fighterUrl = encodeURIComponent(item.fileName.replace('.json', '.html'));
 
                     return `

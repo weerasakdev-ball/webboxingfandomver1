@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>จัดอันดับนักมวย รุ่น Bantamweight | BoxingFandom</title>
-    <meta name="description" content="จัดอันดับนักมวยไทย รุ่น Bantamweight อัปเดตสถิติและคะแนนล่าสุดโดย BoxingFandom">
+    
+    <title>จัดอันดับนักมวย ONE Championship รุ่น Bantamweight (แบนตัมเวต) อัปเดตล่าสุด | BoxingFandom</title>
+    <meta name="description" content="เช็คการจัดอันดับนักมวย ONE Championship รุ่น Bantamweight (แบนตัมเวต) อัปเดตคะแนนสะสม สถิติการชก ฟอร์มล่าสุด ใครคือเบอร์หนึ่งของรุ่น เช็คเลยที่ BoxingFandom">
+    <meta name="keywords" content="จัดอันดับมวย, อันดับ ONE Championship, มวยวัน รุ่นแบนตัมเวต, Bantamweight Rankings, แชมป์มวยวัน, สถิตินักมวย, คะแนนสะสมมวย, มวยไทย, BoxingFandom">
 
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
@@ -70,6 +72,41 @@
             font-weight: bold;
             margin-bottom: 10px;
         }
+
+        /* --- ป้ายแสดงยอดวิว (View Counter) สำหรับธีมสว่าง --- */
+        .view-counter-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background-color: #ffffff;
+            color: #1a1a1a;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            border: 1px solid #ddd;
+            margin-top: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .view-icon { font-size: 16px; color: #e50914; }
+        .view-count-number { color: #e50914; font-weight: 800; font-size: 15px; }
+        .view-text { color: #888; font-size: 13px; }
+
+        /* --- SEO Tag Cloud สำหรับหน้า Ranking --- */
+        .seo-tags-container { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px; 
+            justify-content: center;
+            margin-top: 15px;
+            margin-bottom: 25px; 
+        }
+        .seo-tag { 
+            background-color: #ffffff; border: 1px solid #ddd; color: #555; 
+            padding: 5px 12px; border-radius: 15px; font-size: 0.8rem; 
+            font-weight: 600; text-decoration: none; transition: 0.3s;
+        }
+        .seo-tag:hover { background-color: #e50914; color: #ffffff; border-color: #e50914; }
 
         .controls {
             background: #ffffff;
@@ -151,9 +188,9 @@
             background: #eee;
             display: inline-block;
         }
-        .rank-1 { background: #d4af37; color: white; box-shadow: 0 3px 8px rgba(212, 175, 55, 0.4); } /* ทอง */
-        .rank-2 { background: #c0c0c0; color: white; } /* เงิน */
-        .rank-3 { background: #cd7f32; color: white; } /* ทองแดง */
+        .rank-1 { background: #d4af37; color: white; box-shadow: 0 3px 8px rgba(212, 175, 55, 0.4); } 
+        .rank-2 { background: #c0c0c0; color: white; } 
+        .rank-3 { background: #cd7f32; color: white; } 
 
         .score-text {
             font-size: 22px;
@@ -172,9 +209,9 @@
             color: white;
             margin: 0 2px;
         }
-        .badge-w { background-color: #2e7d32; } /* ชนะ เขียว */
-        .badge-l { background-color: #c62828; } /* แพ้ แดง */
-        .badge-d { background-color: #f57f17; } /* เสมอ ส้ม */
+        .badge-w { background-color: #2e7d32; } 
+        .badge-l { background-color: #c62828; } 
+        .badge-d { background-color: #f57f17; } 
 
         .grade-text {
             background: #1a1a1a;
@@ -213,7 +250,7 @@
                 <li><a href="../TierList.html" style="color: #facc15; font-weight: bold; text-shadow: 0 0 5px rgba(250, 204, 21, 0.3);">⭐ จัดเทียร์นักมวย</a></li>
                 
                 <li>
-                    <a href="#">ranking ▾</a>
+                    <a href="#">Ranking ▾</a>
                     <ul>
                         <li>
                             <a href="one-championship.html">1 ONE Championship ▸</a>
@@ -224,7 +261,8 @@
                                 <li><a href="one-welterweight.html">เวลเตอร์เวต</a></li>
                                 <li><a href="one-lightweight.html">ไลต์เวต</a></li>
                                 <li><a href="one-featherweight.html">เฟเธอร์เวต</a></li>
-                                <li><a href="one-bantamweight.html" style="color:#e50914;">แบนตัมเวต</a></li> <li><a href="one-flyweight.html">ฟลายเวต</a></li>
+                                <li><a href="one-bantamweight.html" style="color:#e50914;">แบนตัมเวต</a></li> 
+                                <li><a href="one-flyweight.html">ฟลายเวต</a></li>
                             </ul>
                         </li>
                         <li><a href="overall-all.html">2 จัดอันดับรวมทุกสถาบัน (Overall)</a></li>
@@ -254,9 +292,24 @@
     <main id="main-content">
         
         <div class="page-header">
-            <span class="division-tag">Bantamweight Division</span>
-            <h2>จัดอันดับนักมวย รุ่น Bantamweight</h2>
+            <span class="division-tag">Bantamweight Division (145 lbs)</span>
+            <h2>จัดอันดับนักมวย ONE Championship รุ่นแบนตัมเวต</h2>
             <p style="color: #666; margin-top: 5px;">เรียงลำดับตามฟอร์มการชก คะแนนสะสม และระดับคลาส</p>
+
+            <div class="view-counter-badge">
+                <span class="view-icon">👁️</span>
+                <span class="view-count-number" id="pageViewsCount">กำลังโหลด...</span>
+                <span class="view-text">ครั้ง</span>
+            </div>
+
+            <div class="seo-tags-container">
+                <span class="seo-tag">#จัดอันดับมวย</span>
+                <span class="seo-tag">#อันดับONE</span>
+                <span class="seo-tag">#รุ่นแบนตัมเวต</span>
+                <span class="seo-tag">#Bantamweight</span>
+                <span class="seo-tag">#สถิติการชก</span>
+                <span class="seo-tag">#แชมป์มวยวัน</span>
+            </div>
         </div>
 
         <div class="controls">
@@ -273,7 +326,7 @@
 
             <select id="limitFilter" onchange="filterRankingData()">
                 <option value="10">แสดง 10 อันดับ</option>
-                <option value="20">แสดง 20 อันดับ</option>
+                <option value="20" selected>แสดง 20 อันดับ</option>
                 <option value="50">แสดง 50 อันดับ</option>
             </select>
         </div>
@@ -309,14 +362,34 @@
     </footer>
 
     <script>
+        // ===============================================
+        // 🌟 HELPER FUNCTION: ระบบดึงรูปภาพจาก Cloudinary
+        // ===============================================
+        function getCloudinaryUrl(imgId, width, height) {
+            if (!imgId || imgId === "ไม่ระบุ" || imgId === "ยังไม่มีข้อมูล" || imgId.trim() === "" || imgId === "noname") {
+                return "../../assets/images/noname.jpg"; 
+            }
+
+            if (imgId.startsWith('http') || imgId.includes('../../')) {
+                return imgId.startsWith('http') ? imgId : '../../' + imgId;
+            }
+
+            let cleanImgId = imgId.replace(/\.(jpg|jpeg|png|webp)$/i, '');
+
+            const cloudName = "dpvyl7nan";
+            const transform = `c_fill,g_face,h_${height},w_${width},f_auto,q_auto`;
+            const safeImgId = encodeURIComponent(cleanImgId);
+
+            return `https://res.cloudinary.com/${cloudName}/image/upload/${transform}/v1/${safeImgId}`;
+        }
+
         // ==========================================
-        // 1. ระบบค้นหาบน Navbar (คงไว้ตามโค้ดต้นฉบับของคุณ)
+        // 1. ระบบค้นหาบน Navbar
         // ==========================================
         let searchDatabase = [];
 
         async function initGlobalSearch() {
             try {
-                // อ้างอิง Path ให้ถูก (ถอยกลับ 2 โฟลเดอร์)
                 const listRes = await fetch('../../data/boxers/fighters-list.json');
                 if (!listRes.ok) throw new Error("ไม่สามารถโหลดไฟล์รายชื่อได้"); 
                 const files = await listRes.json();
@@ -335,7 +408,6 @@
                 const results = await Promise.all(fetchPromises);
                 searchDatabase = results.filter(item => item !== null);
                 
-                // เริ่มระบบจัดอันดับหลังจากโหลดข้อมูลเสร็จ
                 initRankingTable(searchDatabase);
 
             } catch(e) {
@@ -362,11 +434,15 @@
             } else {
                 mainSearchDropdown.innerHTML = filtered.map(item => {
                     const p = item.fighter_profile || {};
-                    const imgUrl = p.image_url ? p.image_url : 'https://via.placeholder.com/40?text=?';
-                    const profileLink = `../fighter/profile.html?id=${encodeURIComponent(item.fileName.replace('.json', ''))}`;
+                    // 🚀 ใช้ Cloudinary โหลดรูปช่องค้นหา 40x40px
+                    const imgUrl = getCloudinaryUrl(p.image_url, 40, 40);
+                    
+                    // 🚀 อัปเดตลิงก์เป็นไฟล์ HTML โดยตรงเหมือนหน้าอื่น
+                    const profileLink = `../fighter/${encodeURIComponent(item.fileName.replace('.json', '.html'))}`;
+                    
                     return `
                         <a href="${profileLink}" class="search-dropdown-item">
-                            <img src="${imgUrl}" class="search-dropdown-img" alt="${p.name_th}">
+                            <img src="${imgUrl}" class="search-dropdown-img" alt="${p.name_th}" onerror="this.src='../../assets/images/noname.jpg'">
                             <div class="search-dropdown-info">
                                 <span class="search-dropdown-name">${p.name_th}</span>
                                 <span class="search-dropdown-meta">รุ่น: ${p.physical_stats?.division || '-'}</span>
@@ -385,7 +461,7 @@
                 return (p.name_th || '').toLowerCase().includes(query) || (p.name_en || '').toLowerCase().includes(query);
             });
             if (filtered.length > 0) {
-                window.location.href = `../fighter/profile.html?id=${encodeURIComponent(filtered[0].fileName.replace('.json', ''))}`;
+                window.location.href = `../fighter/${encodeURIComponent(filtered[0].fileName.replace('.json', '.html'))}`;
             } else { alert("ไม่พบข้อมูล"); }
         }
 
@@ -394,18 +470,16 @@
         mainSearchButton.addEventListener('click', executeDirectSearch);
         document.addEventListener('click', (e) => { if (!e.target.closest('.search-container')) mainSearchDropdown.style.display = 'none'; });
 
-
         // ==========================================
-        // 2. ฟังก์ชันจัดอันดับสำหรับหน้านี้ (Ranking Logic)
+        // 2. ฟังก์ชันจัดอันดับ (Ranking Logic)
         // ==========================================
-        const TARGET_DIVISION = "Bantamweight"; // กำหนดรุ่นน้ำหนักของหน้านี้
+        const TARGET_DIVISION = "Bantamweight"; 
         const gradeWeight = { "S": 10, "A+": 9, "A": 8, "B+": 7, "B": 6, "C+": 5, "C": 4 };
         let rankingFighters = [];
 
         function initRankingTable(allData) {
             const nations = new Set();
             
-            // กรองข้อมูลแยกประเทศ
             allData.forEach(json => {
                 if (json.fighter_profile && json.fighter_profile.personal_info && json.fighter_profile.personal_info.country_th) {
                     nations.add(json.fighter_profile.personal_info.country_th);
@@ -416,7 +490,7 @@
             Array.from(nations).sort().forEach(n => natSelect.innerHTML += `<option value="${n}">${n}</option>`);
 
             rankingFighters = allData;
-            filterRankingData(); // สั่งประมวลผลตาราง
+            filterRankingData(); 
         }
 
         function analyzeStats(history) {
@@ -433,7 +507,6 @@
                 }
             });
 
-            // ดึงฟอร์ม 3 ไฟต์ล่าสุด (ประวัติล่าสุดมักอยู่บนสุด ให้ reverse)
             const formHTML = history.slice(0, 3).reverse().map(f => {
                 const res = f.result ? f.result.toLowerCase() : 'n';
                 let cls = res === 'win' ? 'badge-w' : (res === 'loss' ? 'badge-l' : 'badge-d');
@@ -453,7 +526,6 @@
 
             let processed = rankingFighters.map(f => {
                 let targetHistory = [];
-                // คัดกรองประวัติการชกตาม Event ที่เลือก
                 if (eventMode === 'one') {
                     if (f.fight_history_one_championship && f.fight_history_one_championship.length > 0) {
                         targetHistory = f.fight_history_one_championship;
@@ -469,7 +541,6 @@
                 return { ...f, stats: analyzeStats(targetHistory) };
             });
             
-            // ตัวกรองหลัก: รุ่นน้ำหนัก, สัญชาติ, ค้นหาชื่อ
             processed = processed.filter(f => {
                 if (!f.fighter_profile) return false;
                 
@@ -477,13 +548,11 @@
                 const nameMatch = (p.name_th || "").toLowerCase().includes(q) || (p.name_en || "").toLowerCase().includes(q) || (p.alias || "").toLowerCase().includes(q);
                 const natMatch = nat === 'all' || (p.personal_info && p.personal_info.country_th === nat);
                 
-                // ล็อกรุ่นน้ำหนัก (เปรียบเทียบคำให้เป็นตัวเล็กเพื่อป้องกันเคสพิมพ์ผิด)
                 const divMatch = p.physical_stats && (p.physical_stats.division || "").toLowerCase() === TARGET_DIVISION.toLowerCase();
                 
                 return nameMatch && natMatch && divMatch && f.stats.active;
             });
 
-            // เรียงลำดับ: 1. คะแนน, 2. เกรดนักมวย, 3. จำนวนแพ้น้อยกว่า
             processed.sort((a, b) => {
                 if (b.stats.score !== a.stats.score) return b.stats.score - a.stats.score;
                 const gA = gradeWeight[a.fighter_profile.grade] || 0;
@@ -492,22 +561,23 @@
                 return a.stats.losses - b.stats.losses;
             });
 
-            // วาดตาราง HTML
             list.innerHTML = processed.slice(0, limit).map((f, i) => {
-                // จัดสไตล์เหรียญอันดับ
                 let rankClass = i === 0 ? 'rank-1' : (i === 1 ? 'rank-2' : (i === 2 ? 'rank-3' : ''));
                 let rankDisplay = `<span class="rank-number ${rankClass}">${i+1}</span>`;
                 
                 const p = f.fighter_profile;
-                const detailPath = `../fighter/profile.html?id=${encodeURIComponent(f.fileName.replace('.json', ''))}`;
-                const imgUrl = p.image_url && p.image_url !== 'ไม่ระบุ' ? p.image_url : 'https://via.placeholder.com/60x60/eeeeee/cccccc?text=NO+IMG';
+                // 🚀 อัปเดตลิงก์เป็นไฟล์ HTML โดยตรงเหมือนหน้าอื่น
+                const detailPath = `../fighter/${encodeURIComponent(f.fileName.replace('.json', '.html'))}`;
+                
+                // 🚀 ใช้ Cloudinary โหลดรูปตาราง 55x55px
+                const imgUrl = getCloudinaryUrl(p.image_url, 55, 55);
                 
                 return `
                     <tr onclick="location.href='${detailPath}'">
                         <td>${rankDisplay}</td>
                         <td>
                             <div class="fighter-cell">
-                                <img src="${imgUrl}" class="fighter-img" alt="${p.name_th}" onerror="this.src='https://via.placeholder.com/60x60/eee'">
+                                <img src="${imgUrl}" class="fighter-img" alt="${p.name_th}" onerror="this.src='../../assets/images/noname.jpg'">
                                 <div>
                                     <span class="fighter-name">${p.name_th || '-'}</span>
                                     <span class="fighter-alias">ทีม: ${p.personal_info?.team_th || '-'}</span>
@@ -522,8 +592,34 @@
             }).join('') || `<tr><td colspan='5' style='padding:50px; text-align:center; color:#888;'>ไม่พบข้อมูลนักมวยในรุ่น ${TARGET_DIVISION} หรือเงื่อนไขที่ค้นหา</td></tr>`;
         }
 
-        // เริ่มต้นการทำงาน (ดึงข้อมูลนักมวยเมื่อหน้าเว็บโหลดเสร็จ)
-        window.addEventListener('DOMContentLoaded', initGlobalSearch);
+        // ==========================================
+        // 3. ระบบจัดการยอดวิว (View Counter Script)
+        // ==========================================
+        async function initViewCounter() {
+            const countDisplay = document.getElementById('pageViewsCount');
+            if (!countDisplay) return; 
+
+            try {
+                let pageId = 'rankings-one-bantamweight'; 
+                const safePageId = encodeURIComponent(pageId.toLowerCase());
+                const namespace = 'boxingfandom_views'; 
+
+                const response = await fetch(`https://api.counterapi.dev/v1/${namespace}/${safePageId}/up`);
+                if (!response.ok) throw new Error("API Error");
+
+                const data = await response.json();
+                countDisplay.innerText = Number(data.count).toLocaleString('en-US');
+
+            } catch (error) {
+                countDisplay.innerText = "-";
+            }
+        }
+
+        // เริ่มต้นการทำงาน (ดึงข้อมูลนักมวยและยอดวิวเมื่อหน้าเว็บโหลดเสร็จ)
+        window.addEventListener('DOMContentLoaded', () => {
+            initGlobalSearch();
+            initViewCounter();
+        });
 
     </script>
 </body>
