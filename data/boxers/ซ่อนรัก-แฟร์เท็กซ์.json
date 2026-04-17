@@ -1,275 +1,275 @@
 {
-  "fighter_profile": {
-    "name_th": "ซ่อนรัก แฟร์เท็กซ์",
-    "name_en": "Sonrak Fairtex",
-    "alias": "ไม่ระบุ",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773123007/%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81_sm5t9d.png",
-    "grade": "ไม่ระบุ",
-    "fighting_style_th": "ไม่ระบุ",
-    "fighting_style_en": "ไม่ระบุ",
-    "stance": "ไม่ระบุ",
-    "physical_stats": {
-      "weight_lbs": 138,
-      "weight_kg": 62.6,
-      "division": "Bantamweight",
-      "height_ft": "5'6\"",
-      "height_cm": 170,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "ซ่อนรัก แฟร์เท็กซ์",
+        "name_en": "Sonrak Fairtex",
+        "alias": "ไม่ระบุ",
+        "image_url": "",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 138,
+            "weight_kg": 62.6,
+            "division": "Bantamweight",
+            "height_ft": "5'6\"",
+            "height_cm": 170,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "เมียนมา",
+            "country_en": "Myanmar",
+            "age": 29,
+            "team_th": "แฟร์เท็กซ์ เทรนนิง เซ็นเตอร์",
+            "team_en": "Fairtex Training Center"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/sonrak-fairtex/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": "ไม่ระบุ",
-        "body": "ไม่ระบุ",
-        "legs": "ไม่ระบุ",
-        "total_accuracy": "ไม่ระบุ"
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": "ไม่ระบุ",
-        "accuracy_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เด็ดดวงเล็ก ทอฝันฟาร์ม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 27, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 148 & The Inner Circle"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:21",
+            "opponent_th": "บัวเขียว ป.เปาอินทร์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 30, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 140"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:23",
+            "opponent_th": "ยามีน พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 24, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 130"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สมิงดำ เอ็นเอฟ.ลูกสวน",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Aug 08, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 119"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรวิชิต มาวินมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 06, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 111"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ขุนพลน้อย ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 11, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 104"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โจอาคิม อูรากี",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส/แอลจีเรีย",
+            "date": "Feb 28, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 98"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรวิชิต มาวินมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Dec 13, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 91"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยูกิ คาซาฮารา",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Oct 25, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 84"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อัลฟี พอนติง",
+            "opponent_en": "",
+            "opponent_country": "สหราชอาณาจักร",
+            "date": "Aug 02, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 73"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:13",
+            "opponent_th": "มาซายะ คัตซูโนะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Mar 22, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 56"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:16",
+            "opponent_th": "ผึ้งหลวง บ้านแรมบ้า",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Oct 27, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 38"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:40",
+            "opponent_th": "มงคลแก้ว ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 16, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 21"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พฤหัสน้อย ทีบีเอ็มยิม",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "May 12, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 16"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ซุปเปอร์เล็ก จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 24, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 10"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ไท สจ.เปี๊ยกอุทัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 20, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 1"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": "ไม่ระบุ",
-        "distance_control_percentage": "ไม่ระบุ",
-        "defense_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
+    ],
+    "fight_history_one_championship": [],
+    "upcoming_fights": [],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 148",
+            "weight_lbs": 138,
+            "division": "Bantamweight"
         }
-      }
-    },
-    "personal_info": {
-      "country_th": "เมียนมา",
-      "country_en": "Myanmar",
-      "age": 29,
-      "team_th": "แฟร์เท็กซ์ เทรนนิง เซ็นเตอร์",
-      "team_en": "Fairtex Training Center"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/sonrak-fairtex/"
     ]
-  },
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เด็ดดวงเล็ก ทอฝันฟาร์ม",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Mar 27, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 148 & The Inner Circle"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "1:21",
-      "opponent_th": "บัวเขียว ป.เปาอินทร์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jan 30, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 140"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "1:23",
-      "opponent_th": "ยามีน พีเค.แสนชัย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Oct 24, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 130"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "สมิงดำ เอ็นเอฟ.ลูกสวน",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Aug 08, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 119"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เพชรวิชิต มาวินมวยไทย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jun 06, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 111"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ขุนพลน้อย ส.สมหมาย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Apr 11, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 104"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "โจอาคิม อูรากี",
-      "opponent_en": "",
-      "opponent_country": "ฝรั่งเศส/แอลจีเรีย",
-      "date": "Feb 28, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 98"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เพชรวิชิต มาวินมวยไทย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Dec 13, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 91"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ยูกิ คาซาฮารา",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Oct 25, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 84"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Majority Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "อัลฟี พอนติง",
-      "opponent_en": "",
-      "opponent_country": "สหราชอาณาจักร",
-      "date": "Aug 02, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 73"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "0:13",
-      "opponent_th": "มาซายะ คัตซูโนะ",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Mar 22, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 56"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "0:16",
-      "opponent_th": "ผึ้งหลวง บ้านแรมบ้า",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Oct 27, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 38"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "1:40",
-      "opponent_th": "มงคลแก้ว ส.สมหมาย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jun 16, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 21"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "พฤหัสน้อย ทีบีเอ็มยิม",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "May 12, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 16"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ซุปเปอร์เล็ก จิตรเมืองนนท์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Mar 24, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 10"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Majority Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ไท สจ.เปี๊ยกอุทัย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jan 20, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 1"
-    }
-  ],
-  "fight_history_one_championship": [],
-  "upcoming_fights": [],
-  "weigh_in_history": [
-    {
-      "event_name": "ONE ลุมพินี 148",
-      "weight_lbs": 138,
-      "division": "Bantamweight"
-    }
-  ]
 }

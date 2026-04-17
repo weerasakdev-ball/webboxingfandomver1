@@ -1,279 +1,279 @@
 {
-  "fighter_profile": {
-    "name_th": "เจเรมี มิเอโด",
-    "name_en": "Jeremy Miado",
-    "alias": "The Jaguar",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773503429/%E0%B9%80%E0%B8%88%E0%B9%80%E0%B8%A3%E0%B8%A1%E0%B8%B5_%E0%B8%A1%E0%B8%B4%E0%B9%80%E0%B8%AD%E0%B9%82%E0%B8%94_l7j8vz.png",
-    "grade": "ไม่ระบุ",
-    "fighting_style_th": "ไม่ระบุ",
-    "fighting_style_en": "ไม่ระบุ",
-    "stance": "ไม่ระบุ",
-    "physical_stats": {
-      "weight_lbs": 124.3,
-      "weight_kg": 56.4,
-      "division": "ไม่ระบุ",
-      "height_ft": "5'6\"",
-      "height_cm": 170,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "เจเรมี มิเอโด",
+        "name_en": "Jeremy Miado",
+        "alias": "The Jaguar",
+        "image_url": "",
+        "grade": "ไม่ระบุ",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 124.3,
+            "weight_kg": 56.4,
+            "division": "ไม่ระบุ",
+            "height_ft": "5'6\"",
+            "height_cm": 170,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ไม่ระบุ",
+                "body": "ไม่ระบุ",
+                "legs": "ไม่ระบุ",
+                "total_accuracy": "ไม่ระบุ"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ไม่ระบุ",
+                "accuracy_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ฟิลิปปินส์",
+            "country_en": "Philippines",
+            "age": 33,
+            "team_th": "มาร็อก ฟอร์ซ",
+            "team_en": "Marrok Force"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/jeremy-miado/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": "ไม่ระบุ",
-        "body": "ไม่ระบุ",
-        "legs": "ไม่ระบุ",
-        "total_accuracy": "ไม่ระบุ"
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": "ไม่ระบุ",
-        "accuracy_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "3:35",
+            "opponent_th": "วิลลี ฟาน รอยเอน",
+            "opponent_en": "",
+            "opponent_country": "แอฟริกาใต้",
+            "date": "Mar 14, 2026",
+            "rating": 5,
+            "event_en": "ONE Fight Night 41: สินสมุทร vs จอร์จ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "4:53",
+            "opponent_th": "อาวาซเบก โคลเมียร์ซาเอฟ",
+            "opponent_en": "",
+            "opponent_country": "อุซเบกิสถาน",
+            "date": "Dec 06, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 38: ฟาบริซิโอ vs เอ็งค์-ออร์กิล"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "จิลเบิร์ต นาคาทานี",
+            "opponent_en": "",
+            "opponent_country": "สหรัฐอเมริกา",
+            "date": "Feb 08, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 28: พระจันทร์ฉาย vs เอลลิส"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "ฮิโรบา มิโนวา",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Jul 05, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "4:04",
+            "opponent_th": "เคอิโตะ ยามาคิตะ",
+            "opponent_en": "",
+            "opponent_country": "ญี่ปุ่น",
+            "date": "Mar 01, 2024",
+            "rating": 5,
+            "event_en": "ONE 166: Qatar"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "ลิโต อาดิวัง",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Nov 03, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 16: โจนาธาน vs ฟาบริซิโอ"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "4:31",
+            "opponent_th": "มานซัวร์ มาลาชิเอฟ",
+            "opponent_en": "",
+            "opponent_country": "รัสเซีย",
+            "date": "Jun 09, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 11: รีเกียน vs ดีมิทรี"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:31",
+            "opponent_th": "แดเนียล วิลเลียมส์",
+            "opponent_en": "",
+            "opponent_country": "ออสเตรเลีย/ไทย",
+            "date": "Oct 22, 2022",
+            "rating": 5,
+            "event_en": "ONE Fight Night 3: จอห์น vs ฟาบริซิโอ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:56",
+            "opponent_th": "ลิโต อาดิวัง",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Mar 26, 2022",
+            "rating": 5,
+            "event_en": "ONE X"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:50",
+            "opponent_th": "เมียว หลี เทา",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Oct 29, 2021",
+            "rating": 5,
+            "event_en": "ONE NextGen"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "3:01",
+            "opponent_th": "เมียว หลี เทา",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Nov 16, 2019",
+            "rating": 5,
+            "event_en": "ONE Age Of Dragons"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "2:38",
+            "opponent_th": "เดชดำรงค์ ส.อำนวยศิริโชค",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 22, 2019",
+            "rating": 5,
+            "event_en": "ONE CALL TO GREATNESS"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:35",
+            "opponent_th": "เผิง ฉือ เหวิน",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Nov 23, 2018",
+            "rating": 5,
+            "event_en": "ONE CONQUEST OF CHAMPIONS"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "N/A",
+            "opponent_th": "กฤษดา คงศรีชาย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 29, 2018",
+            "rating": 5,
+            "event_en": "ONE SPIRIT OF A WARRIOR"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:29",
+            "opponent_th": "เดชดำรงค์ ส.อำนวยศิริโชค",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 24, 2018",
+            "rating": 5,
+            "event_en": "ONE IRON WILL"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "4:23",
+            "opponent_th": "พงษ์ศิริ มิตรสาธิต",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 03, 2017",
+            "rating": 5,
+            "event_en": "ONE HERO’S DREAM"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "N/A",
+            "opponent_th": "โรบิน คาตาลัน",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Apr 21, 2017",
+            "rating": 5,
+            "event_en": "ONE KINGS OF DESTINY"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": "ไม่ระบุ",
-        "distance_control_percentage": "ไม่ระบุ",
-        "defense_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "ฟิลิปปินส์",
-      "country_en": "Philippines",
-      "age": 33,
-      "team_th": "มาร็อก ฟอร์ซ",
-      "team_en": "Marrok Force"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/jeremy-miado/"
     ]
-  },
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "3:35",
-      "opponent_th": "วิลลี ฟาน รอยเอน",
-      "opponent_en": "",
-      "opponent_country": "แอฟริกาใต้",
-      "date": "Mar 14, 2026",
-      "rating": 5,
-      "event_en": "ONE Fight Night 41: สินสมุทร vs จอร์จ"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "4:53",
-      "opponent_th": "อาวาซเบก โคลเมียร์ซาเอฟ",
-      "opponent_en": "",
-      "opponent_country": "อุซเบกิสถาน",
-      "date": "Dec 06, 2025",
-      "rating": 5,
-      "event_en": "ONE Fight Night 38: ฟาบริซิโอ vs เอ็งค์-ออร์กิล"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "5:00",
-      "opponent_th": "จิลเบิร์ต นาคาทานี",
-      "opponent_en": "",
-      "opponent_country": "สหรัฐอเมริกา",
-      "date": "Feb 08, 2025",
-      "rating": 5,
-      "event_en": "ONE Fight Night 28: พระจันทร์ฉาย vs เอลลิส"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "MMA",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "5:00",
-      "opponent_th": "ฮิโรบา มิโนวา",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Jul 05, 2024",
-      "rating": 5,
-      "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "MMA",
-      "method_en": "Submission",
-      "round": 1,
-      "time": "4:04",
-      "opponent_th": "เคอิโตะ ยามาคิตะ",
-      "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
-      "date": "Mar 01, 2024",
-      "rating": 5,
-      "event_en": "ONE 166: Qatar"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "MMA",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "5:00",
-      "opponent_th": "ลิโต อาดิวัง",
-      "opponent_en": "",
-      "opponent_country": "ฟิลิปปินส์",
-      "date": "Nov 03, 2023",
-      "rating": 5,
-      "event_en": "ONE Fight Night 16: โจนาธาน vs ฟาบริซิโอ"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "MMA",
-      "method_en": "Submission",
-      "round": 1,
-      "time": "4:31",
-      "opponent_th": "มานซัวร์ มาลาชิเอฟ",
-      "opponent_en": "",
-      "opponent_country": "รัสเซีย",
-      "date": "Jun 09, 2023",
-      "rating": 5,
-      "event_en": "ONE Fight Night 11: รีเกียน vs ดีมิทรี"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "0:31",
-      "opponent_th": "แดเนียล วิลเลียมส์",
-      "opponent_en": "",
-      "opponent_country": "ออสเตรเลีย/ไทย",
-      "date": "Oct 22, 2022",
-      "rating": 5,
-      "event_en": "ONE Fight Night 3: จอห์น vs ฟาบริซิโอ"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "2:56",
-      "opponent_th": "ลิโต อาดิวัง",
-      "opponent_en": "",
-      "opponent_country": "ฟิลิปปินส์",
-      "date": "Mar 26, 2022",
-      "rating": 5,
-      "event_en": "ONE X"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "0:50",
-      "opponent_th": "เมียว หลี เทา",
-      "opponent_en": "",
-      "opponent_country": "จีน",
-      "date": "Oct 29, 2021",
-      "rating": 5,
-      "event_en": "ONE NextGen"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "3:01",
-      "opponent_th": "เมียว หลี เทา",
-      "opponent_en": "",
-      "opponent_country": "จีน",
-      "date": "Nov 16, 2019",
-      "rating": 5,
-      "event_en": "ONE Age Of Dragons"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "2:38",
-      "opponent_th": "เดชดำรงค์ ส.อำนวยศิริโชค",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Feb 22, 2019",
-      "rating": 5,
-      "event_en": "ONE CALL TO GREATNESS"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "0:35",
-      "opponent_th": "เผิง ฉือ เหวิน",
-      "opponent_en": "",
-      "opponent_country": "จีน",
-      "date": "Nov 23, 2018",
-      "rating": 5,
-      "event_en": "ONE CONQUEST OF CHAMPIONS"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "MMA",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "N/A",
-      "opponent_th": "กฤษดา คงศรีชาย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jun 29, 2018",
-      "rating": 5,
-      "event_en": "ONE SPIRIT OF A WARRIOR"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "1:29",
-      "opponent_th": "เดชดำรงค์ ส.อำนวยศิริโชค",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Mar 24, 2018",
-      "rating": 5,
-      "event_en": "ONE IRON WILL"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "4:23",
-      "opponent_th": "พงษ์ศิริ มิตรสาธิต",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Nov 03, 2017",
-      "rating": 5,
-      "event_en": "ONE HERO’S DREAM"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "MMA",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "N/A",
-      "opponent_th": "โรบิน คาตาลัน",
-      "opponent_en": "",
-      "opponent_country": "ฟิลิปปินส์",
-      "date": "Apr 21, 2017",
-      "rating": 5,
-      "event_en": "ONE KINGS OF DESTINY"
-    }
-  ]
 }

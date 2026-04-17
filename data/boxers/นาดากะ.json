@@ -1,110 +1,110 @@
 {
-  "fighter_profile": {
-    "name_th": "นาดากะ โยชินาริ",
-    "name_en": "Nadaka Yoshinari",
-    "alias": "อัจฉริยะจากญี่ปุ่น / ซามูไรตัวจิ๋ว",
-    "image_url": "https://i.ibb.co/fYjZjjZr/691c5c91516922-84827608.jpg",
-    "grade": "A",
-    "fighting_style_th": "มวยฝีมือ, ครบเครื่อง",
-    "fighting_style_en": "Technical Fighter (Muay Fimeu), All-around Striker",
-    "stance": "Southpaw (Left-handed)",
-    "physical_stats": {
-      "weight_lbs": 115,
-      "weight_kg": 52.2,
-      "division": "Atomweight / Strawweight",
-      "height_ft": "5'4\"",
-      "height_cm": 165,
-      "reach_cm": "168",
-      "leg_reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "นาดากะ โยชินาริ",
+        "name_en": "Nadaka Yoshinari",
+        "alias": "อัจฉริยะจากญี่ปุ่น / ซามูไรตัวจิ๋ว",
+        "image_url": "",
+        "grade": "A",
+        "fighting_style_th": "มวยฝีมือ, ครบเครื่อง",
+        "fighting_style_en": "Technical Fighter (Muay Fimeu), All-around Striker",
+        "stance": "Southpaw (Left-handed)",
+        "physical_stats": {
+            "weight_lbs": 115,
+            "weight_kg": 52.2,
+            "division": "Atomweight / Strawweight",
+            "height_ft": "5'4\"",
+            "height_cm": 165,
+            "reach_cm": "168",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "19.7%",
+                "body": "43.3%",
+                "legs": "36.9%",
+                "total_accuracy": "34.9%"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "34.9%",
+                "accuracy_by_target_percentage": {
+                    "head": "19.7%",
+                    "body": "43.3%",
+                    "legs": "36.9%"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "distance_control_percentage": "97.2%",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 25,
+            "team_th": "เอวะ สปอร์ต ยิม (Eiwa Sports Gym)",
+            "team_en": "Eiwa Sports Gym"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/nadaka-yoshinari/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": "19.7%",
-        "body": "43.3%",
-        "legs": "36.9%",
-        "total_accuracy": "34.9%"
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": "34.9%",
-        "accuracy_by_target_percentage": {
-          "head": "19.7%",
-          "body": "43.3%",
-          "legs": "36.9%"
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "3:00",
+            "opponent_th": "หนุ่มสุรินทร์ ช.เกตุวีณา",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 16, 2025",
+            "rating": 5,
+            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:15",
+            "opponent_th": "ฮามาดา อัซมานี",
+            "opponent_en": "",
+            "opponent_country": "โมร็อกโก",
+            "date": "Aug 29, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 122"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "บันลือโลก ศิษย์วัชรชัย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 27, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 114"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:40",
+            "opponent_th": "รักษ์ เอราวัณ",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 23, 2025",
+            "rating": 5,
+            "event_en": "ONE 172: ทาเครุ vs รถถัง"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": "ไม่ระบุ",
-        "distance_control_percentage": "97.2%",
-        "defense_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "ญี่ปุ่น",
-      "country_en": "Japan",
-      "age": 25,
-      "team_th": "เอวะ สปอร์ต ยิม (Eiwa Sports Gym)",
-      "team_en": "Eiwa Sports Gym"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/nadaka-yoshinari/"
     ]
-  },
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 5,
-      "time": "3:00",
-      "opponent_th": "หนุ่มสุรินทร์ ช.เกตุวีณา",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Nov 16, 2025",
-      "rating": 5,
-      "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "0:15",
-      "opponent_th": "ฮามาดา อัซมานี",
-      "opponent_en": "",
-      "opponent_country": "โมร็อกโก",
-      "date": "Aug 29, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 122"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "บันลือโลก ศิษย์วัชรชัย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jun 27, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 114"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "2:40",
-      "opponent_th": "รักษ์ เอราวัณ",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Mar 23, 2025",
-      "rating": 5,
-      "event_en": "ONE 172: ทาเครุ vs รถถัง"
-    }
-  ]
 }

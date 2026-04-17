@@ -1,84 +1,84 @@
 {
-  "fighter_profile": {
-    "name_th": "กรุงไทย ทอฝันฟาร์ม",
-    "name_en": "Krungthai Thorfunfarm",
-    "alias": "ไม่ระบุ",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1775182118/%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%84%E0%B8%97%E0%B8%A2_%E0%B8%97%E0%B8%AD%E0%B8%9D%E0%B8%B1%E0%B8%99%E0%B8%9F%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%A1_x130we.png",
-    "grade": "B",
-    "fighting_style_th": "มวยไทย",
-    "fighting_style_en": "Muay Thai",
-    "stance": "ไม่ระบุ",
-    "physical_stats": {
-      "weight_lbs": "ไม่ระบุ",
-      "weight_kg": "ไม่ระบุ",
-      "division": "รุ่นสตรอว์เวต",
-      "height_ft": "5'5\"",
-      "height_cm": 165,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "กรุงไทย ทอฝันฟาร์ม",
+        "name_en": "Krungthai Thorfunfarm",
+        "alias": "ไม่ระบุ",
+        "image_url": "",
+        "grade": "B",
+        "fighting_style_th": "มวยไทย",
+        "fighting_style_en": "Muay Thai",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": "ไม่ระบุ",
+            "weight_kg": "ไม่ระบุ",
+            "division": "รุ่นสตรอว์เวต",
+            "height_ft": "5'5\"",
+            "height_cm": 165,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 24,
+            "team_th": "ทอฝันฟาร์ม",
+            "team_en": "Thorfunfarm"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/krungthai-torfunfarm/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-      "defensive_stats": "ยังไม่มีข้อมูล"
-    },
-    "personal_info": {
-      "country_th": "ไทย",
-      "country_en": "Thailand",
-      "age": 24,
-      "team_th": "ทอฝันฟาร์ม",
-      "team_en": "Thorfunfarm"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/krungthai-torfunfarm/"
+    "weigh_in_history": [
+        {
+            "event_name": "ศึกมวยไทยพันธมิตร",
+            "weight_lbs": "ไม่ระบุ",
+            "division": "ไม่ระบุ"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "บินลาดิน ส.พูลสวัสดิ์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Mar 27, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 148 & The Inner Circle"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "ไม่ระบุ",
+            "opponent_th": "เพชรเรณู เกียรติธงยศ",
+            "opponent_en": "Phetrenu Kiatthongyot",
+            "opponent_country": "ไทย",
+            "date": "Oct 20, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ศึกมวยไทยพันธมิตร"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 4,
+            "time": "ไม่ระบุ",
+            "opponent_th": "ดาวิด T1ไฟต์อะคาเดมี่",
+            "opponent_en": "David T1 Fight Academy",
+            "opponent_country": "ไม่ระบุ",
+            "date": "Sep 15, 2025",
+            "rating": "ไม่ระบุ",
+            "event_en": "ศึกมวยไทยพันธมิตร"
+        }
     ]
-  },
-  "weigh_in_history": [
-    {
-      "event_name": "ศึกมวยไทยพันธมิตร",
-      "weight_lbs": "ไม่ระบุ",
-      "division": "ไม่ระบุ"
-    }
-  ],
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "บินลาดิน ส.พูลสวัสดิ์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Mar 27, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 148 & The Inner Circle"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "ไม่ระบุ",
-      "opponent_th": "เพชรเรณู เกียรติธงยศ",
-      "opponent_en": "Phetrenu Kiatthongyot",
-      "opponent_country": "ไทย",
-      "date": "Oct 20, 2025",
-      "rating": "ไม่ระบุ",
-      "event_en": "ศึกมวยไทยพันธมิตร"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 4,
-      "time": "ไม่ระบุ",
-      "opponent_th": "ดาวิด T1ไฟต์อะคาเดมี่",
-      "opponent_en": "David T1 Fight Academy",
-      "opponent_country": "ไม่ระบุ",
-      "date": "Sep 15, 2025",
-      "rating": "ไม่ระบุ",
-      "event_en": "ศึกมวยไทยพันธมิตร"
-    }
-  ]
 }

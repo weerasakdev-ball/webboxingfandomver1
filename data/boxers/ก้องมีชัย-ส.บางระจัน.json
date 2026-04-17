@@ -1,69 +1,69 @@
 {
-  "fighter_profile": {
-    "name_th": "ก้องมีชัย ส.บางระจัน",
-    "name_en": "",
-    "alias": "ไม่ระบุ",
-    "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773324022/%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B5%E0%B8%8A%E0%B8%B1%E0%B8%A2_%E0%B8%AA.%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B1%E0%B8%99_lp1ere.png",
-    "grade": "N/A",
-    "fighting_style_th": "ยังไม่มีข้อมูล",
-    "fighting_style_en": "ยังไม่มีข้อมูล",
-    "stance": "ยังไม่มีข้อมูล",
-    "physical_stats": {
-      "weight_lbs": 115.2,
-      "weight_kg": 52.25,
-      "division": "Strawweight",
-      "height_ft": "ยังไม่มีข้อมูล",
-      "height_cm": 0,
-      "leg_reach_cm": "ยังไม่มีข้อมูล"
+    "fighter_profile": {
+        "name_th": "ก้องมีชัย ส.บางระจัน",
+        "name_en": "",
+        "alias": "ไม่ระบุ",
+        "image_url": "",
+        "grade": "N/A",
+        "fighting_style_th": "ยังไม่มีข้อมูล",
+        "fighting_style_en": "ยังไม่มีข้อมูล",
+        "stance": "ยังไม่มีข้อมูล",
+        "physical_stats": {
+            "weight_lbs": 115.2,
+            "weight_kg": 52.25,
+            "division": "Strawweight",
+            "height_ft": "ยังไม่มีข้อมูล",
+            "height_cm": 0,
+            "leg_reach_cm": "ยังไม่มีข้อมูล"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ไทย",
+            "country_en": "Thailand",
+            "age": 0,
+            "team_th": "ยังไม่มีข้อมูล",
+            "team_en": "ยังไม่มีข้อมูล"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/kongmeechai-sor-bangrajan/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": "ยังไม่มีข้อมูล",
-        "body": "ยังไม่มีข้อมูล",
-        "legs": "ยังไม่มีข้อมูล",
-        "total_per_minute": "ยังไม่มีข้อมูล"
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
-        "accuracy_by_target_percentage": {
-          "head": "ยังไม่มีข้อมูล",
-          "body": "ยังไม่มีข้อมูล",
-          "legs": "ยังไม่มีข้อมูล"
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 146",
+            "weight_lbs": 115.2,
+            "division": "Strawweight"
         }
-      }
-    },
-    "personal_info": {
-      "country_th": "ไทย",
-      "country_en": "Thailand",
-      "age": 0,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/kongmeechai-sor-bangrajan/"
+    ],
+    "upcoming_fights": [],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แอนดรี เมเซนเซเยฟ",
+            "opponent_en": "",
+            "opponent_country": "ยูเครน",
+            "date": "Mar 13, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 146"
+        }
     ]
-  },
-  "weigh_in_history": [
-    {
-      "event_name": "ONE ลุมพินี 146",
-      "weight_lbs": 115.2,
-      "division": "Strawweight"
-    }
-  ],
-  "upcoming_fights": [],
-  "fight_history": [
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "แอนดรี เมเซนเซเยฟ",
-      "opponent_en": "",
-      "opponent_country": "ยูเครน",
-      "date": "Mar 13, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 146"
-    }
-  ]
 }
