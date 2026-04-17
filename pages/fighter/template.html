@@ -382,19 +382,19 @@
             }
 
             try {
-                // 🚀 อัปเกรด: กวาดหาไฟล์ JSON จากหลายระดับ Path เผื่อ Live Server เปิดผิดโฟลเดอร์
+                // 🚀 อัปเกรด: กวาดหาไฟล์ JSON จากหลายระดับ Path
                 let response;
                 const encodedFileName = encodeURIComponent(fileName);
                 const possiblePaths = [
-                    `../../data/boxers/${encodedFileName}`, // ปกติสำหรับโฟลเดอร์ย่อย 2 ชั้น
-                    `../data/boxers/${encodedFileName}`,    // สำหรับโฟลเดอร์ย่อย 1 ชั้น
-                    `./data/boxers/${encodedFileName}`      // สำหรับระดับเดียวกัน
+                    `../../data/boxers/${encodedFileName}`,
+                    `../data/boxers/${encodedFileName}`, 
+                    `./data/boxers/${encodedFileName}` 
                 ];
 
                 for (let path of possiblePaths) {
                     try {
                         response = await fetch(path);
-                        if (response.ok) break; // ถ้าเจอไฟล์ให้หยุดค้นหา
+                        if (response.ok) break; 
                     } catch (e) {}
                 }
 
@@ -428,8 +428,29 @@
                 const wins = pastFights.filter(f => f.result.toLowerCase() === 'win');
                 const winCount = wins.length;
                 
+                // ==========================================
+                // 🚀 อัปเกรด: ระบบจัดการรูปภาพด้วย Cloudinary API
+                // ==========================================
                 const isValidImg = p.image_url && p.image_url !== "ไม่ระบุ" && p.image_url !== "ยังไม่มีข้อมูล";
-                const mainImgUrl = isValidImg ? (p.image_url.startsWith('http') ? p.image_url : '../../' + p.image_url) : 'https://via.placeholder.com/260x340?text=No+Photo';
+                
+                // 🛑 อย่าลืมเปลี่ยนตรงนี้เป็นชื่อ Cloud Name ของคุณ!
+                const cloudName = "dia2yts2f"; 
+                
+                const watermarkText = "ขอบคุณภาพจาก:onechampionship%20%2F%20boxingfandom";
+                const transformation = `c_fill,h_340,w_260/l_text:Arial_14_bold:${watermarkText},co_white,g_south_east,x_10,y_10,o_80`;
+
+                let mainImgUrl = 'https://via.placeholder.com/260x340?text=No+Photo';
+
+                if (isValidImg) {
+                    if (p.image_url.startsWith('http') || p.image_url.includes('../../')) {
+                        // รองรับข้อมูลเก่า ที่ยังเป็น URL ภายนอกหรือ Local
+                        mainImgUrl = p.image_url.startsWith('http') ? p.image_url : '../../' + p.image_url;
+                    } else {
+                        // ระบบใหม่ ใช้ Cloudinary API สาดลายน้ำอัตโนมัติ
+                        mainImgUrl = `https://res.cloudinary.com/${cloudName}/image/upload/${transformation}/boxers/${p.image_url}`;
+                    }
+                }
+                // ==========================================
 
                 // ==========================================
                 // 🚀 การอัปเกรด SEO เชิงลึก
@@ -498,7 +519,6 @@
 
                         if (foundFile) {
                             opponentFileName = foundFile;
-                            // ค้นหารูปคู่ชกด้วย Path ที่ยืดหยุ่น
                             for (let path of possiblePaths) {
                                 let oppPath = path.replace(encodedFileName, encodeURIComponent(foundFile.trim()));
                                 try {
@@ -631,7 +651,6 @@
                     </article>
                 `;
 
-                // สั่งให้ระบบนับยอดวิวทำงาน "หลังจาก" ที่สร้างโค้ด HTML เสร็จแล้ว
                 initViewCounter(fileName);
 
             } catch (e) { 
@@ -652,12 +671,10 @@
             if (!countDisplay) return; 
 
             try {
-                // เอาชื่อไฟล์มาตัด .json ออกเพื่อใช้เป็น ID
                 const pageId = fileName.replace('.json', '').toLowerCase();
                 const safePageId = encodeURIComponent(pageId);
                 const namespace = 'boxingfandom_views'; 
 
-                // ยิง API ไปขอบวกยอดวิว
                 const response = await fetch(`https://api.counterapi.dev/v1/${namespace}/${safePageId}/up`);
                 if (!response.ok) throw new Error("API Error");
 
@@ -676,7 +693,6 @@
 
         async function initSearchSystem() {
             try {
-                // 🚀 อัปเกรด Path ค้นหา
                 let files = [];
                 const listPaths = [
                     '../../data/boxers/fighters-list.json',
@@ -700,7 +716,6 @@
                 
                 const fetchPromises = files.map(async (f) => {
                     try {
-                        // ใช้ระดับ Path เดียวกันกับที่เจอ list
                         let basePath = listPaths[workingPathIndex].replace('fighters-list.json', '');
                         const res = await fetch(`${basePath}${encodeURIComponent(f.trim())}`);
                         if (res.ok) {

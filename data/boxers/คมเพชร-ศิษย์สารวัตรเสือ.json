@@ -1,10 +1,9 @@
 {
-<<<<<<< HEAD
     "fighter_profile": {
         "name_th": "คมเพชร ศิษย์สารวัตรเสือ",
         "name_en": "Kompetch Sitsarawatseur",
         "alias": "ยังไม่มีข้อมูล",
-        "image_url": "",
+        "image_url": "คมเพชร-ศิษย์สารวัตรเสือ",
         "grade": "ยังไม่มีข้อมูล",
         "fighting_style_th": "มวยฝีมือ",
         "fighting_style_en": "Technical Fighter",
@@ -55,347 +54,290 @@
         ],
         "short_biography": "คมเพชร ศิษย์สารวัตรเสือ (Kompetch Sitsarawatseur) เป็นนักชกชาวไทย วัย 25 ปี จากสังกัดศิษย์สารวัตรเสือ มีความถนัดในการต่อสู้สไตล์มวยฝีมือ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 56.3 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 132 สามารถพ่ายแพ้ให้กับ อับดาลลาห์ ออนดาช ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง",
         "target_url": ""
-=======
-  "fighter_profile": {
-    "name_th": "คมเพชร ศิษย์สารวัตรเสือ",
-    "name_en": "Kompetch Sitsarawatseur",
-    "alias": "ยังไม่มีข้อมูล",
-    "image_url": "https://i.ibb.co/Xkvs5nKK/image.jpg",
-    "grade": "ยังไม่มีข้อมูล",
-    "fighting_style_th": "มวยฝีมือ",
-    "fighting_style_en": "Technical Fighter",
-    "stance": "Orthodox",
-    "physical_stats": {
-      "weight_lbs": 121.6,
-      "weight_kg": 55.16,
-      "division": "Strawweight",
-      "height_ft": "5'6\"",
-      "height_cm": 170,
-      "leg_reach_cm": "ยังไม่มีข้อมูล",
-      "reach_cm": "ไม่ระบุ",
-      "hydration": "N/A"
->>>>>>> 40903a514e49003c566cbe57287e251a2fd100bf
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": "ยังไม่มีข้อมูล",
-        "body": "ยังไม่มีข้อมูล",
-        "legs": "ยังไม่มีข้อมูล",
-        "total_per_minute": "ยังไม่มีข้อมูล"
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
-        "accuracy_by_target_percentage": {
-          "head": "ยังไม่มีข้อมูล",
-          "body": "ยังไม่มีข้อมูล",
-          "legs": "ยังไม่มีข้อมูล"
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อรรถชัย กีล่าสปอร์ต",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 10, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:25",
+            "opponent_th": "อับดาลลาห์ ออนดาช",
+            "opponent_en": "",
+            "opponent_country": "เลบานอน",
+            "date": "Nov 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 132"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 27, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 114"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:51",
+            "opponent_th": "ชาติพยัคฆ์ ศักดิ์สตูล",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 11, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 104"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เทพทักษิณ ศ.ศรสิงห์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 14, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 97"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ชาติพยัคฆ์ ศักดิ์สตูล",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 08, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 86"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โอมาร์ เอล ฮาลาบี",
+            "opponent_en": "",
+            "opponent_country": "เลบานอน",
+            "date": "Aug 16, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 75"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 05, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 58: ซุปเปอร์บอน vs มารัต"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:11",
+            "opponent_th": "ดาเรน โรลลอง",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส",
+            "date": "Jan 12, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 47"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Sep 08, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 32"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฮัว เซียวหลง",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Jun 30, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 23"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 20, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 1"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": "ไม่ระบุ",
-        "defense_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "ไทย",
-      "country_en": "Thailand",
-      "age": 25,
-      "team_th": "ศิษย์สารวัตรเสือ",
-      "team_en": "Sitsarawatseur"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/kompet/"
     ],
-    "short_biography": "คมเพชร ศิษย์สารวัตรเสือ (Kompetch Sitsarawatseur) เป็นนักชกชาวไทย วัย 25 ปี จากสังกัดศิษย์สารวัตรเสือ มีความถนัดในการต่อสู้สไตล์มวยฝีมือ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 56.3 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 132 สามารถพ่ายแพ้ให้กับ อับดาลลาห์ ออนดาช ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง",
-    "target_url": ""
-  },
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "อรรถชัย กีล่าสปอร์ต",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Apr 10, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 150 & The Inner Circle"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "0:25",
-      "opponent_th": "อับดาลลาห์ ออนดาช",
-      "opponent_en": "",
-      "opponent_country": "เลบานอน",
-      "date": "Nov 07, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 132"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ก้องชัย ไฉนดอนเมือง",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jun 27, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 114"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "0:51",
-      "opponent_th": "ชาติพยัคฆ์ ศักดิ์สตูล",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Apr 11, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 104"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เทพทักษิณ ศ.ศรสิงห์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Feb 14, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 97"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Majority Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ชาติพยัคฆ์ ศักดิ์สตูล",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Nov 08, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 86"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "โอมาร์ เอล ฮาลาบี",
-      "opponent_en": "",
-      "opponent_country": "เลบานอน",
-      "date": "Aug 16, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 75"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ก้องชัย ไฉนดอนเมือง",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Apr 05, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 58: ซุปเปอร์บอน vs มารัต"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "2:11",
-      "opponent_th": "ดาเรน โรลลอง",
-      "opponent_en": "",
-      "opponent_country": "ฝรั่งเศส",
-      "date": "Jan 12, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 47"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ก้องชัย ไฉนดอนเมือง",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Sep 08, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 32"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Kickboxing",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ฮัว เซียวหลง",
-      "opponent_en": "",
-      "opponent_country": "จีน",
-      "date": "Jun 30, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 23"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค.",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jan 20, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 1"
-    }
-  ],
-  "fight_history_one_championship": [
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "0:25",
-      "opponent_th": "อับดาลลาห์ ออนดาช",
-      "opponent_en": "",
-      "opponent_country": "เลบานอน",
-      "date": "Nov 07, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 132"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ก้องชัย ไฉนดอนเมือง",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jun 27, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 114"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "0:51",
-      "opponent_th": "ชาติพยัคฆ์ ศักดิ์สตูล",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Apr 11, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 104"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เทพทักษิณ ศ.ศรสิงห์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Feb 14, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 97"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Majority Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ชาติพยัคฆ์ ศักดิ์สตูล",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Nov 08, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 86"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "โอมาร์ เอล ฮาลาบี",
-      "opponent_en": "",
-      "opponent_country": "เลบานอน",
-      "date": "Aug 16, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 75"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "2:11",
-      "opponent_th": "ดาเรน โรลลอง",
-      "opponent_en": "",
-      "opponent_country": "ฝรั่งเศส",
-      "date": "Jan 12, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 47"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Kickboxing",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "ฮัว เซียวหลง",
-      "opponent_en": "",
-      "opponent_country": "จีน",
-      "date": "Jun 30, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 23"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค.",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jan 20, 2023",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 1"
-    }
-  ],
-  "weigh_in_history": [
-    {
-      "event_name": "ONE Lumpinee150",
-      "weight_lbs": 121.6,
-      "division": "Strawweight"
-    }
-  ],
-  "upcoming_fights": []
+    "fight_history_one_championship": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "0:25",
+            "opponent_th": "อับดาลลาห์ ออนดาช",
+            "opponent_en": "",
+            "opponent_country": "เลบานอน",
+            "date": "Nov 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 132"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jun 27, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 114"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:51",
+            "opponent_th": "ชาติพยัคฆ์ ศักดิ์สตูล",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Apr 11, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 104"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เทพทักษิณ ศ.ศรสิงห์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 14, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 97"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Majority Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ชาติพยัคฆ์ ศักดิ์สตูล",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 08, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 86"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "โอมาร์ เอล ฮาลาบี",
+            "opponent_en": "",
+            "opponent_country": "เลบานอน",
+            "date": "Aug 16, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 75"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "2:11",
+            "opponent_th": "ดาเรน โรลลอง",
+            "opponent_en": "",
+            "opponent_country": "ฝรั่งเศส",
+            "date": "Jan 12, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 47"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Kickboxing",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฮัว เซียวหลง",
+            "opponent_en": "",
+            "opponent_country": "จีน",
+            "date": "Jun 30, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 23"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค.",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Jan 20, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 1"
+        }
+    ],
+    "weigh_in_history": [
+        {
+            "event_name": "ONE Lumpinee150",
+            "weight_lbs": 121.6,
+            "division": "Strawweight"
+        }
+    ],
+    "upcoming_fights": []
 }
