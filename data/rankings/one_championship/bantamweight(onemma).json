@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Bantamweight (ONE MMA)",
     "fighters": [
         {
             "name_th": "ฟาบริซิโอ อานดราเด",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773124960/%E0%B8%AD%E0%B8%B1%E0%B8%99%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B9%89_xfig5k.png",
+            "image_url": "ฟาบริซิโอ-อานดราเด",
             "team_th": "ไทเกอร์ มวยไทย / อีโวลฟ์ เอ็มเอ็มเอ",
             "country_th": "บราซิล",
             "stats": {
@@ -150,8 +150,8 @@
                 }
             },
             "profile_file": "ฟาบริซิโอ-อานดราเด.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         }
     ]
 }

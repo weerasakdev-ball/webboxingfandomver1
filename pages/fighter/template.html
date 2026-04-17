@@ -341,6 +341,34 @@
 
     <script>
         // ===============================================
+        // 🌟 HELPER FUNCTION: ตัวสร้างลิงก์รูปภาพอัจฉริยะ 
+        // ใช้ครอบคลุมทั้งรูปโปรไฟล์ใหญ่, รูปคู่ชก, และรูประบบค้นหา
+        // ===============================================
+        function getCloudinaryUrl(imgId, width, height, useWatermark = false) {
+            // ถ้าไม่มีรูป ให้ใช้รูป default "noname"
+            if (!imgId || imgId === "ไม่ระบุ" || imgId === "ยังไม่มีข้อมูล" || imgId.trim() === "") {
+                imgId = "noname";
+            }
+            
+            // ถ้ารูปยังเป็นลิงก์เก่าหรือลิงก์ภายนอก
+            if (imgId.startsWith('http') || imgId.includes('../../')) {
+                return imgId.startsWith('http') ? imgId : '../../' + imgId;
+            }
+
+            const cloudName = "dia2yts2f";
+            let transform = `c_fill,h_${height},w_${width}`;
+            
+            // ใส่ลายน้ำเฉพาะรูปโปรไฟล์หลัก
+            if (useWatermark) {
+                const watermarkText = "onechampionship%20%2F%20boxingfandom";
+                transform += `/l_text:Arial_14_bold:${watermarkText},co_white,g_south_east,x_10,y_10,o_80`;
+            }
+            
+            return `https://res.cloudinary.com/${cloudName}/image/upload/${transform}/boxers/${imgId}`;
+        }
+
+
+        // ===============================================
         // ส่วนที่ 1: ระบบดึงข้อมูลโปรไฟล์มวย และสร้างหน้าเว็บ
         // ===============================================
         window.showMoreFights = function() {
@@ -361,7 +389,6 @@
             const pathArray = window.location.pathname.split('/');
             let currentPage = pathArray[pathArray.length - 1]; 
             
-            // ดึงชื่อไฟล์นักมวยอัตโนมัติ
             if (!currentPage || currentPage === "template.html" || currentPage === "index.html") {
                 const urlParams = new URLSearchParams(window.location.search);
                 fileName = urlParams.get('id');
@@ -382,7 +409,6 @@
             }
 
             try {
-                // 🚀 อัปเกรด: กวาดหาไฟล์ JSON จากหลายระดับ Path
                 let response;
                 const encodedFileName = encodeURIComponent(fileName);
                 const possiblePaths = [
@@ -401,7 +427,6 @@
                 if (!response || !response.ok) throw new Error("File not found");
                 const data = await response.json();
                 
-                // ดึงรายชื่อนักมวยทั้งหมดมาไว้เชื่อมโยงลิงก์คู่ชก
                 let allFiles = [];
                 const listPaths = [
                     '../../data/boxers/fighters-list.json',
@@ -428,33 +453,10 @@
                 const wins = pastFights.filter(f => f.result.toLowerCase() === 'win');
                 const winCount = wins.length;
                 
-                // ==========================================
-                // 🚀 อัปเกรด: ระบบจัดการรูปภาพด้วย Cloudinary API
-                // ==========================================
-                const isValidImg = p.image_url && p.image_url !== "ไม่ระบุ" && p.image_url !== "ยังไม่มีข้อมูล";
-                
-                // 🛑 อย่าลืมเปลี่ยนตรงนี้เป็นชื่อ Cloud Name ของคุณ!
-                const cloudName = "dia2yts2f"; 
-                
-                const watermarkText = "ขอบคุณภาพจาก:onechampionship%20%2F%20boxingfandom";
-                const transformation = `c_fill,h_340,w_260/l_text:Arial_14_bold:${watermarkText},co_white,g_south_east,x_10,y_10,o_80`;
+                // 🚀 ใช้ Helper Function ดึงรูปโปรไฟล์หลักพร้อมลายน้ำ (260x340)
+                const mainImgUrl = getCloudinaryUrl(p.image_url, 260, 340, true);
 
-                let mainImgUrl = 'https://via.placeholder.com/260x340?text=No+Photo';
-
-                if (isValidImg) {
-                    if (p.image_url.startsWith('http') || p.image_url.includes('../../')) {
-                        // รองรับข้อมูลเก่า ที่ยังเป็น URL ภายนอกหรือ Local
-                        mainImgUrl = p.image_url.startsWith('http') ? p.image_url : '../../' + p.image_url;
-                    } else {
-                        // ระบบใหม่ ใช้ Cloudinary API สาดลายน้ำอัตโนมัติ
-                        mainImgUrl = `https://res.cloudinary.com/${cloudName}/image/upload/${transformation}/boxers/${p.image_url}`;
-                    }
-                }
-                // ==========================================
-
-                // ==========================================
-                // 🚀 การอัปเกรด SEO เชิงลึก
-                // ==========================================
+                // SEO
                 const aliasText = p.alias && p.alias !== "ไม่ระบุ" ? `ฉายา ${p.alias}` : "";
                 const seoTitle = `ประวัติ ${p.name_th} สถิติการชก ผลมวยล่าสุด ไฮไลท์ | BoxingFandom`;
                 const seoDesc = `ดูประวัติและสถิติการชกของ ${p.name_th} ${aliasText} อัปเดตผลมวยล่าสุด ฟอร์มย้อนหลัง ไฮไลท์มวย ตารางชกไฟต์ต่อไป ชกทั้งหมด ${totalFights} ไฟต์ ชนะ ${winCount} ครั้ง พร้อมระบบวิเคราะห์เจาะลึก`;
@@ -484,7 +486,6 @@
                 scriptSchema.text = JSON.stringify(schema);
                 document.head.appendChild(scriptSchema);
 
-
                 let upcomingHTML = '';
                 if (upcomingFights.length > 0) {
                     const nextFight = upcomingFights[0]; 
@@ -507,7 +508,8 @@
 
                 const enhancedHistory = await Promise.all(pastFights.map(async (f) => {
                     const oppName = f.opponent_th || f.opponent_en;
-                    let opponentImage = 'https://via.placeholder.com/70x70?text=?'; 
+                    // 🚀 ตั้งค่า default เป็น noname จาก Cloudinary ก่อนเลย
+                    let opponentImage = getCloudinaryUrl("noname", 70, 70, false); 
                     let opponentFileName = null;
 
                     if (oppName && oppName !== "ไม่ระบุ") {
@@ -526,9 +528,8 @@
                                     if (oppRes.ok) {
                                         const oppData = await oppRes.json();
                                         if (oppData.fighter_profile?.image_url) {
-                                            opponentImage = oppData.fighter_profile.image_url.startsWith('http') 
-                                                ? oppData.fighter_profile.image_url 
-                                                : '../../' + oppData.fighter_profile.image_url;
+                                            // 🚀 ใช้ Helper Function ดึงรูปคู่ชก (70x70) ไม่มีลายน้ำ
+                                            opponentImage = getCloudinaryUrl(oppData.fighter_profile.image_url, 70, 70, false);
                                         }
                                         break;
                                     }
@@ -554,7 +555,7 @@
                             <td><span class="${cls}">${f.result || 'Draw'}</span></td>
                             <td>
                                 <div class="opponent-row">
-                                    <img src="${f.opponentImage}" class="opponent-avatar" onerror="this.src='https://via.placeholder.com/70x70?text=?';">
+                                    <img src="${f.opponentImage}" class="opponent-avatar" onerror="this.src='https://res.cloudinary.com/dia2yts2f/image/upload/c_fill,h_70,w_70/boxers/noname';">
                                     ${getOpponentLink(f.oppName, f.opponentFileName)}
                                 </div>
                             </td>
@@ -576,7 +577,7 @@
                         
                         <div class="profile-header">
                             <div class="img-wrap">
-                                <img src="${mainImgUrl}" class="profile-img" alt="ประวัติ ${p.name_th} รูปภาพ" title="${p.name_th}" onerror="this.src='https://via.placeholder.com/260x340?text=No+Photo'">
+                                <img src="${mainImgUrl}" class="profile-img" alt="ประวัติ ${p.name_th} รูปภาพ" title="${p.name_th}" onerror="this.src='https://res.cloudinary.com/dia2yts2f/image/upload/c_fill,h_340,w_260/boxers/noname'">
                             </div>
                             <div class="info-box">
                                 <h1>${p.name_th}</h1>
@@ -754,13 +755,15 @@
             if (matched.length > 0) {
                 topSearchDropdown.innerHTML = matched.map(item => {
                     const p = item.fighter_profile || {};
-                    const imgUrl = p.image_url ? (p.image_url.startsWith('http') ? p.image_url : '../../' + p.image_url) : 'https://via.placeholder.com/40?text=?';
+                    
+                    // 🚀 ใช้ Helper Function ดึงไอคอนค้นหา (50x50) ไม่มีลายน้ำ
+                    const imgUrl = getCloudinaryUrl(p.image_url, 50, 50, false);
                     
                     const fighterUrl = encodeURIComponent(item.fileName.replace('.json', '.html'));
                     
                     return `
                         <a href="${fighterUrl}" class="search-dropdown-item">
-                            <img src="${imgUrl}" class="search-dropdown-icon" alt="${p.name_th}" onerror="this.src='https://via.placeholder.com/40?text=?'">
+                            <img src="${imgUrl}" class="search-dropdown-icon" alt="${p.name_th}" onerror="this.src='https://res.cloudinary.com/dia2yts2f/image/upload/c_fill,h_50,w_50/boxers/noname'">
                             <div class="search-dropdown-info">
                                 <span class="search-dropdown-name">${p.name_th}</span>
                                 <span class="search-dropdown-meta">รุ่น: ${p.physical_stats?.division || '-'}</span>

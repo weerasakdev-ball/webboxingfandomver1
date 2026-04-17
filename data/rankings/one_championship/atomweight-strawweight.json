@@ -1,0 +1,65 @@
+{
+    "last_updated": "2026-04-17",
+    "division": "Atomweight / Strawweight",
+    "fighters": [
+        {
+            "name_th": "นาดากะ โยชินาริ",
+            "image_url": "นาดากะ-โยชินาริ",
+            "team_th": "เอวะ สปอร์ต ยิม (Eiwa Sports Gym)",
+            "country_th": "ญี่ปุ่น",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 4,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 2,
+                        "points": 16
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 4,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 2,
+                        "points": 16
+                    }
+                },
+                "yearly": {
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "นาดากะ.html",
+            "trend": "new",
+            "last_rank": null
+        }
+    ]
+}

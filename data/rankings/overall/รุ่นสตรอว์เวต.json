@@ -1,0 +1,88 @@
+{
+    "last_updated": "2026-04-17",
+    "division": "รุ่นสตรอว์เวต",
+    "fighters": [
+        {
+            "name_th": "กรุงไทย ทอฝันฟาร์ม",
+            "image_url": "กรุงไทย-ทอฝันฟาร์ม",
+            "team_th": "ทอฝันฟาร์ม",
+            "country_th": "ไทย",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 1,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 3
+                    },
+                    "others": {
+                        "wins": 2,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 2,
+                        "points": 10
+                    },
+                    "total": {
+                        "wins": 3,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 2,
+                        "points": 13
+                    }
+                },
+                "yearly": {
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "กรุงไทย-ทอฝันฟาร์ม.html",
+            "trend": "new",
+            "last_rank": null
+        }
+    ]
+}

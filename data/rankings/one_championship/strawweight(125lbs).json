@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Strawweight (125 lbs)",
     "fighters": [
         {
             "name_th": "อับดาลลาห์ ออนดาช",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772979174/%E0%B8%AD%E0%B8%B1%E0%B8%9A%E0%B8%94%E0%B8%B2%E0%B8%A5%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B9%8C_%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B8%94%E0%B8%B2%E0%B8%8A_hck0j2.png",
+            "image_url": "อับดาลลาห์-ออนดาช",
             "team_th": "ไทเกอร์ มวยไทย",
             "country_th": "เลบานอน",
             "stats": {
@@ -104,8 +104,8 @@
                 }
             },
             "profile_file": "อับดาลลาห์-ออนดาช.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         }
     ]
 }

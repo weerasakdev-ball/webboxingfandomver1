@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "ยังไม่มีข้อมูล",
     "fighters": [
         {
             "name_th": "อนาสตาเซีย นิโคลากาคอส",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773503431/%E0%B8%AD%E0%B8%99%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2_%E0%B8%99%E0%B8%B4%E0%B9%82%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%84%E0%B8%AD%E0%B8%AA_l4duer.png",
+            "image_url": "อนาสตาเซีย-นิโคลากาคอส",
             "team_th": "ยังไม่มีข้อมูล",
             "country_th": "ไทย",
             "stats": {
@@ -127,12 +127,12 @@
                 }
             },
             "profile_file": "อนาสตาเซีย-นิโคลากาคอส.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         },
         {
             "name_th": "ฟาบิโอ เอ็นริเก",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773503430/%E0%B8%9F%E0%B8%B2%E0%B8%9A%E0%B8%B4%E0%B9%82%E0%B8%AD_%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B8%A3%E0%B8%B4%E0%B9%80%E0%B8%81_hutqua.png",
+            "image_url": "ฟาบิโอ-เอ็นริเก",
             "team_th": "ยังไม่มีข้อมูล",
             "country_th": "ไทย",
             "stats": {
@@ -186,8 +186,8 @@
                 }
             },
             "profile_file": "ฟาบิโอ-เอ็นริเก.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 2
         }
     ]
 }

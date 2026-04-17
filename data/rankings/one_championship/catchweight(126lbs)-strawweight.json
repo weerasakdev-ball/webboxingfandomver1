@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Catchweight (126 lbs) / Strawweight",
     "fighters": [
         {
             "name_th": "เยลเต้ บลอมเมิร์ต",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773128326/%E0%B9%80%E0%B8%A2%E0%B9%80%E0%B8%95%E0%B9%89_qg93kv.png",
+            "image_url": "เยลเต้-บลอมเมิร์ต",
             "team_th": "เอฟเอ กรุ๊ป (FA Group)",
             "country_th": "เบลเยียม",
             "stats": {
@@ -81,8 +81,8 @@
                 }
             },
             "profile_file": "เยลเต้-บลอมเมิร์ต.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         }
     ]
 }

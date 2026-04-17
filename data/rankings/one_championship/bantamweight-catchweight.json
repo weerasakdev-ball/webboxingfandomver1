@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Bantamweight / Catchweight",
     "fighters": [
         {
             "name_th": "พันฤทธิ์ ลูกเจ้าแม่สายวารี",
-            "image_url": "https://i.ibb.co/dJbX0W58/image.jpg",
+            "image_url": "พันฤทธิ์-ลูกเจ้าแม่สายวารี",
             "team_th": "สิงห์มาวิน",
             "country_th": "ไทย",
             "stats": {
@@ -127,12 +127,12 @@
                 }
             },
             "profile_file": "พันฤทธิ์-ลูกเจ้าแม่สายวารี.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         },
         {
             "name_th": "อเล็กเซย์ บาลีโก",
-            "image_url": "https://i.ibb.co/2D14SZF/image.jpg",
+            "image_url": "อเล็กเซย์-บาลีโก",
             "team_th": "ไทเกอร์ มวยไทย",
             "country_th": "รัสเซีย",
             "stats": {
@@ -232,8 +232,8 @@
                 }
             },
             "profile_file": "อเล็กเซย์-บาลีโก.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 2
         }
     ]
 }

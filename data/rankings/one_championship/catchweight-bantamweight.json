@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Catchweight / Bantamweight",
     "fighters": [
         {
             "name_th": "เสกสรร อ.ขวัญเมือง",
-            "image_url": "https://i.ibb.co/HDHhCd0P/image.jpg",
+            "image_url": "เสกสรร-อขวัญเมือง",
             "team_th": "อ.ขวัญเมือง",
             "country_th": "ไทย",
             "stats": {
@@ -127,12 +127,12 @@
                 }
             },
             "profile_file": "เสกสรร-อ.ขวัญเมือง.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         },
         {
             "name_th": "สมิงดำ เอ็นเอฟ.ลูกสวน",
-            "image_url": "https://i.ibb.co/WNLxjqXD/image.jpg",
+            "image_url": "สมิงดำ-เอ็นเอฟลูกสวน",
             "team_th": "ลูกสวน",
             "country_th": "ไทย",
             "stats": {
@@ -255,8 +255,8 @@
                 }
             },
             "profile_file": "สมิงดำ-เอ็นเอฟ.ลูกสวน.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 2
         }
     ]
 }

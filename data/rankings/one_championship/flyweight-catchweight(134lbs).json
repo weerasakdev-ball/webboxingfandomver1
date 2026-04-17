@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Flyweight / Catchweight (134 lbs)",
     "fighters": [
         {
             "name_th": "อาเมียร์ อับดุลมุสลิมอฟ",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773127676/%E0%B8%AD%E0%B8%B2%E0%B9%80%E0%B8%A1%E0%B8%B5%E0%B8%A2%E0%B8%A3%E0%B9%8C_%E0%B8%AD%E0%B8%B1%E0%B8%9A%E0%B8%94%E0%B8%B8%E0%B8%A5%E0%B8%A1%E0%B8%B8%E0%B8%AA%E0%B8%A5%E0%B8%B4%E0%B8%A1%E0%B8%AD%E0%B8%9F_m6zmrp.png",
+            "image_url": "อาเมียร์-อับดุลมุสลิมอฟ",
             "team_th": "ทีมเมห์ดี ซาทูต (Team Mehdi Zatout)",
             "country_th": "รัสเซีย",
             "stats": {
@@ -81,8 +81,8 @@
                 }
             },
             "profile_file": "อาเมียร์-อับดุลมุสลิมอฟ.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         }
     ]
 }

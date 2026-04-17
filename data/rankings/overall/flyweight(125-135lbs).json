@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Flyweight (125 - 135 lbs)",
     "fighters": [
         {
             "name_th": "ทาเกียร์ คาลิลอฟ",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773125366/%E0%B8%97%E0%B8%B2%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B8%A2%E0%B8%A3%E0%B9%8C_%E0%B8%84%E0%B8%B2%E0%B8%A5%E0%B8%B4%E0%B8%A5%E0%B8%AD%E0%B8%9F_i4fc4o.jpg",
+            "image_url": "ทาเกียร์-คาลิลอฟ",
             "team_th": "สมิงพราย มวยไทย / แฟมิลี มวยไทย",
             "country_th": "รัสเซีย",
             "stats": {
@@ -150,8 +150,8 @@
                 }
             },
             "profile_file": "ทาเกียร์-คาลิลอฟ.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         }
     ]
 }

@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Strawweight / Flyweight",
     "fighters": [
         {
             "name_th": "สามเอ ไก่ย่างห้าดาว",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772531965/%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%AD-%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B9%89%E0%B8%B2%E0%B8%94%E0%B8%B2%E0%B8%A7_hlujow.jpg",
+            "image_url": "สามเอ-ไก่ย่างห้าดาว",
             "team_th": "อีโวลฟ์ เอ็มเอ็มเอ",
             "country_th": "ไทย",
             "stats": {
@@ -196,11 +196,12 @@
                 }
             },
             "profile_file": "สามเอ-ไก่ย่างห้าดาว.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 1
         },
         {
             "name_th": "อัคราม ฮามิดี",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1772549099/อัคคราม_v1ogin.jpg",
+            "image_url": "อัคราม-ฮามิดี",
             "team_th": "Team Valente",
             "country_th": "ฝรั่งเศส/แอลจีเรีย",
             "stats": {
@@ -277,11 +278,12 @@
                 }
             },
             "profile_file": "อัคราม-ฮามิดี.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 2
         },
         {
             "name_th": "โจเซฟ ลาซิรี",
-            "image_url": "https://i.ibb.co/fw3x8F0/image.jpg",
+            "image_url": "โจเซฟ-ลาซิรี",
             "team_th": "Kick and Punch Milano",
             "country_th": "อิตาลี/โมร็อกโก",
             "stats": {
@@ -450,8 +452,8 @@
                 }
             },
             "profile_file": "โจเซฟ-ลาซิรี่.html",
-            "trend": "down",
-            "last_rank": 1
+            "trend": "steady",
+            "last_rank": 3
         }
     ]
 }

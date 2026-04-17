@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Catchweight (126 lbs - 130 lbs)",
     "fighters": [
         {
             "name_th": "ชาติพยัคฆ์ ศักดิ์สตูล",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773123149/%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4_jlhv1a.jpg",
+            "image_url": "ชาติพยัคฆ์-ศักดิ์สตูล",
             "team_th": "เกียรติเพชร",
             "country_th": "ไทย",
             "stats": {
@@ -127,8 +127,8 @@
                 }
             },
             "profile_file": "ชาติพยัคฆ์-ศักดิ์สตูล.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         }
     ]
 }

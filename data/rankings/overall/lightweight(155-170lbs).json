@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Lightweight (155 - 170 lbs)",
     "fighters": [
         {
             "name_th": "เต็งหนึ่ง แฟร์เท็กซ์",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773127800/%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87_tciekm.png",
+            "image_url": "เต็งหนึ่ง-แฟร์เท็กซ์",
             "team_th": "แฟร์เท็กซ์ เทรนนิง เซ็นเตอร์",
             "country_th": "ไทย",
             "stats": {
@@ -58,8 +58,8 @@
                 }
             },
             "profile_file": "เต็งหนึ่ง-แฟร์เท็กซ์.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         }
     ]
 }

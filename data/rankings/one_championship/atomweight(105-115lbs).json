@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-03-31",
+    "last_updated": "2026-04-17",
     "division": "Atomweight (105 - 115 lbs)",
     "fighters": [
         {
             "name_th": "โตโยต้า อีเกิลมวยไทย",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773124003/%E0%B9%82%E0%B8%95%E0%B9%82%E0%B8%A2%E0%B8%95%E0%B9%89%E0%B8%B2_kf2itl.png",
+            "image_url": "โตโยต้า-อีเกิลมวยไทย",
             "team_th": "อีเกิลมวยไทย",
             "country_th": "ไทย",
             "stats": {
@@ -104,12 +104,12 @@
                 }
             },
             "profile_file": "โตโยต้า-อีเกิลมวยไทย.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         },
         {
             "name_th": "ชาไทย บางแสนไฟต์คลับ",
-            "image_url": "https://res.cloudinary.com/dia2yts2f/image/upload/v1773123006/%E0%B8%8A%E0%B8%B2%E0%B9%84%E0%B8%97%E0%B8%A2_g4ixbx.png",
+            "image_url": "ชาไทย-บางแสนไฟต์คลับ",
             "team_th": "บางแสนไฟต์คลับ",
             "country_th": "ไทย",
             "stats": {
@@ -163,8 +163,8 @@
                 }
             },
             "profile_file": "ชาไทย-บางแสนไฟต์คลับ.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 2
         }
     ]
 }
