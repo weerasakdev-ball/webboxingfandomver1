@@ -1,278 +1,291 @@
 {
-    "fighter_profile": {
-        "name_th": "ศรศึกน้อย เอฟเอ.กรุ๊ป",
-        "name_en": "Sornsueknoi FA Group",
-        "alias": "",
-        "image_url": "ศรศึกน้อย-เอฟเอ.กรุ๊ป",
-        "grade": "",
-        "fighting_style_th": "",
-        "fighting_style_en": "",
-        "stance": "",
-        "physical_stats": {
-            "weight_lbs": 128.0,
-            "weight_kg": 58.06,
-            "division": "Flyweight",
-            "height_ft": "5'4\"",
-            "height_cm": 165,
-            "reach_cm": "",
-            "leg_reach_cm": "",
-            "hydration": "N/A"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": 0,
-                "body": 0,
-                "legs": 0,
-                "total_per_minute": 0
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": 0,
-                "accuracy_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": 0,
-                "defense_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 31,
-            "team_th": "เอฟเอ.กรุ๊ป",
-            "team_en": "FA Group"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/sornsueknoi-fa-group/"
-        ],
-        "short_biography": "ศรศึกน้อย เอฟเอ.กรุ๊ป (Sornsueknoi FA Group) นักชกชาวไทยวัย 31 ปี จากค่ายเอฟเอ.กรุ๊ป มีส่วนสูง 165 เซนติเมตร และน้ำหนัก 127.6 ปอนด์ (ประมาณ 57.9 กิโลกรัม)",
-        "target_url": ""
+  "fighter_profile": {
+    "name_th": "ศรศึกน้อย เอฟเอ.กรุ๊ป",
+    "name_en": "Sornsueknoi FA Group",
+    "alias": "",
+    "image_url": "ศรศึกน้อย-เอฟเอ.กรุ๊ป",
+    "grade": "",
+    "fighting_style_th": "",
+    "fighting_style_en": "",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": 128,
+      "weight_kg": 58.06,
+      "division": "Flyweight",
+      "height_ft": "5'4\"",
+      "height_cm": 165,
+      "reach_cm": "",
+      "leg_reach_cm": "",
+      "hydration": "N/A"
     },
-    "fight_history": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ขุนพล เอกเมืองนนท์",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Feb 06, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 141"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "สตีเฟน เออร์วิน",
-            "opponent_en": "",
-            "opponent_country": "สกอตแลนด์",
-            "date": "Mar 14, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 100"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "สิงห์ ส.โชคมีชัย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Nov 22, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 88"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เจนเชิง พุ่มพันธุ์ม่วง",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Aug 02, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 73"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Majority Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เอซากุ โอกาซาวาระ",
-            "opponent_en": "",
-            "opponent_country": "ญี่ปุ่น",
-            "date": "Apr 26, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 60"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:32",
-            "opponent_th": "เงาพยัคฆ์ แอ๊ดสันป่าตอง",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jan 19, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 48"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:16",
-            "opponent_th": "เพชรเขาวัง สจ.เล็กเมืองนนท์",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Nov 24, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 42"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:09",
-            "opponent_th": "อุดมเล็ก ณุ ปราณบุรี",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Sep 01, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 31"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": 0,
+        "body": 0,
+        "legs": 0,
+        "total_per_minute": 0
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": 0,
+        "accuracy_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
         }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ขุนพล เอกเมืองนนท์",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Feb 06, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 141"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "สตีเฟน เออร์วิน",
-            "opponent_en": "",
-            "opponent_country": "สกอตแลนด์",
-            "date": "Mar 14, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 100"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "สิงห์ ส.โชคมีชัย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Nov 22, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 88"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เจนเชิง พุ่มพันธุ์ม่วง",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Aug 02, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 73"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Majority Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เอซากุ โอกาซาวาระ",
-            "opponent_en": "",
-            "opponent_country": "ญี่ปุ่น",
-            "date": "Apr 26, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 60"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:32",
-            "opponent_th": "เงาพยัคฆ์ แอ๊ดสันป่าตอง",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jan 19, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 48"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:16",
-            "opponent_th": "เพชรเขาวัง สจ.เล็กเมืองนนท์",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Nov 24, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 42"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:09",
-            "opponent_th": "อุดมเล็ก ณุ ปราณบุรี",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Sep 01, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 31"
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": 0,
+        "defense_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
         }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 31,
+      "team_th": "เอฟเอ.กรุ๊ป",
+      "team_en": "FA Group"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/sornsueknoi-fa-group/"
     ],
-    "weigh_in_history": [
-        {
-            "event_name": "ONE Lumpinee150",
-            "weight_lbs": 128.0,
-            "division": "Flyweight"
-        }
-    ],
-    "upcoming_fights": []
+    "short_biography": "ศรศึกน้อย เอฟเอ.กรุ๊ป (Sornsueknoi FA Group) นักชกชาวไทยวัย 31 ปี จากค่ายเอฟเอ.กรุ๊ป มีส่วนสูง 165 เซนติเมตร และน้ำหนัก 127.6 ปอนด์ (ประมาณ 57.9 กิโลกรัม)",
+    "target_url": ""
+  },
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:07",
+      "opponent_th": "เหนือเพชร ทอฝันฟาร์ม",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 10, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ขุนพล เอกเมืองนนท์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Feb 06, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 141"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "สตีเฟน เออร์วิน",
+      "opponent_en": "",
+      "opponent_country": "สกอตแลนด์",
+      "date": "Mar 14, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 100"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "สิงห์ ส.โชคมีชัย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Nov 22, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 88"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เจนเชิง พุ่มพันธุ์ม่วง",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Aug 02, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 73"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Majority Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เอซากุ โอกาซาวาระ",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Apr 26, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 60"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:32",
+      "opponent_th": "เงาพยัคฆ์ แอ๊ดสันป่าตอง",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jan 19, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 48"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:16",
+      "opponent_th": "เพชรเขาวัง สจ.เล็กเมืองนนท์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Nov 24, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 42"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:09",
+      "opponent_th": "อุดมเล็ก ณุ ปราณบุรี",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Sep 01, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 31"
+    }
+  ],
+  "fight_history_one_championship": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ขุนพล เอกเมืองนนท์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Feb 06, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 141"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "สตีเฟน เออร์วิน",
+      "opponent_en": "",
+      "opponent_country": "สกอตแลนด์",
+      "date": "Mar 14, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 100"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "สิงห์ ส.โชคมีชัย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Nov 22, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 88"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เจนเชิง พุ่มพันธุ์ม่วง",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Aug 02, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 73"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Majority Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เอซากุ โอกาซาวาระ",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Apr 26, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 60"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:32",
+      "opponent_th": "เงาพยัคฆ์ แอ๊ดสันป่าตอง",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jan 19, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 48"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:16",
+      "opponent_th": "เพชรเขาวัง สจ.เล็กเมืองนนท์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Nov 24, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 42"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:09",
+      "opponent_th": "อุดมเล็ก ณุ ปราณบุรี",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Sep 01, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 31"
+    }
+  ],
+  "weigh_in_history": [
+    {
+      "event_name": "ONE Lumpinee150",
+      "weight_lbs": 128,
+      "division": "Flyweight"
+    }
+  ],
+  "upcoming_fights": []
 }

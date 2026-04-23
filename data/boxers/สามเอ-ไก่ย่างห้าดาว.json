@@ -1,253 +1,266 @@
 {
-    "fighter_profile": {
-        "name_th": "สามเอ ไก่ย่างห้าดาว",
-        "name_en": "Sam-A Gaiyanghadao",
-        "alias": "The Left Kick Specialist",
-        "image_url": "สามเอ-ไก่ย่างห้าดาว",
-        "grade": "A",
-        "fighting_style_th": "มวยฝีมือ, เตะซ้ายแม่นยำ, เทคนิคขั้นสูง",
-        "fighting_style_en": "Technical Striker (Muay Fimeu), Elite Kicker, High IQ",
-        "stance": "Southpaw (Left-handed)",
-        "physical_stats": {
-            "weight_lbs": 125,
-            "weight_kg": 56.7,
-            "division": "Strawweight / Flyweight",
-            "height_ft": "5'6\"",
-            "height_cm": 168,
-            "reach_cm": "173",
-            "leg_reach_cm": "98"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": 5,
-                "body": 8,
-                "legs": 2,
-                "total_per_minute": 15
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": 52,
-                "accuracy_by_target_percentage": {
-                    "head": 35,
-                    "body": 55,
-                    "legs": 10
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": 58,
-                "defense_by_target_percentage": {
-                    "head": 60,
-                    "body": 30,
-                    "legs": 10
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 42,
-            "team_th": "อีโวลฟ์ เอ็มเอ็มเอ",
-            "team_en": "Evolve MMA"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/sam-a-gaiyanghadao/"
-        ],
-        "short_biography": "สามเอ ไก่ย่างห้าดาว (Sam-A Gaiyanghadao) เป็นนักชกชาวไทย วัย 42 ปี จากสังกัดอีโวลฟ์ เอ็มเอ็มเอ มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, เตะซ้ายแม่นยำ, เทคนิคขั้นสูง ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight / Flyweight (ประมาณ 56.7 กิโลกรัม) ส่วนสูง 168 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง สามารถเอาชนะ จ้าวเสือใหญ่ ม.กรุงเทพธนบุรี ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  "fighter_profile": {
+    "name_th": "สามเอ ไก่ย่างห้าดาว",
+    "name_en": "Sam-A Gaiyanghadao",
+    "alias": "The Left Kick Specialist",
+    "image_url": "สามเอ-ไก่ย่างห้าดาว",
+    "grade": "A",
+    "fighting_style_th": "มวยฝีมือ, เตะซ้ายแม่นยำ, เทคนิคขั้นสูง",
+    "fighting_style_en": "Technical Striker (Muay Fimeu), Elite Kicker, High IQ",
+    "stance": "Southpaw (Left-handed)",
+    "physical_stats": {
+      "weight_lbs": 125,
+      "weight_kg": 56.7,
+      "division": "Strawweight / Flyweight",
+      "height_ft": "5'6\"",
+      "height_cm": 168,
+      "reach_cm": "173",
+      "leg_reach_cm": "98"
     },
-    "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "จ้าวเสือใหญ่ ม.กรุงเทพธนบุรี",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Dec 19, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ตุย ลิน ทัต",
-            "opponent_en": "",
-            "opponent_country": "เมียนมา",
-            "date": "Sep 26, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 126"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Kickboxing",
-            "method_en": "Unanimous Decision",
-            "round": 5,
-            "time": "3:00",
-            "opponent_th": "โจนาธาน ดิ เบลลา",
-            "opponent_en": "",
-            "opponent_country": "อิตาลี/แคนาดา",
-            "date": "Mar 23, 2025",
-            "rating": 5,
-            "event_en": "ONE 172: ทาเครุ vs รถถัง"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Kickboxing",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "จาง เป่ยเหมียน",
-            "opponent_en": "",
-            "opponent_country": "จีน",
-            "date": "Nov 08, 2024",
-            "rating": 5,
-            "event_en": "ONE 169: อนาโตลี vs รุง รุง"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "1:22",
-            "opponent_th": "อัคราม ฮามิดี",
-            "opponent_en": "",
-            "opponent_country": "ฝรั่งเศส/แอลจีเรีย",
-            "date": "Sep 27, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "2:10",
-            "opponent_th": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค.",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jun 23, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 22"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "2:52",
-            "opponent_th": "ไรอัน ชีฮาน",
-            "opponent_en": "",
-            "opponent_country": "ไอร์แลนด์",
-            "date": "Mar 17, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 9"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Majority Decision",
-            "round": 5,
-            "time": "3:00",
-            "opponent_th": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค.",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jul 30, 2021",
-            "rating": 5,
-            "event_en": "ONE Battleground"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "2:30",
-            "opponent_th": "จอช ทอนนา",
-            "opponent_en": "",
-            "opponent_country": "ออสเตรเลีย",
-            "date": "Oct 09, 2020",
-            "rating": 5,
-            "event_en": "ONE Reign of Dynasties"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 5,
-            "time": "3:00",
-            "opponent_th": "ร็อกกี อ็อกเดน",
-            "opponent_en": "",
-            "opponent_country": "ออสเตรเลีย",
-            "date": "Feb 28, 2020",
-            "rating": 5,
-            "event_en": "ONE King of the Jungle"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Kickboxing",
-            "method_en": "Unanimous Decision",
-            "round": 5,
-            "time": "3:00",
-            "opponent_th": "หวัง จึงกวง",
-            "opponent_en": "",
-            "opponent_country": "จีน",
-            "date": "Dec 06, 2019",
-            "rating": 5,
-            "event_en": "ONE MARK OF GREATNESS"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:20",
-            "opponent_th": "ดาเรน โรลลอง",
-            "opponent_en": "",
-            "opponent_country": "ฝรั่งเศส",
-            "date": "Oct 13, 2019",
-            "rating": 5,
-            "event_en": "ONE CENTURY PART I"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 5,
-            "time": "3:00",
-            "opponent_th": "โจนาธาน แฮ็กเกอร์ตี",
-            "opponent_en": "",
-            "opponent_country": "สหราชอาณาจักร",
-            "date": "May 03, 2019",
-            "rating": 5,
-            "event_en": "ONE FOR HONOR"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 4,
-            "time": "2:47",
-            "opponent_th": "เซอร์จิโอ วีลเซน",
-            "opponent_en": "",
-            "opponent_country": "ซูรินาม",
-            "date": "May 18, 2018",
-            "rating": 5,
-            "event_en": "ONE UNSTOPPABLE DREAMS"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "2:30",
-            "opponent_th": "โจเซฟ ลาซิรี",
-            "opponent_en": "",
-            "opponent_country": "อิตาลี/โมร็อกโก",
-            "date": "Jan 26, 2018",
-            "rating": 5,
-            "event_en": "ONE GLOBAL SUPERHEROES"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": 5,
+        "body": 8,
+        "legs": 2,
+        "total_per_minute": 15
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": 52,
+        "accuracy_by_target_percentage": {
+          "head": 35,
+          "body": 55,
+          "legs": 10
         }
-    ]
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": 58,
+        "defense_by_target_percentage": {
+          "head": 60,
+          "body": 30,
+          "legs": 10
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 42,
+      "team_th": "อีโวลฟ์ เอ็มเอ็มเอ",
+      "team_en": "Evolve MMA"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/sam-a-gaiyanghadao/"
+    ],
+    "short_biography": "สามเอ ไก่ย่างห้าดาว (Sam-A Gaiyanghadao) เป็นนักชกชาวไทย วัย 42 ปี จากสังกัดอีโวลฟ์ เอ็มเอ็มเอ มีความถนัดในการต่อสู้สไตล์มวยฝีมือ, เตะซ้ายแม่นยำ, เทคนิคขั้นสูง ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight / Flyweight (ประมาณ 56.7 กิโลกรัม) ส่วนสูง 168 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง สามารถเอาชนะ จ้าวเสือใหญ่ ม.กรุงเทพธนบุรี ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  },
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:43",
+      "opponent_th": "เอลเมห์ดี เอล จามารี",
+      "opponent_en": "",
+      "opponent_country": "โมร็อกโก",
+      "date": "Apr 11, 2026",
+      "rating": 5,
+      "event_en": "ONE Fight Night 42: เชส vs จาบีร์"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "จ้าวเสือใหญ่ ม.กรุงเทพธนบุรี",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Dec 19, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ตุย ลิน ทัต",
+      "opponent_en": "",
+      "opponent_country": "เมียนมา",
+      "date": "Sep 26, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 126"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Kickboxing",
+      "method_en": "Unanimous Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "โจนาธาน ดิ เบลลา",
+      "opponent_en": "",
+      "opponent_country": "อิตาลี/แคนาดา",
+      "date": "Mar 23, 2025",
+      "rating": 5,
+      "event_en": "ONE 172: ทาเครุ vs รถถัง"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Kickboxing",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "จาง เป่ยเหมียน",
+      "opponent_en": "",
+      "opponent_country": "จีน",
+      "date": "Nov 08, 2024",
+      "rating": 5,
+      "event_en": "ONE 169: อนาโตลี vs รุง รุง"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:22",
+      "opponent_th": "อัคราม ฮามิดี",
+      "opponent_en": "",
+      "opponent_country": "ฝรั่งเศส/แอลจีเรีย",
+      "date": "Sep 27, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:10",
+      "opponent_th": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค.",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jun 23, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 22"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:52",
+      "opponent_th": "ไรอัน ชีฮาน",
+      "opponent_en": "",
+      "opponent_country": "ไอร์แลนด์",
+      "date": "Mar 17, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 9"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Majority Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค.",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jul 30, 2021",
+      "rating": 5,
+      "event_en": "ONE Battleground"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:30",
+      "opponent_th": "จอช ทอนนา",
+      "opponent_en": "",
+      "opponent_country": "ออสเตรเลีย",
+      "date": "Oct 09, 2020",
+      "rating": 5,
+      "event_en": "ONE Reign of Dynasties"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "ร็อกกี อ็อกเดน",
+      "opponent_en": "",
+      "opponent_country": "ออสเตรเลีย",
+      "date": "Feb 28, 2020",
+      "rating": 5,
+      "event_en": "ONE King of the Jungle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Kickboxing",
+      "method_en": "Unanimous Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "หวัง จึงกวง",
+      "opponent_en": "",
+      "opponent_country": "จีน",
+      "date": "Dec 06, 2019",
+      "rating": 5,
+      "event_en": "ONE MARK OF GREATNESS"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:20",
+      "opponent_th": "ดาเรน โรลลอง",
+      "opponent_en": "",
+      "opponent_country": "ฝรั่งเศส",
+      "date": "Oct 13, 2019",
+      "rating": 5,
+      "event_en": "ONE CENTURY PART I"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 5,
+      "time": "3:00",
+      "opponent_th": "โจนาธาน แฮ็กเกอร์ตี",
+      "opponent_en": "",
+      "opponent_country": "สหราชอาณาจักร",
+      "date": "May 03, 2019",
+      "rating": 5,
+      "event_en": "ONE FOR HONOR"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 4,
+      "time": "2:47",
+      "opponent_th": "เซอร์จิโอ วีลเซน",
+      "opponent_en": "",
+      "opponent_country": "ซูรินาม",
+      "date": "May 18, 2018",
+      "rating": 5,
+      "event_en": "ONE UNSTOPPABLE DREAMS"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:30",
+      "opponent_th": "โจเซฟ ลาซิรี",
+      "opponent_en": "",
+      "opponent_country": "อิตาลี/โมร็อกโก",
+      "date": "Jan 26, 2018",
+      "rating": 5,
+      "event_en": "ONE GLOBAL SUPERHEROES"
+    }
+  ]
 }

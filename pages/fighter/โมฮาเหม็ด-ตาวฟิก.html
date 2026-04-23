@@ -369,7 +369,7 @@
         }
 
         /* ---------------------------------- */
-        /* CSS เพิ่มเติม: ส่วนของเครดิตรูปภาพ */
+        /* CSS เครดิตรูปภาพ */
         /* ---------------------------------- */
         .img-credit-overlay {
             position: absolute;
@@ -379,7 +379,7 @@
             background: linear-gradient(to top, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.6) 60%, transparent 100%);
             padding: 25px 12px 12px;
             text-align: center;
-            pointer-events: none; /* ทำให้คลิกผ่านไปยังรูปได้ */
+            pointer-events: none;
         }
 
         .img-credit-title {
@@ -547,50 +547,6 @@
             font-size: 16px;
             line-height: 1.8;
             color: #475569;
-        }
-
-        .accuracy-section {
-            background: var(--dark-header);
-            color: white;
-            padding: 35px;
-            border-radius: 12px;
-            margin-bottom: 50px;
-            box-shadow: 0 10px 25px rgba(15, 23, 42, 0.15);
-        }
-
-        .accuracy-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
-            margin-bottom: 20px;
-        }
-
-        .accuracy-section h2 {
-            margin: 0;
-            font-size: 18px;
-            font-weight: 600;
-            color: #cbd5e1;
-        }
-
-        .accuracy-value {
-            font-size: 36px;
-            font-weight: 800;
-            color: #ffffff;
-            line-height: 1;
-        }
-
-        .progress-bg {
-            background: rgba(255, 255, 255, 0.1);
-            height: 8px;
-            border-radius: 4px;
-            overflow: hidden;
-        }
-
-        .progress-bar {
-            background: var(--primary);
-            height: 100%;
-            border-radius: 4px;
-            transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .stats-row {
@@ -886,7 +842,7 @@
 <body>
 
     <header class="main-header">
-        <h1><span class="text-red">Boxing</span><span class="text-white">Fandom</span></h1>
+        <h1><a href="../../index.html" style="text-decoration:none;"><span class="text-red">Boxing</span><span class="text-white">Fandom</span></a></h1>
         <nav class="main-nav">
             <ul>
                 <li><a href="../../index.html">หน้าแรก</a></li>
@@ -948,38 +904,91 @@
 
     <script>
         // ===============================================
-        // 🌟 HELPER FUNCTION: ระบบดึงรูปภาพจาก Cloudinary (อัปเกรดล่าสุด)
+        // 🌟 HELPER FUNCTION: ระบบดึงรูปภาพจาก Cloudinary
         // ===============================================
         function getCloudinaryUrl(imgId, width, height) {
-            // 1. ตรวจสอบกรณีไม่มีชื่อภาพ
-            if (!imgId || imgId === "ไม่ระบุ" || imgId === "ยังไม่มีข้อมูล" || imgId.trim() === "") {
-                imgId = "noname";
+            if (!imgId || imgId === "ไม่ระบุ" || imgId === "ยังไม่มีข้อมูล" || imgId.trim() === "" || imgId === "noname") {
+                return "../../assets/images/noname.jpg"; 
             }
 
-            // 2. ถ้าเป็น URL ภายนอกอยู่แล้ว (เช่น http...) ให้ดึงมาใช้เลย
             if (imgId.startsWith('http') || imgId.includes('../../')) {
                 return imgId.startsWith('http') ? imgId : '../../' + imgId;
             }
 
-            // 3. ประกอบ URL ของ Cloudinary
+            let cleanImgId = imgId.replace(/\.(jpg|jpeg|png|webp)$/i, '');
             const cloudName = "dpvyl7nan";
-            // g_face = เล็งไปที่ใบหน้าคน
-            // f_auto = แปลงนามสกุลไฟล์ให้อัตโนมัติ (.webp, .jpg)
-            // q_auto = บีบอัดคุณภาพรูปให้โหลดเร็ว
             const transform = `c_fill,g_face,h_${height},w_${width},f_auto,q_auto`;
-            
-            // Encode ภาษาไทยใน Image ID ให้เบราว์เซอร์อ่านออก
-            const safeImgId = encodeURIComponent(imgId);
+            const safeImgId = encodeURIComponent(cleanImgId);
 
             return `https://res.cloudinary.com/${cloudName}/image/upload/${transform}/v1/${safeImgId}`;
         }
 
         // ===============================================
+        // 🌟 HELPER FUNCTION: สร้างวิดเจ็ตแสดงสถิติแบบ Body Silhouette (UFC Style)
+        // ===============================================
+        function createBodyStatWidget(title, head, body, legs, colorHex) {
+            // คำนวณ Opacity ตามเปอร์เซ็นต์ (ความเข้มสี)
+            const maxVal = Math.max(head, body, legs, 1);
+            const headOp = Math.max((head / maxVal), 0.3); // ให้เข้มสุดตามสัดส่วน (อย่างน้อย 0.3 จะได้ไม่โปร่งใสจนมองไม่เห็น)
+            const bodyOp = Math.max((body / maxVal), 0.3);
+            const legsOp = Math.max((legs / maxVal), 0.3);
+
+            return `
+                <div style="background: #1e293b; padding: 25px; border-radius: 12px; border: 1px solid #334155; position: relative;">
+                    <h3 style="font-size: 18px; font-weight: 800; color: #f8fafc; text-transform: uppercase; margin-bottom: 25px; text-align: center; letter-spacing: 1px;">
+                        ${title}
+                    </h3>
+
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 15px;">
+
+                        <div style="display: flex; flex-direction: column; justify-content: space-between; height: 160px; text-align: right; font-weight: 800; color: #cbd5e1; font-size: 14px; text-transform: uppercase; width: 60px;">
+                            <div style="position: relative; top: 5px;">Head</div>
+                            <div style="position: relative; top: 0px;">Body</div>
+                            <div style="position: relative; bottom: 5px;">Legs</div>
+                        </div>
+
+                        <div style="display: flex; flex-direction: column; justify-content: space-between; height: 160px; width: 30px;">
+                            <div style="border-bottom: 1px solid #475569; height: 14px;"></div>
+                            <div style="border-bottom: 1px solid #475569; height: 60px;"></div>
+                            <div style="border-bottom: 1px solid #475569; height: 60px;"></div>
+                        </div>
+
+                        <div style="width: 70px; display: flex; justify-content: center;">
+                            <svg viewBox="0 0 100 220" width="70" height="160" style="overflow: visible; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));">
+                                <circle cx="50" cy="20" r="18" fill="${colorHex}" opacity="${headOp}" style="transition: opacity 0.5s;" />
+                                <rect x="25" y="42" width="50" height="75" rx="12" fill="${colorHex}" opacity="${bodyOp}" style="transition: opacity 0.5s;" />
+                                <rect x="5" y="45" width="15" height="65" rx="7.5" fill="${colorHex}" opacity="${bodyOp}" style="transition: opacity 0.5s;" />
+                                <rect x="80" y="45" width="15" height="65" rx="7.5" fill="${colorHex}" opacity="${bodyOp}" style="transition: opacity 0.5s;" />
+                                <rect x="30" y="120" width="16" height="80" rx="8" fill="${colorHex}" opacity="${legsOp}" style="transition: opacity 0.5s;" />
+                                <rect x="54" y="120" width="16" height="80" rx="8" fill="${colorHex}" opacity="${legsOp}" style="transition: opacity 0.5s;" />
+                            </svg>
+                        </div>
+
+                        <div style="display: flex; flex-direction: column; justify-content: space-between; height: 160px; width: 30px;">
+                            <div style="border-bottom: 1px solid #475569; height: 14px;"></div>
+                            <div style="border-bottom: 1px solid #475569; height: 60px;"></div>
+                            <div style="border-bottom: 1px solid #475569; height: 60px;"></div>
+                        </div>
+
+                        <div style="display: flex; flex-direction: column; justify-content: space-between; height: 160px; text-align: left; font-weight: 900; color: ${colorHex}; font-size: 18px; width: 50px;">
+                            <div style="position: relative; top: -1px;">${head}%</div>
+                            <div style="position: relative; top: -5px;">${body}%</div>
+                            <div style="position: relative; bottom: 10px;">${legs}%</div>
+                        </div>
+
+                    </div>
+                </div>
+            `;
+        }
+
+        // ===============================================
         // ส่วนที่ 1: ระบบดึงข้อมูลโปรไฟล์มวย และสร้างหน้าเว็บ
         // ===============================================
+        
+        // 🚀 ปรับค่า initial ให้แสดง 5 ไฟต์แรกในตารางประวัติ
         window.showMoreFights = function () {
             const hiddenRows = document.querySelectorAll('.hidden-row');
-            const rowsToShow = 10;
+            const rowsToShow = 5; // เปลี่ยนให้กด 1 ครั้ง โหลด 5 ไฟต์
 
             for (let i = 0; i < rowsToShow && i < hiddenRows.length; i++) {
                 hiddenRows[i].classList.remove('hidden-row');
@@ -1059,10 +1068,8 @@
                 const wins = pastFights.filter(f => f.result.toLowerCase() === 'win');
                 const winCount = wins.length;
 
-                // 🚀 เปลี่ยนมาใช้ระบบ Cloudinary สำหรับรูปหลัก (ขนาด 260x340)
                 const mainImgUrl = getCloudinaryUrl(p.image_url, 260, 340);
 
-                // SEO
                 const aliasText = p.alias && p.alias !== "ไม่ระบุ" ? `ฉายา ${p.alias}` : "";
                 const seoTitle = `ประวัติ ${p.name_th} สถิติการชก ผลมวยล่าสุด ไฮไลท์ | BoxingFandom`;
                 const seoDesc = `ดูประวัติและสถิติการชกของ ${p.name_th} ${aliasText} อัปเดตผลมวยล่าสุด ฟอร์มย้อนหลัง ไฮไลท์มวย ตารางชกไฟต์ต่อไป ชกทั้งหมด ${totalFights} ไฟต์ ชนะ ${winCount} ครั้ง พร้อมระบบวิเคราะห์เจาะลึก`;
@@ -1074,23 +1081,6 @@
                 document.getElementById('og-title').content = seoTitle;
                 document.getElementById('og-desc').content = seoDesc;
                 document.getElementById('og-image').content = mainImgUrl;
-
-                const schema = {
-                    "@context": "https://schema.org",
-                    "@type": "ProfilePage",
-                    "mainEntity": {
-                        "@type": "Person",
-                        "name": p.name_th,
-                        "alternateName": p.alias || "",
-                        "jobTitle": "นักมวยไทย",
-                        "image": mainImgUrl,
-                        "description": seoDesc
-                    }
-                };
-                const scriptSchema = document.createElement('script');
-                scriptSchema.type = 'application/ld+json';
-                scriptSchema.text = JSON.stringify(schema);
-                document.head.appendChild(scriptSchema);
 
                 let upcomingHTML = '';
                 if (upcomingFights.length > 0) {
@@ -1112,9 +1102,73 @@
                     `;
                 }
 
+                // ===============================================
+                // 🚀 ระบบ Advanced Striking Stats (UFC Style)
+                // ===============================================
+                let advancedStatsHTML = '';
+                if (p.performance_stats && p.performance_stats.significant_strike_accuracy && p.performance_stats.defensive_stats) {
+                    const stats = p.performance_stats;
+                    
+                    const offAcc = stats.significant_strike_accuracy.overall_accuracy_percentage || 0;
+                    const offHead = stats.significant_strike_accuracy.accuracy_by_target_percentage?.head || 0;
+                    const offBody = stats.significant_strike_accuracy.accuracy_by_target_percentage?.body || 0;
+                    const offLegs = stats.significant_strike_accuracy.accuracy_by_target_percentage?.legs || 0;
+                    const spm = stats.significant_strikes_per_minute?.total_per_minute || 0;
+
+                    const defOverall = stats.defensive_stats.overall_defense_percentage || 0;
+                    const defHead = stats.defensive_stats.defense_by_target_percentage?.head || 0;
+                    const defBody = stats.defensive_stats.defense_by_target_percentage?.body || 0;
+                    const defLegs = stats.defensive_stats.defense_by_target_percentage?.legs || 0;
+
+                    advancedStatsHTML = `
+                        <div class="ufc-stats-container" style="background: #0f172a; border-radius: 16px; padding: 40px 30px; margin-top: 50px; color: white; box-shadow: 0 10px 25px rgba(0,0,0,0.25);">
+                            <h2 style="font-size: 24px; font-weight: 900; text-align: center; margin-bottom: 40px; color: #fff; text-transform: uppercase; letter-spacing: 1px;">
+                                <span style="color: var(--primary);">Advanced</span> Striking Stats
+                            </h2>
+
+                            <div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: center; margin-bottom: 40px;">
+                                
+                                <div style="text-align: center; width: 120px;">
+                                    <div style="font-size: 36px; font-weight: 900; color: #fff; margin-bottom: 10px; height: 120px; display: flex; align-items: center; justify-content: center;">
+                                        ${spm}
+                                    </div>
+                                    <div style="font-size: 12px; font-weight: 700; color: #94a3b8; text-transform: uppercase;">Str. Landed / Min</div>
+                                </div>
+
+                                <div style="text-align: center; width: 120px;">
+                                    <div style="width: 120px; height: 120px; border-radius: 50%; background: conic-gradient(#dc2626 0% ${offAcc}%, #334155 ${offAcc}% 100%); display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;">
+                                        <div style="width: 96px; height: 96px; background: #0f172a; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: 900; color: #fff;">${offAcc}%</div>
+                                    </div>
+                                    <div style="font-size: 12px; font-weight: 700; color: #94a3b8; text-transform: uppercase;">Striking Accuracy</div>
+                                </div>
+
+                                <div style="text-align: center; width: 120px;">
+                                    <div style="width: 120px; height: 120px; border-radius: 50%; background: conic-gradient(#16a34a 0% ${defOverall}%, #334155 ${defOverall}% 100%); display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;">
+                                        <div style="width: 96px; height: 96px; background: #0f172a; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: 900; color: #fff;">${defOverall}%</div>
+                                    </div>
+                                    <div style="font-size: 12px; font-weight: 700; color: #94a3b8; text-transform: uppercase;">Strike Defense</div>
+                                </div>
+
+                            </div>
+
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; border-top: 1px solid #334155; padding-top: 30px;">
+                                ${createBodyStatWidget('SIG. STR. BY TARGET', offHead, offBody, offLegs, '#ef4444')}
+                                ${createBodyStatWidget('DEFENSE BY TARGET', defHead, defBody, defLegs, '#3b82f6')}
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    advancedStatsHTML = `
+                        <div style="background: var(--bg); border: 1px dashed var(--border); border-radius: 12px; padding: 30px; text-align: center; margin-top: 50px; color: var(--text-muted);">
+                            <span style="font-size: 24px; display: block; margin-bottom: 10px;">📊</span>
+                            <b>ยังไม่มีข้อมูลสถิติเชิงลึก (Advanced Stats) สำหรับนักมวยรายนี้</b><br>
+                            <span style="font-size: 13px;">ระบบกำลังรวบรวมข้อมูลจากการชกไฟต์ต่างๆ และจะอัปเดตในเร็วๆ นี้</span>
+                        </div>
+                    `;
+                }
+
                 const enhancedHistory = await Promise.all(pastFights.map(async (f) => {
                     const oppName = f.opponent_th || f.opponent_en;
-                    // 🚀 โหลดรูปคู่ชก (ถ้าไม่มีก็เป็น noname ขนาด 70x70)
                     let opponentImage = getCloudinaryUrl("noname", 70, 70);
                     let opponentFileName = null;
 
@@ -1134,7 +1188,6 @@
                                     if (oppRes.ok) {
                                         const oppData = await oppRes.json();
                                         if (oppData.fighter_profile?.image_url) {
-                                            // 🚀 ใช้ Cloudinary ดึงรูปคู่ชกมาโชว์ในตาราง
                                             opponentImage = getCloudinaryUrl(oppData.fighter_profile.image_url, 70, 70);
                                         }
                                         break;
@@ -1146,7 +1199,8 @@
                     return { ...f, opponentImage, opponentFileName, oppName };
                 }));
 
-                const initialShowCount = 10;
+                // 🚀 ตั้งค่าให้แสดงตารางแค่ 5 ไฟต์แรก
+                const initialShowCount = 5;
                 const tableRowsHTML = enhancedHistory.map((f, index) => {
                     const res = (f.result || "").toLowerCase();
                     let cls = 'draw';
@@ -1172,8 +1226,9 @@
                     `;
                 }).join('') || "<tr><td colspan='5' style='text-align:center; padding:40px; color:var(--text-muted);'>ยังไม่มีข้อมูลการชกย้อนหลัง</td></tr>";
 
-                const loadMoreBtnHTML = pastFights.length > initialShowCount ? `<button id="loadMoreBtn" class="load-more-btn" onclick="showMoreFights()">โหลดประวัติเพิ่มเติม (${pastFights.length - initialShowCount} ไฟต์)</button>` : '';
+                const loadMoreBtnHTML = pastFights.length > initialShowCount ? `<button id="loadMoreBtn" class="load-more-btn" onclick="showMoreFights()">โหลดประวัติเพิ่มเติม (ทีละ 5 ไฟต์)</button>` : '';
 
+                // 🚀 นำ Advanced Stats ไปต่อท้าย History Section
                 container.innerHTML = `
                     <article>
                         ${upcomingHTML}
@@ -1226,16 +1281,6 @@
                             <div class="stat-card"><small>สัญชาติ</small><b>${p.personal_info?.country_th || '-'}</b></div>
                         </div>
 
-                        <div class="accuracy-section">
-                            <div class="accuracy-header">
-                                <h2>เป้าหมายความแม่นยำรวม (Strike Accuracy)</h2>
-                                <span class="accuracy-value">${p.performance_stats?.significant_strike_accuracy?.overall_accuracy_percentage || 'N/A'}</span>
-                            </div>
-                            <div class="progress-bg">
-                                <div class="progress-bar" style="width:${parseFloat(p.performance_stats?.significant_strike_accuracy?.overall_accuracy_percentage) || 0}%"></div>
-                            </div>
-                        </div>
-
                         <section class="history-section">
                             <h2>ประวัติการชก (Fight History) ผลมวยล่าสุด</h2>
                             <div class="table-wrapper">
@@ -1256,6 +1301,9 @@
                             </div>
                             ${loadMoreBtnHTML}
                         </section>
+
+                        ${advancedStatsHTML}
+
                     </article>
                 `;
 
@@ -1362,7 +1410,6 @@
             if (matched.length > 0) {
                 topSearchDropdown.innerHTML = matched.map(item => {
                     const p = item.fighter_profile || {};
-                    // 🚀 ใช้ Cloudinary ดึงรูปขนาด 50x50 ในระบบค้นหา
                     const imgUrl = getCloudinaryUrl(p.image_url, 50, 50);
                     const fighterUrl = encodeURIComponent(item.fileName.replace('.json', '.html'));
 

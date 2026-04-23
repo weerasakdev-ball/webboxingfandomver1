@@ -1,123 +1,136 @@
 {
-    "fighter_profile": {
-        "name_th": "สไล ทาน คี เชน",
-        "name_en": "Salai Than Kee Chen",
-        "alias": "ไม่ระบุ",
-        "image_url": "สไล-ทาน-คี-เชน",
-        "grade": "ไม่ระบุ",
-        "fighting_style_th": "ไม่ระบุ",
-        "fighting_style_en": "ไม่ระบุ",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": 114.0,
-            "weight_kg": 51.71,
-            "division": "Atomweight",
-            "height_ft": "ไม่ระบุ",
-            "height_cm": "ไม่ระบุ",
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ",
-            "hydration": "N/A"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": "ไม่ระบุ",
-                "body": "ไม่ระบุ",
-                "legs": "ไม่ระบุ",
-                "total_accuracy": "ไม่ระบุ"
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": "ไม่ระบุ",
-                "accuracy_by_target_percentage": {
-                    "head": "ไม่ระบุ",
-                    "body": "ไม่ระบุ",
-                    "legs": "ไม่ระบุ"
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": "ไม่ระบุ",
-                "distance_control_percentage": "ไม่ระบุ",
-                "defense_by_target_percentage": {
-                    "head": "ไม่ระบุ",
-                    "body": "ไม่ระบุ",
-                    "legs": "ไม่ระบุ"
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "เมียนมา",
-            "country_en": "Myanmar",
-            "age": 21,
-            "team_th": "ไม่ระบุ",
-            "team_en": "ไม่ระบุ"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/salai/"
-        ],
-        "short_biography": "สไล ทาน คี เชน (Salai Than Kee Chen) เป็นนักชกชาวเมียนมา วัย 21 ปี มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 139 สามารถเอาชนะ ยอดอุดร เค.โต้งตลิ่งชัน ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง",
-        "target_url": ""
+  "fighter_profile": {
+    "name_th": "สไล ทาน คี เชน",
+    "name_en": "Salai Than Kee Chen",
+    "alias": "ไม่ระบุ",
+    "image_url": "สไล-ทาน-คี-เชน",
+    "grade": "ไม่ระบุ",
+    "fighting_style_th": "ไม่ระบุ",
+    "fighting_style_en": "ไม่ระบุ",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": 114,
+      "weight_kg": 51.71,
+      "division": "Atomweight",
+      "height_ft": "ไม่ระบุ",
+      "height_cm": "ไม่ระบุ",
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ",
+      "hydration": "N/A"
     },
-    "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "0:21",
-            "opponent_th": "ยอดอุดร เค.โต้งตลิ่งชัน",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jan 23, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 139"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ทรงชัยน้อย เกียรติทรงฤทธิ์",
-            "opponent_en": "",
-            "opponent_country": "ไม่ระบุ",
-            "date": "Oct 24, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 130"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ไม่ระบุ",
+        "body": "ไม่ระบุ",
+        "legs": "ไม่ระบุ",
+        "total_accuracy": "ไม่ระบุ"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ไม่ระบุ",
+        "accuracy_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
         }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "0:21",
-            "opponent_th": "ยอดอุดร เค.โต้งตลิ่งชัน",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jan 23, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 139"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ทรงชัยน้อย เกียรติทรงฤทธิ์",
-            "opponent_en": "",
-            "opponent_country": "ไม่ระบุ",
-            "date": "Oct 24, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 130"
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": "ไม่ระบุ",
+        "distance_control_percentage": "ไม่ระบุ",
+        "defense_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
         }
+      }
+    },
+    "personal_info": {
+      "country_th": "เมียนมา",
+      "country_en": "Myanmar",
+      "age": 21,
+      "team_th": "ไม่ระบุ",
+      "team_en": "ไม่ระบุ"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/salai/"
     ],
-    "weigh_in_history": [
-        {
-            "event_name": "ONE Lumpinee150",
-            "weight_lbs": 114.0,
-            "division": "Atomweight"
-        }
-    ],
-    "upcoming_fights": []
+    "short_biography": "สไล ทาน คี เชน (Salai Than Kee Chen) เป็นนักชกชาวเมียนมา วัย 21 ปี มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 139 สามารถเอาชนะ ยอดอุดร เค.โต้งตลิ่งชัน ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง",
+    "target_url": ""
+  },
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "โชคดี แม็กจันดี",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 10, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "0:21",
+      "opponent_th": "ยอดอุดร เค.โต้งตลิ่งชัน",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jan 23, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 139"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ทรงชัยน้อย เกียรติทรงฤทธิ์",
+      "opponent_en": "",
+      "opponent_country": "ไม่ระบุ",
+      "date": "Oct 24, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 130"
+    }
+  ],
+  "fight_history_one_championship": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "0:21",
+      "opponent_th": "ยอดอุดร เค.โต้งตลิ่งชัน",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jan 23, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 139"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ทรงชัยน้อย เกียรติทรงฤทธิ์",
+      "opponent_en": "",
+      "opponent_country": "ไม่ระบุ",
+      "date": "Oct 24, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 130"
+    }
+  ],
+  "weigh_in_history": [
+    {
+      "event_name": "ONE Lumpinee150",
+      "weight_lbs": 114,
+      "division": "Atomweight"
+    }
+  ],
+  "upcoming_fights": []
 }

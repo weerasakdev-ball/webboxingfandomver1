@@ -1,123 +1,136 @@
 {
-    "fighter_profile": {
-        "name_th": "แบล็คแพนเธอร์",
-        "name_en": "Black Panther",
-        "alias": "",
-        "image_url": "แบล็คแพนเธอร์",
-        "grade": "",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "",
-        "physical_stats": {
-            "weight_lbs": 0,
-            "weight_kg": 0,
-            "division": "",
-            "height_ft": "5'6\"",
-            "height_cm": 168,
-            "reach_cm": "",
-            "leg_reach_cm": ""
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": 0,
-                "body": 0,
-                "legs": 0,
-                "total_per_minute": 0
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": 0,
-                "accuracy_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": 0,
-                "defense_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 26,
-            "team_th": "Team Mehdi Zatout",
-            "team_en": "Team Mehdi Zatout"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/black-panther/"
-        ],
-        "short_biography": "แบล็คแพนเธอร์ (Black Panther) นักชกชาวไทยวัย 26 ปี จากสังกัด Team Mehdi Zatout ส่วนสูง 168 เซนติเมตร เป็นหนึ่งในนักมวยไทยที่ทำผลงานได้อย่างโดดเด่นในรายการ ONE Championship โดยเฉพาะฟอร์มการชกในช่วงปี 2024-2025 ที่สามารถเอาชนะน็อกเอาต์คู่ต่อสู้ฝีมือดีอย่าง อาลี ซาลโดเอฟ และล่าสุดสามารถเอาชนะทีเคโอ โยฮัน เอสตูปินาน ได้ในศึก ONE Fight Night 37 เมื่อวันที่ 8 พฤศจิกายน 2025"
+  "fighter_profile": {
+    "name_th": "แบล็คแพนเธอร์",
+    "name_en": "Black Panther",
+    "alias": "",
+    "image_url": "แบล็คแพนเธอร์",
+    "grade": "",
+    "fighting_style_th": "มวยไทย",
+    "fighting_style_en": "Muay Thai",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": 0,
+      "weight_kg": 0,
+      "division": "",
+      "height_ft": "5'6\"",
+      "height_cm": 168,
+      "reach_cm": "",
+      "leg_reach_cm": ""
     },
-    "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:29",
-            "opponent_th": "โยฮัน เอสตูปินาน",
-            "opponent_en": "Johan Estupinan",
-            "opponent_country": "โคลอมเบีย",
-            "date": "Nov 08, 2025",
-            "rating": 5,
-            "event_en": "ONE Fight Night 37: โรมัน vs ซาเมต"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "0:23",
-            "opponent_th": "อาลี ซาลโดเอฟ",
-            "opponent_en": "Ali Saldoev",
-            "opponent_country": "รัสเซีย",
-            "date": "Jul 05, 2024",
-            "rating": 5,
-            "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
-            "opponent_en": "Suriyanlek Por.Yenying",
-            "opponent_country": "ไทย",
-            "date": "Sep 29, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 35"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "โมฮัมหมัด ซาเดกี",
-            "opponent_en": "Mohammad Sadeghi",
-            "opponent_country": "อิหร่าน",
-            "date": "Jul 07, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 24"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:04",
-            "opponent_th": "ทาเกียร์ คาลิลอฟ",
-            "opponent_en": "Tagir Khalilov",
-            "opponent_country": "รัสเซีย/อาเซอร์ไบจาน",
-            "date": "Mar 17, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 9"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": 0,
+        "body": 0,
+        "legs": 0,
+        "total_per_minute": 0
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": 0,
+        "accuracy_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
         }
-    ]
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": 0,
+        "defense_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 26,
+      "team_th": "Team Mehdi Zatout",
+      "team_en": "Team Mehdi Zatout"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/black-panther/"
+    ],
+    "short_biography": "แบล็คแพนเธอร์ (Black Panther) นักชกชาวไทยวัย 26 ปี จากสังกัด Team Mehdi Zatout ส่วนสูง 168 เซนติเมตร เป็นหนึ่งในนักมวยไทยที่ทำผลงานได้อย่างโดดเด่นในรายการ ONE Championship โดยเฉพาะฟอร์มการชกในช่วงปี 2024-2025 ที่สามารถเอาชนะน็อกเอาต์คู่ต่อสู้ฝีมือดีอย่าง อาลี ซาลโดเอฟ และล่าสุดสามารถเอาชนะทีเคโอ โยฮัน เอสตูปินาน ได้ในศึก ONE Fight Night 37 เมื่อวันที่ 8 พฤศจิกายน 2025"
+  },
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ดิเอโก ปาเอซ",
+      "opponent_en": "",
+      "opponent_country": "สหรัฐอเมริกา/โคลอมเบีย",
+      "date": "Apr 11, 2026",
+      "rating": 5,
+      "event_en": "ONE Fight Night 42: เชส vs จาบีร์"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:29",
+      "opponent_th": "โยฮัน เอสตูปินาน",
+      "opponent_en": "Johan Estupinan",
+      "opponent_country": "โคลอมเบีย",
+      "date": "Nov 08, 2025",
+      "rating": 5,
+      "event_en": "ONE Fight Night 37: โรมัน vs ซาเมต"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "0:23",
+      "opponent_th": "อาลี ซาลโดเอฟ",
+      "opponent_en": "Ali Saldoev",
+      "opponent_country": "รัสเซีย",
+      "date": "Jul 05, 2024",
+      "rating": 5,
+      "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
+      "opponent_en": "Suriyanlek Por.Yenying",
+      "opponent_country": "ไทย",
+      "date": "Sep 29, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 35"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "โมฮัมหมัด ซาเดกี",
+      "opponent_en": "Mohammad Sadeghi",
+      "opponent_country": "อิหร่าน",
+      "date": "Jul 07, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 24"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:04",
+      "opponent_th": "ทาเกียร์ คาลิลอฟ",
+      "opponent_en": "Tagir Khalilov",
+      "opponent_country": "รัสเซีย/อาเซอร์ไบจาน",
+      "date": "Mar 17, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 9"
+    }
+  ]
 }

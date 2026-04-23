@@ -1,66 +1,120 @@
 {
-    "fighter_profile": {
-        "name_th": "ไอแซค โมฮัมเหม็ด",
-        "name_en": "",
-        "alias": "ไม่ระบุ",
-        "image_url": "ไอแซค-โมฮัมเหม็ด",
-        "grade": "N/A",
-        "fighting_style_th": "ยังไม่มีข้อมูล",
-        "fighting_style_en": "ยังไม่มีข้อมูล",
-        "stance": "ยังไม่มีข้อมูล",
-        "physical_stats": {
-            "weight_lbs": 120.4,
-            "weight_kg": 54.61,
-            "hydration": "N/A",
-            "division": "Strawweight",
-            "height_ft": "ยังไม่มีข้อมูล",
-            "height_cm": 169,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": "ไม่ระบุ",
-                "body": "ไม่ระบุ",
-                "legs": "ไม่ระบุ",
-                "total_per_minute": "ไม่ระบุ"
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": "ไม่ระบุ",
-                "accuracy_by_target_percentage": {
-                    "head": "ไม่ระบุ",
-                    "body": "ไม่ระบุ",
-                    "legs": "ไม่ระบุ"
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": "ไม่ระบุ",
-                "defense_by_target_percentage": {
-                    "head": "ไม่ระบุ",
-                    "body": "ไม่ระบุ",
-                    "legs": "ไม่ระบุ"
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ฝรั่งเศส/แอลจีเรีย",
-            "country_en": "",
-            "age": 20,
-            "team_th": "ยังไม่มีข้อมูล",
-            "team_en": "ยังไม่มีข้อมูล"
-        },
-        "target_url": "https://www.onefc.com/th/athletes/isaac-mohammed/",
-        "target_urls": [],
-        "short_biography": ""
+  "fighter_profile": {
+    "name_th": "ไอแซค โมฮัมเหม็ด",
+    "name_en": "",
+    "alias": "ไม่ระบุ",
+    "image_url": "ไอแซค-โมฮัมเหม็ด",
+    "grade": "N/A",
+    "fighting_style_th": "ยังไม่มีข้อมูล",
+    "fighting_style_en": "ยังไม่มีข้อมูล",
+    "stance": "ยังไม่มีข้อมูล",
+    "physical_stats": {
+      "weight_lbs": 120.4,
+      "weight_kg": 54.61,
+      "hydration": "N/A",
+      "division": "Strawweight",
+      "height_ft": "ยังไม่มีข้อมูล",
+      "height_cm": 169,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
     },
-    "fight_history": [],
-    "fight_history_one_championship": [],
-    "weigh_in_history": [
-        {
-            "event_name": "ONE Lumpinee150",
-            "weight_lbs": 120.4,
-            "division": "Strawweight"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ไม่ระบุ",
+        "body": "ไม่ระบุ",
+        "legs": "ไม่ระบุ",
+        "total_per_minute": "ไม่ระบุ"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ไม่ระบุ",
+        "accuracy_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
         }
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": "ไม่ระบุ",
+        "defense_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ฝรั่งเศส/แอลจีเรีย",
+      "country_en": "",
+      "age": 20,
+      "team_th": "ยังไม่มีข้อมูล",
+      "team_en": "ยังไม่มีข้อมูล"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/isaac-mohammed/"
     ],
-    "upcoming_fights": []
+    "short_biography": ""
+  },
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "0:45",
+      "opponent_th": "ฤทธิเดช ลูกเจ้าพ่อโรงต้ม",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 10, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "จูราอิ อิชิอิ",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Feb 13, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 142"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:54",
+      "opponent_th": "ฮารุยูกิ ทานิตสึ",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Jul 18, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 116"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:37",
+      "opponent_th": "อันโตนิโอ ปิอานา",
+      "opponent_en": "",
+      "opponent_country": "อิตาลี",
+      "date": "May 09, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 107"
+    }
+  ],
+  "fight_history_one_championship": [],
+  "weigh_in_history": [
+    {
+      "event_name": "ONE Lumpinee150",
+      "weight_lbs": 120.4,
+      "division": "Strawweight"
+    }
+  ],
+  "upcoming_fights": []
 }

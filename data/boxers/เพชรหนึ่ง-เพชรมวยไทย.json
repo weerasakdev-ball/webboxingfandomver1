@@ -1,97 +1,110 @@
 {
-    "fighter_profile": {
-        "name_th": "ไอแซค โมฮัมเหม็ด",
-        "name_en": "Isaac Mohammed",
-        "alias": "เพชรหนึ่ง เพชรมวยไทย",
-        "image_url": "ไอแซค-โมฮัมเหม็ด",
-        "grade": "",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "",
-        "physical_stats": {
-            "weight_lbs": 116.6,
-            "weight_kg": 52.9,
-            "division": "",
-            "height_ft": "5'6\"",
-            "height_cm": 169,
-            "reach_cm": "",
-            "leg_reach_cm": ""
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": 0,
-                "body": 0,
-                "legs": 0,
-                "total_per_minute": 0
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": 0,
-                "accuracy_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": 0,
-                "defense_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ฝรั่งเศส/แอลจีเรีย",
-            "country_en": "France/Algeria",
-            "age": 20,
-            "team_th": "เพชรมวยไทยยิม",
-            "team_en": "Petchmuaythai Gym"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/isaac-mohammed/"
-        ],
-        "short_biography": "ไอแซค โมฮัมเหม็ด (Isaac Mohammed) หรือที่รู้จักในชื่อ 'เพชรหนึ่ง เพชรมวยไทย' เป็นนักชกสัญชาติฝรั่งเศส/แอลจีเรีย วัย 20 ปี จากสังกัดเพชรมวยไทยยิม มีส่วนสูง 169 เซนติเมตร และน้ำหนัก 116.6 ปอนด์ (ประมาณ 52.9 กิโลกรัม) เป็นนักชกดาวรุ่งที่ทำผลงานได้อย่างโดดเด่นในรายการ ONE ลุมพินี โดยคว้าชัยชนะรวด 3 ไฟต์ล่าสุด รวมถึงการเอาชนะคะแนนไม่เป็นเอกฉันท์ต่อ จูราอิ อิชิอิ เมื่อวันที่ 13 กุมภาพันธ์ 2026"
+  "fighter_profile": {
+    "name_th": "ไอแซค โมฮัมเหม็ด",
+    "name_en": "Isaac Mohammed",
+    "alias": "เพชรหนึ่ง เพชรมวยไทย",
+    "image_url": "ไอแซค-โมฮัมเหม็ด",
+    "grade": "",
+    "fighting_style_th": "มวยไทย",
+    "fighting_style_en": "Muay Thai",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": 116.6,
+      "weight_kg": 52.9,
+      "division": "",
+      "height_ft": "5'6\"",
+      "height_cm": 169,
+      "reach_cm": "",
+      "leg_reach_cm": ""
     },
-    "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "จูราอิ อิชิอิ",
-            "opponent_en": "Jurai Ishii",
-            "opponent_country": "ญี่ปุ่น",
-            "date": "Feb 13, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 142"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:54",
-            "opponent_th": "ฮารุยูกิ ทานิตสึ",
-            "opponent_en": "Haruyuki Tanitsu",
-            "opponent_country": "ญี่ปุ่น",
-            "date": "Jul 18, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 116"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:37",
-            "opponent_th": "อันโตนิโอ ปิอานา",
-            "opponent_en": "Antonio Piana",
-            "opponent_country": "อิตาลี",
-            "date": "May 09, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 107"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": 0,
+        "body": 0,
+        "legs": 0,
+        "total_per_minute": 0
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": 0,
+        "accuracy_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
         }
-    ]
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": 0,
+        "defense_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ฝรั่งเศส/แอลจีเรีย",
+      "country_en": "France/Algeria",
+      "age": 20,
+      "team_th": "เพชรมวยไทยยิม",
+      "team_en": "Petchmuaythai Gym"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/isaac-mohammed/"
+    ],
+    "short_biography": "ไอแซค โมฮัมเหม็ด (Isaac Mohammed) หรือที่รู้จักในชื่อ 'เพชรหนึ่ง เพชรมวยไทย' เป็นนักชกสัญชาติฝรั่งเศส/แอลจีเรีย วัย 20 ปี จากสังกัดเพชรมวยไทยยิม มีส่วนสูง 169 เซนติเมตร และน้ำหนัก 116.6 ปอนด์ (ประมาณ 52.9 กิโลกรัม) เป็นนักชกดาวรุ่งที่ทำผลงานได้อย่างโดดเด่นในรายการ ONE ลุมพินี โดยคว้าชัยชนะรวด 3 ไฟต์ล่าสุด รวมถึงการเอาชนะคะแนนไม่เป็นเอกฉันท์ต่อ จูราอิ อิชิอิ เมื่อวันที่ 13 กุมภาพันธ์ 2026"
+  },
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "0:45",
+      "opponent_th": "ฤทธิเดช ลูกเจ้าพ่อโรงต้ม",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 10, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "จูราอิ อิชิอิ",
+      "opponent_en": "Jurai Ishii",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Feb 13, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 142"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:54",
+      "opponent_th": "ฮารุยูกิ ทานิตสึ",
+      "opponent_en": "Haruyuki Tanitsu",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Jul 18, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 116"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:37",
+      "opponent_th": "อันโตนิโอ ปิอานา",
+      "opponent_en": "Antonio Piana",
+      "opponent_country": "อิตาลี",
+      "date": "May 09, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 107"
+    }
+  ]
 }

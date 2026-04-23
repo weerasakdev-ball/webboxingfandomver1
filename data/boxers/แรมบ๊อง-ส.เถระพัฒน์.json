@@ -1,408 +1,421 @@
 {
-    "fighter_profile": {
-        "name_th": "แรมบ๊อง ส.เถระพัฒน์",
-        "name_en": "Rambong Sor Therapat",
-        "alias": "",
-        "image_url": "แรมบ๊อง-ส.เถระพัฒน์",
-        "grade": "",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "",
-        "physical_stats": {
-            "weight_lbs": 131.4,
-            "weight_kg": 59.6,
-            "division": "Flyweight",
-            "height_ft": "5'2\"",
-            "height_cm": 160,
-            "reach_cm": "",
-            "leg_reach_cm": "",
-            "hydration": "N/A"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": 0,
-                "body": 0,
-                "legs": 0,
-                "total_per_minute": 0
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": 0,
-                "accuracy_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": 0,
-                "defense_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 28,
-            "team_th": "Rambong Muay Thai",
-            "team_en": "Rambong Muay Thai"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/rambong-sor-therapat/"
-        ],
-        "short_biography": "แรมบ๊อง ส.เถระพัฒน์ (Rambong Sor Therapat) เป็นนักมวยชาวไทย วัย 28 ปี สังกัดค่าย Rambong Muay Thai มีส่วนสูง 160 เซนติเมตร ชกในพิกัดน้ำหนัก 127.4 ปอนด์ (ประมาณ 57.8 กิโลกรัม) ผลงานล่าสุดในรายการ ONE ลุมพินี 143 เมื่อวันที่ 20 กุมภาพันธ์ 2026 สามารถเอาชนะคะแนนไม่เป็นเอกฉันท์ต่อ สองแผ่นดิน ช.แก้ววิเศษ นักชกจากประเทศลาวไปได้ ถือเป็นนักสู้ที่มีสถิติการชกที่น่าสนใจในรายการ ONE ลุมพินี",
-        "target_url": ""
+  "fighter_profile": {
+    "name_th": "แรมบ๊อง ส.เถระพัฒน์",
+    "name_en": "Rambong Sor Therapat",
+    "alias": "",
+    "image_url": "แรมบ๊อง-ส.เถระพัฒน์",
+    "grade": "",
+    "fighting_style_th": "มวยไทย",
+    "fighting_style_en": "Muay Thai",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": 131.4,
+      "weight_kg": 59.6,
+      "division": "Flyweight",
+      "height_ft": "5'2\"",
+      "height_cm": 160,
+      "reach_cm": "",
+      "leg_reach_cm": "",
+      "hydration": "N/A"
     },
-    "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "สองแผ่นดิน ช.แก้ววิเศษ",
-            "opponent_en": "Songpandin Chor Kaewwiset",
-            "opponent_country": "ลาว",
-            "date": "Feb 20, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 143"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:46",
-            "opponent_th": "สตีเฟน เออร์วิน",
-            "opponent_en": "Stephen Irvine",
-            "opponent_country": "สกอตแลนด์",
-            "date": "Oct 10, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 128"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "2:39",
-            "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
-            "opponent_en": "Suriyanlek Por.Yenying",
-            "opponent_country": "ไทย",
-            "date": "Jul 04, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 115"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ปฏักเอก ซินบีมวยไทย",
-            "opponent_en": "Patak-ek Sinbi Muay Thai",
-            "opponent_country": "ไทย",
-            "date": "Dec 06, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 90"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "1:56",
-            "opponent_th": "โล่เงิน ส.สมหมาย",
-            "opponent_en": "Lo-ngern Sor.Sommai",
-            "opponent_country": "ไทย",
-            "date": "Aug 30, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 77"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เมืองลาว เกียรติธงยศ",
-            "opponent_en": "Mueanglao Kiattongyot",
-            "opponent_country": "ลาว",
-            "date": "Jun 07, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 66"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เพชรภูผา เอกปู่ยีนส์",
-            "opponent_en": "Petchphupa Aekpu-jeans",
-            "opponent_country": "ไทย",
-            "date": "Apr 19, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 59"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "จีตัว ยีปู",
-            "opponent_en": "Jitua Yipu",
-            "opponent_country": "จีน",
-            "date": "Dec 01, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 43"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:13",
-            "opponent_th": "พันศักดิ์ ว.วรรณทวี",
-            "opponent_en": "Pansak Wor.Wannatawee",
-            "opponent_country": "ไทย",
-            "date": "Oct 06, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 36"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "3:00",
-            "opponent_th": "โนเอลิสสัน ซิลวา",
-            "opponent_en": "Noelisson Silva",
-            "opponent_country": "บราซิล",
-            "date": "Aug 18, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 29"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "สิงห์โดมทอง นกยีนส์ลาดกระบัง",
-            "opponent_en": "Singdomthong Nokjeanladkrabang",
-            "opponent_country": "ไทย",
-            "date": "Jul 07, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 24"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "0:15",
-            "opponent_th": "เพชรสุวรรณ บูมเด็กเซียน",
-            "opponent_en": "Petchsuwan Boomdeksean",
-            "opponent_country": "ไทย",
-            "date": "Jun 09, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 20"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 3,
-            "time": "1:14",
-            "opponent_th": "เพชรลำพูน หมวดดับลำปาง",
-            "opponent_en": "Petchlampoon Moad-dublampang",
-            "opponent_country": "ไทย",
-            "date": "Mar 10, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 8"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": 0,
+        "body": 0,
+        "legs": 0,
+        "total_per_minute": 0
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": 0,
+        "accuracy_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
         }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "สองแผ่นดิน ช.แก้ววิเศษ",
-            "opponent_en": "Songpandin Chor Kaewwiset",
-            "opponent_country": "ลาว",
-            "date": "Feb 20, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 143"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:46",
-            "opponent_th": "สตีเฟน เออร์วิน",
-            "opponent_en": "Stephen Irvine",
-            "opponent_country": "สกอตแลนด์",
-            "date": "Oct 10, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 128"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "2:39",
-            "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
-            "opponent_en": "Suriyanlek Por.Yenying",
-            "opponent_country": "ไทย",
-            "date": "Jul 04, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 115"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ปฏักเอก ซินบีมวยไทย",
-            "opponent_en": "Patak-ek Sinbi Muay Thai",
-            "opponent_country": "ไทย",
-            "date": "Dec 06, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 90"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "1:56",
-            "opponent_th": "โล่เงิน ส.สมหมาย",
-            "opponent_en": "Lo-ngern Sor.Sommai",
-            "opponent_country": "ไทย",
-            "date": "Aug 30, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 77"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เมืองลาว เกียรติธงยศ",
-            "opponent_en": "Mueanglao Kiattongyot",
-            "opponent_country": "ลาว",
-            "date": "Jun 07, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 66"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เพชรภูผา เอกปู่ยีนส์",
-            "opponent_en": "Petchphupa Aekpu-jeans",
-            "opponent_country": "ไทย",
-            "date": "Apr 19, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 59"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "จีตัว ยีปู",
-            "opponent_en": "Jitua Yipu",
-            "opponent_country": "จีน",
-            "date": "Dec 01, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 43"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:13",
-            "opponent_th": "พันศักดิ์ ว.วรรณทวี",
-            "opponent_en": "Pansak Wor.Wannatawee",
-            "opponent_country": "ไทย",
-            "date": "Oct 06, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 36"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "3:00",
-            "opponent_th": "โนเอลิสสัน ซิลวา",
-            "opponent_en": "Noelisson Silva",
-            "opponent_country": "บราซิล",
-            "date": "Aug 18, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 29"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "สิงห์โดมทอง นกยีนส์ลาดกระบัง",
-            "opponent_en": "Singdomthong Nokjeanladkrabang",
-            "opponent_country": "ไทย",
-            "date": "Jul 07, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 24"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "0:15",
-            "opponent_th": "เพชรสุวรรณ บูมเด็กเซียน",
-            "opponent_en": "Petchsuwan Boomdeksean",
-            "opponent_country": "ไทย",
-            "date": "Jun 09, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 20"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 3,
-            "time": "1:14",
-            "opponent_th": "เพชรลำพูน หมวดดับลำปาง",
-            "opponent_en": "Petchlampoon Moad-dublampang",
-            "opponent_country": "ไทย",
-            "date": "Mar 10, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 8"
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": 0,
+        "defense_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
         }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 28,
+      "team_th": "Rambong Muay Thai",
+      "team_en": "Rambong Muay Thai"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/rambong-sor-therapat/"
     ],
-    "weigh_in_history": [
-        {
-            "event_name": "ONE Lumpinee150",
-            "weight_lbs": 131.4,
-            "division": "Flyweight"
-        }
-    ],
-    "upcoming_fights": []
+    "short_biography": "แรมบ๊อง ส.เถระพัฒน์ (Rambong Sor Therapat) เป็นนักมวยชาวไทย วัย 28 ปี สังกัดค่าย Rambong Muay Thai มีส่วนสูง 160 เซนติเมตร ชกในพิกัดน้ำหนัก 127.4 ปอนด์ (ประมาณ 57.8 กิโลกรัม) ผลงานล่าสุดในรายการ ONE ลุมพินี 143 เมื่อวันที่ 20 กุมภาพันธ์ 2026 สามารถเอาชนะคะแนนไม่เป็นเอกฉันท์ต่อ สองแผ่นดิน ช.แก้ววิเศษ นักชกจากประเทศลาวไปได้ ถือเป็นนักสู้ที่มีสถิติการชกที่น่าสนใจในรายการ ONE ลุมพินี",
+    "target_url": ""
+  },
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Majority Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เพชรหัวหิน จิตรเมืองนนท์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 10, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 150 & The Inner Circle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "สองแผ่นดิน ช.แก้ววิเศษ",
+      "opponent_en": "Songpandin Chor Kaewwiset",
+      "opponent_country": "ลาว",
+      "date": "Feb 20, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 143"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:46",
+      "opponent_th": "สตีเฟน เออร์วิน",
+      "opponent_en": "Stephen Irvine",
+      "opponent_country": "สกอตแลนด์",
+      "date": "Oct 10, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 128"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:39",
+      "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
+      "opponent_en": "Suriyanlek Por.Yenying",
+      "opponent_country": "ไทย",
+      "date": "Jul 04, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 115"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ปฏักเอก ซินบีมวยไทย",
+      "opponent_en": "Patak-ek Sinbi Muay Thai",
+      "opponent_country": "ไทย",
+      "date": "Dec 06, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 90"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:56",
+      "opponent_th": "โล่เงิน ส.สมหมาย",
+      "opponent_en": "Lo-ngern Sor.Sommai",
+      "opponent_country": "ไทย",
+      "date": "Aug 30, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 77"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เมืองลาว เกียรติธงยศ",
+      "opponent_en": "Mueanglao Kiattongyot",
+      "opponent_country": "ลาว",
+      "date": "Jun 07, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 66"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เพชรภูผา เอกปู่ยีนส์",
+      "opponent_en": "Petchphupa Aekpu-jeans",
+      "opponent_country": "ไทย",
+      "date": "Apr 19, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 59"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "จีตัว ยีปู",
+      "opponent_en": "Jitua Yipu",
+      "opponent_country": "จีน",
+      "date": "Dec 01, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 43"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:13",
+      "opponent_th": "พันศักดิ์ ว.วรรณทวี",
+      "opponent_en": "Pansak Wor.Wannatawee",
+      "opponent_country": "ไทย",
+      "date": "Oct 06, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 36"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "3:00",
+      "opponent_th": "โนเอลิสสัน ซิลวา",
+      "opponent_en": "Noelisson Silva",
+      "opponent_country": "บราซิล",
+      "date": "Aug 18, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 29"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "สิงห์โดมทอง นกยีนส์ลาดกระบัง",
+      "opponent_en": "Singdomthong Nokjeanladkrabang",
+      "opponent_country": "ไทย",
+      "date": "Jul 07, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 24"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "0:15",
+      "opponent_th": "เพชรสุวรรณ บูมเด็กเซียน",
+      "opponent_en": "Petchsuwan Boomdeksean",
+      "opponent_country": "ไทย",
+      "date": "Jun 09, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 20"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "1:14",
+      "opponent_th": "เพชรลำพูน หมวดดับลำปาง",
+      "opponent_en": "Petchlampoon Moad-dublampang",
+      "opponent_country": "ไทย",
+      "date": "Mar 10, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 8"
+    }
+  ],
+  "fight_history_one_championship": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "สองแผ่นดิน ช.แก้ววิเศษ",
+      "opponent_en": "Songpandin Chor Kaewwiset",
+      "opponent_country": "ลาว",
+      "date": "Feb 20, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 143"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:46",
+      "opponent_th": "สตีเฟน เออร์วิน",
+      "opponent_en": "Stephen Irvine",
+      "opponent_country": "สกอตแลนด์",
+      "date": "Oct 10, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 128"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:39",
+      "opponent_th": "สุริยันต์เล็ก พ.เย็นยิ่ง",
+      "opponent_en": "Suriyanlek Por.Yenying",
+      "opponent_country": "ไทย",
+      "date": "Jul 04, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 115"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ปฏักเอก ซินบีมวยไทย",
+      "opponent_en": "Patak-ek Sinbi Muay Thai",
+      "opponent_country": "ไทย",
+      "date": "Dec 06, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 90"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:56",
+      "opponent_th": "โล่เงิน ส.สมหมาย",
+      "opponent_en": "Lo-ngern Sor.Sommai",
+      "opponent_country": "ไทย",
+      "date": "Aug 30, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 77"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เมืองลาว เกียรติธงยศ",
+      "opponent_en": "Mueanglao Kiattongyot",
+      "opponent_country": "ลาว",
+      "date": "Jun 07, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 66"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เพชรภูผา เอกปู่ยีนส์",
+      "opponent_en": "Petchphupa Aekpu-jeans",
+      "opponent_country": "ไทย",
+      "date": "Apr 19, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 59"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "จีตัว ยีปู",
+      "opponent_en": "Jitua Yipu",
+      "opponent_country": "จีน",
+      "date": "Dec 01, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 43"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:13",
+      "opponent_th": "พันศักดิ์ ว.วรรณทวี",
+      "opponent_en": "Pansak Wor.Wannatawee",
+      "opponent_country": "ไทย",
+      "date": "Oct 06, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 36"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "3:00",
+      "opponent_th": "โนเอลิสสัน ซิลวา",
+      "opponent_en": "Noelisson Silva",
+      "opponent_country": "บราซิล",
+      "date": "Aug 18, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 29"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "สิงห์โดมทอง นกยีนส์ลาดกระบัง",
+      "opponent_en": "Singdomthong Nokjeanladkrabang",
+      "opponent_country": "ไทย",
+      "date": "Jul 07, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 24"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "0:15",
+      "opponent_th": "เพชรสุวรรณ บูมเด็กเซียน",
+      "opponent_en": "Petchsuwan Boomdeksean",
+      "opponent_country": "ไทย",
+      "date": "Jun 09, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 20"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "1:14",
+      "opponent_th": "เพชรลำพูน หมวดดับลำปาง",
+      "opponent_en": "Petchlampoon Moad-dublampang",
+      "opponent_country": "ไทย",
+      "date": "Mar 10, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 8"
+    }
+  ],
+  "weigh_in_history": [
+    {
+      "event_name": "ONE Lumpinee150",
+      "weight_lbs": 131.4,
+      "division": "Flyweight"
+    }
+  ],
+  "upcoming_fights": []
 }

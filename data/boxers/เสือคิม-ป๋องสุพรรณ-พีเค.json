@@ -1,175 +1,188 @@
 {
-    "fighter_profile": {
-        "name_th": "เสือคิม ป๋องสุพรรณ พีเค.",
-        "name_en": "Suakim Sor Jor Tongprajin",
-        "alias": "",
-        "image_url": "เสือคิม-ป๋องสุพรรณ-พีเค.",
-        "grade": "",
-        "fighting_style_th": "มวยไทย",
-        "fighting_style_en": "Muay Thai",
-        "stance": "",
-        "physical_stats": {
-            "weight_lbs": 139.3,
-            "weight_kg": 63.2,
-            "division": "",
-            "height_ft": "5'8\"",
-            "height_cm": 175,
-            "reach_cm": "",
-            "leg_reach_cm": ""
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": 0,
-                "body": 0,
-                "legs": 0,
-                "total_per_minute": 0
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": 0,
-                "accuracy_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": 0,
-                "defense_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 30,
-            "team_th": "Sor Jor Thongprajin",
-            "team_en": "Sor Jor Thongprajin"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/suakim-sor-jor-tongprajin/"
-        ],
-        "short_biography": "เสือคิม ป๋องสุพรรณ พีเค. (Suakim Sor Jor Tongprajin) นักชกชาวไทยวัย 30 ปี จากค่าย Sor Jor Thongprajin มีส่วนสูง 175 เซนติเมตร น้ำหนัก 139.3 ปอนด์ (ประมาณ 63.2 กิโลกรัม) เป็นนักมวยไทยระดับแถวหน้าที่มีฟอร์มการชกที่ดุดัน โดยผลงานล่าสุดสามารถเอาชนะทีเคโอ เจก พีค็อก ในศึก ONE 173 เมื่อวันที่ 16 พฤศจิกายน 2025 ถือเป็นการคว้าชัยชนะติดต่อกันเป็นไฟต์ที่ 6 ในรายการ ONE"
+  "fighter_profile": {
+    "name_th": "เสือคิม ป๋องสุพรรณ พีเค.",
+    "name_en": "Suakim Sor Jor Tongprajin",
+    "alias": "",
+    "image_url": "เสือคิม-ป๋องสุพรรณ-พีเค.",
+    "grade": "",
+    "fighting_style_th": "มวยไทย",
+    "fighting_style_en": "Muay Thai",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": 139.3,
+      "weight_kg": 63.2,
+      "division": "",
+      "height_ft": "5'8\"",
+      "height_cm": 175,
+      "reach_cm": "",
+      "leg_reach_cm": ""
     },
-    "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 3,
-            "time": "0:26",
-            "opponent_th": "เจก พีค็อก",
-            "opponent_en": "Jake Peacock",
-            "opponent_country": "สหราชอาณาจักร/แคนาดา",
-            "date": "Nov 16, 2025",
-            "rating": 5,
-            "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ซาเฟอร์ ซายิก",
-            "opponent_en": "Zafer Sayik",
-            "opponent_country": "ตุรกี",
-            "date": "Aug 02, 2025",
-            "rating": 5,
-            "event_en": "ONE Fight Night 34: รีเกียน vs จอร์จ"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "0:30",
-            "opponent_th": "คมอาวุธ เอฟเอ.กรุ๊ป",
-            "opponent_en": "Komawut FA Group",
-            "opponent_country": "ไทย",
-            "date": "Mar 14, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 100"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "2:57",
-            "opponent_th": "พันฤทธิ์ ลูกเจ้าแม่สายวารี",
-            "opponent_en": "Panrit Lookjaomaesaivaree",
-            "opponent_country": "ไทย",
-            "date": "Dec 20, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 92"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Majority Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "โอทิส แว็กฮอร์น",
-            "opponent_en": "Otis Waghorn",
-            "opponent_country": "สหราชอาณาจักร",
-            "date": "Sep 27, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:22",
-            "opponent_th": "เดอนิส เดอมีร์คาปู",
-            "opponent_en": "Deniz Demirkapu",
-            "opponent_country": "ตุรกี/โมร็อกโก",
-            "date": "Apr 26, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 60"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 3,
-            "time": "0:22",
-            "opponent_th": "อเล็กเซย์ บาลีโก",
-            "opponent_en": "Alexey Balyko",
-            "opponent_country": "รัสเซีย",
-            "date": "Jan 12, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 47"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:15",
-            "opponent_th": "ซามาน อาสซูริ",
-            "opponent_en": "Saman Ashouri",
-            "opponent_country": "อิหร่าน",
-            "date": "Sep 22, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 34: รถถัง vs ซุปเปอร์เล็ก"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "0:58",
-            "opponent_th": "คิริลล์ โคมูทอฟ",
-            "opponent_en": "Kirill Khomutov",
-            "opponent_country": "รัสเซีย",
-            "date": "Jul 21, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 26"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": 0,
+        "body": 0,
+        "legs": 0,
+        "total_per_minute": 0
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": 0,
+        "accuracy_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
         }
-    ]
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": 0,
+        "defense_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 30,
+      "team_th": "Sor Jor Thongprajin",
+      "team_en": "Sor Jor Thongprajin"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/suakim-sor-jor-tongprajin/"
+    ],
+    "short_biography": "เสือคิม ป๋องสุพรรณ พีเค. (Suakim Sor Jor Tongprajin) นักชกชาวไทยวัย 30 ปี จากค่าย Sor Jor Thongprajin มีส่วนสูง 175 เซนติเมตร น้ำหนัก 139.3 ปอนด์ (ประมาณ 63.2 กิโลกรัม) เป็นนักมวยไทยระดับแถวหน้าที่มีฟอร์มการชกที่ดุดัน โดยผลงานล่าสุดสามารถเอาชนะทีเคโอ เจก พีค็อก ในศึก ONE 173 เมื่อวันที่ 16 พฤศจิกายน 2025 ถือเป็นการคว้าชัยชนะติดต่อกันเป็นไฟต์ที่ 6 ในรายการ ONE"
+  },
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "วลาดิเมียร์ คุซมิน",
+      "opponent_en": "",
+      "opponent_country": "รัสเซีย",
+      "date": "Apr 11, 2026",
+      "rating": 5,
+      "event_en": "ONE Fight Night 42: เชส vs จาบีร์"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "0:26",
+      "opponent_th": "เจก พีค็อก",
+      "opponent_en": "Jake Peacock",
+      "opponent_country": "สหราชอาณาจักร/แคนาดา",
+      "date": "Nov 16, 2025",
+      "rating": 5,
+      "event_en": "ONE 173: ซุปเปอร์บอน vs มาซาอากิ"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ซาเฟอร์ ซายิก",
+      "opponent_en": "Zafer Sayik",
+      "opponent_country": "ตุรกี",
+      "date": "Aug 02, 2025",
+      "rating": 5,
+      "event_en": "ONE Fight Night 34: รีเกียน vs จอร์จ"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "0:30",
+      "opponent_th": "คมอาวุธ เอฟเอ.กรุ๊ป",
+      "opponent_en": "Komawut FA Group",
+      "opponent_country": "ไทย",
+      "date": "Mar 14, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 100"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:57",
+      "opponent_th": "พันฤทธิ์ ลูกเจ้าแม่สายวารี",
+      "opponent_en": "Panrit Lookjaomaesaivaree",
+      "opponent_country": "ไทย",
+      "date": "Dec 20, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 92"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Majority Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "โอทิส แว็กฮอร์น",
+      "opponent_en": "Otis Waghorn",
+      "opponent_country": "สหราชอาณาจักร",
+      "date": "Sep 27, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 81: ซุปเปอร์บอน vs โจ"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:22",
+      "opponent_th": "เดอนิส เดอมีร์คาปู",
+      "opponent_en": "Deniz Demirkapu",
+      "opponent_country": "ตุรกี/โมร็อกโก",
+      "date": "Apr 26, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 60"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "0:22",
+      "opponent_th": "อเล็กเซย์ บาลีโก",
+      "opponent_en": "Alexey Balyko",
+      "opponent_country": "รัสเซีย",
+      "date": "Jan 12, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 47"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:15",
+      "opponent_th": "ซามาน อาสซูริ",
+      "opponent_en": "Saman Ashouri",
+      "opponent_country": "อิหร่าน",
+      "date": "Sep 22, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 34: รถถัง vs ซุปเปอร์เล็ก"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "0:58",
+      "opponent_th": "คิริลล์ โคมูทอฟ",
+      "opponent_en": "Kirill Khomutov",
+      "opponent_country": "รัสเซีย",
+      "date": "Jul 21, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 26"
+    }
+  ]
 }

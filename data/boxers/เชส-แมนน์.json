@@ -1,71 +1,84 @@
 {
-    "fighter_profile": {
-        "name_th": "เชส แมนน์",
-        "name_en": "Chase Mann",
-        "alias": "Mannimal",
-        "image_url": "เชส-แมนน์",
-        "grade": "",
-        "fighting_style_th": "การต่อสู้แบบผสมผสาน",
-        "fighting_style_en": "Mixed Martial Arts",
-        "stance": "",
-        "physical_stats": {
-            "weight_lbs": 0,
-            "weight_kg": 0,
-            "division": "",
-            "height_ft": "5'8\"",
-            "height_cm": 175,
-            "reach_cm": "",
-            "leg_reach_cm": ""
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": 0,
-                "body": 0,
-                "legs": 0,
-                "total_per_minute": 0
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": 0,
-                "accuracy_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": 0,
-                "defense_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "สหรัฐอเมริกา",
-            "country_en": "United States",
-            "age": 29,
-            "team_th": "The LC",
-            "team_en": "The LC"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/chase-mann/"
-        ],
-        "short_biography": "เชส แมนน์ (Chase Mann) ฉายา 'Mannimal' นักสู้ชาวสหรัฐอเมริกา วัย 29 ปี จากทีม The LC มีส่วนสูง 175 เซนติเมตร เป็นนักสู้ในกติกาการต่อสู้แบบผสมผสาน (MMA) ที่มีทักษะโดดเด่น ผลงานล่าสุดสามารถเอาชนะทีเคโอ อีสิ ฟิติเคฟู ได้ในยกแรกของศึก ONE Fight Night 39 เมื่อวันที่ 24 มกราคม 2026"
+  "fighter_profile": {
+    "name_th": "เชส แมนน์",
+    "name_en": "Chase Mann",
+    "alias": "Mannimal",
+    "image_url": "เชส-แมนน์",
+    "grade": "",
+    "fighting_style_th": "การต่อสู้แบบผสมผสาน",
+    "fighting_style_en": "Mixed Martial Arts",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": 0,
+      "weight_kg": 0,
+      "division": "",
+      "height_ft": "5'8\"",
+      "height_cm": 175,
+      "reach_cm": "",
+      "leg_reach_cm": ""
     },
-    "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Mixed Martial Arts",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "5:00",
-            "opponent_th": "อีสิ ฟิติเคฟู",
-            "opponent_en": "Isi Fitikefu",
-            "opponent_country": "ตองกา/ออสเตรเลีย",
-            "date": "Jan 24, 2026",
-            "rating": 5,
-            "event_en": "ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": 0,
+        "body": 0,
+        "legs": 0,
+        "total_per_minute": 0
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": 0,
+        "accuracy_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
         }
-    ]
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": 0,
+        "defense_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "สหรัฐอเมริกา",
+      "country_en": "United States",
+      "age": 29,
+      "team_th": "The LC",
+      "team_en": "The LC"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/chase-mann/"
+    ],
+    "short_biography": "เชส แมนน์ (Chase Mann) ฉายา 'Mannimal' นักสู้ชาวสหรัฐอเมริกา วัย 29 ปี จากทีม The LC มีส่วนสูง 175 เซนติเมตร เป็นนักสู้ในกติกาการต่อสู้แบบผสมผสาน (MMA) ที่มีทักษะโดดเด่น ผลงานล่าสุดสามารถเอาชนะทีเคโอ อีสิ ฟิติเคฟู ได้ในยกแรกของศึก ONE Fight Night 39 เมื่อวันที่ 24 มกราคม 2026"
+  },
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:31",
+      "opponent_th": "จาบีร์ จาเบรลอฟ",
+      "opponent_en": "",
+      "opponent_country": "ตุรกี",
+      "date": "Apr 11, 2026",
+      "rating": 5,
+      "event_en": "ONE Fight Night 42: เชส vs จาบีร์"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Mixed Martial Arts",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "5:00",
+      "opponent_th": "อีสิ ฟิติเคฟู",
+      "opponent_en": "Isi Fitikefu",
+      "opponent_country": "ตองกา/ออสเตรเลีย",
+      "date": "Jan 24, 2026",
+      "rating": 5,
+      "event_en": "ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา"
+    }
+  ]
 }

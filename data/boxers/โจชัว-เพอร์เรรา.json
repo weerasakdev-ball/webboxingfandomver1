@@ -1,71 +1,84 @@
 {
-    "fighter_profile": {
-        "name_th": "โจชัว เพอร์เรรา",
-        "name_en": "Joshua Perreira",
-        "alias": "Flyin Hawaiian",
-        "image_url": "โจชัว-เพอร์เรรา",
-        "grade": "",
-        "fighting_style_th": "การต่อสู้แบบผสมผสาน",
-        "fighting_style_en": "Mixed Martial Arts",
-        "stance": "",
-        "physical_stats": {
-            "weight_lbs": 0,
-            "weight_kg": 0,
-            "division": "",
-            "height_ft": "5'6\"",
-            "height_cm": 170,
-            "reach_cm": "",
-            "leg_reach_cm": ""
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": 0,
-                "body": 0,
-                "legs": 0,
-                "total_per_minute": 0
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": 0,
-                "accuracy_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": 0,
-                "defense_by_target_percentage": {
-                    "head": 0,
-                    "body": 0,
-                    "legs": 0
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "สหรัฐอเมริกา",
-            "country_en": "United States",
-            "age": 29,
-            "team_th": "Immortal Martial Arts",
-            "team_en": "Immortal Martial Arts"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/joshua-perreira/"
-        ],
-        "short_biography": "โจชัว เพอร์เรรา (Joshua Perreira) ฉายา 'Flyin Hawaiian' นักสู้ชาวสหรัฐอเมริกา วัย 29 ปี จากทีม Immortal Martial Arts มีส่วนสูง 170 เซนติเมตร เป็นนักสู้ในกติกาการต่อสู้แบบผสมผสาน (MMA) ผลงานล่าสุดในรายการ ONE Fight Night 29 เมื่อวันที่ 8 มีนาคม 2025 ในการพบกับ บันหม่า ตั่วจี๋ การแข่งขันจบลงโดยไม่มีผลการแข่งขัน (No Contest)"
+  "fighter_profile": {
+    "name_th": "โจชัว เพอร์เรรา",
+    "name_en": "Joshua Perreira",
+    "alias": "Flyin Hawaiian",
+    "image_url": "โจชัว-เพอร์เรรา",
+    "grade": "",
+    "fighting_style_th": "การต่อสู้แบบผสมผสาน",
+    "fighting_style_en": "Mixed Martial Arts",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": 0,
+      "weight_kg": 0,
+      "division": "",
+      "height_ft": "5'6\"",
+      "height_cm": 170,
+      "reach_cm": "",
+      "leg_reach_cm": ""
     },
-    "fight_history": [
-        {
-            "result": "No Contest",
-            "discipline_en": "Mixed Martial Arts",
-            "method_en": "No Contest",
-            "round": 0,
-            "time": "N/A",
-            "opponent_th": "บันหม่า ตั่วจี๋",
-            "opponent_en": "Banma Duoji",
-            "opponent_country": "จีน",
-            "date": "Mar 08, 2025",
-            "rating": 5,
-            "event_en": "ONE Fight Night 29: อัลลิเซีย vs มารี"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": 0,
+        "body": 0,
+        "legs": 0,
+        "total_per_minute": 0
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": 0,
+        "accuracy_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
         }
-    ]
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": 0,
+        "defense_by_target_percentage": {
+          "head": 0,
+          "body": 0,
+          "legs": 0
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "สหรัฐอเมริกา",
+      "country_en": "United States",
+      "age": 29,
+      "team_th": "Immortal Martial Arts",
+      "team_en": "Immortal Martial Arts"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/joshua-perreira/"
+    ],
+    "short_biography": "โจชัว เพอร์เรรา (Joshua Perreira) ฉายา 'Flyin Hawaiian' นักสู้ชาวสหรัฐอเมริกา วัย 29 ปี จากทีม Immortal Martial Arts มีส่วนสูง 170 เซนติเมตร เป็นนักสู้ในกติกาการต่อสู้แบบผสมผสาน (MMA) ผลงานล่าสุดในรายการ ONE Fight Night 29 เมื่อวันที่ 8 มีนาคม 2025 ในการพบกับ บันหม่า ตั่วจี๋ การแข่งขันจบลงโดยไม่มีผลการแข่งขัน (No Contest)"
+  },
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "0:38",
+      "opponent_th": "จิลเบิร์ต นาคาทานี",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น/สหรัฐอเมริกา",
+      "date": "Apr 11, 2026",
+      "rating": 5,
+      "event_en": "ONE Fight Night 42: เชส vs จาบีร์"
+    },
+    {
+      "result": "No Contest",
+      "discipline_en": "Mixed Martial Arts",
+      "method_en": "No Contest",
+      "round": 0,
+      "time": "N/A",
+      "opponent_th": "บันหม่า ตั่วจี๋",
+      "opponent_en": "Banma Duoji",
+      "opponent_country": "จีน",
+      "date": "Mar 08, 2025",
+      "rating": 5,
+      "event_en": "ONE Fight Night 29: อัลลิเซีย vs มารี"
+    }
+  ]
 }
