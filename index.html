@@ -324,68 +324,317 @@
             box-shadow: 0 0 0 3px rgba(200,16,46,0.08);
         }
 
-        /* Ranking table */
-        .ranking-table-wrapper { overflow-x: auto; }
-        .ranking-table { width: 100%; border-collapse: collapse; min-width: 680px; }
+        /* ==========================================================
+           UFC-STYLE RANKING SECTION
+        ========================================================== */
 
-        .ranking-table thead tr { background: var(--gray-50); }
-        .ranking-table th {
-            color: var(--text-muted);
-            padding: 10px 18px;
-            text-align: center;
-            font-size: 11px; font-weight: 600;
-            text-transform: uppercase; letter-spacing: 0.06em;
+        /* Section title bar */
+        .ranking-section-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 14px;
+            border-bottom: 3px solid var(--gray-900);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .ranking-section-title h2 {
+            font-size: 20px;
+            font-weight: 800;
+            color: var(--gray-900);
+            letter-spacing: -0.02em;
+            text-transform: uppercase;
+        }
+        .ranking-section-title h2 span {
+            color: var(--red);
+        }
+        .ranking-section-title .badge-live { margin-left: 12px; }
+
+        /* Division tab strip */
+        .division-tabs {
+            display: flex;
+            gap: 0;
+            overflow-x: auto;
             border-bottom: 1px solid var(--border);
+            background: var(--white);
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
         }
-        .ranking-table th:nth-child(2) { text-align: left; }
+        .division-tabs::-webkit-scrollbar { display: none; }
 
-        .ranking-table td {
-            padding: 13px 18px;
+        .div-tab {
+            padding: 12px 18px;
+            font-size: 12.5px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            white-space: nowrap;
+            transition: color 0.15s, border-color 0.15s;
+            background: none;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            flex-shrink: 0;
+        }
+        .div-tab:hover { color: var(--gray-900); }
+        .div-tab.active {
+            color: var(--gray-900);
+            border-bottom-color: var(--red);
+            font-weight: 700;
+        }
+
+        /* Champion Hero Banner — UFC style */
+        .champ-hero {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            background: var(--gray-900);
+            color: var(--white);
+            overflow: hidden;
+            position: relative;
+            min-height: 130px;
+        }
+        .champ-hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(200,16,46,0.18) 0%, transparent 60%);
+            pointer-events: none;
+        }
+        .champ-hero-photo-wrap {
+            position: relative;
+            width: 120px;
+            flex-shrink: 0;
+            align-self: stretch;
+            overflow: hidden;
+        }
+        .champ-hero-photo {
+            width: 120px;
+            height: 100%;
+            min-height: 130px;
+            object-fit: cover;
+            object-position: top center;
+            display: block;
+            filter: grayscale(15%);
+        }
+        .champ-hero-body {
+            flex: 1;
+            padding: 18px 22px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 6px;
+            position: relative;
+            z-index: 1;
+        }
+        .champ-hero-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.5);
+        }
+        .champ-hero-label::before {
+            content: '';
+            display: block;
+            width: 14px;
+            height: 2px;
+            background: var(--red);
+        }
+        .champ-hero-division {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--red);
+            margin-bottom: 2px;
+        }
+        .champ-hero-name {
+            font-size: 22px;
+            font-weight: 800;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--white);
+        }
+        .champ-hero-belt {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background: rgba(200,16,46,0.25);
+            border: 1px solid rgba(200,16,46,0.5);
+            color: #fca5a5;
+            font-size: 10.5px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            padding: 3px 10px;
+            border-radius: 3px;
+            width: fit-content;
+        }
+        .champ-hero-record {
+            font-size: 12px;
+            color: rgba(255,255,255,0.55);
+            margin-top: 2px;
+        }
+        .champ-hero-record span { color: rgba(255,255,255,0.85); font-weight: 600; }
+
+        /* Ranking list — UFC clean list style */
+        .ranking-list {
+            list-style: none;
+            padding: 0;
+        }
+        .ranking-list li {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 11px 22px;
             border-bottom: 1px solid var(--gray-100);
-            text-align: center;
-            vertical-align: middle;
+            cursor: pointer;
+            transition: background 0.12s;
+            text-decoration: none;
+            color: inherit;
         }
-        .ranking-table tr:last-child td { border-bottom: none; }
-        .ranking-table tbody tr { cursor: pointer; transition: background 0.12s; }
-        .ranking-table tbody tr:hover td { background: var(--gray-50); }
+        .ranking-list li:last-child { border-bottom: none; }
+        .ranking-list li:hover { background: var(--gray-50); }
 
-        .fighter-cell { display: flex; align-items: center; gap: 12px; text-align: left; }
-        .fighter-img {
-            width: 44px; height: 44px; border-radius: 50%;
-            object-fit: cover; border: 2px solid var(--border);
-            background: var(--gray-100); flex-shrink: 0;
+        .rl-rank {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text-muted);
+            width: 28px;
+            text-align: center;
+            flex-shrink: 0;
+            font-variant-numeric: tabular-nums;
+        }
+        .rl-rank.r1 { color: #92400e; }
+
+        .rl-photo {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: top;
+            border: 2px solid var(--border);
+            background: var(--gray-100);
+            flex-shrink: 0;
             transition: border-color 0.15s;
         }
-        tr:hover .fighter-img { border-color: var(--red); }
-        .fighter-name { font-weight: 600; font-size: 14.5px; color: var(--gray-900); display: block; }
-        .fighter-alias { font-size: 12px; color: var(--text-secondary); display: block; margin-top: 1px; }
+        .ranking-list li:hover .rl-photo { border-color: var(--red); }
 
-        .rank-number {
-            width: 32px; height: 32px; line-height: 32px;
-            border-radius: 50%; font-size: 13px; font-weight: 700;
-            display: inline-block; text-align: center;
-            background: var(--gray-100); color: var(--gray-500);
+        .rl-info { flex: 1; min-width: 0; }
+        .rl-name {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--gray-900);
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
-        .rank-1 { background: #fef3c7; color: #92400e; font-weight: 800; }
-        .rank-2 { background: var(--gray-100); color: var(--gray-600, #4b5563); }
-        .rank-3 { background: #fef3c7; color: #78350f; opacity: 0.75; }
+        .rl-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 3px;
+            flex-wrap: wrap;
+        }
+        .rl-country {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+        .rl-team {
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+        .rl-team::before { content: '·'; margin-right: 8px; }
 
-        .score-text { font-size: 18px; font-weight: 700; color: var(--red); }
+        .rl-right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 4px;
+            flex-shrink: 0;
+        }
+        .rl-score {
+            font-size: 20px;
+            font-weight: 800;
+            color: var(--red);
+            line-height: 1;
+        }
+        .rl-form {
+            display: flex;
+            gap: 3px;
+        }
 
         .form-badge {
             display: inline-flex; align-items: center; justify-content: center;
-            width: 22px; height: 22px; border-radius: 5px;
-            font-size: 11px; font-weight: 700; margin: 0 2px;
+            width: 20px; height: 20px; border-radius: 4px;
+            font-size: 10px; font-weight: 800;
         }
         .badge-w { background: #dcfce7; color: #166534; }
         .badge-l { background: #fee2e2; color: #991b1b; }
         .badge-d { background: #fef3c7; color: #92400e; }
 
-        .info-line { font-size: 12.5px; color: var(--text-secondary); text-align: left; line-height: 1.6; }
-        .info-line strong { color: var(--gray-700); font-weight: 600; }
+        /* Movement indicator like UFC (↑ ↓ NR) */
+        .rl-move {
+            font-size: 11px;
+            font-weight: 700;
+            padding: 1px 6px;
+            border-radius: 3px;
+        }
+        .rl-move.up   { color: #15803d; background: #dcfce7; }
+        .rl-move.down { color: #991b1b; background: #fee2e2; }
+        .rl-move.nr   { color: var(--text-muted); background: var(--gray-100); }
+
+        /* Filter bar compact */
+        .filter-bar {
+            padding: 12px 20px;
+            border-bottom: 1px solid var(--border);
+            background: var(--gray-50);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: flex-end;
+        }
+
+        .filter-group { display: flex; flex-direction: column; gap: 4px; }
+        .filter-group label {
+            font-size: 10.5px; font-weight: 700; color: var(--text-muted);
+            text-transform: uppercase; letter-spacing: 0.07em;
+        }
+        .filter-group select,
+        .filter-group input {
+            padding: 6px 26px 6px 10px;
+            border-radius: var(--r-sm);
+            border: 1px solid var(--border);
+            background: var(--white);
+            color: var(--gray-900);
+            font-size: 12.5px;
+            outline: none;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+            transition: border-color 0.15s, box-shadow 0.15s;
+            appearance: none; -webkit-appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%239ca3af' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 9px center;
+            box-shadow: var(--shadow-xs);
+        }
+        .filter-group input { padding-right: 10px; background-image: none; min-width: 130px; }
+        .filter-group select:focus, .filter-group input:focus {
+            border-color: var(--red);
+            box-shadow: 0 0 0 3px rgba(200,16,46,0.08);
+        }
 
         /* Load more */
-        .load-more-wrap { text-align: center; padding: 20px; border-top: 1px solid var(--border); }
+        .load-more-wrap { text-align: center; padding: 18px; border-top: 1px solid var(--border); }
         #loadMoreBtn {
             background: var(--white); color: var(--gray-700);
             padding: 9px 28px; border: 1px solid var(--border);
@@ -395,6 +644,18 @@
             box-shadow: var(--shadow-xs);
         }
         #loadMoreBtn:hover { background: var(--gray-900); color: #fff; border-color: var(--gray-900); }
+
+        /* Shimmer loading */
+        @keyframes shimmer {
+            0% { background-position: -600px 0; }
+            100% { background-position: 600px 0; }
+        }
+        .skeleton {
+            background: linear-gradient(90deg, var(--gray-100) 25%, var(--gray-50) 50%, var(--gray-100) 75%);
+            background-size: 600px 100%;
+            animation: shimmer 1.4s infinite;
+            border-radius: 4px;
+        }
 
         /* ==========================================================
            SIDEBAR — stacked widget cards
@@ -671,9 +932,42 @@
 
             <!-- ── MAIN COLUMN ── -->
             <div>
+
+                <!-- Section Title — UFC style -->
+                <div class="ranking-section-title">
+                    <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+                        <h2>จัดอันดับนักชก <span>โดย BoxingFandom</span></h2>
+                        <span class="badge-live">LIVE UPDATE</span>
+                    </div>
+                    <span style="font-size:12px;color:var(--text-muted);" id="ranking-updated-date"></span>
+                </div>
+
                 <div class="card">
-                    <div class="card-header">
-                        <span class="card-title">🌍 จัดอันดับนักชก ONE Championship</span>
+
+                    <!-- Division Tabs -->
+                    <div class="division-tabs" id="division-tabs">
+                        <button class="div-tab" data-div="all">ทั้งหมด</button>
+                        <button class="div-tab active" data-div="flyweight">Flyweight</button>
+                        <button class="div-tab" data-div="bantamweight">Bantamweight</button>
+                        <button class="div-tab" data-div="featherweight">Featherweight</button>
+                        <button class="div-tab" data-div="lightweight">Lightweight</button>
+                        <button class="div-tab" data-div="welterweight">Welterweight</button>
+                        <button class="div-tab" data-div="middleweight">Middleweight</button>
+                        <button class="div-tab" data-div="strawweight">Strawweight</button>
+                    </div>
+
+                    <!-- Champion Hero Banner -->
+                    <div class="champ-hero" id="champ-hero-banner">
+                        <div class="champ-hero-photo-wrap">
+                            <img id="champ-hero-img" src="https://placehold.co/120x130/111827/374151?text=CHAMP" alt="Champion" class="champ-hero-photo">
+                        </div>
+                        <div class="champ-hero-body">
+                            <div class="champ-hero-label">Champion</div>
+                            <div class="champ-hero-division" id="champ-hero-division">Flyweight</div>
+                            <div class="champ-hero-name" id="champ-hero-name">—</div>
+                            <div class="champ-hero-belt">🥊 BoxingFandom Champion</div>
+                            <div class="champ-hero-record" id="champ-hero-record"></div>
+                        </div>
                     </div>
 
                     <!-- Filters -->
@@ -729,32 +1023,40 @@
                         </div>
                     </div>
 
-                    <!-- Table -->
-                    <div class="ranking-table-wrapper">
-                        <table class="ranking-table">
-                            <thead>
-                                <tr>
-                                    <th width="60">Rank</th>
-                                    <th>Fighter</th>
-                                    <th>Info</th>
-                                    <th>Form</th>
-                                    <th id="dynamic-score-header">Points</th>
-                                </tr>
-                            </thead>
-                            <tbody id="fighter-list">
-                                <tr>
-                                    <td colspan="5" style="padding:50px; text-align:center; color:var(--text-muted);">
-                                        กำลังโหลดข้อมูล…
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <!-- Ranking List — UFC style -->
+                    <ol class="ranking-list" id="fighter-list">
+                        <!-- Skeleton loading -->
+                        <li style="pointer-events:none;" aria-hidden="true">
+                            <span class="rl-rank"><span class="skeleton" style="width:20px;height:18px;display:block;"></span></span>
+                            <span class="skeleton" style="width:48px;height:48px;border-radius:50%;display:block;flex-shrink:0;"></span>
+                            <span style="flex:1;display:flex;flex-direction:column;gap:7px;">
+                                <span class="skeleton" style="width:55%;height:15px;display:block;"></span>
+                                <span class="skeleton" style="width:35%;height:12px;display:block;"></span>
+                            </span>
+                        </li>
+                        <li style="pointer-events:none;" aria-hidden="true">
+                            <span class="rl-rank"><span class="skeleton" style="width:20px;height:18px;display:block;"></span></span>
+                            <span class="skeleton" style="width:48px;height:48px;border-radius:50%;display:block;flex-shrink:0;"></span>
+                            <span style="flex:1;display:flex;flex-direction:column;gap:7px;">
+                                <span class="skeleton" style="width:45%;height:15px;display:block;"></span>
+                                <span class="skeleton" style="width:30%;height:12px;display:block;"></span>
+                            </span>
+                        </li>
+                        <li style="pointer-events:none;" aria-hidden="true">
+                            <span class="rl-rank"><span class="skeleton" style="width:20px;height:18px;display:block;"></span></span>
+                            <span class="skeleton" style="width:48px;height:48px;border-radius:50%;display:block;flex-shrink:0;"></span>
+                            <span style="flex:1;display:flex;flex-direction:column;gap:7px;">
+                                <span class="skeleton" style="width:60%;height:15px;display:block;"></span>
+                                <span class="skeleton" style="width:40%;height:12px;display:block;"></span>
+                            </span>
+                        </li>
+                    </ol>
 
                     <div id="load-more-container" class="load-more-wrap" style="display:none;">
                         <button id="loadMoreBtn" onclick="loadMoreFighters()">โหลดเพิ่มเติม</button>
                     </div>
-                </div>
+
+                </div><!-- /.card -->
             </div>
 
             <!-- ── SIDEBAR ── -->
@@ -875,6 +1177,7 @@
     <script>
         // วันที่ปัจจุบัน
         document.getElementById('today-date').textContent = new Date().toLocaleDateString('th-TH', { weekday:'long', year:'numeric', month:'long', day:'numeric' });
+        document.getElementById('ranking-updated-date').textContent = 'อัปเดต: ' + new Date().toLocaleDateString('th-TH', { day:'numeric', month:'short', year:'numeric' });
 
         // =========================================================
         // 1. Global state
@@ -969,7 +1272,7 @@
             const tm  = document.getElementById('filter-team').value.toLowerCase().trim();
 
             const sh = document.getElementById('dynamic-score-header');
-            sh.innerText = yr==='lifetime' ? 'Points (All Time)' : `Points (${yr})`;
+            if (sh) sh.innerText = yr==='lifetime' ? 'Points (All Time)' : `Points (${yr})`;
 
             let list = globalDatabase.map(f => {
                 let h = (f.fight_history || f.fight_history_one_championship || []).filter(fight => {
@@ -1007,41 +1310,84 @@
         }
 
         function drawTableChunk() {
-            const tbody = document.getElementById('fighter-list');
+            const list = document.getElementById('fighter-list');
             const lmc = document.getElementById('load-more-container');
-            if (currentFilteredFighters.length===0) {
-                tbody.innerHTML = `<tr><td colspan="5" style="padding:50px;text-align:center;color:var(--text-muted);">ไม่พบนักมวยที่ตรงกับเงื่อนไข</td></tr>`;
-                lmc.style.display='none'; return;
+
+            if (currentFilteredFighters.length === 0) {
+                list.innerHTML = `<li style="justify-content:center;padding:50px;color:var(--text-muted);pointer-events:none;">ไม่พบนักมวยที่ตรงกับเงื่อนไข</li>`;
+                lmc.style.display = 'none';
+
+                // Clear champion hero
+                document.getElementById('champ-hero-name').textContent = '—';
+                document.getElementById('champ-hero-record').textContent = '';
+                document.getElementById('champ-hero-img').src = 'https://placehold.co/120x130/111827/374151?text=CHAMP';
+                return;
             }
-            tbody.innerHTML = currentFilteredFighters.slice(0, currentDisplayLimit).map((f,i) => {
-                const rc = i===0?'rank-1':i===1?'rank-2':i===2?'rank-3':'';
+
+            // Update champion hero banner with #1 fighter
+            const topFighter = currentFilteredFighters[0];
+            const tp = topFighter.fighter_profile;
+            document.getElementById('champ-hero-name').textContent = tp.name_th || tp.name_en || '—';
+            document.getElementById('champ-hero-division').textContent = tp.physical_stats?.division || '';
+            document.getElementById('champ-hero-img').src = getCloudinaryUrl(tp.image_url, 120, 130);
+            document.getElementById('champ-hero-img').onerror = function(){ this.src='assets/images/noname.jpg'; };
+            const st = topFighter.calculatedStats;
+            document.getElementById('champ-hero-record').innerHTML = `<span>${st.wins}</span>W — <span>${st.losses}</span>L · Score: <span>${st.score} pts</span>`;
+
+            list.innerHTML = currentFilteredFighters.slice(0, currentDisplayLimit).map((f, i) => {
                 const p = f.fighter_profile;
-                const img = getCloudinaryUrl(p.image_url, 50, 50);
-                const link = `pages/fighter/${encodeURIComponent(f.fileName.replace('.json','.html'))}`;
-                return `<tr onclick="location.href='${link}'">
-                    <td><span class="rank-number ${rc}">${i+1}</span></td>
-                    <td><div class="fighter-cell">
-                        <img src="${img}" class="fighter-img" alt="${p.name_th}" onerror="this.src='assets/images/noname.jpg'">
-                        <div>
-                            <span class="fighter-name">${p.name_th||'-'}</span>
-                            <span class="fighter-alias">${p.physical_stats?.division||'N/A'}</span>
+                const img = getCloudinaryUrl(p.image_url, 56, 56);
+                const link = `pages/fighter/${encodeURIComponent(f.fileName.replace('.json', '.html'))}`;
+                const rankCls = i === 0 ? 'r1' : '';
+                const country = p.personal_info?.country_th || '';
+                const team = p.personal_info?.team_th || '';
+
+                return `<li onclick="location.href='${link}'">
+                    <span class="rl-rank ${rankCls}">${i + 1}</span>
+                    <img src="${img}" class="rl-photo" alt="${p.name_th}" onerror="this.src='assets/images/noname.jpg'">
+                    <div class="rl-info">
+                        <span class="rl-name">${p.name_th || p.name_en || '—'}</span>
+                        <div class="rl-meta">
+                            <span class="rl-country">${country}</span>
+                            ${team ? `<span class="rl-team">${team}</span>` : ''}
                         </div>
-                    </div></td>
-                    <td><div class="info-line">Country: <strong>${p.personal_info?.country_th||'N/A'}</strong></div>
-                        <div class="info-line">Team: <strong>${p.personal_info?.team_th||'N/A'}</strong></div></td>
-                    <td>${f.calculatedStats.formHTML}</td>
-                    <td><span class="score-text">${f.calculatedStats.score}</span></td>
-                </tr>`;
+                    </div>
+                    <div class="rl-right">
+                        <span class="rl-score">${f.calculatedStats.score}</span>
+                        <div class="rl-form">${f.calculatedStats.formHTML}</div>
+                    </div>
+                </li>`;
             }).join('');
+
             lmc.style.display = currentDisplayLimit >= currentFilteredFighters.length ? 'none' : 'block';
         }
 
         function loadMoreFighters() { currentDisplayLimit += 15; drawTableChunk(); }
 
         // =========================================================
+        // Division tab click logic
+        // =========================================================
+        document.querySelectorAll('.div-tab').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.div-tab').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                document.getElementById('filter-division').value = btn.dataset.div;
+                renderFilteredRanking();
+            });
+        });
+
+        // Keep tabs in sync when select changes
+        document.getElementById('filter-division').addEventListener('change', function() {
+            const v = this.value;
+            document.querySelectorAll('.div-tab').forEach(b => {
+                b.classList.toggle('active', b.dataset.div === v);
+            });
+        });
+
+        // =========================================================
         // 5. Filter events
         // =========================================================
-        ['filter-division','filter-category','filter-year','filter-age','filter-country']
+        ['filter-category','filter-year','filter-age','filter-country']
             .forEach(id => document.getElementById(id).addEventListener('change', renderFilteredRanking));
         document.getElementById('filter-team').addEventListener('keyup', renderFilteredRanking);
 

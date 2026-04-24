@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "ไอแซค โมฮัมเหม็ด",
-    "name_en": "",
+    "name_en": "Isaac Mohammed",
     "alias": "ไม่ระบุ",
     "image_url": "ไอแซค-โมฮัมเหม็ด",
     "grade": "N/A",
@@ -46,8 +46,8 @@
       "country_th": "ฝรั่งเศส/แอลจีเรีย",
       "country_en": "",
       "age": 20,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
+      "team_th": "เพชรมวยไทยยิม",
+      "team_en": "เพชรมวยไทยยิม"
     },
     "target_urls": [
       "https://www.onefc.com/th/athletes/isaac-mohammed/"
@@ -63,7 +63,7 @@
       "time": "0:45",
       "opponent_th": "ฤทธิเดช ลูกเจ้าพ่อโรงต้ม",
       "opponent_en": "",
-      "opponent_country": "ไทย",
+      "opponent_country": "Thailand",
       "date": "Apr 10, 2026",
       "rating": 5,
       "event_en": "ONE ลุมพินี 150 & The Inner Circle"
@@ -71,12 +71,12 @@
     {
       "result": "Win",
       "discipline_en": "Muay Thai",
-      "method_en": "Split Decision",
+      "method_en": "Unanimous Decision",
       "round": 3,
       "time": "3:00",
       "opponent_th": "จูราอิ อิชิอิ",
       "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
+      "opponent_country": "Japan",
       "date": "Feb 13, 2026",
       "rating": 5,
       "event_en": "ONE ลุมพินี 142"
@@ -89,7 +89,7 @@
       "time": "2:54",
       "opponent_th": "ฮารุยูกิ ทานิตสึ",
       "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
+      "opponent_country": "Japan",
       "date": "Jul 18, 2025",
       "rating": 5,
       "event_en": "ONE ลุมพินี 116"
@@ -97,7 +97,7 @@
     {
       "result": "Win",
       "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
+      "method_en": "Decision",
       "round": 2,
       "time": "1:37",
       "opponent_th": "อันโตนิโอ ปิอานา",

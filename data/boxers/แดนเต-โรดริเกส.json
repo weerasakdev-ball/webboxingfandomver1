@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "แดนเต โรดริเกส",
-    "name_en": "",
+    "name_en": "Dante Rodrigues",
     "alias": "ไม่ระบุ",
     "image_url": "แดนเต-โรดริเกส",
     "grade": "N/A",
@@ -46,8 +46,8 @@
       "country_th": "ออสเตรเลีย",
       "country_en": "",
       "age": 24,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
+      "team_th": "Lukphinong Muaythai / Tiger Muay Thai",
+      "team_en": "Lukphinong Muaythai/Tiger Muay Thai"
     },
     "target_urls": [
       "https://www.onefc.com/th/athletes/dante-rodrigues/"

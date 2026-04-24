@@ -1,150 +1,150 @@
 {
-    "fighter_profile": {
-        "name_th": "เซมิห์ ชาห์ จินดีร์",
-        "name_en": "",
-        "alias": "",
-        "image_url": "เซมิห์-ชาห์-จินดีร์",
-        "grade": "N/A",
-        "fighting_style_th": "",
-        "fighting_style_en": "",
-        "stance": "",
-        "physical_stats": {
-            "weight_lbs": 149.8,
-            "weight_kg": 67.95,
-            "division": "Featherweight",
-            "height_ft": "",
-            "height_cm": 0,
-            "reach_cm": "",
-            "leg_reach_cm": ""
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {},
-            "significant_strike_accuracy": {},
-            "defensive_stats": {}
-        },
-        "personal_info": {
-            "country_th": "",
-            "country_en": "",
-            "age": 0,
-            "team_th": "",
-            "team_en": ""
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/oumar-kane/"
-        ],
-        "short_biography": "เซมิห์ ชาห์ จินดีร์ () เป็นนักชกชาว วัย 0 ปี จากสังกัด มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Featherweight (ประมาณ 67.95 กิโลกรัม) ส่วนสูง 0 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 169: อนาโตลี vs รุง รุง สามารถเอาชนะ อนาโตลี มาลีคิน ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  "fighter_profile": {
+    "name_th": "เซมิห์ ชาห์ จินดีร์",
+    "name_en": "Oumar Kane",
+    "alias": "",
+    "image_url": "เซมิห์-ชาห์-จินดีร์",
+    "grade": "N/A",
+    "fighting_style_th": "",
+    "fighting_style_en": "",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": 149.8,
+      "weight_kg": 67.95,
+      "division": "Featherweight",
+      "height_ft": "",
+      "height_cm": 184,
+      "reach_cm": "",
+      "leg_reach_cm": ""
     },
-    "weigh_in_history": [
-        {
-            "event_name": "ONE ลุมพินี 145",
-            "weight_lbs": 149.8,
-            "division": "Featherweight"
-        }
+    "performance_stats": {
+      "significant_strikes_per_minute": {},
+      "significant_strike_accuracy": {},
+      "defensive_stats": {}
+    },
+    "personal_info": {
+      "country_th": "เซเนกัล",
+      "country_en": "เซเนกัล",
+      "age": 34,
+      "team_th": "Black Panther Sports / TRIPL3 MMA",
+      "team_en": "Black Panther Sports/TRIPL3 MMA"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/oumar-kane/"
     ],
-    "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "MMA",
-            "method_en": "Split Decision",
-            "round": 5,
-            "time": "5:00",
-            "opponent_th": "อนาโตลี มาลีคิน",
-            "opponent_en": "",
-            "opponent_country": "รัสเซีย",
-            "date": "Nov 08, 2024",
-            "rating": 5,
-            "event_en": "ONE 169: อนาโตลี vs รุง รุง"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Kickboxing",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:08",
-            "opponent_th": "บูเชอร์ เคตชัป",
-            "opponent_en": "",
-            "opponent_country": "เซเนกัล",
-            "date": "Jul 05, 2024",
-            "rating": 5,
-            "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "MMA",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "5:00",
-            "opponent_th": "มาร์คัส อัลเมดา",
-            "opponent_en": "",
-            "opponent_country": "บราซิล",
-            "date": "Aug 04, 2023",
-            "rating": 5,
-            "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "MMA",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "5:00",
-            "opponent_th": "จาซูร์ เมียร์ซามูคาเมดอฟ",
-            "opponent_en": "",
-            "opponent_country": "อุซเบกิสถาน",
-            "date": "Dec 03, 2022",
-            "rating": 5,
-            "event_en": "ONE Fight Night 5: ไรเนียร์ vs อนาโตลี"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "MMA",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "2:15",
-            "opponent_th": "บาทราดซ์ กาซาเอฟ",
-            "opponent_en": "",
-            "opponent_country": "รัสเซีย",
-            "date": "Sep 29, 2022",
-            "rating": 5,
-            "event_en": "ONE 161: เพชรมรกต vs ตะวันฉาย"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "MMA",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "5:00",
-            "opponent_th": "คิริลล์ กรีเชนโก",
-            "opponent_en": "",
-            "opponent_country": "เบลารุส",
-            "date": "Apr 29, 2021",
-            "rating": 5,
-            "event_en": "ONE on TNT IV"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "MMA",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "1:48",
-            "opponent_th": "แพทริก ชมิด",
-            "opponent_en": "",
-            "opponent_country": "สวิตเซอร์แลนด์",
-            "date": "Apr 08, 2021",
-            "rating": 5,
-            "event_en": "ONE on TNT I"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "MMA",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "4:32",
-            "opponent_th": "อเล็น เอ็นกาลานี",
-            "opponent_en": "",
-            "opponent_country": "ฮ่องกง เขตปกครองพิเศษประเทศจีน",
-            "date": "Jan 29, 2021",
-            "rating": 5,
-            "event_en": "ONE Unbreakable II"
-        }
-    ]
+    "short_biography": "เซมิห์ ชาห์ จินดีร์ () เป็นนักชกชาว วัย 0 ปี จากสังกัด มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Featherweight (ประมาณ 67.95 กิโลกรัม) ส่วนสูง 0 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE 169: อนาโตลี vs รุง รุง สามารถเอาชนะ อนาโตลี มาลีคิน ด้วยรูปแบบ Split Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 145",
+      "weight_lbs": 149.8,
+      "division": "Featherweight"
+    }
+  ],
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Split Decision",
+      "round": 5,
+      "time": "5:00",
+      "opponent_th": "อนาโตลี มาลีคิน",
+      "opponent_en": "",
+      "opponent_country": "รัสเซีย",
+      "date": "Nov 08, 2024",
+      "rating": 5,
+      "event_en": "ONE 169: อนาโตลี vs รุง รุง"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Kickboxing",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:08",
+      "opponent_th": "บูเชอร์ เคตชัป",
+      "opponent_en": "",
+      "opponent_country": "เซเนกัล",
+      "date": "Jul 05, 2024",
+      "rating": 5,
+      "event_en": "ONE Fight Night 23: เร ยุน vs อาลิเบก"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "5:00",
+      "opponent_th": "มาร์คัส อัลเมดา",
+      "opponent_en": "",
+      "opponent_country": "บราซิล",
+      "date": "Aug 04, 2023",
+      "rating": 5,
+      "event_en": "ONE Fight Night 13: ชิงกิซ vs มารัต"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "5:00",
+      "opponent_th": "จาซูร์ เมียร์ซามูคาเมดอฟ",
+      "opponent_en": "",
+      "opponent_country": "อุซเบกิสถาน",
+      "date": "Dec 03, 2022",
+      "rating": 5,
+      "event_en": "ONE Fight Night 5: ไรเนียร์ vs อนาโตลี"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:15",
+      "opponent_th": "บาทราดซ์ กาซาเอฟ",
+      "opponent_en": "",
+      "opponent_country": "รัสเซีย",
+      "date": "Sep 29, 2022",
+      "rating": 5,
+      "event_en": "ONE 161: เพชรมรกต vs ตะวันฉาย"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "5:00",
+      "opponent_th": "คิริลล์ กรีเชนโก",
+      "opponent_en": "",
+      "opponent_country": "เบลารุส",
+      "date": "Apr 29, 2021",
+      "rating": 5,
+      "event_en": "ONE on TNT IV"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:48",
+      "opponent_th": "แพทริก ชมิด",
+      "opponent_en": "",
+      "opponent_country": "สวิตเซอร์แลนด์",
+      "date": "Apr 08, 2021",
+      "rating": 5,
+      "event_en": "ONE on TNT I"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "4:32",
+      "opponent_th": "อเล็น เอ็นกาลานี",
+      "opponent_en": "",
+      "opponent_country": "ฮ่องกง เขตปกครองพิเศษประเทศจีน",
+      "date": "Jan 29, 2021",
+      "rating": 5,
+      "event_en": "ONE Unbreakable II"
+    }
+  ]
 }

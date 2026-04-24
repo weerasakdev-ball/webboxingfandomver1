@@ -1,185 +1,185 @@
 {
-    "fighter_profile": {
-        "name_th": "เพชรน้ำโขง ส.มณีโคตร",
-        "name_en": "",
-        "alias": "ไม่ระบุ",
-        "image_url": "เพชรน้ำโขง-ส.มณีโคตร",
-        "grade": "N/A",
-        "fighting_style_th": "ยังไม่มีข้อมูล",
-        "fighting_style_en": "ยังไม่มีข้อมูล",
-        "stance": "ยังไม่มีข้อมูล",
-        "physical_stats": {
-            "weight_lbs": 121.2,
-            "weight_kg": 54.98,
-            "hydration": "N/A",
-            "division": "Strawweight",
-            "height_ft": "ยังไม่มีข้อมูล",
-            "height_cm": 173,
-            "leg_reach_cm": "ยังไม่มีข้อมูล",
-            "reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": "ยังไม่มีข้อมูล",
-                "body": "ยังไม่มีข้อมูล",
-                "legs": "ยังไม่มีข้อมูล",
-                "total_per_minute": "ยังไม่มีข้อมูล"
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
-                "accuracy_by_target_percentage": {
-                    "head": "ยังไม่มีข้อมูล",
-                    "body": "ยังไม่มีข้อมูล",
-                    "legs": "ยังไม่มีข้อมูล"
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": "ไม่ระบุ",
-                "defense_by_target_percentage": {
-                    "head": "ไม่ระบุ",
-                    "body": "ไม่ระบุ",
-                    "legs": "ไม่ระบุ"
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ลาว",
-            "country_en": "",
-            "age": 22,
-            "team_th": "ยังไม่มีข้อมูล",
-            "team_en": "ยังไม่มีข้อมูล"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/petnamkhong-mongkolpet/"
-        ],
-        "short_biography": ""
+  "fighter_profile": {
+    "name_th": "เพชรน้ำโขง ส.มณีโคตร",
+    "name_en": "Petnamkhong Mongkolpet",
+    "alias": "ไม่ระบุ",
+    "image_url": "เพชรน้ำโขง-ส.มณีโคตร",
+    "grade": "N/A",
+    "fighting_style_th": "ยังไม่มีข้อมูล",
+    "fighting_style_en": "ยังไม่มีข้อมูล",
+    "stance": "ยังไม่มีข้อมูล",
+    "physical_stats": {
+      "weight_lbs": 121.2,
+      "weight_kg": 54.98,
+      "hydration": "N/A",
+      "division": "Strawweight",
+      "height_ft": "ยังไม่มีข้อมูล",
+      "height_cm": 173,
+      "leg_reach_cm": "ยังไม่มีข้อมูล",
+      "reach_cm": "ไม่ระบุ"
     },
-    "fight_history_one_championship": [],
-    "weigh_in_history": [
-        {
-            "event_name": "ONE LUMPINEE 149",
-            "weight_lbs": 121.2,
-            "division": "Strawweight"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ยังไม่มีข้อมูล",
+        "body": "ยังไม่มีข้อมูล",
+        "legs": "ยังไม่มีข้อมูล",
+        "total_per_minute": "ยังไม่มีข้อมูล"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+        "accuracy_by_target_percentage": {
+          "head": "ยังไม่มีข้อมูล",
+          "body": "ยังไม่มีข้อมูล",
+          "legs": "ยังไม่มีข้อมูล"
         }
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": "ไม่ระบุ",
+        "defense_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ลาว",
+      "country_en": "",
+      "age": 22,
+      "team_th": "ส.มณีโคตร",
+      "team_en": "ส.มณีโคตร"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/petnamkhong-mongkolpet/"
     ],
-    "upcoming_fights": [],
-    "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:01",
-            "opponent_th": "ทองลำพูน เอฟเอ.กรุ๊ป",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Apr 03, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 149 & The Inner Circle"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "พญาครุฑ เสือจันถกมวยไทย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Feb 13, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 142"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "แก่นพิทักษ์ โหน่งบางทราย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Feb 07, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 96"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ปฏักนิล ซินบีมวยไทย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Nov 29, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 89"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "พิชิตชัย พีเค.แสนชัย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Aug 30, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 77"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:48",
-            "opponent_th": "ลูกขวัญ ซูจีบะหมี่เกี๊ยว",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jul 26, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 72"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "อิกโก โอตะ",
-            "opponent_en": "",
-            "opponent_country": "ญี่ปุ่น",
-            "date": "Apr 19, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 59"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เพย์มาน โซลฟาการี",
-            "opponent_en": "",
-            "opponent_country": "อิหร่าน",
-            "date": "Feb 09, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 51"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 3,
-            "time": "1:45",
-            "opponent_th": "บีเอ็ม แฟร์เท็กซ์",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Dec 01, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 43"
-        }
-    ]
+    "short_biography": ""
+  },
+  "fight_history_one_championship": [],
+  "weigh_in_history": [
+    {
+      "event_name": "ONE LUMPINEE 149",
+      "weight_lbs": 121.2,
+      "division": "Strawweight"
+    }
+  ],
+  "upcoming_fights": [],
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:01",
+      "opponent_th": "ทองลำพูน เอฟเอ.กรุ๊ป",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 03, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "พญาครุฑ เสือจันถกมวยไทย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Feb 13, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 142"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "แก่นพิทักษ์ โหน่งบางทราย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Feb 07, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 96"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ปฏักนิล ซินบีมวยไทย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Nov 29, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 89"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "พิชิตชัย พีเค.แสนชัย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Aug 30, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 77"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:48",
+      "opponent_th": "ลูกขวัญ ซูจีบะหมี่เกี๊ยว",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jul 26, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 72"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "อิกโก โอตะ",
+      "opponent_en": "",
+      "opponent_country": "ญี่ปุ่น",
+      "date": "Apr 19, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 59"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เพย์มาน โซลฟาการี",
+      "opponent_en": "",
+      "opponent_country": "อิหร่าน",
+      "date": "Feb 09, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 51"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "1:45",
+      "opponent_th": "บีเอ็ม แฟร์เท็กซ์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Dec 01, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 43"
+    }
+  ]
 }

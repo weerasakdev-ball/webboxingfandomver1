@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "ฮิชาม เซรูอาลี",
-    "name_en": "",
+    "name_en": "Hicham Zerouali",
     "alias": "ไม่ระบุ",
     "image_url": "ฮิชาม-เซรูอาลี",
     "grade": "N/A",
@@ -58,12 +58,12 @@
     {
       "result": "Loss",
       "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
+      "method_en": "Decision",
       "round": 2,
       "time": "1:14",
       "opponent_th": "เอเลียส อับเดลาลี",
       "opponent_en": "",
-      "opponent_country": "ฝรั่งเศส",
+      "opponent_country": "France",
       "date": "Apr 10, 2026",
       "rating": 5,
       "event_en": "ONE ลุมพินี 150 & The Inner Circle"

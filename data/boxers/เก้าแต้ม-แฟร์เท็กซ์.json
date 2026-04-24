@@ -1,133 +1,133 @@
 {
-    "fighter_profile": {
-        "name_th": "เก้าแต้ม แฟร์เท็กซ์",
-        "name_en": "",
-        "alias": "ไม่ระบุ",
-        "image_url": "เก้าแต้ม-แฟร์เท็กซ์",
-        "grade": "N/A",
-        "fighting_style_th": "ยังไม่มีข้อมูล",
-        "fighting_style_en": "ยังไม่มีข้อมูล",
-        "stance": "ยังไม่มีข้อมูล",
-        "physical_stats": {
-            "weight_lbs": 127.4,
-            "weight_kg": 57.79,
-            "hydration": "N/A",
-            "division": "Flyweight",
-            "height_ft": "ยังไม่มีข้อมูล",
-            "height_cm": 0,
-            "leg_reach_cm": "ยังไม่มีข้อมูล",
-            "reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": "ยังไม่มีข้อมูล",
-                "body": "ยังไม่มีข้อมูล",
-                "legs": "ยังไม่มีข้อมูล",
-                "total_per_minute": "ยังไม่มีข้อมูล"
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
-                "accuracy_by_target_percentage": {
-                    "head": "ยังไม่มีข้อมูล",
-                    "body": "ยังไม่มีข้อมูล",
-                    "legs": "ยังไม่มีข้อมูล"
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": "ไม่ระบุ",
-                "defense_by_target_percentage": {
-                    "head": "ไม่ระบุ",
-                    "body": "ไม่ระบุ",
-                    "legs": "ไม่ระบุ"
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 0,
-            "team_th": "ยังไม่มีข้อมูล",
-            "team_en": "ยังไม่มีข้อมูล"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/kaotaem-fairtex/"
-        ],
-        "short_biography": ""
+  "fighter_profile": {
+    "name_th": "เก้าแต้ม แฟร์เท็กซ์",
+    "name_en": "Kaotaem Fairtex",
+    "alias": "ไม่ระบุ",
+    "image_url": "เก้าแต้ม-แฟร์เท็กซ์",
+    "grade": "N/A",
+    "fighting_style_th": "ยังไม่มีข้อมูล",
+    "fighting_style_en": "ยังไม่มีข้อมูล",
+    "stance": "ยังไม่มีข้อมูล",
+    "physical_stats": {
+      "weight_lbs": 127.4,
+      "weight_kg": 57.79,
+      "hydration": "N/A",
+      "division": "Flyweight",
+      "height_ft": "ยังไม่มีข้อมูล",
+      "height_cm": 165,
+      "leg_reach_cm": "ยังไม่มีข้อมูล",
+      "reach_cm": "ไม่ระบุ"
     },
-    "fight_history_one_championship": [],
-    "weigh_in_history": [
-        {
-            "event_name": "ONE LUMPINEE 149",
-            "weight_lbs": 127.4,
-            "division": "Flyweight"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ยังไม่มีข้อมูล",
+        "body": "ยังไม่มีข้อมูล",
+        "legs": "ยังไม่มีข้อมูล",
+        "total_per_minute": "ยังไม่มีข้อมูล"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+        "accuracy_by_target_percentage": {
+          "head": "ยังไม่มีข้อมูล",
+          "body": "ยังไม่มีข้อมูล",
+          "legs": "ยังไม่มีข้อมูล"
         }
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": "ไม่ระบุ",
+        "defense_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 21,
+      "team_th": "แฟร์เท็กซ์ เทรนนิง เซนเตอร์",
+      "team_en": "แฟร์เท็กซ์ เทรนนิง เซนเตอร์"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/kaotaem-fairtex/"
     ],
-    "upcoming_fights": [],
-    "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ซาเวียร์ กอนซาเลส",
-            "opponent_en": "",
-            "opponent_country": "สเปน",
-            "date": "Apr 03, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 149 & The Inner Circle"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 3,
-            "time": "1:49",
-            "opponent_th": "ทวนทอง แป๊ะสายสี่",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Apr 18, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 105"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "แหลมสิงห์ ทีวันไฟต์อะคาเดมี",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Nov 22, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 88"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:14",
-            "opponent_th": "วันเผด็จ เอ็นเอฟ.ลูกสวน",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jun 07, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 66"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "อัสลามจอน ออร์ติคอฟ",
-            "opponent_en": "",
-            "opponent_country": "อุซเบกิสถาน",
-            "date": "Jul 14, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 25"
-        }
-    ]
+    "short_biography": ""
+  },
+  "fight_history_one_championship": [],
+  "weigh_in_history": [
+    {
+      "event_name": "ONE LUMPINEE 149",
+      "weight_lbs": 127.4,
+      "division": "Flyweight"
+    }
+  ],
+  "upcoming_fights": [],
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ซาเวียร์ กอนซาเลส",
+      "opponent_en": "",
+      "opponent_country": "สเปน",
+      "date": "Apr 03, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 3,
+      "time": "1:49",
+      "opponent_th": "ทวนทอง แป๊ะสายสี่",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 18, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 105"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "แหลมสิงห์ ทีวันไฟต์อะคาเดมี",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Nov 22, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 88"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:14",
+      "opponent_th": "วันเผด็จ เอ็นเอฟ.ลูกสวน",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jun 07, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 66"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "อัสลามจอน ออร์ติคอฟ",
+      "opponent_en": "",
+      "opponent_country": "อุซเบกิสถาน",
+      "date": "Jul 14, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 25"
+    }
+  ]
 }

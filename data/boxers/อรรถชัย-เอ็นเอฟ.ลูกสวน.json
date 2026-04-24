@@ -1,59 +1,59 @@
 {
-    "fighter_profile": {
-        "name_th": "อรรถชัย เอ็นเอฟ.ลูกสวน",
-        "name_en": "",
-        "alias": "",
-        "image_url": "อรรถชัย-เอ็นเอฟ.ลูกสวน",
-        "grade": "N/A",
-        "fighting_style_th": "",
-        "fighting_style_en": "",
-        "stance": "",
-        "physical_stats": {
-            "weight_lbs": 122,
-            "weight_kg": 55.34,
-            "division": "Strawweight",
-            "height_ft": "",
-            "height_cm": 165,
-            "reach_cm": "",
-            "leg_reach_cm": ""
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {},
-            "significant_strike_accuracy": {},
-            "defensive_stats": {}
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "",
-            "age": 22,
-            "team_th": "เอ็นเอฟ.ลูกสวน",
-            "team_en": ""
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/attachai-nf-looksuan/"
-        ],
-        "short_biography": "อรรถชัย เอ็นเอฟ.ลูกสวน () เป็นนักชกชาวไทย วัย 22 ปี จากสังกัดเอ็นเอฟ.ลูกสวน มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 55.34 กิโลกรัม) ส่วนสูง 165 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถพ่ายแพ้ให้กับ บรูซลี ส.บุญมีฤทธิ์ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  "fighter_profile": {
+    "name_th": "อรรถชัย เอ็นเอฟ.ลูกสวน",
+    "name_en": "Attachai Nf Looksuan",
+    "alias": "",
+    "image_url": "อรรถชัย-เอ็นเอฟ.ลูกสวน",
+    "grade": "N/A",
+    "fighting_style_th": "",
+    "fighting_style_en": "",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": 122,
+      "weight_kg": 55.34,
+      "division": "Strawweight",
+      "height_ft": "",
+      "height_cm": 165,
+      "reach_cm": "",
+      "leg_reach_cm": ""
     },
-    "weigh_in_history": [
-        {
-            "event_name": "ONE ลุมพินี 145",
-            "weight_lbs": 122,
-            "division": "Strawweight"
-        }
+    "performance_stats": {
+      "significant_strikes_per_minute": {},
+      "significant_strike_accuracy": {},
+      "defensive_stats": {}
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "",
+      "age": 22,
+      "team_th": "เอ็นเอฟ.ลูกสวน",
+      "team_en": ""
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/attachai-nf-looksuan/"
     ],
-    "fight_history": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "บรูซลี ส.บุญมีฤทธิ์",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Mar 06, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 145"
-        }
-    ]
+    "short_biography": "อรรถชัย เอ็นเอฟ.ลูกสวน () เป็นนักชกชาวไทย วัย 22 ปี จากสังกัดเอ็นเอฟ.ลูกสวน มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 55.34 กิโลกรัม) ส่วนสูง 165 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถพ่ายแพ้ให้กับ บรูซลี ส.บุญมีฤทธิ์ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 145",
+      "weight_lbs": 122,
+      "division": "Strawweight"
+    }
+  ],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "บรูซลี ส.บุญมีฤทธิ์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 06, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 145"
+    }
+  ]
 }

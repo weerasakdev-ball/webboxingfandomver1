@@ -1,120 +1,120 @@
 {
-    "fighter_profile": {
-        "name_th": "เอกลักษณ์ ส.สมานการ์เม้นท์",
-        "name_en": "",
-        "alias": "ไม่ระบุ",
-        "image_url": "เอกลักษณ์-ส.สมานการ์เม้นท์",
-        "grade": "N/A",
-        "fighting_style_th": "ยังไม่มีข้อมูล",
-        "fighting_style_en": "ยังไม่มีข้อมูล",
-        "stance": "ยังไม่มีข้อมูล",
-        "physical_stats": {
-            "weight_lbs": 121.4,
-            "weight_kg": 55.07,
-            "hydration": "N/A",
-            "division": "Strawweight",
-            "height_ft": "ยังไม่มีข้อมูล",
-            "height_cm": 170,
-            "leg_reach_cm": "ยังไม่มีข้อมูล",
-            "reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": "ยังไม่มีข้อมูล",
-                "body": "ยังไม่มีข้อมูล",
-                "legs": "ยังไม่มีข้อมูล",
-                "total_per_minute": "ยังไม่มีข้อมูล"
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
-                "accuracy_by_target_percentage": {
-                    "head": "ยังไม่มีข้อมูล",
-                    "body": "ยังไม่มีข้อมูล",
-                    "legs": "ยังไม่มีข้อมูล"
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": "ไม่ระบุ",
-                "defense_by_target_percentage": {
-                    "head": "ไม่ระบุ",
-                    "body": "ไม่ระบุ",
-                    "legs": "ไม่ระบุ"
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 27,
-            "team_th": "ยังไม่มีข้อมูล",
-            "team_en": "Sor Samarngarment"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/aekkalak-sor-samarngarment/"
-        ],
-        "short_biography": ""
+  "fighter_profile": {
+    "name_th": "เอกลักษณ์ ส.สมานการ์เม้นท์",
+    "name_en": "Aekkalak Sor Samarngarment",
+    "alias": "ไม่ระบุ",
+    "image_url": "เอกลักษณ์-ส.สมานการ์เม้นท์",
+    "grade": "N/A",
+    "fighting_style_th": "ยังไม่มีข้อมูล",
+    "fighting_style_en": "ยังไม่มีข้อมูล",
+    "stance": "ยังไม่มีข้อมูล",
+    "physical_stats": {
+      "weight_lbs": 121.4,
+      "weight_kg": 55.07,
+      "hydration": "N/A",
+      "division": "Strawweight",
+      "height_ft": "ยังไม่มีข้อมูล",
+      "height_cm": 170,
+      "leg_reach_cm": "ยังไม่มีข้อมูล",
+      "reach_cm": "ไม่ระบุ"
     },
-    "fight_history_one_championship": [],
-    "weigh_in_history": [
-        {
-            "event_name": "ONE LUMPINEE 149",
-            "weight_lbs": 121.4,
-            "division": "Strawweight"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ยังไม่มีข้อมูล",
+        "body": "ยังไม่มีข้อมูล",
+        "legs": "ยังไม่มีข้อมูล",
+        "total_per_minute": "ยังไม่มีข้อมูล"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+        "accuracy_by_target_percentage": {
+          "head": "ยังไม่มีข้อมูล",
+          "body": "ยังไม่มีข้อมูล",
+          "legs": "ยังไม่มีข้อมูล"
         }
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": "ไม่ระบุ",
+        "defense_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 27,
+      "team_th": "ม.ราชภัฏหมู่บ้านจอมบึง / ส.สมานการ์เม้นท์",
+      "team_en": "ม.ราชภัฏหมู่บ้านจอมบึง/ส.สมานการ์เม้นท์"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/aekkalak-sor-samarngarment/"
     ],
-    "upcoming_fights": [],
-    "fight_history": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ดอกไม้ป่า สันติอุบล",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Apr 03, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 149 & The Inner Circle"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "2:28",
-            "opponent_th": "สองพยัคฆ์ เจพี.เพาเวอร์",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "May 16, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 108"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เพชรอภิชาติ อภิชาติมวยไทย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jan 19, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 48"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "รณชัย ต.รามอินทรา",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jun 02, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 19"
-        }
-    ]
+    "short_biography": ""
+  },
+  "fight_history_one_championship": [],
+  "weigh_in_history": [
+    {
+      "event_name": "ONE LUMPINEE 149",
+      "weight_lbs": 121.4,
+      "division": "Strawweight"
+    }
+  ],
+  "upcoming_fights": [],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ดอกไม้ป่า สันติอุบล",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Apr 03, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:28",
+      "opponent_th": "สองพยัคฆ์ เจพี.เพาเวอร์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "May 16, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 108"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เพชรอภิชาติ อภิชาติมวยไทย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jan 19, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 48"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "รณชัย ต.รามอินทรา",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jun 02, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 19"
+    }
+  ]
 }

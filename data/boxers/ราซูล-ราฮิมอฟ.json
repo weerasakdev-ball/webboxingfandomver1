@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "ราซูล ราฮิมอฟ",
-    "name_en": "",
+    "name_en": "Rasul Rahimov",
     "alias": "ไม่ระบุ",
     "image_url": "ราซูล-ราฮิมอฟ",
     "grade": "N/A",
@@ -43,11 +43,11 @@
       }
     },
     "personal_info": {
-      "country_th": "",
-      "country_en": "",
+      "country_th": "ตุรกี/อาเซอร์ไบจาน",
+      "country_en": "Turkey/Azerbaijan",
       "age": 24,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
+      "team_th": "Grappland",
+      "team_en": "Grappland"
     },
     "target_urls": [
       "https://www.onefc.com/th/athletes/rasul-rahimov/"
@@ -58,7 +58,7 @@
     {
       "result": "Win",
       "discipline_en": "MMA",
-      "method_en": "Split Decision",
+      "method_en": "Unanimous Decision",
       "round": 3,
       "time": "5:00",
       "opponent_th": "วาลดิเมียร์ บริเตซ",

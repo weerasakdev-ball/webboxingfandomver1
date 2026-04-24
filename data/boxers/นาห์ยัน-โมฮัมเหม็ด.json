@@ -1,22 +1,22 @@
 {
   "fighter_profile": {
-    "name_th": "จรัสชัย แม็กจันดี",
-    "name_en": "Jaradchai Maxjandee",
-    "alias": "ไม่ระบุ",
-    "image_url": "จรัสชัย-แม็กจันดี",
+    "name_th": "นาห์ยัน โมฮัมเหม็ด",
+    "name_en": "Nahyan Mohammed",
+    "alias": "เพชรสาม เพชรมวยไทย",
+    "image_url": "นาห์ยัน-โมฮัมเหม็ด",
     "grade": "N/A",
     "fighting_style_th": "ยังไม่มีข้อมูล",
     "fighting_style_en": "ยังไม่มีข้อมูล",
     "stance": "ยังไม่มีข้อมูล",
     "physical_stats": {
-      "weight_lbs": 133.8,
-      "weight_kg": 60.69,
+      "weight_lbs": 114.4,
+      "weight_kg": 51.9,
       "hydration": "N/A",
-      "division": "Flyweight",
+      "division": "อตอมเวต",
       "height_ft": "ยังไม่มีข้อมูล",
-      "height_cm": 178,
-      "leg_reach_cm": "ยังไม่มีข้อมูล",
-      "reach_cm": "ไม่ระบุ"
+      "height_cm": 172,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
     },
     "performance_stats": {
       "significant_strikes_per_minute": {
@@ -43,65 +43,72 @@
       }
     },
     "personal_info": {
-      "country_th": "ไทย",
-      "country_en": "Thailand",
-      "age": 18,
-      "team_th": "พีเค.แสนชัยมวยไทยยิม / แม็กจันดี",
-      "team_en": "พีเค.แสนชัยมวยไทยยิม/แม็กจันดี"
+      "country_th": "ฝรั่งเศส/แอลจีเรีย",
+      "country_en": "France/Algeria",
+      "age": 17,
+      "team_th": "เพชรมวยไทยยิม",
+      "team_en": "เพชรมวยไทยยิม"
     },
     "target_urls": [
-      "https://www.onefc.com/th/athletes/jaradchai-maxjandee/"
+      "https://www.onefc.com/th/athletes/nahyan-mohammed/"
     ],
     "short_biography": ""
   },
   "fight_history_one_championship": [],
-  "weigh_in_history": [
-    {
-      "event_name": "ONE LUMPINEE 149",
-      "weight_lbs": 133.8,
-      "division": "Flyweight"
-    }
-  ],
+  "weigh_in_history": [],
   "upcoming_fights": [],
   "fight_history": [
     {
-      "result": "Win",
+      "result": "Loss",
       "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "1:38",
-      "opponent_th": "ธานท์ ซิน",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "นิธิกร เจพี.เพาเวอร์",
       "opponent_en": "",
-      "opponent_country": "เมียนมา",
-      "date": "Apr 03, 2026",
+      "opponent_country": "ไทย",
+      "date": "Nov 28, 2025",
       "rating": 5,
-      "event_en": "ONE ลุมพินี 149 & The Inner Circle"
+      "event_en": "ONE ลุมพินี 135"
     },
     {
       "result": "Win",
       "discipline_en": "Muay Thai",
       "method_en": "KO/TKO",
       "round": 2,
-      "time": "0:43",
-      "opponent_th": "สรรเพชร ส.สละชีพ",
+      "time": "1:33",
+      "opponent_th": "อดัม ส.เดชะพันธ์",
       "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Jan 30, 2026",
+      "opponent_country": "มาเลเซีย/ไทย",
+      "date": "Jul 18, 2025",
       "rating": 5,
-      "event_en": "ONE ลุมพินี 140"
+      "event_en": "ONE ลุมพินี 116"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "อดัม ส.เดชะพันธ์",
+      "opponent_en": "",
+      "opponent_country": "มาเลเซีย/ไทย",
+      "date": "May 09, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 107"
     },
     {
       "result": "Win",
       "discipline_en": "Muay Thai",
       "method_en": "KO/TKO",
       "round": 1,
-      "time": "2:01",
-      "opponent_th": "เพชรวังหิน ลูกพระยาไกรภักดี",
+      "time": "0:50",
+      "opponent_th": "เพชรนพเดช นพเดชมวยไทย",
       "opponent_en": "",
       "opponent_country": "ไทย",
-      "date": "Apr 18, 2025",
+      "date": "Feb 07, 2025",
       "rating": 5,
-      "event_en": "ONE ลุมพินี 105"
+      "event_en": "ONE ลุมพินี 96"
     }
   ]
 }

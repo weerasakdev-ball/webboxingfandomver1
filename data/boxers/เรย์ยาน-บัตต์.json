@@ -1,59 +1,59 @@
 {
-    "fighter_profile": {
-        "name_th": "เรย์ยาน บัตต์",
-        "name_en": "",
-        "alias": "",
-        "image_url": "เรย์ยาน-บัตต์",
-        "grade": "N/A",
-        "fighting_style_th": "",
-        "fighting_style_en": "",
-        "stance": "",
-        "physical_stats": {
-            "weight_lbs": 170,
-            "weight_kg": 77.11,
-            "division": "Lightweight",
-            "height_ft": "",
-            "height_cm": 0,
-            "reach_cm": "",
-            "leg_reach_cm": ""
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {},
-            "significant_strike_accuracy": {},
-            "defensive_stats": {}
-        },
-        "personal_info": {
-            "country_th": "",
-            "country_en": "",
-            "age": 0,
-            "team_th": "",
-            "team_en": ""
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/rayyan-butt/"
-        ],
-        "short_biography": "เรย์ยาน บัตต์ () เป็นนักชกชาว วัย 0 ปี จากสังกัด มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Lightweight (ประมาณ 77.11 กิโลกรัม) ส่วนสูง 0 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถพ่ายแพ้ให้กับ อีธาน บร็อกเค็ต ด้วยรูปแบบ Submission ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  "fighter_profile": {
+    "name_th": "เรย์ยาน บัตต์",
+    "name_en": "Rayyan Butt",
+    "alias": "",
+    "image_url": "เรย์ยาน-บัตต์",
+    "grade": "N/A",
+    "fighting_style_th": "",
+    "fighting_style_en": "",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": 170,
+      "weight_kg": 77.11,
+      "division": "Lightweight",
+      "height_ft": "",
+      "height_cm": 0,
+      "reach_cm": "",
+      "leg_reach_cm": ""
     },
-    "weigh_in_history": [
-        {
-            "event_name": "ONE ลุมพินี 145",
-            "weight_lbs": 170,
-            "division": "Lightweight"
-        }
+    "performance_stats": {
+      "significant_strikes_per_minute": {},
+      "significant_strike_accuracy": {},
+      "defensive_stats": {}
+    },
+    "personal_info": {
+      "country_th": "อินเดีย",
+      "country_en": "India",
+      "age": 32,
+      "team_th": "Tiger Muay Thai",
+      "team_en": "Tiger Muay Thai"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/rayyan-butt/"
     ],
-    "fight_history": [
-        {
-            "result": "Loss",
-            "discipline_en": "MMA",
-            "method_en": "Submission",
-            "round": 2,
-            "time": "2:16",
-            "opponent_th": "อีธาน บร็อกเค็ต",
-            "opponent_en": "",
-            "opponent_country": "นิวซีแลนด์",
-            "date": "Mar 06, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 145"
-        }
-    ]
+    "short_biography": "เรย์ยาน บัตต์ () เป็นนักชกชาว วัย 0 ปี จากสังกัด มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Lightweight (ประมาณ 77.11 กิโลกรัม) ส่วนสูง 0 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถพ่ายแพ้ให้กับ อีธาน บร็อกเค็ต ด้วยรูปแบบ Submission ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 145",
+      "weight_lbs": 170,
+      "division": "Lightweight"
+    }
+  ],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "Submission",
+      "round": 2,
+      "time": "2:16",
+      "opponent_th": "อีธาน บร็อกเค็ต",
+      "opponent_en": "",
+      "opponent_country": "นิวซีแลนด์",
+      "date": "Mar 06, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 145"
+    }
+  ]
 }

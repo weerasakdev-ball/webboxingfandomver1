@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "ดาเลียน ดาวอดี",
-    "name_en": "",
+    "name_en": "Dalian Dawody",
     "alias": "ไม่ระบุ",
     "image_url": "ดาเลียน-ดาวอดี",
     "grade": "N/A",
@@ -43,11 +43,11 @@
       }
     },
     "personal_info": {
-      "country_th": "",
-      "country_en": "",
+      "country_th": "สวีเดน",
+      "country_en": "สวีเดน",
       "age": 25,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
+      "team_th": "Karlstad Muay Thai",
+      "team_en": "Karlstad Muay Thai"
     },
     "target_urls": [
       "https://www.onefc.com/th/athletes/dalian-dawody/"
@@ -63,7 +63,7 @@
       "time": "2:01",
       "opponent_th": "แดนเต โรดริเกส",
       "opponent_en": "",
-      "opponent_country": "ออสเตรเลีย/โปรตุเกส",
+      "opponent_country": "Australia/โปรตุเกส",
       "date": "Apr 10, 2026",
       "rating": 5,
       "event_en": "ONE ลุมพินี 150 & The Inner Circle"

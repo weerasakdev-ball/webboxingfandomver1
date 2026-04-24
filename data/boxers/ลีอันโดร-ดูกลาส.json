@@ -1,59 +1,59 @@
 {
-    "fighter_profile": {
-        "name_th": "ลีอันโดร ดูกลาส",
-        "name_en": "",
-        "alias": "",
-        "image_url": "ลีอันโดร-ดูกลาส",
-        "grade": "N/A",
-        "fighting_style_th": "",
-        "fighting_style_en": "",
-        "stance": "",
-        "physical_stats": {
-            "weight_lbs": 122.4,
-            "weight_kg": 55.52,
-            "division": "Strawweight",
-            "height_ft": "",
-            "height_cm": 0,
-            "reach_cm": "",
-            "leg_reach_cm": ""
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {},
-            "significant_strike_accuracy": {},
-            "defensive_stats": {}
-        },
-        "personal_info": {
-            "country_th": "",
-            "country_en": "",
-            "age": 0,
-            "team_th": "",
-            "team_en": ""
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/leandro-douglas/"
-        ],
-        "short_biography": "ลีอันโดร ดูกลาส () เป็นนักชกชาว วัย 0 ปี จากสังกัด มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 55.52 กิโลกรัม) ส่วนสูง 0 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถพ่ายแพ้ให้กับ วัชรพล เหล่าโชคเจริญ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  "fighter_profile": {
+    "name_th": "ลีอันโดร ดูกลาส",
+    "name_en": "Leandro Douglas",
+    "alias": "",
+    "image_url": "ลีอันโดร-ดูกลาส",
+    "grade": "N/A",
+    "fighting_style_th": "",
+    "fighting_style_en": "",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": 122.4,
+      "weight_kg": 55.52,
+      "division": "Strawweight",
+      "height_ft": "",
+      "height_cm": 63,
+      "reach_cm": "",
+      "leg_reach_cm": ""
     },
-    "weigh_in_history": [
-        {
-            "event_name": "ONE ลุมพินี 145",
-            "weight_lbs": 122.4,
-            "division": "Strawweight"
-        }
+    "performance_stats": {
+      "significant_strikes_per_minute": {},
+      "significant_strike_accuracy": {},
+      "defensive_stats": {}
+    },
+    "personal_info": {
+      "country_th": "บราซิล",
+      "country_en": "Brazil",
+      "age": 30,
+      "team_th": "Family Muay Thai",
+      "team_en": "Family Muay Thai"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/leandro-douglas/"
     ],
-    "fight_history": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "วัชรพล เหล่าโชคเจริญ",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Mar 06, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 145"
-        }
-    ]
+    "short_biography": "ลีอันโดร ดูกลาส () เป็นนักชกชาว วัย 0 ปี จากสังกัด มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Strawweight (ประมาณ 55.52 กิโลกรัม) ส่วนสูง 0 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถพ่ายแพ้ให้กับ วัชรพล เหล่าโชคเจริญ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 145",
+      "weight_lbs": 122.4,
+      "division": "Strawweight"
+    }
+  ],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "วัชรพล เหล่าโชคเจริญ",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 06, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 145"
+    }
+  ]
 }

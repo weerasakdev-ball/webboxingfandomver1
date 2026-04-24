@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "หง เฉิงจือ",
-    "name_en": "",
+    "name_en": "Hong Chengzhi",
     "alias": "ไม่ระบุ",
     "image_url": "หง-เฉิงจือ",
     "grade": "N/A",
@@ -46,8 +46,8 @@
       "country_th": "จีน",
       "country_en": "",
       "age": 20,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
+      "team_th": "Sheng Li Ren He",
+      "team_en": "Sheng Li Ren He"
     },
     "target_urls": [
       "https://www.onefc.com/th/athletes/hong-chengzhi/"
@@ -63,7 +63,7 @@
       "time": "2:32",
       "opponent_th": "คาซูเทรุ ยามาซากิ",
       "opponent_en": "",
-      "opponent_country": "ญี่ปุ่น",
+      "opponent_country": "Japan",
       "date": "Apr 10, 2026",
       "rating": 5,
       "event_en": "ONE ลุมพินี 150 & The Inner Circle"

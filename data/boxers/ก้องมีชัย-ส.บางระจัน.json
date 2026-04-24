@@ -1,69 +1,69 @@
 {
-    "fighter_profile": {
-        "name_th": "ก้องมีชัย ส.บางระจัน",
-        "name_en": "",
-        "alias": "ไม่ระบุ",
-        "image_url": "ก้องมีชัย-ส.บางระจัน",
-        "grade": "N/A",
-        "fighting_style_th": "ยังไม่มีข้อมูล",
-        "fighting_style_en": "ยังไม่มีข้อมูล",
-        "stance": "ยังไม่มีข้อมูล",
-        "physical_stats": {
-            "weight_lbs": 115.2,
-            "weight_kg": 52.25,
-            "division": "Strawweight",
-            "height_ft": "ยังไม่มีข้อมูล",
-            "height_cm": 0,
-            "leg_reach_cm": "ยังไม่มีข้อมูล"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": "ยังไม่มีข้อมูล",
-                "body": "ยังไม่มีข้อมูล",
-                "legs": "ยังไม่มีข้อมูล",
-                "total_per_minute": "ยังไม่มีข้อมูล"
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
-                "accuracy_by_target_percentage": {
-                    "head": "ยังไม่มีข้อมูล",
-                    "body": "ยังไม่มีข้อมูล",
-                    "legs": "ยังไม่มีข้อมูล"
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 0,
-            "team_th": "ยังไม่มีข้อมูล",
-            "team_en": "ยังไม่มีข้อมูล"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/kongmeechai-sor-bangrajan/"
-        ]
+  "fighter_profile": {
+    "name_th": "ก้องมีชัย ส.บางระจัน",
+    "name_en": "Kongmeechai Sor Bangrajan",
+    "alias": "ไม่ระบุ",
+    "image_url": "ก้องมีชัย-ส.บางระจัน",
+    "grade": "N/A",
+    "fighting_style_th": "ยังไม่มีข้อมูล",
+    "fighting_style_en": "ยังไม่มีข้อมูล",
+    "stance": "ยังไม่มีข้อมูล",
+    "physical_stats": {
+      "weight_lbs": 115.2,
+      "weight_kg": 52.25,
+      "division": "Strawweight",
+      "height_ft": "ยังไม่มีข้อมูล",
+      "height_cm": 165,
+      "leg_reach_cm": "ยังไม่มีข้อมูล"
     },
-    "weigh_in_history": [
-        {
-            "event_name": "ONE ลุมพินี 146",
-            "weight_lbs": 115.2,
-            "division": "Strawweight"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ยังไม่มีข้อมูล",
+        "body": "ยังไม่มีข้อมูล",
+        "legs": "ยังไม่มีข้อมูล",
+        "total_per_minute": "ยังไม่มีข้อมูล"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+        "accuracy_by_target_percentage": {
+          "head": "ยังไม่มีข้อมูล",
+          "body": "ยังไม่มีข้อมูล",
+          "legs": "ยังไม่มีข้อมูล"
         }
-    ],
-    "upcoming_fights": [],
-    "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "แอนดรี เมเซนเซเยฟ",
-            "opponent_en": "",
-            "opponent_country": "ยูเครน",
-            "date": "Mar 13, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 146"
-        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 17,
+      "team_th": "ยังไม่มีข้อมูล",
+      "team_en": "ยังไม่มีข้อมูล"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/kongmeechai-sor-bangrajan/"
     ]
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 146",
+      "weight_lbs": 115.2,
+      "division": "Strawweight"
+    }
+  ],
+  "upcoming_fights": [],
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "แอนดรี เมเซนเซเยฟ",
+      "opponent_en": "",
+      "opponent_country": "ยูเครน",
+      "date": "Mar 13, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 146"
+    }
+  ]
 }

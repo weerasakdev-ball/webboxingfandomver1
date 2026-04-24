@@ -1,85 +1,85 @@
 {
-    "fighter_profile": {
-        "name_th": "โทมะ คุโรดะ",
-        "name_en": "",
-        "alias": "",
-        "image_url": "โทมะ-คุโรดะ",
-        "grade": "N/A",
-        "fighting_style_th": "",
-        "fighting_style_en": "",
-        "stance": "",
-        "physical_stats": {
-            "weight_lbs": 114.8,
-            "weight_kg": 52.07,
-            "division": "Atomweight",
-            "height_ft": "",
-            "height_cm": 0,
-            "reach_cm": "",
-            "leg_reach_cm": ""
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {},
-            "significant_strike_accuracy": {},
-            "defensive_stats": {}
-        },
-        "personal_info": {
-            "country_th": "",
-            "country_en": "",
-            "age": 0,
-            "team_th": "",
-            "team_en": ""
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/toma-kuroda/"
-        ],
-        "short_biography": "โทมะ คุโรดะ () เป็นนักชกชาว วัย 0 ปี จากสังกัด มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Atomweight (ประมาณ 52.07 กิโลกรัม) ส่วนสูง 0 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถพ่ายแพ้ให้กับ บันลือโลก ศิษย์วัชรชัย ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  "fighter_profile": {
+    "name_th": "โทมะ คุโรดะ",
+    "name_en": "Toma Kuroda",
+    "alias": "",
+    "image_url": "โทมะ-คุโรดะ",
+    "grade": "N/A",
+    "fighting_style_th": "",
+    "fighting_style_en": "",
+    "stance": "",
+    "physical_stats": {
+      "weight_lbs": 114.8,
+      "weight_kg": 52.07,
+      "division": "Atomweight",
+      "height_ft": "",
+      "height_cm": 165,
+      "reach_cm": "",
+      "leg_reach_cm": ""
     },
-    "weigh_in_history": [
-        {
-            "event_name": "ONE ลุมพินี 145",
-            "weight_lbs": 114.8,
-            "division": "Atomweight"
-        }
+    "performance_stats": {
+      "significant_strikes_per_minute": {},
+      "significant_strike_accuracy": {},
+      "defensive_stats": {}
+    },
+    "personal_info": {
+      "country_th": "ญี่ปุ่น",
+      "country_en": "Japan",
+      "age": 25,
+      "team_th": "Forward Gym",
+      "team_en": "Forward Gym"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/toma-kuroda/"
     ],
-    "fight_history": [
-        {
-            "result": "Loss",
-            "discipline_en": "Kickboxing",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "บันลือโลก ศิษย์วัชรชัย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Mar 06, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 145"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Kickboxing",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "คิริลล์ ชีชิค",
-            "opponent_en": "",
-            "opponent_country": "รัสเซีย",
-            "date": "Nov 14, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 133"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Kickboxing",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "อดัม ส.เดชะพันธ์",
-            "opponent_en": "",
-            "opponent_country": "มาเลเซีย/ไทย",
-            "date": "Sep 26, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 126"
-        }
-    ]
+    "short_biography": "โทมะ คุโรดะ () เป็นนักชกชาว วัย 0 ปี จากสังกัด มีความถนัดในการต่อสู้สไตล์ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Atomweight (ประมาณ 52.07 กิโลกรัม) ส่วนสูง 0 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 145 สามารถพ่ายแพ้ให้กับ บันลือโลก ศิษย์วัชรชัย ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  },
+  "weigh_in_history": [
+    {
+      "event_name": "ONE ลุมพินี 145",
+      "weight_lbs": 114.8,
+      "division": "Atomweight"
+    }
+  ],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Kickboxing",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "บันลือโลก ศิษย์วัชรชัย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 06, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 145"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Kickboxing",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "คิริลล์ ชีชิค",
+      "opponent_en": "",
+      "opponent_country": "รัสเซีย",
+      "date": "Nov 14, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 133"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Kickboxing",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "อดัม ส.เดชะพันธ์",
+      "opponent_en": "",
+      "opponent_country": "มาเลเซีย/ไทย",
+      "date": "Sep 26, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 126"
+    }
+  ]
 }

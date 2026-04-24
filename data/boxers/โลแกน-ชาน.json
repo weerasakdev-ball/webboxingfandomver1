@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "โลแกน ชาน",
-    "name_en": "",
+    "name_en": "Logan Chan",
     "alias": "ไม่ระบุ",
     "image_url": "โลแกน-ชาน",
     "grade": "N/A",
@@ -46,8 +46,8 @@
       "country_th": "สกอตแลนด์/ฮ่องกง",
       "country_en": "",
       "age": 22,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
+      "team_th": "Hanuman Thai Boxing Edinburgh",
+      "team_en": "Hanuman Thai Boxing Edinburgh"
     },
     "target_urls": [
       "https://www.onefc.com/th/athletes/logan-chan/"
@@ -63,7 +63,7 @@
       "time": "0:34",
       "opponent_th": "เก้ากะรัต ส.เทียนโพธิ์",
       "opponent_en": "",
-      "opponent_country": "ไทย",
+      "opponent_country": "Thailand",
       "date": "Apr 10, 2026",
       "rating": 5,
       "event_en": "ONE ลุมพินี 150 & The Inner Circle"
@@ -71,12 +71,12 @@
     {
       "result": "Loss",
       "discipline_en": "Muay Thai",
-      "method_en": "Split Decision",
+      "method_en": "Unanimous Decision",
       "round": 3,
       "time": "3:00",
       "opponent_th": "เพชรกาฟิวส์ จิตรเมืองนนท์",
       "opponent_en": "",
-      "opponent_country": "ไทย",
+      "opponent_country": "Thailand",
       "date": "Jan 16, 2026",
       "rating": 5,
       "event_en": "ONE ลุมพินี 138"
@@ -89,7 +89,7 @@
       "time": "2:19",
       "opponent_th": "ศักดิ์ศรี ซุปเปอร์เล็กมวยไทย",
       "opponent_en": "",
-      "opponent_country": "ไทย",
+      "opponent_country": "Thailand",
       "date": "Sep 19, 2025",
       "rating": 5,
       "event_en": "ONE ลุมพินี 125"
@@ -102,7 +102,7 @@
       "time": "2:51",
       "opponent_th": "ชามา ซุปเปอร์บอนเทรนนิงแคมป์",
       "opponent_en": "",
-      "opponent_country": "ไทย",
+      "opponent_country": "Thailand",
       "date": "Aug 01, 2025",
       "rating": 5,
       "event_en": "ONE ลุมพินี 118"
