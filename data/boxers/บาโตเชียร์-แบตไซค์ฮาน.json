@@ -59,6 +59,19 @@
   "upcoming_fights": [],
   "fight_history": [
     {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:28",
+      "opponent_th": "คาร์โล บูมินาอัง",
+      "opponent_en": "",
+      "opponent_country": "ฟิลิปปินส์",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    },
+    {
       "result": "Win",
       "discipline_en": "MMA",
       "method_en": "KO/TKO",
