@@ -1,149 +1,162 @@
 {
-    "fighter_profile": {
-        "name_th": "ดอนคิงส์ โยธารักษ์มวยไทย",
-        "name_en": "Donking Yotharakmuaythai",
-        "alias": "จอมน็อกเอาต์จากระนอง",
-        "image_url": "ดอนคิงส์-โยธารักษ์มวยไทย",
-        "grade": "A",
-        "fighting_style_th": "มวยหมัด, บู๊ดุดัน",
-        "fighting_style_en": "Power Puncher, Aggressive",
-        "stance": "Orthodox (Right-handed)",
-        "physical_stats": {
-            "weight_lbs": 131,
-            "weight_kg": 59.4,
-            "division": "Flyweight / Catchweight",
-            "height_ft": "5'6\"",
-            "height_cm": 170,
-            "reach_cm": "172",
-            "leg_reach_cm": "96"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": {
-                "head": 8,
-                "body": 4,
-                "legs": 2,
-                "total_per_minute": 14
-            },
-            "significant_strike_accuracy": {
-                "overall_accuracy_percentage": 48,
-                "accuracy_by_target_percentage": {
-                    "head": 60,
-                    "body": 25,
-                    "legs": 15
-                }
-            },
-            "defensive_stats": {
-                "overall_defense_percentage": 38,
-                "defense_by_target_percentage": {
-                    "head": 35,
-                    "body": 40,
-                    "legs": 25
-                }
-            }
-        },
-        "personal_info": {
-            "country_th": "ไทย",
-            "country_en": "Thailand",
-            "age": 25,
-            "team_th": "โยธารักษ์มวยไทย",
-            "team_en": "Yotharak Muaythai"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/donking-yotharakmuaythai/"
-        ],
-        "short_biography": "ดอนคิงส์ โยธารักษ์มวยไทย (Donking Yotharakmuaythai) เป็นนักชกชาวไทย วัย 25 ปี จากสังกัดโยธารักษ์มวยไทย มีความถนัดในการต่อสู้สไตล์มวยหมัด, บู๊ดุดัน ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight / Catchweight (ประมาณ 59.4 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 142 สามารถพ่ายแพ้ให้กับ เกรเกอร์ ทอม ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  "fighter_profile": {
+    "name_th": "ดอนคิงส์ โยธารักษ์มวยไทย",
+    "name_en": "Donking Yotharakmuaythai",
+    "alias": "จอมน็อกเอาต์จากระนอง",
+    "image_url": "ดอนคิงส์-โยธารักษ์มวยไทย",
+    "grade": "A",
+    "fighting_style_th": "มวยหมัด, บู๊ดุดัน",
+    "fighting_style_en": "Power Puncher, Aggressive",
+    "stance": "Orthodox (Right-handed)",
+    "physical_stats": {
+      "weight_lbs": 131,
+      "weight_kg": 59.4,
+      "division": "Flyweight / Catchweight",
+      "height_ft": "5'6\"",
+      "height_cm": 170,
+      "reach_cm": "172",
+      "leg_reach_cm": "96"
     },
-    "fight_history": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "2:59",
-            "opponent_th": "เกรเกอร์ ทอม",
-            "opponent_en": "",
-            "opponent_country": "สกอตแลนด์",
-            "date": "Feb 13, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 142"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "รุสตัม ยูนูซอฟ",
-            "opponent_en": "",
-            "opponent_country": "รัสเซีย",
-            "date": "Sep 05, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 123"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:21",
-            "opponent_th": "ยอดเหล็กเพชร อ.อัจฉริยะ",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jun 20, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 113"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:07",
-            "opponent_th": "เด่นพยัคฆ์ เดชเพชรสีทอง",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Feb 07, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 96"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เสกสรร แฟร์เท็กซ์",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Oct 04, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 82"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:27",
-            "opponent_th": "ปานเพชร ส.นฤมล",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Aug 09, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 74"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "0:54",
-            "opponent_th": "ฉลองศึก แจ๊คสันมวยไทย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Mar 29, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 57"
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": 8,
+        "body": 4,
+        "legs": 2,
+        "total_per_minute": 14
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": 48,
+        "accuracy_by_target_percentage": {
+          "head": 60,
+          "body": 25,
+          "legs": 15
         }
-    ]
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": 38,
+        "defense_by_target_percentage": {
+          "head": 35,
+          "body": 40,
+          "legs": 25
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ไทย",
+      "country_en": "Thailand",
+      "age": 25,
+      "team_th": "โยธารักษ์มวยไทย",
+      "team_en": "Yotharak Muaythai"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/donking-yotharakmuaythai/"
+    ],
+    "short_biography": "ดอนคิงส์ โยธารักษ์มวยไทย (Donking Yotharakmuaythai) เป็นนักชกชาวไทย วัย 25 ปี จากสังกัดโยธารักษ์มวยไทย มีความถนัดในการต่อสู้สไตล์มวยหมัด, บู๊ดุดัน ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight / Catchweight (ประมาณ 59.4 กิโลกรัม) ส่วนสูง 170 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 142 สามารถพ่ายแพ้ให้กับ เกรเกอร์ ทอม ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
+  },
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:27",
+      "opponent_th": "เฉิน จายี่",
+      "opponent_en": "",
+      "opponent_country": "China",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:59",
+      "opponent_th": "เกรเกอร์ ทอม",
+      "opponent_en": "",
+      "opponent_country": "สกอตแลนด์",
+      "date": "Feb 13, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 142"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "รุสตัม ยูนูซอฟ",
+      "opponent_en": "",
+      "opponent_country": "รัสเซีย",
+      "date": "Sep 05, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 123"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:21",
+      "opponent_th": "ยอดเหล็กเพชร อ.อัจฉริยะ",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Jun 20, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 113"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:07",
+      "opponent_th": "เด่นพยัคฆ์ เดชเพชรสีทอง",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Feb 07, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 96"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เสกสรร แฟร์เท็กซ์",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Oct 04, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 82"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:27",
+      "opponent_th": "ปานเพชร ส.นฤมล",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Aug 09, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 74"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "0:54",
+      "opponent_th": "ฉลองศึก แจ๊คสันมวยไทย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 29, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 57"
+    }
+  ]
 }
