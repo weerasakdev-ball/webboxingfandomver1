@@ -1,11 +1,11 @@
 {
-    "last_updated": "2026-04-17",
+    "last_updated": "2026-04-26",
     "division": "Welterweight",
     "fighters": [
         {
             "name_th": "หยู จื้อ เฉิง",
             "image_url": "หยู-จื้อ-เฉิง",
-            "team_th": "ยังไม่มีข้อมูล",
+            "team_th": "Black Panther Sports / TRIPL3 MMA",
             "country_th": "ไต้หวัน",
             "stats": {
                 "lifetime": {
@@ -366,7 +366,7 @@
         {
             "name_th": "ซาร์มัด จาฮานอารา",
             "image_url": "ซาร์มัด-จาฮานอารา",
-            "team_th": "ยังไม่มีข้อมูล",
+            "team_th": "Absolute MMA",
             "country_th": "ออสเตรเลีย",
             "stats": {
                 "lifetime": {

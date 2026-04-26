@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-04-17",
+    "last_updated": "2026-04-26",
     "division": "รุ่นสตรอว์เวต",
     "fighters": [
         {
@@ -81,8 +81,8 @@
                 }
             },
             "profile_file": "กรุงไทย-ทอฝันฟาร์ม.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         }
     ]
 }

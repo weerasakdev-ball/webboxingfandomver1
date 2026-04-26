@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-04-17",
+    "last_updated": "2026-04-26",
     "division": "Strawweight",
     "fighters": [
         {
@@ -237,7 +237,7 @@
         },
         {
             "name_th": "อาลีฟ ส.เดชะพันธ์",
-            "image_url": "อาลีฟ-สเดชะพันธ์",
+            "image_url": "อาลีฟ-ส.เดชะพันธ์",
             "team_th": "ส.เดชะพันธ์",
             "country_th": "มาเลเซีย / ไทย",
             "stats": {
@@ -343,7 +343,7 @@
         {
             "name_th": "ริวกิ มัตซึดะ",
             "image_url": "ริวกิ-มัตซึดะ",
-            "team_th": "ไม่ระบุ",
+            "team_th": "Black Panther Sports / TRIPL3 MMA",
             "country_th": "ญี่ปุ่น",
             "stats": {
                 "lifetime": {
@@ -471,7 +471,7 @@
         {
             "name_th": "เชิ่ง ยี่จั๋ว",
             "image_url": "เชิ่ง-ยี่จั๋ว",
-            "team_th": "ยังไม่มีข้อมูล",
+            "team_th": "Black Panther Sports / TRIPL3 MMA",
             "country_th": "จีน",
             "stats": {
                 "lifetime": {
@@ -598,9 +598,9 @@
         },
         {
             "name_th": "เผด็จศึก ส.สมหมาย",
-            "image_url": "เผด็จศึก-สสมหมาย",
-            "team_th": "ไม่ระบุ",
-            "country_th": "ไม่ระบุ",
+            "image_url": "เผด็จศึก-ส.สมหมาย",
+            "team_th": "Black Panther Sports / TRIPL3 MMA",
+            "country_th": "เซเนกัล",
             "stats": {
                 "lifetime": {
                     "one": {
@@ -854,8 +854,8 @@
         },
         {
             "name_th": "ทองลำพูน เอฟเอ.กรุ๊ป",
-            "image_url": "ทองลำพูน-เอฟเอกรุ๊ป",
-            "team_th": "ยังไม่มีข้อมูล",
+            "image_url": "ทองลำพูน-เอฟเอ.กรุ๊ป",
+            "team_th": "เอฟเอ.กรุ๊ป",
             "country_th": "ไทย",
             "stats": {
                 "lifetime": {
@@ -977,11 +977,12 @@
                 }
             },
             "profile_file": "ทองลำพูน-เอฟเอ.กรุ๊ป.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 8
         },
         {
             "name_th": "พระจันทร์ฉาย ป๋องสุพรรณ พีเค.",
-            "image_url": "พระจันทร์ฉาย-ป๋องสุพรรณ-พีเค",
+            "image_url": "พระจันทร์ฉาย-ป๋องสุพรรณ-พีเค.",
             "team_th": "พีเค.แสนชัยมวยไทยยิม",
             "country_th": "ไทย",
             "stats": {
@@ -1127,12 +1128,12 @@
                 }
             },
             "profile_file": "พระจันทร์ฉาย-ป๋องสุพรรณ-พีเค.-.html",
-            "trend": "down",
-            "last_rank": 8
+            "trend": "steady",
+            "last_rank": 9
         },
         {
             "name_th": "ทองพูน พีเค.แสนชัย",
-            "image_url": "ทองพูน-พีเคแสนชัย",
+            "image_url": "ทองพูน-พีเค.แสนชัย",
             "team_th": "พีเค.แสนชัยมวยไทยยิม",
             "country_th": "ไทย",
             "stats": {
@@ -1232,8 +1233,8 @@
                 }
             },
             "profile_file": "ทองพูน-พีเค.แสนชัย.html",
-            "trend": "down",
-            "last_rank": 9
+            "trend": "steady",
+            "last_rank": 10
         },
         {
             "name_th": "คมเพชร ศิษย์สารวัตรเสือ",
@@ -1360,8 +1361,8 @@
                 }
             },
             "profile_file": "คมเพชร-ศิษย์สารวัตรเสือ.html",
-            "trend": "down",
-            "last_rank": 10
+            "trend": "steady",
+            "last_rank": 11
         },
         {
             "name_th": "วัชรพล เหล่าโชคเจริญ",
@@ -1465,12 +1466,12 @@
                 }
             },
             "profile_file": "วัชรพล-เหล่าโชคเจริญ.html",
-            "trend": "down",
-            "last_rank": 11
+            "trend": "steady",
+            "last_rank": 12
         },
         {
             "name_th": "หนุ่มสุรินทร์ ช.เกตุวีณา",
-            "image_url": "หนุ่มสุรินทร์-ชเกตุวีณา",
+            "image_url": "หนุ่มสุรินทร์-ช.เกตุวีณา",
             "team_th": "ทีเด็ด 99",
             "country_th": "ไทย",
             "stats": {
@@ -1570,7 +1571,8 @@
                 }
             },
             "profile_file": "หนุ่มสุรินทร์-ช.เกตุวีณา.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 13
         },
         {
             "name_th": "ตุย ลิน ทัต",
@@ -1674,13 +1676,13 @@
                 }
             },
             "profile_file": "ตุย-ลิน-ทัต.html",
-            "trend": "down",
-            "last_rank": 12
+            "trend": "steady",
+            "last_rank": 14
         },
         {
             "name_th": "เพชรน้ำโขง ส.มณีโคตร",
-            "image_url": "เพชรน้ำโขง-สมณีโคตร",
-            "team_th": "ยังไม่มีข้อมูล",
+            "image_url": "เพชรน้ำโขง-ส.มณีโคตร",
+            "team_th": "ส.มณีโคตร",
             "country_th": "ลาว",
             "stats": {
                 "lifetime": {
@@ -1802,7 +1804,8 @@
                 }
             },
             "profile_file": "เพชรน้ำโขง-ส.มณีโคตร.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 15
         },
         {
             "name_th": "จาง เป่ยเหมียน",
@@ -1952,8 +1955,8 @@
                 }
             },
             "profile_file": "จาง-เป่ยเหมียน.html",
-            "trend": "down",
-            "last_rank": 13
+            "trend": "steady",
+            "last_rank": 16
         },
         {
             "name_th": "สิงห์ดำ กาแฟโฟกัส",
@@ -2057,12 +2060,12 @@
                 }
             },
             "profile_file": "สิงห์ดำ-กาแฟโฟกัส.html",
-            "trend": "down",
-            "last_rank": 14
+            "trend": "steady",
+            "last_rank": 17
         },
         {
             "name_th": "เหิร เอ็นเอฟ.ลูกสวน",
-            "image_url": "เหิร-เอ็นเอฟลูกสวน",
+            "image_url": "เหิร-เอ็นเอฟ.ลูกสวน",
             "team_th": "เอ็นเอฟ.ลูกสวน (NF Looksuan)",
             "country_th": "ไทย (ตราด)",
             "stats": {
@@ -2162,8 +2165,8 @@
                 }
             },
             "profile_file": "เหิร-เอ็นเอฟ.ลูกสวน.html",
-            "trend": "down",
-            "last_rank": 15
+            "trend": "steady",
+            "last_rank": 18
         },
         {
             "name_th": "โทเรบชี ดงกัค",
@@ -2290,88 +2293,8 @@
                 }
             },
             "profile_file": "โทเรบชี-ดงกัค.html",
-            "trend": "new"
-        },
-        {
-            "name_th": "ไอแซค โมฮัมเหม็ด",
-            "image_url": "ไอแซค-โมฮัมเหม็ด",
-            "team_th": "ยังไม่มีข้อมูล",
-            "country_th": "ฝรั่งเศส/แอลจีเรีย",
-            "stats": {
-                "lifetime": {
-                    "one": {
-                        "wins": 4,
-                        "losses": 0,
-                        "draws": 0,
-                        "ko_wins": 3,
-                        "points": 18
-                    },
-                    "others": {
-                        "wins": 0,
-                        "losses": 0,
-                        "draws": 0,
-                        "ko_wins": 0,
-                        "points": 0
-                    },
-                    "total": {
-                        "wins": 4,
-                        "losses": 0,
-                        "draws": 0,
-                        "ko_wins": 3,
-                        "points": 18
-                    }
-                },
-                "yearly": {
-                    "2025": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    },
-                    "2026": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    }
-                }
-            },
-            "profile_file": "ไอแซค-โมฮัมเหม็ด.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 19
         },
         {
             "name_th": "รามาดาน ออนดาช",
@@ -2452,12 +2375,12 @@
                 }
             },
             "profile_file": "รามาดาน-ออนดาช.html",
-            "trend": "down",
-            "last_rank": 16
+            "trend": "up",
+            "last_rank": 21
         },
         {
             "name_th": "โชคปรีชา พีเค.ต้อมทีเค.อะไหล่ยนต์",
-            "image_url": "โชคปรีชา-พีเคต้อมทีเคอะไหล่ยนต์",
+            "image_url": "โชคปรีชา-พีเค.ต้อมทีเค.อะไหล่ยนต์",
             "team_th": "พีเค.แสนชัยมวยไทยยิม",
             "country_th": "ไทย",
             "stats": {
@@ -2534,8 +2457,90 @@
                 }
             },
             "profile_file": "โชคปรีชา-พีเค.ต้อมทีเค.อะไหล่ยนต์.html",
+            "trend": "up",
+            "last_rank": 22
+        },
+        {
+            "name_th": "ไอแซค โมฮัมเหม็ด",
+            "image_url": "ไอแซค-โมฮัมเหม็ด",
+            "team_th": "เพชรมวยไทยยิม",
+            "country_th": "ฝรั่งเศส/แอลจีเรีย",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 4,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 2,
+                        "points": 16
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 4,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 2,
+                        "points": 16
+                    }
+                },
+                "yearly": {
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "ไอแซค-โมฮัมเหม็ด.html",
             "trend": "down",
-            "last_rank": 17
+            "last_rank": 20
         },
         {
             "name_th": "โจนาธาน ดิ เบลลา",
@@ -2662,358 +2667,8 @@
                 }
             },
             "profile_file": "โจนาธาน-ดิ-เบลลา.html",
-            "trend": "down",
-            "last_rank": 18
-        },
-        {
-            "name_th": "เชียร์ โคเฮน",
-            "image_url": "เชียร์-โคเฮน",
-            "team_th": "ทีม อิสราเอล",
-            "country_th": "อิสราเอล",
-            "stats": {
-                "lifetime": {
-                    "one": {
-                        "wins": 3,
-                        "losses": 1,
-                        "draws": 0,
-                        "ko_wins": 1,
-                        "points": 11
-                    },
-                    "others": {
-                        "wins": 0,
-                        "losses": 0,
-                        "draws": 0,
-                        "ko_wins": 0,
-                        "points": 0
-                    },
-                    "total": {
-                        "wins": 3,
-                        "losses": 1,
-                        "draws": 0,
-                        "ko_wins": 1,
-                        "points": 11
-                    }
-                },
-                "yearly": {
-                    "2024": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    },
-                    "2026": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    }
-                }
-            },
-            "profile_file": "เชียร์-โคเฮน.html",
-            "trend": "down",
-            "last_rank": 19
-        },
-        {
-            "name_th": "เวโร",
-            "image_url": "เวโร",
-            "team_th": "ไทเกอร์ มวยไทย",
-            "country_th": "เมียนมา",
-            "stats": {
-                "lifetime": {
-                    "one": {
-                        "wins": 3,
-                        "losses": 1,
-                        "draws": 0,
-                        "ko_wins": 1,
-                        "points": 11
-                    },
-                    "others": {
-                        "wins": 0,
-                        "losses": 0,
-                        "draws": 0,
-                        "ko_wins": 0,
-                        "points": 0
-                    },
-                    "total": {
-                        "wins": 3,
-                        "losses": 1,
-                        "draws": 0,
-                        "ko_wins": 1,
-                        "points": 11
-                    }
-                },
-                "yearly": {
-                    "2025": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    },
-                    "2026": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    }
-                }
-            },
-            "profile_file": "เวโร.html",
-            "trend": "down",
-            "last_rank": 20
-        },
-        {
-            "name_th": "อิกโก โอตะ",
-            "image_url": "อิกโก-โอตะ",
-            "team_th": "Shinkoh Muay Thai Gym",
-            "country_th": "ญี่ปุ่น",
-            "stats": {
-                "lifetime": {
-                    "one": {
-                        "wins": 2,
-                        "losses": 2,
-                        "draws": 0,
-                        "ko_wins": 2,
-                        "points": 10
-                    },
-                    "others": {
-                        "wins": 0,
-                        "losses": 0,
-                        "draws": 0,
-                        "ko_wins": 0,
-                        "points": 0
-                    },
-                    "total": {
-                        "wins": 2,
-                        "losses": 2,
-                        "draws": 0,
-                        "ko_wins": 2,
-                        "points": 10
-                    }
-                },
-                "yearly": {
-                    "2024": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    },
-                    "2025": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    },
-                    "2026": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    }
-                }
-            },
-            "profile_file": "อิกโก-โอตะ.html",
-            "trend": "new"
-        },
-        {
-            "name_th": "ยูนิส อานาน",
-            "image_url": "ยูนิส-อานาน",
-            "team_th": "ทีมเมห์ดี ซาทูต (Team Mehdi Zatout)",
-            "country_th": "ฝรั่งเศส/ไทย",
-            "stats": {
-                "lifetime": {
-                    "one": {
-                        "wins": 3,
-                        "losses": 1,
-                        "draws": 0,
-                        "ko_wins": 0,
-                        "points": 9
-                    },
-                    "others": {
-                        "wins": 0,
-                        "losses": 0,
-                        "draws": 0,
-                        "ko_wins": 0,
-                        "points": 0
-                    },
-                    "total": {
-                        "wins": 3,
-                        "losses": 1,
-                        "draws": 0,
-                        "ko_wins": 0,
-                        "points": 9
-                    }
-                },
-                "yearly": {
-                    "2025": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    },
-                    "2026": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    }
-                }
-            },
-            "profile_file": "ยูนิส-อานาน.html",
-            "trend": "down",
-            "last_rank": 21
+            "trend": "steady",
+            "last_rank": 23
         },
         {
             "name_th": "ฮิโรบา มิโนวา",
@@ -3023,11 +2678,11 @@
             "stats": {
                 "lifetime": {
                     "one": {
-                        "wins": 3,
+                        "wins": 4,
                         "losses": 5,
                         "draws": 0,
                         "ko_wins": 0,
-                        "points": 9
+                        "points": 12
                     },
                     "others": {
                         "wins": 0,
@@ -3037,11 +2692,11 @@
                         "points": 0
                     },
                     "total": {
-                        "wins": 3,
+                        "wins": 4,
                         "losses": 5,
                         "draws": 0,
                         "ko_wins": 0,
-                        "points": 9
+                        "points": 12
                     }
                 },
                 "yearly": {
@@ -3182,11 +2837,386 @@
                             "ko_wins": 0,
                             "points": 0
                         }
+                    },
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
                     }
                 }
             },
             "profile_file": "ฮิโรบา-มิโนวา.html",
-            "trend": "new"
+            "trend": "up",
+            "last_rank": 28
+        },
+        {
+            "name_th": "เชียร์ โคเฮน",
+            "image_url": "เชียร์-โคเฮน",
+            "team_th": "ทีม อิสราเอล",
+            "country_th": "อิสราเอล",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 3,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 1,
+                        "points": 11
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 3,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 1,
+                        "points": 11
+                    }
+                },
+                "yearly": {
+                    "2024": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "เชียร์-โคเฮน.html",
+            "trend": "down",
+            "last_rank": 24
+        },
+        {
+            "name_th": "เวโร",
+            "image_url": "เวโร",
+            "team_th": "ไทเกอร์ มวยไทย",
+            "country_th": "เมียนมา",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 3,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 1,
+                        "points": 11
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 3,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 1,
+                        "points": 11
+                    }
+                },
+                "yearly": {
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "เวโร.html",
+            "trend": "down",
+            "last_rank": 25
+        },
+        {
+            "name_th": "อิกโก โอตะ",
+            "image_url": "อิกโก-โอตะ",
+            "team_th": "Shinkoh Muay Thai Gym",
+            "country_th": "ญี่ปุ่น",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 2,
+                        "losses": 2,
+                        "draws": 0,
+                        "ko_wins": 2,
+                        "points": 10
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 2,
+                        "losses": 2,
+                        "draws": 0,
+                        "ko_wins": 2,
+                        "points": 10
+                    }
+                },
+                "yearly": {
+                    "2024": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "อิกโก-โอตะ.html",
+            "trend": "down",
+            "last_rank": 26
+        },
+        {
+            "name_th": "ยูนิส อานาน",
+            "image_url": "ยูนิส-อานาน",
+            "team_th": "ทีมเมห์ดี ซาทูต (Team Mehdi Zatout)",
+            "country_th": "ฝรั่งเศส/ไทย",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 3,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 9
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 3,
+                        "losses": 1,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 9
+                    }
+                },
+                "yearly": {
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "ยูนิส-อานาน.html",
+            "trend": "down",
+            "last_rank": 27
         },
         {
             "name_th": "เอลลิส บาดร์ บาร์โบซา",
@@ -3313,8 +3343,8 @@
                 }
             },
             "profile_file": "เอลลิส-บาร์โบซา.html",
-            "trend": "down",
-            "last_rank": 22
+            "trend": "steady",
+            "last_rank": 29
         },
         {
             "name_th": "จ้าว เจิงตง",
@@ -3372,13 +3402,13 @@
                 }
             },
             "profile_file": "จ้าว-เจิงตง.html",
-            "trend": "down",
-            "last_rank": 23
+            "trend": "steady",
+            "last_rank": 30
         },
         {
             "name_th": "เอกลักษณ์ ส.สมานการ์เม้นท์",
-            "image_url": "เอกลักษณ์-สสมานการ์เม้นท์",
-            "team_th": "ยังไม่มีข้อมูล",
+            "image_url": "เอกลักษณ์-ส.สมานการ์เม้นท์",
+            "team_th": "ม.ราชภัฏหมู่บ้านจอมบึง / ส.สมานการ์เม้นท์",
             "country_th": "ไทย",
             "stats": {
                 "lifetime": {
@@ -3500,7 +3530,8 @@
                 }
             },
             "profile_file": "เอกลักษณ์-ส.สมานการ์เม้นท์.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 31
         },
         {
             "name_th": "พญาครุฑ เสือจันถกมวยไทย",
@@ -3581,7 +3612,8 @@
                 }
             },
             "profile_file": "พญาครุฑ-เสือจันถกมวยไทย.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 32
         },
         {
             "name_th": "อรรถชัย กีล่าสปอร์ต",
@@ -3662,7 +3694,8 @@
                 }
             },
             "profile_file": "อรรถชัย-กีล่าสปอร์ต.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 33
         },
         {
             "name_th": "เมห์ดาด คานซาเดห์",
@@ -3789,12 +3822,12 @@
                 }
             },
             "profile_file": "เมห์ดาด-คานซาเดห์.html",
-            "trend": "down",
-            "last_rank": 24
+            "trend": "steady",
+            "last_rank": 34
         },
         {
             "name_th": "เบอร์หนึ่ง ส.สละชีพ",
-            "image_url": "เบอร์หนึ่ง-สสละชีพ",
+            "image_url": "เบอร์หนึ่ง-ส.สละชีพ",
             "team_th": "ส.สละชีพ (Sor Salacheep)",
             "country_th": "ไทย",
             "stats": {
@@ -3871,12 +3904,12 @@
                 }
             },
             "profile_file": "เบอร์หนึ่ง-ส.สละชีพ.html",
-            "trend": "down",
-            "last_rank": 25
+            "trend": "steady",
+            "last_rank": 35
         },
         {
             "name_th": "ก้องมีชัย ส.บางระจัน",
-            "image_url": "ก้องมีชัย-สบางระจัน",
+            "image_url": "ก้องมีชัย-ส.บางระจัน",
             "team_th": "ยังไม่มีข้อมูล",
             "country_th": "ไทย",
             "stats": {
@@ -3930,8 +3963,8 @@
                 }
             },
             "profile_file": "ก้องมีชัย-ส.บางระจัน.html",
-            "trend": "down",
-            "last_rank": 27
+            "trend": "steady",
+            "last_rank": 36
         },
         {
             "name_th": "ดอกไม้ป่า สันติอุบล",
@@ -3989,13 +4022,14 @@
                 }
             },
             "profile_file": "ดอกไม้ป่า-สันติอุบล.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 37
         },
         {
             "name_th": "ดาวแดง เอ็นนี่มวยไทย",
             "image_url": "ดาวแดง-เอ็นนี่มวยไทย",
-            "team_th": "ไม่ระบุ",
-            "country_th": "ไม่ระบุ",
+            "team_th": "Keatkhamtorn Gym",
+            "country_th": "ไทย",
             "stats": {
                 "lifetime": {
                     "one": {
@@ -4070,12 +4104,12 @@
                 }
             },
             "profile_file": "ดาวแดง-เอ็นนี่มวยไทย.html",
-            "trend": "down",
-            "last_rank": 28
+            "trend": "steady",
+            "last_rank": 38
         },
         {
             "name_th": "บรูซลี ส.บุญมีฤทธิ์",
-            "image_url": "บรูซลี-สบุญมีฤทธิ์",
+            "image_url": "บรูซลี-ส.บุญมีฤทธิ์",
             "team_th": "ส.บุญมีฤทธิ์",
             "country_th": "ไม่ระบุ",
             "stats": {
@@ -4129,13 +4163,13 @@
                 }
             },
             "profile_file": "บรูซลี-ส.บุญมีฤทธิ์.html",
-            "trend": "down",
-            "last_rank": 29
+            "trend": "steady",
+            "last_rank": 39
         },
         {
             "name_th": "ปาร์วิซ คามิจอนอฟ",
             "image_url": "ปาร์วิซ-คามิจอนอฟ",
-            "team_th": "ยังไม่มีข้อมูล",
+            "team_th": "Mavlydov School",
             "country_th": "ทาจิกิสถาน",
             "stats": {
                 "lifetime": {
@@ -4188,7 +4222,8 @@
                 }
             },
             "profile_file": "ปาร์วิซ-คามิจอนอฟ.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 40
         },
         {
             "name_th": "ฤทธิเดช ลูกเจ้าพ่อโรงต้ม",
@@ -4292,7 +4327,8 @@
                 }
             },
             "profile_file": "ฤทธิเดช-ลูกเจ้าพ่อโรงต้ม.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 41
         },
         {
             "name_th": "แอนนา ซุปเปอร์เกิร์ล",
@@ -4419,8 +4455,8 @@
                 }
             },
             "profile_file": "แอนนา-ซุปเปอร์เกิร์ล.html",
-            "trend": "down",
-            "last_rank": 30
+            "trend": "steady",
+            "last_rank": 42
         },
         {
             "name_th": "บินลาดิน แสงมรกต",
@@ -4524,13 +4560,13 @@
                 }
             },
             "profile_file": "บินลาดิน-แสงมรกต.html",
-            "trend": "down",
-            "last_rank": 31
+            "trend": "steady",
+            "last_rank": 43
         },
         {
             "name_th": "ฟูกะ โทโคโระ",
             "image_url": "ฟูกะ-โทโคโระ",
-            "team_th": "ยังไม่มีข้อมูล",
+            "team_th": "Try Hard Gym",
             "country_th": "ญี่ปุ่น",
             "stats": {
                 "lifetime": {
@@ -4583,14 +4619,14 @@
                 }
             },
             "profile_file": "ฟูกะ-โทโคโระ.html",
-            "trend": "down",
-            "last_rank": 32
+            "trend": "steady",
+            "last_rank": 44
         },
         {
             "name_th": "ลีอันโดร ดูกลาส",
             "image_url": "ลีอันโดร-ดูกลาส",
-            "team_th": "ไม่ระบุ",
-            "country_th": "ไม่ระบุ",
+            "team_th": "Family Muay Thai",
+            "country_th": "บราซิล",
             "stats": {
                 "lifetime": {
                     "one": {
@@ -4642,12 +4678,12 @@
                 }
             },
             "profile_file": "ลีอันโดร-ดูกลาส.html",
-            "trend": "down",
-            "last_rank": 33
+            "trend": "steady",
+            "last_rank": 45
         },
         {
             "name_th": "อรรถชัย เอ็นเอฟ.ลูกสวน",
-            "image_url": "อรรถชัย-เอ็นเอฟลูกสวน",
+            "image_url": "อรรถชัย-เอ็นเอฟ.ลูกสวน",
             "team_th": "เอ็นเอฟ.ลูกสวน",
             "country_th": "ไทย",
             "stats": {
@@ -4701,8 +4737,8 @@
                 }
             },
             "profile_file": "อรรถชัย-เอ็นเอฟ.ลูกสวน.html",
-            "trend": "down",
-            "last_rank": 34
+            "trend": "steady",
+            "last_rank": 46
         },
         {
             "name_th": "เฉิง ยี่ หยาง",
@@ -4783,8 +4819,8 @@
                 }
             },
             "profile_file": "เฉิง-ยี่-หยาง.html",
-            "trend": "down",
-            "last_rank": 35
+            "trend": "steady",
+            "last_rank": 47
         }
     ]
 }

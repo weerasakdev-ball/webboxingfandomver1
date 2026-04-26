@@ -4,18 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BoxingFandom | ข่าวมวย ONE RWS มวยช่อง7 UFC และมวยสากลโลก</title>
+    
     <meta name="description" content="BoxingFandom ศูนย์รวมข่าวมวย ผลมวย ทีเด็ดมวย จัดอันดับนักชก ONE Championship, RWS ราชดำเนิน, มวยไทย 7 สี, UFC และมวยสากลระดับโลก อัปเดตล่าสุดที่นี่">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
-        /* ==========================================================
-           BOXINGFANDOM — CLEAN PORTAL EDITION
-           Tone: White / Light Gray · Professional · NYT / Apple
-        ========================================================== */
-
+        /* 2. ระบบ CSS และ Design System */
         :root {
+            /* Palette: กำหนดตัวแปรสี เน้นสี กรมท่า (Navy) และ แดง (Red) เพื่อให้ดูเหมือนรายการกีฬา */
             --white:       #ffffff;
             --gray-50:     #f9fafb;
             --gray-100:    #f3f4f6;
@@ -38,19 +36,22 @@
             --text-muted:     var(--gray-400);
             --border:         var(--gray-200);
 
+            /* Shadows: ระบบเงาเพิ่มมิติให้หน้าเว็บ */
             --shadow-xs: 0 1px 2px rgba(0,0,0,0.05);
             --shadow-sm: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
             --shadow-md: 0 4px 12px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.04);
 
+            /* Border Radius: ความโค้งมนของกรอบต่างๆ */
             --r-sm: 6px;
             --r-md: 10px;
             --r-lg: 14px;
         }
 
+        /* รีเซ็ตค่าเริ่มต้นของเบราว์เซอร์ */
         *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
-
         html { font-size: 15px; scroll-behavior: smooth; }
 
+        /* Base Styles: กำหนด Font และการจัดเรียง Layout พื้นฐานแบบ Flexbox */
         body {
             font-family: 'IBM Plex Sans Thai', 'Prompt', 'Segoe UI', sans-serif;
             background: var(--gray-100);
@@ -61,9 +62,7 @@
             -webkit-font-smoothing: antialiased;
         }
 
-        /* ==========================================================
-           TOP BAR — thin utility strip
-        ========================================================== */
+        /* ── TOP BAR ── แถบด้านบนสุดแสดงวันที่และลิงก์ด่วน */
         .topbar {
             background: var(--navy);
             color: rgba(255,255,255,0.7);
@@ -77,11 +76,8 @@
         .topbar a { color: rgba(255,255,255,0.7); text-decoration: none; }
         .topbar a:hover { color: #fff; }
         .topbar-links { display: flex; gap: 20px; }
-        .topbar-date { font-size: 12px; }
 
-        /* ==========================================================
-           HEADER
-        ========================================================== */
+        /* ── HEADER ── Header & Navigation: ใช้ Sticky เพื่อให้เมนูติดอยู่ด้านบนเสมอเวลาเลื่อนจอ */
         header {
             background: var(--white);
             border-bottom: 1px solid var(--border);
@@ -90,7 +86,6 @@
             top: 0;
             z-index: 900;
         }
-
         .header-inner {
             max-width: 1440px;
             margin: 0 auto;
@@ -101,23 +96,20 @@
             height: 64px;
             gap: 24px;
         }
-
         .logo-link { display: flex; align-items: center; text-decoration: none; flex-shrink: 0; }
         .site-logo { height: 42px; width: auto; border-radius: var(--r-sm); }
 
-        /* Nav */
+        /* Navigation Menu: รองรับระบบ Dropdown */
         nav { display: flex; align-items: center; flex: 1; justify-content: center; }
         nav > ul { list-style: none; display: flex; align-items: center; gap: 2px; }
         nav > ul > li { position: relative; }
-
         nav > ul > li > a {
             color: var(--gray-700);
             text-decoration: none;
             padding: 8px 12px;
             display: flex; align-items: center; gap: 3px;
             border-radius: var(--r-sm);
-            font-size: 14px;
-            font-weight: 500;
+            font-size: 14px; font-weight: 500;
             transition: background 0.15s, color 0.15s;
             white-space: nowrap;
         }
@@ -125,23 +117,27 @@
         nav > ul > li > a.nav-special { color: var(--gold); font-weight: 600; }
         nav > ul > li > a.nav-special:hover { background: #fef3c7; }
 
-        /* Dropdown */
+        /* 🌟 แก้ไข: Dropdown Styles (เอาช่องว่าง Dead Zone ออก) */
         nav ul ul {
             display: none;
-            position: absolute;
-            top: calc(100% + 6px);
+            position: absolute; 
+            top: 100%; /* เปลี่ยนจาก calc(100% + 6px) เป็น 100% เพื่อให้ติดกันพอดี */
             left: 0;
-            background: var(--white);
-            min-width: 240px;
+            background: var(--white); min-width: 240px;
             flex-direction: column;
             border-radius: var(--r-md);
             box-shadow: var(--shadow-md), 0 0 0 1px var(--border);
             border-top: 2px solid var(--red);
-            z-index: 1000;
-            padding: 6px;
+            z-index: 1000; padding: 6px;
         }
         nav ul li:hover > ul { display: flex; }
-        nav ul ul ul { top: -6px; left: calc(100% + 6px); border-top: none; border-left: 2px solid var(--red); }
+        /* 🌟 แก้ไข: Dropdown ชั้นที่ 3 (เอาช่องว่าง Dead Zone ออกด้วย) */
+        nav ul ul ul { 
+            top: 0; /* ปรับให้อยู่ระดับเดียวกันพอดี */
+            left: 100%; /* เปลี่ยนจาก calc(100% + 6px) ให้ติดชิดขอบขวาพอดี */
+            border-top: none; 
+            border-left: 2px solid var(--red); 
+        }
         nav ul ul li a {
             padding: 9px 14px; border-radius: var(--r-sm);
             color: var(--gray-700); font-size: 13.5px;
@@ -150,14 +146,11 @@
         }
         nav ul ul li a:hover { background: var(--gray-50); color: var(--gray-900); }
 
-        /* Search */
+        /* Search Box: ดีไซน์ให้โค้งมน (Pill-shaped) และมี Focus state ที่เปลี่ยนสีขอบเป็นสีแดง */
         .search-container { position: relative; margin-left: 12px; flex-shrink: 0; }
         .search-box {
-            display: flex;
-            border-radius: 30px;
-            overflow: hidden;
-            border: 1px solid var(--border);
-            background: var(--gray-50);
+            display: flex; border-radius: 30px; overflow: hidden;
+            border: 1px solid var(--border); background: var(--gray-50);
             transition: border-color 0.2s, box-shadow 0.2s;
         }
         .search-box:focus-within { border-color: var(--red); box-shadow: 0 0 0 3px rgba(200,16,46,0.1); }
@@ -173,6 +166,8 @@
             transition: background 0.2s; font-family: 'IBM Plex Sans Thai', sans-serif;
         }
         .search-box button:hover { background: #a60d26; }
+        
+        /* กล่องแสดงผลลัพธ์การค้นหาแบบ Real-time */
         .search-dropdown {
             position: absolute; top: calc(100% + 8px); left: 0; width: 100%;
             background: var(--white); box-shadow: var(--shadow-md);
@@ -189,20 +184,15 @@
         .search-dropdown-name { font-weight: 600; font-size: 13.5px; display: block; }
         .search-dropdown-meta { font-size: 12px; color: var(--text-secondary); margin-top: 1px; display: block; }
 
-        /* ==========================================================
-           PAGE LAYOUT — 2-column portal
-           Left: main ranking content (wide)
-           Right: sidebar widgets (narrower)
-        ========================================================== */
+        /* ── PAGE LAYOUT — single column ── */
         .page-wrapper {
             flex: 1;
-            max-width: 1440px;
+            max-width: 960px;
             margin: 0 auto;
             width: 100%;
             padding: 28px 5% 60px;
         }
 
-        /* Page title strip */
         .page-header {
             display: flex;
             align-items: baseline;
@@ -214,65 +204,10 @@
             gap: 10px;
         }
         .page-header-left { display: flex; align-items: baseline; gap: 14px; }
-        .page-title {
-            font-size: 22px;
-            font-weight: 700;
-            color: var(--gray-900);
-            letter-spacing: -0.02em;
-        }
+        .page-title { font-size: 22px; font-weight: 700; color: var(--gray-900); letter-spacing: -0.02em; }
         .page-subtitle { font-size: 13px; color: var(--text-secondary); font-weight: 400; }
 
-        /* Topic pills */
-        .topic-pills {
-            display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px;
-        }
-        .topic-pill {
-            background: var(--white); border: 1px solid var(--border);
-            color: var(--gray-700); padding: 5px 14px;
-            border-radius: 30px; font-size: 12.5px; font-weight: 500;
-            text-decoration: none; transition: all 0.2s; white-space: nowrap;
-            box-shadow: var(--shadow-xs);
-        }
-        .topic-pill:hover { border-color: var(--red); color: var(--red); background: var(--red-light); }
-        .topic-pill.active { background: var(--gray-900); color: #fff; border-color: var(--gray-900); }
-
-        /* 2-column grid */
-        .portal-grid {
-            display: grid;
-            grid-template-columns: 1fr 320px;
-            gap: 28px;
-            align-items: start;
-        }
-
-        /* ==========================================================
-           MAIN COLUMN — Ranking card
-        ========================================================== */
-        .card {
-            background: var(--white);
-            border-radius: var(--r-lg);
-            border: 1px solid var(--border);
-            box-shadow: var(--shadow-sm);
-            overflow: hidden;
-        }
-
-        .card-header {
-            padding: 18px 24px;
-            border-bottom: 1px solid var(--border);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 12px;
-            background: var(--white);
-        }
-
-        .card-title {
-            font-size: 16px;
-            font-weight: 700;
-            color: var(--gray-900);
-            display: flex; align-items: center; gap: 8px;
-        }
-
+        /* Live Update Badge: มีการใช้ CSS Animation ทำไฟกะพริบเพิ่มความรู้สึก "สดใหม่" */
         .badge-live {
             display: inline-flex; align-items: center; gap: 5px;
             background: #ecfdf5; border: 1px solid #a7f3d0;
@@ -285,532 +220,356 @@
         }
         @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
 
-        /* Filter bar */
-        .filter-bar {
-            padding: 14px 24px;
-            border-bottom: 1px solid var(--border);
-            background: var(--gray-50);
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-            align-items: flex-end;
+        /* Topic Pills: แท็กหมวดหมู่เนื้อหา */
+        .topic-pills { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px; }
+        .topic-pill {
+            background: var(--white); border: 1px solid var(--border);
+            color: var(--gray-700); padding: 5px 14px;
+            border-radius: 30px; font-size: 12.5px; font-weight: 500;
+            text-decoration: none; transition: all 0.2s; white-space: nowrap;
+            box-shadow: var(--shadow-xs);
+        }
+        .topic-pill:hover { border-color: var(--red); color: var(--red); background: var(--red-light); }
+        .topic-pill.active { background: var(--gray-900); color: #fff; border-color: var(--gray-900); }
+
+        /* ── MAIN RANKING CARD ── กล่องจัดอันดับหลัก */
+        .card {
+            background: var(--white);
+            border-radius: var(--r-lg);
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+            margin-bottom: 8px;
         }
 
-        .filter-group { display: flex; flex-direction: column; gap: 4px; }
-        .filter-group label {
-            font-size: 11px; font-weight: 600; color: var(--text-muted);
-            text-transform: uppercase; letter-spacing: 0.06em;
+        .ranking-section-title {
+            display: flex; align-items: center; justify-content: space-between;
+            margin-bottom: 20px; padding-bottom: 14px;
+            border-bottom: 3px solid var(--gray-900);
+            flex-wrap: wrap; gap: 10px;
         }
-        .filter-group select,
-        .filter-group input {
-            padding: 7px 28px 7px 10px;
-            border-radius: var(--r-sm);
-            border: 1px solid var(--border);
+        .ranking-section-title h2 {
+            font-size: 20px; font-weight: 800; color: var(--gray-900);
+            letter-spacing: -0.02em; text-transform: uppercase;
+        }
+        .ranking-section-title h2 span { color: var(--red); }
+
+        /* แท็บเลือกน้ำหนัก */
+        .division-tabs {
+            display: flex; gap: 0; overflow-x: auto;
+            border-bottom: 1px solid var(--border);
             background: var(--white);
-            color: var(--gray-900);
-            font-size: 13px;
-            outline: none;
+            -webkit-overflow-scrolling: touch; scrollbar-width: none;
+        }
+        .division-tabs::-webkit-scrollbar { display: none; }
+        .div-tab {
+            padding: 12px 18px; font-size: 12.5px; font-weight: 600;
+            color: var(--text-secondary); cursor: pointer;
+            border-bottom: 3px solid transparent; white-space: nowrap;
+            transition: color 0.15s, border-color 0.15s;
+            background: none; border-top: none; border-left: none; border-right: none;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+            letter-spacing: 0.01em; text-transform: uppercase; flex-shrink: 0;
+        }
+        .div-tab:hover { color: var(--gray-900); }
+        .div-tab.active { color: var(--gray-900); border-bottom-color: var(--red); font-weight: 700; }
+
+        /* Champion Hero: ส่วนแสดงแชมป์ด้านบน ใช้ไล่เฉดสี (Gradient) เพื่อความหรูหรา */
+        .champ-hero {
+            display: flex; align-items: center; gap: 0;
+            background: var(--gray-900); color: var(--white);
+            overflow: hidden; position: relative; min-height: 130px;
+        }
+        .champ-hero::before {
+            content: ''; position: absolute; inset: 0;
+            background: linear-gradient(135deg, rgba(200,16,46,0.18) 0%, transparent 60%);
+            pointer-events: none;
+        }
+        .champ-hero-photo-wrap { position: relative; width: 120px; flex-shrink: 0; align-self: stretch; overflow: hidden; }
+        .champ-hero-photo { width: 120px; height: 100%; min-height: 130px; object-fit: cover; object-position: top center; display: block; filter: grayscale(15%); }
+        .champ-hero-body { flex: 1; padding: 18px 22px; display: flex; flex-direction: column; justify-content: center; gap: 6px; position: relative; z-index: 1; }
+        .champ-hero-label { display: inline-flex; align-items: center; gap: 6px; font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.5); }
+        .champ-hero-label::before { content: ''; display: block; width: 14px; height: 2px; background: var(--red); }
+        .champ-hero-division { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red); margin-bottom: 2px; }
+        .champ-hero-name { font-size: 22px; font-weight: 800; line-height: 1.1; letter-spacing: -0.02em; color: var(--white); }
+        .champ-hero-belt { display: inline-flex; align-items: center; gap: 5px; background: rgba(200,16,46,0.25); border: 1px solid rgba(200,16,46,0.5); color: #fca5a5; font-size: 10.5px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 10px; border-radius: 3px; width: fit-content; }
+        .champ-hero-record { font-size: 12px; color: rgba(255,255,255,0.55); margin-top: 2px; }
+        .champ-hero-record span { color: rgba(255,255,255,0.85); font-weight: 600; }
+
+        /* แถบตัวกรอง (Filters) */
+        .filter-bar {
+            padding: 12px 20px; border-bottom: 1px solid var(--border);
+            background: var(--gray-50); display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end;
+        }
+        .filter-group { display: flex; flex-direction: column; gap: 4px; }
+        .filter-group label { font-size: 10.5px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.07em; }
+        .filter-group select, .filter-group input {
+            padding: 6px 26px 6px 10px; border-radius: var(--r-sm);
+            border: 1px solid var(--border); background: var(--white);
+            color: var(--gray-900); font-size: 12.5px; outline: none;
             font-family: 'IBM Plex Sans Thai', sans-serif;
             transition: border-color 0.15s, box-shadow 0.15s;
             appearance: none; -webkit-appearance: none;
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%239ca3af' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
-            background-repeat: no-repeat;
-            background-position: right 10px center;
+            background-repeat: no-repeat; background-position: right 9px center;
             box-shadow: var(--shadow-xs);
         }
-        .filter-group input { padding-right: 10px; background-image: none; min-width: 140px; }
-        .filter-group select:focus, .filter-group input:focus {
-            border-color: var(--red);
-            box-shadow: 0 0 0 3px rgba(200,16,46,0.08);
-        }
+        .filter-group input { padding-right: 10px; background-image: none; min-width: 130px; }
+        .filter-group select:focus, .filter-group input:focus { border-color: var(--red); box-shadow: 0 0 0 3px rgba(200,16,46,0.08); }
 
-        /* ==========================================================
-           UFC-STYLE RANKING SECTION
-        ========================================================== */
-
-        /* Section title bar */
-        .ranking-section-title {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 20px;
-            padding-bottom: 14px;
-            border-bottom: 3px solid var(--gray-900);
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .ranking-section-title h2 {
-            font-size: 20px;
-            font-weight: 800;
-            color: var(--gray-900);
-            letter-spacing: -0.02em;
-            text-transform: uppercase;
-        }
-        .ranking-section-title h2 span {
-            color: var(--red);
-        }
-        .ranking-section-title .badge-live { margin-left: 12px; }
-
-        /* Division tab strip */
-        .division-tabs {
-            display: flex;
-            gap: 0;
-            overflow-x: auto;
-            border-bottom: 1px solid var(--border);
-            background: var(--white);
-            -webkit-overflow-scrolling: touch;
-            scrollbar-width: none;
-        }
-        .division-tabs::-webkit-scrollbar { display: none; }
-
-        .div-tab {
-            padding: 12px 18px;
-            font-size: 12.5px;
-            font-weight: 600;
-            color: var(--text-secondary);
-            cursor: pointer;
-            border-bottom: 3px solid transparent;
-            white-space: nowrap;
-            transition: color 0.15s, border-color 0.15s;
-            background: none;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            font-family: 'IBM Plex Sans Thai', sans-serif;
-            letter-spacing: 0.01em;
-            text-transform: uppercase;
-            flex-shrink: 0;
-        }
-        .div-tab:hover { color: var(--gray-900); }
-        .div-tab.active {
-            color: var(--gray-900);
-            border-bottom-color: var(--red);
-            font-weight: 700;
-        }
-
-        /* Champion Hero Banner — UFC style */
-        .champ-hero {
-            display: flex;
-            align-items: center;
-            gap: 0;
-            background: var(--gray-900);
-            color: var(--white);
-            overflow: hidden;
-            position: relative;
-            min-height: 130px;
-        }
-        .champ-hero::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(135deg, rgba(200,16,46,0.18) 0%, transparent 60%);
-            pointer-events: none;
-        }
-        .champ-hero-photo-wrap {
-            position: relative;
-            width: 120px;
-            flex-shrink: 0;
-            align-self: stretch;
-            overflow: hidden;
-        }
-        .champ-hero-photo {
-            width: 120px;
-            height: 100%;
-            min-height: 130px;
-            object-fit: cover;
-            object-position: top center;
-            display: block;
-            filter: grayscale(15%);
-        }
-        .champ-hero-body {
-            flex: 1;
-            padding: 18px 22px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 6px;
-            position: relative;
-            z-index: 1;
-        }
-        .champ-hero-label {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            font-size: 10px;
-            font-weight: 700;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-            color: rgba(255,255,255,0.5);
-        }
-        .champ-hero-label::before {
-            content: '';
-            display: block;
-            width: 14px;
-            height: 2px;
-            background: var(--red);
-        }
-        .champ-hero-division {
-            font-size: 11px;
-            font-weight: 700;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--red);
-            margin-bottom: 2px;
-        }
-        .champ-hero-name {
-            font-size: 22px;
-            font-weight: 800;
-            line-height: 1.1;
-            letter-spacing: -0.02em;
-            color: var(--white);
-        }
-        .champ-hero-belt {
-            display: inline-flex;
-            align-items: center;
-            gap: 5px;
-            background: rgba(200,16,46,0.25);
-            border: 1px solid rgba(200,16,46,0.5);
-            color: #fca5a5;
-            font-size: 10.5px;
-            font-weight: 700;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            padding: 3px 10px;
-            border-radius: 3px;
-            width: fit-content;
-        }
-        .champ-hero-record {
-            font-size: 12px;
-            color: rgba(255,255,255,0.55);
-            margin-top: 2px;
-        }
-        .champ-hero-record span { color: rgba(255,255,255,0.85); font-weight: 600; }
-
-        /* Ranking list — UFC clean list style */
-        .ranking-list {
-            list-style: none;
-            padding: 0;
-        }
+        /* ── RANKING LIST ── รายการจัดอันดับ */
+        .ranking-list { list-style: none; padding: 0; }
         .ranking-list li {
-            display: flex;
-            align-items: center;
-            gap: 14px;
-            padding: 11px 22px;
-            border-bottom: 1px solid var(--gray-100);
-            cursor: pointer;
-            transition: background 0.12s;
-            text-decoration: none;
-            color: inherit;
+            display: flex; align-items: center; gap: 14px;
+            padding: 11px 22px; border-bottom: 1px solid var(--gray-100);
+            cursor: pointer; transition: background 0.12s;
+            text-decoration: none; color: inherit;
         }
         .ranking-list li:last-child { border-bottom: none; }
         .ranking-list li:hover { background: var(--gray-50); }
 
-        .rl-rank {
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--text-muted);
-            width: 28px;
-            text-align: center;
-            flex-shrink: 0;
-            font-variant-numeric: tabular-nums;
-        }
+        .rl-rank { font-size: 14px; font-weight: 700; color: var(--text-muted); width: 28px; text-align: center; flex-shrink: 0; font-variant-numeric: tabular-nums; }
         .rl-rank.r1 { color: #92400e; }
-
-        .rl-photo {
-            width: 48px;
-            height: 48px;
-            border-radius: 50%;
-            object-fit: cover;
-            object-position: top;
-            border: 2px solid var(--border);
-            background: var(--gray-100);
-            flex-shrink: 0;
-            transition: border-color 0.15s;
-        }
+        .rl-photo { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; object-position: top; border: 2px solid var(--border); background: var(--gray-100); flex-shrink: 0; transition: border-color 0.15s; }
         .ranking-list li:hover .rl-photo { border-color: var(--red); }
-
         .rl-info { flex: 1; min-width: 0; }
-        .rl-name {
-            font-size: 15px;
-            font-weight: 700;
-            color: var(--gray-900);
-            display: block;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-        .rl-meta {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin-top: 3px;
-            flex-wrap: wrap;
-        }
-        .rl-country {
-            font-size: 12px;
-            color: var(--text-secondary);
-        }
-        .rl-team {
-            font-size: 12px;
-            color: var(--text-muted);
-        }
+        .rl-name { font-size: 15px; font-weight: 700; color: var(--gray-900); display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .rl-meta { display: flex; align-items: center; gap: 8px; margin-top: 3px; flex-wrap: wrap; }
+        .rl-country { font-size: 12px; color: var(--text-secondary); }
+        .rl-team { font-size: 12px; color: var(--text-muted); }
         .rl-team::before { content: '·'; margin-right: 8px; }
-
-        .rl-right {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            gap: 4px;
-            flex-shrink: 0;
-        }
-        .rl-score {
-            font-size: 20px;
-            font-weight: 800;
-            color: var(--red);
-            line-height: 1;
-        }
-        .rl-form {
-            display: flex;
-            gap: 3px;
-        }
-
-        .form-badge {
-            display: inline-flex; align-items: center; justify-content: center;
-            width: 20px; height: 20px; border-radius: 4px;
-            font-size: 10px; font-weight: 800;
-        }
+        .rl-right { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; flex-shrink: 0; }
+        .rl-score { font-size: 20px; font-weight: 800; color: var(--red); line-height: 1; }
+        .rl-form { display: flex; gap: 3px; }
+        
+        /* ป้ายบอกฟอร์มการชก W=Win, L=Loss, D=Draw */
+        .form-badge { display: inline-flex; align-items: center; justify-content: center; width: 20px; height: 20px; border-radius: 4px; font-size: 10px; font-weight: 800; }
         .badge-w { background: #dcfce7; color: #166534; }
         .badge-l { background: #fee2e2; color: #991b1b; }
         .badge-d { background: #fef3c7; color: #92400e; }
 
-        /* Movement indicator like UFC (↑ ↓ NR) */
-        .rl-move {
-            font-size: 11px;
-            font-weight: 700;
-            padding: 1px 6px;
-            border-radius: 3px;
-        }
-        .rl-move.up   { color: #15803d; background: #dcfce7; }
-        .rl-move.down { color: #991b1b; background: #fee2e2; }
-        .rl-move.nr   { color: var(--text-muted); background: var(--gray-100); }
-
-        /* Filter bar compact */
-        .filter-bar {
-            padding: 12px 20px;
-            border-bottom: 1px solid var(--border);
-            background: var(--gray-50);
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            align-items: flex-end;
-        }
-
-        .filter-group { display: flex; flex-direction: column; gap: 4px; }
-        .filter-group label {
-            font-size: 10.5px; font-weight: 700; color: var(--text-muted);
-            text-transform: uppercase; letter-spacing: 0.07em;
-        }
-        .filter-group select,
-        .filter-group input {
-            padding: 6px 26px 6px 10px;
-            border-radius: var(--r-sm);
-            border: 1px solid var(--border);
-            background: var(--white);
-            color: var(--gray-900);
-            font-size: 12.5px;
-            outline: none;
-            font-family: 'IBM Plex Sans Thai', sans-serif;
-            transition: border-color 0.15s, box-shadow 0.15s;
-            appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%239ca3af' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
-            background-repeat: no-repeat;
-            background-position: right 9px center;
-            box-shadow: var(--shadow-xs);
-        }
-        .filter-group input { padding-right: 10px; background-image: none; min-width: 130px; }
-        .filter-group select:focus, .filter-group input:focus {
-            border-color: var(--red);
-            box-shadow: 0 0 0 3px rgba(200,16,46,0.08);
-        }
-
-        /* Load more */
         .load-more-wrap { text-align: center; padding: 18px; border-top: 1px solid var(--border); }
         #loadMoreBtn {
             background: var(--white); color: var(--gray-700);
             padding: 9px 28px; border: 1px solid var(--border);
-            border-radius: 30px; font-weight: 600; cursor: pointer;
-            font-size: 13px; transition: all 0.2s;
-            font-family: 'IBM Plex Sans Thai', sans-serif;
-            box-shadow: var(--shadow-xs);
+            border-radius: 30px; font-weight: 600; cursor: pointer; font-size: 13px;
+            transition: all 0.2s; font-family: 'IBM Plex Sans Thai', sans-serif; box-shadow: var(--shadow-xs);
         }
         #loadMoreBtn:hover { background: var(--gray-900); color: #fff; border-color: var(--gray-900); }
 
-        /* Shimmer loading */
-        @keyframes shimmer {
-            0% { background-position: -600px 0; }
-            100% { background-position: 600px 0; }
-        }
+        /* Skeleton Screen: ในขณะที่รอโหลดข้อมูล ระบบจะแสดงแท่งเทาๆ สั่นๆ เพื่อให้ User รู้ว่า "ข้อมูลกำลังมา" */
+        @keyframes shimmer { 0%{background-position:-600px 0} 100%{background-position:600px 0} }
         .skeleton {
             background: linear-gradient(90deg, var(--gray-100) 25%, var(--gray-50) 50%, var(--gray-100) 75%);
-            background-size: 600px 100%;
-            animation: shimmer 1.4s infinite;
-            border-radius: 4px;
+            background-size: 600px 100%; animation: shimmer 1.4s infinite; border-radius: 4px;
         }
 
-        /* ==========================================================
-           SIDEBAR — stacked widget cards
-        ========================================================== */
-        .sidebar { display: flex; flex-direction: column; gap: 20px; }
+        /* ═══════════════════════════════════════════════════
+           WIDGETS — Google-style horizontal row below rankings
+           ส่วนด้านล่างที่ดึงข้อมูลย่อยๆ มาแสดง เพื่อให้หน้าเว็บดูมีเนื้อหาที่หลากหลาย
+        ═══════════════════════════════════════════════════ */
+        .widgets-section {
+            margin-top: 32px;
+        }
 
+        .widgets-section-label {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .widgets-section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        /* 3-column grid for top widgets (ใช้ Grid system ในการจัดเรียง) */
+        .widgets-grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        /* 2-column grid for bottom widgets */
+        .widgets-grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        /* Full-width widget row */
+        .widgets-grid-full {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        /* ── Widget base ── */
         .widget {
             background: var(--white);
             border-radius: var(--r-lg);
             border: 1px solid var(--border);
             box-shadow: var(--shadow-sm);
             overflow: hidden;
+            display: flex;
+            flex-direction: column;
         }
 
         .widget-head {
-            padding: 14px 18px;
+            padding: 13px 16px 11px;
             border-bottom: 1px solid var(--border);
             display: flex; align-items: center; justify-content: space-between;
         }
         .widget-head-title {
-            font-size: 13px; font-weight: 700;
-            color: var(--gray-900); letter-spacing: 0.01em;
-            display: flex; align-items: center; gap: 7px;
+            font-size: 13px; font-weight: 700; color: var(--gray-900);
+            letter-spacing: 0.01em; display: flex; align-items: center; gap: 6px;
         }
         .widget-head-link {
             font-size: 12px; color: var(--text-secondary);
-            text-decoration: none; font-weight: 500;
-            transition: color 0.15s;
+            text-decoration: none; font-weight: 500; transition: color 0.15s;
         }
         .widget-head-link:hover { color: var(--red); }
 
-        .widget-body { padding: 6px 0; }
+        .widget-body { padding: 4px 0; flex: 1; }
 
-        /* Widget row */
+        /* Compact widget rows */
         .w-row {
-            display: flex; align-items: center; gap: 12px;
-            padding: 10px 18px; cursor: pointer;
+            display: flex; align-items: center; gap: 10px;
+            padding: 9px 16px; cursor: pointer;
             transition: background 0.12s; text-decoration: none; color: inherit;
         }
         .w-row:hover { background: var(--gray-50); }
-        .w-row:last-child { border-bottom: none; }
         .w-row + .w-row { border-top: 1px solid var(--gray-100); }
 
-        .w-rank {
-            font-size: 13px; font-weight: 700; color: var(--gray-400);
-            width: 20px; text-align: center; flex-shrink: 0;
-        }
-        .w-rank.gold { color: #b45309; }
+        .w-rank { font-size: 13px; font-weight: 700; color: var(--gray-400); width: 18px; text-align: center; flex-shrink: 0; }
+        .w-rank.gold   { color: #b45309; }
         .w-rank.silver { color: #6b7280; }
         .w-rank.bronze { color: #92400e; }
 
-        .w-avatar {
-            width: 38px; height: 38px; border-radius: 50%;
-            object-fit: cover; border: 1px solid var(--border);
-            background: var(--gray-100); flex-shrink: 0;
-        }
+        .w-avatar { width: 34px; height: 34px; border-radius: 50%; object-fit: cover; border: 1px solid var(--border); background: var(--gray-100); flex-shrink: 0; }
         .w-info { flex: 1; min-width: 0; }
-        .w-name {
-            font-size: 13.5px; font-weight: 600; color: var(--gray-900);
-            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-            display: block;
-        }
-        .w-meta { font-size: 11.5px; color: var(--text-secondary); margin-top: 1px; display: block; }
-        .w-score { font-size: 16px; font-weight: 700; color: var(--red); flex-shrink: 0; }
+        .w-name { font-size: 13px; font-weight: 600; color: var(--gray-900); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
+        .w-meta { font-size: 11px; color: var(--text-secondary); margin-top: 1px; display: block; }
+        .w-score { font-size: 15px; font-weight: 700; color: var(--red); flex-shrink: 0; }
 
-        /* Widget footer button */
         .widget-foot a {
-            display: block; padding: 12px 18px;
+            display: block; padding: 10px 16px;
             border-top: 1px solid var(--border);
-            font-size: 12.5px; font-weight: 600; color: var(--text-secondary);
-            text-decoration: none; text-align: center;
-            background: var(--gray-50);
+            font-size: 12px; font-weight: 600; color: var(--text-secondary);
+            text-decoration: none; text-align: center; background: var(--gray-50);
             transition: background 0.15s, color 0.15s;
         }
         .widget-foot a:hover { background: var(--gray-100); color: var(--gray-900); }
 
-        /* AI Widget */
-        .ai-widget-img {
-            width: 100%; display: block;
-            border-bottom: 1px solid var(--border);
+        /* ── AI Predictor banner widget (full width, horizontal) ── */
+        .ai-widget-banner {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            background: var(--gray-900);
+            border-radius: var(--r-lg);
+            overflow: hidden;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-sm);
         }
-        .ai-widget-body { padding: 14px 18px; }
-        .ai-widget-desc { font-size: 13px; color: var(--text-secondary); line-height: 1.65; margin-bottom: 14px; }
+        .ai-widget-banner-img {
+            width: 200px;
+            height: 120px;
+            object-fit: cover;
+            flex-shrink: 0;
+            display: block;
+        }
+        .ai-widget-banner-body {
+            flex: 1;
+            padding: 20px 28px;
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+        .ai-widget-banner-text { flex: 1; }
+        .ai-widget-banner-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .ai-widget-banner-desc {
+            font-size: 13px;
+            color: rgba(255,255,255,0.6);
+            line-height: 1.6;
+        }
         .btn-primary {
-            display: block; text-align: center;
+            display: inline-flex; align-items: center; gap: 6px;
             background: var(--red); color: #fff;
-            padding: 10px 20px; border-radius: var(--r-sm);
-            text-decoration: none; font-weight: 600; font-size: 13.5px;
-            transition: background 0.2s;
+            padding: 10px 22px; border-radius: var(--r-sm);
+            text-decoration: none; font-weight: 600; font-size: 13px;
+            transition: background 0.2s; white-space: nowrap; flex-shrink: 0;
         }
         .btn-primary:hover { background: #a60d26; }
 
-        /* Tier widget preview */
-        .tier-preview { padding: 14px 18px; }
+        /* ── Tier List widget horizontal ── */
+        .tier-widget-body {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 14px 16px;
+        }
+        .tier-rows { flex: 1; display: flex; flex-direction: column; gap: 5px; }
         .tier-row {
-            display: flex; align-items: center; gap: 8px;
-            margin-bottom: 7px; height: 30px;
+            display: flex; align-items: center; gap: 8px; height: 26px;
         }
         .tier-label {
-            width: 32px; height: 30px; border-radius: 5px;
+            width: 28px; height: 26px; border-radius: 4px;
             display: flex; align-items: center; justify-content: center;
-            font-weight: 800; font-size: 14px; color: #fff;
-            flex-shrink: 0;
+            font-weight: 800; font-size: 13px; color: #fff; flex-shrink: 0;
         }
         .tier-slots {
             flex: 1; background: var(--gray-50); border: 1px dashed var(--gray-300);
-            border-radius: 5px; display: flex; align-items: center;
-            gap: 5px; padding: 3px 6px; height: 30px;
+            border-radius: 4px; display: flex; align-items: center;
+            gap: 4px; padding: 2px 5px; height: 26px;
         }
-        .tier-dot { width: 22px; height: 22px; border-radius: 50%; background: var(--gray-200); border: 2px solid var(--white); }
-        .tier-caption { font-size: 12.5px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 14px; }
+        .tier-dot { width: 20px; height: 20px; border-radius: 50%; background: var(--gray-200); border: 2px solid var(--white); }
+        .tier-widget-cta { display: flex; flex-direction: column; gap: 8px; align-items: flex-end; flex-shrink: 0; }
+        .tier-caption { font-size: 12px; color: var(--text-secondary); line-height: 1.55; max-width: 140px; text-align: right; }
         .btn-outline {
-            display: block; text-align: center;
+            display: inline-flex; align-items: center;
             background: var(--white); color: var(--red);
-            padding: 9px 20px; border-radius: var(--r-sm);
-            text-decoration: none; font-weight: 600; font-size: 13px;
-            border: 1px solid var(--red-border);
-            transition: all 0.2s;
+            padding: 8px 16px; border-radius: var(--r-sm);
+            text-decoration: none; font-weight: 600; font-size: 12.5px;
+            border: 1px solid var(--red-border); transition: all 0.2s; white-space: nowrap;
         }
         .btn-outline:hover { background: var(--red); color: #fff; border-color: var(--red); }
 
-        /* Green accent for Raja */
+        /* Green accent */
         .widget-green .widget-head { border-left: 3px solid var(--green); }
         .widget-green .widget-head-title { color: var(--green); }
 
-        /* ==========================================================
-           FOOTER
-        ========================================================== */
-        footer {
-            background: var(--white);
-            border-top: 1px solid var(--border);
-            padding: 28px 5%;
-            text-align: center;
-        }
-        footer nav ul {
-            list-style: none; display: flex;
-            justify-content: center; flex-wrap: wrap; gap: 4px; margin-bottom: 14px;
-        }
-        footer nav ul li a {
-            padding: 5px 12px; color: var(--text-secondary);
-            font-size: 13px; text-decoration: none; border-radius: var(--r-sm);
-            transition: all 0.15s;
-        }
+        /* ── FOOTER ── */
+        footer { background: var(--white); border-top: 1px solid var(--border); padding: 28px 5%; text-align: center; }
+        footer nav ul { list-style: none; display: flex; justify-content: center; flex-wrap: wrap; gap: 4px; margin-bottom: 14px; }
+        footer nav ul li a { padding: 5px 12px; color: var(--text-secondary); font-size: 13px; text-decoration: none; border-radius: var(--r-sm); transition: all 0.15s; }
         footer nav ul li a:hover { color: var(--gray-900); background: var(--gray-100); }
         footer p { font-size: 12.5px; color: var(--text-muted); }
 
-        /* ==========================================================
-           RESPONSIVE
-        ========================================================== */
-        @media (max-width: 1100px) {
-            .portal-grid { grid-template-columns: 1fr; }
-            .sidebar { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+        /* ── RESPONSIVE ── จัดการแสดงผลบนมือถือและแท็บเล็ต */
+        @media (max-width: 900px) {
+            .widgets-grid-3 { grid-template-columns: 1fr 1fr; }
         }
         @media (max-width: 768px) {
-            header .topbar { display: none; }
+            .topbar { display: none; } /* ซ่อน topbar บนมือถือ */
             .header-inner { height: auto; padding: 12px 4%; flex-wrap: wrap; }
             nav { width: 100%; overflow-x: auto; justify-content: flex-start; }
             nav > ul { flex-wrap: wrap; gap: 2px; }
@@ -818,19 +577,24 @@
             .search-box { max-width: 100%; }
             .search-box input[type="text"] { width: 100%; }
             .page-wrapper { padding: 20px 4% 40px; }
-            .filter-bar { gap: 10px; }
-            .sidebar { grid-template-columns: 1fr; }
+            /* บีบ Widget ให้เหลือ 1 คอลัมน์บนมือถือ */
+            .widgets-grid-3 { grid-template-columns: 1fr; }
+            .widgets-grid-2 { grid-template-columns: 1fr; }
+            .ai-widget-banner { flex-direction: column; }
+            .ai-widget-banner-img { width: 100%; height: 140px; }
+            .ai-widget-banner-body { flex-direction: column; align-items: flex-start; gap: 14px; padding: 18px; }
+            .tier-widget-body { flex-direction: column; align-items: stretch; }
+            .tier-widget-cta { align-items: flex-start; }
+            .tier-caption { text-align: left; max-width: 100%; }
         }
         @media (max-width: 480px) {
             .page-title { font-size: 18px; }
             .filter-group select, .filter-group input { font-size: 12px; }
         }
-
     </style>
 </head>
 <body>
-
-    <!-- Top bar -->
+    
     <div class="topbar">
         <div class="topbar-date" id="today-date">วันนี้</div>
         <div class="topbar-links">
@@ -840,19 +604,16 @@
         </div>
     </div>
 
-    <!-- Header -->
     <header>
         <div class="header-inner">
             <a href="index.html" class="logo-link">
                 <img src="https://res.cloudinary.com/dia2yts2f/image/upload/v1773366539/boxingfandom.logo_lhocek.jpg" alt="BoxingFandom" class="site-logo">
             </a>
-
             <nav>
                 <ul>
                     <li><a href="pages/articles/index.html">บทความ</a></li>
                     <li><a href="pages/news/index.html">ข่าว</a></li>
                     <li><a href="pages/analysis/index.html">วิเคราะห์มวย</a></li>
-
                     <li>
                         <a href="#">เทียบสถิติ ▾</a>
                         <ul>
@@ -861,10 +622,8 @@
                             <li><a href="pages/stats/analysis.html">วิเคราะห์เจาะลึก (AI)</a></li>
                         </ul>
                     </li>
-
                     <li><a href="pages/fighter/index.html">นักมวยทั้งหมด</a></li>
                     <li><a href="pages/TierList.html" class="nav-special">⭐ จัดเทียร์</a></li>
-
                     <li>
                         <a href="#">Ranking ▾</a>
                         <ul>
@@ -885,7 +644,6 @@
                             <li><a href="pages/rankings/rajadamnern.html">อันดับเวทีราชดำเนิน</a></li>
                         </ul>
                     </li>
-
                     <li>
                         <a href="#">แชมป์ ▾</a>
                         <ul>
@@ -894,7 +652,6 @@
                         </ul>
                     </li>
                 </ul>
-
                 <div class="search-container">
                     <div class="search-box">
                         <input type="text" id="mainSearchInput" placeholder="ค้นหานักมวย..." autocomplete="off">
@@ -906,10 +663,8 @@
         </div>
     </header>
 
-    <!-- Page content -->
     <div class="page-wrapper">
 
-        <!-- Page header + topic pills -->
         <div class="page-header">
             <div class="page-header-left">
                 <h1 class="page-title">Global Ranking Board</h1>
@@ -927,155 +682,152 @@
             <a href="pages/analysis/index.html" class="topic-pill">🥊 ทีเด็ดมวย</a>
         </div>
 
-        <!-- 2-column portal -->
-        <div class="portal-grid">
+        <div class="ranking-section-title">
+            <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+                <h2>จัดอันดับนักชก <span>โดย BoxingFandom</span></h2>
+                <span class="badge-live">LIVE UPDATE</span>
+            </div>
+            <span style="font-size:12px;color:var(--text-muted);" id="ranking-updated-date"></span>
+        </div>
 
-            <!-- ── MAIN COLUMN ── -->
-            <div>
-
-                <!-- Section Title — UFC style -->
-                <div class="ranking-section-title">
-                    <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
-                        <h2>จัดอันดับนักชก <span>โดย BoxingFandom</span></h2>
-                        <span class="badge-live">LIVE UPDATE</span>
-                    </div>
-                    <span style="font-size:12px;color:var(--text-muted);" id="ranking-updated-date"></span>
-                </div>
-
-                <div class="card">
-
-                    <!-- Division Tabs -->
-                    <div class="division-tabs" id="division-tabs">
-                        <button class="div-tab" data-div="all">ทั้งหมด</button>
-                        <button class="div-tab active" data-div="flyweight">Flyweight</button>
-                        <button class="div-tab" data-div="bantamweight">Bantamweight</button>
-                        <button class="div-tab" data-div="featherweight">Featherweight</button>
-                        <button class="div-tab" data-div="lightweight">Lightweight</button>
-                        <button class="div-tab" data-div="welterweight">Welterweight</button>
-                        <button class="div-tab" data-div="middleweight">Middleweight</button>
-                        <button class="div-tab" data-div="strawweight">Strawweight</button>
-                    </div>
-
-                    <!-- Champion Hero Banner -->
-                    <div class="champ-hero" id="champ-hero-banner">
-                        <div class="champ-hero-photo-wrap">
-                            <img id="champ-hero-img" src="https://placehold.co/120x130/111827/374151?text=CHAMP" alt="Champion" class="champ-hero-photo">
-                        </div>
-                        <div class="champ-hero-body">
-                            <div class="champ-hero-label">Champion</div>
-                            <div class="champ-hero-division" id="champ-hero-division">Flyweight</div>
-                            <div class="champ-hero-name" id="champ-hero-name">—</div>
-                            <div class="champ-hero-belt">🥊 BoxingFandom Champion</div>
-                            <div class="champ-hero-record" id="champ-hero-record"></div>
-                        </div>
-                    </div>
-
-                    <!-- Filters -->
-                    <div class="filter-bar">
-                        <div class="filter-group">
-                            <label>Division</label>
-                            <select id="filter-division">
-                                <option value="all">ทุกรุ่นน้ำหนัก</option>
-                                <option value="strawweight">Strawweight</option>
-                                <option value="flyweight">Flyweight</option>
-                                <option value="bantamweight">Bantamweight</option>
-                                <option value="featherweight">Featherweight</option>
-                                <option value="lightweight">Lightweight</option>
-                            </select>
-                        </div>
-                        <div class="filter-group">
-                            <label>Promotion</label>
-                            <select id="filter-category">
-                                <option value="total">รวมทุกรายการ</option>
-                                <option value="one">เฉพาะ ONE</option>
-                                <option value="others">รายการอื่นๆ</option>
-                            </select>
-                        </div>
-                        <div class="filter-group">
-                            <label>Season</label>
-                            <select id="filter-year">
-                                <option value="2027">ฟอร์มปี 2027</option>
-                                <option value="2026">ฟอร์มปี 2026</option>
-                                <option value="2025">ฟอร์มปี 2025</option>
-                                <option value="2024">ฟอร์มปี 2024</option>
-                                <option value="lifetime">ตลอดอาชีพ</option>
-                            </select>
-                        </div>
-                        <div class="filter-group">
-                            <label>Age</label>
-                            <select id="filter-age">
-                                <option value="all">ทุกช่วงอายุ</option>
-                                <option value="15-20">15–20 ปี</option>
-                                <option value="21-25">21–25 ปี</option>
-                                <option value="26-30">26–30 ปี</option>
-                                <option value="31+">31 ปีขึ้นไป</option>
-                            </select>
-                        </div>
-                        <div class="filter-group">
-                            <label>Nationality</label>
-                            <select id="filter-country">
-                                <option value="all">ทุกประเทศ</option>
-                            </select>
-                        </div>
-                        <div class="filter-group">
-                            <label>Camp / Team</label>
-                            <input type="text" id="filter-team" placeholder="ค้นหาค่ายมวย...">
-                        </div>
-                    </div>
-
-                    <!-- Ranking List — UFC style -->
-                    <ol class="ranking-list" id="fighter-list">
-                        <!-- Skeleton loading -->
-                        <li style="pointer-events:none;" aria-hidden="true">
-                            <span class="rl-rank"><span class="skeleton" style="width:20px;height:18px;display:block;"></span></span>
-                            <span class="skeleton" style="width:48px;height:48px;border-radius:50%;display:block;flex-shrink:0;"></span>
-                            <span style="flex:1;display:flex;flex-direction:column;gap:7px;">
-                                <span class="skeleton" style="width:55%;height:15px;display:block;"></span>
-                                <span class="skeleton" style="width:35%;height:12px;display:block;"></span>
-                            </span>
-                        </li>
-                        <li style="pointer-events:none;" aria-hidden="true">
-                            <span class="rl-rank"><span class="skeleton" style="width:20px;height:18px;display:block;"></span></span>
-                            <span class="skeleton" style="width:48px;height:48px;border-radius:50%;display:block;flex-shrink:0;"></span>
-                            <span style="flex:1;display:flex;flex-direction:column;gap:7px;">
-                                <span class="skeleton" style="width:45%;height:15px;display:block;"></span>
-                                <span class="skeleton" style="width:30%;height:12px;display:block;"></span>
-                            </span>
-                        </li>
-                        <li style="pointer-events:none;" aria-hidden="true">
-                            <span class="rl-rank"><span class="skeleton" style="width:20px;height:18px;display:block;"></span></span>
-                            <span class="skeleton" style="width:48px;height:48px;border-radius:50%;display:block;flex-shrink:0;"></span>
-                            <span style="flex:1;display:flex;flex-direction:column;gap:7px;">
-                                <span class="skeleton" style="width:60%;height:15px;display:block;"></span>
-                                <span class="skeleton" style="width:40%;height:12px;display:block;"></span>
-                            </span>
-                        </li>
-                    </ol>
-
-                    <div id="load-more-container" class="load-more-wrap" style="display:none;">
-                        <button id="loadMoreBtn" onclick="loadMoreFighters()">โหลดเพิ่มเติม</button>
-                    </div>
-
-                </div><!-- /.card -->
+        <div class="card">
+            <div class="division-tabs" id="division-tabs">
+                <button class="div-tab" data-div="all">ทั้งหมด</button>
+                <button class="div-tab active" data-div="flyweight">Flyweight</button>
+                <button class="div-tab" data-div="bantamweight">Bantamweight</button>
+                <button class="div-tab" data-div="featherweight">Featherweight</button>
+                <button class="div-tab" data-div="lightweight">Lightweight</button>
+                <button class="div-tab" data-div="welterweight">Welterweight</button>
+                <button class="div-tab" data-div="middleweight">Middleweight</button>
+                <button class="div-tab" data-div="strawweight">Strawweight</button>
             </div>
 
-            <!-- ── SIDEBAR ── -->
-            <aside class="sidebar">
+            <div class="champ-hero" id="champ-hero-banner">
+                <div class="champ-hero-photo-wrap">
+                    <img id="champ-hero-img" src="https://placehold.co/120x130/111827/374151?text=CHAMP" alt="Champion" class="champ-hero-photo">
+                </div>
+                <div class="champ-hero-body">
+                    <div class="champ-hero-label">Champion</div>
+                    <div class="champ-hero-division" id="champ-hero-division">Flyweight</div>
+                    <div class="champ-hero-name" id="champ-hero-name">—</div>
+                    <div class="champ-hero-belt">🥊 BoxingFandom Champion</div>
+                    <div class="champ-hero-record" id="champ-hero-record"></div>
+                </div>
+            </div>
 
-                <!-- Top Points -->
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <label>Division</label>
+                    <select id="filter-division">
+                        <option value="all">ทุกรุ่นน้ำหนัก</option>
+                        <option value="strawweight">Strawweight</option>
+                        <option value="flyweight">Flyweight</option>
+                        <option value="bantamweight">Bantamweight</option>
+                        <option value="featherweight">Featherweight</option>
+                        <option value="lightweight">Lightweight</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Promotion</label>
+                    <select id="filter-category">
+                        <option value="total">รวมทุกรายการ</option>
+                        <option value="one">เฉพาะ ONE</option>
+                        <option value="others">รายการอื่นๆ</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Season</label>
+                    <select id="filter-year">
+                        <option value="2027">ฟอร์มปี 2027</option>
+                        <option value="2026">ฟอร์มปี 2026</option>
+                        <option value="2025">ฟอร์มปี 2025</option>
+                        <option value="2024">ฟอร์มปี 2024</option>
+                        <option value="lifetime">ตลอดอาชีพ</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Age</label>
+                    <select id="filter-age">
+                        <option value="all">ทุกช่วงอายุ</option>
+                        <option value="15-20">15–20 ปี</option>
+                        <option value="21-25">21–25 ปี</option>
+                        <option value="26-30">26–30 ปี</option>
+                        <option value="31+">31 ปีขึ้นไป</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Nationality</label>
+                    <select id="filter-country">
+                        <option value="all">ทุกประเทศ</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Camp / Team</label>
+                    <input type="text" id="filter-team" placeholder="ค้นหาค่ายมวย...">
+                </div>
+            </div>
+
+            <ol class="ranking-list" id="fighter-list">
+                <li style="pointer-events:none;" aria-hidden="true">
+                    <span class="rl-rank"><span class="skeleton" style="width:20px;height:18px;display:block;"></span></span>
+                    <span class="skeleton" style="width:48px;height:48px;border-radius:50%;display:block;flex-shrink:0;"></span>
+                    <span style="flex:1;display:flex;flex-direction:column;gap:7px;">
+                        <span class="skeleton" style="width:55%;height:15px;display:block;"></span>
+                        <span class="skeleton" style="width:35%;height:12px;display:block;"></span>
+                    </span>
+                </li>
+                <li style="pointer-events:none;" aria-hidden="true">
+                    <span class="rl-rank"><span class="skeleton" style="width:20px;height:18px;display:block;"></span></span>
+                    <span class="skeleton" style="width:48px;height:48px;border-radius:50%;display:block;flex-shrink:0;"></span>
+                    <span style="flex:1;display:flex;flex-direction:column;gap:7px;">
+                        <span class="skeleton" style="width:45%;height:15px;display:block;"></span>
+                        <span class="skeleton" style="width:30%;height:12px;display:block;"></span>
+                    </span>
+                </li>
+                <li style="pointer-events:none;" aria-hidden="true">
+                    <span class="rl-rank"><span class="skeleton" style="width:20px;height:18px;display:block;"></span></span>
+                    <span class="skeleton" style="width:48px;height:48px;border-radius:50%;display:block;flex-shrink:0;"></span>
+                    <span style="flex:1;display:flex;flex-direction:column;gap:7px;">
+                        <span class="skeleton" style="width:60%;height:15px;display:block;"></span>
+                        <span class="skeleton" style="width:40%;height:12px;display:block;"></span>
+                    </span>
+                </li>
+            </ol>
+
+            <div id="load-more-container" class="load-more-wrap" style="display:none;">
+                <button id="loadMoreBtn" onclick="loadMoreFighters()">โหลดเพิ่มเติม</button>
+            </div>
+        </div><div class="widgets-section">
+
+            <div class="widgets-grid-full">
+                <div class="ai-widget-banner">
+                    <img src="https://res.cloudinary.com/dia2yts2f/image/upload/v1774883621/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9B_ilunz8.png" alt="AI Fight Predictor" class="ai-widget-banner-img">
+                    <div class="ai-widget-banner-body">
+                        <div class="ai-widget-banner-text">
+                            <div class="ai-widget-banner-title">🤖 AI Fight Predictor</div>
+                            <div class="ai-widget-banner-desc">เปรียบเทียบนักชกแบบหมัดต่อหมัด วิเคราะห์จุดแข็ง จุดอ่อน และโอกาสชนะ ด้วยระบบ AI</div>
+                        </div>
+                        <a href="pages/analysis/index.html" class="btn-primary">ทดลองใช้งานฟรี →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="widgets-section-label">สถิติและอันดับ</div>
+
+            <div class="widgets-grid-3">
+
                 <div class="widget">
                     <div class="widget-head">
-                        <span class="widget-head-title">🔥 Top Points <span style="color:var(--text-muted);font-weight:400;">(Flyweight)</span></span>
+                        <span class="widget-head-title">🔥 Top Points <span style="color:var(--text-muted);font-weight:400;font-size:11px;">(Flyweight)</span></span>
                     </div>
                     <div class="widget-body">
                         <div id="mini-points-list">
-                            <div style="padding:20px; text-align:center; color:var(--text-muted); font-size:13px;">กำลังคำนวณ…</div>
+                            <div style="padding:18px;text-align:center;color:var(--text-muted);font-size:13px;">กำลังคำนวณ…</div>
                         </div>
                     </div>
                     <div class="widget-foot"><a href="pages/rankings/one-flyweight.html">ดูตารางคะแนนทั้งหมด →</a></div>
                 </div>
 
-                <!-- ONE Champions -->
                 <div class="widget">
                     <div class="widget-head">
                         <span class="widget-head-title">👑 ONE World Champions</span>
@@ -1083,23 +835,12 @@
                     </div>
                     <div class="widget-body">
                         <ul id="mini-champs-list" style="list-style:none;">
-                            <li style="padding:20px; text-align:center; color:var(--text-muted); font-size:13px;">กำลังโหลด…</li>
+                            <li style="padding:18px;text-align:center;color:var(--text-muted);font-size:13px;">กำลังโหลด…</li>
                         </ul>
                     </div>
                     <div class="widget-foot"><a href="pages/rankings/champions-one.html">ดูทำเนียบแชมป์ทั้งหมด →</a></div>
                 </div>
 
-                <!-- AI Predictor -->
-                <div class="widget">
-                    <img src="https://res.cloudinary.com/dia2yts2f/image/upload/v1774883621/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9B_ilunz8.png" alt="AI Fight Predictor" class="ai-widget-img">
-                    <div class="ai-widget-body">
-                        <div class="widget-head-title" style="margin-bottom:8px;">🤖 AI Fight Predictor</div>
-                        <p class="ai-widget-desc">เปรียบเทียบนักชกแบบหมัดต่อหมัด วิเคราะห์จุดแข็ง จุดอ่อน และโอกาสชนะ ด้วยระบบ AI</p>
-                        <a href="pages/analysis/index.html" class="btn-primary">ทดลองใช้งานฟรี →</a>
-                    </div>
-                </div>
-
-                <!-- P4P Watchlist -->
                 <div class="widget">
                     <div class="widget-head">
                         <span class="widget-head-title">⭐ P4P Watchlist</span>
@@ -1107,13 +848,16 @@
                     </div>
                     <div class="widget-body">
                         <ul id="mini-fighters-list" style="list-style:none;">
-                            <li style="padding:20px; text-align:center; color:var(--text-muted); font-size:13px;">กำลังโหลด…</li>
+                            <li style="padding:18px;text-align:center;color:var(--text-muted);font-size:13px;">กำลังโหลด…</li>
                         </ul>
                     </div>
                     <div class="widget-foot"><a href="pages/rankings/overall-all.html">ดูการจัดอันดับเต็ม →</a></div>
                 </div>
 
-                <!-- Rajadamnern -->
+            </div><div class="widgets-section-label">อื่นๆ</div>
+
+            <div class="widgets-grid-2">
+
                 <div class="widget widget-green">
                     <div class="widget-head">
                         <span class="widget-head-title">🏟️ Rajadamnern Ranking</span>
@@ -1121,46 +865,42 @@
                     </div>
                     <div class="widget-body">
                         <ul id="mini-raja-list" style="list-style:none;">
-                            <li style="padding:20px; text-align:center; color:var(--text-muted); font-size:13px;">กำลังโหลด…</li>
+                            <li style="padding:18px;text-align:center;color:var(--text-muted);font-size:13px;">กำลังโหลด…</li>
                         </ul>
                     </div>
                     <div class="widget-foot"><a href="pages/rankings/rajadamnern.html">ดูการจัดอันดับทั้งหมด →</a></div>
                 </div>
 
-                <!-- Tier List -->
                 <div class="widget">
                     <div class="widget-head">
                         <span class="widget-head-title">🏆 Community Tier List</span>
                     </div>
-                    <div class="tier-preview">
-                        <div class="tier-row">
-                            <div class="tier-label" style="background:#c8102e;">S</div>
-                            <div class="tier-slots">
-                                <div class="tier-dot"></div>
-                                <div class="tier-dot"></div>
+                    <div class="tier-widget-body">
+                        <div class="tier-rows">
+                            <div class="tier-row">
+                                <div class="tier-label" style="background:#c8102e;">S</div>
+                                <div class="tier-slots">
+                                    <div class="tier-dot"></div>
+                                    <div class="tier-dot"></div>
+                                </div>
+                            </div>
+                            <div class="tier-row">
+                                <div class="tier-label" style="background:#ea580c;">A</div>
+                                <div class="tier-slots"><div class="tier-dot"></div></div>
+                            </div>
+                            <div class="tier-row">
+                                <div class="tier-label" style="background:#ca8a04;">B</div>
+                                <div class="tier-slots"></div>
                             </div>
                         </div>
-                        <div class="tier-row">
-                            <div class="tier-label" style="background:#ea580c;">A</div>
-                            <div class="tier-slots"><div class="tier-dot"></div></div>
+                        <div class="tier-widget-cta">
+                            <p class="tier-caption">สร้าง Tier List จัดอันดับนักชกในดวงใจ แชร์ให้เพื่อนได้เลย!</p>
+                            <a href="pages/TierList.html" class="btn-outline">เข้าสู่โหมดจัดเทียร์ →</a>
                         </div>
-                        <div class="tier-row" style="margin-bottom:0;">
-                            <div class="tier-label" style="background:#ca8a04;">B</div>
-                            <div class="tier-slots"></div>
-                        </div>
-                    </div>
-                    <div style="padding:0 18px 16px;">
-                        <p class="tier-caption">สร้าง Tier List จัดอันดับนักชกในดวงใจ แคปรูปแชร์ให้เพื่อนได้เลย!</p>
-                        <a href="pages/TierList.html" class="btn-outline">เข้าสู่โหมดจัดเทียร์ →</a>
                     </div>
                 </div>
 
-            </aside>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <footer>
+            </div></div></div><footer>
         <nav>
             <ul>
                 <li><a href="privacy.html">Privacy Policy</a></li>
@@ -1171,25 +911,19 @@
         <p>© 2026 BoxingFandom Data Analytics</p>
     </footer>
 
-    <!-- ==========================================================
-         JAVASCRIPT — โลจิกเดิมทุกบรรทัด เปลี่ยนเฉพาะ HTML template ใน widget
-    ========================================================== -->
     <script>
-        // วันที่ปัจจุบัน
+        // เซ็ตวันที่และเวลาอัปเดตแบบ Dynamic
         document.getElementById('today-date').textContent = new Date().toLocaleDateString('th-TH', { weekday:'long', year:'numeric', month:'long', day:'numeric' });
         document.getElementById('ranking-updated-date').textContent = 'อัปเดต: ' + new Date().toLocaleDateString('th-TH', { day:'numeric', month:'short', year:'numeric' });
 
-        // =========================================================
-        // 1. Global state
-        // =========================================================
+        // ตัวแปร Global Database สำหรับเก็บข้อมูลนักมวยทั้งหมด
         let globalDatabase = [];
+        // การกำหนดน้ำหนักคะแนนของเกรด (เกรด S ได้คะแนนเยอะสุด) ใช้สำหรับตอนเรียงคะแนนเท่ากัน
         const gradeWeight = { "S":10, "A+":9, "A":8, "B+":7, "B":6, "C+":5, "C":4 };
         let currentDisplayLimit = 15;
         let currentFilteredFighters = [];
 
-        // =========================================================
-        // 2. Cloudinary URL helper
-        // =========================================================
+        // Image Management: ใช้ฟังก์ชัน getCloudinaryUrl เพื่อดึงรูปจาก Cloudinary โดยระบุขนาดที่ต้องการ ทำให้เว็บโหลดเร็วขึ้นมาก
         function getCloudinaryUrl(imgId, w, h) {
             if (!imgId || imgId === "ไม่ระบุ" || imgId === "ยังไม่มีข้อมูล" || imgId.trim() === "" || imgId === "noname")
                 return "assets/images/noname.jpg";
@@ -1198,15 +932,15 @@
             return `https://res.cloudinary.com/dpvyl7nan/image/upload/c_fill,g_face,h_${h},w_${w},f_auto,q_auto/v1/${encodeURIComponent(clean)}`;
         }
 
-        // =========================================================
-        // 3. Data loading
-        // =========================================================
+        // 4.1 การดึงข้อมูล (Data Fetching)
         async function initGlobalSearch() {
             try {
+                // 1. โหลดรายชื่อไฟล์นักมวยทั้งหมดจาก fighters-list.json
                 const listRes = await fetch('data/boxers/fighters-list.json');
                 if (!listRes.ok) throw new Error("โหลดรายชื่อไม่ได้");
                 const files = await listRes.json();
-
+                
+                // 2. ใช้ Promise.all เพื่อดึงข้อมูลนักมวยทุกคนพร้อมกัน (ประสิทธิภาพสูงกว่าวนลูปทีละคน)
                 const results = await Promise.all(files.map(async f => {
                     try {
                         const r = await fetch(`data/boxers/${encodeURIComponent(f.trim())}`);
@@ -1214,9 +948,10 @@
                     } catch(e) {}
                     return null;
                 }));
-
-                globalDatabase = results.filter(Boolean);
-
+                // เก็บข้อมูลเฉพาะที่โหลดสำเร็จลง Global Database
+                globalDatabase = results.filter(Boolean); 
+                
+                // สร้างตัวเลือก (Options) สำหรับประเทศจากฐานข้อมูลที่มี
                 const nations = new Set();
                 globalDatabase.forEach(item => {
                     const c = item.fighter_profile?.personal_info?.country_th;
@@ -1224,36 +959,42 @@
                 });
                 const cs = document.getElementById('filter-country');
                 Array.from(nations).sort().forEach(c => cs.innerHTML += `<option value="${c}">${c}</option>`);
-
+                
+                // เซ็ตค่า Default สำหรับตัวกรอง "ปี" ให้เป็นปีปัจจุบัน
                 const yr = new Date().getFullYear().toString();
                 const ys = document.getElementById('filter-year');
                 for (let i = 0; i < ys.options.length; i++) {
                     if (ys.options[i].value === yr) { ys.selectedIndex = i; break; }
                 }
+                
+                // เซ็ต Default เป็นรุ่น flyweight แล้วเรนเดอร์ตาราง
                 document.getElementById('filter-division').value = 'flyweight';
-
                 renderFilteredRanking();
+                
+                // โหลดข้อมูลให้ Widgets ด้านล่าง
                 loadMiniPointsRanking(globalDatabase);
                 loadMiniChampionsPreview(globalDatabase);
                 loadMiniFightersPreview(globalDatabase);
-
             } catch(e) {
                 console.error(e);
-                document.getElementById('fighter-list').innerHTML = `<tr><td colspan="5" style="padding:40px;text-align:center;color:#991b1b;">เกิดข้อผิดพลาดในการโหลดข้อมูล</td></tr>`;
+                document.getElementById('fighter-list').innerHTML = `<li style="justify-content:center;padding:40px;color:#991b1b;pointer-events:none;">เกิดข้อผิดพลาดในการโหลดข้อมูล</li>`;
             }
         }
 
-        // =========================================================
-        // 4. Stats & ranking
-        // =========================================================
+        // 4.2 ระบบคำนวณคะแนน (Ranking Logic)
         function calculateStats(fights) {
             if (!fights || fights.length === 0) return { formHTML:"-", score:0, wins:0, losses:0, active:false };
             let score=0, wins=0, losses=0;
             fights.forEach(f => {
                 const r = (f.result||'').toLowerCase();
-                if (r==='win') { score+=3; wins++; if (f.method_en&&(f.method_en.includes('KO')||f.method_en.includes('TKO')||f.method_en.includes('Submission'))) score++; }
+                // หัวใจของการจัดอันดับ: ชนะ +3, น็อกเอาต์/ซับมิชชัน +1 โบนัส, แพ้ -1
+                if (r==='win') { 
+                    score+=3; wins++; 
+                    if (f.method_en&&(f.method_en.includes('KO')||f.method_en.includes('TKO')||f.method_en.includes('Submission'))) score++; 
+                }
                 else if (r==='loss') { score--; losses++; }
             });
+            // สร้างป้าย HTML ของผลการชก 3 ไฟต์ล่าสุด
             const formHTML = fights.slice(0,3).reverse().map(f => {
                 const r=(f.result||'').toLowerCase();
                 const cls = r==='win'?'badge-w':(r==='loss'?'badge-l':'badge-d');
@@ -1262,8 +1003,11 @@
             return { formHTML, score, wins, losses, active:true };
         }
 
+        // 4.3 ระบบกรองข้อมูล (Filtering & Rendering)
         function renderFilteredRanking() {
             currentDisplayLimit = 15;
+            
+            // ดึงค่าจากตัวกรองทั้งหมด
             const div = document.getElementById('filter-division').value.toLowerCase();
             const cat = document.getElementById('filter-category').value;
             const yr  = document.getElementById('filter-year').value;
@@ -1271,9 +1015,7 @@
             const ctr = document.getElementById('filter-country').value;
             const tm  = document.getElementById('filter-team').value.toLowerCase().trim();
 
-            const sh = document.getElementById('dynamic-score-header');
-            if (sh) sh.innerText = yr==='lifetime' ? 'Points (All Time)' : `Points (${yr})`;
-
+            // คำนวณคะแนนของนักมวยทุกคนตามเงื่อนไขรายการ (cat) และปี (yr)
             let list = globalDatabase.map(f => {
                 let h = (f.fight_history || f.fight_history_one_championship || []).filter(fight => {
                     const ev = ((fight.event_en||'')+' '+(fight.event_th||'')).toLowerCase();
@@ -1284,6 +1026,7 @@
                 return { ...f, calculatedStats: calculateStats(h) };
             });
 
+            // กรองนักมวยที่ไม่ตรงเงื่อนไขด้านโปรไฟล์ (รุ่นน้ำหนัก, อายุ, ประเทศ, ค่าย) ทิ้งไป
             currentFilteredFighters = list.filter(f => {
                 const p=f.fighter_profile; if (!p||!f.calculatedStats.active) return false;
                 const info=p.personal_info||{}, phys=p.physical_stats||{};
@@ -1300,15 +1043,18 @@
                 return true;
             });
 
+            // จัดเรียง (Sort) ตามคะแนน (มากไปน้อย) -> เกรด -> จำนวนนัดที่แพ้ (น้อยไปมาก)
             currentFilteredFighters.sort((a,b) => {
                 if (b.calculatedStats.score!==a.calculatedStats.score) return b.calculatedStats.score-a.calculatedStats.score;
                 const ga=gradeWeight[a.fighter_profile.grade]||0, gb=gradeWeight[b.fighter_profile.grade]||0;
                 if (gb!==ga) return gb-ga;
                 return a.calculatedStats.losses-b.calculatedStats.losses;
             });
+            // วาดข้อมูลลงบนหน้าเว็บ
             drawTableChunk();
         }
 
+        // วาด UI ของรายการนักมวยและแชมป์เปี้ยน
         function drawTableChunk() {
             const list = document.getElementById('fighter-list');
             const lmc = document.getElementById('load-more-container');
@@ -1316,15 +1062,13 @@
             if (currentFilteredFighters.length === 0) {
                 list.innerHTML = `<li style="justify-content:center;padding:50px;color:var(--text-muted);pointer-events:none;">ไม่พบนักมวยที่ตรงกับเงื่อนไข</li>`;
                 lmc.style.display = 'none';
-
-                // Clear champion hero
                 document.getElementById('champ-hero-name').textContent = '—';
                 document.getElementById('champ-hero-record').textContent = '';
                 document.getElementById('champ-hero-img').src = 'https://placehold.co/120x130/111827/374151?text=CHAMP';
                 return;
             }
 
-            // Update champion hero banner with #1 fighter
+            // นำนักมวยอันดับ 1 ไปแสดงบน Banner แชมป์
             const topFighter = currentFilteredFighters[0];
             const tp = topFighter.fighter_profile;
             document.getElementById('champ-hero-name').textContent = tp.name_th || tp.name_en || '—';
@@ -1334,6 +1078,7 @@
             const st = topFighter.calculatedStats;
             document.getElementById('champ-hero-record').innerHTML = `<span>${st.wins}</span>W — <span>${st.losses}</span>L · Score: <span>${st.score} pts</span>`;
 
+            // ลูปสร้าง HTML ของนักมวยตาม Limit ที่กำหนดไว้ (เพื่อไม่ให้หน้าเว็บค้างถ้ามีข้อมูลเยอะ)
             list.innerHTML = currentFilteredFighters.slice(0, currentDisplayLimit).map((f, i) => {
                 const p = f.fighter_profile;
                 const img = getCloudinaryUrl(p.image_url, 56, 56);
@@ -1341,7 +1086,6 @@
                 const rankCls = i === 0 ? 'r1' : '';
                 const country = p.personal_info?.country_th || '';
                 const team = p.personal_info?.team_th || '';
-
                 return `<li onclick="location.href='${link}'">
                     <span class="rl-rank ${rankCls}">${i + 1}</span>
                     <img src="${img}" class="rl-photo" alt="${p.name_th}" onerror="this.src='assets/images/noname.jpg'">
@@ -1359,14 +1103,13 @@
                 </li>`;
             }).join('');
 
+            // แสดงหรือซ่อนปุ่ม "โหลดเพิ่มเติม"
             lmc.style.display = currentDisplayLimit >= currentFilteredFighters.length ? 'none' : 'block';
         }
 
         function loadMoreFighters() { currentDisplayLimit += 15; drawTableChunk(); }
 
-        // =========================================================
-        // Division tab click logic
-        // =========================================================
+        // ผูก Event ให้กับปุ่มน้ำหนักด้านบนเพื่อเชื่อมกับ Select
         document.querySelectorAll('.div-tab').forEach(btn => {
             btn.addEventListener('click', () => {
                 document.querySelectorAll('.div-tab').forEach(b => b.classList.remove('active'));
@@ -1376,7 +1119,7 @@
             });
         });
 
-        // Keep tabs in sync when select changes
+        // เมื่อเปลี่ยน Select รุ่นน้ำหนัก ให้ปุ่มน้ำหนักอัปเดตตาม
         document.getElementById('filter-division').addEventListener('change', function() {
             const v = this.value;
             document.querySelectorAll('.div-tab').forEach(b => {
@@ -1384,20 +1127,17 @@
             });
         });
 
-        // =========================================================
-        // 5. Filter events
-        // =========================================================
+        // ผูก Event ให้กับ Select Filters ทั้งหมดเพื่ออัปเดตข้อมูลอัตโนมัติ
         ['filter-category','filter-year','filter-age','filter-country']
             .forEach(id => document.getElementById(id).addEventListener('change', renderFilteredRanking));
         document.getElementById('filter-team').addEventListener('keyup', renderFilteredRanking);
 
-        // =========================================================
-        // 6. Search
-        // =========================================================
+        // 4.4 ระบบค้นหา (Search & Autocomplete)
         const si = document.getElementById('mainSearchInput');
         const sd = document.getElementById('mainSearchDropdown');
         const sb = document.getElementById('mainSearchButton');
 
+        // Input Event: เมื่อ User พิมพ์ชื่อ ระบบจะกรอง globalDatabase ทันทีและแสดงผลลัพธ์ใน Dropdown
         function processSearch() {
             const q = si.value.toLowerCase();
             if (!q) { sd.style.display='none'; return; }
@@ -1419,6 +1159,7 @@
             sd.style.display='block';
         }
 
+        // กดปุ่มค้นหาหรือ Enter เพื่อเข้าสู่หน้านักมวย
         function execSearch() {
             const q=si.value.toLowerCase(); if (!q) return;
             const r=globalDatabase.filter(item=>{const p=item.fighter_profile||{};return (p.name_th||'').toLowerCase().includes(q)||(p.name_en||'').toLowerCase().includes(q);});
@@ -1429,11 +1170,10 @@
         si.addEventListener('input', processSearch);
         sb.addEventListener('click', execSearch);
         si.addEventListener('keypress', e => { if (e.key==='Enter') execSearch(); });
+        // ปิด Dropdown เมื่อคลิกข้างนอก
         document.addEventListener('click', e => { if (!e.target.closest('.search-container')) sd.style.display='none'; });
 
-        // =========================================================
-        // 7. Widget data
-        // =========================================================
+        // Functions สำหรับโหลดข้อมูลเข้า Widget ย่อยๆ ด้านล่าง
         async function loadMiniPointsRanking(allData) {
             try {
                 const targetDiv = "flyweight";
@@ -1452,7 +1192,7 @@
                 document.getElementById('mini-points-list').innerHTML = top3.map((f,i) => {
                     const p=f.fighter_profile;
                     const link=`pages/fighter/${encodeURIComponent(f.fileName.replace('.json','.html'))}`;
-                    const img=getCloudinaryUrl(p.image_url,40,40);
+                    const img=getCloudinaryUrl(p.image_url,38,38);
                     return `<a href="${link}" class="w-row">
                         <span class="w-rank ${rankCls[i]}">${i+1}</span>
                         <img src="${img}" class="w-avatar" alt="${p.name_th}" onerror="this.src='assets/images/noname.jpg'">
@@ -1474,7 +1214,7 @@
                 document.getElementById('mini-champs-list').innerHTML = data.map(champ => {
                     const cn = (champ.champion_name_th||'').replace('(เฉพาะกาล)','').trim();
                     const matched = allData.find(f => { const p=f.fighter_profile; return p?.name_th&&(p.name_th.includes(cn)||cn.includes(p.name_th)); });
-                    const img = matched ? getCloudinaryUrl(matched.fighter_profile.image_url,40,40) : `https://placehold.co/40x40/c8102e/ffffff?text=ONE`;
+                    const img = matched ? getCloudinaryUrl(matched.fighter_profile.image_url,38,38) : `https://placehold.co/38x38/c8102e/ffffff?text=ONE`;
                     const link = matched ? `pages/fighter/${encodeURIComponent(matched.fileName.replace('.json','.html'))}` : '#';
                     return `<li><a href="${link}" class="w-row" style="text-decoration:none;">
                         <img src="${img}" class="w-avatar" alt="${champ.champion_name_th}" onerror="this.src='assets/images/noname.jpg'">
@@ -1493,7 +1233,7 @@
                 const p=fighter.fighter_profile||{};
                 const link=`pages/fighter/${encodeURIComponent(fighter.fileName.replace('.json','.html'))}`;
                 return `<li><a href="${link}" class="w-row" style="text-decoration:none;">
-                    <img src="${getCloudinaryUrl(p.image_url,40,40)}" class="w-avatar" alt="${p.name_th}" onerror="this.src='assets/images/noname.jpg'">
+                    <img src="${getCloudinaryUrl(p.image_url,38,38)}" class="w-avatar" alt="${p.name_th}" onerror="this.src='assets/images/noname.jpg'">
                     <div class="w-info">
                         <span class="w-name">${p.name_th||'ไม่ระบุ'}</span>
                         <span class="w-meta">สไตล์: ${p.fighting_style_th||'-'}</span>
@@ -1508,7 +1248,7 @@
                 if (!r.ok) throw new Error();
                 const data = await r.json();
                 document.getElementById('mini-raja-list').innerHTML = data.fighters.slice(0,3).map(f => {
-                    const img = (f.image_url&&f.image_url!=='ไม่ระบุ') ? getCloudinaryUrl(f.image_url,40,40) : 'https://placehold.co/40x40/e5e7eb/9ca3af?text=R';
+                    const img = (f.image_url&&f.image_url!=='ไม่ระบุ') ? getCloudinaryUrl(f.image_url,38,38) : 'https://placehold.co/38x38/e5e7eb/9ca3af?text=R';
                     const isC = f.rank==='C';
                     return `<li><div class="w-row">
                         <span class="w-rank" style="${isC?'color:var(--green);':''}">${isC?'👑':f.rank}</span>
@@ -1524,9 +1264,7 @@
             }
         }
 
-        // =========================================================
-        // 8. Init
-        // =========================================================
+        // เริ่มต้นการทำงานทั้งหมดเมื่อโครงสร้างเว็บโหลดเสร็จ
         window.addEventListener('DOMContentLoaded', () => {
             initGlobalSearch();
             loadMiniRajaRanking();

@@ -1,0 +1,88 @@
+{
+  "fighter_profile": {
+    "name_th": "ริวกิ คาวาโนะ",
+    "name_en": "",
+    "alias": "ไม่ระบุ",
+    "image_url": "ริวกิ-คาวาโนะ",
+    "grade": "N/A",
+    "fighting_style_th": "ยังไม่มีข้อมูล",
+    "fighting_style_en": "ยังไม่มีข้อมูล",
+    "stance": "ยังไม่มีข้อมูล",
+    "physical_stats": {
+      "weight_lbs": 0,
+      "weight_kg": 0,
+      "hydration": "N/A",
+      "division": "ยังไม่มีข้อมูล",
+      "height_ft": "ยังไม่มีข้อมูล",
+      "height_cm": 167,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
+    },
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ยังไม่มีข้อมูล",
+        "body": "ยังไม่มีข้อมูล",
+        "legs": "ยังไม่มีข้อมูล",
+        "total_per_minute": "ยังไม่มีข้อมูล"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+        "accuracy_by_target_percentage": {
+          "head": "ยังไม่มีข้อมูล",
+          "body": "ยังไม่มีข้อมูล",
+          "legs": "ยังไม่มีข้อมูล"
+        }
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": "ไม่ระบุ",
+        "defense_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ญ",
+      "country_en": "ญ",
+      "age": 19,
+      "team_th": "Cross Point Kichijoji",
+      "team_en": "Cross Point Kichijoji"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/ryuki-kawano/"
+    ],
+    "short_biography": ""
+  },
+  "fight_history_one_championship": [],
+  "weigh_in_history": [],
+  "upcoming_fights": [],
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "หู เย่",
+      "opponent_en": "",
+      "opponent_country": "จีน",
+      "date": "May 30, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 110"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "หวัง ยู่หาน",
+      "opponent_en": "",
+      "opponent_country": "จีน",
+      "date": "Feb 07, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 96"
+    }
+  ]
+}

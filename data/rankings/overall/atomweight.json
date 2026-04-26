@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-04-17",
+    "last_updated": "2026-04-26",
     "division": "Atomweight",
     "fighters": [
         {
@@ -324,13 +324,14 @@
                 }
             },
             "profile_file": "ขุนศึก-ทีวันไฟต์อะคาเดมี.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 2
         },
         {
             "name_th": "เซย์เนป เชทินทัช",
             "image_url": "เซย์เนป-เชทินทัช",
-            "team_th": "ไม่ระบุ",
-            "country_th": "ไม่ระบุ",
+            "team_th": "Black Panther Sports / TRIPL3 MMA",
+            "country_th": "เซเนกัล",
             "stats": {
                 "lifetime": {
                     "one": {
@@ -451,13 +452,13 @@
                 }
             },
             "profile_file": "เซย์เนป-เชทินทัช.html",
-            "trend": "down",
-            "last_rank": 2
+            "trend": "steady",
+            "last_rank": 3
         },
         {
             "name_th": "เด่นสยาม เหลี่ยมธนวัฒน์",
             "image_url": "เด่นสยาม-เหลี่ยมธนวัฒน์",
-            "team_th": "ยังไม่มีข้อมูล",
+            "team_th": "Black Panther Sports / TRIPL3 MMA",
             "country_th": "ไทย",
             "stats": {
                 "lifetime": {
@@ -579,13 +580,13 @@
                 }
             },
             "profile_file": "เด่นสยาม-เหลี่ยมธนวัฒน์.html",
-            "trend": "down",
-            "last_rank": 3
+            "trend": "steady",
+            "last_rank": 4
         },
         {
             "name_th": "เปรี้ยวหวาน เพชรไพรัช",
             "image_url": "เปรี้ยวหวาน-เพชรไพรัช",
-            "team_th": "ยังไม่มีข้อมูล",
+            "team_th": "Black Panther Sports / TRIPL3 MMA",
             "country_th": "ไทย",
             "stats": {
                 "lifetime": {
@@ -707,13 +708,13 @@
                 }
             },
             "profile_file": "เปรี้ยวหวาน-เพชรไพรัช.html",
-            "trend": "down",
-            "last_rank": 4
+            "trend": "steady",
+            "last_rank": 5
         },
         {
             "name_th": "เพชรเกรียงไกร จิตรเมืองนนท์",
             "image_url": "เพชรเกรียงไกร-จิตรเมืองนนท์",
-            "team_th": "ยังไม่มีข้อมูล",
+            "team_th": "Black Panther Sports / TRIPL3 MMA",
             "country_th": "ไทย",
             "stats": {
                 "lifetime": {
@@ -835,8 +836,8 @@
                 }
             },
             "profile_file": "เพชรเกรียงไกร-จิตรเมืองนนท์.html",
-            "trend": "down",
-            "last_rank": 5
+            "trend": "steady",
+            "last_rank": 6
         },
         {
             "name_th": "เพชรนิลมังกร น้ำแข็งไอซ์แลนด์",
@@ -940,7 +941,8 @@
                 }
             },
             "profile_file": "เพชรนิลมังกร-น้ำแข็งไอซ์แลนด์.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 7
         },
         {
             "name_th": "โชคดี แม็กจันดี",
@@ -1044,7 +1046,8 @@
                 }
             },
             "profile_file": "โชคดี-แม็กจันดี.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 8
         },
         {
             "name_th": "บันลือโลก ศิษย์วัชรชัย",
@@ -1171,12 +1174,12 @@
                 }
             },
             "profile_file": "บันลือโลก-ศิษย์วัชรชัย.html",
-            "trend": "down",
-            "last_rank": 6
+            "trend": "steady",
+            "last_rank": 9
         },
         {
             "name_th": "น้องฟ้าใส ท็อป พีเค.แสนชัย",
-            "image_url": "น้องฟ้าใส-ท็อป-พีเคแสนชัย",
+            "image_url": "น้องฟ้าใส-ท็อป-พีเค.แสนชัย",
             "team_th": "พีเค.แสนชัยมวยไทยยิม",
             "country_th": "ไทย",
             "stats": {
@@ -1276,13 +1279,13 @@
                 }
             },
             "profile_file": "น้องฟ้าใส-ท็อป-พีเค.แสนชัย.html",
-            "trend": "down",
-            "last_rank": 7
+            "trend": "steady",
+            "last_rank": 10
         },
         {
             "name_th": "จี เชง ฟีบิ โล",
             "image_url": "จี-เชง-ฟีบิ-โล",
-            "team_th": "ไม่ระบุ",
+            "team_th": "ซุปเปอร์บอน เทรนนิง แคมป์",
             "country_th": "ฮ่องกง",
             "stats": {
                 "lifetime": {
@@ -1381,13 +1384,13 @@
                 }
             },
             "profile_file": "จี-เชง-ฟีบิ-โล.html",
-            "trend": "down",
-            "last_rank": 8
+            "trend": "steady",
+            "last_rank": 11
         },
         {
             "name_th": "มิซากิ",
             "image_url": "มิซากิ",
-            "team_th": "ยังไม่มีข้อมูล",
+            "team_th": "Team Forest",
             "country_th": "ญี่ปุ่น",
             "stats": {
                 "lifetime": {
@@ -1463,8 +1466,8 @@
                 }
             },
             "profile_file": "มิซากิ.html",
-            "trend": "down",
-            "last_rank": 9
+            "trend": "steady",
+            "last_rank": 12
         },
         {
             "name_th": "ฮาร์ เลง์ ออม",
@@ -1545,7 +1548,8 @@
                 }
             },
             "profile_file": "ฮาร์-เลง์-ออม.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 13
         },
         {
             "name_th": "สไล ทาน คี เชน",
@@ -1626,7 +1630,8 @@
                 }
             },
             "profile_file": "สไล-ทาน-คี-เชน.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 14
         },
         {
             "name_th": "พลอยจันทร์ ศิษย์นายกดำ",
@@ -1684,7 +1689,8 @@
                 }
             },
             "profile_file": "พลอยจันทร์-ศิษย์นายกดำ.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 15
         },
         {
             "name_th": "หว่อง จี เชง",
@@ -1765,8 +1771,8 @@
                 }
             },
             "profile_file": "หว่อง-จี-เชง.html",
-            "trend": "down",
-            "last_rank": 10
+            "trend": "steady",
+            "last_rank": 16
         },
         {
             "name_th": "แบล็คชิชา โซทาโร",
@@ -1824,13 +1830,14 @@
                 }
             },
             "profile_file": "แบล็คชิชา-โซทาโร.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 17
         },
         {
             "name_th": "โทมะ คุโรดะ",
             "image_url": "โทมะ-คุโรดะ",
-            "team_th": "ไม่ระบุ",
-            "country_th": "ไม่ระบุ",
+            "team_th": "Forward Gym",
+            "country_th": "ญี่ปุ่น",
             "stats": {
                 "lifetime": {
                     "one": {
@@ -1905,8 +1912,8 @@
                 }
             },
             "profile_file": "โทมะ-คุโรดะ.html",
-            "trend": "down",
-            "last_rank": 11
+            "trend": "steady",
+            "last_rank": 18
         },
         {
             "name_th": "วาเนสซา โรมานอว์สกี",
@@ -1987,12 +1994,13 @@
                 }
             },
             "profile_file": "วาเนสซา-โรมานอว์สกี.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 19
         },
         {
             "name_th": "เดลฟาน ดวี ซาตริโอ",
             "image_url": "เดลฟาน-ดวี-ซาตริโอ",
-            "team_th": "ยังไม่มีข้อมูล",
+            "team_th": "O Sansuk Muay Thai Gym Pattaya",
             "country_th": "อินโดนีเซีย",
             "stats": {
                 "lifetime": {
@@ -2045,7 +2053,8 @@
                 }
             },
             "profile_file": "เดลฟาน-ดวี-ซาตริโอ.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 20
         }
     ]
 }

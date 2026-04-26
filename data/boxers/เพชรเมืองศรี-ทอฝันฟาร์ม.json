@@ -1,0 +1,127 @@
+{
+  "fighter_profile": {
+    "name_th": "เพชรเมืองศรี ทอฝันฟาร์ม",
+    "name_en": "",
+    "alias": "ไม่ระบุ",
+    "image_url": "เพชรเมืองศรี-ทอฝันฟาร์ม",
+    "grade": "N/A",
+    "fighting_style_th": "ยังไม่มีข้อมูล",
+    "fighting_style_en": "ยังไม่มีข้อมูล",
+    "stance": "ยังไม่มีข้อมูล",
+    "physical_stats": {
+      "weight_lbs": 0,
+      "weight_kg": 0,
+      "hydration": "N/A",
+      "division": "ยังไม่มีข้อมูล",
+      "height_ft": "ยังไม่มีข้อมูล",
+      "height_cm": 173,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
+    },
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ยังไม่มีข้อมูล",
+        "body": "ยังไม่มีข้อมูล",
+        "legs": "ยังไม่มีข้อมูล",
+        "total_per_minute": "ยังไม่มีข้อมูล"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+        "accuracy_by_target_percentage": {
+          "head": "ยังไม่มีข้อมูล",
+          "body": "ยังไม่มีข้อมูล",
+          "legs": "ยังไม่มีข้อมูล"
+        }
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": "ไม่ระบุ",
+        "defense_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ว",
+      "country_en": "ว",
+      "age": 22,
+      "team_th": "ยังไม่มีข้อมูล",
+      "team_en": "ยังไม่มีข้อมูล"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/petmuangsri/"
+    ],
+    "short_biography": ""
+  },
+  "fight_history_one_championship": [],
+  "weigh_in_history": [],
+  "upcoming_fights": [],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "สรรเพชร ส.สละชีพ",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Nov 14, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 133"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:45",
+      "opponent_th": "อัสซาดูลาห์ อิมานกาซาลิเอฟ",
+      "opponent_en": "",
+      "opponent_country": "รัสเซีย",
+      "date": "Jul 19, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 71"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:19",
+      "opponent_th": "เด่นภูไท ซุปเปอร์เล็ก มวยไทย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "May 24, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 64"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:36",
+      "opponent_th": "เพชรสุขุมวิท ต้อมทุ่งใหญ่",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Mar 10, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 8"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "มงคลแก้ว ส.สมหมาย",
+      "opponent_en": "",
+      "opponent_country": "ไทย",
+      "date": "Feb 10, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 4"
+    }
+  ]
+}

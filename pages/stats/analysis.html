@@ -40,7 +40,7 @@
         }
 
         body { 
-            background: var(--bg); /* ใช้พื้นหลังสีเข้มของบอส เพื่อให้หน้าวิเคราะห์ดูดุดัน */
+            background: var(--bg); 
             color: var(--text); 
             display: flex;
             flex-direction: column;
@@ -57,7 +57,7 @@
             display: flex; 
             justify-content: space-between; 
             align-items: center; 
-            border-bottom: 2px solid #e50914; /* เพิ่มเส้นขอบแดงให้เข้ากับตีม */
+            border-bottom: 2px solid #e50914; 
         }
 
         header h1 { font-size: 24px; }
@@ -126,7 +126,7 @@
         
         /* Search/Select สำหรับเลือกนักมวย */
         .search-area { display: flex; gap: 20px; justify-content: center; margin-bottom: 40px; }
-        .search-area-box { position: relative; width: 300px; } /* เปลี่ยนชื่อคลาสกันชนกับกล่องค้นหาหลัก */
+        .search-area-box { position: relative; width: 300px; } 
         .input-field { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #475569; background: #1e293b; color: white; }
         .dropdown { position: absolute; width: 100%; background: #1e293b; border: 1px solid #475569; max-height: 250px; overflow-y: auto; z-index: 100; display: none; }
         .dropdown-item { padding: 10px; cursor: pointer; border-bottom: 1px solid #334155; }
@@ -149,7 +149,7 @@
             color: #ffffff;
             text-align: center;
             padding: 20px;
-            margin-top: auto; /* ดัน Footer ลงล่างสุดเสมอ */
+            margin-top: auto; 
         }
         footer nav ul { justify-content: center; }
 
@@ -160,14 +160,15 @@
 <body>
 
     <header>
-        <h1><span class="text-red">Boxing</span><span class="text-white">Fandom</span></h1>
+        <h1><a href="../../index.html" style="text-decoration:none;"><span class="text-red">Boxing</span><span class="text-white">Fandom</span></a></h1>
         <nav>
             <ul>
                 <li><a href="../../index.html">หน้าแรก</a></li>
                 <li><a href="../articles/index.html">บทความ</a></li>
                 <li><a href="../news/index.html">ข่าว</a></li>
                 <li><a href="../analysis/index.html">วิเคราะห์มวย</a></li>
-                <li><a href="index.html">เทียบสถิติ</a></li> <li><a href="../fighter/index.html">นักมวยทั้งหมด</a></li> 
+                <li><a href="index.html" style="color:var(--gold); font-weight:bold;">เทียบสถิติ</a></li> 
+                <li><a href="../fighter/index.html">นักมวยทั้งหมด</a></li> 
                 <li>
                     <a href="#">ranking ▾</a>
                     <ul>
@@ -197,11 +198,11 @@
 
             <div class="search-area">
                 <div class="search-area-box">
-                    <input type="text" id="input1" class="input-field" placeholder="เลือกนักมวยมุมน้ำเงิน..." oninput="filterList(1)">
+                    <input type="text" id="input1" class="input-field" placeholder="เลือกนักมวยมุมน้ำเงิน..." oninput="filterList(1)" onclick="document.getElementById('drop1').style.display='block'">
                     <div id="drop1" class="dropdown"></div>
                 </div>
                 <div class="search-area-box">
-                    <input type="text" id="input2" class="input-field" placeholder="เลือกนักมวยมุมแดง..." oninput="filterList(2)">
+                    <input type="text" id="input2" class="input-field" placeholder="เลือกนักมวยมุมแดง..." oninput="filterList(2)" onclick="document.getElementById('drop2').style.display='block'">
                     <div id="drop2" class="dropdown"></div>
                 </div>
             </div>
@@ -227,10 +228,21 @@
         let db = [];
         let f1 = null, f2 = null;
 
-        // โหลดฐานข้อมูล (อัปเดต Path ให้วิ่งไปหาโฟลเดอร์ data/boxers/ ที่เราสร้างไว้)
+        // ---------------------------------------------------------
+        // 🌟 อัปเกรด: ฟังก์ชันดึงรูปภาพจาก Cloudinary
+        // ---------------------------------------------------------
+        function getCloudinaryUrl(imgId, w, h) {
+            if (!imgId || imgId === "ไม่ระบุ" || imgId === "ยังไม่มีข้อมูล" || imgId.trim() === "" || imgId === "noname") {
+                return "../../assets/images/noname.jpg";
+            }
+            if (imgId.startsWith('http') || imgId.includes('assets/')) return imgId;
+            let clean = imgId.replace(/\.(jpg|jpeg|png|webp)$/i, '');
+            return `https://res.cloudinary.com/dpvyl7nan/image/upload/c_fill,g_face,h_${h},w_${w},f_auto,q_auto/v1/${encodeURIComponent(clean)}`;
+        }
+
+        // โหลดฐานข้อมูล
         async function init() {
             try {
-                // บอสต้องสร้างไฟล์ fighters-list.json ไว้ในโฟลเดอร์ data/boxers/ ด้วยนะครับ (เป็น array เก็บชื่อไฟล์)
                 const listRes = await fetch('../../data/boxers/fighters-list.json'); 
                 const files = await listRes.json();
                 const promises = files.map(async (f) => {
@@ -261,19 +273,19 @@
 
         function runVisualization() {
             const p1 = f1.fighter_profile, p2 = f2.fighter_profile;
-            const main = document.getElementById('main-content-analyzer'); // เปลี่ยนมารับค่าจาก ID ใหม่ที่เราตั้ง
+            const main = document.getElementById('main-content-analyzer'); 
             
-            // --- ส่วนคำนวณคะแนน (Algorithm 3.0 ที่เราคุยกัน) ---
+            // --- ส่วนคำนวณคะแนน (Algorithm 3.0) ---
             let s1 = 1000, s2 = 1000;
             let logs = [];
 
             // 1. เกรด
             const gV = {"S":200, "A+":160, "A":140, "B+":90, "B":70, "C":30};
-            s1 += gV[p1.grade] || 0; s2 += gV[p2.grade] || 0; // เพิ่ม || 0 กันเหนียวเผื่อข้อมูลไม่มี
+            s1 += gV[p1.grade] || 0; s2 += gV[p2.grade] || 0; 
 
             // 2. น้ำหนัก vs สูง
-            const w1 = parseFloat(p1.physical_stats.weight_lbs), w2 = parseFloat(p2.physical_stats.weight_lbs);
-            const h1 = parseFloat(p1.physical_stats.height_cm), h2 = parseFloat(p2.physical_stats.height_cm);
+            const w1 = parseFloat(p1.physical_stats?.weight_lbs) || 0, w2 = parseFloat(p2.physical_stats?.weight_lbs) || 0;
+            const h1 = parseFloat(p1.physical_stats?.height_cm) || 0, h2 = parseFloat(p2.physical_stats?.height_cm) || 0;
             
             if(Math.abs(w1-w2) >= 3) {
                 if(w1 > w2) { s1 += (w1-w2)*25; logs.push(`ได้เปรียบแรงปะทะจากน้ำหนักตัวที่มากกว่า`); }
@@ -284,7 +296,7 @@
             }
 
             // 3. อายุ
-            const age1 = p1.personal_info.age, age2 = p2.personal_info.age;
+            const age1 = p1.personal_info?.age || 25, age2 = p2.personal_info?.age || 25;
             const peak = (a) => (a>=24 && a<=28) ? 80 : (a>=34 ? -50 : 30);
             s1 += peak(age1); s2 += peak(age2);
 
@@ -303,32 +315,37 @@
             const bHeight = getBetter(h1, h2);
             const bAge = getBetter(peak(age1), peak(age2));
 
+            // 🌟 อัปเกรด: จัดการภาพในประวัติคู่ชก
             const renderHist = (hist) => (hist || []).slice(0,3).map(h => {
                 const opp = db.find(x => x.fighter_profile.name_th === h.opponent_th);
-                const img = opp ? opp.fighter_profile.image_url : 'https://via.placeholder.com/50?text=?';
+                const img = opp ? getCloudinaryUrl(opp.fighter_profile.image_url, 50, 50) : '../../assets/images/noname.jpg';
                 return `
                     <div class="fight-row ${h.result === 'Win' ? 'W' : 'L'}">
-                        <img src="${img}" class="opp-img">
+                        <img src="${img}" class="opp-img" onerror="this.src='../../assets/images/noname.jpg';">
                         <div style="flex:1">
-                            <div style="font-size:0.8rem; color:var(--muted)">${h.date}</div>
-                            <div style="font-weight:800">${h.opponent_th || h.opponent_en}</div>
-                            <div style="font-size:0.75rem">${h.method_th || h.method_en}</div>
+                            <div style="font-size:0.8rem; color:var(--muted)">${h.date || '-'}</div>
+                            <div style="font-weight:800">${h.opponent_th || h.opponent_en || '-'}</div>
+                            <div style="font-size:0.75rem">${h.method_th || h.method_en || '-'}</div>
                         </div>
                         <div style="font-weight:900; color:${h.result==='Win'?'var(--win)':'var(--loss)'}">${h.result==='Win'?'ชนะ':'แพ้'}</div>
                     </div>
                 `;
             }).join('');
 
+            // 🌟 อัปเกรด: จัดการรูปภาพโปรไฟล์หลัก
+            const img1 = getCloudinaryUrl(p1.image_url, 200, 200);
+            const img2 = getCloudinaryUrl(p2.image_url, 200, 200);
+
             main.innerHTML = `
                 <div class="h2h-header">
                     <div class="fighter-profile blue">
-                        <img src="${p1.image_url}" class="fighter-img" onerror="this.src='https://via.placeholder.com/200?text=NO+IMAGE'">
+                        <img src="${img1}" class="fighter-img" onerror="this.src='../../assets/images/noname.jpg'">
                         <h2 style="margin:0">${p1.name_th}</h2>
                         <div style="color:var(--primary); font-weight:800;">${p1.grade} TIER</div>
                     </div>
                     <div style="font-size:3rem; font-weight:900; font-style:italic; color:var(--muted);">VS</div>
                     <div class="fighter-profile red">
-                        <img src="${p2.image_url}" class="fighter-img" onerror="this.src='https://via.placeholder.com/200?text=NO+IMAGE'">
+                        <img src="${img2}" class="fighter-img" onerror="this.src='../../assets/images/noname.jpg'">
                         <h2 style="margin:0">${p2.name_th}</h2>
                         <div style="color:var(--secondary); font-weight:800;">${p2.grade} TIER</div>
                     </div>
@@ -345,10 +362,10 @@
                 </div>
 
                 <table class="stats-table">
-                    <tr><td class="${bGrade[0]}">${p1.grade}</td><td class="label-cell">GRADE</td><td class="${bGrade[1]}">${p2.grade}</td></tr>
-                    <tr><td class="${bWeight[0]}">${w1} lbs</td><td class="label-cell">WEIGHT</td><td class="${bWeight[1]}">${w2} lbs</td></tr>
-                    <tr><td class="${bHeight[0]}">${h1} cm</td><td class="label-cell">HEIGHT</td><td class="${bHeight[1]}">${h2} cm</td></tr>
-                    <tr><td class="${bAge[0]}">${age1} ปี</td><td class="label-cell">AGE (Peak Score)</td><td class="${bAge[1]}">${age2} ปี</td></tr>
+                    <tr><td class="${bGrade[0]}">${p1.grade || '-'}</td><td class="label-cell">GRADE</td><td class="${bGrade[1]}">${p2.grade || '-'}</td></tr>
+                    <tr><td class="${bWeight[0]}">${w1 || '-'} lbs</td><td class="label-cell">WEIGHT</td><td class="${bWeight[1]}">${w2 || '-'} lbs</td></tr>
+                    <tr><td class="${bHeight[0]}">${h1 || '-'} cm</td><td class="label-cell">HEIGHT</td><td class="${bHeight[1]}">${h2 || '-'} cm</td></tr>
+                    <tr><td class="${bAge[0]}">${age1 || '-'} ปี</td><td class="label-cell">AGE (Peak Score)</td><td class="${bAge[1]}">${age2 || '-'} ปี</td></tr>
                 </table>
 
                 <div class="history-grid">
@@ -373,6 +390,8 @@
         }
 
         init();
+        
+        // ปิด Dropdown ถ้าคลิกที่อื่น
         document.addEventListener('click', (e) => {
             if(!e.target.closest('.search-area-box')) {
                 document.getElementById('drop1').style.display = 'none';

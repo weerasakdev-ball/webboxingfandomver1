@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-04-17",
+    "last_updated": "2026-04-26",
     "division": "Lightweight",
     "fighters": [
         {
@@ -219,140 +219,13 @@
                 }
             },
             "profile_file": "รีเกียน-เออร์เซล.html",
-            "trend": "new"
-        },
-        {
-            "name_th": "นาบิล อานาน",
-            "image_url": "นาบิล-อานาน",
-            "team_th": "ทีม เมห์ดี ซาทูต",
-            "country_th": "แอลจีเรีย/ไทย",
-            "stats": {
-                "lifetime": {
-                    "one": {
-                        "wins": 8,
-                        "losses": 2,
-                        "draws": 1,
-                        "ko_wins": 3,
-                        "points": 31
-                    },
-                    "others": {
-                        "wins": 0,
-                        "losses": 0,
-                        "draws": 0,
-                        "ko_wins": 0,
-                        "points": 0
-                    },
-                    "total": {
-                        "wins": 8,
-                        "losses": 2,
-                        "draws": 1,
-                        "ko_wins": 3,
-                        "points": 31
-                    }
-                },
-                "yearly": {
-                    "2023": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    },
-                    "2024": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    },
-                    "2025": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    },
-                    "2026": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    }
-                }
-            },
-            "profile_file": "นาบิล-อานาน.html",
-            "trend": "down",
+            "trend": "steady",
             "last_rank": 1
         },
         {
             "name_th": "มาลัมโบ เปลาเอซ",
             "image_url": "มาลัมโบ-เปลาเอซ",
-            "team_th": "ยังไม่มีข้อมูล",
+            "team_th": "Black Panther Sports / TRIPL3 MMA",
             "country_th": "เปรู",
             "stats": {
                 "lifetime": {
@@ -474,14 +347,14 @@
                 }
             },
             "profile_file": "มาลัมโบ-เปลาเอซ.html",
-            "trend": "down",
-            "last_rank": 2
+            "trend": "up",
+            "last_rank": 3
         },
         {
             "name_th": "อีธาน บร็อกเค็ต",
             "image_url": "อีธาน-บร็อกเค็ต",
-            "team_th": "ไม่ระบุ",
-            "country_th": "ไม่ระบุ",
+            "team_th": "Black Panther Sports / TRIPL3 MMA",
+            "country_th": "เซเนกัล",
             "stats": {
                 "lifetime": {
                     "one": {
@@ -602,8 +475,8 @@
                 }
             },
             "profile_file": "อีธาน-บร็อกเค็ต.html",
-            "trend": "down",
-            "last_rank": 3
+            "trend": "up",
+            "last_rank": 4
         },
         {
             "name_th": "รุ่งราวี ศิษย์สองพี่น้อง",
@@ -730,7 +603,8 @@
                 }
             },
             "profile_file": "รุ่งราวี-ศิษย์สองพี่น้อง.html",
-            "trend": "new"
+            "trend": "up",
+            "last_rank": 5
         },
         {
             "name_th": "โยชิดะ โคเซอิ",
@@ -811,12 +685,13 @@
                 }
             },
             "profile_file": "ฮีโร-มาร์โก-มังกูเรย์.html",
-            "trend": "new"
+            "trend": "up",
+            "last_rank": 6
         },
         {
             "name_th": "ดีอาส ออเตเกน",
             "image_url": "ดีอาส-ออเตเกน",
-            "team_th": "ยังไม่มีข้อมูล",
+            "team_th": "TXT Team",
             "country_th": "คาซัคสถาน",
             "stats": {
                 "lifetime": {
@@ -869,14 +744,14 @@
                 }
             },
             "profile_file": "ดีอาส-ออเตเกน.html",
-            "trend": "down",
-            "last_rank": 4
+            "trend": "up",
+            "last_rank": 7
         },
         {
             "name_th": "ดาเลียน ดาวอดี",
             "image_url": "ดาเลียน-ดาวอดี",
-            "team_th": "ยังไม่มีข้อมูล",
-            "country_th": "ไม่ระบุ",
+            "team_th": "Karlstad Muay Thai",
+            "country_th": "สวีเดน",
             "stats": {
                 "lifetime": {
                     "one": {
@@ -928,7 +803,8 @@
                 }
             },
             "profile_file": "ดาเลียน-ดาวอดี.html",
-            "trend": "new"
+            "trend": "up",
+            "last_rank": 8
         },
         {
             "name_th": "นาซีบ ฮเมเด",
@@ -986,12 +862,13 @@
                 }
             },
             "profile_file": "นาซีบ-ฮเมเด.html",
-            "trend": "new"
+            "trend": "up",
+            "last_rank": 9
         },
         {
             "name_th": "โคตะ อาเบะ",
             "image_url": "โคตะ-อาเบะ",
-            "team_th": "ยังไม่มีข้อมูล",
+            "team_th": "Tribe Tokyo MMA",
             "country_th": "ญี่ปุ่น",
             "stats": {
                 "lifetime": {
@@ -1044,7 +921,8 @@
                 }
             },
             "profile_file": "โคตะ-อาเบะ.html",
-            "trend": "new"
+            "trend": "up",
+            "last_rank": 10
         },
         {
             "name_th": "บาร์เต็ก ปาชชิก",
@@ -1102,13 +980,14 @@
                 }
             },
             "profile_file": "บาร์เต็ก-ปาชชิก.html",
-            "trend": "new"
+            "trend": "up",
+            "last_rank": 11
         },
         {
             "name_th": "เรย์ยาน บัตต์",
             "image_url": "เรย์ยาน-บัตต์",
-            "team_th": "ไม่ระบุ",
-            "country_th": "ไม่ระบุ",
+            "team_th": "Tiger Muay Thai",
+            "country_th": "อินเดีย",
             "stats": {
                 "lifetime": {
                     "one": {
@@ -1160,13 +1039,13 @@
                 }
             },
             "profile_file": "เรย์ยาน-บัตต์.html",
-            "trend": "down",
-            "last_rank": 5
+            "trend": "up",
+            "last_rank": 12
         },
         {
             "name_th": "แดนเต โรดริเกส",
             "image_url": "แดนเต-โรดริเกส",
-            "team_th": "ยังไม่มีข้อมูล",
+            "team_th": "Lukphinong Muaythai / Tiger Muay Thai",
             "country_th": "ออสเตรเลีย",
             "stats": {
                 "lifetime": {
@@ -1219,7 +1098,8 @@
                 }
             },
             "profile_file": "แดนเต-โรดริเกส.html",
-            "trend": "new"
+            "trend": "up",
+            "last_rank": 13
         }
     ]
 }

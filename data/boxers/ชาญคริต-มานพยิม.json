@@ -1,0 +1,61 @@
+{
+  "fighter_profile": {
+    "name_th": "ชาญคริต มานพยิม",
+    "name_en": "",
+    "alias": "ไม่ระบุ",
+    "image_url": "ชาญคริต-มานพยิม",
+    "grade": "N/A",
+    "fighting_style_th": "ยังไม่มีข้อมูล",
+    "fighting_style_en": "ยังไม่มีข้อมูล",
+    "stance": "ยังไม่มีข้อมูล",
+    "physical_stats": {
+      "weight_lbs": 0,
+      "weight_kg": 0,
+      "hydration": "N/A",
+      "division": "ยังไม่มีข้อมูล",
+      "height_ft": "ยังไม่มีข้อมูล",
+      "height_cm": 171,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
+    },
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ยังไม่มีข้อมูล",
+        "body": "ยังไม่มีข้อมูล",
+        "legs": "ยังไม่มีข้อมูล",
+        "total_per_minute": "ยังไม่มีข้อมูล"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+        "accuracy_by_target_percentage": {
+          "head": "ยังไม่มีข้อมูล",
+          "body": "ยังไม่มีข้อมูล",
+          "legs": "ยังไม่มีข้อมูล"
+        }
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": "ไม่ระบุ",
+        "defense_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ว",
+      "country_en": "ว",
+      "age": 29,
+      "team_th": "ยังไม่มีข้อมูล",
+      "team_en": "ยังไม่มีข้อมูล"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/chankrit-manop-gym/"
+    ],
+    "short_biography": ""
+  },
+  "fight_history_one_championship": [],
+  "weigh_in_history": [],
+  "upcoming_fights": [],
+  "fight_history": []
+}

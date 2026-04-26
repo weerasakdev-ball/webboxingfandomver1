@@ -1,0 +1,192 @@
+{
+  "fighter_profile": {
+    "name_th": "คาร์โล บูมินาอัง",
+    "name_en": "",
+    "alias": "ไม่ระบุ",
+    "image_url": "คาร์โล-บูมินาอัง",
+    "grade": "N/A",
+    "fighting_style_th": "ยังไม่มีข้อมูล",
+    "fighting_style_en": "ยังไม่มีข้อมูล",
+    "stance": "ยังไม่มีข้อมูล",
+    "physical_stats": {
+      "weight_lbs": 0,
+      "weight_kg": 0,
+      "hydration": "N/A",
+      "division": "ยังไม่มีข้อมูล",
+      "height_ft": "ยังไม่มีข้อมูล",
+      "height_cm": 162,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
+    },
+    "performance_stats": {
+      "significant_strikes_per_minute": {
+        "head": "ยังไม่มีข้อมูล",
+        "body": "ยังไม่มีข้อมูล",
+        "legs": "ยังไม่มีข้อมูล",
+        "total_per_minute": "ยังไม่มีข้อมูล"
+      },
+      "significant_strike_accuracy": {
+        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+        "accuracy_by_target_percentage": {
+          "head": "ยังไม่มีข้อมูล",
+          "body": "ยังไม่มีข้อมูล",
+          "legs": "ยังไม่มีข้อมูล"
+        }
+      },
+      "defensive_stats": {
+        "overall_defense_percentage": "ไม่ระบุ",
+        "defense_by_target_percentage": {
+          "head": "ไม่ระบุ",
+          "body": "ไม่ระบุ",
+          "legs": "ไม่ระบุ"
+        }
+      }
+    },
+    "personal_info": {
+      "country_th": "ฟ",
+      "country_en": "ฟ",
+      "age": 32,
+      "team_th": "ยังไม่มีข้อมูล",
+      "team_en": "ยังไม่มีข้อมูล"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/carlo-bumina-ang/"
+    ],
+    "short_biography": ""
+  },
+  "fight_history_one_championship": [],
+  "weigh_in_history": [],
+  "upcoming_fights": [],
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "0:50",
+      "opponent_th": "มาร์กอส ออเรลิโอ",
+      "opponent_en": "",
+      "opponent_country": "บราซิล",
+      "date": "Jan 24, 2026",
+      "rating": 5,
+      "event_en": "ONE Fight Night 39: แรมโบ้เล็ก vs อับดุลลา"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "Submission",
+      "round": 2,
+      "time": "3:24",
+      "opponent_th": "เอลเบก อาลีชอฟ",
+      "opponent_en": "",
+      "opponent_country": "รัสเซีย/อาเซอร์ไบจาน",
+      "date": "Nov 08, 2025",
+      "rating": 5,
+      "event_en": "ONE Fight Night 37: โรมัน vs ซาเมต"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:45",
+      "opponent_th": "มาวโร มาสโตรมารินี",
+      "opponent_en": "",
+      "opponent_country": "อาร์เจนตินา",
+      "date": "Apr 05, 2025",
+      "rating": 5,
+      "event_en": "ONE Fight Night 30: โรมัน vs ลินดอน"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "0:53",
+      "opponent_th": "ซง มิน จง",
+      "opponent_en": "",
+      "opponent_country": "เกาหลีใต้",
+      "date": "Feb 08, 2025",
+      "rating": 5,
+      "event_en": "ONE Fight Night 28: พระจันทร์ฉาย vs เอลลิส"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "Submission",
+      "round": 3,
+      "time": "4:59",
+      "opponent_th": "เอ็งค์-ออร์กิล บาทาร์คู",
+      "opponent_en": "",
+      "opponent_country": "มองโกเลีย",
+      "date": "Aug 02, 2024",
+      "rating": 5,
+      "event_en": "ONE Fight Night 24: จาร์เร็ด vs กุสตาโว"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Submission",
+      "round": 2,
+      "time": "2:39",
+      "opponent_th": "ชายัน ออร์ซัค",
+      "opponent_en": "",
+      "opponent_country": "มองโกเลีย/รัสเซีย",
+      "date": "May 31, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 65"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Submission",
+      "round": 1,
+      "time": "1:29",
+      "opponent_th": "เซียะ จือเผิง",
+      "opponent_en": "",
+      "opponent_country": "จีน",
+      "date": "Feb 02, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 50"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "0:23",
+      "opponent_th": "อิลยาส เดอร์ซุน",
+      "opponent_en": "",
+      "opponent_country": "ตุรกี",
+      "date": "Dec 08, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 44"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Split Decision",
+      "round": 3,
+      "time": "5:00",
+      "opponent_th": "เดนิส อันดรีฟ",
+      "opponent_en": "",
+      "opponent_country": "รัสเซีย",
+      "date": "Oct 20, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 37"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "0:52",
+      "opponent_th": "เรซา ซาเอดี",
+      "opponent_en": "",
+      "opponent_country": "อิหร่าน",
+      "date": "Aug 04, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 27"
+    }
+  ]
+}

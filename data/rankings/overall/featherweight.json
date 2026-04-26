@@ -1,10 +1,10 @@
 {
-    "last_updated": "2026-04-17",
+    "last_updated": "2026-04-26",
     "division": "Featherweight",
     "fighters": [
         {
             "name_th": "ตะวันฉาย พีเค.แสนชัย",
-            "image_url": "ตะวันฉาย-พีเคแสนชัย",
+            "image_url": "ตะวันฉาย-พีเค.แสนชัย",
             "team_th": "พีเค.แสนชัยมวยไทยยิม",
             "country_th": "ไทย",
             "stats": {
@@ -150,13 +150,14 @@
                 }
             },
             "profile_file": "ตะวันฉาย-พีเค.แสนชัย.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 1
         },
         {
             "name_th": "เซมิห์ ชาห์ จินดีร์",
             "image_url": "เซมิห์-ชาห์-จินดีร์",
-            "team_th": "ไม่ระบุ",
-            "country_th": "ไม่ระบุ",
+            "team_th": "Black Panther Sports / TRIPL3 MMA",
+            "country_th": "เซเนกัล",
             "stats": {
                 "lifetime": {
                     "one": {
@@ -277,8 +278,8 @@
                 }
             },
             "profile_file": "เซมิห์-ชาห์-จินดีร์.html",
-            "trend": "down",
-            "last_rank": 1
+            "trend": "steady",
+            "last_rank": 2
         },
         {
             "name_th": "ซุปเปอร์บอน ซุปเปอร์บอนเทรนนิง แคมป์",
@@ -451,8 +452,8 @@
                 }
             },
             "profile_file": "ซุปเปอร์บอน-ซุปเปอร์บอนเทรนนิงแคมป์.html",
-            "trend": "down",
-            "last_rank": 2
+            "trend": "steady",
+            "last_rank": 3
         },
         {
             "name_th": "มารัต กริกอเรียน",
@@ -625,8 +626,8 @@
                 }
             },
             "profile_file": "มารัต-กริกอเรียน.html",
-            "trend": "down",
-            "last_rank": 3
+            "trend": "steady",
+            "last_rank": 4
         },
         {
             "name_th": "ชาโด้ สิงห์มาวิน",
@@ -730,7 +731,8 @@
                 }
             },
             "profile_file": "ชาโด้-สิงห์มาวิน.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 5
         },
         {
             "name_th": "นนทชัย จิตรเมืองนนท์",
@@ -834,8 +836,8 @@
                 }
             },
             "profile_file": "นนทชัย-จิตรเมืองนนท์.html",
-            "trend": "down",
-            "last_rank": 4
+            "trend": "steady",
+            "last_rank": 6
         },
         {
             "name_th": "อาลี เคลาต",
@@ -916,89 +918,8 @@
                 }
             },
             "profile_file": "อาลี-เคลาต.html",
-            "trend": "new"
-        },
-        {
-            "name_th": "เอเลียส อับเดลาลี",
-            "image_url": "เอเลียส-อับเดลาลี",
-            "team_th": "ทีม ปายาน",
-            "country_th": "ฝรั่งเศส",
-            "stats": {
-                "lifetime": {
-                    "one": {
-                        "wins": 3,
-                        "losses": 0,
-                        "draws": 0,
-                        "ko_wins": 2,
-                        "points": 13
-                    },
-                    "others": {
-                        "wins": 0,
-                        "losses": 0,
-                        "draws": 0,
-                        "ko_wins": 0,
-                        "points": 0
-                    },
-                    "total": {
-                        "wins": 3,
-                        "losses": 0,
-                        "draws": 0,
-                        "ko_wins": 2,
-                        "points": 13
-                    }
-                },
-                "yearly": {
-                    "2025": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    },
-                    "2026": {
-                        "one": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "others": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        },
-                        "total": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "ko_wins": 0,
-                            "points": 0
-                        }
-                    }
-                }
-            },
-            "profile_file": "เอเลียส-อับเดลาลี.html",
             "trend": "steady",
-            "last_rank": 8
+            "last_rank": 7
         },
         {
             "name_th": "หลิว เมิงหยาง",
@@ -1079,8 +1000,90 @@
                 }
             },
             "profile_file": "หลิว-เมิงหยาง.html",
+            "trend": "up",
+            "last_rank": 9
+        },
+        {
+            "name_th": "เอเลียส อับเดลาลี",
+            "image_url": "เอเลียส-อับเดลาลี",
+            "team_th": "ทีม ปายาน",
+            "country_th": "ฝรั่งเศส",
+            "stats": {
+                "lifetime": {
+                    "one": {
+                        "wins": 3,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 1,
+                        "points": 11
+                    },
+                    "others": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 0,
+                        "points": 0
+                    },
+                    "total": {
+                        "wins": 3,
+                        "losses": 0,
+                        "draws": 0,
+                        "ko_wins": 1,
+                        "points": 11
+                    }
+                },
+                "yearly": {
+                    "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2026": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    }
+                }
+            },
+            "profile_file": "เอเลียส-อับเดลาลี.html",
             "trend": "down",
-            "last_rank": 5
+            "last_rank": 8
         },
         {
             "name_th": "มาซาอากิ โนอิริ",
@@ -1161,8 +1164,8 @@
                 }
             },
             "profile_file": "มาซาอากิ-โนอิริ.html",
-            "trend": "down",
-            "last_rank": 6
+            "trend": "steady",
+            "last_rank": 10
         },
         {
             "name_th": "ลุค ลิสซีย์",
@@ -1266,8 +1269,8 @@
                 }
             },
             "profile_file": "ลุค-ลิสซีย์.html",
-            "trend": "down",
-            "last_rank": 7
+            "trend": "steady",
+            "last_rank": 11
         },
         {
             "name_th": "ฮิชาม เซรูอาลี",
@@ -1325,7 +1328,8 @@
                 }
             },
             "profile_file": "ฮิชาม-เซรูอาลี.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 12
         },
         {
             "name_th": "เควิน กีเยน",
@@ -1383,7 +1387,8 @@
                 }
             },
             "profile_file": "เควิน-กีเยน.html",
-            "trend": "new"
+            "trend": "steady",
+            "last_rank": 13
         }
     ]
 }

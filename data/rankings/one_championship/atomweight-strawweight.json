@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-04-17",
+    "last_updated": "2026-04-26",
     "division": "Atomweight / Strawweight",
     "fighters": [
         {
@@ -58,8 +58,8 @@
                 }
             },
             "profile_file": "นาดากะ.html",
-            "trend": "new",
-            "last_rank": null
+            "trend": "steady",
+            "last_rank": 1
         }
     ]
 }

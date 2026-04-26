@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-04-17",
+    "last_updated": "2026-04-26",
     "division": "Bantamweight Muay Thai / Featherweight Muay Thai",
     "fighters": [
         {
@@ -11,7 +11,7 @@
                 "lifetime": {
                     "one": {
                         "wins": 5,
-                        "losses": 3,
+                        "losses": 4,
                         "draws": 0,
                         "ko_wins": 0,
                         "points": 15
@@ -25,7 +25,7 @@
                     },
                     "total": {
                         "wins": 5,
-                        "losses": 3,
+                        "losses": 4,
                         "draws": 0,
                         "ko_wins": 0,
                         "points": 15

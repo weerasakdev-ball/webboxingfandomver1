@@ -202,7 +202,7 @@
 <body>
 
     <header class="main-header">
-        <h1><span class="text-red">Boxing</span><span class="text-white">Fandom</span></h1>
+        <h1><a href="../../index.html" style="text-decoration:none;"><span class="text-red">Boxing</span><span class="text-white">Fandom</span></a></h1>
         <nav class="main-nav">
             <ul>
                 <li><a href="../../index.html">หน้าแรก</a></li>
@@ -227,8 +227,9 @@
                 </li>
             </ul>
             <div class="header-search-box">
-                <input type="text" placeholder="ค้นหานักมวยทั่วเว็บ...">
-                <button type="button">ค้นหา</button>
+                <input type="text" id="mainSearchInput" placeholder="ค้นหานักมวยทั่วเว็บ..." autocomplete="off">
+                <button type="button" id="mainSearchButton">ค้นหา</button>
+                <div id="mainSearchDropdown" class="search-dropdown"></div>
             </div>
         </nav>
     </header>
@@ -243,7 +244,7 @@
 
             <div class="selector-area">
                 <div class="fighter-select-card" style="border-top: 5px solid var(--pl-blue);">
-                    <div id="img-p1"><img src="https://via.placeholder.com/150/eff6ff/3b82f6?text=Blue" class="img-compare"></div>
+                    <div id="img-p1"><img src="../../assets/images/noname.jpg" class="img-compare" alt="มุมน้ำเงิน"></div>
                     <div class="search-box">
                         <input type="text" id="search1" class="search-input" placeholder="🔍 ค้นหามุมน้ำเงิน..." autocomplete="off" oninput="filterList(1)" onclick="toggleList(1, true)">
                         <div id="list1" class="dropdown-list"></div>
@@ -253,7 +254,7 @@
                 <div class="vs-badge">VS</div>
                 
                 <div class="fighter-select-card" style="border-top: 5px solid var(--pl-pink);">
-                    <div id="img-p2"><img src="https://via.placeholder.com/150/fef2f2/ef4444?text=Red" class="img-compare"></div>
+                    <div id="img-p2"><img src="../../assets/images/noname.jpg" class="img-compare" alt="มุมแดง"></div>
                     <div class="search-box">
                         <input type="text" id="search2" class="search-input" placeholder="🔍 ค้นหามุมแดง..." autocomplete="off" oninput="filterList(2)" onclick="toggleList(2, true)">
                         <div id="list2" class="dropdown-list"></div>
@@ -286,6 +287,18 @@
         let selectedFighter1 = null;
         let selectedFighter2 = null;
 
+        // ---------------------------------------------------------
+        // 🌟 อัปเกรด: ฟังก์ชันดึงรูปภาพจาก Cloudinary
+        // ---------------------------------------------------------
+        function getCloudinaryUrl(imgId, w, h) {
+            if (!imgId || imgId === "ไม่ระบุ" || imgId === "ยังไม่มีข้อมูล" || imgId.trim() === "" || imgId === "noname") {
+                return "../../assets/images/noname.jpg";
+            }
+            if (imgId.startsWith('http') || imgId.includes('assets/')) return imgId;
+            let clean = imgId.replace(/\.(jpg|jpeg|png|webp)$/i, '');
+            return `https://res.cloudinary.com/dpvyl7nan/image/upload/c_fill,g_face,h_${h},w_${w},f_auto,q_auto/v1/${encodeURIComponent(clean)}`;
+        }
+
         function getSmartAge(staticAge) {
             if (!staticAge) return 28; 
             const baseYear = 2026; 
@@ -317,6 +330,81 @@
             } catch (e) { console.error("System Error during Init:", e); }
         }
 
+        // --- ระบบค้นหาหลักบน Navbar ---
+        const sitePagesIndex = [
+            { title: "ข่าววงการมวย", url: "../news/index.html", icon: "📰" },
+            { title: "บทความวิเคราะห์มวยเจาะลึก", url: "../articles/index.html", icon: "📝" },
+            { title: "ระบบเทียบสถิตินักมวย", url: "compare.html", icon: "📊" },
+            { title: "จัดอันดับ ONE Championship", url: "../rankings/one-championship.html", icon: "🥇" }
+        ];
+
+        const mainSearchInput = document.getElementById('mainSearchInput');
+        const mainSearchDropdown = document.getElementById('mainSearchDropdown');
+        const mainSearchButton = document.getElementById('mainSearchButton');
+
+        if(mainSearchInput) {
+            mainSearchInput.addEventListener('input', function() {
+                const query = this.value.toLowerCase().trim();
+                if (query.length === 0) { mainSearchDropdown.style.display = 'none'; return; }
+
+                let resultsHtml = '';
+
+                // ค้นหาในหมวดหมู่หน้าเว็บ
+                const matchedPages = sitePagesIndex.filter(page => page.title.toLowerCase().includes(query));
+                if (matchedPages.length > 0) {
+                    resultsHtml += `<div class="search-category-title">หมวดหมู่ & หน้าเว็บ</div>`;
+                    matchedPages.forEach(page => {
+                        resultsHtml += `
+                            <a href="${page.url}" class="search-dropdown-item">
+                                <div class="search-dropdown-icon" style="display:flex; align-items:center; justify-content:center; font-size:1.2rem;">${page.icon}</div>
+                                <div class="search-dropdown-info">
+                                    <span class="search-dropdown-name">${page.title}</span>
+                                    <span class="search-dropdown-meta">คลิกเพื่อไปยังหน้านี้</span>
+                                </div>
+                            </a>`;
+                    });
+                }
+
+                // ค้นหาชื่อนักมวย
+                const matchedFighters = db.filter(f => {
+                    const p = f.fighter_profile || {};
+                    return (p.name_th || '').toLowerCase().includes(query) || (p.name_en || '').toLowerCase().includes(query);
+                }).slice(0, 5);
+
+                if (matchedFighters.length > 0) {
+                    resultsHtml += `<div class="search-category-title">นักมวย (Fighters)</div>`;
+                    matchedFighters.forEach(f => {
+                        const p = f.fighter_profile || {};
+                        // ใช้ getCloudinaryUrl
+                        const imageUrl = getCloudinaryUrl(p.image_url, 40, 40);
+                        const fighterHtmlFile = encodeURIComponent(f.fileName.replace('.json', '.html'));
+                        resultsHtml += `
+                            <a href="../fighter/${fighterHtmlFile}" class="search-dropdown-item">
+                                <img src="${imageUrl}" class="search-dropdown-icon" alt="${p.name_th}" onerror="this.src='../../assets/images/noname.jpg'">
+                                <div class="search-dropdown-info">
+                                    <span class="search-dropdown-name">${p.name_th}</span>
+                                    <span class="search-dropdown-meta">รุ่น: ${p.physical_stats?.division || '-'}</span>
+                                </div>
+                            </a>`;
+                    });
+                }
+
+                mainSearchDropdown.innerHTML = resultsHtml === '' ? '<div style="padding:15px; color:#888; text-align:center;">ไม่พบข้อมูล</div>' : resultsHtml;
+                mainSearchDropdown.style.display = 'block';
+            });
+        }
+
+        if(mainSearchButton) {
+            mainSearchButton.addEventListener('click', () => {
+                const query = mainSearchInput.value.toLowerCase().trim();
+                if (!query) return;
+                const filtered = db.filter(f => (f.fighter_profile?.name_th || '').toLowerCase().includes(query));
+                if (filtered.length > 0) window.location.href = `../fighter/${encodeURIComponent(filtered[0].fileName.replace('.json', '.html'))}`;
+                else alert("ไม่พบข้อมูลนักมวยที่ค้นหา");
+            });
+        }
+
+        // --- ระบบเลือกมวยซ้าย-ขวา ---
         function filterList(side) {
             const query = document.getElementById(`search${side}`).value.toLowerCase();
             const filtered = db.filter(item => 
@@ -339,7 +427,11 @@
         function toggleList(side, forceShow) { document.getElementById(`list${side}`).classList.toggle('show', forceShow); }
         
         document.addEventListener('click', function(e) {
-            if (!e.target.closest('.search-box')) { document.getElementById('list1').classList.remove('show'); document.getElementById('list2').classList.remove('show'); }
+            if (!e.target.closest('.search-box')) { 
+                document.getElementById('list1').classList.remove('show'); 
+                document.getElementById('list2').classList.remove('show'); 
+                if(mainSearchDropdown) mainSearchDropdown.style.display = 'none';
+            }
         });
 
         function selectFighter(side, fileName) {
@@ -348,10 +440,14 @@
             document.getElementById(`search${side}`).value = fighter.fighter_profile?.name_th;
             
             const shadowColor = side === 1 ? 'rgba(2, 239, 255, 0.4)' : 'rgba(255, 40, 130, 0.4)';
+            
+            // 🌟 ใช้ getCloudinaryUrl ในรูปตอนเลือกนักมวย
+            const imageUrl = getCloudinaryUrl(fighter.fighter_profile?.image_url, 160, 160);
+
             document.getElementById(`img-p${side}`).innerHTML = `
-                <img src="${fighter.fighter_profile?.image_url || 'https://via.placeholder.com/150'}" 
+                <img src="${imageUrl}" 
                      class="img-compare" style="box-shadow: 0 10px 25px ${shadowColor}; border-color:var(--card);"
-                     onerror="this.src='https://via.placeholder.com/150'">`;
+                     onerror="this.src='../../assets/images/noname.jpg'">`;
             
             toggleList(side, false);
             if (side === 1) selectedFighter1 = fighter;

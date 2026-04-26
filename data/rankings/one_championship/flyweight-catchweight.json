@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-04-17",
+    "last_updated": "2026-04-26",
     "division": "Flyweight / Catchweight",
     "fighters": [
         {
@@ -11,7 +11,7 @@
                 "lifetime": {
                     "one": {
                         "wins": 4,
-                        "losses": 3,
+                        "losses": 4,
                         "draws": 0,
                         "ko_wins": 3,
                         "points": 18
@@ -25,7 +25,7 @@
                     },
                     "total": {
                         "wins": 4,
-                        "losses": 3,
+                        "losses": 4,
                         "draws": 0,
                         "ko_wins": 3,
                         "points": 18
@@ -163,8 +163,8 @@
                 }
             },
             "profile_file": "เอกอร์-บิเกรฟ.html",
-            "trend": "up",
-            "last_rank": 3
+            "trend": "steady",
+            "last_rank": 2
         }
     ]
 }

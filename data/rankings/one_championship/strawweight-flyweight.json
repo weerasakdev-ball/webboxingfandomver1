@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-04-17",
+    "last_updated": "2026-04-26",
     "division": "Strawweight / Flyweight",
     "fighters": [
         {
@@ -10,11 +10,11 @@
             "stats": {
                 "lifetime": {
                     "one": {
-                        "wins": 11,
+                        "wins": 12,
                         "losses": 4,
                         "draws": 0,
-                        "ko_wins": 6,
-                        "points": 45
+                        "ko_wins": 7,
+                        "points": 50
                     },
                     "others": {
                         "wins": 0,
@@ -24,11 +24,11 @@
                         "points": 0
                     },
                     "total": {
-                        "wins": 11,
+                        "wins": 12,
                         "losses": 4,
                         "draws": 0,
-                        "ko_wins": 6,
-                        "points": 45
+                        "ko_wins": 7,
+                        "points": 50
                     }
                 },
                 "yearly": {
@@ -171,6 +171,29 @@
                         }
                     },
                     "2025": {
+                        "one": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "others": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        },
+                        "total": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "ko_wins": 0,
+                            "points": 0
+                        }
+                    },
+                    "2026": {
                         "one": {
                             "wins": 0,
                             "losses": 0,
