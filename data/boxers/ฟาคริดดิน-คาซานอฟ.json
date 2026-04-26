@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "ฟาคริดดิน คาซานอฟ",
-    "name_en": "",
+    "name_en": "Fakhriddin Khasanov",
     "alias": "ไม่ระบุ",
     "image_url": "ฟาคริดดิน-คาซานอฟ",
     "grade": "N/A",
@@ -43,8 +43,8 @@
       }
     },
     "personal_info": {
-      "country_th": "อ",
-      "country_en": "อ",
+      "country_th": "อุซเบกิสถาน",
+      "country_en": "Uzbekistan",
       "age": 24,
       "team_th": "Tiger Muay Thai",
       "team_en": "Tiger Muay Thai"
@@ -58,6 +58,19 @@
   "weigh_in_history": [],
   "upcoming_fights": [],
   "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "แหลมสิงห์ ทีวันไฟต์อะคาเดมี",
+      "opponent_en": "",
+      "opponent_country": "Thailand",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    },
     {
       "result": "Loss",
       "discipline_en": "คิกบ็อกซิง",

@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "เฉิน จายี่",
-    "name_en": "",
+    "name_en": "Chen Jiayi",
     "alias": "ไม่ระบุ",
     "image_url": "เฉิน-จายี่",
     "grade": "N/A",
@@ -43,8 +43,8 @@
       }
     },
     "personal_info": {
-      "country_th": "จ",
-      "country_en": "จ",
+      "country_th": "จีน",
+      "country_en": "China",
       "age": 25,
       "team_th": "Anhui Tianxia Huihiang Fight Club",
       "team_en": "Anhui Tianxia Huihiang Fight Club"
@@ -58,6 +58,19 @@
   "weigh_in_history": [],
   "upcoming_fights": [],
   "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "1:27",
+      "opponent_th": "ดอนคิงส์ โยธารักษ์มวยไทย",
+      "opponent_en": "",
+      "opponent_country": "Thailand",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    },
     {
       "result": "Win",
       "discipline_en": "คิกบ็อกซิง",

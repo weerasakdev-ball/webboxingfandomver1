@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "ทวน เหงียน ทันฮ์",
-    "name_en": "",
+    "name_en": "Thoan Nguyen Thanh",
     "alias": "ไม่ระบุ",
     "image_url": "ทวน-เหงียน-ทันฮ์",
     "grade": "N/A",
@@ -43,8 +43,8 @@
       }
     },
     "personal_info": {
-      "country_th": "ว",
-      "country_en": "ว",
+      "country_th": "เวียดนาม",
+      "country_en": "เวียดนาม",
       "age": 23,
       "team_th": "Raptor MMA",
       "team_en": "Raptor MMA"
@@ -58,6 +58,19 @@
   "weigh_in_history": [],
   "upcoming_fights": [],
   "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "5:00",
+      "opponent_th": "รอรีย์ เทอร์เนอร์",
+      "opponent_en": "",
+      "opponent_country": "Australia",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    },
     {
       "result": "Win",
       "discipline_en": "MMA",

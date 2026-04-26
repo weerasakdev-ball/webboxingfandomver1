@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "จอร์เจีย เปียโรปัน",
-    "name_en": "",
+    "name_en": "Giorgia Pieropan",
     "alias": "ไม่ระบุ",
     "image_url": "จอร์เจีย-เปียโรปัน",
     "grade": "N/A",
@@ -43,11 +43,11 @@
       }
     },
     "personal_info": {
-      "country_th": "อ",
-      "country_en": "อ",
+      "country_th": "อิตาลี",
+      "country_en": "อิตาลี",
       "age": 21,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
+      "team_th": "Team Pieropan / ซิลค์มวยไทย",
+      "team_en": "Team Pieropan/ซิลค์มวยไทย"
     },
     "target_urls": [
       "https://www.onefc.com/th/athletes/giorgia-pieropan/"
@@ -57,5 +57,19 @@
   "fight_history_one_championship": [],
   "weigh_in_history": [],
   "upcoming_fights": [],
-  "fight_history": []
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เทสซา เดอ คอม",
+      "opponent_en": "",
+      "opponent_country": "เนเธอร์แลนด์",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "กะทิ ม.ราชภัฏโคราช",
-    "name_en": "",
+    "name_en": "Kati Mor Rajabhatkorat",
     "alias": "ไม่ระบุ",
     "image_url": "กะทิ-ม.ราชภัฏโคราช",
     "grade": "N/A",
@@ -43,11 +43,11 @@
       }
     },
     "personal_info": {
-      "country_th": "ว",
-      "country_en": "ว",
+      "country_th": "ไทย",
+      "country_en": "Thailand",
       "age": 19,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
+      "team_th": "ม.ราชภัฏโคราช",
+      "team_en": "ม.ราชภัฏโคราช"
     },
     "target_urls": [
       "https://www.onefc.com/th/athletes/kati-mor-rajabhatkorat/"
@@ -58,6 +58,19 @@
   "weigh_in_history": [],
   "upcoming_fights": [],
   "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:29",
+      "opponent_th": "กลิ่นผกา ป.ไทยสงค์",
+      "opponent_en": "",
+      "opponent_country": "Thailand",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    },
     {
       "result": "Loss",
       "discipline_en": "Muay Thai",

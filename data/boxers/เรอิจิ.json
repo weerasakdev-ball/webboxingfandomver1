@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "เรอิจิ",
-    "name_en": "",
+    "name_en": "Reiji Takaki",
     "alias": "ไม่ระบุ",
     "image_url": "เรอิจิ",
     "grade": "N/A",
@@ -14,7 +14,7 @@
       "hydration": "N/A",
       "division": "ยังไม่มีข้อมูล",
       "height_ft": "ยังไม่มีข้อมูล",
-      "height_cm": 0,
+      "height_cm": 174,
       "reach_cm": "ไม่ระบุ",
       "leg_reach_cm": "ไม่ระบุ"
     },
@@ -43,9 +43,9 @@
       }
     },
     "personal_info": {
-      "country_th": "ญ",
-      "country_en": "ญ",
-      "age": 0,
+      "country_th": "ญี่ปุ่น",
+      "country_en": "Japan",
+      "age": 18,
       "team_th": "Nanseikaikan",
       "team_en": "Nanseikaikan"
     },
@@ -57,5 +57,19 @@
   "fight_history_one_championship": [],
   "weigh_in_history": [],
   "upcoming_fights": [],
-  "fight_history": []
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เฉิง ยี่ หัง",
+      "opponent_en": "",
+      "opponent_country": "China",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    }
+  ]
 }

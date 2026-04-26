@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "ริวกิ คาวาโนะ",
-    "name_en": "",
+    "name_en": "Ryuki Kawano",
     "alias": "ไม่ระบุ",
     "image_url": "ริวกิ-คาวาโนะ",
     "grade": "N/A",
@@ -43,8 +43,8 @@
       }
     },
     "personal_info": {
-      "country_th": "ญ",
-      "country_en": "ญ",
+      "country_th": "ญี่ปุ่น",
+      "country_en": "Japan",
       "age": 19,
       "team_th": "Cross Point Kichijoji",
       "team_en": "Cross Point Kichijoji"
@@ -58,6 +58,19 @@
   "weigh_in_history": [],
   "upcoming_fights": [],
   "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "Decision",
+      "round": 1,
+      "time": "2:34",
+      "opponent_th": "ริคาร์โด ซานเชซ",
+      "opponent_en": "",
+      "opponent_country": "เม็กซิโก",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    },
     {
       "result": "Win",
       "discipline_en": "คิกบ็อกซิง",

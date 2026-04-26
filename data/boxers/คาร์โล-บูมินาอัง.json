@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "คาร์โล บูมินาอัง",
-    "name_en": "",
+    "name_en": "Carlo Bumina Ang",
     "alias": "ไม่ระบุ",
     "image_url": "คาร์โล-บูมินาอัง",
     "grade": "N/A",
@@ -43,8 +43,8 @@
       }
     },
     "personal_info": {
-      "country_th": "ฟ",
-      "country_en": "ฟ",
+      "country_th": "ฟิลิปปินส์",
+      "country_en": "ฟิลิปปินส์",
       "age": 32,
       "team_th": "ยังไม่มีข้อมูล",
       "team_en": "ยังไม่มีข้อมูล"
@@ -58,6 +58,19 @@
   "weigh_in_history": [],
   "upcoming_fights": [],
   "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "2:28",
+      "opponent_th": "บาโตเซียร์ แบตไซค์ฮาน",
+      "opponent_en": "",
+      "opponent_country": "Mongolia",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    },
     {
       "result": "Win",
       "discipline_en": "MMA",

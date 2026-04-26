@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "ริคาร์โด ซานเชซ",
-    "name_en": "",
+    "name_en": "Ricardo Sanchez",
     "alias": "ไม่ระบุ",
     "image_url": "ริคาร์โด-ซานเชซ",
     "grade": "N/A",
@@ -43,11 +43,11 @@
       }
     },
     "personal_info": {
-      "country_th": "ว",
-      "country_en": "ว",
+      "country_th": "เม็กซิโก",
+      "country_en": "เม็กซิโก",
       "age": 18,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
+      "team_th": "ซิลค์มวยไทย",
+      "team_en": "ซิลค์มวยไทย"
     },
     "target_urls": [
       "https://www.onefc.com/th/athletes/ricardo-sanchez/"
@@ -57,5 +57,19 @@
   "fight_history_one_championship": [],
   "weigh_in_history": [],
   "upcoming_fights": [],
-  "fight_history": []
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "Decision",
+      "round": 1,
+      "time": "2:34",
+      "opponent_th": "ริวกิ คาวาโนะ",
+      "opponent_en": "",
+      "opponent_country": "Japan",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    }
+  ]
 }

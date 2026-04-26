@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "เฉิง ยี่ หัง",
-    "name_en": "",
+    "name_en": "Sheng Yi Yang",
     "alias": "ไม่ระบุ",
     "image_url": "เฉิง-ยี่-หัง",
     "grade": "N/A",
@@ -43,8 +43,8 @@
       }
     },
     "personal_info": {
-      "country_th": "จ",
-      "country_en": "จ",
+      "country_th": "จีน",
+      "country_en": "China",
       "age": 18,
       "team_th": "Sheng Li Ren He",
       "team_en": "Sheng Li Ren He"

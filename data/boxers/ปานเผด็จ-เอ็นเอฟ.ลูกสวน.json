@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "ปานเผด็จ เอ็นเอฟ.ลูกสวน",
-    "name_en": "",
+    "name_en": "Panpadej Nf Looksuan",
     "alias": "ไม่ระบุ",
     "image_url": "ปานเผด็จ-เอ็นเอฟ.ลูกสวน",
     "grade": "N/A",
@@ -43,11 +43,11 @@
       }
     },
     "personal_info": {
-      "country_th": "ว",
-      "country_en": "ว",
+      "country_th": "ไทย",
+      "country_en": "Thailand",
       "age": 24,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
+      "team_th": "เอ็นเอฟ.ลูกสวน",
+      "team_en": "เอ็นเอฟ.ลูกสวน"
     },
     "target_urls": [
       "https://www.onefc.com/th/athletes/panpadej-nf-looksuan/"
@@ -58,6 +58,19 @@
   "weigh_in_history": [],
   "upcoming_fights": [],
   "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "อูเบด ฮัสเซน",
+      "opponent_en": "",
+      "opponent_country": "ปากีสถาน/United Kingdom",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    },
     {
       "result": "Win",
       "discipline_en": "Muay Thai",

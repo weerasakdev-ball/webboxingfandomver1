@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "ชาญคริต มานพยิม",
-    "name_en": "",
+    "name_en": "Chankrit Manop Gym",
     "alias": "ไม่ระบุ",
     "image_url": "ชาญคริต-มานพยิม",
     "grade": "N/A",
@@ -43,11 +43,11 @@
       }
     },
     "personal_info": {
-      "country_th": "ว",
-      "country_en": "ว",
+      "country_th": "ไทย",
+      "country_en": "Thailand",
       "age": 29,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
+      "team_th": "มานพยิม",
+      "team_en": "มานพยิม"
     },
     "target_urls": [
       "https://www.onefc.com/th/athletes/chankrit-manop-gym/"
@@ -57,5 +57,19 @@
   "fight_history_one_championship": [],
   "weigh_in_history": [],
   "upcoming_fights": [],
-  "fight_history": []
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "เพชรเมืองศรี ทอฝันฟาร์ม",
+      "opponent_en": "",
+      "opponent_country": "Thailand",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    }
+  ]
 }

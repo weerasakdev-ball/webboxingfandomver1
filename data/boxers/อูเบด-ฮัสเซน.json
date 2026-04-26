@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "อูเบด ฮัสเซน",
-    "name_en": "",
+    "name_en": "Ubaid Hussain",
     "alias": "ไม่ระบุ",
     "image_url": "อูเบด-ฮัสเซน",
     "grade": "N/A",
@@ -43,11 +43,11 @@
       }
     },
     "personal_info": {
-      "country_th": "ป",
-      "country_en": "ป",
+      "country_th": "ปากีสถาน/สหราชอาณาจักร",
+      "country_en": "ปากีสถาน/United Kingdom",
       "age": 20,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
+      "team_th": "เกียรติพลทิพย์ยิม",
+      "team_en": "เกียรติพลทิพย์ยิม"
     },
     "target_urls": [
       "https://www.onefc.com/th/athletes/ubaid-hussain/"
@@ -58,6 +58,19 @@
   "weigh_in_history": [],
   "upcoming_fights": [],
   "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ปานเผด็จ เอ็นเอฟ.ลูกสวน",
+      "opponent_en": "",
+      "opponent_country": "Thailand",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    },
     {
       "result": "Win",
       "discipline_en": "Muay Thai",

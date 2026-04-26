@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "รอรีย์ เทอร์เนอร์",
-    "name_en": "",
+    "name_en": "Rory Turner",
     "alias": "ไม่ระบุ",
     "image_url": "รอรีย์-เทอร์เนอร์",
     "grade": "N/A",
@@ -58,6 +58,19 @@
   "weigh_in_history": [],
   "upcoming_fights": [],
   "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "5:00",
+      "opponent_th": "ทวน เหงียน ทันฮ์",
+      "opponent_en": "",
+      "opponent_country": "เวียดนาม",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    },
     {
       "result": "Win",
       "discipline_en": "MMA",

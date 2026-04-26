@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "เทสซา เดอ คอม",
-    "name_en": "",
+    "name_en": "Tessa De Kom",
     "alias": "ไม่ระบุ",
     "image_url": "เทสซา-เดอ-คอม",
     "grade": "N/A",
@@ -43,8 +43,8 @@
       }
     },
     "personal_info": {
-      "country_th": "ว",
-      "country_en": "ว",
+      "country_th": "เนเธอร์แลนด์",
+      "country_en": "เนเธอร์แลนด์",
       "age": 25,
       "team_th": "ยังไม่มีข้อมูล",
       "team_en": "ยังไม่มีข้อมูล"
@@ -57,5 +57,19 @@
   "fight_history_one_championship": [],
   "weigh_in_history": [],
   "upcoming_fights": [],
-  "fight_history": []
+  "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "จอร์เจีย เปียโรปัน",
+      "opponent_en": "",
+      "opponent_country": "อิตาลี",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    }
+  ]
 }

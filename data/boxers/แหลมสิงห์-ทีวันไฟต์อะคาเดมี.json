@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "แหลมสิงห์ ทีวันไฟต์อะคาเดมี",
-    "name_en": "",
+    "name_en": "Lamsing Sor Dechapan",
     "alias": "ไม่ระบุ",
     "image_url": "แหลมสิงห์-ทีวันไฟต์อะคาเดมี",
     "grade": "N/A",
@@ -43,11 +43,11 @@
       }
     },
     "personal_info": {
-      "country_th": "ว",
-      "country_en": "ว",
+      "country_th": "ไทย",
+      "country_en": "Thailand",
       "age": 30,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
+      "team_th": "ทีวันไฟต์อะคาเดมี",
+      "team_en": "ทีวันไฟต์อะคาเดมี"
     },
     "target_urls": [
       "https://www.onefc.com/th/athletes/lamsing-sor-dechapan/"
@@ -58,6 +58,19 @@
   "weigh_in_history": [],
   "upcoming_fights": [],
   "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ฟาคริดดิน คาซานอฟ",
+      "opponent_en": "",
+      "opponent_country": "Uzbekistan",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    },
     {
       "result": "Win",
       "discipline_en": "Muay Thai",

@@ -1,7 +1,7 @@
 {
   "fighter_profile": {
     "name_th": "เพชรเมืองศรี ทอฝันฟาร์ม",
-    "name_en": "",
+    "name_en": "Petmuangsri",
     "alias": "ไม่ระบุ",
     "image_url": "เพชรเมืองศรี-ทอฝันฟาร์ม",
     "grade": "N/A",
@@ -43,11 +43,11 @@
       }
     },
     "personal_info": {
-      "country_th": "ว",
-      "country_en": "ว",
+      "country_th": "ไทย",
+      "country_en": "Thailand",
       "age": 22,
-      "team_th": "ยังไม่มีข้อมูล",
-      "team_en": "ยังไม่มีข้อมูล"
+      "team_th": "ทีเด็ด99",
+      "team_en": "ทีเด็ด99"
     },
     "target_urls": [
       "https://www.onefc.com/th/athletes/petmuangsri/"
@@ -58,6 +58,19 @@
   "weigh_in_history": [],
   "upcoming_fights": [],
   "fight_history": [
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "ชาญคริต มานพยิม",
+      "opponent_en": "",
+      "opponent_country": "Thailand",
+      "date": "Apr 24, 2026",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+    },
     {
       "result": "Loss",
       "discipline_en": "Muay Thai",
