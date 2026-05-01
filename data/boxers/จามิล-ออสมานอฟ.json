@@ -1,0 +1,77 @@
+{
+    "fighter_profile": {
+        "name_th": "จามิล ออสมานอฟ",
+        "name_en": "Dzhamil Osmanov",
+        "alias": "ไม่ระบุ",
+        "image_url": "จามิล-ออสมานอฟ",
+        "grade": "N/A",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 145.0,
+            "weight_kg": 65.77,
+            "division": "Bantamweight",
+            "height_ft": "ไม่ระบุ",
+            "height_cm": 179,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไม่ระบุ",
+            "country_en": "ไม่ระบุ",
+            "age": 21,
+            "team_th": "Akhmat Kickboxing / Team Mehdi Zatout",
+            "team_en": "Akhmat Kickboxing/Team Mehdi Zatout"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/dzhamil-osmanov/"
+        ],
+        "target_url": "",
+        "short_biography": ""
+    },
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 152",
+            "weight_lbs": 145.0,
+            "division": "Bantamweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:36",
+            "opponent_th": "กายสิทธิ์ มาวินมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ยังไม่มีข้อมูล",
+            "date": "Sep 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 125"
+        }
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:36",
+            "opponent_th": "กายสิทธิ์ มาวินมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ยังไม่มีข้อมูล",
+            "date": "Sep 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 125"
+        }
+    ],
+    "upcoming_fights": []
+}

@@ -1,0 +1,155 @@
+{
+    "fighter_profile": {
+        "name_th": "กฤษณะ ดาวเด่นมวยไทย",
+        "name_en": "Krisana",
+        "alias": "ไม่ระบุ",
+        "image_url": "กฤษณะ-ดาวเด่นมวยไทย",
+        "grade": "N/A",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 139.2,
+            "weight_kg": 63.14,
+            "division": "Bantamweight",
+            "height_ft": "ไม่ระบุ",
+            "height_cm": 170,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไม่ระบุ",
+            "country_en": "ไม่ระบุ",
+            "age": 25,
+            "team_th": "ดาวเด่นมวยไทย",
+            "team_en": "ดาวเด่นมวยไทย"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/krisana/"
+        ],
+        "target_url": "",
+        "short_biography": ""
+    },
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 152",
+            "weight_lbs": 139.2,
+            "division": "Bantamweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พันฤทธิ์ ลูกเจ้าแม่สายวารี",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Oct 31, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 131"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "คมอาวุธ เอฟเอ.กรุ๊ป",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Sep 05, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 123"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แอนตาร์ คาเซม",
+            "opponent_en": "",
+            "opponent_country": "France/เบลารุส",
+            "date": "Feb 28, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 98"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ลำน้ำโขง บีเอส.มวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ลาว",
+            "date": "Nov 15, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 87"
+        }
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "พันฤทธิ์ ลูกเจ้าแม่สายวารี",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Oct 31, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 131"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "คมอาวุธ เอฟเอ.กรุ๊ป",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Sep 05, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 123"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "แอนตาร์ คาเซม",
+            "opponent_en": "",
+            "opponent_country": "France/เบลารุส",
+            "date": "Feb 28, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 98"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ลำน้ำโขง บีเอส.มวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ลาว",
+            "date": "Nov 15, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 87"
+        }
+    ],
+    "upcoming_fights": []
+}

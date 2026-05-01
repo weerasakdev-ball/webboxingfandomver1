@@ -1,0 +1,103 @@
+{
+    "fighter_profile": {
+        "name_th": "ดวงดาวน้อย ลูกทรายกองดิน",
+        "name_en": "Duangdawnoi",
+        "alias": "ไม่ระบุ",
+        "image_url": "ดวงดาวน้อย-ลูกทรายกองดิน",
+        "grade": "N/A",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 105.4,
+            "weight_kg": 47.81,
+            "division": "Atomweight",
+            "height_ft": "ไม่ระบุ",
+            "height_cm": 160,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไม่ระบุ",
+            "country_en": "ไม่ระบุ",
+            "age": 27,
+            "team_th": "ลูกทรายกองดิน",
+            "team_en": "ลูกทรายกองดิน"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/duangdawnoi/"
+        ],
+        "target_url": "",
+        "short_biography": ""
+    },
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 152",
+            "weight_lbs": 105.4,
+            "division": "Atomweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:36",
+            "opponent_th": "เรแกน กาวอิง",
+            "opponent_en": "",
+            "opponent_country": "แคนาดา",
+            "date": "Dec 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "คิม ทาวน์เซนด์",
+            "opponent_en": "",
+            "opponent_country": "Australia",
+            "date": "Oct 10, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 128"
+        }
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:36",
+            "opponent_th": "เรแกน กาวอิง",
+            "opponent_en": "",
+            "opponent_country": "แคนาดา",
+            "date": "Dec 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "คิม ทาวน์เซนด์",
+            "opponent_en": "",
+            "opponent_country": "Australia",
+            "date": "Oct 10, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 128"
+        }
+    ],
+    "upcoming_fights": []
+}

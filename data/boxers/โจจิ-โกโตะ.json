@@ -1,0 +1,38 @@
+{
+    "fighter_profile": {
+        "name_th": "โจจิ โกโตะ",
+        "name_en": "Joji Goto",
+        "alias": "ไม่ระบุ",
+        "image_url": "โจจิ-โกโตะ",
+        "grade": "N/A",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": "ไม่ระบุ",
+            "weight_kg": "ไม่ระบุ",
+            "division": "ไม่ระบุ",
+            "height_ft": "ไม่ระบุ",
+            "height_cm": 0,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไม่ระบุ",
+            "country_en": "ไม่ระบุ",
+            "age": 0,
+            "team_th": "ไม่ระบุ",
+            "team_en": "ไม่ระบุ"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/joji-goto/"
+        ]
+    },
+    "weigh_in_history": [],
+    "fight_history": []
+}

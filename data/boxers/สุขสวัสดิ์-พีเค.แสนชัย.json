@@ -1,0 +1,129 @@
+{
+    "fighter_profile": {
+        "name_th": "สุขสวัสดิ์ พีเค.แสนชัย",
+        "name_en": "Suksawat Pk Saenchai",
+        "alias": "ไม่ระบุ",
+        "image_url": "สุขสวัสดิ์-พีเค.แสนชัย",
+        "grade": "N/A",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 141.2,
+            "weight_kg": 64.05,
+            "division": "Bantamweight",
+            "height_ft": "ไม่ระบุ",
+            "height_cm": 176,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไม่ระบุ",
+            "country_en": "ไม่ระบุ",
+            "age": 25,
+            "team_th": "พีเค.แสนชัยมวยไทยยิม",
+            "team_en": "พีเค.แสนชัยมวยไทยยิม"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/suksawat-pk-saenchai/"
+        ],
+        "target_url": "",
+        "short_biography": ""
+    },
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 152",
+            "weight_lbs": 141.2,
+            "division": "Bantamweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "กายสิทธิ์ มาวินมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ยังไม่มีข้อมูล",
+            "date": "Nov 28, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 135"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องกุลา จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Aug 01, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 118"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:55",
+            "opponent_th": "พันฤทธิ์ ลูกเจ้าแม่สายวารี",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "May 02, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 106"
+        }
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "กายสิทธิ์ มาวินมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ยังไม่มีข้อมูล",
+            "date": "Nov 28, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 135"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องกุลา จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Aug 01, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 118"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:55",
+            "opponent_th": "พันฤทธิ์ ลูกเจ้าแม่สายวารี",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "May 02, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 106"
+        }
+    ],
+    "upcoming_fights": []
+}

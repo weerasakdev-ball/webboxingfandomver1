@@ -1,0 +1,129 @@
+{
+    "fighter_profile": {
+        "name_th": "เพชรชาคริต แกวินยิม",
+        "name_en": "Petchakrit Tn Diamond Home",
+        "alias": "ไม่ระบุ",
+        "image_url": "เพชรชาคริต-แกวินยิม",
+        "grade": "N/A",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 121.2,
+            "weight_kg": 54.98,
+            "division": "Strawweight",
+            "height_ft": "ไม่ระบุ",
+            "height_cm": 167,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไม่ระบุ",
+            "country_en": "ไม่ระบุ",
+            "age": 24,
+            "team_th": "เอฟเอ.กรุ๊ป",
+            "team_en": "เอฟเอ.กรุ๊ป"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/petchakrit-tn-diamond-home/"
+        ],
+        "target_url": "",
+        "short_biography": ""
+    },
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 152",
+            "weight_lbs": 121.2,
+            "division": "Strawweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 1,
+            "time": "2:43",
+            "opponent_th": "ยอดอนุชา เอกปัตตานี",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Oct 17, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 129"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:39",
+            "opponent_th": "ผามออีแดง โชคอำนวยชัย",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Aug 22, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 121"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:44",
+            "opponent_th": "เพชรตาเสือ สีโอปอล",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Aug 23, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 76"
+        }
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 1,
+            "time": "2:43",
+            "opponent_th": "ยอดอนุชา เอกปัตตานี",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Oct 17, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 129"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "0:39",
+            "opponent_th": "ผามออีแดง โชคอำนวยชัย",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Aug 22, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 121"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:44",
+            "opponent_th": "เพชรตาเสือ สีโอปอล",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Aug 23, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 76"
+        }
+    ],
+    "upcoming_fights": []
+}

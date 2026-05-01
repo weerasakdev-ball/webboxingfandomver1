@@ -1,0 +1,130 @@
+{
+    "fighter_profile": {
+        "name_th": "กริชเพชร พีเค.แสนชัย",
+        "name_en": "Kritpet Pk Saenchai",
+        "alias": "ไม่ระบุ",
+        "image_url": "กริชเพชร-พีเค.แสนชัย",
+        "grade": "N/A",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": "ไม่ระบุ",
+            "weight_kg": "ไม่ระบุ",
+            "division": "ไม่ระบุ",
+            "height_ft": "ไม่ระบุ",
+            "height_cm": 0,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไม่ระบุ",
+            "country_en": "ไม่ระบุ",
+            "age": 0,
+            "team_th": "พีเค.แสนชัยมวยไทยยิม",
+            "team_en": "พีเค.แสนชัยมวยไทยยิม"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/kritpet-pk-saenchai/"
+        ]
+    },
+    "weigh_in_history": [],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เมห์ดาด คานซาเดห์",
+            "opponent_en": "",
+            "opponent_country": "Iran",
+            "date": "Sep 19, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 125"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:43",
+            "opponent_th": "ตุย ลิน ทัต",
+            "opponent_en": "",
+            "opponent_country": "Myanmar",
+            "date": "Jun 13, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 112"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรลำพูน หมวดดับลำปาง",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Apr 11, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 104"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:54",
+            "opponent_th": "สู้ศึก ทีซี.มวยไทย",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Jan 17, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 94"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 2,
+            "time": "1:26",
+            "opponent_th": "เยลเต้ บลอมเมิร์ต",
+            "opponent_en": "",
+            "opponent_country": "เบลเยียม",
+            "date": "Mar 22, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 56"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรไพลิน สจ.โต้งปราจีน",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Sep 08, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 32"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:15",
+            "opponent_th": "ก้องชัย ไฉนดอนเมือง",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Feb 03, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 3"
+        }
+    ]
+}

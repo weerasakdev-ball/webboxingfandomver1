@@ -1,0 +1,181 @@
+{
+    "fighter_profile": {
+        "name_th": "เฟซ เอราวัณ",
+        "name_en": "Face Erawan",
+        "alias": "ไม่ระบุ",
+        "image_url": "เฟซ-เอราวัณ",
+        "grade": "N/A",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 124.6,
+            "weight_kg": 56.52,
+            "division": "Strawweight",
+            "height_ft": "ไม่ระบุ",
+            "height_cm": 166,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไม่ระบุ",
+            "country_en": "ไม่ระบุ",
+            "age": 29,
+            "team_th": "เอราวัณ",
+            "team_en": "เอราวัณ"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/face-erawan/"
+        ],
+        "target_url": "",
+        "short_biography": ""
+    },
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 152",
+            "weight_lbs": 124.6,
+            "division": "Strawweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 1,
+            "time": "1:08",
+            "opponent_th": "ซอ นอง์ อู",
+            "opponent_en": "",
+            "opponent_country": "Myanmar",
+            "date": "Feb 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 141"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 2,
+            "time": "0:43",
+            "opponent_th": "พยัคฆ์สุรินทร์ เจพี.เพาเวอร์",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Jun 13, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 112"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:18",
+            "opponent_th": "ยางดำ จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Apr 04, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 103"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:46",
+            "opponent_th": "ตะวันฉาย วีเค.เขาใหญ่",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Aug 30, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 77"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรรภา ส.โสพิศ",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Aug 18, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 29"
+        }
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 1,
+            "time": "1:08",
+            "opponent_th": "ซอ นอง์ อู",
+            "opponent_en": "",
+            "opponent_country": "Myanmar",
+            "date": "Feb 06, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 141"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 2,
+            "time": "0:43",
+            "opponent_th": "พยัคฆ์สุรินทร์ เจพี.เพาเวอร์",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Jun 13, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 112"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:18",
+            "opponent_th": "ยางดำ จิตรเมืองนนท์",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Apr 04, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 103"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:46",
+            "opponent_th": "ตะวันฉาย วีเค.เขาใหญ่",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Aug 30, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 77"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชรรภา ส.โสพิศ",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Aug 18, 2023",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 29"
+        }
+    ],
+    "upcoming_fights": []
+}

@@ -1,0 +1,77 @@
+{
+    "fighter_profile": {
+        "name_th": "โจ คยอง แจ",
+        "name_en": "Cho Kyeong Jae",
+        "alias": "ไม่ระบุ",
+        "image_url": "โจ-คยอง-แจ",
+        "grade": "N/A",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": 144.6,
+            "weight_kg": 65.59,
+            "division": "Bantamweight",
+            "height_ft": "ไม่ระบุ",
+            "height_cm": 173,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ไม่ระบุ",
+            "country_en": "ไม่ระบุ",
+            "age": 27,
+            "team_th": "Jung Woo Gym",
+            "team_en": "Jung Woo Gym"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/cho-kyeong-jae/"
+        ],
+        "target_url": "",
+        "short_biography": ""
+    },
+    "weigh_in_history": [
+        {
+            "event_name": "ONE ลุมพินี 152",
+            "weight_lbs": 144.6,
+            "division": "Bantamweight"
+        }
+    ],
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "คิกบ็อกซิง",
+            "method_en": "Decision",
+            "round": 1,
+            "time": "2:13",
+            "opponent_th": "โชตะ",
+            "opponent_en": "",
+            "opponent_country": "Japan",
+            "date": "Jan 16, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 138"
+        }
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "คิกบ็อกซิง",
+            "method_en": "Decision",
+            "round": 1,
+            "time": "2:13",
+            "opponent_th": "โชตะ",
+            "opponent_en": "",
+            "opponent_country": "Japan",
+            "date": "Jan 16, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 138"
+        }
+    ],
+    "upcoming_fights": []
+}
