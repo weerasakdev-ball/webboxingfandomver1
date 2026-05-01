@@ -24,8 +24,8 @@
             "defensive_stats": "ยังไม่มีข้อมูล"
         },
         "personal_info": {
-            "country_th": "ไม่ระบุ",
-            "country_en": "ไม่ระบุ",
+            "country_th": "เกาหลีใต้",
+            "country_en": "South Korea",
             "age": 27,
             "team_th": "Jung Woo Gym",
             "team_en": "Jung Woo Gym"
@@ -59,6 +59,18 @@
         }
     ],
     "fight_history_one_championship": [
+        {
+            "result": "Loss",
+            "discipline_en": "",
+            "method_en": "KO",
+            "round": 1,
+            "time": "0:52",
+            "opponent_th": "จามิล ออสมานอฟ",
+            "opponent_en": "",
+            "opponent_country": "Russia",
+            "date": "May 01, 2026",
+            "event_en": "ONE ลุมพินี 152"
+        },
         {
             "result": "Win",
             "discipline_en": "คิกบ็อกซิง",

@@ -27,8 +27,8 @@
             "country_th": "ไม่ระบุ",
             "country_en": "ไม่ระบุ",
             "age": 27,
-            "team_th": "พีเค.แสนชัยมวยไทยยิม / ส.สมหมาย เกี่ยวกับ",
-            "team_en": "พีเค.แสนชัยมวยไทยยิม/ส.สมหมาย เกี่ยวกับ"
+            "team_th": "พีเค.แสนชัยมวยไทยยิม / ส.สมหมาย",
+            "team_en": "พีเค.แสนชัยมวยไทยยิม/ส.สมหมาย "
         },
         "target_urls": [
             "https://www.onefc.com/th/athletes/kongklai/"
@@ -189,6 +189,18 @@
         }
     ],
     "fight_history_one_championship": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision (Unanimous)",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "จูลิโอ โลโบ",
+            "opponent_en": "",
+            "opponent_country": "Brazil",
+            "date": "May 01, 2026",
+            "event_en": "ONE ลุมพินี 152"
+        },
         {
             "result": "Win",
             "discipline_en": "Muay Thai",

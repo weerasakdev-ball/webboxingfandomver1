@@ -75,6 +75,18 @@
         {
             "result": "Win",
             "discipline_en": "Muay Thai",
+            "method_en": "Decision (Unanimous)",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ยานา ยิป",
+            "opponent_en": "",
+            "opponent_country": "Hong Kong",
+            "date": "May 01, 2026",
+            "event_en": "ONE ลุมพินี 152"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
             "method_en": "KO/TKO",
             "round": 2,
             "time": "0:36",

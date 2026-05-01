@@ -24,8 +24,8 @@
             "defensive_stats": "ยังไม่มีข้อมูล"
         },
         "personal_info": {
-            "country_th": "ไม่ระบุ",
-            "country_en": "ไม่ระบุ",
+            "country_th": "สวีเดน",
+            "country_en": "สวีเดน",
             "age": 29,
             "team_th": "ไม่ระบุ",
             "team_en": "ไม่ระบุ"
@@ -59,6 +59,18 @@
         }
     ],
     "fight_history_one_championship": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision (Unanimous)",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "สุขสวัสดิ์ พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ยังไม่มีข้อมูล",
+            "date": "May 01, 2026",
+            "event_en": "ONE ลุมพินี 152"
+        },
         {
             "result": "Win",
             "discipline_en": "Muay Thai",

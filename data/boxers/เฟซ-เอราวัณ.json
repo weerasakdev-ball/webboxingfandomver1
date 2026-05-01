@@ -114,6 +114,18 @@
         {
             "result": "Win",
             "discipline_en": "Muay Thai",
+            "method_en": "TKO",
+            "round": 2,
+            "time": "0:52",
+            "opponent_th": "พยัคฆ์เมืองสิงห์ พีเค.แสนชัย",
+            "opponent_en": "",
+            "opponent_country": "ยังไม่มีข้อมูล",
+            "date": "May 01, 2026",
+            "event_en": "ONE ลุมพินี 152"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
             "method_en": "Decision",
             "round": 1,
             "time": "1:08",

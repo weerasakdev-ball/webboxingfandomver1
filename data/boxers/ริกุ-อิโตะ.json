@@ -1,52 +1,83 @@
 {
-  "fighter_profile": {
-    "name_th": "ริกุ อิโตะ",
-    "name_en": "Riku Ito",
-    "alias": "ไม่ระบุ",
-    "image_url": "ริกุ-อิโตะ",
-    "grade": "N/A",
-    "fighting_style_th": "ไม่ระบุ",
-    "fighting_style_en": "ไม่ระบุ",
-    "stance": "ไม่ระบุ",
-    "physical_stats": {
-      "weight_lbs": "ไม่ระบุ",
-      "weight_kg": "ไม่ระบุ",
-      "division": "ไม่ระบุ",
-      "height_ft": "ไม่ระบุ",
-      "height_cm": 164,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "ริกุ อิโตะ",
+        "name_en": "Riku Ito",
+        "alias": "ไม่ระบุ",
+        "image_url": "ริกุ-อิโตะ",
+        "grade": "N/A",
+        "fighting_style_th": "ไม่ระบุ",
+        "fighting_style_en": "ไม่ระบุ",
+        "stance": "ไม่ระบุ",
+        "physical_stats": {
+            "weight_lbs": "ไม่ระบุ",
+            "weight_kg": "ไม่ระบุ",
+            "division": "ไม่ระบุ",
+            "height_ft": "ไม่ระบุ",
+            "height_cm": 164,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ",
+            "hydration": "N/A"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+            "defensive_stats": "ยังไม่มีข้อมูล"
+        },
+        "personal_info": {
+            "country_th": "ญี่ปุ่น",
+            "country_en": "Japan",
+            "age": 16,
+            "team_th": "จิตรเมืองนนท์",
+            "team_en": "จิตรเมืองนนท์"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/riku-ito/"
+        ],
+        "target_url": "",
+        "short_biography": ""
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-      "defensive_stats": "ยังไม่มีข้อมูล"
-    },
-    "personal_info": {
-      "country_th": "ไม่ระบุ",
-      "country_en": "ไม่ระบุ",
-      "age": 16,
-      "team_th": "จิตรเมืองนนท์",
-      "team_en": "จิตรเมืองนนท์"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/riku-ito/"
-    ]
-  },
-  "weigh_in_history": [],
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "มูฮัมหมัด ริดซวน",
-      "opponent_en": "",
-      "opponent_country": "Malaysia",
-      "date": "Feb 20, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 143"
-    }
-  ]
+    "weigh_in_history": [],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "มูฮัมหมัด ริดซวน",
+            "opponent_en": "",
+            "opponent_country": "Malaysia",
+            "date": "Feb 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 143"
+        }
+    ],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision (Split)",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ฉัตรเพชร เสือแบล็คมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ยังไม่มีข้อมูล",
+            "date": "May 01, 2026",
+            "event_en": "ONE ลุมพินี 152"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "มูฮัมหมัด ริดซวน",
+            "opponent_en": "",
+            "opponent_country": "Malaysia",
+            "date": "Feb 20, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 143"
+        }
+    ],
+    "upcoming_fights": []
 }

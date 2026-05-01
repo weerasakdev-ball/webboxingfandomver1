@@ -43,16 +43,30 @@
             }
         },
         "personal_info": {
-            "country_th": "ยังไม่มีข้อมูล",
-            "country_en": "ยังไม่มีข้อมูล",
+            "country_th": "เมียนมา",
+            "country_en": "Myanmar",
             "age": 0,
             "team_th": "ยังไม่มีข้อมูล",
             "team_en": "ยังไม่มีข้อมูล"
         },
         "target_urls": [],
-        "short_biography": ""
+        "short_biography": "",
+        "target_url": ""
     },
-    "fight_history_one_championship": [],
+    "fight_history_one_championship": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO",
+            "round": 2,
+            "time": "0:54",
+            "opponent_th": "เทพคามิน ธนพลรีสอร์ท",
+            "opponent_en": "",
+            "opponent_country": "ยังไม่มีข้อมูล",
+            "date": "May 01, 2026",
+            "event_en": "ONE ลุมพินี 152"
+        }
+    ],
     "weigh_in_history": [],
     "upcoming_fights": [],
     "fight_history": []

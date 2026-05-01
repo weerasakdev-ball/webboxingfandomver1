@@ -99,17 +99,17 @@
     ],
     "fight_history_one_championship": [
         {
-            "result": "Win",
+            "result": "Loss",
             "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
+            "method_en": "Decision (Unanimous)",
             "round": 3,
             "time": "3:00",
             "opponent_th": "พันฤทธิ์ ลูกเจ้าแม่สายวารี",
             "opponent_en": "",
-            "opponent_country": "Thailand",
-            "date": "Oct 31, 2025",
+            "opponent_country": "ยังไม่มีข้อมูล",
+            "date": "May 01, 2026",
             "rating": 5,
-            "event_en": "ONE ลุมพินี 131"
+            "event_en": "ONE ลุมพินี 152"
         },
         {
             "result": "Win",

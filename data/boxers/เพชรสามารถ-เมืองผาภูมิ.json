@@ -53,7 +53,20 @@
         "short_biography": "",
         "target_url": ""
     },
-    "fight_history_one_championship": [],
+    "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO",
+            "round": 1,
+            "time": "1:49",
+            "opponent_th": "ใจเพชร พชรยิม",
+            "opponent_en": "",
+            "opponent_country": "ยังไม่มีข้อมูล",
+            "date": "May 01, 2026",
+            "event_en": "ONE ลุมพินี 152"
+        }
+    ],
     "weigh_in_history": [
         {
             "event_name": "ONE ลุมพินี 152",

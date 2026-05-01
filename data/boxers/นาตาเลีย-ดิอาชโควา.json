@@ -24,8 +24,8 @@
             "defensive_stats": "ยังไม่มีข้อมูล"
         },
         "personal_info": {
-            "country_th": "ไม่ระบุ",
-            "country_en": "ไม่ระบุ",
+            "country_th": "รัสเซีย",
+            "country_en": "Russia",
             "age": 31,
             "team_th": "Team Mehdi Zatout",
             "team_en": "Team Mehdi Zatout"
@@ -124,6 +124,18 @@
         }
     ],
     "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO",
+            "round": 1,
+            "time": "1:17",
+            "opponent_th": "ฟ้าใส อ.ยุทธชัย",
+            "opponent_en": "",
+            "opponent_country": "ยังไม่มีข้อมูล",
+            "date": "May 01, 2026",
+            "event_en": "ONE ลุมพินี 152"
+        },
         {
             "result": "Win",
             "discipline_en": "Muay Thai",

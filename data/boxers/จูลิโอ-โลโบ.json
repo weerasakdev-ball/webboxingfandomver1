@@ -24,8 +24,8 @@
             "defensive_stats": "ยังไม่มีข้อมูล"
         },
         "personal_info": {
-            "country_th": "ไม่ระบุ",
-            "country_en": "ไม่ระบุ",
+            "country_th": "บราซิล",
+            "country_en": "Brazil",
             "age": 31,
             "team_th": "Phuket Fight Club",
             "team_en": "Phuket Fight Club"
@@ -98,6 +98,18 @@
         }
     ],
     "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "Decision (Unanimous)",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "ก้องไกล ส.สมหมาย",
+            "opponent_en": "",
+            "opponent_country": "ยังไม่มีข้อมูล",
+            "date": "May 01, 2026",
+            "event_en": "ONE ลุมพินี 152"
+        },
         {
             "result": "Win",
             "discipline_en": "Muay Thai",

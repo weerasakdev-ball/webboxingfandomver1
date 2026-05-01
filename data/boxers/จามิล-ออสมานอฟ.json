@@ -24,8 +24,8 @@
             "defensive_stats": "ยังไม่มีข้อมูล"
         },
         "personal_info": {
-            "country_th": "ไม่ระบุ",
-            "country_en": "ไม่ระบุ",
+            "country_th": "รัสเซีย",
+            "country_en": "Russia",
             "age": 21,
             "team_th": "Akhmat Kickboxing / Team Mehdi Zatout",
             "team_en": "Akhmat Kickboxing/Team Mehdi Zatout"
@@ -59,6 +59,18 @@
         }
     ],
     "fight_history_one_championship": [
+        {
+            "result": "Win",
+            "discipline_en": "",
+            "method_en": "KO",
+            "round": 1,
+            "time": "0:52",
+            "opponent_th": "โจ คยอง แจ",
+            "opponent_en": "",
+            "opponent_country": "South Korea",
+            "date": "May 01, 2026",
+            "event_en": "ONE ลุมพินี 152"
+        },
         {
             "result": "Win",
             "discipline_en": "Muay Thai",
