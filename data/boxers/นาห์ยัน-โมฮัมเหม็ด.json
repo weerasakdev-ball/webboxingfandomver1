@@ -1,127 +1,125 @@
 {
-  "fighter_profile": {
-    "name_th": "นาห์ยัน โมฮัมเหม็ด",
-    "name_en": "Nahyan Mohammed",
-    "alias": "เพชรสาม เพชรมวยไทย",
-    "image_url": "นาห์ยัน-โมฮัมเหม็ด",
-    "grade": "N/A",
-    "fighting_style_th": "ยังไม่มีข้อมูล",
-    "fighting_style_en": "ยังไม่มีข้อมูล",
-    "stance": "ยังไม่มีข้อมูล",
-    "physical_stats": {
-      "weight_lbs": 114.4,
-      "weight_kg": 51.9,
-      "hydration": "N/A",
-      "division": "อตอมเวต",
-      "height_ft": "ยังไม่มีข้อมูล",
-      "height_cm": 172,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "นาห์ยัน โมฮัมเหม็ด",
+        "name_en": "Nahyan Mohammed",
+        "alias": "เพชรสาม เพชรมวยไทย",
+        "image_url": "นาห์ยัน-โมฮัมเหม็ด",
+        "grade": "N/A",
+        "fighting_style_th": "ยังไม่มีข้อมูล",
+        "fighting_style_en": "ยังไม่มีข้อมูล",
+        "stance": "ยังไม่มีข้อมูล",
+        "physical_stats": {
+            "weight_lbs": 114.4,
+            "weight_kg": 51.9,
+            "hydration": "N/A",
+            "division": "อตอมเวต",
+            "height_ft": "ยังไม่มีข้อมูล",
+            "height_cm": 172,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "ฝรั่งเศส/แอลจีเรีย",
+            "country_en": "France/Algeria",
+            "age": 17,
+            "team_th": "เพชรมวยไทยยิม",
+            "team_en": "เพชรมวยไทยยิม"
+        },
+        "target_urls": [
+            "https://www.onefc.com/th/athletes/nahyan-mohammed/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": "ยังไม่มีข้อมูล",
-        "body": "ยังไม่มีข้อมูล",
-        "legs": "ยังไม่มีข้อมูล",
-        "total_per_minute": "ยังไม่มีข้อมูล"
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
-        "accuracy_by_target_percentage": {
-          "head": "ยังไม่มีข้อมูล",
-          "body": "ยังไม่มีข้อมูล",
-          "legs": "ยังไม่มีข้อมูล"
+    "weigh_in_history": [],
+    "upcoming_fights": [],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "เพชร สวนหลวงรถยก",
+            "opponent_en": "",
+            "opponent_country": "Thailand",
+            "date": "Apr 24, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "นิธิกร เจพี.เพาเวอร์",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Nov 28, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 135"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:33",
+            "opponent_th": "อดัม ส.เดชะพันธ์",
+            "opponent_en": "",
+            "opponent_country": "มาเลเซีย/ไทย",
+            "date": "Jul 18, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 116"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "Muay Thai",
+            "method_en": "Split Decision",
+            "round": 3,
+            "time": "3:00",
+            "opponent_th": "อดัม ส.เดชะพันธ์",
+            "opponent_en": "",
+            "opponent_country": "มาเลเซีย/ไทย",
+            "date": "May 09, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 107"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "Muay Thai",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "0:50",
+            "opponent_th": "เพชรนพเดช นพเดชมวยไทย",
+            "opponent_en": "",
+            "opponent_country": "ไทย",
+            "date": "Feb 07, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 96"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": "ไม่ระบุ",
-        "defense_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "ฝรั่งเศส/แอลจีเรีย",
-      "country_en": "France/Algeria",
-      "age": 17,
-      "team_th": "เพชรมวยไทยยิม",
-      "team_en": "เพชรมวยไทยยิม"
-    },
-    "target_urls": [
-      "https://www.onefc.com/th/athletes/nahyan-mohammed/"
-    ],
-    "short_biography": ""
-  },
-  "fight_history_one_championship": [],
-  "weigh_in_history": [],
-  "upcoming_fights": [],
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "เพชร สวนหลวงรถยก",
-      "opponent_en": "",
-      "opponent_country": "Thailand",
-      "date": "Apr 24, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Unanimous Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "นิธิกร เจพี.เพาเวอร์",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Nov 28, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 135"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 2,
-      "time": "1:33",
-      "opponent_th": "อดัม ส.เดชะพันธ์",
-      "opponent_en": "",
-      "opponent_country": "มาเลเซีย/ไทย",
-      "date": "Jul 18, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 116"
-    },
-    {
-      "result": "Loss",
-      "discipline_en": "Muay Thai",
-      "method_en": "Split Decision",
-      "round": 3,
-      "time": "3:00",
-      "opponent_th": "อดัม ส.เดชะพันธ์",
-      "opponent_en": "",
-      "opponent_country": "มาเลเซีย/ไทย",
-      "date": "May 09, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 107"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "Muay Thai",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "0:50",
-      "opponent_th": "เพชรนพเดช นพเดชมวยไทย",
-      "opponent_en": "",
-      "opponent_country": "ไทย",
-      "date": "Feb 07, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 96"
-    }
-  ]
+    ]
 }

@@ -33,8 +33,7 @@
         "target_urls": [
             "https://www.onefc.com/th/athletes/payakrut-suajantokmuaythai/"
         ],
-        "short_biography": "พญาครุฑ เสือจันถกมวยไทย (Payakrut Suajantokmuaythai) เป็นนักชกชาวไทย วัย 20 ปี จากสังกัดทีม Suajan Tok Ban Muay Thai มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 170 เซนติเมตร (5'6\") มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
-        "target_url": ""
+        "short_biography": "พญาครุฑ เสือจันถกมวยไทย (Payakrut Suajantokmuaythai) เป็นนักชกชาวไทย วัย 20 ปี จากสังกัดทีม Suajan Tok Ban Muay Thai มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 170 เซนติเมตร (5'6\") มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)"
     },
     "weigh_in_history": [
         {
@@ -108,60 +107,6 @@
             "date": "May 02, 2025",
             "rating": 5,
             "event_en": "ONE ลุมพินี 106"
-        }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เพชรน้ำโขง ส.มณีโคตร",
-            "opponent_en": "Phetnamkhong Sor.Maneekhot",
-            "opponent_country": "ลาว/ไทย",
-            "date": "Feb 13, 2026",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 142"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Disqualification",
-            "round": 2,
-            "time": "ไม่ระบุ",
-            "opponent_th": "อับเดสซามี เรนิมี",
-            "opponent_en": "Abdessami Renimi",
-            "opponent_country": "โมร็อกโก",
-            "date": "Oct 10, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 128"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ก้องโพธิ์ชัย ลาวล้านช้าง",
-            "opponent_en": "Kongphochai Laoslanchang",
-            "opponent_country": "ลาว",
-            "date": "Sep 12, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 124"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "คาซาน ซาโลมอฟ",
-            "opponent_en": "Khasan Salomov",
-            "opponent_country": "อุซเบกิสถาน",
-            "date": "May 2, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 106"
         }
     ],
     "upcoming_fights": []

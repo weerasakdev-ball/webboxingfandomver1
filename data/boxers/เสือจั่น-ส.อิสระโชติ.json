@@ -32,9 +32,7 @@
         },
         "target_urls": [
             "https://www.onefc.com/th/athletes/suajan-sor-isarachot/"
-        ],
-        "target_url": "",
-        "short_biography": ""
+        ]
     },
     "weigh_in_history": [
         {
@@ -48,41 +46,14 @@
             "result": "Loss",
             "discipline_en": "Muay Thai",
             "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:34",
-            "opponent_th": "ไม้ซางเงิน ส.ยิ่งเจริญการช่าง",
-            "opponent_en": "",
-            "opponent_country": "Thailand",
-            "date": "Aug 29, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 122"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เพชรตาเสือ สีโอปอล",
-            "opponent_en": "",
-            "opponent_country": "Thailand",
-            "date": "Apr 04, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 103"
-        }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO",
             "round": 3,
             "time": "0:17",
             "opponent_th": "อสูรน้อย ศิษย์จ่าสิงห์",
             "opponent_en": "",
-            "opponent_country": "ยังไม่มีข้อมูล",
+            "opponent_country": "Thailand",
             "date": "May 01, 2026",
-            "event_en": "ONE ลุมพินี 152"
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 152 & The Inner Circle"
         },
         {
             "result": "Loss",

@@ -32,9 +32,7 @@
         },
         "target_urls": [
             "https://www.onefc.com/th/athletes/duangdawnoi/"
-        ],
-        "target_url": "",
-        "short_biography": ""
+        ]
     },
     "weigh_in_history": [
         {
@@ -47,42 +45,15 @@
         {
             "result": "Win",
             "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "0:36",
-            "opponent_th": "เรแกน กาวอิง",
-            "opponent_en": "",
-            "opponent_country": "แคนาดา",
-            "date": "Dec 19, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 137: ตะวันฉาย vs เมิงหยาง"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
             "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "คิม ทาวน์เซนด์",
-            "opponent_en": "",
-            "opponent_country": "Australia",
-            "date": "Oct 10, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 128"
-        }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Decision (Unanimous)",
             "round": 3,
             "time": "3:00",
             "opponent_th": "ยานา ยิป",
             "opponent_en": "",
-            "opponent_country": "Hong Kong",
+            "opponent_country": "ฮ่องกง เขตปกครองพิเศษประเทศจีน",
             "date": "May 01, 2026",
-            "event_en": "ONE ลุมพินี 152"
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 152 & The Inner Circle"
         },
         {
             "result": "Win",

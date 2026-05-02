@@ -32,9 +32,7 @@
         },
         "target_urls": [
             "https://www.onefc.com/th/athletes/julio-lobo/"
-        ],
-        "target_url": "",
-        "short_biography": ""
+        ]
     },
     "weigh_in_history": [
         {
@@ -44,60 +42,6 @@
         }
     ],
     "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "วรพล ลูกเจ้าพ่อโรงต้ม",
-            "opponent_en": "",
-            "opponent_country": "Thailand",
-            "date": "Nov 28, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 135"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Decision",
-            "round": 1,
-            "time": "2:47",
-            "opponent_th": "ราชสีห์อีสาน เหล่าโชคเจริญ",
-            "opponent_en": "",
-            "opponent_country": "Thailand",
-            "date": "Feb 16, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 52"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 3,
-            "time": "0:46",
-            "opponent_th": "ก้าวหน้า สจ.โต้งปราจีน",
-            "opponent_en": "",
-            "opponent_country": "Thailand",
-            "date": "Nov 24, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 42"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ซุปเปอร์บอล ทอฝันฟาร์ม",
-            "opponent_en": "",
-            "opponent_country": "Thailand",
-            "date": "Oct 06, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 36"
-        }
-    ],
-    "fight_history_one_championship": [
         {
             "result": "Win",
             "discipline_en": "Muay Thai",

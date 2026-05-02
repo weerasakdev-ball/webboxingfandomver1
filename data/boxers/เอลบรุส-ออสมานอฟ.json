@@ -9,7 +9,7 @@
         "fighting_style_en": "Kickboxing, Aggressive (Karate-influenced style)",
         "stance": "Orthodox (Right-handed)",
         "physical_stats": {
-            "weight_lbs": 155.0,
+            "weight_lbs": 155,
             "weight_kg": 70.31,
             "division": "Featherweight",
             "height_ft": "5'8\"",
@@ -49,7 +49,6 @@
             "team_th": "อาคมาต คิกบ็อกซิ่ง / ทีม เมห์ดี ซาทูต",
             "team_en": "Akhmat Kickboxing / Team Mehdi Zatout"
         },
-        "target_url": "",
         "target_urls": [
             "https://www.onefc.com/th/athletes/elbrus-osmanov/"
         ],
@@ -59,133 +58,15 @@
         {
             "result": "Win",
             "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เสมาเพชร แฟร์เท็กซ์",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Sep 19, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 125"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:10",
-            "opponent_th": "คัมภีร์เทวดา สิทธิกุล",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jul 25, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 117"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Kickboxing",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ยูกิ โยซะ",
-            "opponent_en": "",
-            "opponent_country": "ญี่ปุ่น",
-            "date": "May 23, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 109"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Kickboxing",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "นาธาน เบนดอน",
-            "opponent_en": "",
-            "opponent_country": "สหราชอาณาจักร",
-            "date": "Dec 20, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 92"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Kickboxing",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เหมียว เอ้าฉี",
-            "opponent_en": "",
-            "opponent_country": "จีน",
-            "date": "Jul 05, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 69"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Kickboxing",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "จาง เฉิงหลง",
-            "opponent_en": "",
-            "opponent_country": "จีน",
-            "date": "Nov 24, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 42"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Kickboxing",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "วาอิล คาร์รูมี",
-            "opponent_en": "",
-            "opponent_country": "เนเธอร์แลนด์/โมร็อกโก",
-            "date": "Aug 18, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 29"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Kickboxing",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ก้าวหน้า สจ.โต้งปราจีน",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jun 02, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 19"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Kickboxing",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "1:41",
-            "opponent_th": "แปดแสนเล็ก พีเค.แสนชัย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Feb 03, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 3"
-        }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "TKO",
+            "method_en": "Decision",
             "round": 1,
             "time": "2:17",
             "opponent_th": "ราชสีห์อีสาน เหล่าโชคเจริญ",
             "opponent_en": "",
-            "opponent_country": "ยังไม่มีข้อมูล",
+            "opponent_country": "Thailand",
             "date": "May 01, 2026",
-            "event_en": "ONE ลุมพินี 152"
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 152 & The Inner Circle"
         },
         {
             "result": "Win",
@@ -308,7 +189,7 @@
     "weigh_in_history": [
         {
             "event_name": "ONE ลุมพินี 152",
-            "weight_lbs": 155.0,
+            "weight_lbs": 155,
             "division": "Featherweight"
         }
     ],

@@ -9,7 +9,7 @@
         "fighting_style_en": "ไม่ระบุ",
         "stance": "ไม่ระบุ",
         "physical_stats": {
-            "weight_lbs": 145.0,
+            "weight_lbs": 145,
             "weight_kg": 65.77,
             "division": "Bantamweight",
             "height_ft": "ไม่ระบุ",
@@ -32,44 +32,28 @@
         },
         "target_urls": [
             "https://www.onefc.com/th/athletes/dzhamil-osmanov/"
-        ],
-        "target_url": "",
-        "short_biography": ""
+        ]
     },
     "weigh_in_history": [
         {
             "event_name": "ONE ลุมพินี 152",
-            "weight_lbs": 145.0,
+            "weight_lbs": 145,
             "division": "Bantamweight"
         }
     ],
     "fight_history": [
         {
             "result": "Win",
-            "discipline_en": "Muay Thai",
+            "discipline_en": "คิกบ็อกซิง",
             "method_en": "KO/TKO",
-            "round": 2,
-            "time": "1:36",
-            "opponent_th": "กายสิทธิ์ มาวินมวยไทย",
-            "opponent_en": "",
-            "opponent_country": "ยังไม่มีข้อมูล",
-            "date": "Sep 19, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 125"
-        }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Win",
-            "discipline_en": "",
-            "method_en": "KO",
             "round": 1,
             "time": "0:52",
             "opponent_th": "โจ คยอง แจ",
             "opponent_en": "",
-            "opponent_country": "South Korea",
+            "opponent_country": "เกาหลีใต้",
             "date": "May 01, 2026",
-            "event_en": "ONE ลุมพินี 152"
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 152 & The Inner Circle"
         },
         {
             "result": "Win",

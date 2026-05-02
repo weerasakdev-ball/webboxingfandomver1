@@ -33,8 +33,7 @@
         "target_urls": [
             "https://www.onefc.com/th/athletes/ikko-ota/"
         ],
-        "short_biography": "อิกโก โอตะ (Ikko Ota) เป็นนักชกชาวญี่ปุ่น วัย 24 ปี จากสังกัดทีม Shinkoh Muay Thai Gym มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 169 เซนติเมตร (5'6\") น้ำหนัก 54.9 กิโลกรัม (121 ปอนด์) มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
-        "target_url": ""
+        "short_biography": "อิกโก โอตะ (Ikko Ota) เป็นนักชกชาวญี่ปุ่น วัย 24 ปี จากสังกัดทีม Shinkoh Muay Thai Gym มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 169 เซนติเมตร (5'6\") น้ำหนัก 54.9 กิโลกรัม (121 ปอนด์) มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)"
     },
     "weigh_in_history": [
         {
@@ -95,47 +94,6 @@
             "date": "Apr 19, 2024",
             "rating": 5,
             "event_en": "ONE ลุมพินี 59"
-        }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เพชรพัทยา ซิลค์มวยไทย",
-            "opponent_en": "Phetpattaya Silkmuaythai",
-            "opponent_country": "ไทย",
-            "date": "Mar 7, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 99"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO",
-            "round": 2,
-            "time": "1:48",
-            "opponent_th": "บีเอ็ม แฟร์เท็กซ์",
-            "opponent_en": "BM Fairtex",
-            "opponent_country": "ไทย",
-            "date": "Jul 5, 2024",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 69"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เพชรน้ำโขง ส.มณีโคตร",
-            "opponent_en": "Phetnamkhong Sor.Maneekhot",
-            "opponent_country": "ลาว/ไทย",
-            "date": "Apr 19, 2024",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 59"
         }
     ],
     "upcoming_fights": []

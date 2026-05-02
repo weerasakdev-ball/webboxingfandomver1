@@ -53,8 +53,7 @@
         "target_urls": [
             "https://www.onefc.com/th/athletes/tepkamin-thanapolresort/"
         ],
-        "short_biography": "เทพคามิน ธนพลรีสอร์ท (Thepkamin Thanapolresort) เป็นนักชกชาวไทย วัย 26 ปี จากสังกัดป.ประมุข มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ส่วนสูง 165 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 127 สามารถเอาชนะ เหลี่ยมเพชร ส.เดชะพันธ์ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง",
-        "target_url": ""
+        "short_biography": "เทพคามิน ธนพลรีสอร์ท (Thepkamin Thanapolresort) เป็นนักชกชาวไทย วัย 26 ปี จากสังกัดป.ประมุข มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ส่วนสูง 165 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 127 สามารถเอาชนะ เหลี่ยมเพชร ส.เดชะพันธ์ ด้วยรูปแบบ KO/TKO ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
     },
     "fight_history": [
         {
@@ -62,40 +61,13 @@
             "discipline_en": "Muay Thai",
             "method_en": "KO/TKO",
             "round": 2,
-            "time": "1:03",
-            "opponent_th": "เหลี่ยมเพชร ส.เดชะพันธ์",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Oct 03, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 127"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "2:21",
-            "opponent_th": "ยอดนำชัย แฟร์เท็กซ์",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Nov 17, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 41"
-        }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO",
-            "round": 2,
             "time": "0:54",
             "opponent_th": "ดาวิด ทีวันไฟต์อะคาเดมี",
             "opponent_en": "",
             "opponent_country": "Myanmar",
             "date": "May 01, 2026",
-            "event_en": "ONE ลุมพินี 152"
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 152 & The Inner Circle"
         },
         {
             "result": "Win",

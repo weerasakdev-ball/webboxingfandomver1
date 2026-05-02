@@ -49,24 +49,8 @@
             "team_th": "ยังไม่มีข้อมูล",
             "team_en": "ยังไม่มีข้อมูล"
         },
-        "target_urls": [],
-        "short_biography": "",
-        "target_url": ""
+        "target_urls": []
     },
-    "fight_history_one_championship": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Decision (Split)",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ริกุ อิโตะ",
-            "opponent_en": "",
-            "opponent_country": "Japan",
-            "date": "May 01, 2026",
-            "event_en": "ONE ลุมพินี 152"
-        }
-    ],
     "weigh_in_history": [],
     "upcoming_fights": [],
     "fight_history": []

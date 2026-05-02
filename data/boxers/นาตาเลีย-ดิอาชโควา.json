@@ -32,9 +32,7 @@
         },
         "target_urls": [
             "https://www.onefc.com/th/athletes/natalia-diachkova/"
-        ],
-        "target_url": "",
-        "short_biography": ""
+        ]
     },
     "weigh_in_history": [
         {
@@ -47,94 +45,15 @@
         {
             "result": "Win",
             "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เทย์เลอร์ แมคคลาตชี",
-            "opponent_en": "",
-            "opponent_country": "แคนาดา",
-            "date": "Jan 17, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 94"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Decision",
-            "round": 2,
-            "time": "2:59",
-            "opponent_th": "สมิลลา ซันเดลล์",
-            "opponent_en": "",
-            "opponent_country": "สวีเดน",
-            "date": "May 03, 2024",
-            "rating": 5,
-            "event_en": "ONE Fight Night 22: สมิลลา vs นาตาเลีย"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
             "method_en": "KO/TKO",
-            "round": 1,
-            "time": "1:44",
-            "opponent_th": "เชลลินา ชิริโน",
-            "opponent_en": "",
-            "opponent_country": "คูราเซา/เนเธอร์แลนด์",
-            "date": "Mar 15, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 55"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ฮานนาฮ์ แบร็ดดีย์",
-            "opponent_en": "",
-            "opponent_country": "United Kingdom",
-            "date": "Sep 08, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 32"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Decision",
-            "round": 1,
-            "time": "1:58",
-            "opponent_th": "ลีนา น็อกเกอร์",
-            "opponent_en": "",
-            "opponent_country": "อิตาลี",
-            "date": "Jun 02, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 19"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 1,
-            "time": "1:41",
-            "opponent_th": "ดอกไม้ป่า แฟร์เท็กซ์",
-            "opponent_en": "",
-            "opponent_country": "Thailand",
-            "date": "Apr 21, 2023",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 13"
-        }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO",
             "round": 1,
             "time": "1:17",
             "opponent_th": "ฟ้าใส อ.ยุทธชัย",
             "opponent_en": "",
-            "opponent_country": "ยังไม่มีข้อมูล",
+            "opponent_country": "Thailand",
             "date": "May 01, 2026",
-            "event_en": "ONE ลุมพินี 152"
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 152 & The Inner Circle"
         },
         {
             "result": "Win",

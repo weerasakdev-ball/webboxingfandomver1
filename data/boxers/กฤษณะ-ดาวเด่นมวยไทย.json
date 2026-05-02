@@ -32,9 +32,7 @@
         },
         "target_urls": [
             "https://www.onefc.com/th/athletes/krisana/"
-        ],
-        "target_url": "",
-        "short_biography": ""
+        ]
     },
     "weigh_in_history": [
         {
@@ -56,60 +54,6 @@
             "date": "Oct 31, 2025",
             "rating": 5,
             "event_en": "ONE ลุมพินี 131"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "คมอาวุธ เอฟเอ.กรุ๊ป",
-            "opponent_en": "",
-            "opponent_country": "Thailand",
-            "date": "Sep 05, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 123"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "แอนตาร์ คาเซม",
-            "opponent_en": "",
-            "opponent_country": "France/เบลารุส",
-            "date": "Feb 28, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 98"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ลำน้ำโขง บีเอส.มวยไทย",
-            "opponent_en": "",
-            "opponent_country": "ลาว",
-            "date": "Nov 15, 2024",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 87"
-        }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "Decision (Unanimous)",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "พันฤทธิ์ ลูกเจ้าแม่สายวารี",
-            "opponent_en": "",
-            "opponent_country": "ยังไม่มีข้อมูล",
-            "date": "May 01, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 152"
         },
         {
             "result": "Win",

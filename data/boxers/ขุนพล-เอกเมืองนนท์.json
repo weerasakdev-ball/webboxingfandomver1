@@ -33,8 +33,7 @@
         "target_urls": [
             "https://www.onefc.com/th/athletes/khunpon-aekmuangnon/"
         ],
-        "short_biography": "ขุนพล เอกเมืองนนท์ (Khunpon Aekmuangnon) เป็นนักชกชาวไทย วัย 20 ปี จากสังกัดทีม Petchnumnoi มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 179 เซนติเมตร (5'10\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)",
-        "target_url": ""
+        "short_biography": "ขุนพล เอกเมืองนนท์ (Khunpon Aekmuangnon) เป็นนักชกชาวไทย วัย 20 ปี จากสังกัดทีม Petchnumnoi มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 179 เซนติเมตร (5'10\") มีผลงานการแข่งขันที่โดดเด่นในรายการ ONE ลุมพินี (ONE Championship)"
     },
     "weigh_in_history": [
         {
@@ -108,60 +107,6 @@
             "date": "Jun 13, 2025",
             "rating": 5,
             "event_en": "ONE ลุมพินี 112"
-        }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Split Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ศรศึกน้อย เอฟเอ.กรุ๊ป",
-            "opponent_en": "Sornsuknoi FA Group",
-            "opponent_country": "ไทย",
-            "date": "Feb 6, 2026",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 141"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เพชรนาเคียน ศ.นาเคียน",
-            "opponent_en": "Phetnakian Sor.Nakian",
-            "opponent_country": "ไทย",
-            "date": "Nov 7, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 132"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เอดิลสัน รอดริเกส",
-            "opponent_en": "Edilson Rodrigues",
-            "opponent_country": "ฝรั่งเศส",
-            "date": "Sep 5, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 123"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ถัง ฉีชิน",
-            "opponent_en": "Tang Qiqin",
-            "opponent_country": "จีน",
-            "date": "Jun 13, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 112"
         }
     ],
     "upcoming_fights": []

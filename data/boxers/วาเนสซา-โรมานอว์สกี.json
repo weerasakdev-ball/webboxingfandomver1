@@ -33,8 +33,7 @@
         "target_urls": [
             "https://www.onefc.com/th/athletes/vanessa-romanowski/"
         ],
-        "short_biography": "วาเนสซา โรมานอว์สกี (Vanessa Romanowski) เป็นนักชกชาวสวีเดน/โปแลนด์ วัย 21 ปี จากสังกัดทีม Allstars Training Center / Rawai Muay Thai Khao Lak มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 165 เซนติเมตร (5'4\") มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)",
-        "target_url": ""
+        "short_biography": "วาเนสซา โรมานอว์สกี (Vanessa Romanowski) เป็นนักชกชาวสวีเดน/โปแลนด์ วัย 21 ปี จากสังกัดทีม Allstars Training Center / Rawai Muay Thai Khao Lak มีความถนัดในการต่อสู้สไตล์มวยไทย ส่วนสูง 165 เซนติเมตร (5'4\") มีผลงานการแข่งขันในรายการ ONE ลุมพินี (ONE Championship)"
     },
     "weigh_in_history": [
         {
@@ -69,21 +68,6 @@
             "date": "Apr 11, 2025",
             "rating": 5,
             "event_en": "ONE ลุมพินี 104"
-        }
-    ],
-    "fight_history_one_championship": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO",
-            "round": 1,
-            "time": "1:44",
-            "opponent_th": "สเตลลา เฮเมตซ์เบอร์เกอร์",
-            "opponent_en": "Stella Hemetsberger",
-            "opponent_country": "ออสเตรีย",
-            "date": "Apr 11, 2025",
-            "rating": "ไม่ระบุ",
-            "event_en": "ONE Lumpinee 104"
         }
     ],
     "upcoming_fights": []

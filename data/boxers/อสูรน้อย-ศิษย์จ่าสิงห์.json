@@ -52,8 +52,7 @@
         "target_urls": [
             "https://www.onefc.com/th/athletes/arsoonnoi-sitjasing/"
         ],
-        "short_biography": "อสูรน้อย ศิษย์จ่าสิงห์ () เป็นนักชกชาวไทย วัย 0 ปี จากสังกัดยังไม่มีข้อมูล มีความถนัดในการต่อสู้สไตล์ยังไม่มีข้อมูล ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 57.79 กิโลกรัม) ส่วนสูง 0 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 146 สามารถเอาชนะ เหนือพยัคฆ์ จิตรเมืองนนท์ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง",
-        "target_url": ""
+        "short_biography": "อสูรน้อย ศิษย์จ่าสิงห์ () เป็นนักชกชาวไทย วัย 0 ปี จากสังกัดยังไม่มีข้อมูล มีความถนัดในการต่อสู้สไตล์ยังไม่มีข้อมูล ปัจจุบันชกอยู่ในพิกัดน้ำหนัก Flyweight (ประมาณ 57.79 กิโลกรัม) ส่วนสูง 0 เซนติเมตร ผลงานการชกล่าสุดในรายการ ONE ลุมพินี 146 สามารถเอาชนะ เหนือพยัคฆ์ จิตรเมืองนนท์ ด้วยรูปแบบ Unanimous Decision ถือเป็นนักชกที่น่าติดตามผลงานอย่างยิ่ง"
     },
     "weigh_in_history": [
         {
@@ -69,34 +68,6 @@
     ],
     "upcoming_fights": [],
     "fight_history": [
-        {
-            "result": "Win",
-            "discipline_en": "Muay Thai",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "เหนือพยัคฆ์ จิตรเมืองนนท์",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Mar 13, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 146"
-        },
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "KO/TKO",
-            "round": 2,
-            "time": "2:43",
-            "opponent_th": "สมานชัย ส.สมหมาย",
-            "opponent_en": "",
-            "opponent_country": "ไทย",
-            "date": "Jun 13, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 112"
-        }
-    ],
-    "fight_history_one_championship": [
         {
             "result": "Win",
             "discipline_en": "Muay Thai",

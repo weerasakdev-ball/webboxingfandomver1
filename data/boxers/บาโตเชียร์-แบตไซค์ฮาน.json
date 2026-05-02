@@ -1,114 +1,112 @@
 {
-  "fighter_profile": {
-    "name_th": "บาโตเชียร์ แบตไซค์ฮาน",
-    "name_en": "Batochir Batsaikhan",
-    "alias": "ไม่ระบุ",
-    "image_url": "บาโตเชียร์-แบตไซค์ฮาน",
-    "grade": "N/A",
-    "fighting_style_th": "ยังไม่มีข้อมูล",
-    "fighting_style_en": "ยังไม่มีข้อมูล",
-    "stance": "ยังไม่มีข้อมูล",
-    "physical_stats": {
-      "weight_lbs": 145,
-      "weight_kg": 65.8,
-      "hydration": "N/A",
-      "division": "แบนตัมเวต",
-      "height_ft": "ยังไม่มีข้อมูล",
-      "height_cm": 176,
-      "reach_cm": "ไม่ระบุ",
-      "leg_reach_cm": "ไม่ระบุ"
+    "fighter_profile": {
+        "name_th": "บาโตเชียร์ แบตไซค์ฮาน",
+        "name_en": "Batochir Batsaikhan",
+        "alias": "ไม่ระบุ",
+        "image_url": "บาโตเชียร์-แบตไซค์ฮาน",
+        "grade": "N/A",
+        "fighting_style_th": "ยังไม่มีข้อมูล",
+        "fighting_style_en": "ยังไม่มีข้อมูล",
+        "stance": "ยังไม่มีข้อมูล",
+        "physical_stats": {
+            "weight_lbs": 145,
+            "weight_kg": 65.8,
+            "hydration": "N/A",
+            "division": "แบนตัมเวต",
+            "height_ft": "ยังไม่มีข้อมูล",
+            "height_cm": 176,
+            "reach_cm": "ไม่ระบุ",
+            "leg_reach_cm": "ไม่ระบุ"
+        },
+        "performance_stats": {
+            "significant_strikes_per_minute": {
+                "head": "ยังไม่มีข้อมูล",
+                "body": "ยังไม่มีข้อมูล",
+                "legs": "ยังไม่มีข้อมูล",
+                "total_per_minute": "ยังไม่มีข้อมูล"
+            },
+            "significant_strike_accuracy": {
+                "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
+                "accuracy_by_target_percentage": {
+                    "head": "ยังไม่มีข้อมูล",
+                    "body": "ยังไม่มีข้อมูล",
+                    "legs": "ยังไม่มีข้อมูล"
+                }
+            },
+            "defensive_stats": {
+                "overall_defense_percentage": "ไม่ระบุ",
+                "defense_by_target_percentage": {
+                    "head": "ไม่ระบุ",
+                    "body": "ไม่ระบุ",
+                    "legs": "ไม่ระบุ"
+                }
+            }
+        },
+        "personal_info": {
+            "country_th": "มองโกเลีย",
+            "country_en": "Mongolia",
+            "age": 25,
+            "team_th": "Teiwaz Striking",
+            "team_en": "Teiwaz Striking"
+        },
+        "target_urls": [
+            "https://www.onefc.com/athletes/batochir-batsaikhan/"
+        ]
     },
-    "performance_stats": {
-      "significant_strikes_per_minute": {
-        "head": "ยังไม่มีข้อมูล",
-        "body": "ยังไม่มีข้อมูล",
-        "legs": "ยังไม่มีข้อมูล",
-        "total_per_minute": "ยังไม่มีข้อมูล"
-      },
-      "significant_strike_accuracy": {
-        "overall_accuracy_percentage": "ยังไม่มีข้อมูล",
-        "accuracy_by_target_percentage": {
-          "head": "ยังไม่มีข้อมูล",
-          "body": "ยังไม่มีข้อมูล",
-          "legs": "ยังไม่มีข้อมูล"
+    "weigh_in_history": [],
+    "upcoming_fights": [],
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:28",
+            "opponent_th": "คาร์โล บูมินาอัง",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Apr 24, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 151 & The Inner Circle"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:57",
+            "opponent_th": "อลาสแตร์ โวลเดอร์ส",
+            "opponent_en": "",
+            "opponent_country": "ออสเตรเลีย",
+            "date": "Jan 23, 2026",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 139"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 3,
+            "time": "1:17",
+            "opponent_th": "อาร์ลีซอน นูนีส",
+            "opponent_en": "",
+            "opponent_country": "Brazil",
+            "date": "Aug 29, 2025",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 122"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "4:58",
+            "opponent_th": "ฟาบิโอ ฮาราดา",
+            "opponent_en": "",
+            "opponent_country": "Japan/Brazil",
+            "date": "May 10, 2024",
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 62"
         }
-      },
-      "defensive_stats": {
-        "overall_defense_percentage": "ไม่ระบุ",
-        "defense_by_target_percentage": {
-          "head": "ไม่ระบุ",
-          "body": "ไม่ระบุ",
-          "legs": "ไม่ระบุ"
-        }
-      }
-    },
-    "personal_info": {
-      "country_th": "มองโกเลีย",
-      "country_en": "Mongolia",
-      "age": 25,
-      "team_th": "Teiwaz Striking",
-      "team_en": "Teiwaz Striking"
-    },
-    "target_urls": [
-      "https://www.onefc.com/athletes/batochir-batsaikhan/"
-    ],
-    "short_biography": ""
-  },
-  "fight_history_one_championship": [],
-  "weigh_in_history": [],
-  "upcoming_fights": [],
-  "fight_history": [
-    {
-      "result": "Loss",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "2:28",
-      "opponent_th": "คาร์โล บูมินาอัง",
-      "opponent_en": "",
-      "opponent_country": "ฟิลิปปินส์",
-      "date": "Apr 24, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 151 & The Inner Circle"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "2:57",
-      "opponent_th": "อลาสแตร์ โวลเดอร์ส",
-      "opponent_en": "",
-      "opponent_country": "ออสเตรเลีย",
-      "date": "Jan 23, 2026",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 139"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 3,
-      "time": "1:17",
-      "opponent_th": "อาร์ลีซอน นูนีส",
-      "opponent_en": "",
-      "opponent_country": "Brazil",
-      "date": "Aug 29, 2025",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 122"
-    },
-    {
-      "result": "Win",
-      "discipline_en": "MMA",
-      "method_en": "KO/TKO",
-      "round": 1,
-      "time": "4:58",
-      "opponent_th": "ฟาบิโอ ฮาราดา",
-      "opponent_en": "",
-      "opponent_country": "Japan/Brazil",
-      "date": "May 10, 2024",
-      "rating": 5,
-      "event_en": "ONE ลุมพินี 62"
-    }
-  ]
+    ]
 }

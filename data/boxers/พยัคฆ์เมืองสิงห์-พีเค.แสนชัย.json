@@ -49,24 +49,8 @@
             "team_th": "ยังไม่มีข้อมูล",
             "team_en": "ยังไม่มีข้อมูล"
         },
-        "target_urls": [],
-        "short_biography": "",
-        "target_url": ""
+        "target_urls": []
     },
-    "fight_history_one_championship": [
-        {
-            "result": "Loss",
-            "discipline_en": "Muay Thai",
-            "method_en": "TKO",
-            "round": 2,
-            "time": "0:52",
-            "opponent_th": "เฟซ เอราวัณ",
-            "opponent_en": "",
-            "opponent_country": "ยังไม่มีข้อมูล",
-            "date": "May 01, 2026",
-            "event_en": "ONE ลุมพินี 152"
-        }
-    ],
     "weigh_in_history": [
         {
             "event_name": "ONE ลุมพินี 152",

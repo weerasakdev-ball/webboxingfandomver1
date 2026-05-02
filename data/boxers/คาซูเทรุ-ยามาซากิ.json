@@ -52,38 +52,9 @@
         "target_urls": [
             ""
         ],
-        "short_biography": "คาซูเทรุ ยามาซากิ (Kazuteru Yamazaki) นักชกชาวญี่ปุ่นวัย 26 ปี จากสังกัด Team Teppen มีส่วนสูง 170 เซนติเมตร น้ำหนัก 134.3 ปอนด์ (60.9 กิโลกรัม) ชกในกติกาคิกบ็อกซิง ผลงานล่าสุดในรายการ ONE ลุมพินี 138 เมื่อวันที่ 16 มกราคม 2026 แพ้คะแนนเอกฉันท์ให้กับ ดิโอโก มิเกล ซิลวา นักชกจากเคปเวิร์ดไปอย่างน่าเสียดาย",
-        "target_url": ""
+        "short_biography": "คาซูเทรุ ยามาซากิ (Kazuteru Yamazaki) นักชกชาวญี่ปุ่นวัย 26 ปี จากสังกัด Team Teppen มีส่วนสูง 170 เซนติเมตร น้ำหนัก 134.3 ปอนด์ (60.9 กิโลกรัม) ชกในกติกาคิกบ็อกซิง ผลงานล่าสุดในรายการ ONE ลุมพินี 138 เมื่อวันที่ 16 มกราคม 2026 แพ้คะแนนเอกฉันท์ให้กับ ดิโอโก มิเกล ซิลวา นักชกจากเคปเวิร์ดไปอย่างน่าเสียดาย"
     },
     "fight_history": [
-        {
-            "result": "Loss",
-            "discipline_en": "Kickboxing",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "ดิโอโก มิเกล ซิลวา",
-            "opponent_en": "Diogo Miguel Silva",
-            "opponent_country": "เคปเวิร์ด",
-            "date": "Jan 16, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 138"
-        },
-        {
-            "result": "Win",
-            "discipline_en": "Kickboxing",
-            "method_en": "Unanimous Decision",
-            "round": 3,
-            "time": "3:00",
-            "opponent_th": "อับเดฮามิด ตาลบี",
-            "opponent_en": "Abdelhamid Talbi",
-            "opponent_country": "โมร็อกโก",
-            "date": "Oct 10, 2025",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 128"
-        }
-    ],
-    "fight_history_one_championship": [
         {
             "result": "Loss",
             "discipline_en": "Kickboxing",

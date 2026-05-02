@@ -49,11 +49,8 @@
             "team_th": "ยังไม่มีข้อมูล",
             "team_en": "ยังไม่มีข้อมูล"
         },
-        "target_url": "",
-        "target_urls": [],
-        "short_biography": ""
+        "target_urls": []
     },
-    "fight_history_one_championship": [],
     "weigh_in_history": [
         {
             "event_name": "ONE LUMPINEE 149",

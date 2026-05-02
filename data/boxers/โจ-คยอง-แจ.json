@@ -32,9 +32,7 @@
         },
         "target_urls": [
             "https://www.onefc.com/th/athletes/cho-kyeong-jae/"
-        ],
-        "target_url": "",
-        "short_biography": ""
+        ]
     },
     "weigh_in_history": [
         {
@@ -45,31 +43,17 @@
     ],
     "fight_history": [
         {
-            "result": "Win",
-            "discipline_en": "คิกบ็อกซิง",
-            "method_en": "Decision",
-            "round": 1,
-            "time": "2:13",
-            "opponent_th": "โชตะ",
-            "opponent_en": "",
-            "opponent_country": "Japan",
-            "date": "Jan 16, 2026",
-            "rating": 5,
-            "event_en": "ONE ลุมพินี 138"
-        }
-    ],
-    "fight_history_one_championship": [
-        {
             "result": "Loss",
-            "discipline_en": "",
-            "method_en": "KO",
+            "discipline_en": "คิกบ็อกซิง",
+            "method_en": "KO/TKO",
             "round": 1,
             "time": "0:52",
             "opponent_th": "จามิล ออสมานอฟ",
             "opponent_en": "",
             "opponent_country": "Russia",
             "date": "May 01, 2026",
-            "event_en": "ONE ลุมพินี 152"
+            "rating": 5,
+            "event_en": "ONE ลุมพินี 152 & The Inner Circle"
         },
         {
             "result": "Win",
