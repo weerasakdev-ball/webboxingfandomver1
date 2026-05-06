@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สไนเปอร์บอท | BoxingFandom Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="_shared.js"></script>
+  <style>
+    .log-stream {
+      background: #0f172a;
+      border-radius: 10px;
+      padding: 20px;
+      min-height: 120px;
+      max-height: 500px;
+      overflow-y: auto;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      line-height: 1.8;
+      color: #94a3b8;
+      margin-top: 20px;
+      display: none;
+      border: 1px solid #1e293b;
+      scroll-behavior: smooth;
+    }
+    .log-stream.show { display: block; }
+    .l-ok   { color: #86efac; }
+    .l-err  { color: #fca5a5; }
+    .l-info { color: #7dd3fc; }
+    .l-warn { color: #fde68a; }
+    .l-dim  { color: #334155; }
+    .l-done { color: #34d399; font-weight: bold; }
+
+    .status-bar {
+      display: none;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      background: #1e293b;
+      border-radius: 8px;
+      margin-top: 16px;
+      font-size: 14px;
+      color: #cbd5e1;
+    }
+    .status-bar.show { display: flex; }
+
+    .dot {
+      width: 10px; height: 10px; border-radius: 50%;
+      background: #22c55e; flex-shrink: 0;
+      animation: blink 1s ease-in-out infinite;
+    }
+    .dot.idle  { background: #34d399; animation: none; }
+    .dot.error { background: #f87171; animation: none; }
+    @keyframes blink {
+      0%,100% { opacity:1; transform:scale(1); }
+      50%      { opacity:0.3; transform:scale(0.75); }
+    }
+    @keyframes spin { to { transform:rotate(360deg); } }
+    .spin {
+      display: inline-block; width:13px; height:13px;
+      border:2px solid rgba(255,255,255,0.25);
+      border-top-color:#fff; border-radius:50%;
+      animation:spin 0.6s linear infinite;
+      vertical-align: middle; margin-right:6px;
+    }
+  </style>
+</head>
+<body>
+  <div id="sidebar"></div>
+  <div class="main">
+
+    <div class="page-title">สไนเปอร์บอท</div>
+
+    <div class="card">
+      <div class="card-title">🎯 ดึงข้อมูลเฉพาะรายชื่อที่กำหนด</div>
+      <p class="card-desc">
+        พิมพ์ชื่อนักมวยบรรทัดละ 1 คน บอทจะดึงข้อมูลล่าสุดจาก ONE FC
+        และแสดง log realtime ด้านล่างครับ
+      </p>
+
+      <div class="form-group">
+        <label>รายชื่อนักมวย</label>
+        <textarea id="names" rows="8"
+          style="padding:12px;border:1px solid #e2e8f0;border-radius:8px;font-size:14px;
+                 resize:vertical;width:100%;outline:none;margin-top:6px;line-height:1.9;
+                 font-family:'Sarabun',sans-serif"
+          placeholder="รถถัง จิตรเมืองนนท์&#10;น้องโอ๋ ฮาม่ามวยไทย&#10;ซุปเปอร์เล็ก จิตรเมืองนนท์"></textarea>
+      </div>
+
+      <div class="form-actions">
+        <button id="fireBtn" class="btn btn-red" onclick="fire()">🚀 ลั่นไกสไนเปอร์</button>
+        <button class="btn btn-ghost" onclick="clearAll()">🗑️ ล้าง</button>
+      </div>
+
+      <!-- Status -->
+      <div id="statusBar" class="status-bar">
+        <div id="dot" class="dot"></div>
+        <span id="statusTxt">กำลังรัน...</span>
+      </div>
+
+      <!-- Log -->
+      <div id="logStream" class="log-stream"></div>
+
+    </div>
+  </div>
+
+  <script>
+    let es = null;
+    let running = false;
+
+    function getNames() {
+      return document.getElementById('names').value
+        .split('\n').map(n => n.trim()).filter(Boolean);
+    }
+
+    function clearAll() {
+      if (running) return;
+      document.getElementById('names').value = '';
+      document.getElementById('logStream').classList.remove('show');
+      document.getElementById('logStream').innerHTML = '';
+      document.getElementById('statusBar').classList.remove('show');
+    }
+
+    function setUI(state) {
+      const btn  = document.getElementById('fireBtn');
+      const bar  = document.getElementById('statusBar');
+      const dot  = document.getElementById('dot');
+      const txt  = document.getElementById('statusTxt');
+
+      if (state === 'running') {
+        running = true;
+        btn.disabled = true;
+        btn.innerHTML = '<span class="spin"></span>กำลังรัน...';
+        bar.classList.add('show');
+        dot.className = 'dot';
+        txt.textContent = '🤖 บอทกำลังทำงาน...';
+      } else if (state === 'done') {
+        running = false;
+        btn.disabled = false;
+        btn.innerHTML = '🚀 ลั่นไกสไนเปอร์';
+        dot.className = 'dot idle';
+        txt.textContent = '✅ เสร็จสิ้น!';
+        toast('บอทดึงข้อมูลเสร็จแล้ว', 'success');
+      } else if (state === 'error') {
+        running = false;
+        btn.disabled = false;
+        btn.innerHTML = '🚀 ลั่นไกสไนเปอร์';
+        dot.className = 'dot error';
+        txt.textContent = '❌ เกิดข้อผิดพลาด';
+        toast('การเชื่อมต่อขาดหาย', 'error');
+      }
+    }
+
+    function appendLog(line) {
+      const box = document.getElementById('logStream');
+      box.classList.add('show');
+
+      let cls = '';
+      if (/✅|➕|💾|สำเร็จ|เพิ่ม/.test(line))           cls = 'l-ok';
+      else if (/❌|🚨|Error|error|ล้มเหลว/.test(line))   cls = 'l-err';
+      else if (/⏳|🤖|🎯|Sniper|Mode/.test(line))        cls = 'l-info';
+      else if (/⚠️|🧹|📝|📦/.test(line))                 cls = 'l-warn';
+      else if (/━|✓|ข้อมูลเป็นปัจจุบัน/.test(line))     cls = 'l-dim';
+      else if (/เสร็จสิ้น|เสร็จ/.test(line))            cls = 'l-done';
+
+      const div = document.createElement('div');
+      if (cls) div.className = cls;
+      div.textContent = line;
+      box.appendChild(div);
+      box.scrollTop = box.scrollHeight;
+    }
+
+    async function fire() {
+      const names = getNames();
+      if (!names.length) return toast('กรุณาระบุชื่อนักมวยอย่างน้อย 1 คน', 'error');
+      if (running)       return toast('บอทกำลังทำงานอยู่ครับ', 'error');
+
+      // ล้าง log เก่า
+      const box = document.getElementById('logStream');
+      box.innerHTML = '';
+      box.classList.remove('show');
+
+      // 1. POST เพื่อเขียน update_list.txt ก่อน
+      const res  = await fetch('/api/sniper', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ names: names.join('\n') })
+      });
+      const data = await res.json();
+      if (!data.ok) return toast(data.message, 'error');
+
+      // 2. รอ 300ms ให้ไฟล์เขียนเสร็จก่อนเปิด stream
+      await new Promise(r => setTimeout(r, 300));
+
+      // 3. เปิด SSE stream — bot จะอ่าน update_list.txt ที่เพิ่งเขียน
+      setUI('running');
+      if (es) { es.close(); es = null; }
+
+      es = new EventSource('/api/sniper/stream');
+
+      es.onmessage = (e) => {
+        if (e.data === '__DONE__') {
+          es.close(); es = null;
+          setUI('done');
+          return;
+        }
+        appendLog(e.data);
+      };
+
+      es.onerror = () => {
+        if (es) { es.close(); es = null; }
+        setUI('error');
+      };
+    }
+  </script>
+
+  <script>
+    injectSharedCSS();
+    renderSidebar('sniper');
+    checkAuth();
+  </script>
+</body>
+</html>

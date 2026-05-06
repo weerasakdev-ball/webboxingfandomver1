@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>รายชื่อนักมวย | BoxingFandom Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="_shared.js"></script>
+</head>
+<body>
+  <div id="sidebar"></div>
+  <div class="main">
+    <div class="page-title">รายชื่อนักมวย</div>
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:10px;">
+        <div class="search-bar" style="margin:0;flex:1;min-width:200px;">
+          <input type="text" id="q" placeholder="ค้นหาชื่อ..." oninput="filter()">
+        </div>
+        <button class="btn btn-dark" onclick="load()">🔄 รีเฟรช</button>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>ชื่อ TH</th><th>ชื่อ EN</th><th>รุ่น</th><th>เกรด</th><th>ไฟต์</th><th>W / L</th><th>จัดการ</th></tr></thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+<script>
+  let all = [];
+  async function load() {
+    const res = await fetch('/api/fighters');
+    const d = await res.json();
+    if (!d.ok) return toast('โหลดไม่ได้','error');
+    all = d.fighters;
+    render(all);
+  }
+  function render(list) {
+    document.getElementById('tbody').innerHTML = list.length === 0
+      ? '<tr><td colspan="7" style="text-align:center;padding:30px;color:#94a3b8">ไม่พบข้อมูล</td></tr>'
+      : list.map(f=>`<tr>
+          <td><b>${f.name_th}</b></td>
+          <td style="color:#64748b">${f.name_en||'—'}</td>
+          <td>${f.division||'—'}</td>
+          <td><span class="badge badge-blue">${f.grade||'—'}</span></td>
+          <td>${f.fights}</td>
+          <td><span class="badge badge-win">${f.wins}W</span> <span class="badge badge-loss">${f.losses}L</span></td>
+          <td style="display:flex;gap:6px">
+            <a href="/admin/edit-fighter.html?file=${encodeURIComponent(f.file)}" class="btn btn-ghost btn-sm">✏️ แก้ไข</a>
+            <button class="btn btn-ghost btn-sm" style="color:#dc2626" onclick="del('${f.file}','${f.name_th}')">🗑️</button>
+          </td>
+        </tr>`).join('');
+  }
+  function filter() {
+    const q = document.getElementById('q').value.toLowerCase();
+    render(all.filter(f=>(f.name_th||'').includes(q)||(f.name_en||'').toLowerCase().includes(q)));
+  }
+  async function del(file, name) {
+    if (!confirm('ลบ "'+name+'" ออกจากระบบ?')) return;
+    const res = await fetch('/api/fighter/'+encodeURIComponent(file),{method:'DELETE'});
+    const d = await res.json();
+    toast(d.ok ? 'ลบ '+name+' แล้ว' : d.message, d.ok?'success':'error');
+    if (d.ok) load();
+  }
+  load();
+</script>
+  <script>
+    injectSharedCSS();
+    renderSidebar('fighters');
+    checkAuth();
+  </script>
+</body>
+</html>

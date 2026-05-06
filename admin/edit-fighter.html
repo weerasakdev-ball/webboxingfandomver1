@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>แก้ไขข้อมูลนักมวย | BoxingFandom Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="_shared.js"></script>
+</head>
+<body>
+  <div id="sidebar"></div>
+  <div class="main">
+    <div class="page-title">แก้ไขข้อมูลนักมวย</div>
+    <div class="card">
+      <div class="card-title">เลือกนักมวย</div>
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+        <select id="fileSelect" style="padding:9px 12px;border:1px solid #e2e8f0;border-radius:7px;font-size:14px;outline:none;min-width:260px">
+          <option value="">— เลือกนักมวย —</option>
+        </select>
+        <button class="btn btn-dark" onclick="loadFighter()">โหลดข้อมูล</button>
+      </div>
+    </div>
+    <div id="formWrap" style="display:none">
+      <div class="card">
+        <div class="card-title">📝 ข้อมูลทั่วไป</div>
+        <div class="form-grid">
+          <div class="form-group"><label>ชื่อ TH *</label><input id="f-name_th"></div>
+          <div class="form-group"><label>ชื่อ EN</label><input id="f-name_en"></div>
+          <div class="form-group"><label>ฉายา</label><input id="f-alias"></div>
+          <div class="form-group"><label>เกรด</label>
+            <select id="f-grade"><option>S</option><option>A</option><option>B</option><option>C</option><option>N/A</option></select>
+          </div>
+          <div class="form-group"><label>สไตล์ TH</label><input id="f-style_th"></div>
+          <div class="form-group"><label>สไตล์ EN</label><input id="f-style_en"></div>
+          <div class="form-group"><label>ค่าย TH</label><input id="f-team_th"></div>
+          <div class="form-group"><label>ค่าย EN</label><input id="f-team_en"></div>
+          <div class="form-group"><label>อายุ</label><input id="f-age" type="number"></div>
+          <div class="form-group"><label>สัญชาติ TH</label><input id="f-country_th"></div>
+          <div class="form-group"><label>รุ่นน้ำหนัก</label><input id="f-division"></div>
+          <div class="form-group"><label>น้ำหนัก kg</label><input id="f-weight_kg" type="number" step="0.1"></div>
+          <div class="form-group"><label>ส่วนสูง cm</label><input id="f-height_cm" type="number"></div>
+          <div class="form-group"><label>Image ID (Cloudinary)</label><input id="f-image_url"></div>
+          <div class="form-group" style="grid-column:1/-1"><label>URL บอท ONE FC</label><input id="f-target_url"></div>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-red" onclick="save()">💾 บันทึกข้อมูล</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="justify-content:space-between">
+          📋 ประวัติการชก
+          <button class="btn btn-green btn-sm" onclick="openModal()">+ เพิ่มไฟต์</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>วันที่</th><th>ผล</th><th>คู่ชก</th><th>กติกา</th><th>วิธี</th><th>รายการ</th><th>ลบ</th></tr></thead>
+            <tbody id="histBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="modal-overlay" id="modal">
+      <div class="modal">
+        <div class="modal-title">เพิ่มไฟต์ใหม่ <button class="modal-close" onclick="closeModal()">✕</button></div>
+        <div class="form-grid">
+          <div class="form-group"><label>วันที่</label><input id="m-date" placeholder="Mar 23, 2025"></div>
+          <div class="form-group"><label>ผล</label><select id="m-result"><option>Win</option><option>Loss</option><option>Draw</option></select></div>
+          <div class="form-group"><label>คู่ชก TH</label><input id="m-opp_th"></div>
+          <div class="form-group"><label>ประเทศคู่ชก</label><input id="m-opp_country"></div>
+          <div class="form-group"><label>กติกา</label><select id="m-disc"><option>Muay Thai</option><option>Kickboxing</option><option>MMA</option></select></div>
+          <div class="form-group"><label>วิธีชนะ</label>
+            <select id="m-method"><option>Unanimous Decision</option><option>Split Decision</option><option>Majority Decision</option><option>KO/TKO</option><option>Submission</option></select>
+          </div>
+          <div class="form-group"><label>ยกที่</label><input id="m-round" type="number" value="3"></div>
+          <div class="form-group"><label>เวลา</label><input id="m-time" placeholder="3:00"></div>
+          <div class="form-group" style="grid-column:1/-1"><label>รายการ</label><input id="m-event"></div>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-red" onclick="addFight()">💾 เพิ่มไฟต์</button>
+          <button class="btn btn-ghost" onclick="closeModal()">ยกเลิก</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+  let curFile=null, curData=null;
+  async function loadList() {
+    const res = await fetch('/api/fighters');
+    const d = await res.json();
+    if (!d.ok) return;
+    const sel = document.getElementById('fileSelect');
+    sel.innerHTML = '<option value="">— เลือกนักมวย —</option>' +
+      d.fighters.map(f=>'<option value="'+f.file+'">'+f.name_th+'</option>').join('');
+    const p = new URLSearchParams(window.location.search);
+    if (p.get('file')) { sel.value = p.get('file'); loadFighter(); }
+  }
+  async function loadFighter() {
+    const file = document.getElementById('fileSelect').value;
+    if (!file) return;
+    curFile = file;
+    const res = await fetch('/api/fighter/'+encodeURIComponent(file));
+    const d = await res.json();
+    if (!d.ok) return toast(d.message,'error');
+    curData = d.data;
+    const p = curData.fighter_profile||{};
+    document.getElementById('f-name_th').value    = p.name_th||'';
+    document.getElementById('f-name_en').value    = p.name_en||'';
+    document.getElementById('f-alias').value      = p.alias||'';
+    document.getElementById('f-grade').value      = p.grade||'N/A';
+    document.getElementById('f-style_th').value   = p.fighting_style_th||'';
+    document.getElementById('f-style_en').value   = p.fighting_style_en||'';
+    document.getElementById('f-team_th').value    = p.personal_info?.team_th||'';
+    document.getElementById('f-team_en').value    = p.personal_info?.team_en||'';
+    document.getElementById('f-age').value        = p.personal_info?.age||'';
+    document.getElementById('f-country_th').value = p.personal_info?.country_th||'';
+    document.getElementById('f-division').value   = p.physical_stats?.division||'';
+    document.getElementById('f-weight_kg').value  = p.physical_stats?.weight_kg||'';
+    document.getElementById('f-height_cm').value  = p.physical_stats?.height_cm||'';
+    document.getElementById('f-image_url').value  = p.image_url||'';
+    document.getElementById('f-target_url').value = p.target_urls?.[0]||'';
+    renderHist(curData.fight_history||[]);
+    document.getElementById('formWrap').style.display='block';
+  }
+  async function save() {
+    if (!curFile||!curData) return;
+    const p = curData.fighter_profile;
+    if (!p.personal_info)  p.personal_info={};
+    if (!p.physical_stats) p.physical_stats={};
+    p.name_th=document.getElementById('f-name_th').value;
+    p.name_en=document.getElementById('f-name_en').value;
+    p.alias=document.getElementById('f-alias').value;
+    p.grade=document.getElementById('f-grade').value;
+    p.fighting_style_th=document.getElementById('f-style_th').value;
+    p.fighting_style_en=document.getElementById('f-style_en').value;
+    p.personal_info.team_th=document.getElementById('f-team_th').value;
+    p.personal_info.team_en=document.getElementById('f-team_en').value;
+    p.personal_info.age=parseInt(document.getElementById('f-age').value)||0;
+    p.personal_info.country_th=document.getElementById('f-country_th').value;
+    p.physical_stats.division=document.getElementById('f-division').value;
+    p.physical_stats.weight_kg=parseFloat(document.getElementById('f-weight_kg').value)||0;
+    p.physical_stats.height_cm=parseInt(document.getElementById('f-height_cm').value)||0;
+    p.image_url=document.getElementById('f-image_url').value;
+    const url=document.getElementById('f-target_url').value.trim();
+    p.target_urls=url?[url]:[];
+    const res=await fetch('/api/fighter/'+encodeURIComponent(curFile),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(curData)});
+    const d=await res.json();
+    toast(d.ok?'บันทึกสำเร็จ':d.message, d.ok?'success':'error');
+  }
+  function renderHist(h) {
+    document.getElementById('histBody').innerHTML = h.length===0
+      ? '<tr><td colspan="7" style="text-align:center;padding:20px;color:#94a3b8">ยังไม่มีประวัติ</td></tr>'
+      : h.map((f,i)=>'<tr><td style="font-size:12px;color:#64748b;white-space:nowrap">'+f.date+'</td><td><span class="badge '+(f.result==='Win'?'badge-win':f.result==='Loss'?'badge-loss':'badge-draw')+'">'+f.result+'</span></td><td>'+(f.opponent_th||f.opponent_en||'—')+'</td><td><span class="badge badge-blue" style="font-size:10px">'+(f.discipline_en||'Muay Thai')+'</span></td><td style="font-size:12px">'+(f.method_en||'—')+'</td><td style="font-size:12px;color:#64748b;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+(f.event_en||'—')+'</td><td><button class="btn btn-ghost btn-sm" style="color:#dc2626" onclick="delFight('+i+')">🗑️</button></td></tr>').join('');
+  }
+  function delFight(i) {
+    if (!curData||!confirm('ลบไฟต์นี้?')) return;
+    curData.fight_history.splice(i,1);
+    renderHist(curData.fight_history);
+    toast('ลบแล้ว — กด บันทึก เพื่อยืนยัน','success');
+  }
+  function openModal()  { document.getElementById('modal').classList.add('show'); }
+  function closeModal() { document.getElementById('modal').classList.remove('show'); }
+  function addFight() {
+    if (!curData) return;
+    const opp = document.getElementById('m-opp_th').value;
+    const dt  = document.getElementById('m-date').value;
+    if (!opp) return toast('กรุณาระบุชื่อคู่ชก','error');
+    if (!dt)  return toast('กรุณาระบุวันที่','error');
+    const fight = {
+      result:document.getElementById('m-result').value,
+      discipline_en:document.getElementById('m-disc').value,
+      method_en:document.getElementById('m-method').value,
+      round:parseInt(document.getElementById('m-round').value)||3,
+      time:document.getElementById('m-time').value||'N/A',
+      opponent_th:opp, opponent_en:'',
+      opponent_country:document.getElementById('m-opp_country').value,
+      date:dt, rating:5,
+      event_en:document.getElementById('m-event').value
+    };
+    if (!curData.fight_history) curData.fight_history=[];
+    curData.fight_history.unshift(fight);
+    curData.fight_history.sort((a,b)=>new Date(b.date)-new Date(a.date));
+    renderHist(curData.fight_history);
+    closeModal();
+    toast('เพิ่มไฟต์แล้ว — กด บันทึก เพื่อยืนยัน','success');
+  }
+  loadList();
+</script>
+  <script>
+    injectSharedCSS();
+    renderSidebar('edit-fighter');
+    checkAuth();
+  </script>
+</body>
+</html>

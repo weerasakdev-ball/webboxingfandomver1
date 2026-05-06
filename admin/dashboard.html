@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | BoxingFandom Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="_shared.js"></script>
+</head>
+<body>
+  <div id="sidebar"></div>
+  <div class="main">
+    <div class="page-title">Dashboard</div>
+    <div class="stats-grid">
+      <div class="stat-box"><b id="ds-total">—</b><span>นักมวยทั้งหมด</span></div>
+      <div class="stat-box"><b id="ds-fights">—</b><span>ไฟต์ทั้งหมด</span></div>
+      <div class="stat-box"><b id="ds-wins" style="color:#16a34a">—</b><span>ชนะรวม</span></div>
+      <div class="stat-box"><b id="ds-losses">—</b><span>แพ้รวม</span></div>
+    </div>
+    <div class="card">
+      <div class="card-title">⚡ คำสั่งด่วน</div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;">
+        <button class="btn btn-dark" onclick="runCmd('generate-list','log-dash')">🔄 อัปเดตรายชื่อ</button>
+        <button class="btn btn-dark" onclick="runCmd('generate-fighters','log-dash')">🏗️ Build HTML</button>
+        <button class="btn btn-red"  onclick="runCmd('scraper','log-dash')">🤖 รันบอท</button>
+      </div>
+      <div class="log-box" id="log-dash"></div>
+    </div>
+  </div>
+<script>
+  async function loadDashboard() {
+    const res = await fetch('/api/fighters');
+    if (!res.ok) return;
+    const data = await res.json();
+    if (!data.ok) return;
+    const fs = data.fighters;
+    document.getElementById('ds-total').textContent  = fs.length;
+    document.getElementById('ds-fights').textContent = fs.reduce((s,f)=>s+f.fights,0);
+    document.getElementById('ds-wins').textContent   = fs.reduce((s,f)=>s+f.wins,0);
+    document.getElementById('ds-losses').textContent = fs.reduce((s,f)=>s+f.losses,0);
+  }
+  async function runCmd(cmd, logId) {
+    showLog(logId, '⏳ กำลังรัน...');
+    const map = {'generate-list':'/api/run/generate-list','generate-fighters':'/api/run/generate-fighters','scraper':'/api/run/scraper'};
+    const res  = await fetch(map[cmd], {method:'POST'});
+    const data = await res.json();
+    showLog(logId, data.log || (data.ok ? '✅ สำเร็จ' : '❌ ผิดพลาด'));
+    toast(data.ok ? 'รันสำเร็จ' : 'เกิดข้อผิดพลาด', data.ok ? 'success' : 'error');
+  }
+  loadDashboard();
+</script>
+  <script>
+    injectSharedCSS();
+    renderSidebar('dashboard');
+    checkAuth();
+  </script>
+</body>
+</html>

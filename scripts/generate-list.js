@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // กำหนดเส้นทางไปยังโฟลเดอร์ที่เก็บข้อมูลนักมวยของเรา
-const boxersDir = path.join(__dirname, 'data', 'boxers');
+const boxersDir = path.join(__dirname, '..', 'data', 'boxers');
 
 // กำหนดชื่อไฟล์ผลลัพธ์ที่เราต้องการสร้าง
 const outputFile = path.join(boxersDir, 'fighters-list.json');

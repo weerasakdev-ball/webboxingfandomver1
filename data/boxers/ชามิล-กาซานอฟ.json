@@ -13,7 +13,7 @@
             "weight_kg": "ไม่ระบุ",
             "division": "ไม่ระบุ",
             "height_ft": "ไม่ระบุ",
-            "height_cm": 0,
+            "height_cm": 171,
             "reach_cm": "ไม่ระบุ",
             "leg_reach_cm": "ไม่ระบุ"
         },
@@ -25,14 +25,106 @@
         "personal_info": {
             "country_th": "ไม่ระบุ",
             "country_en": "ไม่ระบุ",
-            "age": 0,
-            "team_th": "ไม่ระบุ",
-            "team_en": "ไม่ระบุ"
+            "age": 30,
+            "team_th": "Peresvet Fight Team / Tiger Muay Thai",
+            "team_en": "Peresvet Fight Team/Tiger Muay Thai"
         },
         "target_urls": [
             "https://www.onefc.com/th/athletes/shamil-gasanov/"
         ]
     },
     "weigh_in_history": [],
-    "fight_history": []
+    "fight_history": [
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "แกรี โทนอน",
+            "opponent_en": "",
+            "opponent_country": "United States",
+            "date": "Aug 02, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 34: รีเกียน vs จอร์จ"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "มาร์ติน เหงียน",
+            "opponent_en": "",
+            "opponent_country": "Australia/เวียดนาม",
+            "date": "Feb 20, 2025",
+            "rating": 5,
+            "event_en": "ONE 171: Qatar"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "ฮาลิล อาเมียร์",
+            "opponent_en": "",
+            "opponent_country": "Turkey",
+            "date": "Dec 07, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 26: คริสเตียน vs อาลิเบก"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "อารอน คานาร์เต",
+            "opponent_en": "",
+            "opponent_country": "เอกวาดอร์",
+            "date": "Aug 02, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 24: จาร์เร็ด vs กุสตาโว"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "โอ โฮ เทก",
+            "opponent_en": "",
+            "opponent_country": "เกาหลีใต้",
+            "date": "Jan 12, 2024",
+            "rating": 5,
+            "event_en": "ONE Fight Night 18: ชามิล vs โฮ เทก"
+        },
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 2,
+            "time": "2:26",
+            "opponent_th": "แกรี โทนอน",
+            "opponent_en": "",
+            "opponent_country": "United States",
+            "date": "Jul 14, 2023",
+            "rating": 5,
+            "event_en": "ONE Fight Night 12: ซุปเปอร์เล็ก vs ทาเกียร์"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Submission",
+            "round": 1,
+            "time": "2:09",
+            "opponent_th": "คิม แจ วุง",
+            "opponent_en": "",
+            "opponent_country": "เกาหลีใต้",
+            "date": "Oct 22, 2022",
+            "rating": 5,
+            "event_en": "ONE Fight Night 3: จอห์น vs ฟาบริซิโอ"
+        }
+    ]
 }

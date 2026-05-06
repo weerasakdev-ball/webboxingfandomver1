@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Parser | BoxingFandom Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="_shared.js"></script>
+  <style>
+    .tabs { display:flex; gap:0; margin-bottom:24px; border-bottom:2px solid #e2e8f0; }
+    .tab { padding:12px 24px; font-size:15px; font-weight:600; cursor:pointer; border:none;
+           background:transparent; color:#64748b; border-bottom:3px solid transparent;
+           margin-bottom:-2px; font-family:'Sarabun',sans-serif; transition:0.2s; }
+    .tab.active { color:#dc2626; border-bottom-color:#dc2626; }
+    .tab:hover:not(.active) { color:#0f172a; }
+    .tab-panel { display:none; }
+    .tab-panel.active { display:block; }
+    .badge-new  { background:#dbeafe; color:#1d4ed8; }
+    .badge-dup  { background:#f1f5f9; color:#64748b; }
+    .badge-upcoming { background:#fef9c3; color:#854d0e; }
+    @keyframes spin { to { transform:rotate(360deg); } }
+    .spinner { display:inline-block; width:14px; height:14px; border:2px solid rgba(255,255,255,0.3);
+               border-top-color:#fff; border-radius:50%; animation:spin 0.6s linear infinite; }
+  </style>
+</head>
+<body>
+  <div id="sidebar"></div>
+  <div class="main">
+
+    <div class="page-title">Event Parser</div>
+
+    <!-- TABS -->
+    <div class="tabs">
+      <button class="tab active" onclick="switchTab('weighin', this)">⚖️ ตราชั่ง (Weigh-in)</button>
+      <button class="tab" onclick="switchTab('upcoming', this)">📅 โปรแกรมการแข่งขัน</button>
+    </div>
+
+    <!-- TAB: WEIGH-IN -->
+    <div id="tab-weighin" class="tab-panel active">
+      <div class="card">
+        <div class="card-title">⚖️ วางข้อความสรุปผลตราชั่ง</div>
+        <p class="card-desc">
+          วาง copy ข้อความสรุปผลการชั่งน้ำหนักได้เลย วางได้หลายศึกพร้อมกัน<br>
+          <b>กฎ:</b> น้ำหนักล่าสุดอัปเดตเสมอ · รุ่นใส่เฉพาะถ้ายังไม่มี · ไม่มีไฟล์ → สร้างใหม่อัตโนมัติ
+        </p>
+        <div class="form-group">
+          <label>ข้อความตราชั่ง</label>
+          <textarea id="weighinText" rows="14"
+            style="padding:12px;border:1px solid #e2e8f0;border-radius:8px;font-size:14px;
+                   resize:vertical;width:100%;outline:none;margin-top:6px;line-height:1.9;font-family:'Sarabun',sans-serif"
+            placeholder="สรุปผลการชั่งน้ำหนักทุกคู่ ศึก ONE ลุมพินี 152
+ก้องไกล ส.สมหมาย ชั่งได้ 143.4 ป. vs จูลิโอ โลโบ ชั่งได้ 144.4 ป.
+(มวยไทย รุ่นแบนตัมเวต 135-145 ป.)"></textarea>
+        </div>
+        <div class="form-actions">
+          <button id="btnWeighin" class="btn btn-red" onclick="runWeighin()">⚖️ ประมวลผลและบันทึก</button>
+          <button class="btn btn-ghost" onclick="document.getElementById('weighinText').value='';clearResult('weighin')">🗑️ ล้าง</button>
+        </div>
+      </div>
+      <div id="result-weighin"></div>
+    </div>
+
+    <!-- TAB: UPCOMING -->
+    <div id="tab-upcoming" class="tab-panel">
+      <div class="card">
+        <div class="card-title">📅 วางข้อความโปรแกรมการแข่งขัน</div>
+        <p class="card-desc">
+          วางโปรแกรมชกได้เลย ระบบจะจับคู่ชก รุ่น กติกา และบันทึกเป็น upcoming fight ให้ทั้งสองฝ่าย<br>
+          <b>กฎ:</b> result จะเป็นค่าว่าง (ยังไม่ชก) · ถ้าคู่เดิม+ศึกเดิมมีแล้วจะข้าม · ไม่มีไฟล์ → สร้างใหม่
+        </p>
+        <div class="form-group">
+          <label>ข้อความโปรแกรมการแข่งขัน</label>
+          <textarea id="upcomingText" rows="14"
+            style="padding:12px;border:1px solid #e2e8f0;border-radius:8px;font-size:14px;
+                   resize:vertical;width:100%;outline:none;margin-top:6px;line-height:1.9;font-family:'Sarabun',sans-serif"
+            placeholder="โปรแกรมการแข่งขันศึก ONE ลุมพินี 153 8 พ.ค. 69
+คู่เอก วรพล ลูกเจ้าพ่อโรงต้ม vs ทอม คาสส์
+(มวยไทย รุ่นแบนตัมเวต 135-145 ป.)
+คู่รอง เด็ดดวงเล็ก ทอฝันฟาร์ม vs ไซเบอร์ ส.เทียนโพธิ์
+(มวยไทย รุ่นแบนตัมเวต 135-145 ป.)"></textarea>
+        </div>
+        <div class="form-actions">
+          <button id="btnUpcoming" class="btn btn-red" onclick="runUpcoming()">📅 ประมวลผลและบันทึก</button>
+          <button class="btn btn-ghost" onclick="document.getElementById('upcomingText').value='';clearResult('upcoming')">🗑️ ล้าง</button>
+        </div>
+      </div>
+      <div id="result-upcoming"></div>
+    </div>
+
+  </div>
+
+  <script>
+    // ── TAB SWITCHER ──
+    function switchTab(name, el) {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      el.classList.add('active');
+      document.getElementById('tab-' + name).classList.add('active');
+    }
+
+    function clearResult(tab) {
+      document.getElementById('result-' + tab).innerHTML = '';
+    }
+
+    function setLoading(btnId, loading) {
+      const btn = document.getElementById(btnId);
+      btn.disabled = loading;
+      btn.innerHTML = loading
+        ? '<span class="spinner"></span> กำลังประมวลผล...'
+        : (btnId === 'btnWeighin' ? '⚖️ ประมวลผลและบันทึก' : '📅 ประมวลผลและบันทึก');
+    }
+
+    // ── WEIGH-IN ──
+    async function runWeighin() {
+      const text = document.getElementById('weighinText').value.trim();
+      if (!text) return toast('กรุณาวางข้อความตราชั่งก่อน', 'error');
+      setLoading('btnWeighin', true);
+      try {
+        const res  = await fetch('/api/parse-weighin', {
+          method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({ text })
+        });
+        const data = await res.json();
+        setLoading('btnWeighin', false);
+        if (!data.ok) return toast(data.message, 'error');
+        renderWeighinResult(data);
+      } catch(e) {
+        setLoading('btnWeighin', false);
+        toast('เกิดข้อผิดพลาด: ' + e.message, 'error');
+      }
+    }
+
+    function renderWeighinResult(data) {
+      const saved   = data.saved    || 0;
+      const created = data.created  || 0;
+      const skipped = data.skipped  || 0;
+      const failed  = data.failed   || data.notFound || 0;
+
+      const html = `
+        <div class="stats-grid">
+          <div class="stat-box"><b style="color:#16a34a">${saved}</b><span>อัปเดตแล้ว</span></div>
+          <div class="stat-box"><b style="color:#1d4ed8">${created}</b><span>สร้างไฟล์ใหม่</span></div>
+          <div class="stat-box"><b style="color:#64748b">${skipped}</b><span>ซ้ำ (ข้าม)</span></div>
+          <div class="stat-box"><b style="color:#dc2626">${failed}</b><span>ผิดพลาด</span></div>
+          <div class="stat-box"><b>${data.totalEvents||0}</b><span>ศึก</span></div>
+          <div class="stat-box"><b>${data.results.length}</b><span>นักมวย</span></div>
+        </div>
+        <div class="card">
+          <div class="card-title">ผลการประมวลผล</div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>ศึก</th><th>ชื่อ</th><th>lbs</th><th>kg</th><th>รุ่น</th><th>กติกา</th><th>สถานะ</th></tr></thead>
+              <tbody>${data.results.map(r => {
+                let badge = '';
+                if (!r.ok) badge = `<span class="badge badge-loss">❌ ${r.reason||'ผิดพลาด'}</span>`;
+                else if (r.is_new) badge = `<span class="badge badge-new">✨ สร้างใหม่</span>`;
+                else if (r.already_logged) badge = `<span class="badge badge-dup">⏭️ ซ้ำ</span>`;
+                else badge = `<span class="badge badge-win">✅ บันทึก${r.division_updated?' (+รุ่น)':''}</span>`;
+                return `<tr>
+                  <td style="font-size:12px;color:#64748b;white-space:nowrap">${r.event||'—'}</td>
+                  <td><b>${r.name}</b>${r.file?`<br><span style="font-size:11px;color:#94a3b8">${r.file}</span>`:''}</td>
+                  <td style="font-weight:700;color:#dc2626">${r.weight_lbs||'—'}</td>
+                  <td style="color:#64748b">${r.weight_kg||'—'}</td>
+                  <td style="font-size:12px">${r.division_updated?`<span class="badge badge-new">${r.division_updated} ✨</span>`:(r.ok?'<span style="color:#94a3b8;font-size:12px">ไม่เปลี่ยน</span>':'—')}</td>
+                  <td style="font-size:12px">${r.discipline||'—'}</td>
+                  <td>${badge}</td>
+                </tr>`;
+              }).join('')}</tbody>
+            </table>
+          </div>
+        </div>`;
+
+      document.getElementById('result-weighin').innerHTML = html;
+      document.getElementById('result-weighin').scrollIntoView({ behavior:'smooth' });
+      toast(`⚖️ บันทึก ${saved} | ใหม่ ${created} | ซ้ำ ${skipped} | ผิดพลาด ${failed}`,
+        failed === 0 ? 'success' : 'error');
+    }
+
+    // ── UPCOMING ──
+    async function runUpcoming() {
+      const text = document.getElementById('upcomingText').value.trim();
+      if (!text) return toast('กรุณาวางข้อความโปรแกรมการแข่งขันก่อน', 'error');
+      setLoading('btnUpcoming', true);
+      try {
+        const res  = await fetch('/api/parse-upcoming', {
+          method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({ text })
+        });
+        const data = await res.json();
+        setLoading('btnUpcoming', false);
+        if (!data.ok) return toast(data.message, 'error');
+        renderUpcomingResult(data);
+      } catch(e) {
+        setLoading('btnUpcoming', false);
+        toast('เกิดข้อผิดพลาด: ' + e.message, 'error');
+      }
+    }
+
+    function renderUpcomingResult(data) {
+      const saved   = data.saved   || 0;
+      const created = data.created || 0;
+      const skipped = data.skipped || 0;
+      const failed  = data.failed  || 0;
+
+      const html = `
+        <div class="stats-grid">
+          <div class="stat-box"><b style="color:#16a34a">${saved}</b><span>บันทึกใหม่</span></div>
+          <div class="stat-box"><b style="color:#1d4ed8">${created}</b><span>สร้างไฟล์ใหม่</span></div>
+          <div class="stat-box"><b style="color:#64748b">${skipped}</b><span>ซ้ำ (ข้าม)</span></div>
+          <div class="stat-box"><b style="color:#dc2626">${failed}</b><span>ผิดพลาด</span></div>
+          <div class="stat-box"><b>${data.totalMatches||0}</b><span>คู่ชก</span></div>
+          <div class="stat-box"><b>${data.totalEvents||0}</b><span>ศึก</span></div>
+        </div>
+        <div class="card">
+          <div class="card-title">ผลการประมวลผล — Upcoming Fights</div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>ศึก / วันที่</th><th>ชื่อ</th><th>คู่ชก</th><th>รุ่น</th><th>กติกา</th><th>สถานะ</th></tr></thead>
+              <tbody>${data.results.map(r => {
+                let badge = '';
+                if (!r.ok) badge = `<span class="badge badge-loss">❌ ${r.reason||'ผิดพลาด'}</span>`;
+                else if (r.is_new) badge = `<span class="badge badge-new">✨ สร้างใหม่</span>`;
+                else if (r.is_dup) badge = `<span class="badge badge-dup">⏭️ ซ้ำ</span>`;
+                else badge = `<span class="badge badge-upcoming">📅 upcoming</span>`;
+                return `<tr>
+                  <td style="font-size:12px;color:#64748b">
+                    ${r.event||'—'}
+                  </td>
+                  <td><b>${r.name}</b>${r.file?`<br><span style="font-size:11px;color:#94a3b8">${r.file}</span>`:''}</td>
+                  <td style="font-size:13px;color:#475569">vs ${r.opponent||'—'}</td>
+                  <td style="font-size:12px">${r.division&&r.division!=='ยังไม่มีข้อมูล'?`<span class="badge badge-blue">${r.division}</span>`:'—'}</td>
+                  <td style="font-size:12px">${r.discipline||'—'}</td>
+                  <td>${badge}</td>
+                </tr>`;
+              }).join('')}</tbody>
+            </table>
+          </div>
+        </div>`;
+
+      document.getElementById('result-upcoming').innerHTML = html;
+      document.getElementById('result-upcoming').scrollIntoView({ behavior:'smooth' });
+      toast(`📅 บันทึก ${saved} | ใหม่ ${created} | ซ้ำ ${skipped} | ผิดพลาด ${failed}`,
+        failed === 0 ? 'success' : 'error');
+    }
+  </script>
+
+  <script>
+    injectSharedCSS();
+    renderSidebar('event-parser');
+    checkAuth();
+  </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>เพิ่มนักมวยใหม่ | BoxingFandom Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="_shared.js"></script>
+</head>
+<body>
+  <div id="sidebar"></div>
+  <div class="main">
+    <div class="page-title">เพิ่มนักมวยใหม่</div>
+    <div class="card">
+      <div class="card-title">➕ สร้างไฟล์ JSON นักมวยใหม่</div>
+      <p class="card-desc">ระบบจะสร้างไฟล์ JSON โครงร่างใหม่พร้อมค่าเริ่มต้นทุกช่อง สามารถแก้ไขข้อมูลเพิ่มเติมได้ที่หน้า "แก้ไขรายบุคคล"</p>
+      <div class="form-grid" style="max-width:560px">
+        <div class="form-group" style="grid-column:1/-1">
+          <label>ชื่อนักมวย (ภาษาไทย) *</label>
+          <input id="name_th" type="text" placeholder="เช่น รถถัง จิตรเมืองนนท์">
+        </div>
+        <div class="form-group" style="grid-column:1/-1">
+          <label>URL บอท ONE FC (ไม่บังคับ)</label>
+          <input id="target_url" type="text" placeholder="https://www.onefc.com/th/athletes/...">
+        </div>
+      </div>
+      <div class="form-actions">
+        <button class="btn btn-red" onclick="create()">➕ สร้างนักมวยใหม่</button>
+      </div>
+      <div class="log-box" id="log"></div>
+    </div>
+  </div>
+<script>
+  async function create() {
+    const name = document.getElementById('name_th').value.trim();
+    const url  = document.getElementById('target_url').value.trim();
+    if (!name) return toast('กรุณาระบุชื่อนักมวย','error');
+    const res  = await fetch('/api/fighter/new',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name_th:name,target_url:url})});
+    const d = await res.json();
+    showLog('log', d.ok ? '✅ '+d.message : '❌ '+d.message);
+    toast(d.message, d.ok?'success':'error');
+    if (d.ok) { document.getElementById('name_th').value=''; document.getElementById('target_url').value=''; }
+  }
+  document.addEventListener('keypress', e=>{ if(e.key==='Enter') create(); });
+</script>
+  <script>
+    injectSharedCSS();
+    renderSidebar('new-fighter');
+    checkAuth();
+  </script>
+</body>
+</html>

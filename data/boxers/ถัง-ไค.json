@@ -13,7 +13,7 @@
             "weight_kg": "ไม่ระบุ",
             "division": "ไม่ระบุ",
             "height_ft": "ไม่ระบุ",
-            "height_cm": 0,
+            "height_cm": 177,
             "reach_cm": "ไม่ระบุ",
             "leg_reach_cm": "ไม่ระบุ"
         },
@@ -25,14 +25,132 @@
         "personal_info": {
             "country_th": "ไม่ระบุ",
             "country_en": "ไม่ระบุ",
-            "age": 0,
-            "team_th": "ไม่ระบุ",
-            "team_en": "ไม่ระบุ"
+            "age": 30,
+            "team_th": "Sunkin International Fight Club",
+            "team_en": "Sunkin International Fight Club"
         },
         "target_urls": [
             "https://www.onefc.com/th/athletes/tang-kai/"
         ]
     },
     "weigh_in_history": [],
-    "fight_history": []
+    "fight_history": [
+        {
+            "result": "Loss",
+            "discipline_en": "MMA",
+            "method_en": "Decision",
+            "round": 5,
+            "time": "1:21",
+            "opponent_th": "อักบาร์ อับดุลลาเอฟ",
+            "opponent_en": "",
+            "opponent_country": "คีร์กีซสถาน",
+            "date": "Jan 11, 2025",
+            "rating": 5,
+            "event_en": "ONE Fight Night 27: ถัง ไค vs อักบาร์"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Decision",
+            "round": 3,
+            "time": "4:48",
+            "opponent_th": "ธานฮ์ เล",
+            "opponent_en": "",
+            "opponent_country": "United States/เวียดนาม",
+            "date": "Mar 01, 2024",
+            "rating": 5,
+            "event_en": "ONE 166: Qatar"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 5,
+            "time": "5:00",
+            "opponent_th": "ธานฮ์ เล",
+            "opponent_en": "",
+            "opponent_country": "United States/เวียดนาม",
+            "date": "Aug 26, 2022",
+            "rating": 5,
+            "event_en": "ONE 160: อ็อก vs คริสเตียน II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "2:07",
+            "opponent_th": "คิม แจ วุง",
+            "opponent_en": "",
+            "opponent_country": "เกาหลีใต้",
+            "date": "Mar 26, 2022",
+            "rating": 5,
+            "event_en": "ONE X"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Decision",
+            "round": 1,
+            "time": "4:03",
+            "opponent_th": "ยูน ชาง มิน",
+            "opponent_en": "",
+            "opponent_country": "เกาหลีใต้",
+            "date": "Nov 12, 2021",
+            "rating": 5,
+            "event_en": "ONE NextGen II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 1,
+            "time": "1:59",
+            "opponent_th": "ริวโก ทากาฮาชิ",
+            "opponent_en": "",
+            "opponent_country": "Japan",
+            "date": "Mar 05, 2021",
+            "rating": 5,
+            "event_en": "ONE Fists of Fury II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "คีอานู ซูบบา",
+            "opponent_en": "",
+            "opponent_country": "Malaysia",
+            "date": "Oct 16, 2020",
+            "rating": 5,
+            "event_en": "ONE Reign of Dynasties II"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "Unanimous Decision",
+            "round": 3,
+            "time": "5:00",
+            "opponent_th": "เอ็ดเวิร์ด เคลลี",
+            "opponent_en": "",
+            "opponent_country": "ฟิลิปปินส์",
+            "date": "Nov 16, 2019",
+            "rating": 5,
+            "event_en": "ONE Age Of Dragons"
+        },
+        {
+            "result": "Win",
+            "discipline_en": "MMA",
+            "method_en": "KO/TKO",
+            "round": 2,
+            "time": "1:14",
+            "opponent_th": "ซอง จง อี",
+            "opponent_en": "",
+            "opponent_country": "เกาหลีใต้",
+            "date": "Jan 25, 2019",
+            "rating": 5,
+            "event_en": "ONE HERO’S ASCENT"
+        }
+    ]
 }

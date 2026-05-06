@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ตรวจสอบข้อมูล | BoxingFandom Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="_shared.js"></script>
+</head>
+<body>
+  <div id="sidebar"></div>
+  <div class="main">
+    <div class="page-title">ตรวจสอบข้อมูล (Audit)</div>
+    <div class="card">
+      <div class="card-title">🔍 รายงานคุณภาพข้อมูล</div>
+      <p class="card-desc">ตรวจสอบว่านักมวยคนไหนข้อมูลขาดหายไปบ้าง เช่น ไม่มี URL บอท ไม่มีรูป ไม่มีส่วนสูง ไม่มีประวัติชก</p>
+      <button class="btn btn-dark" onclick="run()">🔍 ตรวจสอบเดี๋ยวนี้</button>
+    </div>
+    <div id="report" style="display:none">
+      <div class="stats-grid" id="stats"></div>
+      <div id="details"></div>
+    </div>
+  </div>
+<script>
+  async function run() {
+    const res  = await fetch('/api/audit');
+    const d = await res.json();
+    if (!d.ok) return toast('เกิดข้อผิดพลาด','error');
+    const r = d.report;
+    document.getElementById('report').style.display='block';
+    document.getElementById('stats').innerHTML =
+      '<div class="stat-box"><b>'+r.total+'</b><span>นักมวยทั้งหมด</span></div>'+
+      '<div class="stat-box"><b style="color:#d97706">'+r.missingUrls.length+'</b><span>ขาด URL บอท</span></div>'+
+      '<div class="stat-box"><b style="color:#d97706">'+r.missingImages.length+'</b><span>ขาดรูปภาพ</span></div>'+
+      '<div class="stat-box"><b style="color:#d97706">'+r.missingPhysical.length+'</b><span>ขาดข้อมูลร่างกาย</span></div>'+
+      '<div class="stat-box"><b style="color:#d97706">'+r.missingHistory.length+'</b><span>ไม่มีประวัติชก</span></div>';
+    const sections = [
+      {title:'❌ ขาด URL บอท',list:r.missingUrls},
+      {title:'🖼️ ขาดรูปภาพ',list:r.missingImages},
+      {title:'📏 ขาดข้อมูลร่างกาย',list:r.missingPhysical},
+      {title:'📋 ไม่มีประวัติชก',list:r.missingHistory},
+    ];
+    document.getElementById('details').innerHTML = sections.map(s=>!s.list.length?'':
+      '<div class="card" style="margin-top:16px"><div class="card-title">'+s.title+' ('+s.list.length+' คน)</div>'+
+      '<div style="display:flex;flex-wrap:wrap;gap:8px">'+
+      s.list.map(n=>'<span class="badge badge-warn">'+n+'</span>').join('')+
+      '</div></div>'
+    ).join('');
+    toast('ตรวจสอบเสร็จแล้ว','success');
+  }
+</script>
+  <script>
+    injectSharedCSS();
+    renderSidebar('audit');
+    checkAuth();
+  </script>
+</body>
+</html>

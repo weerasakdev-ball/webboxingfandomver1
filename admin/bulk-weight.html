@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>อัปเดตน้ำหนัก Bulk | BoxingFandom Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="_shared.js"></script>
+</head>
+<body>
+  <div id="sidebar"></div>
+  <div class="main">
+    <div class="page-title">อัปเดตน้ำหนัก (Bulk)</div>
+    <div class="card">
+      <div class="card-title">⚖️ อัปเดตน้ำหนักทีละหลายคน</div>
+      <p class="card-desc">เลือกนักมวย กรอกน้ำหนักหรือรุ่นใหม่ แล้วกด บันทึก ทีเดียว ระบบจะแปลง kg→lbs อัตโนมัติถ้ากรอกแค่ค่าเดียว</p>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;font-size:13px;color:#64748b">
+        <input type="checkbox" id="chkAll" onchange="toggleAll(this.checked)">
+        <label for="chkAll">เลือกทั้งหมด</label>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th></th><th>ชื่อ</th><th>รุ่นปัจจุบัน</th><th>รุ่นใหม่</th><th>น้ำหนัก kg</th><th>น้ำหนัก lbs</th></tr></thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+      <div class="form-actions">
+        <button class="btn btn-red" onclick="saveAll()">💾 บันทึกที่เลือก</button>
+      </div>
+      <div class="log-box" id="log"></div>
+    </div>
+  </div>
+<script>
+  async function load() {
+    const res = await fetch('/api/fighters');
+    const d = await res.json();
+    if (!d.ok) return toast('โหลดไม่ได้','error');
+    document.getElementById('tbody').innerHTML = d.fighters.map(f=>
+      '<tr><td><input type="checkbox" class="chk" data-file="'+f.file+'"></td><td><b>'+f.name_th+'</b></td><td style="color:#64748b">'+f.division+'</td>'+
+      '<td><input type="text" data-file="'+f.file+'" data-field="division" placeholder="'+f.division+'" style="width:120px;padding:6px 8px;border:1px solid #e2e8f0;border-radius:6px;font-size:13px;outline:none"></td>'+
+      '<td><input type="number" step="0.1" data-file="'+f.file+'" data-field="weight_kg" placeholder="kg" style="width:80px;padding:6px 8px;border:1px solid #e2e8f0;border-radius:6px;font-size:13px;outline:none"></td>'+
+      '<td><input type="number" step="0.1" data-file="'+f.file+'" data-field="weight_lbs" placeholder="lbs" style="width:80px;padding:6px 8px;border:1px solid #e2e8f0;border-radius:6px;font-size:13px;outline:none"></td></tr>'
+    ).join('');
+  }
+  function toggleAll(v) { document.querySelectorAll('.chk').forEach(c=>c.checked=v); }
+  async function saveAll() {
+    const checked = [...document.querySelectorAll('.chk:checked')].map(c=>c.dataset.file);
+    if (!checked.length) return toast('ยังไม่ได้เลือกนักมวย','error');
+    const payload = checked.map(file=>{
+      const row={file};
+      const div  = document.querySelector('input[data-file="'+file+'"][data-field="division"]');
+      const wkg  = document.querySelector('input[data-file="'+file+'"][data-field="weight_kg"]');
+      const wlbs = document.querySelector('input[data-file="'+file+'"][data-field="weight_lbs"]');
+      if (div?.value)  row.division  =div.value;
+      if (wkg?.value)  row.weight_kg =parseFloat(wkg.value);
+      if (wlbs?.value) row.weight_lbs=parseFloat(wlbs.value);
+      return row;
+    }).filter(r=>r.division||r.weight_kg||r.weight_lbs);
+    if (!payload.length) return toast('ยังไม่ได้กรอกข้อมูล','error');
+    const res  = await fetch('/api/bulk/weight',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+    const data = await res.json();
+    showLog('log', data.results.map(r=>(r.ok?'✅':'❌')+' '+r.file+(r.error?' — '+r.error:'')).join('
+'));
+    toast('อัปเดตน้ำหนักเสร็จแล้ว','success');
+  }
+  load();
+</script>
+  <script>
+    injectSharedCSS();
+    renderSidebar('bulk-weight');
+    checkAuth();
+  </script>
+</body>
+</html>

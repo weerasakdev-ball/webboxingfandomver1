@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Parser ผลมวย | BoxingFandom Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="_shared.js"></script>
+</head>
+<body>
+  <div id="sidebar"></div>
+  <div class="main">
+    <div class="page-title">AI Parser ผลมวย</div>
+    <div class="card">
+      <div class="card-title">🧠 วางข้อความผลมวย → บันทึก JSON อัตโนมัติ</div>
+      <p class="card-desc">วางข้อความผลมวยดิบๆ ได้เลย ระบบจะแปลงและบันทึกลง JSON ทุกคนที่เจออัตโนมัติ ถ้าไม่มีไฟล์ JSON จะสร้างให้ใหม่<br>
+        รูปแบบ: <b>ชื่อ (สัญชาติ) ชนะน็อก/ชนะคะแนนเอกฉันท์ ชื่อ (สัญชาติ) ยกที่ X นาทีที่ X:XX</b></p>
+      <div class="form-grid">
+        <div class="form-group"><label>ชื่อรายการ *</label><input id="event" placeholder="เช่น ONE ลุมพินี 147"></div>
+        <div class="form-group"><label>วันที่จัด *</label><input id="date" placeholder="เช่น Mar 20, 2026"></div>
+      </div>
+      <div class="form-group" style="margin-top:16px">
+        <label>ผลการชก *</label>
+        <textarea id="results" rows="10" style="padding:10px 12px;border:1px solid #e2e8f0;border-radius:7px;font-size:14px;resize:vertical;width:100%;outline:none;margin-top:6px;line-height:1.8" placeholder="รถถัง จิตรเมืองนนท์ (ไทย) ชนะน็อก ทาเครุ เซกาวา (ญี่ปุ่น) ยกแรก นาทีที่ 1:20&#10;น้องโอ๋ ฮาม่ามวยไทย (ไทย) ชนะคะแนนเอกฉันท์ ก้องธรณี ส.สมหมาย (ไทย)"></textarea>
+      </div>
+      <div class="form-group" style="margin-top:16px">
+        <label>ตราชั่ง / Weigh-in (ไม่บังคับ)</label>
+        <textarea id="weighin" rows="4" style="padding:10px 12px;border:1px solid #e2e8f0;border-radius:7px;font-size:14px;resize:vertical;width:100%;outline:none;margin-top:6px" placeholder="รถถัง จิตรเมืองนนท์ ชั่งได้ 134.9 ป.&#10;น้องโอ๋ ฮาม่ามวยไทย ชั่งได้ 134.0 ป."></textarea>
+      </div>
+      <div class="form-actions">
+        <button class="btn btn-red" onclick="run()">🧠 ประมวลผลและบันทึก</button>
+      </div>
+      <div class="log-box" id="log"></div>
+    </div>
+  </div>
+<script>
+  async function run() {
+    const event_name   = document.getElementById('event').value.trim();
+    const event_date   = document.getElementById('date').value.trim();
+    const results_text = document.getElementById('results').value.trim();
+    const weigh_in     = document.getElementById('weighin').value.trim();
+    if (!event_name)   return toast('กรุณาระบุชื่อรายการ','error');
+    if (!event_date)   return toast('กรุณาระบุวันที่','error');
+    if (!results_text) return toast('กรุณาวางข้อความผลมวย','error');
+    showLog('log','⏳ กำลังประมวลผล...');
+    const res  = await fetch('/api/parse-results',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({event_name,event_date,results_text,weigh_in_text:weigh_in})});
+    const d = await res.json();
+    if (d.ok) {
+      showLog('log','✅ อัปเดต '+d.updatedCount+' คน | สร้างใหม่ '+d.newCount+' คน
+
+'+d.logs.join('
+'));
+      toast('เสร็จ! อัปเดต '+d.updatedCount+' + ใหม่ '+d.newCount+' คน','success');
+    } else {
+      showLog('log','❌ '+d.message);
+      toast(d.message,'error');
+    }
+  }
+</script>
+  <script>
+    injectSharedCSS();
+    renderSidebar('ai-parser');
+    checkAuth();
+  </script>
+</body>
+</html>

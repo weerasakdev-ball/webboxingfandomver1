@@ -1,0 +1,38 @@
+{
+  "fight_history": [],
+  "fighter_profile": {
+    "alias": "ไม่ระบุ",
+    "fighting_style_en": "ไม่ระบุ",
+    "fighting_style_th": "ไม่ระบุ",
+    "grade": "N/A",
+    "image_url": "Diego-Batista",
+    "name_en": "Diego Batista",
+    "name_th": "ดิเอโก้ บาติสต้า",
+    "performance_stats": {
+      "defensive_stats": "ยังไม่มีข้อมูล",
+      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+      "significant_strikes_per_minute": "ยังไม่มีข้อมูล"
+    },
+    "personal_info": {
+      "age": "ไม่ระบุ",
+      "country_en": "ไม่ระบุ",
+      "country_th": "ไม่ระบุ",
+      "team_en": "ไม่ระบุ",
+      "team_th": "ไม่ระบุ"
+    },
+    "physical_stats": {
+      "division": "ไม่ระบุ",
+      "height_cm": "ไม่ระบุ",
+      "height_ft": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ",
+      "reach_cm": "ไม่ระบุ",
+      "weight_kg": "ไม่ระบุ",
+      "weight_lbs": ""
+    },
+    "stance": "ไม่ระบุ",
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/diego-batista/"
+    ]
+  },
+  "weigh_in_history": []
+}

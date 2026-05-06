@@ -1,12 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 
-// 1. กำหนดโฟลเดอร์ต้นทาง (ข้อมูล JSON) และไฟล์แม่แบบ (template.html)
-const dataDir = path.join(__dirname, 'data', 'boxers');
-const templatePath = path.join(__dirname, 'pages', 'fighter', 'template.html');
-
-// 2. กำหนดโฟลเดอร์ปลายทางสำหรับเก็บไฟล์ HTML ที่เสกออกมา
-const outputDir = path.join(__dirname, 'pages', 'fighter');
+// กำหนด ROOT ที่ถูกต้อง (script อยู่ใน scripts/ ต้องขึ้นไปหนึ่งชั้น)
+const ROOT        = path.join(__dirname, '..');
+const dataDir     = path.join(ROOT, 'data', 'boxers');
+const templatePath = path.join(ROOT, 'pages', 'fighter', 'template.html');
+const outputDir   = path.join(ROOT, 'pages', 'fighter');
 
 // ตรวจสอบความพร้อมของโฟลเดอร์และไฟล์
 if (!fs.existsSync(dataDir)) {

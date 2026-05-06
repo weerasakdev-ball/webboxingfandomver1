@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | BoxingFandom Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'Sarabun',sans-serif; background:#0f172a; min-height:100vh; display:flex; align-items:center; justify-content:center; }
+    .box { background:#1e293b; border:1px solid #334155; border-radius:16px; padding:48px 40px; width:360px; text-align:center; }
+    .logo { font-size:28px; font-weight:900; margin-bottom:6px; }
+    .logo .r { color:#dc2626; } .logo .w { color:#fff; }
+    .sub { color:#475569; font-size:14px; margin-bottom:32px; }
+    input[type=password] { width:100%; padding:12px 16px; border-radius:8px; border:1px solid #334155; background:#0f172a; color:#fff; font-size:15px; font-family:'Sarabun',sans-serif; margin-bottom:12px; outline:none; transition:0.2s; text-align:center; }
+    input[type=password]:focus { border-color:#dc2626; }
+    input[type=password]::placeholder { color:#475569; }
+    .btn-login { width:100%; padding:12px; background:#dc2626; color:#fff; border:none; border-radius:8px; font-size:15px; font-weight:700; font-family:'Sarabun',sans-serif; cursor:pointer; transition:0.2s; }
+    .btn-login:hover { background:#b91c1c; }
+    .err { color:#fca5a5; font-size:13px; margin-top:10px; display:none; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="logo"><span class="r">Boxing</span><span class="w">Fandom</span></div>
+    <div class="sub">Admin Panel — กรุณาใส่รหัสผ่าน</div>
+    <input type="password" id="pw" placeholder="รหัสผ่าน" autocomplete="current-password">
+    <button class="btn-login" onclick="doLogin()">🔒 เข้าสู่ระบบ</button>
+    <div class="err" id="err">รหัสผ่านไม่ถูกต้อง</div>
+  </div>
+  <script>
+    fetch('/api/fighters').then(r => { if (r.ok) window.location.href = '/admin/dashboard.html'; }).catch(() => {});
+    async function doLogin() {
+      const pw = document.getElementById('pw').value;
+      const res = await fetch('/api/login', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({ password: pw }) });
+      if (res.ok) { window.location.href = '/admin/dashboard.html'; }
+      else { document.getElementById('err').style.display = 'block'; }
+    }
+    document.getElementById('pw').addEventListener('keypress', e => { if (e.key === 'Enter') doLogin(); });
+  </script>
+</body>
+</html>

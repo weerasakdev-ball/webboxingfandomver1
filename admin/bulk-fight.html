@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>เพิ่มผลชก Bulk | BoxingFandom Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="_shared.js"></script>
+</head>
+<body>
+  <div id="sidebar"></div>
+  <div class="main">
+    <div class="page-title">เพิ่มผลชก (Bulk)</div>
+    <div class="card">
+      <div class="card-title">📋 ข้อมูลไฟต์</div>
+      <div class="form-grid">
+        <div class="form-group"><label>วันที่ *</label><input id="date" placeholder="Mar 23, 2025"></div>
+        <div class="form-group"><label>ผล *</label><select id="result"><option>Win</option><option>Loss</option><option>Draw</option></select></div>
+        <div class="form-group"><label>คู่ชก TH</label><input id="opp_th"></div>
+        <div class="form-group"><label>ประเทศคู่ชก</label><input id="opp_country"></div>
+        <div class="form-group"><label>กติกา</label><select id="disc"><option>Muay Thai</option><option>Kickboxing</option><option>MMA</option></select></div>
+        <div class="form-group"><label>วิธีชนะ</label>
+          <select id="method"><option>Unanimous Decision</option><option>Split Decision</option><option>Majority Decision</option><option>KO/TKO</option><option>Submission</option></select>
+        </div>
+        <div class="form-group"><label>ยกที่</label><input id="round" type="number" value="3"></div>
+        <div class="form-group"><label>เวลา</label><input id="time" placeholder="3:00"></div>
+        <div class="form-group" style="grid-column:1/-1"><label>รายการ (Event) *</label><input id="event" placeholder="ONE 172: ..."></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-title">เลือกนักมวยที่ชกในไฟต์นี้</div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;font-size:13px;color:#64748b">
+        <input type="checkbox" id="chkAll" onchange="toggleAll(this.checked)">
+        <label for="chkAll">เลือกทั้งหมด</label>
+      </div>
+      <div id="checklist" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px;max-height:320px;overflow-y:auto"></div>
+      <div class="form-actions">
+        <button class="btn btn-red" onclick="saveAll()">💾 บันทึกผลชก</button>
+      </div>
+      <div class="log-box" id="log"></div>
+    </div>
+  </div>
+<script>
+  async function load() {
+    const res = await fetch('/api/fighters');
+    const d = await res.json();
+    if (!d.ok) return;
+    document.getElementById('checklist').innerHTML = d.fighters.map(f=>
+      '<label style="display:flex;align-items:center;gap:8px;padding:8px 12px;background:#fff;border:1px solid #e2e8f0;border-radius:8px;cursor:pointer;font-size:13px">'+
+      '<input type="checkbox" class="chk" data-file="'+f.file+'">'+f.name_th+'</label>'
+    ).join('');
+  }
+  function toggleAll(v) { document.querySelectorAll('.chk').forEach(c=>c.checked=v); }
+  async function saveAll() {
+    const checked = [...document.querySelectorAll('.chk:checked')].map(c=>c.dataset.file);
+    if (!checked.length) return toast('ยังไม่ได้เลือกนักมวย','error');
+    const date  = document.getElementById('date').value.trim();
+    const event = document.getElementById('event').value.trim();
+    if (!date)  return toast('กรุณาระบุวันที่','error');
+    if (!event) return toast('กรุณาระบุชื่อรายการ','error');
+    const fight = {
+      result:document.getElementById('result').value,
+      discipline_en:document.getElementById('disc').value,
+      method_en:document.getElementById('method').value,
+      round:parseInt(document.getElementById('round').value)||3,
+      time:document.getElementById('time').value||'N/A',
+      opponent_th:document.getElementById('opp_th').value,
+      opponent_en:'',
+      opponent_country:document.getElementById('opp_country').value,
+      date, rating:5, event_en:event
+    };
+    const payload = checked.map(file=>({file,fight}));
+    const res  = await fetch('/api/bulk/fight',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+    const data = await res.json();
+    showLog('log', data.results.map(r=>(r.ok?'✅':'❌')+' '+r.file).join('
+'));
+    toast('เพิ่มผลชกให้ '+checked.length+' คนเสร็จแล้ว','success');
+  }
+  load();
+</script>
+  <script>
+    injectSharedCSS();
+    renderSidebar('bulk-fight');
+    checkAuth();
+  </script>
+</body>
+</html>

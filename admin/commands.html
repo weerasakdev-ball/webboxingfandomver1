@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>คำสั่งระบบ | BoxingFandom Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="_shared.js"></script>
+</head>
+<body>
+  <div id="sidebar"></div>
+  <div class="main">
+    <div class="page-title">คำสั่งระบบ</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px">
+      <div class="card">
+        <div class="card-title">🔄 อัปเดตรายชื่อ</div>
+        <p class="card-desc">สแกนโฟลเดอร์ data/boxers/ แล้วสร้าง fighters-list.json ใหม่</p>
+        <button class="btn btn-dark" onclick="run('generate-list','log1')">รัน generate-list.js</button>
+        <div class="log-box" id="log1"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">🏗️ Build HTML</div>
+        <p class="card-desc">แปลงไฟล์ JSON ทุกคนให้เป็นหน้า HTML โปรไฟล์นักมวยอัตโนมัติ</p>
+        <button class="btn btn-dark" onclick="run('generate-fighters','log2')">รัน generate-fighters.js</button>
+        <div class="log-box" id="log2"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">🤖 รันบอทดึงข้อมูล</div>
+        <p class="card-desc">ดึงข้อมูลล่าสุดจาก ONE FC ทุกคนที่มี target_urls อัตโนมัติ</p>
+        <button class="btn btn-red" onclick="run('scraper','log3')">รัน scraper-bot.js</button>
+        <div class="log-box" id="log3"></div>
+      </div>
+    </div>
+  </div>
+<script>
+  async function run(cmd, logId) {
+    showLog(logId,'⏳ กำลังรัน...');
+    const map={'generate-list':'/api/run/generate-list','generate-fighters':'/api/run/generate-fighters','scraper':'/api/run/scraper'};
+    const res  = await fetch(map[cmd],{method:'POST'});
+    const d = await res.json();
+    showLog(logId, d.log||(d.ok?'✅ สำเร็จ':'❌ ผิดพลาด'));
+    toast(d.ok?'รันสำเร็จ':'เกิดข้อผิดพลาด', d.ok?'success':'error');
+  }
+</script>
+  <script>
+    injectSharedCSS();
+    renderSidebar('commands');
+    checkAuth();
+  </script>
+</body>
+</html>

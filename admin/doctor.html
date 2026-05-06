@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>หมอซ่อม JSON | BoxingFandom Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="_shared.js"></script>
+</head>
+<body>
+  <div id="sidebar"></div>
+  <div class="main">
+    <div class="page-title">หมอซ่อม JSON</div>
+    <div class="card">
+      <div class="card-title">🔧 ซ่อมไฟล์ JSON ที่เสียหาย</div>
+      <p class="card-desc">สแกนหาไฟล์ JSON ที่พัง เช่น จาก Git merge conflict แล้วพยายามซ่อมอัตโนมัติ ไฟล์ที่ซ่อมไม่ได้จะแจ้งให้ทราบ</p>
+      <button class="btn btn-dark" onclick="run()">🔍 สแกนและซ่อมทั้งหมด</button>
+      <div class="log-box" id="log"></div>
+    </div>
+  </div>
+<script>
+  async function run() {
+    showLog('log','⏳ กำลังสแกน...');
+    const res  = await fetch('/api/fix-json',{method:'POST'});
+    const d = await res.json();
+    showLog('log', d.logs.length
+      ? 'ซ่อมได้ '+d.fixedCount+' ไฟล์ | ซ่อมไม่ได้ '+d.brokenCount+' ไฟล์
+
+'+d.logs.join('
+')
+      : '✅ ไม่พบไฟล์ที่พัง ทุกไฟล์ปกติ!');
+    toast(d.fixedCount>0?'ซ่อมได้ '+d.fixedCount+' ไฟล์':'ไม่พบไฟล์พัง','success');
+  }
+</script>
+  <script>
+    injectSharedCSS();
+    renderSidebar('doctor');
+    checkAuth();
+  </script>
+</body>
+</html>
