@@ -49,8 +49,10 @@ jobs:
         run: |
           git config user.name "BoxingFandom Bot"
           git config user.email "bot@boxingfandom.com"
-          git pull origin main --rebase
           git add -A
-          git status
+          git stash
+          git pull origin main --rebase
+          git stash pop || true
+          git add -A
           git diff --staged --quiet || git commit -m "🏗️ Generate: $(date +'%Y-%m-%d %H:%M') [task: ${{ inputs.task }}]"
           git push origin main
