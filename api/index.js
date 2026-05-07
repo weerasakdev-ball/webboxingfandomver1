@@ -93,14 +93,6 @@ async function ghGet(filePath) {
   return res.json();
 }
 
-async function ghList(dirPath) {
-  const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${dirPath}?ref=${BRANCH}`;
-  const headers = { 'Authorization': `Bearer ${GITHUB_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' };
-  const res = await fetch(url, { headers });
-  if (!res.ok) return [];
-  return res.json();
-}
-
 async function ghPut(filePath, contentStr, commitMessage, sha) {
   const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${filePath}`;
   const headers = { 'Authorization': `Bearer ${GITHUB_TOKEN}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' };
@@ -112,7 +104,7 @@ async function ghPut(filePath, contentStr, commitMessage, sha) {
 }
 
 async function saveToGitHub(fileName, contentObj, commitMessage) {
-  if (!GITHUB_TOKEN) throw new Error("ยังไม่ได้ใส่ GITHUB_TOKEN");
+  if (!GITHUB_TOKEN) throw new Error("ยังไม่ได้ใส่ GITHUB_TOKEN ในระบบ Vercel");
   const filePath = `data/boxers/${fileName}`;
   const existing = await ghGet(filePath);
   await ghPut(filePath, JSON.stringify(contentObj, null, 2), commitMessage, existing?.sha || null);
@@ -132,18 +124,28 @@ async function deleteFromGitHub(fileName) {
   return true;
 }
 
-// ── อัปเดต fighters-list.json โดยอ่านจาก GitHub API โดยตรง ──
+// ── อัปเดต fighters-list.json โดยใช้ Git Trees API (ดึงครั้งเดียวครบทุกไฟล์) ──
 async function rebuildFightersList() {
   if (!GITHUB_TOKEN) throw new Error("ยังไม่ได้ใส่ GITHUB_TOKEN");
 
-  // 1. ดึงรายชื่อไฟล์ทั้งหมดใน data/boxers จาก GitHub API
-  const items = await ghList('data/boxers');
-  const files = items
-    .filter(item => item.type === 'file' && item.name.endsWith('.json') && item.name !== 'fighters-list.json')
-    .map(item => item.name)
+  // Git Trees API ดึงได้ทุกไฟล์ในครั้งเดียว ไม่มี pagination จำกัด 100 รายการ
+  const treeUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/git/trees/${BRANCH}?recursive=1`;
+  const treeRes = await fetch(treeUrl, {
+    headers: { 'Authorization': `Bearer ${GITHUB_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' }
+  });
+  const treeData = await treeRes.json();
+
+  const files = (treeData.tree || [])
+    .filter(item =>
+      item.type === 'blob' &&
+      item.path.startsWith('data/boxers/') &&
+      item.path.endsWith('.json') &&
+      !item.path.endsWith('fighters-list.json')
+    )
+    .map(item => item.path.replace('data/boxers/', ''))
     .sort();
 
-  // 2. เขียน fighters-list.json ขึ้น GitHub
+  // เขียน fighters-list.json ขึ้น GitHub
   const listPath = 'data/boxers/fighters-list.json';
   const existing = await ghGet(listPath);
   await ghPut(listPath, JSON.stringify(files, null, 2), `📋 อัปเดตรายชื่อนักมวยทั้งหมด ${files.length} คน`, existing?.sha || null);
@@ -151,7 +153,7 @@ async function rebuildFightersList() {
   return files.length;
 }
 
-// ── อัปเดต fighters-list.json เพิ่มชื่อใหม่ ──
+// ── อัปเดต fighters-list.json เพิ่มชื่อใหม่ทีละคน ──
 async function updateFightersList(newFileName) {
   try {
     const listPath = 'data/boxers/fighters-list.json';
@@ -196,6 +198,7 @@ function findFighterFile(name) {
   const files = fs.readdirSync(DATA_DIR).filter(f => f.endsWith('.json') && f !== 'fighters-list.json');
   const nameNorm = norm(name);
 
+  // 1. เช็คจากชื่อไฟล์ก่อน (แม่นที่สุด)
   for (const file of files) {
     if (norm(file.replace('.json', '')) === nameNorm) {
       try {
@@ -205,6 +208,7 @@ function findFighterFile(name) {
     }
   }
 
+  // 2. เช็คจาก name_th / name_en (ต้องตรงพอดีเท่านั้น)
   for (const file of files) {
     try {
       const data = JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), 'utf-8'));
@@ -343,7 +347,7 @@ module.exports = async (req, res) => {
 
   // === SECTION 3: Run Scripts ===
 
-  // อัปเดต fighters-list.json โดยตรงผ่าน GitHub API (ไม่ต้องผ่าน Actions)
+  // อัปเดต fighters-list.json ผ่าน Git Trees API โดยตรง ไม่ต้องรอ Actions
   if (method === 'POST' && pathname === '/api/run/generate-list') {
     try {
       const count = await rebuildFightersList();
