@@ -9,8 +9,8 @@
     "fighting_style_en": "Power Puncher",
     "stance": "Orthodox",
     "physical_stats": {
-      "weight_lbs": 124.3,
-      "weight_kg": 56.4,
+      "weight_lbs": 124.4,
+      "weight_kg": 56.43,
       "division": "Strawweight",
       "height_ft": "5'6\"",
       "height_cm": 169,
@@ -161,6 +161,14 @@
       "date": "Aug 23, 2024",
       "rating": 5,
       "event_en": "ONE ลุมพินี 76"
+    }
+  ],
+  "weigh_in_history": [
+    {
+      "event_name": "The Inner Circle 8 พ.ค. 69",
+      "weight_lbs": 124.4,
+      "weight_kg": 56.43,
+      "division": "Flyweight"
     }
   ]
 }
