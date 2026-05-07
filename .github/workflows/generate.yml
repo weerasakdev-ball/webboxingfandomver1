@@ -28,6 +28,9 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
+      - name: Pull latest changes
+        run: git pull origin main
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -45,14 +48,10 @@ jobs:
         if: ${{ inputs.task == 'all' || inputs.task == 'generate-fighters' }}
         run: node scripts/generate-fighters.js
 
-      - name: Commit and push results
+      - name: Commit and push
         run: |
           git config user.name "BoxingFandom Bot"
           git config user.email "bot@boxingfandom.com"
-          git add -A
-          git stash
-          git pull origin main --rebase
-          git stash pop || true
           git add -A
           git diff --staged --quiet || git commit -m "🏗️ Generate: $(date +'%Y-%m-%d %H:%M') [task: ${{ inputs.task }}]"
           git push origin main
