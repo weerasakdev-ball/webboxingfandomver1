@@ -3,6 +3,9 @@ name: Sniper Bot
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   sniper:
     runs-on: ubuntu-latest
@@ -11,6 +14,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -28,6 +33,6 @@ jobs:
         run: |
           git config user.name "BoxingFandom Bot"
           git config user.email "bot@boxingfandom.com"
-          git add data/boxers/*.json update_list.txt
+          git add data/boxers/*.json update_list.txt || true
           git diff --staged --quiet || git commit -m "🤖 Sniper update: $(date +'%Y-%m-%d %H:%M')"
           git push
