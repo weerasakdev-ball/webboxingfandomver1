@@ -9,8 +9,8 @@
     "fighting_style_en": "ไม่ระบุ",
     "stance": "ไม่ระบุ",
     "physical_stats": {
-      "weight_lbs": 124.4,
-      "weight_kg": 56.43,
+      "weight_lbs": 164.6,
+      "weight_kg": 74.66,
       "division": "ไม่ระบุ",
       "height_ft": "ไม่ระบุ",
       "height_cm": 0,
@@ -37,9 +37,9 @@
   "weigh_in_history": [
     {
       "event_name": "",
-      "weight_lbs": 124.4,
-      "weight_kg": 56.43,
-      "division": "Flyweight"
+      "weight_lbs": 164.6,
+      "weight_kg": 74.66,
+      "division": "Lightweight"
     }
   ],
   "fight_history": []
