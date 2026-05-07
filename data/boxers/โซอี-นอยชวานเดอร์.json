@@ -9,8 +9,8 @@
     "fighting_style_en": "ไม่ระบุ",
     "stance": "ไม่ระบุ",
     "physical_stats": {
-      "weight_lbs": "ไม่ระบุ",
-      "weight_kg": "ไม่ระบุ",
+      "weight_lbs": 126.8,
+      "weight_kg": 57.52,
       "division": "ไม่ระบุ",
       "height_ft": "ไม่ระบุ",
       "height_cm": 0,
@@ -34,7 +34,14 @@
     ],
     "short_biography": "โซอี นอยชวานเดอร์ (Zoe Neuschwander) เป็นนักชกชาวไม่ระบุ วัย 0 ปี มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ส่วนสูง 0 เซนติเมตร กำลังมุ่งมั่นฝึกซ้อมและรอพิสูจน์ฝีมือในไฟต์ต่อไปบนสังเวียน"
   },
-  "weigh_in_history": [],
+  "weigh_in_history": [
+    {
+      "event_name": "ศึก ONE ลุมพินี 153",
+      "weight_lbs": 126.8,
+      "weight_kg": 57.52,
+      "division": "Flyweight"
+    }
+  ],
   "fight_history": [
     {
       "result": "",
