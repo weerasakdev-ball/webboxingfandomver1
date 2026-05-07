@@ -1,0 +1,53 @@
+name: Generate Site
+
+on:
+  workflow_dispatch:
+    inputs:
+      task:
+        description: 'งานที่ต้องการรัน'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - generate-list
+          - generate-fighters
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run generate-list
+        if: ${{ inputs.task == 'all' || inputs.task == 'generate-list' }}
+        run: node scripts/generate-list.js
+
+      - name: Run generate-fighters
+        if: ${{ inputs.task == 'all' || inputs.task == 'generate-fighters' }}
+        run: node scripts/generate-fighters.js
+
+      - name: Commit results
+        run: |
+          git config user.name "BoxingFandom Bot"
+          git config user.email "bot@boxingfandom.com"
+          git add data/boxers/fighters-list.json pages/fighter/*.html || true
+          git diff --staged --quiet || git commit -m "🏗️ Generate: $(date +'%Y-%m-%d %H:%M')"
+          git push

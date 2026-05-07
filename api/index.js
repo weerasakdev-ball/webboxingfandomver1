@@ -36,6 +36,12 @@ const DIVISION_MAP = {
   'ซูเปอร์เฮฟวี่':'Super Heavyweight',
 };
 
+const THAI_MONTHS = {
+  'ม.ค.':'Jan','ก.พ.':'Feb','มี.ค.':'Mar','เม.ย.':'Apr',
+  'พ.ค.':'May','มิ.ย.':'Jun','ก.ค.':'Jul','ส.ค.':'Aug',
+  'ก.ย.':'Sep','ต.ค.':'Oct','พ.ย.':'Nov','ธ.ค.':'Dec'
+};
+
 function mapDivision(text) {
   if (!text) return null;
   for (const [th, en] of Object.entries(DIVISION_MAP)) {
@@ -57,9 +63,28 @@ function lbsToKg(lbs) {
   return Math.round(lbs * 0.453592 * 100) / 100;
 }
 
-// ── normalize ชื่อสำหรับเปรียบเทียบ ──
 function norm(str) {
   return (str || '').toLowerCase().replace(/[-\s]/g, '').trim();
+}
+
+// ── แปลงวันที่ภาษาไทย ──
+function parseThaiDate(str) {
+  if (!str) return '';
+  for (const [th, en] of Object.entries(THAI_MONTHS)) {
+    if (str.includes(th)) {
+      const dayMatch  = str.match(/(\d{1,2})\s*/);
+      const yearMatch = str.match(/(\d{2,4})\s*$/);
+      if (!dayMatch || !yearMatch) continue;
+      let year = parseInt(yearMatch[1]);
+      // แก้ปีย่อ เช่น 69 → 2026, 68 → 2025
+      if (year < 100) year += 2500;
+      // แปลง พ.ศ. → ค.ศ.
+      if (year > 2500) year -= 543;
+      const day = dayMatch[1].padStart(2, '0');
+      return `${en} ${day}, ${year}`;
+    }
+  }
+  return '';
 }
 
 // ── GitHub helpers ──
@@ -81,13 +106,11 @@ async function ghPut(filePath, contentStr, commitMessage, sha) {
   return res.json();
 }
 
-// ── Save ไฟล์นักมวยขึ้น GitHub (ดึง SHA ใหม่ทุกครั้งป้องกัน 409) ──
 async function saveToGitHub(fileName, contentObj, commitMessage) {
   if (!GITHUB_TOKEN) throw new Error("ยังไม่ได้ใส่ GITHUB_TOKEN");
   const filePath = `data/boxers/${fileName}`;
   const existing = await ghGet(filePath);
-  const sha = existing?.sha || null;
-  await ghPut(filePath, JSON.stringify(contentObj, null, 2), commitMessage, sha);
+  await ghPut(filePath, JSON.stringify(contentObj, null, 2), commitMessage, existing?.sha || null);
   return true;
 }
 
@@ -104,24 +127,46 @@ async function deleteFromGitHub(fileName) {
   return true;
 }
 
-async function triggerSniperWorkflow(names) {
+// ── อัปเดต fighters-list.json อัตโนมัติ ──
+async function updateFightersList(newFileName) {
+  try {
+    const listPath = 'data/boxers/fighters-list.json';
+    const existing = await ghGet(listPath);
+    let list = [];
+    if (existing) {
+      list = JSON.parse(Buffer.from(existing.content, 'base64').toString('utf-8'));
+    }
+    if (!list.includes(newFileName)) {
+      list.push(newFileName);
+      list.sort();
+      await ghPut(listPath, JSON.stringify(list, null, 2), `📋 อัปเดตรายชื่อ: เพิ่ม ${newFileName}`, existing?.sha || null);
+    }
+  } catch (e) {
+    console.error('updateFightersList error:', e.message);
+  }
+}
+
+// ── Trigger GitHub Actions workflow ──
+async function triggerWorkflow(workflowFile, inputs = {}) {
   if (!GITHUB_TOKEN) throw new Error("ยังไม่ได้ใส่ GITHUB_TOKEN");
-  const listPath = 'update_list.txt';
-  const existing = await ghGet(listPath);
-  await ghPut(listPath, names.join('\n'), `🎯 Sniper: ${names.join(', ')}`, existing?.sha || null);
-  const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/actions/workflows/sniper.yml/dispatches`;
+  const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/actions/workflows/${workflowFile}/dispatches`;
   const headers = { 'Authorization': `Bearer ${GITHUB_TOKEN}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' };
-  const res = await fetch(url, { method: 'POST', headers, body: JSON.stringify({ ref: BRANCH }) });
-  if (res.status === 404) throw new Error('ไม่พบ workflow file: .github/workflows/sniper.yml');
-  if (!res.ok && res.status !== 204) throw new Error(`GitHub Actions trigger failed: ${res.status}`);
+  const body = { ref: BRANCH };
+  if (Object.keys(inputs).length > 0) body.inputs = inputs;
+  const res = await fetch(url, { method: 'POST', headers, body: JSON.stringify(body) });
+  if (res.status === 404) throw new Error(`ไม่พบ workflow: .github/workflows/${workflowFile}`);
+  if (!res.ok && res.status !== 204) throw new Error(`Trigger failed: ${res.status}`);
   return true;
 }
 
-// ── ค้นหาไฟล์นักมวยจากชื่อ ──
-// ลำดับการค้นหา:
-// 1. ชื่อไฟล์ตรงๆ (แทน space ด้วย -)
-// 2. name_th ใน JSON
-// 3. name_en ใน JSON
+async function triggerSniperWorkflow(names) {
+  const listPath = 'update_list.txt';
+  const existing = await ghGet(listPath);
+  await ghPut(listPath, names.join('\n'), `🎯 Sniper: ${names.join(', ')}`, existing?.sha || null);
+  await triggerWorkflow('sniper.yml');
+}
+
+// ── ค้นหาไฟล์นักมวย ──
 function findFighterFile(name) {
   if (!name) return null;
   const files = fs.readdirSync(DATA_DIR).filter(f => f.endsWith('.json') && f !== 'fighters-list.json');
@@ -129,8 +174,7 @@ function findFighterFile(name) {
 
   // 1. เช็คจากชื่อไฟล์ก่อน (แม่นที่สุด)
   for (const file of files) {
-    const fileNorm = norm(file.replace('.json', ''));
-    if (fileNorm === nameNorm) {
+    if (norm(file.replace('.json', '')) === nameNorm) {
       try {
         const data = JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), 'utf-8'));
         return { file, data };
@@ -138,20 +182,17 @@ function findFighterFile(name) {
     }
   }
 
-  // 2. เช็คจาก name_th และ name_en ใน JSON (ต้องตรงพอดีเท่านั้น ห้าม partial match)
+  // 2. เช็คจาก name_th / name_en (ต้องตรงพอดีเท่านั้น)
   for (const file of files) {
     try {
       const data = JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), 'utf-8'));
       const p = data.fighter_profile || {};
-      const nameTh = norm(p.name_th || '');
-      const nameEn = norm(p.name_en || '');
-      if (nameTh === nameNorm || nameEn === nameNorm) {
+      if (norm(p.name_th) === nameNorm || norm(p.name_en) === nameNorm) {
         return { file, data };
       }
     } catch { continue; }
   }
 
-  // ไม่เจอ = null (จะสร้างไฟล์ใหม่)
   return null;
 }
 
@@ -159,46 +200,31 @@ function findFighterFile(name) {
 function parseWeighinText(text) {
   const results = [];
   const lines = text.split('\n').map(l => l.trim()).filter(Boolean);
-
   let currentEvent = '';
   const matchPattern = /(.+?)\s+ชั่งได้\s+([\d.]+)\s*ป\.?\s*[Vv][Ss]\.?\s*(.+?)\s+ชั่งได้\s+([\d.]+)\s*ป/i;
   const eventKeywords = /ศึก|ONE|รายการ|สรุปผล/;
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
-
-    // จับชื่อศึก
     if (eventKeywords.test(line) && !matchPattern.test(line)) {
       currentEvent = line.replace(/^สรุปผลการชั่งน้ำหนักทุกคู่\s*/, '').trim();
       continue;
     }
-
     const m = line.match(matchPattern);
     if (!m) continue;
-
-    // ตัด prefix เช่น "คู่เอก" "คู่รอง" "*" ออก
     const name1 = m[1].replace(/^(คู่เอก|คู่รอง|คู่สาม|\*+)\s*/g, '').trim();
     const lbs1  = parseFloat(m[2]);
     const name2 = m[3].trim();
     const lbs2  = parseFloat(m[4]);
 
-    // ดึง discipline/division จากวงเล็บในบรรทัดเดียวกัน หรือบรรทัดถัดไป
     let bracketText = '';
     const bracketInLine = line.match(/\(([^)]+)\)/);
-    if (bracketInLine) {
-      bracketText = bracketInLine[1];
-    } else if (i + 1 < lines.length && lines[i + 1].startsWith('(')) {
-      bracketText = lines[i + 1];
-      i++;
-    }
+    if (bracketInLine) { bracketText = bracketInLine[1]; }
+    else if (i + 1 < lines.length && lines[i+1].startsWith('(')) { bracketText = lines[++i]; }
 
-    const discipline = mapDiscipline(bracketText);
-    const division   = mapDivision(bracketText);
-
-    results.push({ name: name1, lbs: lbs1, discipline, division, event: currentEvent });
-    results.push({ name: name2, lbs: lbs2, discipline, division, event: currentEvent });
+    results.push({ name: name1, lbs: lbs1, discipline: mapDiscipline(bracketText), division: mapDivision(bracketText), event: currentEvent });
+    results.push({ name: name2, lbs: lbs2, discipline: mapDiscipline(bracketText), division: mapDivision(bracketText), event: currentEvent });
   }
-
   return results;
 }
 
@@ -206,66 +232,30 @@ function parseWeighinText(text) {
 function parseUpcomingText(text) {
   const results = [];
   const lines = text.split('\n').map(l => l.trim()).filter(Boolean);
-
   let currentEvent = '';
   let currentDate  = '';
-
-  const thaiMonths = { 'ม.ค.':'Jan','ก.พ.':'Feb','มี.ค.':'Mar','เม.ย.':'Apr','พ.ค.':'May','มิ.ย.':'Jun','ก.ค.':'Jul','ส.ค.':'Aug','ก.ย.':'Sep','ต.ค.':'Oct','พ.ย.':'Nov','ธ.ค.':'Dec' };
   const matchPattern = /^(.+?)\s+[Vv][Ss]\.?\s+(.+)$/i;
   const eventKeywords = /ศึก|ONE|รายการ|โปรแกรม/;
 
-  function parseThaiDate(str) {
-    for (const [th, en] of Object.entries(thaiMonths)) {
-      if (str.includes(th)) {
-        const dayMatch  = str.match(/(\d{1,2})\s*[ม-ๆ]/);
-        const yearMatch = str.match(/(\d{4})/);
-        if (!dayMatch || !yearMatch) return '';
-        let year = parseInt(yearMatch[1]);
-        if (year > 2500) year -= 543;
-        return `${en} ${dayMatch[1].padStart(2,'0')}, ${year}`;
-      }
-    }
-    return '';
-  }
-
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
-
-    // จับชื่อศึก + วันที่
     if (eventKeywords.test(line) && !matchPattern.test(line)) {
       currentEvent = line.replace(/^โปรแกรมการแข่งขัน\s*/, '').trim();
       const d = parseThaiDate(line);
       if (d) currentDate = d;
       continue;
     }
-
     const m = line.match(matchPattern);
     if (!m) continue;
-
-    const name1Raw = m[1].replace(/^(คู่เอก|คู่รอง|คู่สาม|\*+)\s*/g, '').trim();
-    const rest     = m[2];
-    // ตัดวงเล็บออกจากชื่อ 2
-    const name2    = rest.replace(/\s*\([^)]+\)\s*$/, '').replace(/\s*\*+\s*$/, '').trim();
-
+    const name1 = m[1].replace(/^(คู่เอก|คู่รอง|คู่สาม|\*+)\s*/g, '').trim();
+    const name2 = m[2].replace(/\s*\([^)]+\)\s*$/, '').replace(/\s*\*+\s*$/, '').trim();
     let bracketText = '';
     const bracketInLine = line.match(/\(([^)]+)\)/);
-    if (bracketInLine) {
-      bracketText = bracketInLine[1];
-    } else if (i + 1 < lines.length && lines[i + 1].startsWith('(')) {
-      bracketText = lines[i + 1];
-      i++;
-    }
+    if (bracketInLine) { bracketText = bracketInLine[1]; }
+    else if (i + 1 < lines.length && lines[i+1].startsWith('(')) { bracketText = lines[++i]; }
 
-    results.push({
-      name1:      name1Raw,
-      name2:      name2,
-      discipline: mapDiscipline(bracketText),
-      division:   mapDivision(bracketText),
-      event:      currentEvent,
-      date:       currentDate,
-    });
+    results.push({ name1, name2, discipline: mapDiscipline(bracketText), division: mapDivision(bracketText), event: currentEvent, date: currentDate });
   }
-
   return results;
 }
 
@@ -332,7 +322,33 @@ module.exports = async (req, res) => {
     return json({ ok: false, message: 'กรุณา login ก่อน' }, 401);
   }
 
-  // === SECTION 3: Sniper Bot ===
+  // === SECTION 3: Run Scripts (GitHub Actions) ===
+  if (method === 'POST' && pathname === '/api/run/generate-list') {
+    try {
+      await triggerWorkflow('generate.yml', { task: 'generate-list' });
+      return json({ ok: true, log: '✅ GitHub Actions กำลังรัน generate-list.js อยู่ครับ รอประมาณ 1-2 นาที' });
+    } catch (e) { return json({ ok: false, log: `❌ ${e.message}` }); }
+  }
+
+  if (method === 'POST' && pathname === '/api/run/generate-fighters') {
+    try {
+      await triggerWorkflow('generate.yml', { task: 'generate-fighters' });
+      return json({ ok: true, log: '✅ GitHub Actions กำลังรัน generate-fighters.js อยู่ครับ รอประมาณ 2-3 นาที' });
+    } catch (e) { return json({ ok: false, log: `❌ ${e.message}` }); }
+  }
+
+  if (method === 'POST' && pathname === '/api/run/scraper') {
+    try {
+      await triggerWorkflow('sniper.yml');
+      return json({ ok: true, log: '✅ GitHub Actions กำลังรัน scraper-bot.js อยู่ครับ รอประมาณ 2-5 นาที' });
+    } catch (e) { return json({ ok: false, log: `❌ ${e.message}` }); }
+  }
+
+  if (method === 'POST' && pathname.startsWith('/api/run/')) {
+    return json({ ok: true, log: '✅ Vercel จะ rebuild อัตโนมัติเมื่อไฟล์บน GitHub เปลี่ยนแปลงครับ' });
+  }
+
+  // === SECTION 4: Sniper Bot ===
   if (method === 'POST' && pathname === '/api/sniper') {
     const body  = req.body;
     const names = (body.names || '').split('\n').map(n => n.trim()).filter(Boolean);
@@ -354,11 +370,10 @@ module.exports = async (req, res) => {
     } catch (e) { return json({ ok: false, message: e.message }, 500); }
   }
 
-  // === SECTION 4: Parse Weigh-in ===
+  // === SECTION 5: Parse Weigh-in ===
   if (method === 'POST' && pathname === '/api/parse-weighin') {
     const { text } = req.body;
     if (!text) return json({ ok: false, message: 'กรุณาวางข้อความตราชั่ง' }, 400);
-
     const parsed = parseWeighinText(text);
     if (!parsed.length) return json({ ok: false, message: 'ไม่พบข้อมูลตราชั่งในข้อความ' }, 400);
 
@@ -368,9 +383,7 @@ module.exports = async (req, res) => {
 
     for (const entry of parsed) {
       const found = findFighterFile(entry.name);
-
       if (!found) {
-        // สร้างไฟล์ใหม่ด้วยชื่อไฟล์ที่ใช้ - แทน space
         const fileName = entry.name.replace(/\s+/g, '-') + '.json';
         const newData = {
           fighter_profile: {
@@ -384,6 +397,8 @@ module.exports = async (req, res) => {
         };
         try {
           await saveToGitHub(fileName, newData, `✨ สร้างนักมวยใหม่: ${entry.name}`);
+          // อัปเดต fighters-list.json อัตโนมัติ
+          await updateFightersList(fileName);
           created++;
           results.push({ name: entry.name, file: fileName, weight_lbs: entry.lbs, weight_kg: lbsToKg(entry.lbs), division: entry.division, discipline: entry.discipline, event: entry.event, ok: true, is_new: true });
         } catch (e) {
@@ -393,13 +408,11 @@ module.exports = async (req, res) => {
         continue;
       }
 
-      // อัปเดตไฟล์เดิม
       const { file, data } = found;
       const p = data.fighter_profile;
       if (!p.physical_stats) p.physical_stats = {};
       if (!data.weigh_in_history) data.weigh_in_history = [];
 
-      // เช็คซ้ำ
       const alreadyLogged = data.weigh_in_history.some(w => w.event_name === entry.event && w.weight_lbs === entry.lbs);
       if (alreadyLogged) {
         skipped++;
@@ -407,18 +420,13 @@ module.exports = async (req, res) => {
         continue;
       }
 
-      // อัปเดตน้ำหนักล่าสุด
       p.physical_stats.weight_lbs = entry.lbs;
       p.physical_stats.weight_kg  = lbsToKg(entry.lbs);
-
-      // อัปเดต division ถ้ายังไม่มี
       let divisionUpdated = null;
       if (entry.division && (!p.physical_stats.division || p.physical_stats.division === 'ยังไม่มีข้อมูล')) {
         p.physical_stats.division = entry.division;
         divisionUpdated = entry.division;
       }
-
-      // เพิ่ม weigh_in_history
       data.weigh_in_history.unshift({ event_name: entry.event, weight_lbs: entry.lbs, weight_kg: lbsToKg(entry.lbs), division: entry.division || p.physical_stats.division });
 
       try {
@@ -434,11 +442,10 @@ module.exports = async (req, res) => {
     return json({ ok: true, saved, created, skipped, failed, totalEvents, results });
   }
 
-  // === SECTION 5: Parse Upcoming ===
+  // === SECTION 6: Parse Upcoming ===
   if (method === 'POST' && pathname === '/api/parse-upcoming') {
     const { text } = req.body;
     if (!text) return json({ ok: false, message: 'กรุณาวางข้อความโปรแกรมการแข่งขัน' }, 400);
-
     const parsed = parseUpcomingText(text);
     if (!parsed.length) return json({ ok: false, message: 'ไม่พบข้อมูลคู่ชกในข้อความ' }, 400);
 
@@ -450,7 +457,6 @@ module.exports = async (req, res) => {
     for (const match of parsed) {
       for (const [myName, oppName] of [[match.name1, match.name2], [match.name2, match.name1]]) {
         const found = findFighterFile(myName);
-
         const upcomingFight = {
           result: '', discipline_en: match.discipline, method_en: '', round: '', time: '',
           opponent_th: oppName, opponent_en: '', opponent_country: 'ยังไม่มีข้อมูล',
@@ -471,6 +477,7 @@ module.exports = async (req, res) => {
           };
           try {
             await saveToGitHub(fileName, newData, `✨ สร้างนักมวยใหม่: ${myName}`);
+            await updateFightersList(fileName);
             created++;
             results.push({ name: myName, file: fileName, opponent: oppName, discipline: match.discipline, division: match.division, event: match.event, ok: true, is_new: true });
           } catch (e) {
@@ -482,22 +489,13 @@ module.exports = async (req, res) => {
 
         const { file, data } = found;
         if (!data.fight_history) data.fight_history = [];
-
-        // เช็คซ้ำ
-        const isDup = data.fight_history.some(f =>
-          f.result === '' &&
-          (f.opponent_th === oppName || f.opponent_en === oppName) &&
-          f.event_en === match.event
-        );
-
+        const isDup = data.fight_history.some(f => f.result === '' && (f.opponent_th === oppName || f.opponent_en === oppName) && f.event_en === match.event);
         if (isDup) {
           skipped++;
           results.push({ name: myName, file, opponent: oppName, discipline: match.discipline, division: match.division, event: match.event, ok: true, is_dup: true });
           continue;
         }
-
         data.fight_history.unshift(upcomingFight);
-
         try {
           await saveToGitHub(file, data, `📅 upcoming: ${myName} vs ${oppName}`);
           saved++;
@@ -508,11 +506,10 @@ module.exports = async (req, res) => {
         }
       }
     }
-
     return json({ ok: true, saved, created, skipped, failed, totalEvents, totalMatches, results });
   }
 
-  // === SECTION 6: Fighter APIs ===
+  // === SECTION 7: Fighter APIs ===
   if (method === 'GET' && pathname === '/api/fighters') {
     try {
       const files = fs.readdirSync(DATA_DIR).filter(f => f.endsWith('.json') && f !== 'fighters-list.json');
@@ -544,6 +541,7 @@ module.exports = async (req, res) => {
       const template = { fighter_profile: { name_th: name, name_en: '', alias: 'ไม่ระบุ', image_url: name.replace(/\s+/g, '-'), grade: 'N/A', physical_stats: {}, performance_stats: {}, personal_info: {}, target_urls: [] }, fight_history: [], weigh_in_history: [] };
       try {
         await saveToGitHub(fileName, template, `✨ สร้างนักมวยใหม่: ${name}`);
+        await updateFightersList(fileName);
         return json({ ok: true, message: `✅ สร้าง ${fileName} ลง GitHub สำเร็จ` });
       } catch (e) { return json({ ok: false, message: e.message }, 500); }
     } else {
@@ -561,10 +559,6 @@ module.exports = async (req, res) => {
       await deleteFromGitHub(file);
       return json({ ok: true, message: 'ลบจาก GitHub เรียบร้อย' });
     } catch (e) { return json({ ok: false, message: e.message }, 500); }
-  }
-
-  if (method === 'POST' && pathname.startsWith('/api/run/')) {
-    return json({ ok: true, log: '✅ Vercel จะ rebuild อัตโนมัติเมื่อไฟล์บน GitHub เปลี่ยนแปลงครับ' });
   }
 
   if (method === 'POST' && pathname === '/api/bulk/weight') {
