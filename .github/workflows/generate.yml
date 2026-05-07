@@ -26,6 +26,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -44,10 +45,12 @@ jobs:
         if: ${{ inputs.task == 'all' || inputs.task == 'generate-fighters' }}
         run: node scripts/generate-fighters.js
 
-      - name: Commit results
+      - name: Commit and push results
         run: |
           git config user.name "BoxingFandom Bot"
           git config user.email "bot@boxingfandom.com"
-          git add data/boxers/fighters-list.json pages/fighter/*.html || true
-          git diff --staged --quiet || git commit -m "🏗️ Generate: $(date +'%Y-%m-%d %H:%M')"
-          git push
+          git pull origin main --rebase
+          git add -A
+          git status
+          git diff --staged --quiet || git commit -m "🏗️ Generate: $(date +'%Y-%m-%d %H:%M') [task: ${{ inputs.task }}]"
+          git push origin main
