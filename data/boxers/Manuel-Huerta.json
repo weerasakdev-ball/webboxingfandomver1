@@ -9,8 +9,8 @@
     "fighting_style_en": "ไม่ระบุ",
     "stance": "ไม่ระบุ",
     "physical_stats": {
-      "weight_lbs": 134.2,
-      "weight_kg": 60.87,
+      "weight_lbs": 134.6,
+      "weight_kg": 61.05,
       "division": "ไม่ระบุ",
       "height_ft": "ไม่ระบุ",
       "height_cm": 0,
@@ -37,8 +37,8 @@
   "weigh_in_history": [
     {
       "event_name": "ศึก ONE ลุมพินี 153",
-      "weight_lbs": 134.2,
-      "weight_kg": 60.87,
+      "weight_lbs": 134.6,
+      "weight_kg": 61.05,
       "division": "Flyweight"
     }
   ],
