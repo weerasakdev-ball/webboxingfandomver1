@@ -9,8 +9,8 @@
     "fighting_style_en": "Southpaw, Powerful Left Kicker, Aggressive Brawler",
     "stance": "Southpaw (Left-handed)",
     "physical_stats": {
-      "weight_lbs": 116.6,
-      "weight_kg": 52.89,
+      "weight_lbs": 115,
+      "weight_kg": 52.16,
       "division": "Strawweight",
       "height_ft": "5'4\"",
       "height_cm": 164,
@@ -122,6 +122,12 @@
     }
   ],
   "weigh_in_history": [
+    {
+      "event_name": "ศึก ONE ลุมพินี 153",
+      "weight_lbs": 115,
+      "weight_kg": 52.16,
+      "division": "Atomweight"
+    },
     {
       "event_name": "ONE ลุมพินี 145",
       "weight_lbs": 116.6,
