@@ -13,7 +13,7 @@
       "weight_kg": 53.07,
       "division": "ไม่ระบุ",
       "height_ft": "ไม่ระบุ",
-      "height_cm": 0,
+      "height_cm": 174,
       "reach_cm": "ไม่ระบุ",
       "leg_reach_cm": "ไม่ระบุ"
     },
@@ -25,8 +25,8 @@
     "personal_info": {
       "country_th": "ไม่ระบุ",
       "country_en": "ไม่ระบุ",
-      "age": 0,
-      "team_th": "ไม่ระบุ",
+      "age": 22,
+      "team_th": "Team Mehdi Zatout",
       "team_en": "ไม่ระบุ"
     },
     "target_urls": [
@@ -55,6 +55,58 @@
       "date": "May 08, 1969",
       "rating": 5,
       "event_en": "The Inner Circle 8 พ.ค. 69"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Decision",
+      "round": 3,
+      "time": "1:27",
+      "opponent_th": "จูราอิ อิชิอิ",
+      "opponent_en": "",
+      "opponent_country": "Japan",
+      "date": "Sep 26, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 126"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:01",
+      "opponent_th": "เผด็จศึก เอ็นเอฟ.ลูกสวน",
+      "opponent_en": "",
+      "opponent_country": "Thailand",
+      "date": "Jun 13, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 112"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "คิกบ็อกซิง",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "รูอิ คากิซากิ",
+      "opponent_en": "",
+      "opponent_country": "Japan",
+      "date": "Mar 21, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 101"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "แม็กซิม กอมบส์",
+      "opponent_en": "",
+      "opponent_country": "ดีอาร์คองโก/France",
+      "date": "Feb 07, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 96"
     }
   ]
 }
