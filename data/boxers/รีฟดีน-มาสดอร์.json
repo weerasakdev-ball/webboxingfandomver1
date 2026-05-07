@@ -9,8 +9,8 @@
     "fighting_style_en": "ไม่ระบุ",
     "stance": "ไม่ระบุ",
     "physical_stats": {
-      "weight_lbs": 111.6,
-      "weight_kg": 50.6,
+      "weight_lbs": 114.8,
+      "weight_kg": 52.07,
       "division": "Catchweight (112.0 lbs) / Atomweight",
       "height_ft": "5'3\"",
       "height_cm": 162,
@@ -145,6 +145,14 @@
       "date": "Mar 22, 2024",
       "rating": 5,
       "event_en": "ONE ลุมพินี 56"
+    }
+  ],
+  "weigh_in_history": [
+    {
+      "event_name": "The Inner Circle 8 พ.ค. 69",
+      "weight_lbs": 114.8,
+      "weight_kg": 52.07,
+      "division": "Atomweight"
     }
   ]
 }
