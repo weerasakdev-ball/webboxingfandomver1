@@ -9,8 +9,8 @@
     "fighting_style_en": "ไม่ระบุ",
     "stance": "ไม่ระบุ",
     "physical_stats": {
-      "weight_lbs": 114.8,
-      "weight_kg": 52.07,
+      "weight_lbs": 114.6,
+      "weight_kg": 51.98,
       "division": "ไม่ระบุ",
       "height_ft": "ไม่ระบุ",
       "height_cm": 0,
@@ -37,8 +37,8 @@
   "weigh_in_history": [
     {
       "event_name": "",
-      "weight_lbs": 114.8,
-      "weight_kg": 52.07,
+      "weight_lbs": 114.6,
+      "weight_kg": 51.98,
       "division": "Atomweight"
     }
   ],
