@@ -1,38 +1,196 @@
 {
-    "fighter_profile": {
-        "name_th": "เอฟ ทิง",
-        "name_en": "Ev Ting",
-        "alias": "ไม่ระบุ",
-        "image_url": "เอฟ-ทิง",
-        "grade": "N/A",
-        "fighting_style_th": "ไม่ระบุ",
-        "fighting_style_en": "ไม่ระบุ",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": "ไม่ระบุ",
-            "weight_kg": "ไม่ระบุ",
-            "division": "ไม่ระบุ",
-            "height_ft": "ไม่ระบุ",
-            "height_cm": 0,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "ไม่ระบุ",
-            "country_en": "ไม่ระบุ",
-            "age": 0,
-            "team_th": "ไม่ระบุ",
-            "team_en": "ไม่ระบุ"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/ev-ting/"
-        ]
+  "fighter_profile": {
+    "name_th": "เอฟ ทิง",
+    "name_en": "Ev Ting",
+    "alias": "ไม่ระบุ",
+    "image_url": "เอฟ-ทิง",
+    "grade": "N/A",
+    "fighting_style_th": "ไม่ระบุ",
+    "fighting_style_en": "ไม่ระบุ",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": "ไม่ระบุ",
+      "weight_kg": "ไม่ระบุ",
+      "division": "ไม่ระบุ",
+      "height_ft": "ไม่ระบุ",
+      "height_cm": 170,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
     },
-    "weigh_in_history": [],
-    "fight_history": []
+    "performance_stats": {
+      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+      "defensive_stats": "ยังไม่มีข้อมูล"
+    },
+    "personal_info": {
+      "country_th": "ไม่ระบุ",
+      "country_en": "ไม่ระบุ",
+      "age": 36,
+      "team_th": "ไม่ระบุ",
+      "team_en": "ไม่ระบุ"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/ev-ting/"
+    ],
+    "short_biography": "เอฟ ทิง (Ev Ting) เป็นนักชกชาวไม่ระบุ วัย 0 ปี มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ส่วนสูง 0 เซนติเมตร กำลังมุ่งมั่นฝึกซ้อมและรอพิสูจน์ฝีมือในไฟต์ต่อไปบนสังเวียน"
+  },
+  "weigh_in_history": [],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "5:00",
+      "opponent_th": "อาเมียร์ ข่าน",
+      "opponent_en": "",
+      "opponent_country": "สิงคโปร์",
+      "date": "Nov 22, 2019",
+      "rating": 5,
+      "event_en": "ONE EDGE OF GREATNESS"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Submission",
+      "round": 2,
+      "time": "4:44",
+      "opponent_th": "ไดจิ อาเบะ",
+      "opponent_en": "",
+      "opponent_country": "Japan",
+      "date": "Jul 12, 2019",
+      "rating": 5,
+      "event_en": "ONE MASTERS OF DESTINY"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "Decision",
+      "round": 1,
+      "time": "0:25",
+      "opponent_th": "ดากี อาร์สลานาลิเอฟ",
+      "opponent_en": "",
+      "opponent_country": "Turkey",
+      "date": "Feb 22, 2019",
+      "rating": 5,
+      "event_en": "ONE CALL TO GREATNESS"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "Submission",
+      "round": 1,
+      "time": "0:57",
+      "opponent_th": "ชินยะ อาโอกิ",
+      "opponent_en": "",
+      "opponent_country": "Japan",
+      "date": "Oct 06, 2018",
+      "rating": 5,
+      "event_en": "ONE KINGDOM OF HEROES"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "N/A",
+      "opponent_th": "โคจิ อันโด",
+      "opponent_en": "",
+      "opponent_country": "Japan",
+      "date": "Jun 23, 2018",
+      "rating": 5,
+      "event_en": "ONE PINNACLE OF POWER"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "N/A",
+      "opponent_th": "เอเรียล เซกตัน",
+      "opponent_en": "",
+      "opponent_country": "คอสตาริกา/Canada",
+      "date": "Feb 23, 2018",
+      "rating": 5,
+      "event_en": "ONE QUEST FOR GOLD"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Decision",
+      "round": 1,
+      "time": "3:29",
+      "opponent_th": "โทบุทัตสึ ซูซูกิ",
+      "opponent_en": "",
+      "opponent_country": "Japan",
+      "date": "Aug 18, 2017",
+      "rating": 5,
+      "event_en": "ONE QUEST FOR GREATNESS"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "Unanimous Decision",
+      "round": 5,
+      "time": "N/A",
+      "opponent_th": "เอดูอาร์ด โฟลายัง",
+      "opponent_en": "",
+      "opponent_country": "ฟิลิปปินส์",
+      "date": "Apr 21, 2017",
+      "rating": 5,
+      "event_en": "ONE KINGS OF DESTINY"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "N/A",
+      "opponent_th": "คามาล ชาโลรัส",
+      "opponent_en": "",
+      "opponent_country": "Iran",
+      "date": "Feb 10, 2017",
+      "rating": 5,
+      "event_en": "THRONE OF TIGERS"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "Submission",
+      "round": 1,
+      "time": "4:30",
+      "opponent_th": "มารัต กาฟูรอฟ",
+      "opponent_en": "",
+      "opponent_country": "Russia",
+      "date": "May 22, 2015",
+      "rating": 5,
+      "event_en": "ONE WARRIOR’S QUEST"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Submission",
+      "round": 2,
+      "time": "1:05",
+      "opponent_th": "แครี บูลลอส",
+      "opponent_en": "",
+      "opponent_country": "ฟิลิปปินส์",
+      "date": "Mar 13, 2015",
+      "rating": 5,
+      "event_en": "ONE AGE OF CHAMPIONS"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "4:28",
+      "opponent_th": "เอริค เคลลี",
+      "opponent_en": "",
+      "opponent_country": "ฟิลิปปินส์",
+      "date": "Oct 17, 2014",
+      "rating": 5,
+      "event_en": "ONE ROAR OF TIGERS"
+    }
+  ]
 }

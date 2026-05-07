@@ -9,15 +9,22 @@ const DATA_DIR = path.join(process.cwd(), 'data', 'boxers');
 
 // ── การตั้งค่า (ตั้งค่า Environment Variables ใน Vercel) ──
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'boxing2026';
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-const REPO_OWNER = 'weerasakdev-ball'; // ชื่อเจ้าของ GitHub
-const REPO_NAME = 'webboxingfandomver1'; // ชื่อโปรเจกต์
-const BRANCH = 'main'; // ชื่อกิ่ง (Branch) ที่ใช้งาน
+const GITHUB_TOKEN   = process.env.GITHUB_TOKEN;
+const REPO_OWNER     = 'weerasakdev-ball';
+const REPO_NAME      = 'webboxingfandomver1';
+const BRANCH         = 'main';
+
+// === SECTION: Google OAuth Config ===
+const GOOGLE_CLIENT_ID     = process.env.GOOGLE_CLIENT_ID;
+const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
+const ADMIN_EMAIL          = process.env.ADMIN_EMAIL;
+const SESSION_SECRET       = process.env.SESSION_SECRET;
+const REDIRECT_URI         = 'https://webboxingfandomver1.vercel.app/api/auth/callback';
 
 // ── ฟังก์ชันตัวช่วยคุยกับ GitHub ──
 async function saveToGitHub(fileName, contentObj, commitMessage) {
   if (!GITHUB_TOKEN) throw new Error("ยังไม่ได้ใส่ GITHUB_TOKEN ในระบบ Vercel");
-  
+
   const filePath = `data/boxers/${fileName}`;
   const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${filePath}`;
   const headers = {
@@ -26,7 +33,6 @@ async function saveToGitHub(fileName, contentObj, commitMessage) {
     'Content-Type': 'application/json'
   };
 
-  // 1. เช็กว่ามีไฟล์เดิมอยู่ไหม (เพื่อเอาค่า SHA มาใช้อัปเดต)
   let sha = null;
   try {
     const getRes = await fetch(url, { headers });
@@ -36,13 +42,8 @@ async function saveToGitHub(fileName, contentObj, commitMessage) {
     }
   } catch (e) {}
 
-  // 2. ส่งข้อมูลใหม่ไปทับ
   const contentBase64 = Buffer.from(JSON.stringify(contentObj, null, 2), 'utf-8').toString('base64');
-  const body = {
-    message: commitMessage,
-    content: contentBase64,
-    branch: BRANCH
-  };
+  const body = { message: commitMessage, content: contentBase64, branch: BRANCH };
   if (sha) body.sha = sha;
 
   const putRes = await fetch(url, { method: 'PUT', headers, body: JSON.stringify(body) });
@@ -76,15 +77,91 @@ module.exports = async (req, res) => {
   const pathname = url.pathname;
   const method = req.method;
 
-  // ฟังก์ชันตอบกลับ
   const json = (data, status = 200) => res.status(status).json(data);
-  const isAuthenticated = () => req.cookies && req.cookies.bf_token === 'verified_admin'; // ระบบจำลอง Token อย่างง่ายสำหรับ Vercel
+  const isAuthenticated = () => req.cookies && req.cookies.bf_token === 'verified_admin';
 
   // CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
   if (method === 'OPTIONS') return res.status(200).end();
 
-  // ── API: Login ──
+  // === SECTION 1: Google OAuth Endpoints ===
+
+  // GET /api/auth/google → redirect ไป Google Login
+  if (method === 'GET' && pathname === '/api/auth/google') {
+    const state = Math.random().toString(36).substring(2);
+    const params = new URLSearchParams({
+      client_id:     GOOGLE_CLIENT_ID,
+      redirect_uri:  REDIRECT_URI,
+      response_type: 'code',
+      scope:         'openid email profile',
+      state:         state,
+      prompt:        'select_account'
+    });
+    res.setHeader('Set-Cookie', `oauth_state=${state}; Path=/; HttpOnly; SameSite=Lax; Max-Age=600`);
+    return res.redirect(302, `https://accounts.google.com/o/oauth2/v2/auth?${params}`);
+  }
+
+  // GET /api/auth/callback → รับ code จาก Google
+  if (method === 'GET' && pathname === '/api/auth/callback') {
+    const code  = url.searchParams.get('code');
+    const state = url.searchParams.get('state');
+
+    const cookieState = (req.headers.cookie || '').split(';')
+      .map(c => c.trim()).find(c => c.startsWith('oauth_state='))
+      ?.split('=')[1];
+
+    if (!code || state !== cookieState) {
+      return res.redirect(302, '/admin/?error=invalid_state');
+    }
+
+    try {
+      // แลก code เอา token
+      const tokenRes = await fetch('https://oauth2.googleapis.com/token', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({
+          code,
+          client_id:     GOOGLE_CLIENT_ID,
+          client_secret: GOOGLE_CLIENT_SECRET,
+          redirect_uri:  REDIRECT_URI,
+          grant_type:    'authorization_code'
+        })
+      });
+      const tokenData = await tokenRes.json();
+
+      // ดึงข้อมูล email จาก Google
+      const userRes  = await fetch('https://www.googleapis.com/oauth2/v2/userinfo', {
+        headers: { Authorization: `Bearer ${tokenData.access_token}` }
+      });
+      const userData = await userRes.json();
+
+      // เช็คว่าเป็น Admin Email ที่อนุญาต
+      if (userData.email !== ADMIN_EMAIL) {
+        return res.redirect(302, '/admin/?error=unauthorized');
+      }
+
+      // Set session cookie อายุ 8 ชั่วโมง
+      const expires = new Date(Date.now() + 8 * 60 * 60 * 1000).toUTCString();
+      res.setHeader('Set-Cookie', [
+        `bf_token=verified_admin; Path=/; HttpOnly; SameSite=Strict; Expires=${expires}`,
+        `oauth_state=; Path=/; Max-Age=0`
+      ]);
+      return res.redirect(302, '/admin/dashboard.html');
+
+    } catch (e) {
+      return res.redirect(302, '/admin/?error=oauth_failed');
+    }
+  }
+
+  // GET /api/auth/me → เช็คสถานะ login
+  if (method === 'GET' && pathname === '/api/auth/me') {
+    if (isAuthenticated()) {
+      return json({ ok: true, email: ADMIN_EMAIL });
+    }
+    return json({ ok: false }, 401);
+  }
+
+  // === SECTION 2: Legacy Login (Password) ===
   if (method === 'POST' && pathname === '/api/login') {
     const body = req.body;
     if (body.password === ADMIN_PASSWORD) {
@@ -101,11 +178,13 @@ module.exports = async (req, res) => {
   }
 
   // ── Auth guard ──
-  if (pathname.startsWith('/api/') && !['/api/login'].includes(pathname) && !isAuthenticated()) {
+  if (pathname.startsWith('/api/') && !['/api/login', '/api/auth/google', '/api/auth/callback', '/api/auth/me'].includes(pathname) && !isAuthenticated()) {
     return json({ ok: false, message: 'กรุณา login ก่อน' }, 401);
   }
 
-  // ── API: GET รายชื่อนักมวยทั้งหมด (อ่านจากไฟล์ที่ Vercel มัดรวมมาให้) ──
+  // === SECTION 3: Fighter APIs ===
+
+  // GET รายชื่อนักมวยทั้งหมด
   if (method === 'GET' && pathname === '/api/fighters') {
     try {
       const files = fs.readdirSync(DATA_DIR).filter(f => f.endsWith('.json') && f !== 'fighters-list.json');
@@ -116,13 +195,13 @@ module.exports = async (req, res) => {
           const h = data.fight_history || [];
           return {
             file,
-            name_th: p.name_th || '—',
-            name_en: p.name_en || '—',
+            name_th:  p.name_th || '—',
+            name_en:  p.name_en || '—',
             division: p.physical_stats?.division || '—',
-            grade: p.grade || '—',
-            fights: h.length,
-            wins: h.filter(x => x.result === 'Win').length,
-            losses: h.filter(x => x.result === 'Loss').length,
+            grade:    p.grade || '—',
+            fights:   h.length,
+            wins:     h.filter(x => x.result === 'Win').length,
+            losses:   h.filter(x => x.result === 'Loss').length,
           };
         } catch { return null; }
       }).filter(Boolean);
@@ -132,7 +211,7 @@ module.exports = async (req, res) => {
     }
   }
 
-  // ── API: GET ข้อมูลนักมวยรายบุคคล ──
+  // GET ข้อมูลนักมวยรายบุคคล
   if (method === 'GET' && pathname.startsWith('/api/fighter/')) {
     const file = decodeURIComponent(pathname.replace('/api/fighter/', ''));
     const filePath = path.join(DATA_DIR, file);
@@ -141,34 +220,30 @@ module.exports = async (req, res) => {
     return json({ ok: true, data });
   }
 
-  // ── API: SAVE ข้อมูลนักมวย (ส่งเข้า GitHub) ──
+  // POST SAVE ข้อมูลนักมวย
   if (method === 'POST' && pathname.startsWith('/api/fighter/')) {
     if (pathname === '/api/fighter/new') {
-      // สร้างนักมวยใหม่
       const name = (req.body.name_th || '').trim();
       if (!name) return json({ ok: false, message: 'กรุณาระบุชื่อนักมวย' }, 400);
       const fileName = name.replace(/\s+/g, '-') + '.json';
-      
       const template = {
         fighter_profile: { name_th: name, name_en: '', alias: 'ไม่ระบุ', image_url: name.replace(/\s+/g, '-'), grade: 'N/A', physical_stats: {}, performance_stats: {}, personal_info: {}, target_urls: [] },
         fight_history: [], weigh_in_history: []
       };
-      
       try {
         await saveToGitHub(fileName, template, `✨ สร้างนักมวยใหม่: ${name}`);
-        return json({ ok: true, message: `✅ สร้าง ${fileName} ลง GitHub สำเร็จ (รอ Vercel Build อัตโนมัติ)` });
+        return json({ ok: true, message: `✅ สร้าง ${fileName} ลง GitHub สำเร็จ` });
       } catch (e) { return json({ ok: false, message: e.message }, 500); }
     } else {
-      // อัปเดตข้อมูล
       const file = decodeURIComponent(pathname.replace('/api/fighter/', ''));
       try {
         await saveToGitHub(file, req.body, `📝 อัปเดตข้อมูล: ${file}`);
-        return json({ ok: true, message: 'บันทึกลง GitHub สำเร็จ (กำลังรีบิลด์หน้าเว็บอัตโนมัติ)' });
+        return json({ ok: true, message: 'บันทึกลง GitHub สำเร็จ' });
       } catch (e) { return json({ ok: false, message: e.message }, 500); }
     }
   }
 
-  // ── API: DELETE นักมวย ──
+  // DELETE นักมวย
   if (method === 'DELETE' && pathname.startsWith('/api/fighter/')) {
     const file = decodeURIComponent(pathname.replace('/api/fighter/', ''));
     try {
@@ -177,17 +252,16 @@ module.exports = async (req, res) => {
     } catch (e) { return json({ ok: false, message: e.message }, 500); }
   }
 
-  // ── API: ยกเลิกปุ่ม Run Scripts เดิม (Vercel จัดการอัตโนมัติ) ──
+  // POST Run Scripts
   if (method === 'POST' && pathname.startsWith('/api/run/')) {
-    return json({ ok: true, log: '✅ บนระบบ Vercel การรันสคริปต์หน้าเว็บจะทำงานอัตโนมัติเมื่อไฟล์บน GitHub ถูกเปลี่ยนแปลงครับ ไม่ต้องกดปุ่มนี้แล้ว' });
+    return json({ ok: true, log: '✅ บนระบบ Vercel การรันสคริปต์จะทำงานอัตโนมัติเมื่อไฟล์บน GitHub ถูกเปลี่ยนแปลงครับ' });
   }
 
-  // ── API: Bulk Update และ Parser ต่างๆ (ย่อโค้ดเพื่อส่งเข้า GitHub) ──
-  // หมายเหตุ: โค้ด Parser แบบละเอียดสามารถเพิ่มเข้ามาได้ แต่หลักการคือใช้ saveToGitHub(...) แทน fs.writeFileSync(...)
+  // POST Bulk Update
   if (method === 'POST' && pathname === '/api/bulk/weight') {
-    return json({ ok: false, message: 'อัปเดตแบบกลุ่มกำลังอยู่ระหว่างปรับแต่งให้รองรับ GitHub API โปรดอัปเดตรายบุคคลไปก่อน' });
+    return json({ ok: false, message: 'อัปเดตแบบกลุ่มกำลังอยู่ระหว่างปรับแต่ง โปรดอัปเดตรายบุคคลไปก่อน' });
   }
 
-  // 404 สำหรับ API
+  // 404
   return json({ ok: false, message: 'ไม่พบ API นี้บน Vercel' }, 404);
 };

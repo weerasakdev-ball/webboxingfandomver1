@@ -1,38 +1,118 @@
 {
-    "fighter_profile": {
-        "name_th": "เอ มุย",
-        "name_en": "Eh Mwi",
-        "alias": "ไม่ระบุ",
-        "image_url": "เอ-มุย",
-        "grade": "N/A",
-        "fighting_style_th": "ไม่ระบุ",
-        "fighting_style_en": "ไม่ระบุ",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": "ไม่ระบุ",
-            "weight_kg": "ไม่ระบุ",
-            "division": "ไม่ระบุ",
-            "height_ft": "ไม่ระบุ",
-            "height_cm": 0,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "ไม่ระบุ",
-            "country_en": "ไม่ระบุ",
-            "age": 0,
-            "team_th": "ไม่ระบุ",
-            "team_en": "ไม่ระบุ"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/eh-mwi/"
-        ]
+  "fighter_profile": {
+    "name_th": "เอ มุย",
+    "name_en": "Eh Mwi",
+    "alias": "ไม่ระบุ",
+    "image_url": "เอ-มุย",
+    "grade": "N/A",
+    "fighting_style_th": "ไม่ระบุ",
+    "fighting_style_en": "ไม่ระบุ",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": "ไม่ระบุ",
+      "weight_kg": "ไม่ระบุ",
+      "division": "ไม่ระบุ",
+      "height_ft": "ไม่ระบุ",
+      "height_cm": 168,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
     },
-    "weigh_in_history": [],
-    "fight_history": []
+    "performance_stats": {
+      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+      "defensive_stats": "ยังไม่มีข้อมูล"
+    },
+    "personal_info": {
+      "country_th": "ไม่ระบุ",
+      "country_en": "ไม่ระบุ",
+      "age": 23,
+      "team_th": "Top One",
+      "team_en": "ไม่ระบุ"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/eh-mwi/"
+    ],
+    "short_biography": "เอ มุย (Eh Mwi) เป็นนักชกชาวไม่ระบุ วัย 0 ปี มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ส่วนสูง 0 เซนติเมตร กำลังมุ่งมั่นฝึกซ้อมและรอพิสูจน์ฝีมือในไฟต์ต่อไปบนสังเวียน"
+  },
+  "weigh_in_history": [],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "แมมมอส ส.สละชีพ",
+      "opponent_en": "",
+      "opponent_country": "Thailand",
+      "date": "Sep 12, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 124"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Decision",
+      "round": 1,
+      "time": "2:37",
+      "opponent_th": "วุฒิไกร ว.จักรวุฒิ",
+      "opponent_en": "",
+      "opponent_country": "Thailand",
+      "date": "May 23, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 109"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "อาห์วาต กอร์ดอน",
+      "opponent_en": "",
+      "opponent_country": "United States",
+      "date": "Mar 21, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 101"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "0:41",
+      "opponent_th": "มูกะ",
+      "opponent_en": "",
+      "opponent_country": "Japan",
+      "date": "Jan 31, 2025",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 95"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "3:00",
+      "opponent_th": "โอมาร์ กินเตห์",
+      "opponent_en": "",
+      "opponent_country": "สวิตเซอร์แลนด์/แกมเบีย",
+      "date": "Oct 25, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 84"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:18",
+      "opponent_th": "เรอิโตะ ทากาโซโน",
+      "opponent_en": "",
+      "opponent_country": "Japan",
+      "date": "Aug 23, 2024",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 76"
+    }
+  ]
 }

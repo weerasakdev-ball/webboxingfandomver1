@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ทุกศึกมวย | วิเคราะห์และผลมวย | BoxingFandom</title>
+    <meta name="description" content="รวมทุกศึกมวย ONE Championship, ONE ลุมพินี วิเคราะห์สถิติ ผลมวย และโปรแกรมชก อัปเดตอัตโนมัติ | BoxingFandom">
+    <meta name="keywords" content="ผลมวย, วิเคราะห์มวย, ONE ลุมพินี, ONE Championship, ผลมวยล่าสุด, BoxingFandom">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="BoxingFandom">
+    <meta property="og:title" content="ทุกศึกมวย | วิเคราะห์และผลมวย | BoxingFandom">
+    <meta property="og:description" content="รวมทุกศึกมวย ONE Championship วิเคราะห์สถิติ ผลมวย โปรแกรมชก | BoxingFandom">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"ทุกศึกมวย BoxingFandom","description":"รวมทุกศึกมวย ONE Championship วิเคราะห์สถิติ ผลมวย"}</script>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RTGDWTKBRG"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RTGDWTKBRG');</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7070993370449457" crossorigin="anonymous"></script>
+    <style>
+    :root{
+        --primary:#dc2626;--blue:#2563eb;
+        --bg:#f8f9fa;--card:#ffffff;
+        --text-main:#202124;--text-muted:#5f6368;
+        --border:#e8eaed;--border-hover:#dadce0;
+        --win:#188038;--win-bg:#e6f4ea;
+        --loss:#c5221f;--loss-bg:#fce8e6;
+        --neutral:#80868b;--gold:#f29900;--dark-header:#202124;
+        --r-sm:8px;--r-md:12px;--r-lg:16px;
+        --sh-sm:0 1px 2px rgba(60,64,67,.1),0 1px 3px rgba(60,64,67,.08);
+        --sh-md:0 1px 6px rgba(60,64,67,.15),0 2px 8px rgba(60,64,67,.1);
+        --sh-lg:0 4px 16px rgba(60,64,67,.12),0 8px 24px rgba(60,64,67,.08);
+    }
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+    body{font-family:'Sarabun',-apple-system,sans-serif;background:var(--bg);color:var(--text-main);
+         display:flex;flex-direction:column;min-height:100vh;-webkit-font-smoothing:antialiased;font-size:15px;}
+
+    /* ── HEADER ── */
+    header{background:var(--card);border-bottom:1px solid var(--border);height:64px;padding:0 24px;
+           display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:1000;gap:16px;}
+    .hlogo{text-decoration:none;display:flex;align-items:center;flex-shrink:0;}
+    .hlogo .lb{font-size:22px;font-weight:800;color:var(--primary);letter-spacing:-.5px;}
+    .hlogo .lf{font-size:22px;font-weight:800;color:var(--dark-header);letter-spacing:-.5px;}
+    .hsw{flex:1;max-width:580px;position:relative;}
+    .hsb{display:flex;align-items:center;background:var(--bg);border:1px solid var(--border);
+         border-radius:24px;padding:0 16px;height:44px;gap:10px;transition:box-shadow .15s,border-color .15s;}
+    .hsb:focus-within{box-shadow:0 0 0 3px rgba(220,38,38,.12);border-color:var(--primary);background:var(--card);}
+    .hsb input{border:none;outline:none;background:transparent;font-family:'Sarabun';font-size:15px;
+               color:var(--text-main);flex:1;min-width:0;}
+    .hsb input::placeholder{color:var(--text-muted);}
+    .hsb button{background:none;border:none;cursor:pointer;color:var(--text-muted);font-size:16px;
+                padding:4px;border-radius:50%;transition:background .15s;}
+    .hsb button:hover{background:var(--border);}
+    .hdrop{position:absolute;top:calc(100% + 6px);left:0;right:0;background:var(--card);
+           border:1px solid var(--border);border-radius:var(--r-md);box-shadow:var(--sh-lg);
+           max-height:360px;overflow-y:auto;z-index:3000;display:none;}
+    .hitem{padding:10px 16px;display:flex;align-items:center;gap:12px;text-decoration:none;
+           color:var(--text-main);border-bottom:1px solid var(--border);transition:background .1s;}
+    .hitem:last-child{border-bottom:none;}
+    .hitem:hover{background:var(--bg);}
+    .hicon{width:38px;height:38px;border-radius:50%;object-fit:cover;border:1px solid var(--border);flex-shrink:0;}
+
+    /* ── LAYOUT ── */
+    main{flex:1;padding:32px 16px 48px;}
+    .container{max-width:1020px;margin:0 auto;}
+
+    /* ── PAGE NAV ── */
+    .page-nav{display:flex;align-items:center;gap:6px;margin-bottom:22px;font-size:14px;flex-wrap:wrap;}
+    .page-nav a{color:var(--text-muted);text-decoration:none;padding:4px 10px;border-radius:16px;transition:background .15s;}
+    .page-nav a:hover{background:var(--border);color:var(--text-main);}
+    .page-nav .sep{color:var(--border-hover);}
+    .page-nav .cur{color:var(--text-main);font-weight:600;}
+
+    /* ── PAGE HEADER ── */
+    .page-header{background:var(--card);border:1px solid var(--border);border-radius:var(--r-lg);
+                 padding:28px 36px;margin-bottom:20px;box-shadow:var(--sh-sm);}
+    .page-header h1{font-size:24px;font-weight:800;color:var(--dark-header);margin-bottom:6px;}
+    .page-header p{color:var(--text-muted);font-size:14px;}
+
+    /* ── FILTER BAR ── */
+    .filter-bar{background:var(--card);border:1px solid var(--border);border-radius:var(--r-lg);
+                padding:18px 28px;margin-bottom:20px;box-shadow:var(--sh-sm);
+                display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+    .filter-label{font-size:13px;font-weight:600;color:var(--text-muted);flex-shrink:0;}
+    .filter-btn{padding:6px 16px;border-radius:20px;border:1px solid var(--border);
+                background:var(--bg);color:var(--text-muted);font-size:13px;font-weight:600;
+                cursor:pointer;font-family:'Sarabun';transition:all .15s;}
+    .filter-btn:hover{border-color:var(--primary);color:var(--primary);}
+    .filter-btn.active{background:var(--primary);color:white;border-color:var(--primary);}
+    .filter-search{flex:1;min-width:180px;padding:7px 14px;border:1px solid var(--border);
+                   border-radius:20px;font-family:'Sarabun';font-size:14px;color:var(--text-main);
+                   outline:none;background:var(--bg);transition:border-color .15s,box-shadow .15s;}
+    .filter-search:focus{border-color:var(--primary);box-shadow:0 0 0 3px rgba(220,38,38,.1);background:var(--card);}
+    .filter-search::placeholder{color:var(--text-muted);}
+
+    /* ── SECTION HEADING ── */
+    .section-heading{display:flex;align-items:center;gap:10px;margin-bottom:14px;margin-top:8px;}
+    .section-heading-bar{width:3px;height:18px;background:var(--primary);border-radius:2px;}
+    .section-heading h2{font-size:16px;font-weight:700;color:var(--dark-header);}
+    .section-heading .count{font-size:13px;color:var(--text-muted);font-weight:500;}
+
+    /* ── EVENT CARD ── */
+    .event-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-bottom:28px;}
+
+    .event-card{
+        background:var(--card);border:1px solid var(--border);border-radius:var(--r-md);
+        padding:20px 22px;text-decoration:none;color:inherit;
+        display:block;transition:box-shadow .15s,border-color .15s,transform .15s;
+        position:relative;overflow:hidden;
+    }
+    .event-card:hover{box-shadow:var(--sh-md);border-color:var(--border-hover);transform:translateY(-1px);}
+    .event-card.has-pending{border-top:3px solid var(--gold);}
+    .event-card.all-done{border-top:3px solid var(--win);}
+    .event-card.future{border-top:3px solid var(--blue);}
+
+    .ec-discipline{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:10px;}
+    .ec-disc-tag{font-size:10px;font-weight:700;text-transform:uppercase;padding:2px 8px;
+                 border-radius:4px;background:var(--dark-header);color:white;letter-spacing:.3px;}
+    .ec-disc-tag.mt{background:#b91c1c;}
+    .ec-disc-tag.kb{background:#1d4ed8;}
+    .ec-disc-tag.mma{background:#065f46;}
+
+    .ec-name{font-size:16px;font-weight:800;color:var(--dark-header);margin-bottom:5px;line-height:1.3;}
+    .ec-date{font-size:12px;color:var(--text-muted);margin-bottom:14px;display:flex;align-items:center;gap:5px;}
+
+    .ec-stats{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;}
+    .ec-stat{background:var(--bg);border:1px solid var(--border);border-radius:6px;
+             padding:5px 10px;text-align:center;min-width:52px;}
+    .ec-stat small{display:block;font-size:10px;color:var(--text-muted);text-transform:uppercase;
+                   font-weight:600;letter-spacing:.3px;margin-bottom:1px;}
+    .ec-stat b{font-size:16px;font-weight:800;}
+    .ec-stat b.g{color:var(--win);}
+    .ec-stat b.r{color:var(--loss);}
+    .ec-stat b.y{color:var(--gold);}
+    .ec-stat b.n{color:var(--dark-header);}
+
+    .ec-status{font-size:12px;font-weight:700;display:flex;align-items:center;gap:5px;}
+    .ec-status.done{color:var(--win);}
+    .ec-status.pending{color:var(--gold);}
+    .ec-status.future{color:var(--blue);}
+
+    .ec-arrow{position:absolute;right:18px;top:50%;transform:translateY(-50%);
+              font-size:18px;color:var(--border-hover);transition:color .15s,right .15s;}
+    .event-card:hover .ec-arrow{color:var(--primary);right:14px;}
+
+    /* ── EMPTY / LOADING ── */
+    .spin{width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--primary);
+          border-radius:50%;animation:spin .7s linear infinite;margin:0 auto 12px;}
+    @keyframes spin{to{transform:rotate(360deg);}}
+    .state-box{text-align:center;padding:50px 20px;background:var(--card);
+               border:1px solid var(--border);border-radius:var(--r-lg);}
+    .state-icon{font-size:32px;margin-bottom:10px;display:block;}
+    .state-title{font-size:16px;font-weight:700;color:var(--dark-header);margin-bottom:5px;}
+    .state-sub{font-size:13px;color:var(--text-muted);}
+
+    /* ── FOOTER ── */
+    footer{background:var(--card);border-top:1px solid var(--border);color:var(--text-muted);
+           text-align:center;padding:24px 20px;margin-top:auto;}
+    footer nav ul{justify-content:center;list-style:none;display:flex;padding:0;
+                  flex-wrap:wrap;gap:4px;margin-bottom:10px;}
+    footer nav ul li a{color:var(--text-muted);text-decoration:none;font-size:13px;
+                       padding:4px 10px;border-radius:16px;transition:background .15s;display:block;}
+    footer nav ul li a:hover{background:var(--bg);color:var(--text-main);}
+    footer p{font-size:12px;}
+
+    /* ── RESPONSIVE ── */
+    @media(max-width:768px){
+        header{padding:0 16px;}
+        main{padding:20px 12px 40px;}
+        .page-header{padding:22px 20px;}
+        .filter-bar{padding:14px 18px;}
+        .event-grid{grid-template-columns:1fr;}
+    }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="/" class="hlogo">
+        <span class="lb">Boxing</span><span class="lf">Fandom</span>
+    </a>
+    <div class="hsw">
+        <div class="hsb">
+            <span style="color:var(--text-muted)">🔍</span>
+            <input type="text" id="gsi" placeholder="ค้นหานักมวย..." autocomplete="off">
+            <button type="button">⏎</button>
+        </div>
+        <div id="gsd" class="hdrop"></div>
+    </div>
+</header>
+
+<main>
+<div class="container">
+
+    <div class="page-nav">
+        <a href="/">← หน้าแรก</a>
+        <span class="sep">/</span>
+        <span class="cur">📋 ทุกศึก</span>
+    </div>
+
+    <div class="page-header">
+        <h1>📋 ทุกศึกที่มีข้อมูล</h1>
+        <p>รวมทุกศึกมวยที่ระบบรวบรวมไว้ — คลิกเพื่อดูโปรแกรม วิเคราะห์สถิติ และผลการแข่งขัน</p>
+    </div>
+
+    <div class="filter-bar">
+        <span class="filter-label">กรอง:</span>
+        <button class="filter-btn active" onclick="setFilter('all',this)">ทั้งหมด</button>
+        <button class="filter-btn" onclick="setFilter('pending',this)">⏳ รอผล</button>
+        <button class="filter-btn" onclick="setFilter('done',this)">✅ มีผลแล้ว</button>
+        <input type="text" class="filter-search" id="ev-search" placeholder="🔍 ค้นหาชื่อศึก..." oninput="renderEvents()">
+    </div>
+
+    <div id="ev-content">
+        <div class="state-box">
+            <div class="spin"></div>
+            <div class="state-title">กำลังรวบรวมข้อมูลศึก...</div>
+            <div class="state-sub">อ่านจาก JSON นักมวยทั้งหมด</div>
+        </div>
+    </div>
+
+</div>
+</main>
+
+<footer>
+    <nav><ul>
+        <li><a href="#">นโยบายความเป็นส่วนตัว</a></li>
+        <li><a href="#">เกี่ยวกับฉัน</a></li>
+        <li><a href="#">ติดต่อ</a></li>
+    </ul></nav>
+    <p>© 2026 สงวนลิขสิทธิ์ BoxingFandom</p>
+</footer>
+
+<script>
+/* ══════════════════════════════════════════════════════
+   EVENT INDEX — pages/matchup/index.html
+   อ่าน JSON นักมวยทุกคน → รวบรวมชื่อศึก → แสดง list
+   ไม่ต้องสร้างไฟล์ข้อมูลใหม่เลย
+══════════════════════════════════════════════════════ */
+
+let db = [];
+let allEvents = [];   // [{name, slug, date, fights:[...], wins, losses, pending, disciplines}]
+let currentFilter = 'all';
+let wBase = '';
+
+/* ─── Cloudinary ─── */
+function cdn(id,w,h){
+    if(!id||['ไม่ระบุ','ยังไม่มีข้อมูล','noname',''].includes((id||'').trim()))
+        return '/assets/images/noname.jpg';
+    if(id.startsWith('http')||id.includes('assets/')) return id;
+    return `https://res.cloudinary.com/dpvyl7nan/image/upload/c_fill,g_face,h_${h},w_${w},f_auto,q_auto/v1/${encodeURIComponent(id.replace(/\.(jpg|jpeg|png|webp)$/i,''))}`;
+}
+
+/* ─── Event number extractor ─── */
+function evNum(s){ const m=(s||'').match(/\d+/); return m?m[0]:''; }
+
+/* ─── Normalize ─── */
+function norm(s){ return(s||'').toLowerCase().replace(/[-\s]/g,''); }
+
+/* ─── Parse date string → Date object ─── */
+function parseDate(str){
+    if(!str) return null;
+    const months={Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
+    const m=str.match(/(\w+)\s+(\d+),\s+(\d+)/);
+    if(m && months[m[1]]!==undefined) return new Date(+m[3], months[m[1]], +m[2]);
+    return null;
+}
+
+/* ─── Build event list from DB ─── */
+function buildEventList(){
+    const evMap = new Map();
+
+    db.forEach(fighter => {
+        const hist = fighter.fight_history || fighter.fight_history_one_championship || [];
+        hist.forEach(h => {
+            const evName = (h.event_en || '').trim();
+            if(!evName) return;
+
+            const num = evNum(evName);
+            if(!num) return; 
+
+            const key = num + '_' + norm(evName).substring(0,6);
+
+            const res = (h.result||'').trim().toLowerCase();
+            const isPending = !res;
+            const isWin  = res === 'win';
+            const isLoss = res === 'loss';
+
+            if(!evMap.has(key)){
+                evMap.set(key, {
+                    name      : evName,
+                    slug      : evName.replace(/\s+/g,'-'),
+                    date      : h.date || '',
+                    dateObj   : parseDate(h.date),
+                    wins      : 0,
+                    losses    : 0,
+                    pending   : 0,
+                    total     : 0,
+                    disciplines: new Set(),
+                    fighters  : new Set(),
+                });
+            }
+
+            const ev = evMap.get(key);
+            if(!ev.dateObj && h.date) { ev.date=h.date; ev.dateObj=parseDate(h.date); }
+
+            const f1s = fighter.fileName.replace('.json','');
+            const f2s = (h.opponent_th||h.opponent_en||'').trim().replace(/\s+/g,'-');
+            const pairKey = [f1s,f2s].sort().join('|');
+            if(!ev.fighters.has(pairKey)){
+                ev.fighters.add(pairKey);
+                ev.total++;
+                if(isWin||isLoss){ 
+                    if(isWin) ev.wins++;
+                    else ev.losses++;
+                } else {
+                    ev.pending++;
+                }
+                if(h.discipline_en) ev.disciplines.add(h.discipline_en);
+            }
+        });
+    });
+
+    const list = [...evMap.values()].map(ev => ({
+        ...ev,
+        disciplines: [...ev.disciplines],
+        fighters: ev.fighters.size,
+    }));
+
+    list.sort((a,b) => {
+        if(a.dateObj && b.dateObj) return b.dateObj - a.dateObj;
+        if(a.dateObj) return -1;
+        if(b.dateObj) return 1;
+        return 0;
+    });
+
+    return list;
+}
+
+/* ─── Filter state ─── */
+function setFilter(f, btn){
+    currentFilter = f;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderEvents();
+}
+
+/* ─── Render event cards ─── */
+function renderEvents(){
+    const content = document.getElementById('ev-content');
+    const searchQ = norm(document.getElementById('ev-search').value);
+
+    let filtered = allEvents.filter(ev => {
+        if(searchQ && !norm(ev.name).includes(searchQ)) return false;
+        if(currentFilter === 'pending') return ev.pending > 0;
+        if(currentFilter === 'done')    return ev.pending === 0 && ev.total > 0;
+        return true;
+    });
+
+    if(!filtered.length){
+        content.innerHTML = `
+            <div class="state-box">
+                <span class="state-icon">🔍</span>
+                <div class="state-title">ไม่พบศึกที่ตรงกัน</div>
+                <div class="state-sub">ลองเปลี่ยนคำค้นหาหรือเงื่อนไข filter</div>
+            </div>`;
+        return;
+    }
+
+    const pending = filtered.filter(ev => ev.pending > 0);
+    const done    = filtered.filter(ev => ev.pending === 0);
+
+    let html = '';
+
+    if(pending.length && currentFilter !== 'done'){
+        html += `
+            <div class="section-heading">
+                <div class="section-heading-bar"></div>
+                <h2>⏳ รอผล / โปรแกรมที่กำลังจะมา</h2>
+                <span class="count">${pending.length} ศึก</span>
+            </div>
+            <div class="event-grid">${pending.map(renderCard).join('')}</div>`;
+    }
+
+    if(done.length && currentFilter !== 'pending'){
+        html += `
+            <div class="section-heading">
+                <div class="section-heading-bar"></div>
+                <h2>✅ มีผลแล้ว</h2>
+                <span class="count">${done.length} ศึก</span>
+            </div>
+            <div class="event-grid">${done.map(renderCard).join('')}</div>`;
+    }
+
+    content.innerHTML = html;
+}
+
+/* ─── Render single event card ─── */
+function renderCard(ev){
+    const url = `matchup.html?event=${encodeURIComponent(ev.slug)}`;
+    const hasPending = ev.pending > 0;
+    const allDone    = ev.pending === 0 && ev.total > 0;
+    const cardClass  = hasPending ? 'has-pending' : allDone ? 'all-done' : 'future';
+
+    let statusHtml = '';
+    if(hasPending && ev.total === ev.pending){
+        statusHtml = `<div class="ec-status future">🔵 ยังไม่ชก</div>`;
+    } else if(hasPending){
+        statusHtml = `<div class="ec-status pending">⏳ รอผล ${ev.pending} คู่</div>`;
+    } else {
+        statusHtml = `<div class="ec-status done">✅ ผลครบแล้ว</div>`;
+    }
+
+    const discMap = {'Muay Thai':'mt','Kickboxing':'kb','MMA':'mma','คิกบ็อกซิง':'kb'};
+    const discHtml = ev.disciplines.slice(0,3).map(d =>
+        `<span class="ec-disc-tag ${discMap[d]||''}">${d}</span>`
+    ).join('');
+
+    return `
+        <a href="${url}" class="event-card ${cardClass}">
+            <div class="ec-discipline">${discHtml||'<span class="ec-disc-tag">Muay Thai</span>'}</div>
+            <div class="ec-name">${ev.name}</div>
+            <div class="ec-date">📅 ${ev.date || 'รอกำหนดการ'}</div>
+            <div class="ec-stats">
+                <div class="ec-stat"><small>คู่ชก</small><b class="n">${ev.total}</b></div>
+                <div class="ec-stat"><small>ชนะ</small><b class="g">${ev.wins}</b></div>
+                <div class="ec-stat"><small>แพ้</small><b class="r">${ev.losses}</b></div>
+                ${ev.pending>0?`<div class="ec-stat"><small>รอผล</small><b class="y">${ev.pending}</b></div>`:''}
+            </div>
+            ${statusHtml}
+            <span class="ec-arrow">→</span>
+        </a>`;
+}
+
+/* ─── Header search ─── */
+function initSearch(){
+    const inp = document.getElementById('gsi');
+    const drop = document.getElementById('gsd');
+    inp.addEventListener('input', function(){
+        const q = this.value.toLowerCase().trim();
+        if(!q){ drop.style.display='none'; return; }
+        const m = db.filter(x =>
+            (x.fighter_profile?.name_th||'').toLowerCase().includes(q) ||
+            (x.fighter_profile?.name_en||'').toLowerCase().includes(q)
+        ).slice(0,7);
+        drop.innerHTML = m.length
+            ? m.map(x => {
+                const p=x.fighter_profile||{};
+                return `<a href="/pages/fighter/${encodeURIComponent(x.fileName.replace('.json','.html'))}" class="hitem">
+                    <img src="${cdn(p.image_url,40,40)}" class="hicon" onerror="this.src='/assets/images/noname.jpg'">
+                    <div><div style="font-weight:600;font-size:14px">${p.name_th}</div>
+                    <div style="font-size:12px;color:var(--text-muted)">รุ่น: ${p.physical_stats?.division||'-'}</div></div>
+                </a>`;
+              }).join('')
+            : '<div style="padding:14px;text-align:center;color:#888;font-size:14px">ไม่พบนักมวย</div>';
+        drop.style.display = 'block';
+    });
+    document.addEventListener('click', e => {
+        if(!e.target.closest('.hsw')) drop.style.display='none';
+    });
+}
+
+/* ─── Init ─── */
+async function init(){
+    let wBase = '/data/boxers/';
+    let files = [];
+    
+    try {
+        const r = await fetch(wBase + 'fighters-list.json');
+        if (r.ok) {
+            files = await r.json();
+        }
+    } catch(e) {
+        console.log("Error loading list:", e);
+    }
+
+    if(files.length){
+        const all = await Promise.all(files.map(async f => {
+            try{
+                const r = await fetch(wBase + encodeURIComponent(f.trim()));
+                return r.ok ? {...(await r.json()), fileName:f} : null;
+            }catch(e){ return null; }
+        }));
+        db = all.filter(Boolean);
+    }
+
+    // Build event list
+    allEvents = buildEventList();
+
+    // Render
+    renderEvents();
+    initSearch();
+
+    // อัปเดต canonical URL
+    document.querySelector('link[rel="canonical"]').href = window.location.href;
+}
+
+init();
+</script>
+</body>
+</html>

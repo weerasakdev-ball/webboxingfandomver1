@@ -7,36 +7,143 @@
   <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
-    body { font-family:'Sarabun',sans-serif; background:#0f172a; min-height:100vh; display:flex; align-items:center; justify-content:center; }
-    .box { background:#1e293b; border:1px solid #334155; border-radius:16px; padding:48px 40px; width:360px; text-align:center; }
-    .logo { font-size:28px; font-weight:900; margin-bottom:6px; }
-    .logo .r { color:#dc2626; } .logo .w { color:#fff; }
-    .sub { color:#475569; font-size:14px; margin-bottom:32px; }
-    input[type=password] { width:100%; padding:12px 16px; border-radius:8px; border:1px solid #334155; background:#0f172a; color:#fff; font-size:15px; font-family:'Sarabun',sans-serif; margin-bottom:12px; outline:none; transition:0.2s; text-align:center; }
-    input[type=password]:focus { border-color:#dc2626; }
-    input[type=password]::placeholder { color:#475569; }
-    .btn-login { width:100%; padding:12px; background:#dc2626; color:#fff; border:none; border-radius:8px; font-size:15px; font-weight:700; font-family:'Sarabun',sans-serif; cursor:pointer; transition:0.2s; }
-    .btn-login:hover { background:#b91c1c; }
-    .err { color:#fca5a5; font-size:13px; margin-top:10px; display:none; }
+
+    body {
+      font-family: 'Sarabun', sans-serif;
+      background: #0f172a;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .box {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 16px;
+      padding: 48px 40px;
+      width: 360px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: 900;
+      margin-bottom: 6px;
+    }
+    .logo .r { color: #dc2626; }
+    .logo .w { color: #fff; }
+
+    .sub {
+      color: #475569;
+      font-size: 14px;
+      margin-bottom: 32px;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #334155;
+      margin: 24px 0;
+    }
+
+    /* ปุ่ม Google */
+    .btn-google {
+      width: 100%;
+      padding: 13px 16px;
+      background: #fff;
+      color: #1e293b;
+      border: none;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 700;
+      font-family: 'Sarabun', sans-serif;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      transition: 0.2s;
+      text-decoration: none;
+    }
+    .btn-google:hover { background: #f1f5f9; transform: translateY(-1px); }
+    .btn-google:active { transform: translateY(0); }
+
+    .btn-google svg {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+    }
+
+    /* Error message */
+    .err {
+      margin-top: 16px;
+      padding: 10px 14px;
+      background: #450a0a;
+      border: 1px solid #dc2626;
+      border-radius: 8px;
+      color: #fca5a5;
+      font-size: 13px;
+      display: none;
+    }
+
+    .security-note {
+      margin-top: 20px;
+      color: #475569;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+    .security-note span {
+      color: #64748b;
+    }
   </style>
 </head>
 <body>
   <div class="box">
-    <div class="logo"><span class="r">Boxing</span><span class="w">Fandom</span></div>
-    <div class="sub">Admin Panel — กรุณาใส่รหัสผ่าน</div>
-    <input type="password" id="pw" placeholder="รหัสผ่าน" autocomplete="current-password">
-    <button class="btn-login" onclick="doLogin()">🔒 เข้าสู่ระบบ</button>
-    <div class="err" id="err">รหัสผ่านไม่ถูกต้อง</div>
+    <div class="logo">
+      <span class="r">Boxing</span><span class="w">Fandom</span>
+    </div>
+    <div class="sub">Admin Panel — เข้าสู่ระบบด้วย Google</div>
+
+    <a class="btn-google" href="/api/auth/google">
+      <!-- Google Icon SVG -->
+      <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+        <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+        <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+        <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.18 1.48-4.97 2.31-8.16 2.31-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+        <path fill="none" d="M0 0h48v48H0z"/>
+      </svg>
+      Sign in with Google
+    </a>
+
+    <div class="err" id="err"></div>
+
+    <div class="security-note">
+      🔒 เข้าได้เฉพาะ <span>weerasakdev@gmail.com</span> เท่านั้น
+    </div>
   </div>
+
   <script>
-    fetch('/api/fighters').then(r => { if (r.ok) window.location.href = '/admin/dashboard.html'; }).catch(() => {});
-    async function doLogin() {
-      const pw = document.getElementById('pw').value;
-      const res = await fetch('/api/login', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({ password: pw }) });
-      if (res.ok) { window.location.href = '/admin/dashboard.html'; }
-      else { document.getElementById('err').style.display = 'block'; }
+    // เช็ค error จาก URL parameter
+    const params = new URLSearchParams(window.location.search);
+    const error  = params.get('error');
+    const errEl  = document.getElementById('err');
+
+    if (error === 'unauthorized') {
+      errEl.textContent = '❌ Gmail นี้ไม่มีสิทธิ์เข้าใช้งาน Admin';
+      errEl.style.display = 'block';
+    } else if (error === 'invalid_state') {
+      errEl.textContent = '⚠️ Session หมดอายุ กรุณาลองใหม่อีกครั้ง';
+      errEl.style.display = 'block';
+    } else if (error === 'oauth_failed') {
+      errEl.textContent = '❌ เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้ง';
+      errEl.style.display = 'block';
     }
-    document.getElementById('pw').addEventListener('keypress', e => { if (e.key === 'Enter') doLogin(); });
+
+    // ถ้า login อยู่แล้ว → ไป dashboard เลย
+    fetch('/api/auth/me').then(r => {
+      if (r.ok) window.location.href = '/admin/dashboard.html';
+    }).catch(() => {});
   </script>
 </body>
 </html>

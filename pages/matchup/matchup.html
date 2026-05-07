@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">วิเคราะห์มวย | BoxingFandom</title>
+    <meta name="description"  id="meta-desc"     content="วิเคราะห์มวย เปรียบเทียบสถิตินักมวย ผลการแข่งขัน | BoxingFandom">
+    <meta name="keywords"     id="meta-keywords"  content="วิเคราะห์มวย, ผลมวย, สถิตินักมวย, BoxingFandom">
+    <meta name="robots"       content="index, follow">
+    <link rel="canonical"     id="canonical-url"  href="">
+    <meta property="og:type"        content="article">
+    <meta property="og:site_name"   content="BoxingFandom">
+    <meta property="og:title"       id="og-title"  content="วิเคราะห์มวย | BoxingFandom">
+    <meta property="og:description" id="og-desc"   content="วิเคราะห์มวย BoxingFandom">
+    <meta property="og:image"       id="og-image"  content="/assets/images/noname.jpg">
+    <script type="application/ld+json" id="schema-json">{"@context":"https://schema.org","@type":"SportsEvent","name":"BoxingFandom","sport":"Muay Thai"}</script>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RTGDWTKBRG"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RTGDWTKBRG');</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7070993370449457" crossorigin="anonymous"></script>
+    <style>
+    :root{
+        --primary:#dc2626;--blue:#2563eb;
+        --bg:#f8f9fa;--card:#ffffff;
+        --text-main:#202124;--text-muted:#5f6368;
+        --border:#e8eaed;--border-hover:#dadce0;
+        --win:#188038;--win-bg:#e6f4ea;
+        --loss:#c5221f;--loss-bg:#fce8e6;
+        --neutral:#80868b;--gold:#f29900;--dark-header:#202124;
+        --r-sm:8px;--r-md:12px;--r-lg:16px;
+        --sh-sm:0 1px 2px rgba(60,64,67,.1),0 1px 3px rgba(60,64,67,.08);
+        --sh-md:0 1px 6px rgba(60,64,67,.15),0 2px 8px rgba(60,64,67,.1);
+        --sh-lg:0 4px 16px rgba(60,64,67,.12),0 8px 24px rgba(60,64,67,.08);
+        --ap:#0f172a;--ac:#1e293b;--at:#f8fafc;
+        --am:#94a3b8;--ab:#334155;--aw:#22c55e;--al:#ef4444;--ag:#f59e0b;
+    }
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+    body{font-family:'Sarabun',-apple-system,sans-serif;background:var(--bg);color:var(--text-main);
+         display:flex;flex-direction:column;min-height:100vh;-webkit-font-smoothing:antialiased;font-size:15px;}
+    /* HEADER */
+    header.main-header{background:var(--card);border-bottom:1px solid var(--border);height:64px;padding:0 24px;
+        display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:1000;gap:16px;}
+    .hlogo{text-decoration:none;display:flex;align-items:center;flex-shrink:0;}
+    .hlogo .lb{font-size:22px;font-weight:800;color:var(--primary);letter-spacing:-.5px;}
+    .hlogo .lf{font-size:22px;font-weight:800;color:var(--dark-header);letter-spacing:-.5px;}
+    .hsw{flex:1;max-width:580px;position:relative;}
+    .hsb{display:flex;align-items:center;background:var(--bg);border:1px solid var(--border);
+         border-radius:24px;padding:0 16px;height:44px;gap:10px;transition:box-shadow .15s,border-color .15s;}
+    .hsb:focus-within{box-shadow:0 0 0 3px rgba(220,38,38,.12);border-color:var(--primary);background:var(--card);}
+    .hsb input{border:none;outline:none;background:transparent;font-family:'Sarabun';font-size:15px;color:var(--text-main);flex:1;min-width:0;}
+    .hsb input::placeholder{color:var(--text-muted);}
+    .hsb button{background:none;border:none;cursor:pointer;color:var(--text-muted);font-size:16px;padding:4px;border-radius:50%;transition:background .15s;}
+    .hsb button:hover{background:var(--border);}
+    .hdrop{position:absolute;top:calc(100% + 6px);left:0;right:0;background:var(--card);border:1px solid var(--border);
+           border-radius:var(--r-md);box-shadow:var(--sh-lg);max-height:360px;overflow-y:auto;z-index:3000;display:none;}
+    .hitem{padding:10px 16px;display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--text-main);
+           border-bottom:1px solid var(--border);transition:background .1s;}
+    .hitem:last-child{border-bottom:none;} .hitem:hover{background:var(--bg);}
+    .hicon{width:38px;height:38px;border-radius:50%;object-fit:cover;border:1px solid var(--border);flex-shrink:0;}
+    /* LAYOUT */
+    main{flex:1;padding:32px 16px 48px;}
+    .container{max-width:1020px;margin:0 auto;}
+    .page-nav{display:flex;align-items:center;gap:6px;margin-bottom:22px;font-size:14px;flex-wrap:wrap;}
+    .page-nav a{color:var(--text-muted);text-decoration:none;padding:4px 10px;border-radius:16px;transition:background .15s;}
+    .page-nav a:hover{background:var(--border);color:var(--text-main);}
+    .page-nav .sep{color:var(--border-hover);} .page-nav .cur{color:var(--text-main);font-weight:600;}
+    /* CARDS */
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--r-lg);
+          padding:28px 36px;margin-bottom:18px;box-shadow:var(--sh-sm);}
+    .sec-title{font-size:16px;font-weight:700;color:var(--dark-header);margin-bottom:18px;
+               display:flex;align-items:center;gap:10px;padding-bottom:14px;border-bottom:1px solid var(--border);}
+    .sec-bar{width:3px;height:17px;background:var(--primary);border-radius:2px;flex-shrink:0;}
+    /* EVENT HEADER */
+    .ev-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted);margin-bottom:5px;}
+    .ev-name{font-size:22px;font-weight:800;color:var(--dark-header);margin-bottom:4px;}
+    .ev-meta{font-size:13px;color:var(--text-muted);}
+    /* OUTCOME */
+    .outcome{border-radius:var(--r-md);padding:16px 22px;display:flex;align-items:center;
+             justify-content:space-between;flex-wrap:wrap;gap:10px;margin-top:14px;}
+    .outcome.win-s{background:var(--win-bg);border:1px solid #86efac;}
+    .outcome.loss-s{background:var(--loss-bg);border:1px solid #fca5a5;}
+    .outcome.pend-s{background:#fef3c7;border:1px solid #fcd34d;}
+    .oc-title{font-size:16px;font-weight:800;}
+    .oc-title.wt{color:var(--win);}.oc-title.lt{color:var(--loss);}.oc-title.pt{color:#92400e;}
+    .oc-detail{font-size:12px;color:var(--text-muted);margin-top:2px;}
+    /* DARK PANEL */
+    .ap{background:var(--ap);border-radius:var(--r-lg);padding:30px 26px;color:var(--at);box-shadow:var(--sh-md);}
+    /* MATCHUP HEADER */
+    .mh{display:grid;grid-template-columns:1fr 52px 1fr;gap:16px;align-items:center;margin-bottom:24px;}
+    .fc{background:var(--ac);border-radius:var(--r-md);padding:20px 16px;text-align:center;border-bottom:3px solid transparent;}
+    .fc.blue{border-bottom-color:var(--blue);}.fc.red{border-bottom-color:var(--primary);}.fc.pend{border-bottom-color:var(--ab);opacity:.7;}
+    .fi{width:100px;height:100px;border-radius:50%;object-fit:cover;object-position:top center;
+        border:3px solid var(--ab);margin-bottom:10px;background:var(--ap);}
+    .fn{font-size:15px;font-weight:800;color:var(--at);margin-bottom:2px;}
+    .fm-s{font-size:11px;color:var(--am);}
+    .fg{font-size:12px;font-weight:700;margin-top:5px;}
+    .fg.blue{color:#60a5fa;}.fg.red{color:#f87171;}
+    .flink{display:inline-block;margin-top:8px;font-size:11px;color:#60a5fa;text-decoration:none;font-weight:600;}
+    .vs-c{width:52px;height:52px;border-radius:50%;background:var(--ab);display:flex;align-items:center;
+          justify-content:center;font-size:13px;font-weight:900;color:var(--am);font-style:italic;flex-shrink:0;}
+    /* WIN BAR */
+    .wb-wrap{margin:20px 0 18px;}
+    .wb-lbl{font-size:12px;font-weight:700;color:var(--ag);text-align:center;margin-bottom:8px;text-transform:uppercase;letter-spacing:.5px;}
+    .wb-names{display:flex;justify-content:space-between;font-size:14px;font-weight:800;margin-bottom:7px;}
+    .wb{height:34px;background:var(--ab);border-radius:17px;display:flex;overflow:hidden;position:relative;}
+    .wb-b{background:var(--blue);transition:width 1s ease;}.wb-r{background:var(--primary);transition:width 1s ease;}
+    .wb-txt{position:absolute;width:100%;display:flex;justify-content:space-between;padding:0 16px;
+            line-height:34px;font-weight:900;font-size:14px;color:white;box-sizing:border-box;pointer-events:none;}
+    .verdict{text-align:center;font-size:14px;margin-top:8px;color:var(--am);}
+    .verdict b{color:var(--ag);}
+    /* STATS TABLE */
+    .st{width:100%;border-collapse:separate;border-spacing:0 5px;margin:18px 0;}
+    .st .rh td{padding:8px 13px;background:rgba(37,99,235,.09);color:#60a5fa;font-weight:700;
+               font-size:11px;text-transform:uppercase;letter-spacing:.5px;border-radius:var(--r-sm);text-align:center;}
+    .st .rd td{padding:11px 15px;background:var(--ac);text-align:center;font-size:13px;color:var(--at);}
+    .st .rd td:first-child{border-radius:var(--r-sm) 0 0 var(--r-sm);}
+    .st .rd td:last-child{border-radius:0 var(--r-sm) var(--r-sm) 0;}
+    .lc{background:rgba(0,0,0,.28)!important;color:var(--ag)!important;font-weight:700;font-size:11px;text-transform:uppercase;width:120px;}
+    .bv{color:var(--aw);font-weight:900;background:rgba(34,197,94,.1)!important;}
+    .bv::after{content:' ▲';font-size:9px;}.wv{color:var(--am);}
+    /* HISTORY */
+    .hg{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px;}
+    .hcol{background:var(--ac);border-radius:var(--r-md);padding:16px;}
+    .hcol-t{font-size:12px;font-weight:700;padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid var(--ab);text-align:center;}
+    .hcol-t.bl{color:#60a5fa;}.hcol-t.rd{color:#f87171;}
+    .fr{display:flex;align-items:center;gap:9px;background:rgba(0,0,0,.2);padding:8px 10px;
+        border-radius:var(--r-sm);margin-bottom:6px;border-left:3px solid transparent;}
+    .fr.W{border-left-color:var(--aw);}.fr.L{border-left-color:var(--al);}
+    .oi{width:38px;height:38px;border-radius:5px;object-fit:cover;background:var(--ab);flex-shrink:0;}
+    .fd{font-size:10px;color:var(--am);margin-bottom:1px;}
+    .fn2{font-size:13px;font-weight:700;color:var(--at);}
+    .fm2{font-size:10px;color:var(--am);}
+    .fr-res{font-weight:900;font-size:12px;margin-left:auto;flex-shrink:0;}
+    /* PENDING BOX */
+    .pend-box{background:var(--ac);border:1px dashed var(--ab);border-radius:var(--r-md);padding:28px 18px;text-align:center;}
+    .pend-box .pi{font-size:28px;display:block;margin-bottom:8px;}
+    .pend-box .pt2{font-size:14px;font-weight:700;color:var(--at);margin-bottom:3px;}
+    .pend-box .ps{font-size:11px;color:var(--am);}
+    /* LOGIC */
+    .logic{background:rgba(245,158,11,.05);border-left:3px solid var(--ag);padding:12px 15px;margin-top:16px;
+           border-radius:0 var(--r-sm) var(--r-sm) 0;font-size:11px;color:var(--am);line-height:1.7;}
+    .logic strong{color:var(--at);display:block;margin-bottom:5px;font-size:12px;}
+    .disc{text-align:center;color:var(--am);font-size:11px;margin-top:12px;}
+    /* MODE 2 — EVENT PAGE */
+    .ev-summary{display:flex;gap:14px;flex-wrap:wrap;margin-top:16px;}
+    .ev-sum-item{background:var(--bg);border:1px solid var(--border);border-radius:var(--r-sm);padding:10px 18px;text-align:center;min-width:80px;}
+    .ev-sum-item small{display:block;font-size:11px;color:var(--text-muted);text-transform:uppercase;font-weight:600;letter-spacing:.5px;margin-bottom:3px;}
+    .ev-sum-item b{font-size:20px;font-weight:800;color:var(--dark-header);}
+    .ev-sum-item b.green{color:var(--win);}.ev-sum-item b.red2{color:var(--loss);}.ev-sum-item b.gray{color:var(--neutral);}
+    .frc{background:var(--card);border:1px solid var(--border);border-radius:var(--r-md);padding:18px 22px;
+         margin-bottom:12px;display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:center;
+         transition:box-shadow .15s,border-color .15s;}
+    .frc:hover{box-shadow:var(--sh-md);border-color:var(--border-hover);}
+    .frc.wc{border-left:4px solid var(--win);}.frc.lc2{border-left:4px solid var(--loss);}.frc.pc{border-left:4px solid var(--gold);}
+    .frc-f{display:flex;align-items:center;gap:10px;}
+    .frc-f.rt{flex-direction:row-reverse;text-align:right;}
+    .frc-img{width:50px;height:50px;border-radius:50%;object-fit:cover;object-position:top center;
+             border:2px solid var(--border);background:var(--bg);flex-shrink:0;}
+    .frc-name{font-size:14px;font-weight:700;color:var(--text-main);}
+    .frc-meta{font-size:11px;color:var(--text-muted);}
+    .frc-mid{text-align:center;min-width:100px;}
+    .frc-res{font-size:17px;font-weight:900;}
+    .frc-res.wt{color:var(--win);}.frc-res.lt{color:var(--loss);}.frc-res.pt{color:var(--gold);}
+    .frc-method{font-size:11px;color:var(--text-muted);margin-top:2px;}
+    .frc-disc{display:inline-block;padding:2px 7px;border-radius:3px;font-size:10px;font-weight:700;
+              text-transform:uppercase;background:var(--dark-header);color:white;margin-bottom:4px;}
+    .frc-btn{display:inline-flex;align-items:center;gap:4px;margin-top:7px;padding:4px 12px;
+             border-radius:12px;font-size:11px;font-weight:700;text-decoration:none;
+             background:var(--bg);border:1px solid var(--border);color:var(--text-muted);transition:all .15s;}
+    .frc-btn:hover{background:var(--primary);color:white;border-color:var(--primary);}
+    /* LOADING */
+    .loading-wrap{text-align:center;padding:60px 20px;}
+    .spin{width:34px;height:34px;border:3px solid var(--border);border-top-color:var(--primary);
+          border-radius:50%;animation:spin .7s linear infinite;margin:0 auto 12px;}
+    @keyframes spin{to{transform:rotate(360deg);}}
+    .loading-text{color:var(--text-muted);font-size:14px;}
+    /* FOOTER */
+    footer{background:var(--card);border-top:1px solid var(--border);color:var(--text-muted);
+           text-align:center;padding:24px 20px;margin-top:auto;}
+    footer nav ul{justify-content:center;list-style:none;display:flex;padding:0;flex-wrap:wrap;gap:4px;margin-bottom:10px;}
+    footer nav ul li a{color:var(--text-muted);text-decoration:none;font-size:13px;padding:4px 10px;
+                       border-radius:16px;transition:background .15s;display:block;}
+    footer nav ul li a:hover{background:var(--bg);color:var(--text-main);}
+    footer p{font-size:12px;}
+    /* RESPONSIVE */
+    @media(max-width:768px){
+        header.main-header{padding:0 16px;}
+        main{padding:20px 12px 40px;}
+        .card{padding:20px 18px;}
+        .mh,.frc{grid-template-columns:1fr;gap:10px;}
+        .vs-c{display:none;}
+        .hg{grid-template-columns:1fr;}
+        .ap{padding:20px 16px;}
+        .frc-f.rt{flex-direction:row;text-align:left;}
+        .frc-mid{text-align:left;}
+        .ev-summary{gap:10px;}
+    }
+    </style>
+</head>
+<body>
+<header class="main-header">
+    <a href="/" class="hlogo"><span class="lb">Boxing</span><span class="lf">Fandom</span></a>
+    <div class="hsw">
+        <div class="hsb">
+            <span style="color:var(--text-muted)">🔍</span>
+            <input type="text" id="gsi" placeholder="ค้นหานักมวย..." autocomplete="off">
+            <button type="button">⏎</button>
+        </div>
+        <div id="gsd" class="hdrop"></div>
+    </div>
+</header>
+<main>
+<div class="container">
+    <div class="page-nav">
+        <a href="/">← หน้าแรก</a>
+        <span class="sep">/</span>
+        <span class="cur" id="bc">🥊 วิเคราะห์มวย</span>
+    </div>
+    <div id="mc"><div class="loading-wrap"><div class="spin"></div><div class="loading-text">กำลังโหลดข้อมูล...</div></div></div>
+</div>
+</main>
+<footer>
+    <nav><ul>
+        <li><a href="#">นโยบายความเป็นส่วนตัว</a></li>
+        <li><a href="#">เกี่ยวกับฉัน</a></li>
+        <li><a href="#">ติดต่อ</a></li>
+    </ul></nav>
+    <p>© 2026 สงวนลิขสิทธิ์ BoxingFandom</p>
+</footer>
+<script>
+/* matchup.html v2.0 — Mode1: ?event=X&f1=A&f2=B | Mode2: ?event=X */
+let db=[], wBase='';
+
+function cdn(id,w,h){
+    if(!id||['ไม่ระบุ','ยังไม่มีข้อมูล','noname',''].includes((id||'').trim())) return '/assets/images/noname.jpg';
+    if(id.startsWith('http')||id.includes('assets/')) return id;
+    return `https://res.cloudinary.com/dpvyl7nan/image/upload/c_fill,g_face,h_${h},w_${w},f_auto,q_auto/v1/${encodeURIComponent(id.replace(/\.(jpg|jpeg|png|webp)$/i,''))}`;
+}
+function prm(){const p=new URLSearchParams(window.location.search);return{event:(p.get('event')||'').trim(),f1:(p.get('f1')||'').trim(),f2:(p.get('f2')||'').trim(),date:(p.get('date')||'').trim()};}
+function norm(s){return(s||'').toLowerCase().replace(/[-\s]/g,'');}
+function evNum(s){const m=(s||'').match(/\d+/);return m?m[0]:'';}
+function evMatch(hEvRaw, targetEvRaw){
+    if(!hEvRaw||!targetEvRaw) return false;
+    const h=norm(hEvRaw), t=norm(targetEvRaw);
+    const hn=evNum(hEvRaw), tn=evNum(targetEvRaw);
+    if(!hn||!tn||hn!==tn) return false;
+    const p6=t.substring(0,6);
+    return h.startsWith(p6)||t.startsWith(h.substring(0,6));
+}
+function findF(slug){if(!slug)return null;const k=norm(slug);return db.find(x=>{const n=norm(x.fighter_profile?.name_th||'');const e=norm(x.fighter_profile?.name_en||'');const f=norm(x.fileName.replace('.json',''));return n===k||e===k||f===k||(k.length>4&&(n.includes(k.substring(0,5))||f.includes(k.substring(0,5))));})||null;}
+function findRes(fData,oppSlug,evSlug){
+    const hist=fData?.fight_history||fData?.fight_history_one_championship||[];
+    const ok=norm(oppSlug);const ek=norm(evSlug);
+    return hist.find(h=>{
+        const o=norm((h.opponent_th||'')+(h.opponent_en||''));
+        const ev=norm(h.event_en||'');
+        if(!ev||!ek)return false;
+        if(!evMatch(h.event_en, evSlug.replace(/-/g,' ')))return false;
+        if(!ok||ok.length<=2)return true;
+        return o.includes(ok.substring(0,5))||ok.includes(o.substring(0,5));
+    })||null;
+}
+function calcSc(d1,d2){
+    const p1=d1?.fighter_profile||{},p2=d2?.fighter_profile||{};
+    const s1=p1.performance_stats||{},s2=p2.performance_stats||{};
+    const h1=p1.physical_stats||{},h2=p2.physical_stats||{};
+    let a=1000,b=1000;
+    const gM={S:200,'A+':160,A:140,'B+':90,B:70,C:30};
+    a+=gM[p1.grade]||0;b+=gM[p2.grade]||0;
+    const ac1=parseFloat(s1.significant_strike_accuracy?.overall_accuracy_percentage)||0;
+    const ac2=parseFloat(s2.significant_strike_accuracy?.overall_accuracy_percentage)||0;
+    if(Math.abs(ac1-ac2)>=3){if(ac1>ac2)a+=(ac1-ac2)*8;else b+=(ac2-ac1)*8;}
+    const sp1=parseFloat(s1.significant_strikes_per_minute?.total_per_minute)||0;
+    const sp2=parseFloat(s2.significant_strikes_per_minute?.total_per_minute)||0;
+    if(Math.abs(sp1-sp2)>=1){if(sp1>sp2)a+=(sp1-sp2)*30;else b+=(sp2-sp1)*30;}
+    const df1=parseFloat(s1.defensive_stats?.overall_defense_percentage)||0;
+    const df2=parseFloat(s2.defensive_stats?.overall_defense_percentage)||0;
+    if(Math.abs(df1-df2)>=3){if(df1>df2)a+=(df1-df2)*6;else b+=(df2-df1)*6;}
+    const w1=parseFloat(h1.weight_lbs)||0,w2=parseFloat(h2.weight_lbs)||0;
+    const ht1=parseFloat(h1.height_cm)||0,ht2=parseFloat(h2.height_cm)||0;
+    if(Math.abs(w1-w2)>=3){if(w1>w2)a+=(w1-w2)*25;else b+=(w2-w1)*25;}
+    else if(Math.abs(ht1-ht2)>=5){if(ht1>ht2)a+=(ht1-ht2)*15;else b+=(ht2-ht1)*15;}
+    const ag1=p1.personal_info?.age||25,ag2=p2.personal_info?.age||25;
+    const pk=v=>(v>=24&&v<=28)?80:(v>=34?-50:30);a+=pk(ag1);b+=pk(ag2);
+    let p1p=Math.round((a/(a+b))*100),p2p=100-p1p;
+    if(p1p>90){p1p=90;p2p=10;}if(p2p>90){p2p=90;p1p=10;}
+    return{p1:p1p,p2:p2p};
+}
+function srRow(label,v1,v2,mode='high'){
+    const c=v=>(!v&&v!==0)||String(v).includes('ไม่ระบุ')?'-':v;
+    const a=c(v1),b=c(v2);let ca='',cb='';
+    if(a!=='-'&&b!=='-'){const n1=parseFloat(a),n2=parseFloat(b);
+        if(!isNaN(n1)&&!isNaN(n2)&&n1!==n2){
+            ca=mode==='high'?(n1>n2?'bv':'wv'):(n1<n2?'bv':'wv');
+            cb=mode==='high'?(n2>n1?'bv':'wv'):(n2<n1?'bv':'wv');
+        }}
+    return `<tr class="rd"><td class="${ca}">${a}</td><td class="lc">${label}</td><td class="${cb}">${b}</td></tr>`;
+}
+function histHtml(hist){
+    if(!hist||!hist.length)return`<div class="pend-box"><span class="pi">📋</span><div class="pt2">ยังไม่มีข้อมูล</div></div>`;
+    return hist.slice(0,3).map(h=>{
+        const isW=(h.result||'').toLowerCase()==='win';const isL=(h.result||'').toLowerCase()==='loss';
+        const od=db.find(x=>{const n=norm(x.fighter_profile?.name_th||'');const q=norm(h.opponent_th||h.opponent_en||'');return n.includes(q.substring(0,4))&&q.length>3;});
+        const img=od?cdn(od.fighter_profile.image_url,50,50):'/assets/images/noname.jpg';
+        return`<div class="fr ${isW?'W':isL?'L':''}"><img src="${img}" class="oi" onerror="this.src='/assets/images/noname.jpg'"><div style="flex:1;min-width:0"><div class="fd">${h.date||'-'}</div><div class="fn2">${h.opponent_th||h.opponent_en||'ไม่ระบุ'}</div><div class="fm2">${h.method_en||h.method_th||'-'}${h.round?` ยก ${h.round}`:''}</div></div><div class="fr-res" style="color:${isW?'var(--aw)':'var(--al)'}">${isW?'ชนะ':isL?'แพ้':'-'}</div></div>`;
+    }).join('');
+}
+function setSEO(title,desc,img,schObj){
+    document.getElementById('page-title').textContent=title;
+    document.getElementById('meta-desc').content=desc;
+    document.getElementById('meta-keywords').content=title;
+    document.getElementById('og-title').content=title;
+    document.getElementById('og-desc').content=desc;
+    document.getElementById('og-image').content=img;
+    document.getElementById('canonical-url').href=window.location.href;
+    document.getElementById('schema-json').textContent=JSON.stringify(schObj);
+    document.getElementById('bc').textContent=title.split('|')[0].trim();
+}
+
+/* ── MODE 1: คู่ชกเดี่ยว ── */
+async function mode1(p){
+    const mc=document.getElementById('mc');
+    const d1=findF(p.f1);
+    if(!d1){mc.innerHTML=`<div class="card" style="text-align:center;padding:50px"><div style="font-size:28px;margin-bottom:10px">⚠️</div><div style="font-size:16px;font-weight:700">ไม่พบข้อมูล "${p.f1.replace(/-/g,' ')}"</div></div>`;return;}
+    const d2=findF(p.f2);
+    const pp1=d1.fighter_profile||{},pp2=d2?.fighter_profile||null;
+    const n1=pp1.name_th||p.f1.replace(/-/g,' ');
+    const n2=pp2?.name_th||p.f2.replace(/-/g,' ');
+    const evName=p.event.replace(/-/g,' ');
+    const fr=findRes(d1,p.f2,p.event);
+    const res=(fr?.result||'').trim();
+    const isW=res.toLowerCase()==='win',isL=res.toLowerCase()==='loss',isPd=!res;
+    const seoT=`วิเคราะห์มวย ${n1} VS ${n2} | ${evName} | BoxingFandom`;
+    const seoD=isW||isL?`ผลมวย ${n1} ${isW?'ชนะ':'แพ้'} ${n2} — ${fr?.method_en||''} ยกที่ ${fr?.round||'-'} | ${evName}`:`วิเคราะห์มวย ${n1} VS ${n2} ${evName} | เปรียบเทียบสถิติ ความน่าจะเป็น | BoxingFandom`;
+    setSEO(seoT,seoD,cdn(pp1.image_url,600,315),{"@context":"https://schema.org","@type":"SportsEvent","name":`${n1} VS ${n2}`,"sport":"Muay Thai","startDate":p.date||fr?.date||'',"competitor":[{"@type":"SportsTeam","name":n1},{"@type":"SportsTeam","name":n2}]});
+    let oc='';
+    if(isPd)oc=`<div class="outcome pend-s"><div><div class="oc-title pt">⏳ รอผลการแข่งขัน</div><div class="oc-detail">${evName} · ${fr?.date||p.date||'รอกำหนดการ'}</div></div><div style="font-size:11px;color:#92400e;font-weight:600">ผลอัปเดตอัตโนมัติเมื่อแก้ JSON</div></div>`;
+    else if(isW)oc=`<div class="outcome win-s"><div><div class="oc-title wt">🏆 ${n1} ชนะ!</div><div class="oc-detail">${fr?.method_en||'-'} · ยกที่ ${fr?.round||'-'} · ${fr?.date||'-'}</div></div><div style="font-size:11px;color:var(--win);font-weight:700">${evName}</div></div>`;
+    else if(isL)oc=`<div class="outcome loss-s"><div><div class="oc-title lt">❌ ${n1} แพ้</div><div class="oc-detail">${fr?.method_en||'-'} · ยกที่ ${fr?.round||'-'} · ${fr?.date||'-'}</div></div><div style="font-size:11px;color:var(--loss);font-weight:700">${evName}</div></div>`;
+    const sc=d2?calcSc(d1,d2):null;
+    const f2c=pp2?`<div class="fc red"><img src="${cdn(pp2.image_url,200,200)}" class="fi" onerror="this.src='/assets/images/noname.jpg'"><div class="fn">${n2}</div><div class="fm-s">${pp2.personal_info?.country_th||''} · ${pp2.physical_stats?.division||''}</div><div class="fg red">${pp2.grade?pp2.grade+' TIER':''}</div>${d2?.fileName?`<a href="/pages/fighter/${encodeURIComponent(d2.fileName.replace('.json','.html'))}" class="flink" style="color:#f87171">ดูโปรไฟล์ →</a>`:''}</div>`:`<div class="fc pend"><div style="width:100px;height:100px;border-radius:50%;background:var(--ab);display:flex;align-items:center;justify-content:center;font-size:28px;margin:0 auto 10px">⏳</div><div class="fn">${n2}</div><div class="fm-s" style="margin-top:5px">รอข้อมูล</div></div>`;
+    const probH=sc?`<div class="wb-wrap"><div class="wb-lbl">📊 Algorithm Win Probability</div><div class="wb-names"><span style="color:#60a5fa">${n1} ${sc.p1}%</span><span style="color:#f87171">${n2} ${sc.p2}%</span></div><div class="wb"><div class="wb-b" style="width:${sc.p1}%"></div><div class="wb-r" style="width:${sc.p2}%"></div><div class="wb-txt"><span>${sc.p1}%</span><span>${sc.p2}%</span></div></div>${isPd?`<div class="verdict">ฟันธง: <b>${sc.p1>sc.p2?n1:n2}</b> เป็นต่อตามสถิติ</div>`:''}</div>`:'';
+    const st1=pp1.performance_stats||{},st2=pp2?.performance_stats||{};
+    const ph1=pp1.physical_stats||{},ph2=pp2?.physical_stats||{};
+    const statsH=pp2?`<table class="st"><tr class="rh"><td colspan="3">ข้อมูลพื้นฐาน</td></tr>${srRow('Grade',pp1.grade,pp2.grade,'none')}${srRow('อายุ (ปี)',pp1.personal_info?.age,pp2.personal_info?.age,'low')}${srRow('น้ำหนัก (lbs)',ph1.weight_lbs,ph2.weight_lbs)}${srRow('ส่วนสูง (ซม.)',ph1.height_cm,ph2.height_cm)}<tr class="rh"><td colspan="3">สถิติการโจมตี</td></tr>${srRow('ออกอาวุธ/นาที',st1.significant_strikes_per_minute?.total_per_minute,st2.significant_strikes_per_minute?.total_per_minute)}${srRow('แม่นยำ (%)',st1.significant_strike_accuracy?.overall_accuracy_percentage,st2.significant_strike_accuracy?.overall_accuracy_percentage)}<tr class="rh"><td colspan="3">เกมป้องกัน</td></tr>${srRow('ป้องกัน (%)',st1.defensive_stats?.overall_defense_percentage,st2.defensive_stats?.overall_defense_percentage)}</table>`:`<div class="pend-box" style="margin-top:18px"><span class="pi">📊</span><div class="pt2">รอข้อมูลสถิติ ${n2}</div><div class="ps">จะแสดงเมื่อมีข้อมูลของทั้ง 2 ฝ่าย</div></div>`;
+    const h1=d1.fight_history||d1.fight_history_one_championship||[];
+    const h2=d2?(d2.fight_history||d2.fight_history_one_championship||[]):[];
+    mc.innerHTML=`<div class="card"><div class="ev-label">🏟️ ศึก</div><div class="ev-name">${evName||'ไม่ระบุชื่อศึก'}</div><div class="ev-meta">📅 ${fr?.date||p.date||'รอกำหนดการ'} &nbsp;·&nbsp; ${fr?.discipline_en||'Muay Thai'}</div>${oc}</div>
+    <div class="card" style="padding:0;overflow:hidden"><div class="ap">
+        <div class="mh"><div class="fc blue"><img src="${cdn(pp1.image_url,200,200)}" class="fi" onerror="this.src='/assets/images/noname.jpg'"><div class="fn">${n1}</div><div class="fm-s">${pp1.personal_info?.country_th||''} · ${pp1.physical_stats?.division||''}</div><div class="fg blue">${pp1.grade?pp1.grade+' TIER':''}</div><a href="/pages/fighter/${encodeURIComponent(d1.fileName.replace('.json','.html'))}" class="flink">ดูโปรไฟล์ →</a></div>
+        <div class="vs-c">VS</div>${f2c}</div>
+        ${probH}${statsH}
+        <div class="hg"><div class="hcol"><div class="hcol-t bl">ฟอร์ม 3 ไฟต์ — ${n1}</div>${histHtml(h1)}</div><div class="hcol"><div class="hcol-t rd">ฟอร์ม 3 ไฟต์ — ${n2}</div>${h2.length?histHtml(h2):`<div class="pend-box"><span class="pi">⏳</span><div class="pt2">รอข้อมูล</div><div class="ps">ยังไม่มีประวัติของ ${n2}</div></div>`}</div></div>
+        <div class="logic"><strong>📌 Algorithm V4.0</strong>ถ่วงน้ำหนักจาก Grade, ความถี่-แม่นยำการโจมตี, ประสิทธิภาพป้องกัน, น้ำหนัก/ส่วนสูง และช่วงอายุ Peak (24–28 ปี)</div>
+        <div class="disc">*ความน่าจะเป็นทางสถิติ ผลจริงอาจต่างได้เสมอ</div>
+    </div></div>
+    ${p.event?`<div style="text-align:center;margin-top:4px"><a href="matchup.html?event=${encodeURIComponent(p.event)}" style="color:var(--text-muted);font-size:13px;text-decoration:none;padding:7px 16px;border-radius:16px;border:1px solid var(--border);display:inline-block;transition:background .15s" onmouseover="this.style.background='var(--border)'" onmouseout="this.style.background=''">📋 ดูโปรแกรมทั้งหมดของ ${evName}</a></div>`:''}`;
+}
+
+/* ── MODE 2: หน้าศึกทั้งหมด ── */
+async function mode2(p){
+    const mc=document.getElementById('mc');
+    const evName=p.event.replace(/-/g,' ');
+    const evNorm=norm(evName);
+    const pairMap=new Map();
+    db.forEach(fighter=>{
+        const hist=fighter.fight_history||fighter.fight_history_one_championship||[];
+        hist.forEach(h=>{
+            const hEv=norm(h.event_en||'');
+            if(!hEv||!evNorm)return;
+            if(!evMatch(h.event_en, evName))return;
+            const f1s=fighter.fileName.replace('.json','');
+            const f2s=(h.opponent_th||h.opponent_en||'').trim().replace(/\s+/g,'-');
+            if(!f2s)return;
+            const key=[f1s,f2s].sort().join('___');
+            if(!pairMap.has(key)){
+                pairMap.set(key,{
+                    f1Data:fighter,f1s,f2s,
+                    f2Data:findF(f2s),
+                    fight:h,
+                    date:h.date||'',
+                    event_en:h.event_en||evName,
+                    disc:h.discipline_en||'Muay Thai'
+                });
+            }
+        });
+    });
+    const pairs=[...pairMap.values()];
+    if(!pairs.length){mc.innerHTML=`<div class="card" style="text-align:center;padding:50px"><div style="font-size:28px;margin-bottom:10px">🔍</div><div style="font-size:16px;font-weight:700;color:var(--dark-header)">ไม่พบข้อมูลศึก "${evName}"</div><div style="color:var(--text-muted);font-size:13px;margin-top:6px">ตรวจสอบว่า event_en ใน JSON นักมวยตรงกับชื่อศึกนี้</div></div>`;return;}
+    const evDate=pairs[0]?.date||p.date||'';
+    let tot=pairs.length,wins=0,losses=0,pend=0;
+    pairs.forEach(pr=>{const r=(pr.fight?.result||'').toLowerCase();if(r==='win')wins++;else if(r==='loss')losses++;else pend++;});
+    setSEO(`ผลมวย ${evName} | BoxingFandom`,pend?`โปรแกรมและวิเคราะห์มวย ${evName} — ${tot} คู่ชก | รอผล ${pend} คู่ | BoxingFandom`:`ผลมวยทั้งหมด ${evName} — ${tot} คู่ | BoxingFandom`,'/assets/images/noname.jpg',{"@context":"https://schema.org","@type":"SportsEvent","name":evName,"sport":"Muay Thai","startDate":evDate});
+    const cardsH=pairs.map(pr=>{
+        const pp1=pr.f1Data.fighter_profile||{};const pp2=pr.f2Data?.fighter_profile||null;
+        const n1=pp1.name_th||pr.f1s.replace(/-/g,' ');const n2=pp2?.name_th||pr.f2s.replace(/-/g,' ');
+        const res=(pr.fight?.result||'').toLowerCase();
+        const isW=res==='win',isL=res==='loss',isPd=!res;
+        const cc=isW?'wc':isL?'lc2':'pc';
+        const rl=isW?`<div class="frc-res wt">ชนะ</div><div class="frc-method">${pr.fight?.method_en||''} ยก ${pr.fight?.round||'-'}</div>`:isL?`<div class="frc-res lt">แพ้</div><div class="frc-method">${pr.fight?.method_en||''} ยก ${pr.fight?.round||'-'}</div>`:`<div class="frc-res pt">⏳</div><div class="frc-method">รอผล</div>`;
+        const img1=cdn(pp1.image_url,80,80);const img2=pp2?cdn(pp2.image_url,80,80):'/assets/images/noname.jpg';
+        const pUrl=`matchup.html?event=${encodeURIComponent(p.event)}&f1=${encodeURIComponent(pr.f1s)}&f2=${encodeURIComponent(pr.f2s)}`;
+        return`<div class="frc ${cc}"><div class="frc-f"><img src="${img1}" class="frc-img" onerror="this.src='/assets/images/noname.jpg'"><div><div class="frc-name">${n1}</div><div class="frc-meta">${pp1.physical_stats?.division||''} · ${pp1.grade||''}</div></div></div><div class="frc-mid"><div class="frc-disc">${pr.disc}</div>${rl}<a href="${pUrl}" class="frc-btn">🧠 วิเคราะห์</a></div><div class="frc-f rt"><img src="${img2}" class="frc-img" onerror="this.src='/assets/images/noname.jpg'"><div><div class="frc-name">${n2}</div><div class="frc-meta">${pp2?.physical_stats?.division||''} · ${pp2?.grade||''} ${pp2?'':'⏳'}</div></div></div></div>`;
+    }).join('');
+    mc.innerHTML=`<div class="card"><div class="ev-label">🏟️ ศึก</div><div class="ev-name">${evName}</div><div class="ev-meta">📅 ${evDate||'รอกำหนดการ'} &nbsp;·&nbsp; ${tot} คู่ชก</div><div class="ev-summary"><div class="ev-sum-item"><small>ทั้งหมด</small><b>${tot}</b></div><div class="ev-sum-item"><small>ชนะ</small><b class="green">${wins}</b></div><div class="ev-sum-item"><small>แพ้</small><b class="red2">${losses}</b></div><div class="ev-sum-item"><small>รอผล</small><b class="gray">${pend}</b></div></div></div>
+    <div class="card"><div class="sec-title"><span class="sec-bar"></span>โปรแกรม${pend?'และผล':''}การแข่งขัน</div>${cardsH}</div>
+    <div style="text-align:center;color:var(--text-muted);font-size:12px;margin-top:4px">ผลมวยอัปเดตอัตโนมัติเมื่อแก้ไข JSON นักมวย · <a href="/pages/stats/analysis.html" style="color:var(--primary);text-decoration:none">เทียบสถิติแบบ manual →</a></div>`;
+}
+
+function renderEmpty(){document.getElementById('mc').innerHTML=`<div class="card" style="text-align:center;padding:50px"><div style="font-size:32px;margin-bottom:12px">🔗</div><div style="font-size:16px;font-weight:700;color:var(--dark-header);margin-bottom:8px">ไม่พบข้อมูลการแข่งขัน</div><div style="color:var(--text-muted);font-size:13px;margin-bottom:18px">เข้าถึงหน้านี้จากปุ่มในหน้าโปรไฟล์นักมวย</div><a href="/pages/stats/analysis.html" style="background:var(--primary);color:white;padding:9px 22px;border-radius:20px;text-decoration:none;font-weight:700;font-size:13px">→ ไปเลือกนักมวย</a></div>`;}
+
+function initSearch(){
+    const inp=document.getElementById('gsi');const drop=document.getElementById('gsd');
+    inp.addEventListener('input',function(){
+        const q=this.value.toLowerCase().trim();
+        if(!q){drop.style.display='none';return;}
+        const m=db.filter(x=>(x.fighter_profile?.name_th||'').toLowerCase().includes(q)||(x.fighter_profile?.name_en||'').toLowerCase().includes(q)).slice(0,7);
+        drop.innerHTML=m.length?m.map(x=>{const pf=x.fighter_profile||{};return`<a href="/pages/fighter/${encodeURIComponent(x.fileName.replace('.json','.html'))}" class="hitem"><img src="${cdn(pf.image_url,40,40)}" class="hicon" onerror="this.src='/assets/images/noname.jpg'"><div><div style="font-weight:600;font-size:14px">${pf.name_th}</div><div style="font-size:12px;color:var(--text-muted)">รุ่น: ${pf.physical_stats?.division||'-'}</div></div></a>`;}).join(''):'<div style="padding:14px;text-align:center;color:#888;font-size:14px">ไม่พบนักมวย</div>';
+        drop.style.display='block';
+    });
+    document.addEventListener('click',e=>{if(!e.target.closest('.hsw'))drop.style.display='none';});
+}
+
+async function init(){
+    let wBase = '/data/boxers/'; 
+    let files = [];
+    
+    try {
+        const r = await fetch(wBase + 'fighters-list.json');
+        if (r.ok) {
+            files = await r.json();
+        }
+    } catch(e) {
+        console.log("Error loading list:", e);
+    }
+
+    if(files.length){
+        const all = await Promise.all(files.map(async f => {
+            try{
+                const r = await fetch(wBase + encodeURIComponent(f.trim()));
+                return r.ok ? {...(await r.json()), fileName:f} : null;
+            }catch(e){ return null; }
+        }));
+        db = all.filter(Boolean);
+    }
+    const p=prm();
+    if(p.f1)await mode1(p);
+    else if(p.event)await mode2(p);
+    else renderEmpty();
+    initSearch();
+}
+init();
+</script>
+</body>
+</html>

@@ -1,38 +1,66 @@
 {
-    "fighter_profile": {
-        "name_th": "ชัย สส.ต้อยแปดริ้ว",
-        "name_en": "Chai Sor Sor Toipadriew",
-        "alias": "ไม่ระบุ",
-        "image_url": "ชัย-สส.ต้อยแปดริ้ว",
-        "grade": "N/A",
-        "fighting_style_th": "ไม่ระบุ",
-        "fighting_style_en": "ไม่ระบุ",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": "ไม่ระบุ",
-            "weight_kg": "ไม่ระบุ",
-            "division": "ไม่ระบุ",
-            "height_ft": "ไม่ระบุ",
-            "height_cm": 0,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "ไม่ระบุ",
-            "country_en": "ไม่ระบุ",
-            "age": 0,
-            "team_th": "ไม่ระบุ",
-            "team_en": "ไม่ระบุ"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/chai-sor-sor-toipadriew/"
-        ]
+  "fighter_profile": {
+    "name_th": "ชัย สส.ต้อยแปดริ้ว",
+    "name_en": "Chai Sor Sor Toipadriew",
+    "alias": "ไม่ระบุ",
+    "image_url": "ชัย-สส.ต้อยแปดริ้ว",
+    "grade": "N/A",
+    "fighting_style_th": "ไม่ระบุ",
+    "fighting_style_en": "ไม่ระบุ",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": "ไม่ระบุ",
+      "weight_kg": "ไม่ระบุ",
+      "division": "ไม่ระบุ",
+      "height_ft": "ไม่ระบุ",
+      "height_cm": 170,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
     },
-    "weigh_in_history": [],
-    "fight_history": []
+    "performance_stats": {
+      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+      "defensive_stats": "ยังไม่มีข้อมูล"
+    },
+    "personal_info": {
+      "country_th": "ไม่ระบุ",
+      "country_en": "ไม่ระบุ",
+      "age": 27,
+      "team_th": "ไม่ระบุ",
+      "team_en": "ไม่ระบุ"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/chai-sor-sor-toipadriew/"
+    ],
+    "short_biography": "ชัย สส.ต้อยแปดริ้ว (Chai Sor Sor Toipadriew) เป็นนักชกชาวไม่ระบุ วัย 0 ปี มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ส่วนสูง 0 เซนติเมตร กำลังมุ่งมั่นฝึกซ้อมและรอพิสูจน์ฝีมือในไฟต์ต่อไปบนสังเวียน"
+  },
+  "weigh_in_history": [],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "2:43",
+      "opponent_th": "เอลิส คาเซม",
+      "opponent_en": "",
+      "opponent_country": "Algeria",
+      "date": "Oct 20, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 37"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "Muay Thai",
+      "method_en": "KO/TKO",
+      "round": 2,
+      "time": "1:25",
+      "opponent_th": "แม็กนั่ม ส.สมหมาย",
+      "opponent_en": "",
+      "opponent_country": "Thailand",
+      "date": "Aug 04, 2023",
+      "rating": 5,
+      "event_en": "ONE ลุมพินี 27"
+    }
+  ]
 }

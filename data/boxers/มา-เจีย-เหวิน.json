@@ -1,38 +1,144 @@
 {
-    "fighter_profile": {
-        "name_th": "มา เจีย เหวิน",
-        "name_en": "Ma Jia Wen",
-        "alias": "ไม่ระบุ",
-        "image_url": "มา-เจีย-เหวิน",
-        "grade": "N/A",
-        "fighting_style_th": "ไม่ระบุ",
-        "fighting_style_en": "ไม่ระบุ",
-        "stance": "ไม่ระบุ",
-        "physical_stats": {
-            "weight_lbs": "ไม่ระบุ",
-            "weight_kg": "ไม่ระบุ",
-            "division": "ไม่ระบุ",
-            "height_ft": "ไม่ระบุ",
-            "height_cm": 0,
-            "reach_cm": "ไม่ระบุ",
-            "leg_reach_cm": "ไม่ระบุ"
-        },
-        "performance_stats": {
-            "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
-            "significant_strike_accuracy": "ยังไม่มีข้อมูล",
-            "defensive_stats": "ยังไม่มีข้อมูล"
-        },
-        "personal_info": {
-            "country_th": "ไม่ระบุ",
-            "country_en": "ไม่ระบุ",
-            "age": 0,
-            "team_th": "ไม่ระบุ",
-            "team_en": "ไม่ระบุ"
-        },
-        "target_urls": [
-            "https://www.onefc.com/th/athletes/ma-jia-wen/"
-        ]
+  "fighter_profile": {
+    "name_th": "มา เจีย เหวิน",
+    "name_en": "Ma Jia Wen",
+    "alias": "ไม่ระบุ",
+    "image_url": "มา-เจีย-เหวิน",
+    "grade": "N/A",
+    "fighting_style_th": "ไม่ระบุ",
+    "fighting_style_en": "ไม่ระบุ",
+    "stance": "ไม่ระบุ",
+    "physical_stats": {
+      "weight_lbs": "ไม่ระบุ",
+      "weight_kg": "ไม่ระบุ",
+      "division": "ไม่ระบุ",
+      "height_ft": "ไม่ระบุ",
+      "height_cm": 175,
+      "reach_cm": "ไม่ระบุ",
+      "leg_reach_cm": "ไม่ระบุ"
     },
-    "weigh_in_history": [],
-    "fight_history": []
+    "performance_stats": {
+      "significant_strikes_per_minute": "ยังไม่มีข้อมูล",
+      "significant_strike_accuracy": "ยังไม่มีข้อมูล",
+      "defensive_stats": "ยังไม่มีข้อมูล"
+    },
+    "personal_info": {
+      "country_th": "ไม่ระบุ",
+      "country_en": "ไม่ระบุ",
+      "age": 29,
+      "team_th": "ไม่ระบุ",
+      "team_en": "ไม่ระบุ"
+    },
+    "target_urls": [
+      "https://www.onefc.com/th/athletes/ma-jia-wen/"
+    ],
+    "short_biography": "มา เจีย เหวิน (Ma Jia Wen) เป็นนักชกชาวไม่ระบุ วัย 0 ปี มีความถนัดในการต่อสู้สไตล์ไม่ระบุ ปัจจุบันชกอยู่ในพิกัดน้ำหนัก ไม่ระบุ ส่วนสูง 0 เซนติเมตร กำลังมุ่งมั่นฝึกซ้อมและรอพิสูจน์ฝีมือในไฟต์ต่อไปบนสังเวียน"
+  },
+  "weigh_in_history": [],
+  "fight_history": [
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "Submission",
+      "round": 1,
+      "time": "1:46",
+      "opponent_th": "ยูน ชาง มิน",
+      "opponent_en": "",
+      "opponent_country": "South Korea",
+      "date": "Jun 11, 2021",
+      "rating": 5,
+      "event_en": "ONE Full Blast II"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "KO/TKO",
+      "round": 1,
+      "time": "0:55",
+      "opponent_th": "ชิเนชัตกา โซลเซตเซก",
+      "opponent_en": "",
+      "opponent_country": "Mongolia",
+      "date": "Jan 10, 2020",
+      "rating": 5,
+      "event_en": "ONE A New Tomorrow"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "N/A",
+      "opponent_th": "สะเก็ดดาว เพชรพญาไท",
+      "opponent_en": "",
+      "opponent_country": "Thailand",
+      "date": "Jun 29, 2018",
+      "rating": 5,
+      "event_en": "ONE SPIRIT OF A WARRIOR"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Submission",
+      "round": 2,
+      "time": "2:38",
+      "opponent_th": "อาห์เหม็ด มูจตาบา",
+      "opponent_en": "",
+      "opponent_country": "ปากีสถาน",
+      "date": "Mar 09, 2018",
+      "rating": 5,
+      "event_en": "ONE VISIONS OF VICTORY"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Decision",
+      "round": 2,
+      "time": "0:59",
+      "opponent_th": "โยฮัน มูเลีย เลโกโว",
+      "opponent_en": "",
+      "opponent_country": "Indonesia",
+      "date": "Mar 11, 2017",
+      "rating": 5,
+      "event_en": "ONE WARRIOR KINGDOM"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "Decision",
+      "round": 1,
+      "time": "1:57",
+      "opponent_th": "ดากี อาร์สลานาลิเอฟ",
+      "opponent_en": "",
+      "opponent_country": "Turkey",
+      "date": "May 06, 2016",
+      "rating": 5,
+      "event_en": "ONE ASCENT TO POWER"
+    },
+    {
+      "result": "Win",
+      "discipline_en": "MMA",
+      "method_en": "Unanimous Decision",
+      "round": 2,
+      "time": "5:00",
+      "opponent_th": "เหว่ย หวัง หยา",
+      "opponent_en": "",
+      "opponent_country": "China",
+      "date": "Nov 21, 2015",
+      "rating": 5,
+      "event_en": "ONE DYNASTY OF CHAMPIONS (BEIJING II)"
+    },
+    {
+      "result": "Loss",
+      "discipline_en": "MMA",
+      "method_en": "Unanimous Decision",
+      "round": 3,
+      "time": "5:00",
+      "opponent_th": "ตี้ หยวน หวง",
+      "opponent_en": "",
+      "opponent_country": "สิงคโปร์",
+      "date": "Jun 20, 2015",
+      "rating": 5,
+      "event_en": "ONE DYNASTY OF CHAMPIONS (GUANGZHOU)"
+    }
+  ]
 }
