@@ -7,14 +7,13 @@ const path = require('path');
 
 const DATA_DIR = path.join(process.cwd(), 'data', 'boxers');
 
-// ── การตั้งค่า ──
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'boxing2026';
 const GITHUB_TOKEN   = process.env.GITHUB_TOKEN;
 const REPO_OWNER     = 'weerasakdev-ball';
 const REPO_NAME      = 'webboxingfandomver1';
 const BRANCH         = 'main';
 
-// === SECTION: Google OAuth Config ===
+// === Google OAuth Config ===
 const GOOGLE_CLIENT_ID     = process.env.GOOGLE_CLIENT_ID;
 const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
 const ADMIN_EMAIL          = process.env.ADMIN_EMAIL;
@@ -37,9 +36,10 @@ const DIVISION_MAP = {
   'ซูเปอร์เฮฟวี่':'Super Heavyweight',
 };
 
-function mapDivision(thaiText) {
+function mapDivision(text) {
+  if (!text) return null;
   for (const [th, en] of Object.entries(DIVISION_MAP)) {
-    if (thaiText && thaiText.includes(th)) return en;
+    if (text.includes(th)) return en;
   }
   return null;
 }
@@ -55,6 +55,11 @@ function mapDiscipline(text) {
 
 function lbsToKg(lbs) {
   return Math.round(lbs * 0.453592 * 100) / 100;
+}
+
+// ── normalize ชื่อสำหรับเปรียบเทียบ ──
+function norm(str) {
+  return (str || '').toLowerCase().replace(/[-\s]/g, '').trim();
 }
 
 // ── GitHub helpers ──
@@ -76,8 +81,9 @@ async function ghPut(filePath, contentStr, commitMessage, sha) {
   return res.json();
 }
 
+// ── Save ไฟล์นักมวยขึ้น GitHub (ดึง SHA ใหม่ทุกครั้งป้องกัน 409) ──
 async function saveToGitHub(fileName, contentObj, commitMessage) {
-  if (!GITHUB_TOKEN) throw new Error("ยังไม่ได้ใส่ GITHUB_TOKEN ในระบบ Vercel");
+  if (!GITHUB_TOKEN) throw new Error("ยังไม่ได้ใส่ GITHUB_TOKEN");
   const filePath = `data/boxers/${fileName}`;
   const existing = await ghGet(filePath);
   const sha = existing?.sha || null;
@@ -102,8 +108,7 @@ async function triggerSniperWorkflow(names) {
   if (!GITHUB_TOKEN) throw new Error("ยังไม่ได้ใส่ GITHUB_TOKEN");
   const listPath = 'update_list.txt';
   const existing = await ghGet(listPath);
-  const sha = existing?.sha || null;
-  await ghPut(listPath, names.join('\n'), `🎯 Sniper: ${names.join(', ')}`, sha);
+  await ghPut(listPath, names.join('\n'), `🎯 Sniper: ${names.join(', ')}`, existing?.sha || null);
   const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/actions/workflows/sniper.yml/dispatches`;
   const headers = { 'Authorization': `Bearer ${GITHUB_TOKEN}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' };
   const res = await fetch(url, { method: 'POST', headers, body: JSON.stringify({ ref: BRANCH }) });
@@ -113,23 +118,40 @@ async function triggerSniperWorkflow(names) {
 }
 
 // ── ค้นหาไฟล์นักมวยจากชื่อ ──
+// ลำดับการค้นหา:
+// 1. ชื่อไฟล์ตรงๆ (แทน space ด้วย -)
+// 2. name_th ใน JSON
+// 3. name_en ใน JSON
 function findFighterFile(name) {
   if (!name) return null;
   const files = fs.readdirSync(DATA_DIR).filter(f => f.endsWith('.json') && f !== 'fighters-list.json');
-  const nameLower = name.toLowerCase().trim();
-  const nameFirst = nameLower.split(' ')[0];
+  const nameNorm = norm(name);
 
-  // ค้นหาจากชื่อใน JSON
+  // 1. เช็คจากชื่อไฟล์ก่อน (แม่นที่สุด)
+  for (const file of files) {
+    const fileNorm = norm(file.replace('.json', ''));
+    if (fileNorm === nameNorm) {
+      try {
+        const data = JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), 'utf-8'));
+        return { file, data };
+      } catch { continue; }
+    }
+  }
+
+  // 2. เช็คจาก name_th และ name_en ใน JSON (ต้องตรงพอดีเท่านั้น ห้าม partial match)
   for (const file of files) {
     try {
       const data = JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), 'utf-8'));
       const p = data.fighter_profile || {};
-      const nameTh = (p.name_th || '').toLowerCase();
-      const nameEn = (p.name_en || '').toLowerCase();
-      if (nameTh === nameLower || nameEn === nameLower) return { file, data };
-      if (nameTh.includes(nameLower) || nameLower.includes(nameFirst)) return { file, data };
+      const nameTh = norm(p.name_th || '');
+      const nameEn = norm(p.name_en || '');
+      if (nameTh === nameNorm || nameEn === nameNorm) {
+        return { file, data };
+      }
     } catch { continue; }
   }
+
+  // ไม่เจอ = null (จะสร้างไฟล์ใหม่)
   return null;
 }
 
@@ -139,50 +161,42 @@ function parseWeighinText(text) {
   const lines = text.split('\n').map(l => l.trim()).filter(Boolean);
 
   let currentEvent = '';
-  let currentDiscipline = 'Muay Thai';
-  let currentDivision = null;
-
-  // regex จับคู่ชก: ชื่อ ชั่งได้ X ป. vs ชื่อ ชั่งได้ X ป.
-  const matchPattern = /(.+?)\s+ชั่งได้\s+([\d.]+)\s*ป\.?\s*vs\s*(.+?)\s+ชั่งได้\s+([\d.]+)\s*ป/i;
-  const eventPattern = /ศึก|ONE|รายการ|การแข่งขัน/;
-  const disciplinePattern = /\(([^)]+รุ่น[^)]+)\)/;
+  const matchPattern = /(.+?)\s+ชั่งได้\s+([\d.]+)\s*ป\.?\s*[Vv][Ss]\.?\s*(.+?)\s+ชั่งได้\s+([\d.]+)\s*ป/i;
+  const eventKeywords = /ศึก|ONE|รายการ|สรุปผล/;
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
 
     // จับชื่อศึก
-    if (eventPattern.test(line) && !matchPattern.test(line)) {
-      currentEvent = line.replace(/^สรุปผลการชั่งน้ำหนักทุกคู่\s*/,'').trim();
+    if (eventKeywords.test(line) && !matchPattern.test(line)) {
+      currentEvent = line.replace(/^สรุปผลการชั่งน้ำหนักทุกคู่\s*/, '').trim();
       continue;
     }
 
-    // จับคู่ชก
     const m = line.match(matchPattern);
-    if (m) {
-      const name1   = m[1].replace(/^คู่เอก|^คู่รอง|^คู่สาม|^\*+/g,'').trim();
-      const lbs1    = parseFloat(m[2]);
-      const name2   = m[3].trim();
-      const lbs2    = parseFloat(m[4]);
+    if (!m) continue;
 
-      // ดึง discipline และ division จากวงเล็บในบรรทัดเดียวกัน หรือบรรทัดถัดไป
-      let disciplineRaw = '';
-      let divisionRaw   = '';
-      const bracketMatch = line.match(/\(([^)]+)\)/);
-      if (bracketMatch) {
-        disciplineRaw = bracketMatch[1];
-        divisionRaw   = bracketMatch[1];
-      } else if (i + 1 < lines.length && lines[i+1].startsWith('(')) {
-        disciplineRaw = lines[i+1];
-        divisionRaw   = lines[i+1];
-        i++;
-      }
+    // ตัด prefix เช่น "คู่เอก" "คู่รอง" "*" ออก
+    const name1 = m[1].replace(/^(คู่เอก|คู่รอง|คู่สาม|\*+)\s*/g, '').trim();
+    const lbs1  = parseFloat(m[2]);
+    const name2 = m[3].trim();
+    const lbs2  = parseFloat(m[4]);
 
-      const discipline = mapDiscipline(disciplineRaw);
-      const division   = mapDivision(divisionRaw) || currentDivision;
-
-      results.push({ name: name1, lbs: lbs1, discipline, division, event: currentEvent });
-      results.push({ name: name2, lbs: lbs2, discipline, division, event: currentEvent });
+    // ดึง discipline/division จากวงเล็บในบรรทัดเดียวกัน หรือบรรทัดถัดไป
+    let bracketText = '';
+    const bracketInLine = line.match(/\(([^)]+)\)/);
+    if (bracketInLine) {
+      bracketText = bracketInLine[1];
+    } else if (i + 1 < lines.length && lines[i + 1].startsWith('(')) {
+      bracketText = lines[i + 1];
+      i++;
     }
+
+    const discipline = mapDiscipline(bracketText);
+    const division   = mapDivision(bracketText);
+
+    results.push({ name: name1, lbs: lbs1, discipline, division, event: currentEvent });
+    results.push({ name: name2, lbs: lbs2, discipline, division, event: currentEvent });
   }
 
   return results;
@@ -196,69 +210,60 @@ function parseUpcomingText(text) {
   let currentEvent = '';
   let currentDate  = '';
 
-  const matchPattern = /(.+?)\s+vs\s+(.+)/i;
-  const eventPattern = /ศึก|ONE|รายการ|โปรแกรม/;
-  const thaiMonths   = { 'ม.ค.':'Jan','ก.พ.':'Feb','มี.ค.':'Mar','เม.ย.':'Apr','พ.ค.':'May','มิ.ย.':'Jun','ก.ค.':'Jul','ส.ค.':'Aug','ก.ย.':'Sep','ต.ค.':'Oct','พ.ย.':'Nov','ธ.ค.':'Dec' };
+  const thaiMonths = { 'ม.ค.':'Jan','ก.พ.':'Feb','มี.ค.':'Mar','เม.ย.':'Apr','พ.ค.':'May','มิ.ย.':'Jun','ก.ค.':'Jul','ส.ค.':'Aug','ก.ย.':'Sep','ต.ค.':'Oct','พ.ย.':'Nov','ธ.ค.':'Dec' };
+  const matchPattern = /^(.+?)\s+[Vv][Ss]\.?\s+(.+)$/i;
+  const eventKeywords = /ศึก|ONE|รายการ|โปรแกรม/;
 
   function parseThaiDate(str) {
     for (const [th, en] of Object.entries(thaiMonths)) {
       if (str.includes(th)) {
-        const parts = str.split(th);
-        const day   = (parts[0].match(/\d+/) || [''])[0].padStart(2,'0');
-        const yearM = str.match(/(\d{4})/);
-        if (!yearM) return null;
-        let year = parseInt(yearM[1]);
+        const dayMatch  = str.match(/(\d{1,2})\s*[ม-ๆ]/);
+        const yearMatch = str.match(/(\d{4})/);
+        if (!dayMatch || !yearMatch) return '';
+        let year = parseInt(yearMatch[1]);
         if (year > 2500) year -= 543;
-        return `${en} ${day}, ${year}`;
+        return `${en} ${dayMatch[1].padStart(2,'0')}, ${year}`;
       }
     }
-    // ลองจาก "8 พ.ค. 69" หรือ "8 พ.ค. 2569"
-    return null;
+    return '';
   }
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
 
     // จับชื่อศึก + วันที่
-    if (eventPattern.test(line) && !line.match(/vs/i)) {
-      currentEvent = line.replace(/^โปรแกรมการแข่งขัน\s*/,'').trim();
-      const dateM = parseThaiDate(line);
-      if (dateM) currentDate = dateM;
+    if (eventKeywords.test(line) && !matchPattern.test(line)) {
+      currentEvent = line.replace(/^โปรแกรมการแข่งขัน\s*/, '').trim();
+      const d = parseThaiDate(line);
+      if (d) currentDate = d;
       continue;
     }
 
-    // จับคู่ชก
     const m = line.match(matchPattern);
-    if (m) {
-      const name1 = m[1].replace(/^คู่เอก|^คู่รอง|^คู่สาม|^\*+/g,'').trim();
-      const rest  = m[2];
-      // ตัด discipline/division ออกจากชื่อ
-      const name2 = rest.replace(/\s*\([^)]+\)\s*$/, '').trim();
+    if (!m) continue;
 
-      let disciplineRaw = '';
-      let divisionRaw   = '';
-      const bracketMatch = line.match(/\(([^)]+)\)/);
-      if (bracketMatch) {
-        disciplineRaw = bracketMatch[1];
-        divisionRaw   = bracketMatch[1];
-      } else if (i + 1 < lines.length && lines[i+1].startsWith('(')) {
-        disciplineRaw = lines[i+1];
-        divisionRaw   = lines[i+1];
-        i++;
-      }
+    const name1Raw = m[1].replace(/^(คู่เอก|คู่รอง|คู่สาม|\*+)\s*/g, '').trim();
+    const rest     = m[2];
+    // ตัดวงเล็บออกจากชื่อ 2
+    const name2    = rest.replace(/\s*\([^)]+\)\s*$/, '').replace(/\s*\*+\s*$/, '').trim();
 
-      const discipline = mapDiscipline(disciplineRaw);
-      const division   = mapDivision(divisionRaw);
-
-      results.push({
-        name1: name1.replace(/^คู่เอก|^คู่รอง|^คู่สาม/,'').trim(),
-        name2: name2,
-        discipline,
-        division,
-        event: currentEvent,
-        date:  currentDate,
-      });
+    let bracketText = '';
+    const bracketInLine = line.match(/\(([^)]+)\)/);
+    if (bracketInLine) {
+      bracketText = bracketInLine[1];
+    } else if (i + 1 < lines.length && lines[i + 1].startsWith('(')) {
+      bracketText = lines[i + 1];
+      i++;
     }
+
+    results.push({
+      name1:      name1Raw,
+      name2:      name2,
+      discipline: mapDiscipline(bracketText),
+      division:   mapDivision(bracketText),
+      event:      currentEvent,
+      date:       currentDate,
+    });
   }
 
   return results;
@@ -290,7 +295,7 @@ module.exports = async (req, res) => {
     const cookieState = (req.headers.cookie || '').split(';').map(c => c.trim()).find(c => c.startsWith('oauth_state='))?.split('=')[1];
     if (!code || state !== cookieState) return res.redirect(302, '/admin/?error=invalid_state');
     try {
-      const tokenRes = await fetch('https://oauth2.googleapis.com/token', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams({ code, client_id: GOOGLE_CLIENT_ID, client_secret: GOOGLE_CLIENT_SECRET, redirect_uri: REDIRECT_URI, grant_type: 'authorization_code' }) });
+      const tokenRes  = await fetch('https://oauth2.googleapis.com/token', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams({ code, client_id: GOOGLE_CLIENT_ID, client_secret: GOOGLE_CLIENT_SECRET, redirect_uri: REDIRECT_URI, grant_type: 'authorization_code' }) });
       const tokenData = await tokenRes.json();
       const userRes   = await fetch('https://www.googleapis.com/oauth2/v2/userinfo', { headers: { Authorization: `Bearer ${tokenData.access_token}` } });
       const userData  = await userRes.json();
@@ -365,17 +370,13 @@ module.exports = async (req, res) => {
       const found = findFighterFile(entry.name);
 
       if (!found) {
-        // สร้างไฟล์ใหม่
+        // สร้างไฟล์ใหม่ด้วยชื่อไฟล์ที่ใช้ - แทน space
         const fileName = entry.name.replace(/\s+/g, '-') + '.json';
         const newData = {
           fighter_profile: {
             name_th: entry.name, name_en: '', alias: 'ไม่ระบุ',
             image_url: entry.name.replace(/\s+/g, '-'), grade: 'N/A',
-            physical_stats: {
-              weight_lbs: entry.lbs,
-              weight_kg:  lbsToKg(entry.lbs),
-              division:   entry.division || 'ยังไม่มีข้อมูล',
-            },
+            physical_stats: { weight_lbs: entry.lbs, weight_kg: lbsToKg(entry.lbs), division: entry.division || 'ยังไม่มีข้อมูล' },
             performance_stats: {}, personal_info: {}, target_urls: [],
           },
           fight_history: [],
@@ -451,21 +452,12 @@ module.exports = async (req, res) => {
         const found = findFighterFile(myName);
 
         const upcomingFight = {
-          result:           '',
-          discipline_en:    match.discipline,
-          method_en:        '',
-          round:            '',
-          time:             '',
-          opponent_th:      oppName,
-          opponent_en:      '',
-          opponent_country: 'ยังไม่มีข้อมูล',
-          date:             match.date,
-          rating:           5,
-          event_en:         match.event,
+          result: '', discipline_en: match.discipline, method_en: '', round: '', time: '',
+          opponent_th: oppName, opponent_en: '', opponent_country: 'ยังไม่มีข้อมูล',
+          date: match.date, rating: 5, event_en: match.event,
         };
 
         if (!found) {
-          // สร้างไฟล์ใหม่
           const fileName = myName.replace(/\s+/g, '-') + '.json';
           const newData = {
             fighter_profile: {
@@ -474,7 +466,7 @@ module.exports = async (req, res) => {
               physical_stats: { division: match.division || 'ยังไม่มีข้อมูล' },
               performance_stats: {}, personal_info: {}, target_urls: [],
             },
-            fight_history:    [upcomingFight],
+            fight_history: [upcomingFight],
             weigh_in_history: [],
           };
           try {
@@ -504,7 +496,6 @@ module.exports = async (req, res) => {
           continue;
         }
 
-        // เพิ่ม upcoming fight ไว้บนสุด
         data.fight_history.unshift(upcomingFight);
 
         try {
