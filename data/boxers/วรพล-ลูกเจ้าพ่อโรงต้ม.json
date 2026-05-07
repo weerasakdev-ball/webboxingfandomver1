@@ -240,6 +240,12 @@
   ],
   "weigh_in_history": [
     {
+      "event_name": "ศึก ONE ลุมพินี 153",
+      "weight_lbs": 145,
+      "weight_kg": 65.77,
+      "division": "Bantamweight"
+    },
+    {
       "event_name": "ONE ลุมพินี 145",
       "weight_lbs": 145,
       "division": "Bantamweight"
