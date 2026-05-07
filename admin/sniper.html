@@ -63,6 +63,15 @@
       animation:spin 0.6s linear infinite;
       vertical-align: middle; margin-right:6px;
     }
+
+    .gh-link {
+      display: inline-block;
+      margin-top: 10px;
+      color: #7dd3fc;
+      font-size: 13px;
+      text-decoration: none;
+    }
+    .gh-link:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -75,7 +84,7 @@
       <div class="card-title">🎯 ดึงข้อมูลเฉพาะรายชื่อที่กำหนด</div>
       <p class="card-desc">
         พิมพ์ชื่อนักมวยบรรทัดละ 1 คน บอทจะดึงข้อมูลล่าสุดจาก ONE FC
-        และแสดง log realtime ด้านล่างครับ
+        และ THBoxing ผ่าน GitHub Actions ครับ
       </p>
 
       <div class="form-group">
@@ -105,7 +114,7 @@
   </div>
 
   <script>
-    let es = null;
+    let pollInterval = null;
     let running = false;
 
     function getNames() {
@@ -122,10 +131,10 @@
     }
 
     function setUI(state) {
-      const btn  = document.getElementById('fireBtn');
-      const bar  = document.getElementById('statusBar');
-      const dot  = document.getElementById('dot');
-      const txt  = document.getElementById('statusTxt');
+      const btn = document.getElementById('fireBtn');
+      const bar = document.getElementById('statusBar');
+      const dot = document.getElementById('dot');
+      const txt = document.getElementById('statusTxt');
 
       if (state === 'running') {
         running = true;
@@ -133,7 +142,7 @@
         btn.innerHTML = '<span class="spin"></span>กำลังรัน...';
         bar.classList.add('show');
         dot.className = 'dot';
-        txt.textContent = '🤖 บอทกำลังทำงาน...';
+        txt.textContent = '🤖 GitHub Actions กำลังทำงาน...';
       } else if (state === 'done') {
         running = false;
         btn.disabled = false;
@@ -147,22 +156,13 @@
         btn.innerHTML = '🚀 ลั่นไกสไนเปอร์';
         dot.className = 'dot error';
         txt.textContent = '❌ เกิดข้อผิดพลาด';
-        toast('การเชื่อมต่อขาดหาย', 'error');
+        toast('เกิดข้อผิดพลาด', 'error');
       }
     }
 
-    function appendLog(line) {
+    function appendLog(line, cls) {
       const box = document.getElementById('logStream');
       box.classList.add('show');
-
-      let cls = '';
-      if (/✅|➕|💾|สำเร็จ|เพิ่ม/.test(line))           cls = 'l-ok';
-      else if (/❌|🚨|Error|error|ล้มเหลว/.test(line))   cls = 'l-err';
-      else if (/⏳|🤖|🎯|Sniper|Mode/.test(line))        cls = 'l-info';
-      else if (/⚠️|🧹|📝|📦/.test(line))                 cls = 'l-warn';
-      else if (/━|✓|ข้อมูลเป็นปัจจุบัน/.test(line))     cls = 'l-dim';
-      else if (/เสร็จสิ้น|เสร็จ/.test(line))            cls = 'l-done';
-
       const div = document.createElement('div');
       if (cls) div.className = cls;
       div.textContent = line;
@@ -170,47 +170,82 @@
       box.scrollTop = box.scrollHeight;
     }
 
+    function stopPolling() {
+      if (pollInterval) { clearInterval(pollInterval); pollInterval = null; }
+    }
+
+    async function pollStatus() {
+      try {
+        const res  = await fetch('/api/sniper/stream');
+        const data = await res.json();
+        if (!data.ok) return;
+
+        // อัปเดต status text
+        document.getElementById('statusTxt').textContent = data.message;
+
+        if (data.status === 'completed') {
+          stopPolling();
+          // แสดงผลสุดท้าย
+          appendLog('━━━━━━━━━━━━━━━━━━━━━━━━━━━━', 'l-dim');
+          if (data.conclusion === 'success') {
+            appendLog('✅ GitHub Actions ทำงานเสร็จสิ้น! ข้อมูลอัปเดตแล้ว', 'l-done');
+          } else {
+            appendLog(`❌ GitHub Actions หยุดทำงาน: ${data.conclusion}`, 'l-err');
+          }
+          if (data.html_url) {
+            const box = document.getElementById('logStream');
+            const a = document.createElement('a');
+            a.href = data.html_url;
+            a.target = '_blank';
+            a.className = 'gh-link';
+            a.textContent = '🔗 ดู log ละเอียดใน GitHub Actions';
+            box.appendChild(a);
+          }
+          setUI(data.conclusion === 'success' ? 'done' : 'error');
+        } else if (data.status === 'in_progress' || data.status === 'queued') {
+          appendLog(`⏳ สถานะ: ${data.status} — ${data.message}`, 'l-info');
+        }
+      } catch (e) {
+        stopPolling();
+        setUI('error');
+      }
+    }
+
     async function fire() {
       const names = getNames();
       if (!names.length) return toast('กรุณาระบุชื่อนักมวยอย่างน้อย 1 คน', 'error');
-      if (running)       return toast('บอทกำลังทำงานอยู่ครับ', 'error');
+      if (running) return toast('บอทกำลังทำงานอยู่ครับ', 'error');
 
       // ล้าง log เก่า
       const box = document.getElementById('logStream');
       box.innerHTML = '';
       box.classList.remove('show');
+      stopPolling();
 
-      // 1. POST เพื่อเขียน update_list.txt ก่อน
+      // 1. POST trigger sniper
       const res  = await fetch('/api/sniper', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ names: names.join('\n') })
       });
       const data = await res.json();
-      if (!data.ok) return toast(data.message, 'error');
 
-      // 2. รอ 300ms ให้ไฟล์เขียนเสร็จก่อนเปิด stream
-      await new Promise(r => setTimeout(r, 300));
+      if (!data.ok) {
+        appendLog(`❌ ${data.message}`, 'l-err');
+        return toast(data.message, 'error');
+      }
 
-      // 3. เปิด SSE stream — bot จะอ่าน update_list.txt ที่เพิ่งเขียน
+      appendLog('🎯 ส่งคำสั่ง Sniper ไปยัง GitHub Actions แล้ว', 'l-info');
+      appendLog(`📋 รายชื่อ: ${names.join(', ')}`, 'l-info');
+      appendLog('⏳ รอ GitHub Actions เริ่มทำงาน...', 'l-warn');
+      appendLog('━━━━━━━━━━━━━━━━━━━━━━━━━━━━', 'l-dim');
+
       setUI('running');
-      if (es) { es.close(); es = null; }
 
-      es = new EventSource('/api/sniper/stream');
-
-      es.onmessage = (e) => {
-        if (e.data === '__DONE__') {
-          es.close(); es = null;
-          setUI('done');
-          return;
-        }
-        appendLog(e.data);
-      };
-
-      es.onerror = () => {
-        if (es) { es.close(); es = null; }
-        setUI('error');
-      };
+      // 2. รอ 5 วินาทีให้ Actions เริ่มก่อน แล้วค่อย poll
+      await new Promise(r => setTimeout(r, 5000));
+      pollInterval = setInterval(pollStatus, 8000);
+      pollStatus(); // poll ทันทีรอบแรก
     }
   </script>
 
