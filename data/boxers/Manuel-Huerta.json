@@ -9,8 +9,8 @@
     "fighting_style_en": "ไม่ระบุ",
     "stance": "ไม่ระบุ",
     "physical_stats": {
-      "weight_lbs": 163.4,
-      "weight_kg": 74.12,
+      "weight_lbs": 144.4,
+      "weight_kg": 65.5,
       "division": "ไม่ระบุ",
       "height_ft": "ไม่ระบุ",
       "height_cm": 0,
@@ -36,10 +36,10 @@
   },
   "weigh_in_history": [
     {
-      "event_name": "",
-      "weight_lbs": 163.4,
-      "weight_kg": 74.12,
-      "division": "Lightweight"
+      "event_name": "ศึก ONE ลุมพินี 153",
+      "weight_lbs": 144.4,
+      "weight_kg": 65.5,
+      "division": "Bantamweight"
     }
   ],
   "fight_history": []
