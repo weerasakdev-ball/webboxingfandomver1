@@ -9,8 +9,8 @@
     "fighting_style_en": "ยังไม่มีข้อมูล",
     "stance": "ยังไม่มีข้อมูล",
     "physical_stats": {
-      "weight_lbs": "",
-      "weight_kg": "",
+      "weight_lbs": 114.6,
+      "weight_kg": 51.98,
       "division": "Atomweight",
       "height_ft": "",
       "height_cm": 0,
@@ -65,5 +65,12 @@
       "event_en": "The Inner Circle 8 พ.ค. 69"
     }
   ],
-  "weigh_in_history": []
+  "weigh_in_history": [
+    {
+      "event_name": "The Inner Circle 8 พ.ค. 69",
+      "weight_lbs": 114.6,
+      "weight_kg": 51.98,
+      "division": "Atomweight"
+    }
+  ]
 }
